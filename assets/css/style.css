@@ -299,3 +299,9 @@ p {
   height: 20px;
   accent-color: var(--color-primary);
 }
+
+.primary-button.is-disabled {
+  background: #d7e2dc;
+  color: var(--color-muted);
+  cursor: default;
+}

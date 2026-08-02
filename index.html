@@ -9,48 +9,54 @@
 <body>
   <header class="app-header">
     <div class="app-shell">
-      <p class="app-kicker">高専1年 化学</p>
+      <p class="app-kicker">学習カテゴリ</p>
       <h1>StudyHub</h1>
-      <p class="header-copy">テスト前に、スマホで毎日少しずつ確認。</p>
+      <p class="header-copy">学びたいカテゴリを選んでください。</p>
     </div>
   </header>
 
   <main class="app-shell">
-    <section class="section-stack" aria-labelledby="chapter-list-title">
+    <section class="section-stack" aria-labelledby="category-list-title">
       <div class="section-heading">
-        <h2 id="chapter-list-title">章を選ぶ</h2>
-        <p>第9章から第11章まで、すぐに問題を始められます。</p>
+        <h2 id="category-list-title">カテゴリ</h2>
+        <p>現在利用できるカテゴリを選択してください。</p>
       </div>
 
-      <div id="chapter-list" class="card-grid" aria-live="polite">
+      <div class="card-grid">
         <article class="study-card">
           <div>
-            <p class="card-label">第9章</p>
-            <h3>第9章</h3>
-            <p>原子、分子、物質の成り立ちを確認します。</p>
+            <p class="card-label">カテゴリ</p>
+            <h3>学校教育</h3>
+            <p>学校の授業に沿った教材です。</p>
           </div>
-          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-09">問題を解く</a>
+          <a class="primary-button" href="./pages/category.html?category=school-education">開く</a>
         </article>
         <article class="study-card">
           <div>
-            <p class="card-label">第10章</p>
-            <h3>第10章</h3>
-            <p>化学式や物質量の基礎を確認します。</p>
+            <p class="card-label">準備中</p>
+            <h3>資格試験</h3>
+            <p>資格試験向け教材は準備中です。</p>
           </div>
-          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-10">問題を解く</a>
+          <span class="primary-button is-disabled" aria-disabled="true">準備中</span>
         </article>
         <article class="study-card">
           <div>
-            <p class="card-label">第11章</p>
-            <h3>第11章</h3>
-            <p>酸・塩基など、よく出る内容を確認します。</p>
+            <p class="card-label">準備中</p>
+            <h3>オリジナル教材</h3>
+            <p>自作教材を使った学習は準備中です。</p>
           </div>
-          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-11">問題を解く</a>
+          <span class="primary-button is-disabled" aria-disabled="true">準備中</span>
+        </article>
+        <article class="study-card">
+          <div>
+            <p class="card-label">準備中</p>
+            <h3>その他</h3>
+            <p>その他の学習カテゴリは準備中です。</p>
+          </div>
+          <span class="primary-button is-disabled" aria-disabled="true">準備中</span>
         </article>
       </div>
     </section>
   </main>
-
-  <script type="module" src="./assets/js/home.js"></script>
 </body>
 </html>
