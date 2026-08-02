@@ -1,0 +1,33 @@
+﻿{
+    "version":  1,
+    "courses":  [
+                    {
+                        "id":  "kosen-1-chemistry",
+                        "gradeId":  "kosen-1",
+                        "gradeName":  "高専1年",
+                        "subjectId":  "chemistry",
+                        "subjectName":  "化学",
+                        "description":  "1週間後のテスト対策用。第9章から第11章までを確認します。",
+                        "chapters":  [
+                                         {
+                                             "id":  "chapter-09",
+                                             "number":  "第9章",
+                                             "title":  "第9章",
+                                             "description":  "化学反応式、イオン反応式、化学反応式が表す量的関係を学びます。"
+                                         },
+                                         {
+                                             "id":  "chapter-10",
+                                             "number":  "第10章",
+                                             "title":  "第10章",
+                                             "description":  "物質の三態、状態変化、蒸気圧、分子間力、状態図を学びます。"
+                                         },
+                                         {
+                                             "id":  "chapter-11",
+                                             "number":  "第11章",
+                                             "title":  "第11章",
+                                             "description":  "気体の法則、状態方程式、混合気体、分圧、実在気体を学びます。"
+                                         }
+                                     ]
+                    }
+                ]
+}

@@ -1,0 +1,853 @@
+﻿{
+    "version":  2,
+    "meta":  {
+                 "title":  "StudyHub 高専1年 化学 テスト対策",
+                 "targetCourseId":  "kosen-1-chemistry",
+                 "questionFormat":  "multiple-choice-4",
+                 "defaultOrder":  "chapterId -\u003e unitId -\u003e order -\u003e id",
+                 "note":  "問題追加時はquestions配列へ1問ずつ追加します。章、単元、並び順はchapterId、unitId、orderで管理します。"
+             },
+    "units":  [
+                  {
+                      "id":  "unit-basic-particles",
+                      "chapterId":  "chapter-09",
+                      "order":  1,
+                      "title":  "原子と分子"
+                  },
+                  {
+                      "id":  "unit-element-symbols",
+                      "chapterId":  "chapter-09",
+                      "order":  2,
+                      "title":  "元素記号"
+                  },
+                  {
+                      "id":  "unit-formulas",
+                      "chapterId":  "chapter-10",
+                      "order":  1,
+                      "title":  "化学式"
+                  },
+                  {
+                      "id":  "unit-acid-base",
+                      "chapterId":  "chapter-11",
+                      "order":  1,
+                      "title":  "酸性・中性・アルカリ性"
+                  },
+                  {
+                      "id":  "unit-09-01-chemical-equations",
+                      "chapterId":  "chapter-09",
+                      "order":  1,
+                      "title":  "化学反応式"
+                  },
+                  {
+                      "id":  "unit-09-02-ionic-equations",
+                      "chapterId":  "chapter-09",
+                      "order":  2,
+                      "title":  "イオン反応式"
+                  },
+                  {
+                      "id":  "unit-09-03-stoichiometry",
+                      "chapterId":  "chapter-09",
+                      "order":  3,
+                      "title":  "化学反応式が表す量的関係"
+                  },
+                  {
+                      "id":  "unit-09-04-limiting-reagents",
+                      "chapterId":  "chapter-09",
+                      "order":  4,
+                      "title":  "反応物の過不足と総合計算"
+                  },
+                  {
+                      "id":  "unit-10-01-state-changes",
+                      "chapterId":  "chapter-10",
+                      "order":  1,
+                      "title":  "状態変化と熱運動"
+                  },
+                  {
+                      "id":  "unit-10-02-temperature-heat",
+                      "chapterId":  "chapter-10",
+                      "order":  2,
+                      "title":  "絶対温度と熱量"
+                  },
+                  {
+                      "id":  "unit-10-03-vapor-pressure",
+                      "chapterId":  "chapter-10",
+                      "order":  3,
+                      "title":  "蒸気圧・沸点・分子間力"
+                  },
+                  {
+                      "id":  "unit-10-04-phase-diagrams-review",
+                      "chapterId":  "chapter-10",
+                      "order":  4,
+                      "title":  "状態図と第10章総合"
+                  },
+                  {
+                      "id":  "unit-11-01-gas-laws",
+                      "chapterId":  "chapter-11",
+                      "order":  1,
+                      "title":  "ボイル・シャルルの法則"
+                  },
+                  {
+                      "id":  "unit-11-02-ideal-gas-equation",
+                      "chapterId":  "chapter-11",
+                      "order":  2,
+                      "title":  "気体の状態方程式"
+                  },
+                  {
+                      "id":  "unit-11-03-partial-pressure",
+                      "chapterId":  "chapter-11",
+                      "order":  3,
+                      "title":  "混合気体と分圧"
+                  },
+                  {
+                      "id":  "unit-11-04-real-gases-review",
+                      "chapterId":  "chapter-11",
+                      "order":  4,
+                      "title":  "実在気体と第11章総合"
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  "q-chem-09-001",
+                          "chapterId":  "chapter-09",
+                          "unitId":  "unit-basic-particles",
+                          "order":  1,
+                          "text":  "物質を構成する最小の基本粒子として扱われるものはどれですか。",
+                          "correctChoiceId":  "c-09-001-1",
+                          "explanation":  "物質は原子を基本としてできています。原子が結びつくと分子になります。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-09-001-1",
+                                              "text":  "原子"
+                                          },
+                                          {
+                                              "id":  "c-09-001-2",
+                                              "text":  "細胞"
+                                          },
+                                          {
+                                              "id":  "c-09-001-3",
+                                              "text":  "熱"
+                                          },
+                                          {
+                                              "id":  "c-09-001-4",
+                                              "text":  "力"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-09-002",
+                          "chapterId":  "chapter-09",
+                          "unitId":  "unit-basic-particles",
+                          "order":  2,
+                          "text":  "いくつかの原子が結びついてできた粒子を何といいますか。",
+                          "correctChoiceId":  "c-09-002-2",
+                          "explanation":  "分子は複数の原子が結びついてできる粒子です。酸素分子 O2 や水分子 H2O が例です。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-09-002-1",
+                                              "text":  "電子"
+                                          },
+                                          {
+                                              "id":  "c-09-002-2",
+                                              "text":  "分子"
+                                          },
+                                          {
+                                              "id":  "c-09-002-3",
+                                              "text":  "温度"
+                                          },
+                                          {
+                                              "id":  "c-09-002-4",
+                                              "text":  "密度"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-09-003",
+                          "chapterId":  "chapter-09",
+                          "unitId":  "unit-element-symbols",
+                          "order":  1,
+                          "text":  "水素を表す元素記号はどれですか。",
+                          "correctChoiceId":  "c-09-003-1",
+                          "explanation":  "水素の元素記号は H です。O は酸素、C は炭素、Na はナトリウムです。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-09-003-1",
+                                              "text":  "H"
+                                          },
+                                          {
+                                              "id":  "c-09-003-2",
+                                              "text":  "O"
+                                          },
+                                          {
+                                              "id":  "c-09-003-3",
+                                              "text":  "C"
+                                          },
+                                          {
+                                              "id":  "c-09-003-4",
+                                              "text":  "Na"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-10-001",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-formulas",
+                          "order":  1,
+                          "text":  "水を表す化学式はどれですか。",
+                          "correctChoiceId":  "c-10-001-1",
+                          "explanation":  "水は水素原子2個と酸素原子1個からできているため H2O と表します。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-10-001-1",
+                                              "text":  "H2O"
+                                          },
+                                          {
+                                              "id":  "c-10-001-2",
+                                              "text":  "CO2"
+                                          },
+                                          {
+                                              "id":  "c-10-001-3",
+                                              "text":  "NaCl"
+                                          },
+                                          {
+                                              "id":  "c-10-001-4",
+                                              "text":  "O2"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-10-002",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-formulas",
+                          "order":  2,
+                          "text":  "二酸化炭素を表す化学式はどれですか。",
+                          "correctChoiceId":  "c-10-002-2",
+                          "explanation":  "二酸化炭素は炭素 C が1個、酸素 O が2個なので CO2 と表します。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-10-002-1",
+                                              "text":  "H2O"
+                                          },
+                                          {
+                                              "id":  "c-10-002-2",
+                                              "text":  "CO2"
+                                          },
+                                          {
+                                              "id":  "c-10-002-3",
+                                              "text":  "NH3"
+                                          },
+                                          {
+                                              "id":  "c-10-002-4",
+                                              "text":  "HCl"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-10-003",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-formulas",
+                          "order":  3,
+                          "text":  "塩化ナトリウムを表す化学式はどれですか。",
+                          "correctChoiceId":  "c-10-003-3",
+                          "explanation":  "塩化ナトリウムはナトリウム Na と塩素 Cl からできているため NaCl と表します。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-10-003-1",
+                                              "text":  "NaOH"
+                                          },
+                                          {
+                                              "id":  "c-10-003-2",
+                                              "text":  "HCl"
+                                          },
+                                          {
+                                              "id":  "c-10-003-3",
+                                              "text":  "NaCl"
+                                          },
+                                          {
+                                              "id":  "c-10-003-4",
+                                              "text":  "CaCO3"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-11-001",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-acid-base",
+                          "order":  1,
+                          "text":  "酸性の水溶液は、一般にpHがどの範囲ですか。",
+                          "correctChoiceId":  "c-11-001-2",
+                          "explanation":  "pHは7が中性です。7より小さいと酸性、7より大きいとアルカリ性です。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-11-001-1",
+                                              "text":  "7より大きい"
+                                          },
+                                          {
+                                              "id":  "c-11-001-2",
+                                              "text":  "7より小さい"
+                                          },
+                                          {
+                                              "id":  "c-11-001-3",
+                                              "text":  "必ず7"
+                                          },
+                                          {
+                                              "id":  "c-11-001-4",
+                                              "text":  "pHでは表せない"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-11-002",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-acid-base",
+                          "order":  2,
+                          "text":  "中性の水溶液のpHとして最も適切な値はどれですか。",
+                          "correctChoiceId":  "c-11-002-3",
+                          "explanation":  "中性はpH 7です。水などが代表例です。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-11-002-1",
+                                              "text":  "1"
+                                          },
+                                          {
+                                              "id":  "c-11-002-2",
+                                              "text":  "3"
+                                          },
+                                          {
+                                              "id":  "c-11-002-3",
+                                              "text":  "7"
+                                          },
+                                          {
+                                              "id":  "c-11-002-4",
+                                              "text":  "14"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-11-003",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-acid-base",
+                          "order":  3,
+                          "text":  "アルカリ性を示す水溶液のpHは一般にどれですか。",
+                          "correctChoiceId":  "c-11-003-1",
+                          "explanation":  "pHが7より大きい水溶液はアルカリ性です。酸性は7より小さい範囲です。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-11-003-1",
+                                              "text":  "7より大きい"
+                                          },
+                                          {
+                                              "id":  "c-11-003-2",
+                                              "text":  "7より小さい"
+                                          },
+                                          {
+                                              "id":  "c-11-003-3",
+                                              "text":  "必ず0"
+                                          },
+                                          {
+                                              "id":  "c-11-003-4",
+                                              "text":  "必ず7"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q-chem-kosen1-09-no080",
+                          "questionNumber":  "No.080",
+                          "chapterId":  "chapter-09",
+                          "unitId":  "unit-09-04-limiting-reagents",
+                          "order":  5,
+                          "questionType":  "reaction_equation",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "化学反応式",
+                                       "燃焼",
+                                       "炭素"
+                                   ],
+                          "text":  "炭素Cが酸素O₂中で完全燃焼して二酸化炭素CO₂を生じる。正しい化学反応式を選びなさい。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-09-no080-1",
+                                              "text":  "C＋O₂ → CO₂"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no080-2",
+                                              "text":  "2C＋O₂ → 2CO₂"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no080-3",
+                                              "text":  "C＋CO₂ → O₂"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no080-4",
+                                              "text":  "C₂＋O₂ → C₂O₂"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-09-no080-1",
+                          "answer":  "C＋O₂ → CO₂",
+                          "acceptedAnswers":  [
+                                                  "C＋O₂→CO₂",
+                                                  "C + O2 -\u003e CO2",
+                                                  "C+O2=CO2"
+                                              ],
+                          "explanation":  "左辺と右辺で、炭素原子は1個、酸素原子は2個ずつとなるため、C＋O₂ → CO₂で原子数が一致します。化学反応式では、元素記号の右下の数字を変えず、必要な場合は化学式の前の係数で原子数を合わせます。",
+                          "commonMistake":  "化学式の右下の数字を変えて原子数を合わせようとする。",
+                          "scoringPoints":  [
+                                                "炭素原子数が一致していること",
+                                                "酸素原子数が一致していること",
+                                                "化学式の右下の数字を変えていないこと"
+                                            ],
+                          "sourcePages":  [
+                                              "p.78～80"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-09-no091",
+                          "questionNumber":  "No.091",
+                          "chapterId":  "chapter-09",
+                          "unitId":  "unit-09-04-limiting-reagents",
+                          "order":  16,
+                          "questionType":  "calculation",
+                          "difficulty":  "★★",
+                          "tags":  [
+                                       "物質量",
+                                       "マグネシウム",
+                                       "水素",
+                                       "標準状態"
+                                   ],
+                          "text":  "マグネシウムMg 0.240 gを十分な量の塩酸と反応させた。発生する水素H₂の標準状態における体積として正しいものを選びなさい。Mgのモル質量を24.0 g/mol、標準状態の気体1 molの体積を22.4 Lとする。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-09-no091-1",
+                                              "text":  "0.0224 L"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no091-2",
+                                              "text":  "0.224 L"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no091-3",
+                                              "text":  "2.24 L"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-09-no091-4",
+                                              "text":  "22.4 L"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-09-no091-2",
+                          "answer":  "0.224 L",
+                          "acceptedAnswers":  [
+                                                  "0.224 L",
+                                                  "224 mL",
+                                                  "0.224L"
+                                              ],
+                          "explanation":  "反応式はMg＋2HCl → MgCl₂＋H₂です。Mgの物質量は0.240÷24.0＝0.0100 molです。MgとH₂の係数比は1：1なので、H₂も0.0100 mol生じます。標準状態での体積は0.0100×22.4＝0.224 Lです。",
+                          "commonMistake":  "塩酸の係数2を使って、水素の物質量をMgの2倍にしてしまう。",
+                          "scoringPoints":  [
+                                                "Mgを0.0100 molと求める",
+                                                "MgとH₂の係数比1：1を使う",
+                                                "22.4 L/molを掛ける"
+                                            ],
+                          "sourcePages":  [
+                                              "p.84～85"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-10-no101",
+                          "questionNumber":  "No.101",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-10-01-state-changes",
+                          "order":  1,
+                          "questionType":  "short_answer",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "物質の三態",
+                                       "固体",
+                                       "液体",
+                                       "気体"
+                                   ],
+                          "text":  "物質がとる固体、液体、気体の3つの状態をまとめて何といいますか。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-10-no101-1",
+                                              "text":  "物質の三態"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no101-2",
+                                              "text":  "化学平衡"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no101-3",
+                                              "text":  "元素の周期性"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no101-4",
+                                              "text":  "質量保存の法則"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-10-no101-1",
+                          "answer":  "物質の三態",
+                          "acceptedAnswers":  [
+                                                  "物質の三態",
+                                                  "三態"
+                                              ],
+                          "explanation":  "物質は温度や圧力によって、主に固体、液体、気体の3つの状態をとります。これらをまとめて物質の三態といいます。",
+                          "commonMistake":  "状態が変化する現象である「状態変化」と答える。",
+                          "scoringPoints":  [
+                                                "固体・液体・気体の総称だと理解している"
+                                            ],
+                          "sourcePages":  [
+                                              "p.87"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-10-no126",
+                          "questionNumber":  "No.126",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-10-02-temperature-heat",
+                          "order":  1,
+                          "questionType":  "short_answer",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "絶対温度",
+                                       "ケルビン",
+                                       "単位"
+                                   ],
+                          "text":  "絶対温度の単位を表す正しい記号を選びなさい。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-10-no126-1",
+                                              "text":  "℃"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no126-2",
+                                              "text":  "°K"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no126-3",
+                                              "text":  "K"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no126-4",
+                                              "text":  "J"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-10-no126-3",
+                          "answer":  "K",
+                          "acceptedAnswers":  [
+                                                  "K",
+                                                  "ケルビン"
+                                              ],
+                          "explanation":  "絶対温度の単位はケルビンで、記号Kを用います。セルシウス温度の℃とは異なり、「°K」のように度を表す記号°は付けません。",
+                          "commonMistake":  "セルシウス温度と同じように°を付けて「°K」とする。",
+                          "scoringPoints":  [
+                                                "単位記号Kを選べる"
+                                            ],
+                          "sourcePages":  [
+                                              "p.89～90"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-10-no151",
+                          "questionNumber":  "No.151",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-10-03-vapor-pressure",
+                          "order":  1,
+                          "questionType":  "reading",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "気液平衡",
+                                       "蒸発",
+                                       "凝縮"
+                                   ],
+                          "text":  "密閉容器内で液体とその蒸気が共存し、単位時間あたりに蒸発する分子数と凝縮する分子数が等しくなりました。この状態を何といいますか。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-10-no151-1",
+                                              "text":  "気液平衡"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no151-2",
+                                              "text":  "沸騰"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no151-3",
+                                              "text":  "凝固"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no151-4",
+                                              "text":  "臨界状態"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-10-no151-1",
+                          "answer":  "気液平衡",
+                          "acceptedAnswers":  [
+                                                  "気液平衡"
+                                              ],
+                          "explanation":  "気液平衡では、蒸発と凝縮の両方が停止しているわけではありません。液体から蒸気になる分子数と、蒸気から液体に戻る分子数が単位時間あたり等しいため、液体と蒸気の量が見かけ上変化しなくなります。",
+                          "commonMistake":  "平衡になると、すべての分子の運動や蒸発・凝縮が停止すると考える。",
+                          "scoringPoints":  [
+                                                "蒸発と凝縮が続いている",
+                                                "両者の速さが等しい",
+                                                "見かけ上の量が変化しない"
+                                            ],
+                          "sourcePages":  [
+                                              "p.90～91"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-10-no176",
+                          "questionNumber":  "No.176",
+                          "chapterId":  "chapter-10",
+                          "unitId":  "unit-10-04-phase-diagrams-review",
+                          "order":  1,
+                          "questionType":  "short_answer",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "状態図",
+                                       "温度",
+                                       "圧力"
+                                   ],
+                          "text":  "物質の状態を、温度と圧力の関係によって表した図を何といいますか。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-10-no176-1",
+                                              "text":  "加熱曲線"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no176-2",
+                                              "text":  "状態図"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no176-3",
+                                              "text":  "蒸気圧表"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-10-no176-4",
+                                              "text":  "反応速度曲線"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-10-no176-2",
+                          "answer":  "状態図",
+                          "acceptedAnswers":  [
+                                                  "状態図"
+                                              ],
+                          "explanation":  "状態図では、横軸と縦軸に温度と圧力をとり、それぞれの条件で物質が固体、液体、気体のどの状態になるかを表します。境界曲線上では、隣り合う2つの状態が平衡状態で共存します。",
+                          "commonMistake":  "加熱時間や加えた熱量と温度の関係を示す「加熱曲線」と混同する。",
+                          "scoringPoints":  [
+                                                "温度と圧力の関係を表す図だと理解する"
+                                            ],
+                          "sourcePages":  [
+                                              "p.93～94"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-11-no208",
+                          "questionNumber":  "No.208",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-11-01-gas-laws",
+                          "order":  8,
+                          "questionType":  "true_false",
+                          "difficulty":  "★★",
+                          "tags":  [
+                                       "シャルルの法則",
+                                       "絶対温度",
+                                       "セルシウス温度"
+                                   ],
+                          "text":  "圧力一定で気体を20 ℃から40 ℃へ加熱すると、セルシウス温度の数値が2倍になるので、気体の体積も2倍になる。この説明について最も適切なものを選びなさい。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-11-no208-1",
+                                              "text":  "正しい。温度が2倍なので体積も2倍になる。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no208-2",
+                                              "text":  "誤り。20 ℃は293 K、40 ℃は313 Kで、絶対温度は2倍ではない。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no208-3",
+                                              "text":  "誤り。気体の体積は温度にまったく関係しない。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no208-4",
+                                              "text":  "正しい。ただし圧力も必ず2倍になる。"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-11-no208-2",
+                          "answer":  "誤り。20 ℃は293 K、40 ℃は313 Kで、絶対温度は2倍ではない。",
+                          "acceptedAnswers":  [
+                                                  "×",
+                                                  "誤り",
+                                                  "20 ℃は293 K、40 ℃は313 K"
+                                              ],
+                          "explanation":  "シャルルの法則では、気体の体積はセルシウス温度ではなく絶対温度に比例します。20 ℃は293 K、40 ℃は313 Kであり、絶対温度の比は313／293です。したがって体積はわずかに増えますが、2倍にはなりません。",
+                          "commonMistake":  "20から40になったため、絶対温度も2倍になったと判断する。",
+                          "scoringPoints":  [
+                                                "セルシウス温度を絶対温度へ換算する",
+                                                "293 Kと313 Kを比較する"
+                                            ],
+                          "sourcePages":  [
+                                              "p.97～100"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-11-no226",
+                          "questionNumber":  "No.226",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-11-02-ideal-gas-equation",
+                          "order":  1,
+                          "questionType":  "short_answer",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "気体の状態方程式",
+                                       "理想気体",
+                                       "基本式"
+                                   ],
+                          "text":  "圧力p、体積V、物質量n、絶対温度Tの理想気体について、気体の状態方程式として正しいものを選びなさい。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-11-no226-1",
+                                              "text":  "pV＝nRT"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no226-2",
+                                              "text":  "p＋V＝n＋R＋T"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no226-3",
+                                              "text":  "pV＝RT"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no226-4",
+                                              "text":  "pT＝nRV"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-11-no226-1",
+                          "answer":  "pV＝nRT",
+                          "acceptedAnswers":  [
+                                                  "pV=nRT",
+                                                  "pV＝nRT",
+                                                  "PV=nRT"
+                                              ],
+                          "explanation":  "理想気体の圧力p、体積V、物質量n、絶対温度Tの関係はpV＝nRTで表されます。Rは気体定数です。物質量nを書き忘れたり、セルシウス温度をそのままTへ代入したりしないよう注意します。",
+                          "commonMistake":  "pV＝RTとして物質量nを書き忘れる。",
+                          "scoringPoints":  [
+                                                "pV＝nRTを選べる",
+                                                "nが必要だと理解する"
+                                            ],
+                          "sourcePages":  [
+                                              "p.100～103"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-11-no251",
+                          "questionNumber":  "No.251",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-11-03-partial-pressure",
+                          "order":  1,
+                          "questionType":  "short_answer",
+                          "difficulty":  "★",
+                          "tags":  [
+                                       "混合気体",
+                                       "分圧",
+                                       "全圧"
+                                   ],
+                          "text":  "混合気体中の各成分気体が、混合気体と同じ温度で容器全体を単独で占めたと仮定したときに示す圧力を何といいますか。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-11-no251-1",
+                                              "text":  "全圧"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no251-2",
+                                              "text":  "分圧"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no251-3",
+                                              "text":  "蒸気圧"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no251-4",
+                                              "text":  "浸透圧"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-11-no251-2",
+                          "answer":  "分圧",
+                          "acceptedAnswers":  [
+                                                  "分圧"
+                                              ],
+                          "explanation":  "混合気体を構成する各成分気体は、同じ温度で容器全体を単独で占めると仮定したとき、それぞれ固有の圧力を示します。これを分圧といいます。理想混合気体では、全圧は各成分気体の分圧の和になります。",
+                          "commonMistake":  "混合気体全体が示す圧力である「全圧」と混同する。",
+                          "scoringPoints":  [
+                                                "各成分気体による圧力だと理解する"
+                                            ],
+                          "sourcePages":  [
+                                              "p.103～106"
+                                          ],
+                          "status":  "test"
+                      },
+                      {
+                          "id":  "q-chem-kosen1-11-no300",
+                          "questionNumber":  "No.300",
+                          "chapterId":  "chapter-11",
+                          "unitId":  "unit-11-04-real-gases-review",
+                          "order":  25,
+                          "questionType":  "written_understanding",
+                          "difficulty":  "★★★",
+                          "tags":  [
+                                       "第11章総合",
+                                       "気体",
+                                       "粒子運動",
+                                       "状態方程式",
+                                       "分圧",
+                                       "実在気体"
+                                   ],
+                          "text":  "第11章で学んだ気体の性質を総合した説明として、最も適切なものを選びなさい。",
+                          "choices":  [
+                                          {
+                                              "id":  "c-chem-kosen1-11-no300-1",
+                                              "text":  "気体の圧力は分子が容器壁へ衝突することで生じる。理想気体ではpV＝nRTが成り立ち、混合気体の全圧は各成分の分圧の和になる。実在気体は、特に低温・高圧で分子間力や分子自身の体積の影響を受け、理想気体からずれる。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no300-2",
+                                              "text":  "気体の圧力は分子の色によって決まり、温度や体積には関係しない。混合気体の全圧は各分圧の平均値になる。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no300-3",
+                                              "text":  "理想気体と実在気体には違いがなく、すべての温度と圧力でpV＝nRTに完全に従う。"
+                                          },
+                                          {
+                                              "id":  "c-chem-kosen1-11-no300-4",
+                                              "text":  "気体分子は静止しており、容器を小さくしても圧力は変化しない。混合気体では最も重い気体だけが圧力を示す。"
+                                          }
+                                      ],
+                          "correctChoiceId":  "c-chem-kosen1-11-no300-1",
+                          "answer":  "気体の圧力は分子が容器壁へ衝突することで生じ、理想気体ではpV＝nRTが成り立つ。混合気体の全圧は分圧の和であり、実在気体は低温・高圧で理想気体からずれやすい。",
+                          "acceptedAnswers":  [
+                                                  "気体の圧力は分子の衝突によって生じる",
+                                                  "pV＝nRT",
+                                                  "全圧は分圧の和",
+                                                  "低温・高圧で理想気体からずれる"
+                                              ],
+                          "explanation":  "気体分子は容器内を絶えず熱運動し、容器壁へ衝突することで圧力を生じます。一定量の気体では、温度一定なら体積は圧力に反比例し、圧力一定なら体積は絶対温度に比例します。理想気体の圧力、体積、物質量、絶対温度の関係はpV＝nRTで表されます。混合気体では各成分気体がそれぞれ分圧を示し、全圧は分圧の和になります。実在気体では分子間力や分子自身の体積の影響があるため、特に低温・高圧で理想気体からずれます。計算では温度をKへ直し、圧力・体積・気体定数の単位をそろえることが重要です。",
+                          "commonMistake":  "ボイルの法則、シャルルの法則、状態方程式、分圧の法則を、互いに無関係な公式として丸暗記する。",
+                          "scoringPoints":  [
+                                                "粒子の運動と圧力の関係",
+                                                "pV＝nRT",
+                                                "全圧と分圧の関係",
+                                                "実在気体がずれる条件",
+                                                "単位と絶対温度への注意"
+                                            ],
+                          "sourcePages":  [
+                                              "p.97～110"
+                                          ],
+                          "status":  "test"
+                      }
+                  ]
+}

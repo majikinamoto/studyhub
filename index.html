@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudyHub</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-shell">
+      <p class="app-kicker">高専1年 化学</p>
+      <h1>StudyHub</h1>
+      <p class="header-copy">テスト前に、スマホで毎日少しずつ確認。</p>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="section-stack" aria-labelledby="chapter-list-title">
+      <div class="section-heading">
+        <h2 id="chapter-list-title">章を選ぶ</h2>
+        <p>第9章から第11章まで、すぐに問題を始められます。</p>
+      </div>
+
+      <div id="chapter-list" class="card-grid" aria-live="polite">
+        <article class="study-card">
+          <div>
+            <p class="card-label">第9章</p>
+            <h3>第9章</h3>
+            <p>原子、分子、物質の成り立ちを確認します。</p>
+          </div>
+          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-09">問題を解く</a>
+        </article>
+        <article class="study-card">
+          <div>
+            <p class="card-label">第10章</p>
+            <h3>第10章</h3>
+            <p>化学式や物質量の基礎を確認します。</p>
+          </div>
+          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-10">問題を解く</a>
+        </article>
+        <article class="study-card">
+          <div>
+            <p class="card-label">第11章</p>
+            <h3>第11章</h3>
+            <p>酸・塩基など、よく出る内容を確認します。</p>
+          </div>
+          <a class="primary-button" href="./pages/quiz.html?chapter=chapter-11">問題を解く</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./assets/js/home.js"></script>
+</body>
+</html>

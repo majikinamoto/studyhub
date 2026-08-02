@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>問題 | StudyHub</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="app-header compact-header">
+    <div class="app-shell">
+      <a class="text-link" href="../index.html">ホームへ</a>
+      <p id="chapter-label" class="app-kicker">高専1年 化学</p>
+      <h1>確認問題</h1>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="quiz-panel" aria-labelledby="question-number">
+      <div class="quiz-topline">
+        <p id="question-number" class="question-number">問題 1</p>
+        <p id="quiz-progress" class="quiz-progress">1 / 1</p>
+      </div>
+
+      <label class="random-toggle">
+        <input id="random-toggle" type="checkbox">
+        <span>ランダム出題</span>
+      </label>
+
+      <h2 id="question-text">問題を読み込んでいます。</h2>
+
+      <form id="quiz-form" class="choice-list"></form>
+
+      <div id="result-box" class="result-box" hidden>
+        <p id="result-message" class="result-message"></p>
+        <p id="explanation-text" class="explanation-text"></p>
+      </div>
+
+      <button id="next-button" class="secondary-button wide-button" type="button" hidden>次の問題</button>
+    </section>
+  </main>
+
+  <script type="module" src="../assets/js/quiz.js"></script>
+</body>
+</html>
