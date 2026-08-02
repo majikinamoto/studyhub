@@ -7,9 +7,20 @@
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="app-shell site-header-inner">
+      <a class="site-brand" href="../index.html">StudyHub</a>
+      <a class="home-link" href="../index.html">ホームへ戻る</a>
+    </div>
+  </header>
+
   <header class="app-header">
-    <div class="app-shell">
-      <a class="text-link" href="./category.html?category=school-education">学校教育</a>
+    <div class="app-shell page-header">
+      <nav class="breadcrumb" aria-label="パンくずリスト">
+        <a href="../index.html">StudyHub</a>
+        <a href="./category.html?category=school-education">学校教育</a>
+        <span aria-current="page">高専</span>
+      </nav>
       <p class="app-kicker">学校種別</p>
       <h1 id="school-title">高専</h1>
       <p class="header-copy">学年を選んでください。</p>

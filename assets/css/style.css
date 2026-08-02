@@ -305,3 +305,61 @@ p {
   color: var(--color-muted);
   cursor: default;
 }
+
+.site-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-height: 54px;
+}
+
+.site-brand,
+.home-link {
+  color: var(--color-primary-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.site-brand {
+  font-size: 1.05rem;
+}
+
+.home-link {
+  font-size: 0.88rem;
+}
+
+.page-header {
+  display: grid;
+  gap: 10px;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.breadcrumb a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.breadcrumb a::after {
+  content: ">";
+  margin-left: 6px;
+  color: var(--color-muted);
+}
+
+.breadcrumb [aria-current="page"] {
+  color: var(--color-text);
+}
