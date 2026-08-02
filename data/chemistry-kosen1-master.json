@@ -1,86 +1,32 @@
 ﻿{
-    "version":  2,
-    "meta":  {
-                 "title":  "StudyHub 高専1年 化学 テスト対策",
-                 "targetCourseId":  "kosen-1-chemistry",
-                 "questionFormat":  "multiple-choice-4",
-                 "defaultOrder":  "chapterId -\u003e unitId -\u003e order -\u003e id",
-                 "note":  "問題追加時はquestions配列へ1問ずつ追加します。章、単元、並び順はchapterId、unitId、orderで管理します。"
-             },
-    "units":  [
-                  {
-                      "id":  "unit-09-01-chemical-equations",
-                      "chapterId":  "chapter-09",
-                      "order":  1,
-                      "title":  "化学反応式"
-                  },
-                  {
-                      "id":  "unit-09-02-ionic-equations",
-                      "chapterId":  "chapter-09",
-                      "order":  2,
-                      "title":  "イオン反応式"
-                  },
-                  {
-                      "id":  "unit-09-03-stoichiometry",
-                      "chapterId":  "chapter-09",
-                      "order":  3,
-                      "title":  "化学反応式が表す量的関係"
-                  },
-                  {
-                      "id":  "unit-09-04-limiting-reagents",
-                      "chapterId":  "chapter-09",
-                      "order":  4,
-                      "title":  "反応物の過不足と総合計算"
-                  },
-                  {
-                      "id":  "unit-10-01-state-changes",
-                      "chapterId":  "chapter-10",
-                      "order":  1,
-                      "title":  "状態変化と熱運動"
-                  },
-                  {
-                      "id":  "unit-10-02-temperature-heat",
-                      "chapterId":  "chapter-10",
-                      "order":  2,
-                      "title":  "絶対温度と熱量"
-                  },
-                  {
-                      "id":  "unit-10-03-vapor-pressure",
-                      "chapterId":  "chapter-10",
-                      "order":  3,
-                      "title":  "蒸気圧・沸点・分子間力"
-                  },
-                  {
-                      "id":  "unit-10-04-phase-diagrams-review",
-                      "chapterId":  "chapter-10",
-                      "order":  4,
-                      "title":  "状態図と第10章総合"
-                  },
-                  {
-                      "id":  "unit-11-01-gas-laws",
-                      "chapterId":  "chapter-11",
-                      "order":  1,
-                      "title":  "ボイル・シャルルの法則"
-                  },
-                  {
-                      "id":  "unit-11-02-ideal-gas-equation",
-                      "chapterId":  "chapter-11",
-                      "order":  2,
-                      "title":  "気体の状態方程式"
-                  },
-                  {
-                      "id":  "unit-11-03-partial-pressure",
-                      "chapterId":  "chapter-11",
-                      "order":  3,
-                      "title":  "混合気体と分圧"
-                  },
-                  {
-                      "id":  "unit-11-04-real-gases-review",
-                      "chapterId":  "chapter-11",
-                      "order":  4,
-                      "title":  "実在気体と第11章総合"
-                  }
-              ],
+    "version":  1,
+    "subject":  "chemistry",
+    "course":  "kosen-1",
+    "title":  "高専1年 化学 問題マスター",
+    "questionRange":  {
+                          "start":  "No.001",
+                          "end":  "No.300"
+                      },
+    "chapters":  [
+                     {
+                         "chapterId":  "chapter-09",
+                         "start":  "No.001",
+                         "end":  "No.100",
+                         "questionCount":  100
+                     },
+                     {
+                         "chapterId":  "chapter-10",
+                         "start":  "No.101",
+                         "end":  "No.200",
+                         "questionCount":  100
+                     },
+                     {
+                         "chapterId":  "chapter-11",
+                         "start":  "No.201",
+                         "end":  "No.300",
+                         "questionCount":  100
+                     }
+                 ],
     "questions":  [
                       {
                           "id":  "q-chem-kosen1-09-no001",
