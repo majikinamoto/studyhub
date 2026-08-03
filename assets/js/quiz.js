@@ -1,6 +1,7 @@
-﻿import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
+import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
 
-const chapterId = getQueryParam("chapter", "chapter-09");
+const unitId = getQueryParam("unit", "");
+const chapterId = getQueryParam("chapter", "");
 const chapterLabel = document.querySelector("#chapter-label");
 const questionNumber = document.querySelector("#question-number");
 const quizProgress = document.querySelector("#quiz-progress");
@@ -11,6 +12,8 @@ const resultBox = document.querySelector("#result-box");
 const resultMessage = document.querySelector("#result-message");
 const explanationText = document.querySelector("#explanation-text");
 const nextButton = document.querySelector("#next-button");
+const quizTitle = document.querySelector("h1");
+const subjectBreadcrumbLink = document.querySelector('a[href="./subject.html?course=kosen-1-chemistry"]');
 
 let baseQuestions = [];
 let questions = [];
@@ -33,6 +36,14 @@ function shuffleQuestions(items) {
   }
 
   return shuffled;
+}
+
+function findCourseByChapter(catalog, targetChapterId) {
+  return catalog.courses.find((course) => course.chapters.some((chapter) => chapter.id === targetChapterId));
+}
+
+function findChapter(course, targetChapterId) {
+  return course?.chapters.find((chapter) => chapter.id === targetChapterId);
 }
 
 function setQuestionOrder() {
@@ -80,24 +91,56 @@ function showAnswer(selectedChoiceId) {
   });
 }
 
+function showMissing(message) {
+  chapterLabel.textContent = "問題データなし";
+  if (quizTitle) {
+    quizTitle.textContent = "確認問題";
+  }
+  questionText.textContent = message;
+  quizProgress.textContent = "0 / 0";
+  quizForm.innerHTML = "";
+  resultBox.hidden = true;
+  nextButton.hidden = true;
+}
+
 try {
   const [catalog, questionStore] = await Promise.all([getCatalog(), getQuestionStore()]);
-  const course = catalog.courses[0];
-  const chapter = course.chapters.find((item) => item.id === chapterId) || course.chapters[0];
+  let course;
+  let chapter;
+  let unit;
 
-  chapterLabel.textContent = `${course.gradeName} ${course.subjectName} ${chapter.number}`;
-  baseQuestions = questionStore.questionsByChapter.get(chapter.id) || [];
-
-  if (baseQuestions.length === 0) {
-    questionText.textContent = "この章の問題はまだありません。";
-    quizForm.innerHTML = "";
+  if (unitId) {
+    unit = questionStore.units.find((item) => item.id === unitId);
+    course = unit ? findCourseByChapter(catalog, unit.chapterId) : null;
+    chapter = course && unit ? findChapter(course, unit.chapterId) : null;
+    baseQuestions = unit ? questionStore.questionsByUnit.get(unit.id) || [] : [];
   } else {
+    const targetChapterId = chapterId || "chapter-09";
+    course = findCourseByChapter(catalog, targetChapterId);
+    chapter = course ? findChapter(course, targetChapterId) : null;
+    baseQuestions = chapter ? questionStore.questionsByChapter.get(chapter.id) || [] : [];
+  }
+
+  if (!course || !chapter || (unitId && !unit)) {
+    showMissing("指定された問題データが見つかりません。");
+  } else if (baseQuestions.length === 0) {
+    showMissing("この範囲の問題はまだありません。");
+  } else {
+    const rangeLabel = unit ? `${chapter.number} ${unit.title}` : chapter.number;
+    chapterLabel.textContent = `${course.gradeName} ${course.subjectName} ${rangeLabel}`;
+    if (quizTitle) {
+      quizTitle.textContent = unit ? unit.title : "確認問題";
+    }
+    if (subjectBreadcrumbLink) {
+      subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
+      subjectBreadcrumbLink.textContent = course.subjectName;
+    }
     setQuestionOrder();
     renderQuestion();
   }
 } catch (error) {
   console.warn(error);
-  questionText.textContent = "問題データを読み込めませんでした。";
+  showMissing("問題データを読み込めませんでした。");
 }
 
 quizForm.addEventListener("submit", (event) => {
