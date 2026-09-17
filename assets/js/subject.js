@@ -7,14 +7,26 @@ const subjectDescription = document.querySelector("#subject-description");
 const chapterListTitle = document.querySelector("#chapter-list-title");
 const chapterListCopy = document.querySelector("#chapter-list-copy");
 const chapterList = document.querySelector("#chapter-list");
+const schoolBreadcrumbLink = document.querySelector("#school-breadcrumb-link");
+const gradeBreadcrumbLink = document.querySelector("#grade-breadcrumb-link");
 
 try {
   const catalog = await getCatalog();
   const course = catalog.courses.find((item) => item.id === courseId) || catalog.courses[0];
 
+  document.title = `${course.gradeName} ${course.subjectName} | StudyHub`;
   subjectTitle.textContent = `${course.gradeName} ${course.subjectName}`;
   subjectBreadcrumb.textContent = course.subjectName;
   subjectDescription.textContent = course.description;
+
+  if (course.gradeId === "junior-high") {
+    schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+    schoolBreadcrumbLink.textContent = course.gradeName;
+    gradeBreadcrumbLink.hidden = true;
+  } else {
+    gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+    gradeBreadcrumbLink.textContent = course.gradeName;
+  }
 
   if (course.chapters.length === 0) {
     chapterListTitle.textContent = "教材準備中";

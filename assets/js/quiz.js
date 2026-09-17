@@ -13,7 +13,9 @@ const resultMessage = document.querySelector("#result-message");
 const explanationText = document.querySelector("#explanation-text");
 const nextButton = document.querySelector("#next-button");
 const quizTitle = document.querySelector("h1");
-const subjectBreadcrumbLink = document.querySelector('a[href="./subject.html?course=kosen-1-chemistry"]');
+const subjectBreadcrumbLink = document.querySelector("#subject-breadcrumb-link");
+const schoolBreadcrumbLink = document.querySelector("#school-breadcrumb-link");
+const gradeBreadcrumbLink = document.querySelector("#grade-breadcrumb-link");
 
 let baseQuestions = [];
 let questions = [];
@@ -134,6 +136,14 @@ try {
     if (subjectBreadcrumbLink) {
       subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
       subjectBreadcrumbLink.textContent = course.subjectName;
+    }
+    if (course.gradeId === "junior-high") {
+      schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+      schoolBreadcrumbLink.textContent = course.gradeName;
+      gradeBreadcrumbLink.hidden = true;
+    } else {
+      gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+      gradeBreadcrumbLink.textContent = course.gradeName;
     }
     setQuestionOrder();
     renderQuestion();

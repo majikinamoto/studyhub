@@ -44,6 +44,22 @@
                                              "description":  "熱中症、たばこ・喫煙、受動喫煙について確認します。"
                                          }
                                      ]
+                    },
+                    {
+                        "id":  "junior-high-social-studies",
+                        "gradeId":  "junior-high",
+                        "gradeName":  "中学",
+                        "subjectId":  "social-studies",
+                        "subjectName":  "社会",
+                        "description":  "中学校社会の重要事項を確認します。",
+                        "chapters":  [
+                                         {
+                                             "id":  "chapter-social-history",
+                                             "number":  "歴史",
+                                             "title":  "歴史",
+                                             "description":  "日本の歴史に関する重要事項を学びます。"
+                                         }
+                                     ]
                     }
                 ]
 }

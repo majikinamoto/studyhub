@@ -8,6 +8,9 @@ const startQuizCard = startQuizLink?.closest(".study-card");
 const unitList = document.querySelector("#unit-list");
 const chapterKicker = document.querySelector(".app-kicker");
 const chapterBreadcrumb = document.querySelector("#chapter-breadcrumb");
+const subjectBreadcrumbLink = document.querySelector("#subject-breadcrumb-link");
+const schoolBreadcrumbLink = document.querySelector("#school-breadcrumb-link");
+const gradeBreadcrumbLink = document.querySelector("#grade-breadcrumb-link");
 
 function escapeHtml(value) {
   const div = document.createElement("div");
@@ -39,8 +42,22 @@ try {
     if (chapterBreadcrumb) {
       chapterBreadcrumb.textContent = chapter.title;
     }
+    if (subjectBreadcrumbLink) {
+      subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
+      subjectBreadcrumbLink.textContent = course.subjectName;
+    }
+    if (course.gradeId === "junior-high") {
+      schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+      schoolBreadcrumbLink.textContent = course.gradeName;
+      gradeBreadcrumbLink.hidden = true;
+    } else {
+      gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
+      gradeBreadcrumbLink.textContent = course.gradeName;
+    }
 
-    if (units.length > 0 && chapter.id === "chapter-sports-01") {
+    const showsUnitCards = chapter.id === "chapter-sports-01" || chapter.id === "chapter-social-history";
+
+    if (units.length > 0 && showsUnitCards) {
       if (startQuizCard) {
         startQuizCard.hidden = true;
       }

@@ -139,6 +139,12 @@
                       "chapterId":  "chapter-sports-01",
                       "order":  10,
                       "title":  "健康増進法・受動喫煙・禁煙／分煙"
+                  },
+                  {
+                      "id":  "unit-social-history-shotoku-ritsuryo",
+                      "chapterId":  "chapter-social-history",
+                      "order":  1,
+                      "title":  "聖徳太子の政治と律令国家の成立"
                   }
               ],
     "questions":  [
@@ -19179,6 +19185,96 @@
                                               "p.6"
                                           ],
                           "status":  "published"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-001", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 1,
+                          "text": "推古天皇の摂政となり、天皇中心の政治体制を整えようとした人物は誰か。",
+                          "choices": [{"id":"a","text":"中大兄皇子"},{"id":"b","text":"聖徳太子（厩戸皇子）"},{"id":"c","text":"中臣鎌足"},{"id":"d","text":"蘇我馬子"}],
+                          "correctChoiceId": "b", "explanation": "聖徳太子（厩戸皇子）は推古天皇の摂政となり、天皇中心の政治を進めました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-002", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 2,
+                          "text": "聖徳太子に協力し、天皇を中心とする政治制度を整えた豪族は誰か。",
+                          "choices": [{"id":"a","text":"物部守屋"},{"id":"b","text":"中臣鎌足"},{"id":"c","text":"藤原不比等"},{"id":"d","text":"蘇我馬子"}],
+                          "correctChoiceId": "d", "explanation": "蘇我馬子は聖徳太子と協力し、天皇中心の政治制度を整えました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-003", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 3,
+                          "text": "聖徳太子が制定した、当時の役人の心がまえを示したものは何か。",
+                          "choices": [{"id":"a","text":"十七条の憲法"},{"id":"b","text":"御成敗式目"},{"id":"c","text":"武家諸法度"},{"id":"d","text":"大日本帝国憲法"}],
+                          "correctChoiceId": "a", "explanation": "十七条の憲法は、役人が守るべき心がまえを示したものです。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-004", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 4,
+                          "text": "聖徳太子が、家がらにとらわれず才能のある人を役人に取り立てようと定めた制度は何か。",
+                          "choices": [{"id":"a","text":"班田収授法"},{"id":"b","text":"三世一身の法"},{"id":"c","text":"冠位十二階"},{"id":"d","text":"墾田永年私財法"}],
+                          "correctChoiceId": "c", "explanation": "冠位十二階は、家がらによらず才能や功績に応じて役人を取り立てる制度です。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-005", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 5,
+                          "text": "遣隋使が派遣されたころに建てられ、現存する世界最古の木造建築を含む寺院はどれか。",
+                          "choices": [{"id":"a","text":"東大寺"},{"id":"b","text":"法隆寺"},{"id":"c","text":"平等院"},{"id":"d","text":"唐招提寺"}],
+                          "correctChoiceId": "b", "explanation": "法隆寺には、現存する世界最古の木造建築群があります。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-006", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 6,
+                          "text": "7世紀前半に、大陸の文化の影響を強く受けて栄えた仏教文化を何というか。",
+                          "choices": [{"id":"a","text":"天平文化"},{"id":"b","text":"国風文化"},{"id":"c","text":"北山文化"},{"id":"d","text":"飛鳥文化"}],
+                          "correctChoiceId": "d", "explanation": "7世紀前半に栄えた、日本最初の仏教文化を飛鳥文化といいます。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-007", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 7,
+                          "text": "607年に遣隋使として派遣された人物は誰か。",
+                          "choices": [{"id":"a","text":"小野妹子"},{"id":"b","text":"阿倍仲麻呂"},{"id":"c","text":"吉備真備"},{"id":"d","text":"最澄"}],
+                          "correctChoiceId": "a", "explanation": "小野妹子は607年、隋に遣わされました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-008", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 8,
+                          "text": "蘇我氏を倒したのち、土地と人民を国家が直接支配する新しいしくみをつくる改革を始め、その後即位して天智天皇となった人物の天皇即位前の名は何か。",
+                          "choices": [{"id":"a","text":"大海人皇子"},{"id":"b","text":"有間皇子"},{"id":"c","text":"中大兄皇子"},{"id":"d","text":"厩戸皇子"}],
+                          "correctChoiceId": "c", "explanation": "中大兄皇子は中臣鎌足らと蘇我氏を倒し、のちに天智天皇となりました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-009", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 9,
+                          "text": "中大兄皇子らが蘇我氏を倒した後に出した、新政府の方針を示すものは何か。",
+                          "choices": [{"id":"a","text":"建武式目"},{"id":"b","text":"改新の詔"},{"id":"c","text":"五箇条の御誓文"},{"id":"d","text":"大宝律令"}],
+                          "correctChoiceId": "b", "explanation": "改新の詔は、大化の改新で新政府の政治方針を示したものです。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-010", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 10,
+                          "text": "663年に起こった、日本と新羅・唐連合軍との戦いを何というか。",
+                          "choices": [{"id":"a","text":"壇ノ浦の戦い"},{"id":"b","text":"文永の役"},{"id":"c","text":"壬申の乱"},{"id":"d","text":"白村江の戦い"}],
+                          "correctChoiceId": "d", "explanation": "663年、日本は朝鮮半島の白村江で新羅・唐連合軍に敗れました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-011", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 11,
+                          "text": "天智天皇の没後、跡継ぎをめぐって672年に起きた戦いを何というか。",
+                          "choices": [{"id":"a","text":"壬申の乱"},{"id":"b","text":"平治の乱"},{"id":"c","text":"承久の乱"},{"id":"d","text":"応仁の乱"}],
+                          "correctChoiceId": "a", "explanation": "672年、天智天皇の跡継ぎをめぐって壬申の乱が起きました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-012", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 12,
+                          "text": "壬申の乱に勝って即位し、天皇を中心とする強い国家づくりを目指した天皇は誰か。",
+                          "choices": [{"id":"a","text":"天智天皇"},{"id":"b","text":"持統天皇"},{"id":"c","text":"天武天皇"},{"id":"d","text":"聖武天皇"}],
+                          "correctChoiceId": "c", "explanation": "壬申の乱に勝った大海人皇子は即位して天武天皇となりました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-013", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 13,
+                          "text": "701年、中国の唐の法律にならって作られ、律令国家成立の基礎となった律令は何か。",
+                          "choices": [{"id":"a","text":"養老律令"},{"id":"b","text":"大宝律令"},{"id":"c","text":"御成敗式目"},{"id":"d","text":"武家諸法度"}],
+                          "correctChoiceId": "b", "explanation": "701年に大宝律令が完成し、律令国家のしくみが整えられました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-014", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 14,
+                          "text": "土地と人民を国家の直接支配下に置く制度を何というか。",
+                          "choices": [{"id":"a","text":"班田収授制"},{"id":"b","text":"荘園公領制"},{"id":"c","text":"封建制度"},{"id":"d","text":"公地・公民制"}],
+                          "correctChoiceId": "d", "explanation": "公地・公民制では、土地と人民を国家が直接支配しました。"
+                      },
+                      {
+                          "id": "q-social-history-shotoku-015", "chapterId": "chapter-social-history", "unitId": "unit-social-history-shotoku-ritsuryo", "order": 15,
+                          "text": "律令国家のもとで、中央から派遣され、地方の国を治めた役人を何というか。",
+                          "choices": [{"id":"a","text":"国司"},{"id":"b","text":"郡司"},{"id":"c","text":"守護"},{"id":"d","text":"地頭"}],
+                          "correctChoiceId": "a", "explanation": "国司は中央から派遣され、地方行政区分である国を治めました。"
                       }
                   ]
 }
