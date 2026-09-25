@@ -21,6 +21,7 @@ let baseQuestions = [];
 let questions = [];
 let currentIndex = 0;
 let answered = false;
+let instantAnswer = false;
 
 function escapeHtml(value) {
   const div = document.createElement("div");
@@ -72,7 +73,7 @@ function renderQuestion() {
         <span>${escapeHtml(choice.text)}</span>
       </label>
     `).join("")}
-    <button class="primary-button wide-button" type="submit">回答する</button>
+    ${instantAnswer ? "" : '<button class="primary-button wide-button" type="submit">回答する</button>'}
   `;
 }
 
@@ -84,6 +85,8 @@ function showAnswer(selectedChoiceId) {
   resultBox.hidden = false;
   resultBox.className = isCorrect ? "result-box is-correct" : "result-box is-wrong";
   resultMessage.textContent = isCorrect ? "正解です。" : "不正解です。";
+  const correctChoice = question.choices.find(choice => choice.id === question.correctChoiceId);
+  document.querySelector("#correct-answer").textContent = `正解：${correctChoice.text}`;
   explanationText.textContent = question.explanation;
   nextButton.hidden = false;
   nextButton.textContent = currentIndex + 1 < questions.length ? "次の問題" : "最初からもう一度";
@@ -137,7 +140,11 @@ try {
       subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
       subjectBreadcrumbLink.textContent = course.subjectName;
     }
-    if (course.gradeId === "junior-high") {
+    if (course.gradeId === "entrance-exam") {
+      schoolBreadcrumbLink.href = "./entrance-exam.html";
+      schoolBreadcrumbLink.textContent = "高校受験";
+      gradeBreadcrumbLink.hidden = true;
+    } else if (course.gradeId === "junior-high") {
       schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
       schoolBreadcrumbLink.textContent = course.gradeName;
       gradeBreadcrumbLink.hidden = true;
@@ -145,6 +152,7 @@ try {
       gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
       gradeBreadcrumbLink.textContent = course.gradeName;
     }
+    instantAnswer = course.gradeId === "entrance-exam";
     setQuestionOrder();
     renderQuestion();
   }
@@ -167,6 +175,7 @@ quizForm.addEventListener("submit", (event) => {
     resultBox.className = "result-box is-wrong";
     resultMessage.textContent = "選択肢を1つ選んでください。";
     explanationText.textContent = "";
+    document.querySelector("#correct-answer").textContent = "";
     return;
   }
 
@@ -185,4 +194,10 @@ randomToggle.addEventListener("change", () => {
 
   setQuestionOrder();
   renderQuestion();
+});
+
+quizForm.addEventListener("change", (event) => {
+  if (instantAnswer && !answered && questions.length > 0 && event.target.name === "choice") {
+    showAnswer(event.target.value);
+  }
 });

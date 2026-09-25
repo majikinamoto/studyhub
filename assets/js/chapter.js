@@ -46,7 +46,11 @@ try {
       subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
       subjectBreadcrumbLink.textContent = course.subjectName;
     }
-    if (course.gradeId === "junior-high") {
+    if (course.gradeId === "entrance-exam") {
+      schoolBreadcrumbLink.href = "./entrance-exam.html";
+      schoolBreadcrumbLink.textContent = "高校受験";
+      gradeBreadcrumbLink.hidden = true;
+    } else if (course.gradeId === "junior-high") {
       schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
       schoolBreadcrumbLink.textContent = course.gradeName;
       gradeBreadcrumbLink.hidden = true;
@@ -55,7 +59,7 @@ try {
       gradeBreadcrumbLink.textContent = course.gradeName;
     }
 
-    const showsUnitCards = chapter.id === "chapter-sports-01" || chapter.id === "chapter-social-history";
+    const showsUnitCards = chapter.showUnits === true || chapter.id === "chapter-sports-01" || chapter.id === "chapter-social-history";
 
     if (units.length > 0 && showsUnitCards) {
       if (startQuizCard) {

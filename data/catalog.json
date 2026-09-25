@@ -1,65 +1,82 @@
 {
-    "version":  1,
-    "courses":  [
-                    {
-                        "id":  "kosen-1-chemistry",
-                        "gradeId":  "kosen-1",
-                        "gradeName":  "高専1年",
-                        "subjectId":  "chemistry",
-                        "subjectName":  "化学",
-                        "description":  "1週間後のテスト対策用。第9章から第11章までを確認します。",
-                        "chapters":  [
-                                         {
-                                             "id":  "chapter-09",
-                                             "number":  "第9章",
-                                             "title":  "第9章",
-                                             "description":  "化学反応式、イオン反応式、化学反応式が表す量的関係を学びます。"
-                                         },
-                                         {
-                                             "id":  "chapter-10",
-                                             "number":  "第10章",
-                                             "title":  "第10章",
-                                             "description":  "物質の三態、状態変化、蒸気圧、分子間力、状態図を学びます。"
-                                         },
-                                         {
-                                             "id":  "chapter-11",
-                                             "number":  "第11章",
-                                             "title":  "第11章",
-                                             "description":  "気体の法則、状態方程式、混合気体、分圧、実在気体を学びます。"
-                                         }
-                                     ]
-                    },
-                    {
-                        "id":  "kosen-1-sports",
-                        "gradeId":  "kosen-1",
-                        "gradeName":  "高専1年",
-                        "subjectId":  "sports",
-                        "subjectName":  "スポーツ実技",
-                        "description":  "熱中症、たばこ・喫煙、受動喫煙について確認します。",
-                        "chapters":  [
-                                         {
-                                             "id":  "chapter-sports-01",
-                                             "number":  "前期",
-                                             "title":  "前期健康科学",
-                                             "description":  "熱中症、たばこ・喫煙、受動喫煙について確認します。"
-                                         }
-                                     ]
-                    },
-                    {
-                        "id":  "junior-high-social-studies",
-                        "gradeId":  "junior-high",
-                        "gradeName":  "中学",
-                        "subjectId":  "social-studies",
-                        "subjectName":  "社会",
-                        "description":  "中学校社会の重要事項を確認します。",
-                        "chapters":  [
-                                         {
-                                             "id":  "chapter-social-history",
-                                             "number":  "歴史",
-                                             "title":  "歴史",
-                                             "description":  "日本の歴史に関する重要事項を学びます。"
-                                         }
-                                     ]
-                    }
-                ]
+  "version": 1,
+  "courses": [
+    {
+      "id": "kosen-1-chemistry",
+      "gradeId": "kosen-1",
+      "gradeName": "高専1年",
+      "subjectId": "chemistry",
+      "subjectName": "化学",
+      "description": "1週間後のテスト対策用。第9章から第11章までを確認します。",
+      "chapters": [
+        {
+          "id": "chapter-09",
+          "number": "第9章",
+          "title": "第9章",
+          "description": "化学反応式、イオン反応式、化学反応式が表す量的関係を学びます。"
+        },
+        {
+          "id": "chapter-10",
+          "number": "第10章",
+          "title": "第10章",
+          "description": "物質の三態、状態変化、蒸気圧、分子間力、状態図を学びます。"
+        },
+        {
+          "id": "chapter-11",
+          "number": "第11章",
+          "title": "第11章",
+          "description": "気体の法則、状態方程式、混合気体、分圧、実在気体を学びます。"
+        }
+      ]
+    },
+    {
+      "id": "kosen-1-sports",
+      "gradeId": "kosen-1",
+      "gradeName": "高専1年",
+      "subjectId": "sports",
+      "subjectName": "スポーツ実技",
+      "description": "熱中症、たばこ・喫煙、受動喫煙について確認します。",
+      "chapters": [
+        {
+          "id": "chapter-sports-01",
+          "number": "前期",
+          "title": "前期健康科学",
+          "description": "熱中症、たばこ・喫煙、受動喫煙について確認します。"
+        }
+      ]
+    },
+    {
+      "id": "junior-high-social-studies",
+      "gradeId": "junior-high",
+      "gradeName": "中学",
+      "subjectId": "social-studies",
+      "subjectName": "社会",
+      "description": "中学校社会の重要事項を確認します。",
+      "chapters": [
+        {
+          "id": "chapter-social-history",
+          "number": "歴史",
+          "title": "歴史",
+          "description": "日本の歴史に関する重要事項を学びます。"
+        }
+      ]
+    },
+    {
+      "id": "entrance-social-studies",
+      "gradeId": "entrance-exam",
+      "gradeName": "高校受験",
+      "subjectId": "social-studies",
+      "subjectName": "社会",
+      "description": "高校入試 一問一答 社会。地理の22単元・278問を学びます。",
+      "chapters": [
+        {
+          "id": "chapter-entrance-social-geography",
+          "number": "地理",
+          "title": "地理",
+          "description": "学びたい単元を選んでください。選択肢を押すと正解と解説が表示されます。",
+          "showUnits": true
+        }
+      ]
+    }
+  ]
 }

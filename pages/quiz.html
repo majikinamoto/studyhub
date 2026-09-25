@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
@@ -45,8 +45,9 @@
 
       <form id="quiz-form" class="choice-list"></form>
 
-      <div id="result-box" class="result-box" hidden>
+      <div id="result-box" class="result-box" role="status" aria-live="polite" hidden>
         <p id="result-message" class="result-message"></p>
+        <p id="correct-answer" class="result-message"></p>
         <p id="explanation-text" class="explanation-text"></p>
       </div>
 

@@ -1,4 +1,4 @@
-﻿import { getCatalog, getQueryParam } from "./dataService.js";
+import { getCatalog, getQueryParam } from "./dataService.js";
 
 const courseId = getQueryParam("course", "kosen-1-chemistry");
 const subjectTitle = document.querySelector("#subject-title");
@@ -19,7 +19,11 @@ try {
   subjectBreadcrumb.textContent = course.subjectName;
   subjectDescription.textContent = course.description;
 
-  if (course.gradeId === "junior-high") {
+  if (course.gradeId === "entrance-exam") {
+      schoolBreadcrumbLink.href = "./entrance-exam.html";
+      schoolBreadcrumbLink.textContent = "高校受験";
+      gradeBreadcrumbLink.hidden = true;
+    } else if (course.gradeId === "junior-high") {
     schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
     schoolBreadcrumbLink.textContent = course.gradeName;
     gradeBreadcrumbLink.hidden = true;

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Central data access for StudyHub.
  * Phase 1.1 keeps data in JSON, but builds small indexes after loading.
  * Later, only this file should need to change when replacing JSON with an API.
@@ -57,7 +57,15 @@ export async function getCatalog() {
 }
 
 export async function getQuestionStore() {
-  const questionData = await fetchJson(new URL("questions.json", DATA_ROOT));
+  const [existing, geography] = await Promise.all([
+    fetchJson(new URL("questions.json", DATA_ROOT)),
+    fetchJson(new URL("entrance-geography.json", DATA_ROOT))
+  ]);
+  const questionData = {
+    meta: existing.meta,
+    units: [...existing.units, ...geography.units],
+    questions: [...existing.questions, ...geography.questions]
+  };
   return buildQuestionIndex(questionData);
 }
 
