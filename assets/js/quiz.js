@@ -1,5 +1,11 @@
 import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
 
+import { collectSelectedQuestions } from "./rangeSelection.js";
+const selectionParams = new URLSearchParams(window.location.search);
+const isSelection = selectionParams.get("selection") === "1";
+const requestedCount = selectionParams.get("count");
+const selectionLimit = isSelection && ["10", "20"].includes(requestedCount) ? Number(requestedCount) : Infinity;
+
 const unitId = getQueryParam("unit", "");
 const chapterId = getQueryParam("chapter", "");
 const chapterLabel = document.querySelector("#chapter-label");
@@ -50,6 +56,7 @@ function findChapter(course, targetChapterId) {
 
 function setQuestionOrder() {
   questions = randomToggle.checked ? shuffleQuestions(baseQuestions) : [...baseQuestions];
+  questions = questions.slice(0, selectionLimit);
   currentIndex = 0;
 }
 
@@ -113,7 +120,11 @@ try {
   let chapter;
   let unit;
 
-  if (unitId) {
+  if (isSelection) {
+    course = catalog.courses.find(item => item.id === selectionParams.get("course"));
+    baseQuestions = collectSelectedQuestions(course, questionStore, selectionParams.getAll("chapter"), selectionParams.getAll("unit"));
+    randomToggle.checked = true;
+  } else if (unitId) {
     unit = questionStore.units.find((item) => item.id === unitId);
     course = unit ? findCourseByChapter(catalog, unit.chapterId) : null;
     chapter = course && unit ? findChapter(course, unit.chapterId) : null;
@@ -125,12 +136,12 @@ try {
     baseQuestions = chapter ? questionStore.questionsByChapter.get(chapter.id) || [] : [];
   }
 
-  if (!course || !chapter || (unitId && !unit)) {
+  if (!course || (!isSelection && (!chapter || (unitId && !unit)))) {
     showMissing("指定された問題データが見つかりません。");
   } else if (baseQuestions.length === 0) {
     showMissing("この範囲の問題はまだありません。");
   } else {
-    const rangeLabel = unit ? `${chapter.number} ${unit.title}` : chapter.number;
+    const rangeLabel = isSelection ? "選んだ項目" : unit ? `${chapter.number} ${unit.title}` : chapter.number;
     chapterLabel.textContent = `${course.gradeName} ${course.subjectName} ${rangeLabel}`;
     if (quizTitle) {
       quizTitle.textContent = unit ? unit.title : "確認問題";

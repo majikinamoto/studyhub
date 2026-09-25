@@ -1,4 +1,6 @@
-import { getCatalog, getQueryParam } from "./dataService.js";
+import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
+
+import { mountRangeSelection } from "./rangeSelection.js";
 
 const courseId = getQueryParam("course", "kosen-1-chemistry");
 const subjectTitle = document.querySelector("#subject-title");
@@ -11,7 +13,7 @@ const schoolBreadcrumbLink = document.querySelector("#school-breadcrumb-link");
 const gradeBreadcrumbLink = document.querySelector("#grade-breadcrumb-link");
 
 try {
-  const catalog = await getCatalog();
+  const [catalog, questionStore] = await Promise.all([getCatalog(), getQuestionStore()]);
   const course = catalog.courses.find((item) => item.id === courseId) || catalog.courses[0];
 
   document.title = `${course.gradeName} ${course.subjectName} | StudyHub`;
@@ -63,6 +65,7 @@ try {
           : `<a class="primary-button" href="./chapter.html?chapter=${encodeURIComponent(chapter.id)}">開く</a>`}
       </article>
     `).join("");
+    mountRangeSelection(chapterList, course, course.chapters.map(c => ({ id: c.id, title: c.title, type: "chapter", count: c.available === false ? 0 : (questionStore.questionsByChapter.get(c.id) || []).length })));
   }
 } catch (error) {
   console.warn(error);

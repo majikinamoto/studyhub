@@ -1,5 +1,7 @@
 import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
 
+import { mountRangeSelection } from "./rangeSelection.js";
+
 const chapterId = getQueryParam("chapter", "chapter-09");
 const chapterTitle = document.querySelector("#chapter-title");
 const chapterDescription = document.querySelector("#chapter-description");
@@ -90,6 +92,7 @@ try {
           </article>
         `;
       }).join("");
+      mountRangeSelection(unitList, course, units.map(u => ({ id: u.id, title: u.title, type: "unit", count: (questionStore.questionsByUnit.get(u.id) || []).length })));
     } else {
       if (startQuizCard) {
         startQuizCard.hidden = false;
