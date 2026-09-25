@@ -20,16 +20,21 @@ try {
   subjectDescription.textContent = course.description;
 
   if (course.gradeId === "entrance-exam") {
-      schoolBreadcrumbLink.href = "./entrance-exam.html";
-      schoolBreadcrumbLink.textContent = "高校受験";
-      gradeBreadcrumbLink.hidden = true;
-    } else if (course.gradeId === "junior-high") {
+    schoolBreadcrumbLink.href = "./entrance-exam.html";
+    schoolBreadcrumbLink.textContent = "高校受験";
+    gradeBreadcrumbLink.hidden = true;
+  } else if (course.gradeId === "junior-high") {
     schoolBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
     schoolBreadcrumbLink.textContent = course.gradeName;
     gradeBreadcrumbLink.hidden = true;
   } else {
     gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
     gradeBreadcrumbLink.textContent = course.gradeName;
+  }
+
+  if (course.materialTitle) {
+    chapterListTitle.textContent = course.materialTitle;
+    chapterListCopy.textContent = "学習したい分野を選んでください。";
   }
 
   if (course.chapters.length === 0) {
@@ -42,7 +47,7 @@ try {
           <h3>${course.subjectName}</h3>
           <p>${course.description}</p>
         </div>
-        <a class="secondary-button" href="./subjects.html?grade=${course.gradeId}">教科一覧へ戻る</a>
+        <a class="secondary-button" href="${course.gradeId === "entrance-exam" ? "./entrance-exam.html" : `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`}">教科一覧へ戻る</a>
       </article>
     `;
   } else {
@@ -53,7 +58,9 @@ try {
           <h3>${chapter.title}</h3>
           <p>${chapter.description}</p>
         </div>
-        <a class="primary-button" href="./chapter.html?chapter=${chapter.id}">開く</a>
+        ${chapter.available === false
+          ? '<span class="primary-button is-disabled" aria-disabled="true">準備中</span>'
+          : `<a class="primary-button" href="./chapter.html?chapter=${encodeURIComponent(chapter.id)}">開く</a>`}
       </article>
     `).join("");
   }

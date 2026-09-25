@@ -29,6 +29,18 @@ try {
     if (startQuizCard) {
       startQuizCard.hidden = true;
     }
+  } else if (chapter.available === false) {
+    chapterTitle.textContent = `${chapter.title}（準備中）`;
+    chapterDescription.textContent = "この分野の教材は準備中です。";
+    if (startQuizCard) startQuizCard.hidden = true;
+    unitList.innerHTML = `<a class="secondary-button" href="./subject.html?course=${encodeURIComponent(course.id)}">社会の分野一覧へ戻る</a>`;
+    schoolBreadcrumbLink.href = "./entrance-exam.html";
+    schoolBreadcrumbLink.textContent = course.gradeName;
+    gradeBreadcrumbLink.hidden = true;
+    subjectBreadcrumbLink.href = `./subject.html?course=${encodeURIComponent(course.id)}`;
+    subjectBreadcrumbLink.textContent = course.subjectName;
+    chapterBreadcrumb.textContent = chapter.title;
+    chapterKicker.textContent = course.subjectName;
   } else {
     const units = (questionStore.units || [])
       .filter((unit) => unit.chapterId === chapter.id)

@@ -75,8 +75,23 @@
           "title": "地理",
           "description": "学びたい単元を選んでください。選択肢を押すと正解と解説が表示されます。",
           "showUnits": true
+        },
+        {
+          "id": "chapter-entrance-social-history",
+          "number": "歴史",
+          "title": "歴史",
+          "description": "日本と世界の歴史を学びます。",
+          "available": false
+        },
+        {
+          "id": "chapter-entrance-social-civics",
+          "number": "公民",
+          "title": "公民",
+          "description": "社会のしくみや政治・経済を学びます。",
+          "available": false
         }
-      ]
+      ],
+      "materialTitle": "高校入試 一問一答 社会"
     }
   ]
 }
