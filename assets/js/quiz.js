@@ -21,7 +21,6 @@ let baseQuestions = [];
 let questions = [];
 let currentIndex = 0;
 let answered = false;
-let instantAnswer = false;
 
 function escapeHtml(value) {
   const div = document.createElement("div");
@@ -73,7 +72,7 @@ function renderQuestion() {
         <span>${escapeHtml(choice.text)}</span>
       </label>
     `).join("")}
-    ${instantAnswer ? "" : '<button class="primary-button wide-button" type="submit">回答する</button>'}
+    <button class="primary-button wide-button" type="submit">回答する</button>
   `;
 }
 
@@ -152,7 +151,6 @@ try {
       gradeBreadcrumbLink.href = `./subjects.html?grade=${encodeURIComponent(course.gradeId)}`;
       gradeBreadcrumbLink.textContent = course.gradeName;
     }
-    instantAnswer = course.gradeId === "entrance-exam";
     setQuestionOrder();
     renderQuestion();
   }
@@ -194,10 +192,4 @@ randomToggle.addEventListener("change", () => {
 
   setQuestionOrder();
   renderQuestion();
-});
-
-quizForm.addEventListener("change", (event) => {
-  if (instantAnswer && !answered && questions.length > 0 && event.target.name === "choice") {
-    showAnswer(event.target.value);
-  }
 });

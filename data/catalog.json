@@ -73,7 +73,7 @@
           "id": "chapter-entrance-social-geography",
           "number": "地理",
           "title": "地理",
-          "description": "学びたい単元を選んでください。選択肢を押すと正解と解説が表示されます。",
+          "description": "学びたい単元を選んでください。ラジオボタンで選択し、「回答する」を押すと正解と解説が表示されます。",
           "showUnits": true
         },
         {
