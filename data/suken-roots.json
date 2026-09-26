@@ -1,0 +1,1069 @@
+{
+  "version": 1,
+  "title": "√の基礎〜有理化",
+  "note": "提供写真p.14〜18を参考に、未習得の基礎を補うオリジナル教材。最後の有理化問題はp.14の確認問題に対応。本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "squares",
+      "title": "2乗と負の数",
+      "steps": [
+        [
+          "2乗は2倍とは違う",
+          "3²は「3の2乗」。同じ3を2回掛けます。",
+          "3² = 3 × 3 = 9",
+          "3 × 2 = 6は2倍です。"
+        ],
+        [
+          "負の数を2乗する",
+          "かっこの中全体を2回掛けます。負の数同士の積は正になります。",
+          "(−3)² = (−3) × (−3) = 9",
+          "−3²は−(3 × 3)なので−9。かっこに注意。"
+        ],
+        [
+          "逆向きに考える",
+          "2乗すると16になる正の数を探しましょう。",
+          "4 × 4 = 16",
+          "次は、この逆向きの計算を√で表します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-squares-1",
+          "stage": "guided",
+          "text": "5²を掛け算に直すと？",
+          "hint": "右上の2は回数。掛ける数は5です。",
+          "explanation": "5² = 5 × 5 = 25。2乗と2倍を区別しよう。",
+          "correctChoiceId": "roots-squares-1-0",
+          "choices": [
+            {
+              "text": "5 × 5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-squares-1-0"
+            },
+            {
+              "text": "5 × 2",
+              "feedback": "それは5の2倍です。2乗は5を2回掛けます。",
+              "id": "roots-squares-1-1"
+            },
+            {
+              "text": "5 + 5",
+              "feedback": "それは足し算です。2乗では掛け算を使います。",
+              "id": "roots-squares-1-2"
+            },
+            {
+              "text": "2 × 2",
+              "feedback": "右上の2は回数。掛ける数は5のままです。",
+              "id": "roots-squares-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-squares-2",
+          "stage": "guided",
+          "text": "(−4)²の値は？",
+          "hint": "マイナス同士を掛けるとプラスです。",
+          "explanation": "(−4) × (−4) = 16。",
+          "correctChoiceId": "roots-squares-2-1",
+          "choices": [
+            {
+              "text": "−16",
+              "feedback": "負の数同士の積は正になります。",
+              "id": "roots-squares-2-0"
+            },
+            {
+              "text": "16",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-squares-2-1"
+            },
+            {
+              "text": "−8",
+              "feedback": "(−4)を2倍するのではなく、(−4)同士を掛けます。",
+              "id": "roots-squares-2-2"
+            },
+            {
+              "text": "8",
+              "feedback": "4 × 2ではなく4 × 4を計算します。",
+              "id": "roots-squares-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-squares-3",
+          "stage": "practice",
+          "text": "6²の値は？",
+          "hint": "6を2回掛けよう。",
+          "explanation": "6 × 6 = 36。12は6の2倍です。",
+          "correctChoiceId": "roots-squares-3-2",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "12は6の2倍です。今回は2乗です。",
+              "id": "roots-squares-3-0"
+            },
+            {
+              "text": "18",
+              "feedback": "6を2回掛けるので6 × 6です。",
+              "id": "roots-squares-3-1"
+            },
+            {
+              "text": "36",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-squares-3-2"
+            },
+            {
+              "text": "64",
+              "feedback": "64は8²です。今回は6²です。",
+              "id": "roots-squares-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-squares-4",
+          "stage": "practice",
+          "text": "(−5)²の値は？",
+          "hint": "かっこの中全体を2回掛けよう。",
+          "explanation": "(−5) × (−5) = 25。負の数同士の積は正です。",
+          "correctChoiceId": "roots-squares-4-3",
+          "choices": [
+            {
+              "text": "−25",
+              "feedback": "かっこの中が負でも、2回掛けると正になります。",
+              "id": "roots-squares-4-0"
+            },
+            {
+              "text": "−10",
+              "feedback": "2乗と2倍を区別しましょう。",
+              "id": "roots-squares-4-1"
+            },
+            {
+              "text": "10",
+              "feedback": "5 × 2ではなく5 × 5を使います。",
+              "id": "roots-squares-4-2"
+            },
+            {
+              "text": "25",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-squares-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-squares-5",
+          "stage": "practice",
+          "text": "2乗すると49になる正の数は？",
+          "hint": "同じ数同士を掛けて49になる組を探そう。",
+          "explanation": "7 × 7 = 49。−7も2乗すると49ですが、今回は正の数を聞いています。",
+          "correctChoiceId": "roots-squares-5-0",
+          "choices": [
+            {
+              "text": "7",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-squares-5-0"
+            },
+            {
+              "text": "−7",
+              "feedback": "−7も2乗すると49ですが、今回は正の数を聞いています。",
+              "id": "roots-squares-5-1"
+            },
+            {
+              "text": "24.5",
+              "feedback": "半分にする計算ではありません。",
+              "id": "roots-squares-5-2"
+            },
+            {
+              "text": "14",
+              "feedback": "2乗して49になる数を探します。7の2倍ではありません。",
+              "id": "roots-squares-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meaning",
+      "title": "√の意味",
+      "steps": [
+        [
+          "√はルートと読む",
+          "√9は「2乗すると9になる、0以上の数」です。",
+          "√9 = 3",
+          "3 × 3 = 9だからです。"
+        ],
+        [
+          "平方根との違い",
+          "9の平方根は3と−3の2つ。√9が表すのは3だけです。",
+          "9の平方根：±3 ／ √9：3",
+          "±はプラスとマイナスの両方という意味。√9を±3にはしません。"
+        ],
+        [
+          "整数にならなくても大丈夫",
+          "√2は2乗すると2になる正の数。そのまま正確な数を表せます。",
+          "1² < 2 < 2² なので 1 < √2 < 2",
+          "√2は約1.414ですが、計算では√2のまま使えます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-meaning-1",
+          "stage": "guided",
+          "text": "√16を求めるために探す数は？",
+          "hint": "√が表す値は0以上です。",
+          "explanation": "4² = 16なので√16 = 4。",
+          "correctChoiceId": "roots-meaning-1-2",
+          "choices": [
+            {
+              "text": "16の2倍",
+              "feedback": "2倍は掛ける2。√は2乗を逆に考える記号です。",
+              "id": "roots-meaning-1-0"
+            },
+            {
+              "text": "16の半分",
+              "feedback": "√は半分にする記号ではありません。",
+              "id": "roots-meaning-1-1"
+            },
+            {
+              "text": "2乗すると16になる0以上の数",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-meaning-1-2"
+            },
+            {
+              "text": "2乗すると16になる負の数",
+              "feedback": "√の値は0以上です。",
+              "id": "roots-meaning-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-meaning-2",
+          "stage": "guided",
+          "text": "√25の値は？",
+          "hint": "25の平方根と、√25の答えを区別しよう。",
+          "explanation": "25の平方根は±5ですが、√25は5だけを表します。",
+          "correctChoiceId": "roots-meaning-2-3",
+          "choices": [
+            {
+              "text": "±5",
+              "feedback": "±5は25の平方根です。√25は5だけを表します。",
+              "id": "roots-meaning-2-0"
+            },
+            {
+              "text": "−5",
+              "feedback": "√25の値は0以上です。",
+              "id": "roots-meaning-2-1"
+            },
+            {
+              "text": "12.5",
+              "feedback": "√は2で割る記号ではありません。",
+              "id": "roots-meaning-2-2"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-meaning-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-meaning-3",
+          "stage": "practice",
+          "text": "√36の値は？",
+          "hint": "6を2乗してみよう。",
+          "explanation": "6² = 36なので√36 = 6。",
+          "correctChoiceId": "roots-meaning-3-0",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-meaning-3-0"
+            },
+            {
+              "text": "±6",
+              "feedback": "±6は36の平方根。√36が表すのは6です。",
+              "id": "roots-meaning-3-1"
+            },
+            {
+              "text": "18",
+              "feedback": "√は半分にする記号ではありません。",
+              "id": "roots-meaning-3-2"
+            },
+            {
+              "text": "−6",
+              "feedback": "√36は0以上の値を表します。",
+              "id": "roots-meaning-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-meaning-4",
+          "stage": "practice",
+          "text": "√7はどの範囲？",
+          "hint": "7を整数の2乗ではさもう。",
+          "explanation": "2² = 4 < 7 < 9 = 3²なので、2 < √7 < 3。",
+          "correctChoiceId": "roots-meaning-4-1",
+          "choices": [
+            {
+              "text": "1より大きく2より小さい",
+              "feedback": "2² = 4なので、√7は2より大きくなります。",
+              "id": "roots-meaning-4-0"
+            },
+            {
+              "text": "2より大きく3より小さい",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-meaning-4-1"
+            },
+            {
+              "text": "3より大きく4より小さい",
+              "feedback": "3² = 9なので、√7は3より小さくなります。",
+              "id": "roots-meaning-4-2"
+            },
+            {
+              "text": "7より大きく8より小さい",
+              "feedback": "7ではなく、2乗して7になる数の範囲を考えます。",
+              "id": "roots-meaning-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-meaning-5",
+          "stage": "practice",
+          "text": "√0の値は？",
+          "hint": "0 × 0はいくつ？",
+          "explanation": "0² = 0なので√0 = 0。√の中は0でも大丈夫です。",
+          "correctChoiceId": "roots-meaning-5-2",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "1²は1です。0にはなりません。",
+              "id": "roots-meaning-5-0"
+            },
+            {
+              "text": "−1",
+              "feedback": "(−1)²も1です。",
+              "id": "roots-meaning-5-1"
+            },
+            {
+              "text": "0",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-meaning-5-2"
+            },
+            {
+              "text": "計算できない",
+              "feedback": "√の中は0でも大丈夫です。",
+              "id": "roots-meaning-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calculate",
+      "title": "√の掛け算と整理",
+      "steps": [
+        [
+          "同じ√を掛ける",
+          "√3は2乗すると3になる数。",
+          "√3 × √3 = 3",
+          "中の数を足すのではありません。"
+        ],
+        [
+          "√の中を掛ける",
+          "a、bが0以上なら、√a × √b = √(ab)です。",
+          "√2 × √8 = √16 = 4",
+          "掛け算のルールです。足し算には使えません。"
+        ],
+        [
+          "2乗になる部分を探す",
+          "12を4 × 3に分けます。√4 = 2を外へ出せます。",
+          "√12 = √4 × √3 = 2√3",
+          "2√3は2 × √3。同じ√なら、2√3 + 3√3 = 5√3のように個数を足せます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-calculate-1",
+          "stage": "guided",
+          "text": "√5 × √5の値は？",
+          "hint": "√5を2乗すると何になる？",
+          "explanation": "(√5)² = 5。25になるのは5 × 5です。",
+          "correctChoiceId": "roots-calculate-1-0",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-calculate-1-0"
+            },
+            {
+              "text": "√10",
+              "feedback": "中の数を足してはいけません。",
+              "id": "roots-calculate-1-1"
+            },
+            {
+              "text": "10",
+              "feedback": "√5は5ではありません。同じ√同士の積は中の数です。",
+              "id": "roots-calculate-1-2"
+            },
+            {
+              "text": "25",
+              "feedback": "25になるのは5 × 5です。",
+              "id": "roots-calculate-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-calculate-2",
+          "stage": "guided",
+          "text": "√20 = √(4 × 5)を簡単にすると？",
+          "hint": "√4はいくつ？",
+          "explanation": "√4 × √5 = 2√5。4をそのまま外に出さないようにしよう。",
+          "correctChoiceId": "roots-calculate-2-1",
+          "choices": [
+            {
+              "text": "4√5",
+              "feedback": "√4 = 2です。4をそのまま外に出しません。",
+              "id": "roots-calculate-2-0"
+            },
+            {
+              "text": "2√5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-calculate-2-1"
+            },
+            {
+              "text": "2√10",
+              "feedback": "外に出すのは√4の部分。中には5が残ります。",
+              "id": "roots-calculate-2-2"
+            },
+            {
+              "text": "√9",
+              "feedback": "掛け算を足し算に変えることはできません。",
+              "id": "roots-calculate-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-calculate-3",
+          "stage": "practice",
+          "text": "√18を簡単にすると？",
+          "hint": "18 = 9 × 2を使おう。",
+          "explanation": "√18 = √9 × √2 = 3√2。",
+          "correctChoiceId": "roots-calculate-3-2",
+          "choices": [
+            {
+              "text": "9√2",
+              "feedback": "√9 = 3なので外に出るのは3です。",
+              "id": "roots-calculate-3-0"
+            },
+            {
+              "text": "2√3",
+              "feedback": "2√3を2乗すると12。18にはなりません。",
+              "id": "roots-calculate-3-1"
+            },
+            {
+              "text": "3√2",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-calculate-3-2"
+            },
+            {
+              "text": "6",
+              "feedback": "6を2乗すると36。18にはなりません。",
+              "id": "roots-calculate-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-calculate-4",
+          "stage": "practice",
+          "text": "√3 × √12の値は？",
+          "hint": "√(3 × 12)にまとめよう。",
+          "explanation": "√36 = 6。中の数は足さずに掛け、最後に√36を計算します。",
+          "correctChoiceId": "roots-calculate-4-3",
+          "choices": [
+            {
+              "text": "√15",
+              "feedback": "中の数は足さずに掛けます。",
+              "id": "roots-calculate-4-0"
+            },
+            {
+              "text": "3√3",
+              "feedback": "√12 = 2√3。√3同士を掛ける部分も計算しましょう。",
+              "id": "roots-calculate-4-1"
+            },
+            {
+              "text": "36",
+              "feedback": "36は√の中の数。√36を計算して仕上げます。",
+              "id": "roots-calculate-4-2"
+            },
+            {
+              "text": "6",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-calculate-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-calculate-5",
+          "stage": "practice",
+          "text": "2√5 + √5をまとめると？",
+          "hint": "√5が2個と1個です。",
+          "explanation": "(2 + 1)√5 = 3√5。中の5は変えません。",
+          "correctChoiceId": "roots-calculate-5-0",
+          "choices": [
+            {
+              "text": "3√5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-calculate-5-0"
+            },
+            {
+              "text": "√15",
+              "feedback": "足すのは√5の個数。中の5は変えません。",
+              "id": "roots-calculate-5-1"
+            },
+            {
+              "text": "2√10",
+              "feedback": "掛け算のルールと混ぜないようにしましょう。",
+              "id": "roots-calculate-5-2"
+            },
+            {
+              "text": "3√10",
+              "feedback": "前の数は3ですが、√の中は5のままです。",
+              "id": "roots-calculate-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fractions",
+      "title": "分数の形を変える",
+      "steps": [
+        [
+          "分子と分母",
+          "分数の上が分子、下が分母。この教材の1/2という横書きでは、左が分子、右が分母です。",
+          "1/2 は「2分の1」",
+          "分母を0にはできません。"
+        ],
+        [
+          "上下に同じ数を掛ける",
+          "0でない同じ数を分子と分母に掛けても、値は変わりません。",
+          "1/2 = (1 × 3)/(2 × 3) = 3/6",
+          "3/3 = 1を掛けることになるからです。"
+        ],
+        [
+          "√でも使える",
+          "掛ける数は整数でなくても大丈夫です。",
+          "√2/√2 = 1",
+          "必ず上下セットで掛けます。片方だけでは値が変わります。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-fractions-1",
+          "stage": "guided",
+          "text": "1/3の分母を6にしたい。分子にも何を掛ける？",
+          "hint": "3に何を掛けると6になる？",
+          "explanation": "上下に2を掛けて、1/3 = 2/6。",
+          "correctChoiceId": "roots-fractions-1-2",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "分母を3倍ではなく2倍しています。",
+              "id": "roots-fractions-1-0"
+            },
+            {
+              "text": "6",
+              "feedback": "分母に掛けた数は6ではなく2です。",
+              "id": "roots-fractions-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-fractions-1-2"
+            },
+            {
+              "text": "何も掛けない",
+              "feedback": "分母だけを変えると値が変わります。",
+              "id": "roots-fractions-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-fractions-2",
+          "stage": "guided",
+          "text": "√3/√3の値は？",
+          "hint": "同じ数同士の割り算です。",
+          "explanation": "√3 ÷ √3 = 1。3になるのは√3 × √3、0になるのは√3 − √3です。",
+          "correctChoiceId": "roots-fractions-2-3",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "3になるのは√3 × √3です。今回は割り算です。",
+              "id": "roots-fractions-2-0"
+            },
+            {
+              "text": "√3",
+              "feedback": "同じ数で割ると1です。",
+              "id": "roots-fractions-2-1"
+            },
+            {
+              "text": "0",
+              "feedback": "0になるのは√3 − √3です。",
+              "id": "roots-fractions-2-2"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-fractions-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-fractions-3",
+          "stage": "practice",
+          "text": "2/5と同じ値の分数は？",
+          "hint": "上下に同じ倍率を掛けたものを選ぼう。",
+          "explanation": "上下を3倍して6/15。分子だけ、分母だけを変えてはいけません。",
+          "correctChoiceId": "roots-fractions-3-0",
+          "choices": [
+            {
+              "text": "6/15",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-fractions-3-0"
+            },
+            {
+              "text": "2/15",
+              "feedback": "分母だけを3倍すると値が変わります。",
+              "id": "roots-fractions-3-1"
+            },
+            {
+              "text": "6/5",
+              "feedback": "分子だけを3倍すると値が変わります。",
+              "id": "roots-fractions-3-2"
+            },
+            {
+              "text": "4/15",
+              "feedback": "分子は2倍、分母は3倍で、倍率が違います。",
+              "id": "roots-fractions-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-fractions-4",
+          "stage": "practice",
+          "text": "1/√5の分母に√5を掛けるなら、分子にも何を掛ける？",
+          "hint": "同じ数を、同じ符号で掛けます。",
+          "explanation": "上下に√5を掛ければ値は変わりません。",
+          "correctChoiceId": "roots-fractions-4-1",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "分母に掛けた数は5ではなく√5です。",
+              "id": "roots-fractions-4-0"
+            },
+            {
+              "text": "√5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-fractions-4-1"
+            },
+            {
+              "text": "1",
+              "feedback": "分子にも同じ数を掛けましょう。",
+              "id": "roots-fractions-4-2"
+            },
+            {
+              "text": "−√5",
+              "feedback": "掛ける数の符号も上下でそろえます。",
+              "id": "roots-fractions-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-fractions-5",
+          "stage": "practice",
+          "text": "(√2 × √3)/(2 × √3)を約分すると？",
+          "hint": "上下に共通して掛かる√3を探そう。",
+          "explanation": "上下を√3で割ると√2/2です。片方だけから消したり、共通でない√2を消したりしません。",
+          "correctChoiceId": "roots-fractions-5-2",
+          "choices": [
+            {
+              "text": "√2/√3",
+              "feedback": "共通の√3で割るので、分母には2が残ります。",
+              "id": "roots-fractions-5-0"
+            },
+            {
+              "text": "√6/2",
+              "feedback": "分母だけから√3を消してはいけません。",
+              "id": "roots-fractions-5-1"
+            },
+            {
+              "text": "√2/2",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-fractions-5-2"
+            },
+            {
+              "text": "1/2",
+              "feedback": "上下に共通していない√2まで消してはいけません。",
+              "id": "roots-fractions-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rationalize",
+      "title": "分母が√だけの有理化",
+      "steps": [
+        [
+          "有理化とは",
+          "分母の√をなくすように、同じ値の分数へ書き直すことです。",
+          "1/√2 → √2/2",
+          "分子に√が残っても大丈夫。値は変わりません。"
+        ],
+        [
+          "上下に同じ√を掛ける",
+          "分母が√2なら、√2をもう1つ掛けると2になります。分子にも掛けます。",
+          "1/√2 = (1 × √2)/(√2 × √2) = √2/2",
+          "分母だけに掛けないようにしよう。"
+        ],
+        [
+          "最後に約分する",
+          "上下に共通して掛かっている数があれば約分します。",
+          "3/√6 = 3√6/6 = √6/2",
+          "分子と分母の両方を3で割りました。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-rationalize-1",
+          "stage": "guided",
+          "text": "1/√3を有理化するため、上下に掛ける数は？",
+          "hint": "分母の√3を2乗にするには？",
+          "explanation": "√3 × √3 = 3となるので、上下に√3を掛けます。",
+          "correctChoiceId": "roots-rationalize-1-0",
+          "choices": [
+            {
+              "text": "√3",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-rationalize-1-0"
+            },
+            {
+              "text": "3",
+              "feedback": "3を掛けても3√3となり、√が残ります。",
+              "id": "roots-rationalize-1-1"
+            },
+            {
+              "text": "√2",
+              "feedback": "√2を掛けると分母は√6。√が残ります。",
+              "id": "roots-rationalize-1-2"
+            },
+            {
+              "text": "−3",
+              "feedback": "−3を掛けても√はなくなりません。",
+              "id": "roots-rationalize-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-rationalize-2",
+          "stage": "guided",
+          "text": "2/√5を有理化すると？",
+          "hint": "分子は2 × √5、分母は√5 × √5。",
+          "explanation": "分子は2√5、分母は5。もとの2も掛けた√5も忘れずに。",
+          "correctChoiceId": "roots-rationalize-2-1",
+          "choices": [
+            {
+              "text": "2/5",
+              "feedback": "分子に掛けた√5も残します。",
+              "id": "roots-rationalize-2-0"
+            },
+            {
+              "text": "2√5/5",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-rationalize-2-1"
+            },
+            {
+              "text": "√5/5",
+              "feedback": "分子にもともとある2を忘れずに。",
+              "id": "roots-rationalize-2-2"
+            },
+            {
+              "text": "2√5/√5",
+              "feedback": "分母の√5 × √5は5になります。",
+              "id": "roots-rationalize-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-rationalize-3",
+          "stage": "practice",
+          "text": "1/√7を有理化すると？",
+          "hint": "上下に√7を掛けよう。",
+          "explanation": "(1 × √7)/(√7 × √7) = √7/7。",
+          "correctChoiceId": "roots-rationalize-3-2",
+          "choices": [
+            {
+              "text": "1/7",
+              "feedback": "分母だけでなく、分子にも√7を掛けます。",
+              "id": "roots-rationalize-3-0"
+            },
+            {
+              "text": "7/√7",
+              "feedback": "上下に同じ数を掛けた形になっていません。",
+              "id": "roots-rationalize-3-1"
+            },
+            {
+              "text": "√7/7",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-rationalize-3-2"
+            },
+            {
+              "text": "√7",
+              "feedback": "分母の7を残しましょう。",
+              "id": "roots-rationalize-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-rationalize-4",
+          "stage": "practice",
+          "text": "3/√3を有理化して簡単にすると？",
+          "hint": "3√3/3にしてから約分しよう。",
+          "explanation": "上下に√3を掛けて3√3/3。3で約分して√3です。",
+          "correctChoiceId": "roots-rationalize-4-3",
+          "choices": [
+            {
+              "text": "3√3",
+              "feedback": "分母の3で約分するところまで進めましょう。",
+              "id": "roots-rationalize-4-0"
+            },
+            {
+              "text": "1",
+              "feedback": "√3と3は違う数です。3/3にはなりません。",
+              "id": "roots-rationalize-4-1"
+            },
+            {
+              "text": "√3/3",
+              "feedback": "分子は3√3なので、3を約分すると√3が残ります。",
+              "id": "roots-rationalize-4-2"
+            },
+            {
+              "text": "√3",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-rationalize-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-rationalize-5",
+          "stage": "practice",
+          "text": "2/√6を有理化して簡単にすると？",
+          "hint": "2√6/6にしてから上下を2で割ろう。",
+          "explanation": "2/√6 = 2√6/6 = √6/3。分子と分母の両方を2で割ります。",
+          "correctChoiceId": "roots-rationalize-5-0",
+          "choices": [
+            {
+              "text": "√6/3",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-rationalize-5-0"
+            },
+            {
+              "text": "√6/6",
+              "feedback": "分子の2を約分したら、分母も2で割ります。",
+              "id": "roots-rationalize-5-1"
+            },
+            {
+              "text": "2√6/3",
+              "feedback": "分母を2で割ったら、分子も2で割ります。",
+              "id": "roots-rationalize-5-2"
+            },
+            {
+              "text": "√3",
+              "feedback": "√6は約分で√3には変わりません。",
+              "id": "roots-rationalize-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conjugates",
+      "title": "分母が「√＋数」の有理化",
+      "steps": [
+        [
+          "かっこを1つずつ掛ける",
+          "左の各項を右の各項に掛けて広げることを展開といいます。",
+          "(a + b)(a − b) = a² − ab + ab − b² = a² − b²",
+          "真ん中の−abと+abが打ち消し合います。"
+        ],
+        [
+          "符号を変えた式を掛ける",
+          "分母が√3 + 1なら√3 − 1を掛けると、真ん中が消えます。",
+          "(√3 + 1)(√3 − 1) = 3 − 1 = 2",
+          "aを√3、bを1として、前の公式を使いました。"
+        ],
+        [
+          "分子にも同じ式を掛ける",
+          "分数の値を変えないため、上下に√3 − 1を掛けます。",
+          "1/(√3 + 1) = (√3 − 1)/2",
+          "横書きでは、かっこの中全体が分子や分母です。"
+        ],
+        [
+          "引き算の分母なら足し算に",
+          "√2 − 1には√2 + 1を掛けます。",
+          "1/(√2 − 1) = (√2 + 1)/(2 − 1) = √2 + 1",
+          "もとの分母は0でないことが必要です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "roots-conjugates-1",
+          "stage": "guided",
+          "text": "(√5 + 2)(√5 − 2)の値は？",
+          "hint": "a² − b²を使おう。",
+          "explanation": "(√5)² − 2² = 5 − 4 = 1。足すのではなく引きます。",
+          "correctChoiceId": "roots-conjugates-1-2",
+          "choices": [
+            {
+              "text": "9",
+              "feedback": "a² + b²ではなく、a² − b²です。",
+              "id": "roots-conjugates-1-0"
+            },
+            {
+              "text": "√5 − 4",
+              "feedback": "(√5)²は√5ではなく5です。",
+              "id": "roots-conjugates-1-1"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-conjugates-1-2"
+            },
+            {
+              "text": "5",
+              "feedback": "2² = 4を引くところも必要です。",
+              "id": "roots-conjugates-1-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-conjugates-2",
+          "stage": "guided",
+          "text": "1/(√5 + 1)を有理化するため、上下に掛ける式は？",
+          "hint": "2つの項の間の符号を変えよう。",
+          "explanation": "分母は(√5 + 1)(√5 − 1) = 4。同じ符号の式では√が残ります。",
+          "correctChoiceId": "roots-conjugates-2-3",
+          "choices": [
+            {
+              "text": "√5 + 1",
+              "feedback": "同じ符号の式を掛けると6 + 2√5となり、√が残ります。",
+              "id": "roots-conjugates-2-0"
+            },
+            {
+              "text": "√5",
+              "feedback": "√5だけでは分母が5 + √5となり、√が残ります。",
+              "id": "roots-conjugates-2-1"
+            },
+            {
+              "text": "1",
+              "feedback": "1を掛けても分母は変わりません。",
+              "id": "roots-conjugates-2-2"
+            },
+            {
+              "text": "√5 − 1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-conjugates-2-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-conjugates-3",
+          "stage": "practice",
+          "text": "1/(√3 − 1)を有理化すると？",
+          "hint": "上下に√3 + 1を掛けよう。",
+          "explanation": "分子は√3 + 1、分母は3 − 1 = 2です。",
+          "correctChoiceId": "roots-conjugates-3-0",
+          "choices": [
+            {
+              "text": "(√3 + 1)/2",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-conjugates-3-0"
+            },
+            {
+              "text": "(√3 − 1)/2",
+              "feedback": "分子には掛けた式√3 + 1が残ります。",
+              "id": "roots-conjugates-3-1"
+            },
+            {
+              "text": "√3 + 1",
+              "feedback": "分母は1ではなく2です。",
+              "id": "roots-conjugates-3-2"
+            },
+            {
+              "text": "(√3 + 1)/4",
+              "feedback": "分母は3 + 1ではなく3 − 1です。",
+              "id": "roots-conjugates-3-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-conjugates-4",
+          "stage": "practice",
+          "text": "1/(√2 + 1)を有理化すると？",
+          "hint": "上下に√2 − 1を掛けよう。",
+          "explanation": "分母は2 − 1 = 1なので、分子の√2 − 1が答えです。",
+          "correctChoiceId": "roots-conjugates-4-1",
+          "choices": [
+            {
+              "text": "√2 + 1",
+              "feedback": "上下に掛けるのは符号を変えた√2 − 1です。",
+              "id": "roots-conjugates-4-0"
+            },
+            {
+              "text": "√2 − 1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-conjugates-4-1"
+            },
+            {
+              "text": "(√2 − 1)/3",
+              "feedback": "分母は2 + 1ではなく2 − 1です。",
+              "id": "roots-conjugates-4-2"
+            },
+            {
+              "text": "1",
+              "feedback": "分母が1でも、分子の√2 − 1は残ります。",
+              "id": "roots-conjugates-4-3"
+            }
+          ]
+        },
+        {
+          "id": "roots-conjugates-5",
+          "stage": "practice",
+          "text": "(√3 + 1)/(√3 − 1)を有理化すると？",
+          "hint": "上下に√3 + 1を掛けると、分子は(√3 + 1)²。",
+          "explanation": "分子は3 + 2√3 + 1 = 4 + 2√3。分母は2。全体を2で割ると2 + √3です。",
+          "correctChoiceId": "roots-conjugates-5-2",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "(a + b)²には真ん中の2abもあります。",
+              "id": "roots-conjugates-5-0"
+            },
+            {
+              "text": "2 − √3",
+              "feedback": "分子は足し算の式の2乗なので、真ん中は+2√3です。",
+              "id": "roots-conjugates-5-1"
+            },
+            {
+              "text": "2 + √3",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "roots-conjugates-5-2"
+            },
+            {
+              "text": "4 + 2√3",
+              "feedback": "これは分子だけの値です。最後に分母の2で割ります。",
+              "id": "roots-conjugates-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
