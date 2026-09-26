@@ -1,0 +1,5416 @@
+{
+  "version": 2,
+  "meta": {
+    "title": "高校入試 一問一答 理科・物理編",
+    "targetCourseId": "entrance-science",
+    "questionFormat": "multiple-choice-4",
+    "status": "local-interactive",
+    "sourceTitle": "高校入試 入試問題で覚える 一問一答 理科 改訂版",
+    "sourcePages": "6–32",
+    "sourceImageCount": 14,
+    "originalQuestionCount": 161,
+    "questionCount": 168,
+    "note": "ユーザー提供の本文写真14枚を元に作成。力のはたらき第1問を3問、電流の性質第1問の回路記号を6問に分割。図・グラフは条件を文章で明示し、図の記号を答える設問や作図は同じ学習事項の4択に再構成。その他の複数解答欄は組み合わせ形式。既存の出題画面で回答後に解説を表示。"
+  },
+  "units": [
+    {
+      "id": "unit-entrance-physics-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 1,
+      "title": "光の進み方",
+      "sourceStartPage": 6,
+      "sourceQuestionCount": 13
+    },
+    {
+      "id": "unit-entrance-physics-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 2,
+      "title": "凸レンズを通った光",
+      "sourceStartPage": 8,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-physics-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 3,
+      "title": "音の性質",
+      "sourceStartPage": 10,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-physics-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 4,
+      "title": "力のはたらき",
+      "sourceStartPage": 12,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-physics-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 5,
+      "title": "電流の性質",
+      "sourceStartPage": 14,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-physics-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 6,
+      "title": "電流のはたらき",
+      "sourceStartPage": 16,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-physics-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 7,
+      "title": "静電気と電流",
+      "sourceStartPage": 18,
+      "sourceQuestionCount": 16
+    },
+    {
+      "id": "unit-entrance-physics-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 8,
+      "title": "電流と磁界",
+      "sourceStartPage": 20,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-physics-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 9,
+      "title": "電磁誘導",
+      "sourceStartPage": 22,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-physics-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 10,
+      "title": "力の合成と分解",
+      "sourceStartPage": 24,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-physics-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 11,
+      "title": "水中ではたらく力",
+      "sourceStartPage": 26,
+      "sourceQuestionCount": 5
+    },
+    {
+      "id": "unit-entrance-physics-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 12,
+      "title": "物体の運動",
+      "sourceStartPage": 27,
+      "sourceQuestionCount": 9
+    },
+    {
+      "id": "unit-entrance-physics-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 13,
+      "title": "仕事とエネルギー",
+      "sourceStartPage": 29,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-physics-14",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 14,
+      "title": "いろいろなエネルギー",
+      "sourceStartPage": 31,
+      "sourceQuestionCount": 15
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-entrance-physics-01-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 1,
+      "text": "自ら光を出す物体を何という？",
+      "correctChoiceId": "q-entrance-physics-01-01-c4",
+      "explanation": "太陽や点灯した電球のように、自ら光を出す物体を光源といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-01-c1",
+          "text": "実像"
+        },
+        {
+          "id": "q-entrance-physics-01-01-c2",
+          "text": "焦点"
+        },
+        {
+          "id": "q-entrance-physics-01-01-c3",
+          "text": "光軸"
+        },
+        {
+          "id": "q-entrance-physics-01-01-c4",
+          "text": "光源"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 2,
+      "text": "光が同じ種類の一様な物質の中をまっすぐ進む現象を何という？",
+      "correctChoiceId": "q-entrance-physics-01-02-c1",
+      "explanation": "光は同じ種類の一様な物質の中では直進します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-02-c1",
+          "text": "光の直進"
+        },
+        {
+          "id": "q-entrance-physics-01-02-c2",
+          "text": "光の反射"
+        },
+        {
+          "id": "q-entrance-physics-01-02-c3",
+          "text": "光の分散"
+        },
+        {
+          "id": "q-entrance-physics-01-02-c4",
+          "text": "光の屈折"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 3,
+      "text": "光が鏡などの表面に当たり、はね返る現象を何という？",
+      "correctChoiceId": "q-entrance-physics-01-03-c2",
+      "explanation": "光が物体の表面ではね返ることを反射といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-03-c1",
+          "text": "光の吸収"
+        },
+        {
+          "id": "q-entrance-physics-01-03-c2",
+          "text": "光の反射"
+        },
+        {
+          "id": "q-entrance-physics-01-03-c3",
+          "text": "光の屈折"
+        },
+        {
+          "id": "q-entrance-physics-01-03-c4",
+          "text": "光の直進"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 4,
+      "text": "鏡に入る光と、光が当たる点で鏡に垂直に引いた線との間の角を何という？",
+      "correctChoiceId": "q-entrance-physics-01-04-c1",
+      "explanation": "面に垂直な線を法線といい、入ってくる光と法線との角が入射角です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-04-c1",
+          "text": "入射角"
+        },
+        {
+          "id": "q-entrance-physics-01-04-c2",
+          "text": "屈折角"
+        },
+        {
+          "id": "q-entrance-physics-01-04-c3",
+          "text": "反射角"
+        },
+        {
+          "id": "q-entrance-physics-01-04-c4",
+          "text": "直角"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 4,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 5,
+      "text": "鏡ではね返った光と、鏡に垂直な線との間の角を何という？",
+      "correctChoiceId": "q-entrance-physics-01-05-c3",
+      "explanation": "反射角は、反射した光と法線との間の角です。鏡の面との角ではありません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-05-c1",
+          "text": "入射角"
+        },
+        {
+          "id": "q-entrance-physics-01-05-c2",
+          "text": "屈折角"
+        },
+        {
+          "id": "q-entrance-physics-01-05-c3",
+          "text": "反射角"
+        },
+        {
+          "id": "q-entrance-physics-01-05-c4",
+          "text": "中心角"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 6,
+      "text": "光の反射の法則で、入射角と反射角の大きさにはどのような関係がある？",
+      "correctChoiceId": "q-entrance-physics-01-06-c3",
+      "explanation": "反射の法則では、入射角と反射角の大きさは等しくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-06-c1",
+          "text": "反射角は入射角の2倍"
+        },
+        {
+          "id": "q-entrance-physics-01-06-c2",
+          "text": "反射角は必ず0°"
+        },
+        {
+          "id": "q-entrance-physics-01-06-c3",
+          "text": "入射角と反射角は等しい"
+        },
+        {
+          "id": "q-entrance-physics-01-06-c4",
+          "text": "入射角と反射角の和は必ず90°"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 7,
+      "text": "点Aから出た光を平面鏡で反射させて点Bへ届けたい。鏡に当てる位置を作図で求める正しい方法は？",
+      "correctChoiceId": "q-entrance-physics-01-07-c2",
+      "explanation": "Bを鏡の向こう側に対称移動すると、反射の法則を満たす経路を直線として求められます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-07-c1",
+          "text": "AとBを結んだ線と鏡の交点を求める"
+        },
+        {
+          "id": "q-entrance-physics-01-07-c2",
+          "text": "鏡に対してBと対称な点B′をとり、AとB′を結んだ線と鏡の交点を求める"
+        },
+        {
+          "id": "q-entrance-physics-01-07-c3",
+          "text": "Aから鏡に垂直な線を引き、その交点に必ず当てる"
+        },
+        {
+          "id": "q-entrance-physics-01-07-c4",
+          "text": "AとBの中点から鏡に平行な線を引く"
+        }
+      ],
+      "source": {
+        "page": 6,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 8,
+      "text": "光が空気からガラスなどへ進むとき、境界で進む向きが変わる現象を何という？",
+      "correctChoiceId": "q-entrance-physics-01-08-c1",
+      "explanation": "異なる物質の境界で光の進む向きが変わる現象を屈折といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-08-c1",
+          "text": "光の屈折"
+        },
+        {
+          "id": "q-entrance-physics-01-08-c2",
+          "text": "光の吸収"
+        },
+        {
+          "id": "q-entrance-physics-01-08-c3",
+          "text": "光の直進"
+        },
+        {
+          "id": "q-entrance-physics-01-08-c4",
+          "text": "光の反射"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 9,
+      "text": "空気からガラスへ斜めに入る光について、空気中の入射光と境界面に垂直な線との角を何という？",
+      "correctChoiceId": "q-entrance-physics-01-09-c4",
+      "explanation": "境界に入る前の光と法線がなす角は入射角です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-09-c1",
+          "text": "頂角"
+        },
+        {
+          "id": "q-entrance-physics-01-09-c2",
+          "text": "反射角"
+        },
+        {
+          "id": "q-entrance-physics-01-09-c3",
+          "text": "屈折角"
+        },
+        {
+          "id": "q-entrance-physics-01-09-c4",
+          "text": "入射角"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 10,
+      "text": "空気からガラスへ進んだ光について、ガラス中の屈折光と境界面に垂直な線との角を何という？",
+      "correctChoiceId": "q-entrance-physics-01-10-c4",
+      "explanation": "境界を通った後の光と法線がなす角が屈折角です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-10-c1",
+          "text": "中心角"
+        },
+        {
+          "id": "q-entrance-physics-01-10-c2",
+          "text": "入射角"
+        },
+        {
+          "id": "q-entrance-physics-01-10-c3",
+          "text": "反射角"
+        },
+        {
+          "id": "q-entrance-physics-01-10-c4",
+          "text": "屈折角"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 11,
+      "text": "光がガラスから空気へ斜めに進み、全反射せずに空気中へ出た。屈折角は入射角と比べてどうなる？",
+      "correctChoiceId": "q-entrance-physics-01-11-c4",
+      "explanation": "ガラスから空気へ出るときは法線から離れる方向へ曲がるため、屈折角が大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-11-c1",
+          "text": "屈折角は必ず0°"
+        },
+        {
+          "id": "q-entrance-physics-01-11-c2",
+          "text": "どの入射角でも必ず等しい"
+        },
+        {
+          "id": "q-entrance-physics-01-11-c3",
+          "text": "屈折角の方が小さい"
+        },
+        {
+          "id": "q-entrance-physics-01-11-c4",
+          "text": "屈折角の方が大きい"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 11,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 12,
+      "text": "水中から空気中へ向かう光の入射角がある角度を超えると、水面ですべて反射する。この現象は？",
+      "correctChoiceId": "q-entrance-physics-01-12-c4",
+      "explanation": "水から空気へ向かう光は、入射角が限界の角度を超えると全反射します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-12-c1",
+          "text": "光の直進"
+        },
+        {
+          "id": "q-entrance-physics-01-12-c2",
+          "text": "光の分散"
+        },
+        {
+          "id": "q-entrance-physics-01-12-c3",
+          "text": "乱反射"
+        },
+        {
+          "id": "q-entrance-physics-01-12-c4",
+          "text": "全反射"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-01-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-01",
+      "order": 13,
+      "text": "光がでこぼこした面で、さまざまな方向にはね返ることを何という？",
+      "correctChoiceId": "q-entrance-physics-01-13-c3",
+      "explanation": "表面の向きが場所によって異なるため、光はいろいろな方向へ反射します。各部分では反射の法則が成り立ちます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-01-13-c1",
+          "text": "直進"
+        },
+        {
+          "id": "q-entrance-physics-01-13-c2",
+          "text": "屈折"
+        },
+        {
+          "id": "q-entrance-physics-01-13-c3",
+          "text": "乱反射"
+        },
+        {
+          "id": "q-entrance-physics-01-13-c4",
+          "text": "全反射"
+        }
+      ],
+      "source": {
+        "page": 7,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 1,
+      "text": "凸レンズの中心を通り、レンズの面に垂直な直線を何という？",
+      "correctChoiceId": "q-entrance-physics-02-01-c4",
+      "explanation": "光軸は凸レンズの中心を通る基準の直線です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-01-c1",
+          "text": "焦点距離"
+        },
+        {
+          "id": "q-entrance-physics-02-01-c2",
+          "text": "焦点"
+        },
+        {
+          "id": "q-entrance-physics-02-01-c3",
+          "text": "屈折角"
+        },
+        {
+          "id": "q-entrance-physics-02-01-c4",
+          "text": "光軸"
+        }
+      ],
+      "source": {
+        "page": 8,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 2,
+      "text": "光軸に平行な光が凸レンズを通った後に集まる点を何という？",
+      "correctChoiceId": "q-entrance-physics-02-02-c3",
+      "explanation": "光軸に平行な光は、凸レンズで屈折して反対側の焦点を通ります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-02-c1",
+          "text": "光源"
+        },
+        {
+          "id": "q-entrance-physics-02-02-c2",
+          "text": "作用点"
+        },
+        {
+          "id": "q-entrance-physics-02-02-c3",
+          "text": "焦点"
+        },
+        {
+          "id": "q-entrance-physics-02-02-c4",
+          "text": "実像"
+        }
+      ],
+      "source": {
+        "page": 8,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 3,
+      "text": "凸レンズの手前側の焦点を通ってレンズに入った光は、通過後にどのように進む？",
+      "correctChoiceId": "q-entrance-physics-02-03-c3",
+      "explanation": "焦点を通って入った光は、凸レンズを通った後、光軸に平行になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-03-c1",
+          "text": "必ず来た道を戻る"
+        },
+        {
+          "id": "q-entrance-physics-02-03-c2",
+          "text": "必ず光軸に垂直に進む"
+        },
+        {
+          "id": "q-entrance-physics-02-03-c3",
+          "text": "光軸に平行に進む"
+        },
+        {
+          "id": "q-entrance-physics-02-03-c4",
+          "text": "反対側の焦点へ必ず集まる"
+        }
+      ],
+      "source": {
+        "page": 8,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 4,
+      "text": "凸レンズを通った光が実際に集まり、スクリーンに映る像を何という？",
+      "correctChoiceId": "q-entrance-physics-02-04-c2",
+      "explanation": "実際に光が集まることでできる像が実像です。スクリーンに映すことができます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-04-c1",
+          "text": "残像"
+        },
+        {
+          "id": "q-entrance-physics-02-04-c2",
+          "text": "実像"
+        },
+        {
+          "id": "q-entrance-physics-02-04-c3",
+          "text": "虚像"
+        },
+        {
+          "id": "q-entrance-physics-02-04-c4",
+          "text": "鏡面"
+        }
+      ],
+      "source": {
+        "page": 8,
+        "question": 4,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 5,
+      "text": "物体を凸レンズから焦点距離の2倍の位置に置いた。実像はレンズの反対側のどこにできる？",
+      "correctChoiceId": "q-entrance-physics-02-05-c1",
+      "explanation": "物体が焦点距離の2倍の位置にあると、実像も反対側の焦点距離の2倍の位置にできます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-05-c1",
+          "text": "焦点距離の2倍の位置"
+        },
+        {
+          "id": "q-entrance-physics-02-05-c2",
+          "text": "焦点の位置"
+        },
+        {
+          "id": "q-entrance-physics-02-05-c3",
+          "text": "レンズと焦点の間"
+        },
+        {
+          "id": "q-entrance-physics-02-05-c4",
+          "text": "焦点距離の4倍の位置"
+        }
+      ],
+      "source": {
+        "page": 8,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 6,
+      "text": "物体を凸レンズから焦点距離の2倍の位置に置いた。実像と物体の大きさの関係は？",
+      "correctChoiceId": "q-entrance-physics-02-06-c1",
+      "explanation": "この位置では、実像は物体と同じ大きさで、上下左右が逆になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-06-c1",
+          "text": "実像と物体は同じ大きさ"
+        },
+        {
+          "id": "q-entrance-physics-02-06-c2",
+          "text": "実像は物体の半分"
+        },
+        {
+          "id": "q-entrance-physics-02-06-c3",
+          "text": "実像は物体の4倍"
+        },
+        {
+          "id": "q-entrance-physics-02-06-c4",
+          "text": "実像は物体の2倍"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 7,
+      "text": "物体を凸レンズから焦点距離の2倍より遠くに置くと、実像は反対側のどこにできる？",
+      "correctChoiceId": "q-entrance-physics-02-07-c2",
+      "explanation": "物体が2倍の焦点距離より遠い場合、実像は焦点と2倍の焦点距離の位置との間にできます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-07-c1",
+          "text": "焦点距離の2倍より遠く"
+        },
+        {
+          "id": "q-entrance-physics-02-07-c2",
+          "text": "焦点と焦点距離の2倍の位置の間"
+        },
+        {
+          "id": "q-entrance-physics-02-07-c3",
+          "text": "レンズと焦点の間"
+        },
+        {
+          "id": "q-entrance-physics-02-07-c4",
+          "text": "物体と同じ側"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 8,
+      "text": "物体を凸レンズから焦点距離の2倍より遠くに置いた。実像の大きさは？",
+      "correctChoiceId": "q-entrance-physics-02-08-c3",
+      "explanation": "物体が遠いほど、できる実像は小さくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-08-c1",
+          "text": "物体より大きい"
+        },
+        {
+          "id": "q-entrance-physics-02-08-c2",
+          "text": "必ず物体の2倍"
+        },
+        {
+          "id": "q-entrance-physics-02-08-c3",
+          "text": "物体より小さい"
+        },
+        {
+          "id": "q-entrance-physics-02-08-c4",
+          "text": "物体と同じ"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 9,
+      "text": "物体を凸レンズの焦点の外側に置き、焦点へ近づけると、実像とレンズの距離はどうなる？",
+      "correctChoiceId": "q-entrance-physics-02-09-c3",
+      "explanation": "物体を焦点の外側から焦点に近づけると、実像はレンズから遠い位置にできます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-09-c1",
+          "text": "必ず焦点距離と等しくなる"
+        },
+        {
+          "id": "q-entrance-physics-02-09-c2",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-physics-02-09-c3",
+          "text": "長くなる"
+        },
+        {
+          "id": "q-entrance-physics-02-09-c4",
+          "text": "短くなる"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 10,
+      "text": "物体を凸レンズの焦点と焦点距離の2倍の位置の間に置いた。実像の大きさは？",
+      "correctChoiceId": "q-entrance-physics-02-10-c3",
+      "explanation": "物体が焦点と2倍の焦点距離の間にあると、反対側に拡大された実像ができます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-10-c1",
+          "text": "物体より小さい"
+        },
+        {
+          "id": "q-entrance-physics-02-10-c2",
+          "text": "必ず物体と同じ"
+        },
+        {
+          "id": "q-entrance-physics-02-10-c3",
+          "text": "物体より大きい"
+        },
+        {
+          "id": "q-entrance-physics-02-10-c4",
+          "text": "必ず物体の半分"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 11,
+      "text": "物体を凸レンズと焦点の間に置き、レンズ越しに見たときの像を何という？",
+      "correctChoiceId": "q-entrance-physics-02-11-c2",
+      "explanation": "焦点の内側に物体を置くと、光が実際には集まらない虚像が見えます。スクリーンには映りません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-11-c1",
+          "text": "光源"
+        },
+        {
+          "id": "q-entrance-physics-02-11-c2",
+          "text": "虚像"
+        },
+        {
+          "id": "q-entrance-physics-02-11-c3",
+          "text": "焦点"
+        },
+        {
+          "id": "q-entrance-physics-02-11-c4",
+          "text": "実像"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-physics-02-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-02",
+      "order": 12,
+      "text": "虫眼鏡として凸レンズを使い、物体を焦点の内側に置いた。見える虚像の向きと大きさは？",
+      "correctChoiceId": "q-entrance-physics-02-12-c2",
+      "explanation": "焦点の内側では、物体と同じ向きの拡大された虚像が見えます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-02-12-c1",
+          "text": "上下左右が逆で、物体より大きい"
+        },
+        {
+          "id": "q-entrance-physics-02-12-c2",
+          "text": "上下左右が同じ向きで、物体より大きい"
+        },
+        {
+          "id": "q-entrance-physics-02-12-c3",
+          "text": "上下左右が逆で、物体と同じ大きさ"
+        },
+        {
+          "id": "q-entrance-physics-02-12-c4",
+          "text": "上下左右が同じ向きで、物体より小さい"
+        }
+      ],
+      "source": {
+        "page": 9,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 1,
+      "text": "音源の振動の幅を何という？",
+      "correctChoiceId": "q-entrance-physics-03-01-c3",
+      "explanation": "振幅は振動の幅で、音の大きさに関係します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-01-c1",
+          "text": "速さ"
+        },
+        {
+          "id": "q-entrance-physics-03-01-c2",
+          "text": "波長"
+        },
+        {
+          "id": "q-entrance-physics-03-01-c3",
+          "text": "振幅"
+        },
+        {
+          "id": "q-entrance-physics-03-01-c4",
+          "text": "振動数"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 2,
+      "text": "音源が1秒間に振動する回数を何という？",
+      "correctChoiceId": "q-entrance-physics-03-02-c4",
+      "explanation": "振動数の単位はヘルツ（Hz）です。振動数が多いほど音は高くなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-02-c1",
+          "text": "振幅"
+        },
+        {
+          "id": "q-entrance-physics-03-02-c2",
+          "text": "音速"
+        },
+        {
+          "id": "q-entrance-physics-03-02-c3",
+          "text": "周期"
+        },
+        {
+          "id": "q-entrance-physics-03-02-c4",
+          "text": "振動数"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 3,
+      "text": "音は、空気などの何が伝わることで届く？",
+      "correctChoiceId": "q-entrance-physics-03-03-c2",
+      "explanation": "音は空気などの物質の振動が次々に伝わる現象です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-03-c1",
+          "text": "電荷"
+        },
+        {
+          "id": "q-entrance-physics-03-03-c2",
+          "text": "振動"
+        },
+        {
+          "id": "q-entrance-physics-03-03-c3",
+          "text": "熱だけ"
+        },
+        {
+          "id": "q-entrance-physics-03-03-c4",
+          "text": "光"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 4,
+      "text": "鳴っているブザーを容器に入れ、中の空気を抜いて真空に近づけると、音はどうなる？",
+      "correctChoiceId": "q-entrance-physics-03-04-c4",
+      "explanation": "空気が減ると振動を伝える物質が少なくなり、音が伝わりにくくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-04-c1",
+          "text": "音の高さだけが必ず上がる"
+        },
+        {
+          "id": "q-entrance-physics-03-04-c2",
+          "text": "必ず変わらず聞こえる"
+        },
+        {
+          "id": "q-entrance-physics-03-04-c3",
+          "text": "より大きく聞こえる"
+        },
+        {
+          "id": "q-entrance-physics-03-04-c4",
+          "text": "聞こえにくくなる"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 5,
+      "text": "稲妻が見えてから少し遅れて雷の音が聞こえるのはなぜ？",
+      "correctChoiceId": "q-entrance-physics-03-05-c3",
+      "explanation": "光は音よりはるかに速く届くため、先に稲妻が見えます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-05-c1",
+          "text": "光と音の速さが同じだから"
+        },
+        {
+          "id": "q-entrance-physics-03-05-c2",
+          "text": "音が空気中を伝わらないから"
+        },
+        {
+          "id": "q-entrance-physics-03-05-c3",
+          "text": "音の速さが光の速さより遅いから"
+        },
+        {
+          "id": "q-entrance-physics-03-05-c4",
+          "text": "音の速さが光の速さより速いから"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 6,
+      "text": "花火が光ってから2秒後に音が聞こえた。音の速さを340 m/s、光が届く時間を無視すると、花火までの距離は？",
+      "correctChoiceId": "q-entrance-physics-03-06-c1",
+      "explanation": "距離＝速さ×時間より、340×2＝680 mです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-06-c1",
+          "text": "680 m"
+        },
+        {
+          "id": "q-entrance-physics-03-06-c2",
+          "text": "340 m"
+        },
+        {
+          "id": "q-entrance-physics-03-06-c3",
+          "text": "1360 m"
+        },
+        {
+          "id": "q-entrance-physics-03-06-c4",
+          "text": "170 m"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 7,
+      "text": "オシロスコープの波形で、音の大きさは主に何で表される？",
+      "correctChoiceId": "q-entrance-physics-03-07-c3",
+      "explanation": "同じ目盛りで比べると、振幅が大きいほど大きな音です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-07-c1",
+          "text": "横軸全体の長さだけ"
+        },
+        {
+          "id": "q-entrance-physics-03-07-c2",
+          "text": "波形の色"
+        },
+        {
+          "id": "q-entrance-physics-03-07-c3",
+          "text": "振幅"
+        },
+        {
+          "id": "q-entrance-physics-03-07-c4",
+          "text": "1秒間の波の数だけ"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 8,
+      "text": "オシロスコープの波形で、音の高さは主に何に対応する？",
+      "correctChoiceId": "q-entrance-physics-03-08-c3",
+      "explanation": "同じ時間内の振動回数が多いほど、振動数が多く、高い音です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-08-c1",
+          "text": "画面の明るさ"
+        },
+        {
+          "id": "q-entrance-physics-03-08-c2",
+          "text": "振幅だけ"
+        },
+        {
+          "id": "q-entrance-physics-03-08-c3",
+          "text": "振動数"
+        },
+        {
+          "id": "q-entrance-physics-03-08-c4",
+          "text": "音源までの距離だけ"
+        }
+      ],
+      "source": {
+        "page": 10,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 9,
+      "text": "同じ目盛りの波形AとBは振動数が同じで、Aの振幅がBより大きい。どちらの音が大きい？",
+      "correctChoiceId": "q-entrance-physics-03-09-c2",
+      "explanation": "音の大きさは振幅で比較できます。振幅の大きいAの方が大きな音です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-09-c1",
+          "text": "どちらも同じ大きさ"
+        },
+        {
+          "id": "q-entrance-physics-03-09-c2",
+          "text": "Aの音"
+        },
+        {
+          "id": "q-entrance-physics-03-09-c3",
+          "text": "振幅では判断できない"
+        },
+        {
+          "id": "q-entrance-physics-03-09-c4",
+          "text": "Bの音"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 10,
+      "text": "同じ時間内に、波形Aは2回、波形Bは5回振動している。どちらの音が高い？",
+      "correctChoiceId": "q-entrance-physics-03-10-c2",
+      "explanation": "同じ時間に多く振動するBの方が、振動数が多く、高い音です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-10-c1",
+          "text": "Aの音"
+        },
+        {
+          "id": "q-entrance-physics-03-10-c2",
+          "text": "Bの音"
+        },
+        {
+          "id": "q-entrance-physics-03-10-c3",
+          "text": "どちらも同じ高さ"
+        },
+        {
+          "id": "q-entrance-physics-03-10-c4",
+          "text": "振動回数では判断できない"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 11,
+      "text": "モノコードの弦の長さと太さを変えず、弦を強く張ると、音はどうなる？",
+      "correctChoiceId": "q-entrance-physics-03-11-c4",
+      "explanation": "弦を強く張ると振動が速くなり、振動数が増えて高い音になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-11-c1",
+          "text": "振動数は減るが、高くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-11-c2",
+          "text": "振動数は増えるが、低くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-11-c3",
+          "text": "振動数が減り、低くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-11-c4",
+          "text": "振動数が増え、高くなる"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 12,
+      "text": "材質と張る強さが同じ弦で、振動する部分を短くすると、音はどうなる？",
+      "correctChoiceId": "q-entrance-physics-03-12-c3",
+      "explanation": "振動する弦が短いほど振動数は多くなり、音は高くなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-12-c1",
+          "text": "振動数が増え、低くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-12-c2",
+          "text": "振動数が減り、低くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-12-c3",
+          "text": "振動数が増え、高くなる"
+        },
+        {
+          "id": "q-entrance-physics-03-12-c4",
+          "text": "振動数と高さは変わらない"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 13,
+      "text": "同じモノコードで、音の大きさを大きくしたい。弦をどのようにはじく？",
+      "correctChoiceId": "q-entrance-physics-03-13-c4",
+      "explanation": "強くはじくと振幅が大きくなり、音が大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-13-c1",
+          "text": "弦の長さだけを短くする"
+        },
+        {
+          "id": "q-entrance-physics-03-13-c2",
+          "text": "弱くはじく"
+        },
+        {
+          "id": "q-entrance-physics-03-13-c3",
+          "text": "弦の張りだけを弱くする"
+        },
+        {
+          "id": "q-entrance-physics-03-13-c4",
+          "text": "強くはじく"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-physics-03-14",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-03",
+      "order": 14,
+      "text": "モノコードの弦を強く張ったり、振動する部分を短くしたりすると、主に音の何が変わる？",
+      "correctChoiceId": "q-entrance-physics-03-14-c3",
+      "explanation": "張りの強さや弦の長さを変えると振動数が変わり、音の高さが変化します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-03-14-c1",
+          "text": "音の伝わる向きだけ"
+        },
+        {
+          "id": "q-entrance-physics-03-14-c2",
+          "text": "光の速さ"
+        },
+        {
+          "id": "q-entrance-physics-03-14-c3",
+          "text": "音の高さ"
+        },
+        {
+          "id": "q-entrance-physics-03-14-c4",
+          "text": "音が伝わる空気中の速さ"
+        }
+      ],
+      "source": {
+        "page": 11,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 1,
+      "text": "力のはたらきの一つとして、スポンジを押すと物体の何が変わる？",
+      "correctChoiceId": "q-entrance-physics-04-01-c4",
+      "explanation": "力は物体を変形させるはたらきをもちます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-01-c1",
+          "text": "温度だけ"
+        },
+        {
+          "id": "q-entrance-physics-04-01-c2",
+          "text": "物質の種類"
+        },
+        {
+          "id": "q-entrance-physics-04-01-c3",
+          "text": "質量"
+        },
+        {
+          "id": "q-entrance-physics-04-01-c4",
+          "text": "形"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 1,
+        "part": "a"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 2,
+      "text": "ボールをけると速さや進む向きが変わる。力は物体の何を変えるはたらきをもつ？",
+      "correctChoiceId": "q-entrance-physics-04-02-c4",
+      "explanation": "力は物体の速さや運動の向きを変えることがあります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-02-c1",
+          "text": "物質の種類"
+        },
+        {
+          "id": "q-entrance-physics-04-02-c2",
+          "text": "体積だけ"
+        },
+        {
+          "id": "q-entrance-physics-04-02-c3",
+          "text": "質量"
+        },
+        {
+          "id": "q-entrance-physics-04-02-c4",
+          "text": "運動のようす"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 1,
+        "part": "b"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 3,
+      "text": "手で本を持ち上げて静止させるとき、手の力は本をどうしている？",
+      "correctChoiceId": "q-entrance-physics-04-03-c1",
+      "explanation": "上向きの力で物体を支えるのも力のはたらきです。重力自体がなくなるわけではありません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-03-c1",
+          "text": "支えている"
+        },
+        {
+          "id": "q-entrance-physics-04-03-c2",
+          "text": "重力を消している"
+        },
+        {
+          "id": "q-entrance-physics-04-03-c3",
+          "text": "必ず加速させている"
+        },
+        {
+          "id": "q-entrance-physics-04-03-c4",
+          "text": "質量をなくしている"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 1,
+        "part": "c"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 4,
+      "text": "力の大きさを表す単位Nの読み方は？",
+      "correctChoiceId": "q-entrance-physics-04-04-c1",
+      "explanation": "力の単位Nはニュートンです。Jは仕事、Wは仕事率、Paは圧力の単位です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-04-c1",
+          "text": "ニュートン"
+        },
+        {
+          "id": "q-entrance-physics-04-04-c2",
+          "text": "パスカル"
+        },
+        {
+          "id": "q-entrance-physics-04-04-c3",
+          "text": "ジュール"
+        },
+        {
+          "id": "q-entrance-physics-04-04-c4",
+          "text": "ワット"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 5,
+      "text": "地球が物体を地球の中心に向かって引く力を何という？",
+      "correctChoiceId": "q-entrance-physics-04-05-c4",
+      "explanation": "重力は地球が物体を引く力で、地表付近ではほぼ鉛直下向きにはたらきます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-05-c1",
+          "text": "浮力"
+        },
+        {
+          "id": "q-entrance-physics-04-05-c2",
+          "text": "弾性力"
+        },
+        {
+          "id": "q-entrance-physics-04-05-c3",
+          "text": "摩擦力"
+        },
+        {
+          "id": "q-entrance-physics-04-05-c4",
+          "text": "重力"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 6,
+      "text": "机に置いた物体を机の面が垂直に押し返す力を何という？",
+      "correctChoiceId": "q-entrance-physics-04-06-c1",
+      "explanation": "面が物体を垂直方向に押す力を垂直抗力といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-06-c1",
+          "text": "垂直抗力"
+        },
+        {
+          "id": "q-entrance-physics-04-06-c2",
+          "text": "磁力"
+        },
+        {
+          "id": "q-entrance-physics-04-06-c3",
+          "text": "重力"
+        },
+        {
+          "id": "q-entrance-physics-04-06-c4",
+          "text": "張力"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 7,
+      "text": "ばねののびが加えた力に比例するという法則は？",
+      "correctChoiceId": "q-entrance-physics-04-07-c3",
+      "explanation": "ばねがもとに戻れる範囲では、ばねののびは加えた力の大きさに比例します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-07-c1",
+          "text": "反射の法則"
+        },
+        {
+          "id": "q-entrance-physics-04-07-c2",
+          "text": "慣性の法則"
+        },
+        {
+          "id": "q-entrance-physics-04-07-c3",
+          "text": "フックの法則"
+        },
+        {
+          "id": "q-entrance-physics-04-07-c4",
+          "text": "オームの法則"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 8,
+      "text": "0.4 Nの力で2 cmのびるばねに0.9 Nの力を加えた。のびは何cm？",
+      "correctChoiceId": "q-entrance-physics-04-08-c4",
+      "explanation": "のびは力に比例するので、2×0.9÷0.4＝4.5 cmです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-08-c1",
+          "text": "9 cm"
+        },
+        {
+          "id": "q-entrance-physics-04-08-c2",
+          "text": "2.5 cm"
+        },
+        {
+          "id": "q-entrance-physics-04-08-c3",
+          "text": "0.9 cm"
+        },
+        {
+          "id": "q-entrance-physics-04-08-c4",
+          "text": "4.5 cm"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 9,
+      "text": "0.4 Nの力で2 cmのびるばねが6 cmのびた。このばねに加えた力は？",
+      "correctChoiceId": "q-entrance-physics-04-09-c2",
+      "explanation": "のびが2 cmの3倍なので、力も0.4 Nの3倍で1.2 Nです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-09-c1",
+          "text": "0.6 N"
+        },
+        {
+          "id": "q-entrance-physics-04-09-c2",
+          "text": "1.2 N"
+        },
+        {
+          "id": "q-entrance-physics-04-09-c3",
+          "text": "3 N"
+        },
+        {
+          "id": "q-entrance-physics-04-09-c4",
+          "text": "2.4 N"
+        }
+      ],
+      "source": {
+        "page": 12,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 10,
+      "text": "ばねにつるしたおもりが静止している。おもりにはたらく、つり合う2力の組み合わせは？",
+      "correctChoiceId": "q-entrance-physics-04-10-c1",
+      "explanation": "静止しているおもりでは、下向きの重力と上向きのばねの力がつり合います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-10-c1",
+          "text": "下向きの重力と上向きのばねの力"
+        },
+        {
+          "id": "q-entrance-physics-04-10-c2",
+          "text": "下向きの重力と下向きのばねの力"
+        },
+        {
+          "id": "q-entrance-physics-04-10-c3",
+          "text": "上向きの重力と下向きのばねの力"
+        },
+        {
+          "id": "q-entrance-physics-04-10-c4",
+          "text": "重力と水平方向の摩擦力"
+        }
+      ],
+      "source": {
+        "page": 13,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 11,
+      "text": "一つの物体にはたらく2力がつり合う条件は？",
+      "correctChoiceId": "q-entrance-physics-04-11-c3",
+      "explanation": "2力のつり合いには、大きさが等しい・一直線上・逆向きの3条件が必要です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-11-c1",
+          "text": "大きさが異なり、同一直線上で逆向き"
+        },
+        {
+          "id": "q-entrance-physics-04-11-c2",
+          "text": "大きさが等しく、同一直線上で同じ向き"
+        },
+        {
+          "id": "q-entrance-physics-04-11-c3",
+          "text": "大きさが等しく、同一直線上で逆向き"
+        },
+        {
+          "id": "q-entrance-physics-04-11-c4",
+          "text": "大きさが等しく、互いに垂直"
+        }
+      ],
+      "source": {
+        "page": 13,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-04-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-04",
+      "order": 12,
+      "text": "点Oを始点とする力Fの矢印に対し、同じ点Oから、逆向きで大きさが半分の力を表すには？",
+      "correctChoiceId": "q-entrance-physics-04-12-c2",
+      "explanation": "力の矢印では向きが力の向き、長さが力の大きさを表します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-04-12-c1",
+          "text": "Fと同じ向きに、長さが半分の矢印をかく"
+        },
+        {
+          "id": "q-entrance-physics-04-12-c2",
+          "text": "Fと逆向きに、長さが半分の矢印をかく"
+        },
+        {
+          "id": "q-entrance-physics-04-12-c3",
+          "text": "Fと逆向きに、長さが2倍の矢印をかく"
+        },
+        {
+          "id": "q-entrance-physics-04-12-c4",
+          "text": "Fと垂直に、同じ長さの矢印をかく"
+        }
+      ],
+      "source": {
+        "page": 13,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 1,
+      "text": "電気用図記号で、長い線と短い線を平行に並べて表すものは？",
+      "correctChoiceId": "q-entrance-physics-05-01-c3",
+      "explanation": "長短2本の線で電池を表します。長い方が＋極、短い方が－極です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-01-c1",
+          "text": "抵抗"
+        },
+        {
+          "id": "q-entrance-physics-05-01-c2",
+          "text": "電流計"
+        },
+        {
+          "id": "q-entrance-physics-05-01-c3",
+          "text": "電池"
+        },
+        {
+          "id": "q-entrance-physics-05-01-c4",
+          "text": "スイッチ"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "a",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 2,
+      "text": "回路図で、導線を途中で開いたり閉じたりする部分を表す記号は？",
+      "correctChoiceId": "q-entrance-physics-05-02-c4",
+      "explanation": "スイッチは回路をつないだり切ったりして、電流が流れるかを切り替えます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-02-c1",
+          "text": "電池"
+        },
+        {
+          "id": "q-entrance-physics-05-02-c2",
+          "text": "抵抗"
+        },
+        {
+          "id": "q-entrance-physics-05-02-c3",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-physics-05-02-c4",
+          "text": "スイッチ"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "b",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 3,
+      "text": "回路図で、導線の途中に長方形をかいて表すものは？",
+      "correctChoiceId": "q-entrance-physics-05-03-c1",
+      "explanation": "長方形は抵抗を表す記号です。抵抗は電流の流れにくさに関係します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-03-c1",
+          "text": "抵抗"
+        },
+        {
+          "id": "q-entrance-physics-05-03-c2",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-physics-05-03-c3",
+          "text": "導線の交点"
+        },
+        {
+          "id": "q-entrance-physics-05-03-c4",
+          "text": "電池"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "c",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 4,
+      "text": "円の中にVを書いた電気用図記号は何を表す？",
+      "correctChoiceId": "q-entrance-physics-05-04-c1",
+      "explanation": "Vは電圧計の記号です。電圧を測りたい部分に並列につなぎます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-04-c1",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-physics-05-04-c2",
+          "text": "抵抗"
+        },
+        {
+          "id": "q-entrance-physics-05-04-c3",
+          "text": "電流計"
+        },
+        {
+          "id": "q-entrance-physics-05-04-c4",
+          "text": "電池"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "d",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 5,
+      "text": "円の中にAを書いた電気用図記号は何を表す？",
+      "correctChoiceId": "q-entrance-physics-05-05-c3",
+      "explanation": "Aは電流計の記号です。電流を測りたい部分に直列につなぎます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-05-c1",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-physics-05-05-c2",
+          "text": "スイッチ"
+        },
+        {
+          "id": "q-entrance-physics-05-05-c3",
+          "text": "電流計"
+        },
+        {
+          "id": "q-entrance-physics-05-05-c4",
+          "text": "電池"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "e",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 6,
+      "text": "回路図で導線が交差する点に黒い丸があるとき、何を示す？",
+      "correctChoiceId": "q-entrance-physics-05-06-c4",
+      "explanation": "黒い丸は導線が接続されていることを表します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-06-c1",
+          "text": "その点で導線が切れている"
+        },
+        {
+          "id": "q-entrance-physics-05-06-c2",
+          "text": "その点の電圧が必ず0 Vである"
+        },
+        {
+          "id": "q-entrance-physics-05-06-c3",
+          "text": "その点に必ず電池がある"
+        },
+        {
+          "id": "q-entrance-physics-05-06-c4",
+          "text": "その点で導線がつながっている"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 1,
+        "part": "f",
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 7,
+      "text": "2個の抵抗を、電流の通り道が枝分かれしないように一列につないだ回路は？",
+      "correctChoiceId": "q-entrance-physics-05-07-c3",
+      "explanation": "直列回路では電流の通り道が一本で、各抵抗に同じ大きさの電流が流れます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-07-c1",
+          "text": "開回路"
+        },
+        {
+          "id": "q-entrance-physics-05-07-c2",
+          "text": "並列回路"
+        },
+        {
+          "id": "q-entrance-physics-05-07-c3",
+          "text": "直列回路"
+        },
+        {
+          "id": "q-entrance-physics-05-07-c4",
+          "text": "短絡回路"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 8,
+      "text": "2個の抵抗を、電流の通り道が枝分かれするようにつないだ回路は？",
+      "correctChoiceId": "q-entrance-physics-05-08-c3",
+      "explanation": "並列回路では電流が枝分かれし、各枝の抵抗に同じ電圧がかかります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-08-c1",
+          "text": "開回路"
+        },
+        {
+          "id": "q-entrance-physics-05-08-c2",
+          "text": "短絡回路"
+        },
+        {
+          "id": "q-entrance-physics-05-08-c3",
+          "text": "並列回路"
+        },
+        {
+          "id": "q-entrance-physics-05-08-c4",
+          "text": "直列回路"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 9,
+      "text": "電流計は、電流を測りたい部分にどのようにつなぐ？",
+      "correctChoiceId": "q-entrance-physics-05-09-c2",
+      "explanation": "電流計には測りたい電流そのものを流すため、直列につなぎます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-09-c1",
+          "text": "電源の両端へ直接つなぐ"
+        },
+        {
+          "id": "q-entrance-physics-05-09-c2",
+          "text": "直列につなぐ"
+        },
+        {
+          "id": "q-entrance-physics-05-09-c3",
+          "text": "回路から切り離して置く"
+        },
+        {
+          "id": "q-entrance-physics-05-09-c4",
+          "text": "並列につなぐ"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 10,
+      "text": "流れる電流の大きさが分からないとき、電流計の－端子は最初にどれを使う？",
+      "correctChoiceId": "q-entrance-physics-05-10-c2",
+      "explanation": "計器を保護するため、最初は最大の測定範囲の端子を使います。5 A端子が最大なら5 Aから始めます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-10-c1",
+          "text": "どの端子でも同じ"
+        },
+        {
+          "id": "q-entrance-physics-05-10-c2",
+          "text": "最大の電流まで測れる端子"
+        },
+        {
+          "id": "q-entrance-physics-05-10-c3",
+          "text": "－端子を使わない"
+        },
+        {
+          "id": "q-entrance-physics-05-10-c4",
+          "text": "最小の電流しか測れない端子"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 11,
+      "text": "電圧計は、電圧を測りたい部分にどのようにつなぐ？",
+      "correctChoiceId": "q-entrance-physics-05-11-c3",
+      "explanation": "電圧は2点間で測るため、測定する部分の両端に並列につなぎます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-11-c1",
+          "text": "片方の端子だけつなぐ"
+        },
+        {
+          "id": "q-entrance-physics-05-11-c2",
+          "text": "直列につなぐ"
+        },
+        {
+          "id": "q-entrance-physics-05-11-c3",
+          "text": "並列につなぐ"
+        },
+        {
+          "id": "q-entrance-physics-05-11-c4",
+          "text": "必ずスイッチの代わりにつなぐ"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 12,
+      "text": "電流計を500 mAの測定範囲で使い、0〜50の目盛りが15を示した。電流は？",
+      "correctChoiceId": "q-entrance-physics-05-12-c1",
+      "explanation": "50の目盛りが500 mAなので、15÷50×500＝150 mAです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-12-c1",
+          "text": "150 mA"
+        },
+        {
+          "id": "q-entrance-physics-05-12-c2",
+          "text": "15 mA"
+        },
+        {
+          "id": "q-entrance-physics-05-12-c3",
+          "text": "1500 mA"
+        },
+        {
+          "id": "q-entrance-physics-05-12-c4",
+          "text": "50 mA"
+        }
+      ],
+      "source": {
+        "page": 14,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 13,
+      "text": "直列回路の電流を、電源の近くでI、抵抗1でI₁、抵抗2でI₂とした。正しい関係は？",
+      "correctChoiceId": "q-entrance-physics-05-13-c1",
+      "explanation": "直列回路では枝分かれがないため、どこでも電流の大きさは同じです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-13-c1",
+          "text": "I＝I₁＝I₂"
+        },
+        {
+          "id": "q-entrance-physics-05-13-c2",
+          "text": "I＝I₁＋I₂"
+        },
+        {
+          "id": "q-entrance-physics-05-13-c3",
+          "text": "I＝0"
+        },
+        {
+          "id": "q-entrance-physics-05-13-c4",
+          "text": "I₁＝2I₂が必ず成り立つ"
+        }
+      ],
+      "source": {
+        "page": 15,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-14",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 14,
+      "text": "抵抗2個を直列につないだ。電源の電圧Vと各抵抗の電圧V₁、V₂の関係は？",
+      "correctChoiceId": "q-entrance-physics-05-14-c2",
+      "explanation": "直列回路では、各抵抗にかかる電圧の和が全体の電圧です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-14-c1",
+          "text": "V＝V₁－V₂"
+        },
+        {
+          "id": "q-entrance-physics-05-14-c2",
+          "text": "V＝V₁＋V₂"
+        },
+        {
+          "id": "q-entrance-physics-05-14-c3",
+          "text": "V＝V₁÷V₂"
+        },
+        {
+          "id": "q-entrance-physics-05-14-c4",
+          "text": "V＝V₁＝V₂"
+        }
+      ],
+      "source": {
+        "page": 15,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-15",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 15,
+      "text": "並列回路で全体の電流をI、2本の枝の電流をI₁、I₂とした。正しい関係は？",
+      "correctChoiceId": "q-entrance-physics-05-15-c4",
+      "explanation": "枝分かれする前の電流は、各枝に流れる電流の和です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-15-c1",
+          "text": "I₁とI₂は必ず0"
+        },
+        {
+          "id": "q-entrance-physics-05-15-c2",
+          "text": "I＝I₁＝I₂"
+        },
+        {
+          "id": "q-entrance-physics-05-15-c3",
+          "text": "I＝I₁－I₂"
+        },
+        {
+          "id": "q-entrance-physics-05-15-c4",
+          "text": "I＝I₁＋I₂"
+        }
+      ],
+      "source": {
+        "page": 15,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-05-16",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-05",
+      "order": 16,
+      "text": "抵抗2個を並列につないだ。電源の電圧Vと各抵抗の電圧V₁、V₂の関係は？",
+      "correctChoiceId": "q-entrance-physics-05-16-c1",
+      "explanation": "並列回路では、各抵抗の両端が共通の2点につながるため、電圧が等しくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-05-16-c1",
+          "text": "V＝V₁＝V₂"
+        },
+        {
+          "id": "q-entrance-physics-05-16-c2",
+          "text": "V＝V₁＋V₂"
+        },
+        {
+          "id": "q-entrance-physics-05-16-c3",
+          "text": "V₁は必ずV₂の2倍"
+        },
+        {
+          "id": "q-entrance-physics-05-16-c4",
+          "text": "V＝V₁－V₂"
+        }
+      ],
+      "source": {
+        "page": 15,
+        "question": 11,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 1,
+      "text": "抵抗に流れる電流が、加えた電圧に比例するという法則は？",
+      "correctChoiceId": "q-entrance-physics-06-01-c2",
+      "explanation": "一定の抵抗では、電圧V＝抵抗R×電流Iという関係が成り立ちます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-01-c1",
+          "text": "反射の法則"
+        },
+        {
+          "id": "q-entrance-physics-06-01-c2",
+          "text": "オームの法則"
+        },
+        {
+          "id": "q-entrance-physics-06-01-c3",
+          "text": "慣性の法則"
+        },
+        {
+          "id": "q-entrance-physics-06-01-c4",
+          "text": "フックの法則"
+        }
+      ],
+      "source": {
+        "page": 16,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 2,
+      "text": "10 Ωの抵抗に1.5 Vの電圧を加えた。流れる電流は？",
+      "correctChoiceId": "q-entrance-physics-06-02-c4",
+      "explanation": "I＝V÷Rより、1.5÷10＝0.15 Aです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-02-c1",
+          "text": "1.5 A"
+        },
+        {
+          "id": "q-entrance-physics-06-02-c2",
+          "text": "15 A"
+        },
+        {
+          "id": "q-entrance-physics-06-02-c3",
+          "text": "6.7 A"
+        },
+        {
+          "id": "q-entrance-physics-06-02-c4",
+          "text": "0.15 A"
+        }
+      ],
+      "source": {
+        "page": 16,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 3,
+      "text": "抵抗に2 Vの電圧を加えると0.2 Aの電流が流れた。抵抗は？",
+      "correctChoiceId": "q-entrance-physics-06-03-c1",
+      "explanation": "R＝V÷Iより、2÷0.2＝10 Ωです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-03-c1",
+          "text": "10 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-03-c2",
+          "text": "2.2 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-03-c3",
+          "text": "0.1 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-03-c4",
+          "text": "0.4 Ω"
+        }
+      ],
+      "source": {
+        "page": 16,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 4,
+      "text": "20 Ωと40 Ωの抵抗を直列につないだ。全体の抵抗は？",
+      "correctChoiceId": "q-entrance-physics-06-04-c3",
+      "explanation": "直列回路の全体の抵抗は和なので、20＋40＝60 Ωです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-04-c1",
+          "text": "約13.3 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-04-c2",
+          "text": "800 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-04-c3",
+          "text": "60 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-04-c4",
+          "text": "20 Ω"
+        }
+      ],
+      "source": {
+        "page": 16,
+        "question": 4,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 5,
+      "text": "20 Ωと40 Ωの抵抗を直列につなぎ、全体に6 Vを加えた。流れる電流は？",
+      "correctChoiceId": "q-entrance-physics-06-05-c4",
+      "explanation": "全体の抵抗は60 Ωなので、I＝6÷60＝0.1 Aです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-05-c1",
+          "text": "0.15 A"
+        },
+        {
+          "id": "q-entrance-physics-06-05-c2",
+          "text": "0.3 A"
+        },
+        {
+          "id": "q-entrance-physics-06-05-c3",
+          "text": "10 A"
+        },
+        {
+          "id": "q-entrance-physics-06-05-c4",
+          "text": "0.1 A"
+        }
+      ],
+      "source": {
+        "page": 16,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 6,
+      "text": "10 Ωと30 Ωの抵抗を並列につないだ。全体の抵抗は？",
+      "correctChoiceId": "q-entrance-physics-06-06-c4",
+      "explanation": "並列では1/R＝1/10＋1/30＝4/30なので、R＝7.5 Ωです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-06-c1",
+          "text": "300 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-06-c2",
+          "text": "40 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-06-c3",
+          "text": "20 Ω"
+        },
+        {
+          "id": "q-entrance-physics-06-06-c4",
+          "text": "7.5 Ω"
+        }
+      ],
+      "source": {
+        "page": 17,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 7,
+      "text": "10 Ωと30 Ωの抵抗を並列につなぎ、電源の電圧を15 Vにした。電源から流れる電流は？",
+      "correctChoiceId": "q-entrance-physics-06-07-c1",
+      "explanation": "各枝には1.5 Aと0.5 Aが流れ、全体はその和の2 Aです。15÷7.5でも求められます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-07-c1",
+          "text": "2 A"
+        },
+        {
+          "id": "q-entrance-physics-06-07-c2",
+          "text": "1.5 A"
+        },
+        {
+          "id": "q-entrance-physics-06-07-c3",
+          "text": "0.375 A"
+        },
+        {
+          "id": "q-entrance-physics-06-07-c4",
+          "text": "0.5 A"
+        }
+      ],
+      "source": {
+        "page": 17,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 8,
+      "text": "10 Ωと30 Ωの抵抗を並列につなぎ、全体に15 Vを加えた。10 Ωの抵抗に流れる電流は？",
+      "correctChoiceId": "q-entrance-physics-06-08-c4",
+      "explanation": "並列なので10 Ωの抵抗にも15 Vがかかり、I＝15÷10＝1.5 Aです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-08-c1",
+          "text": "2 A"
+        },
+        {
+          "id": "q-entrance-physics-06-08-c2",
+          "text": "0.375 A"
+        },
+        {
+          "id": "q-entrance-physics-06-08-c3",
+          "text": "0.5 A"
+        },
+        {
+          "id": "q-entrance-physics-06-08-c4",
+          "text": "1.5 A"
+        }
+      ],
+      "source": {
+        "page": 17,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 9,
+      "text": "3 Ωの抵抗に2 Aの電流が流れている。この抵抗の電力は？",
+      "correctChoiceId": "q-entrance-physics-06-09-c3",
+      "explanation": "V＝RI＝3×2＝6 V。電力P＝VI＝6×2＝12 Wです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-09-c1",
+          "text": "6 W"
+        },
+        {
+          "id": "q-entrance-physics-06-09-c2",
+          "text": "18 W"
+        },
+        {
+          "id": "q-entrance-physics-06-09-c3",
+          "text": "12 W"
+        },
+        {
+          "id": "q-entrance-physics-06-09-c4",
+          "text": "1.5 W"
+        }
+      ],
+      "source": {
+        "page": 17,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-06-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-06",
+      "order": 10,
+      "text": "4 Ωの抵抗に6 Vを加え、10分間電流を流した。電気エネルギーがすべて熱に変わるとき、発熱量は？",
+      "correctChoiceId": "q-entrance-physics-06-10-c3",
+      "explanation": "I＝6÷4＝1.5 A、P＝6×1.5＝9 W。10分＝600秒なので、9×600＝5400 Jです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-06-10-c1",
+          "text": "90 J"
+        },
+        {
+          "id": "q-entrance-physics-06-10-c2",
+          "text": "540 J"
+        },
+        {
+          "id": "q-entrance-physics-06-10-c3",
+          "text": "5400 J"
+        },
+        {
+          "id": "q-entrance-physics-06-10-c4",
+          "text": "900 J"
+        }
+      ],
+      "source": {
+        "page": 17,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 1,
+      "text": "異なる種類の物質をこすり合わせて生じる電気を何という？",
+      "correctChoiceId": "q-entrance-physics-07-01-c1",
+      "explanation": "物質をこすり合わせると電子が移動し、静電気が生じることがあります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-01-c1",
+          "text": "静電気（摩擦電気）"
+        },
+        {
+          "id": "q-entrance-physics-07-01-c2",
+          "text": "誘導電流"
+        },
+        {
+          "id": "q-entrance-physics-07-01-c3",
+          "text": "磁界"
+        },
+        {
+          "id": "q-entrance-physics-07-01-c4",
+          "text": "交流"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 2,
+      "text": "電気を帯びた物体同士では、同じ種類の電気と異なる種類の電気の間にそれぞれどんな力がはたらく？",
+      "correctChoiceId": "q-entrance-physics-07-02-c1",
+      "explanation": "＋同士や－同士は反発し、＋と－は引き合います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-02-c1",
+          "text": "同じ種類はしりぞけ合い、異なる種類は引き合う"
+        },
+        {
+          "id": "q-entrance-physics-07-02-c2",
+          "text": "同じ種類は引き合い、異なる種類はしりぞけ合う"
+        },
+        {
+          "id": "q-entrance-physics-07-02-c3",
+          "text": "どちらもしりぞけ合う"
+        },
+        {
+          "id": "q-entrance-physics-07-02-c4",
+          "text": "どちらも引き合う"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 3,
+      "text": "電気が空間を移動する現象を何という？",
+      "correctChoiceId": "q-entrance-physics-07-03-c3",
+      "explanation": "たまった電気が空間を通って移動することを放電といい、雷もその例です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-03-c1",
+          "text": "屈折"
+        },
+        {
+          "id": "q-entrance-physics-07-03-c2",
+          "text": "帯電"
+        },
+        {
+          "id": "q-entrance-physics-07-03-c3",
+          "text": "放電"
+        },
+        {
+          "id": "q-entrance-physics-07-03-c4",
+          "text": "電磁誘導"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 4,
+      "text": "蛍光灯などの低圧の気体を入れた管に高い電圧をかけると電流が流れる。この現象は？",
+      "correctChoiceId": "q-entrance-physics-07-04-c3",
+      "explanation": "圧力を低くした気体の中で起こる放電を真空放電といいます。完全な真空という意味ではありません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-04-c1",
+          "text": "中和"
+        },
+        {
+          "id": "q-entrance-physics-07-04-c2",
+          "text": "電磁誘導"
+        },
+        {
+          "id": "q-entrance-physics-07-04-c3",
+          "text": "真空放電"
+        },
+        {
+          "id": "q-entrance-physics-07-04-c4",
+          "text": "光の全反射"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 5,
+      "text": "クルックス管で真空放電を起こしたとき、－極から出る電子の流れを何という？",
+      "correctChoiceId": "q-entrance-physics-07-05-c4",
+      "explanation": "陰極線は、－の電気をもつ電子の流れです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-05-c1",
+          "text": "音波"
+        },
+        {
+          "id": "q-entrance-physics-07-05-c2",
+          "text": "赤外線"
+        },
+        {
+          "id": "q-entrance-physics-07-05-c3",
+          "text": "磁力線"
+        },
+        {
+          "id": "q-entrance-physics-07-05-c4",
+          "text": "陰極線（電子線）"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 6,
+      "text": "水平方向に進む陰極線の上側に＋極、下側に－極の電極板を置いた。陰極線はどちらへ曲がる？",
+      "correctChoiceId": "q-entrance-physics-07-06-c3",
+      "explanation": "電子は－の電気をもつので、＋極に引かれ、－極にしりぞけられます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-06-c1",
+          "text": "電極板があっても必ず曲がらない"
+        },
+        {
+          "id": "q-entrance-physics-07-06-c2",
+          "text": "必ず進行方向と逆へ戻る"
+        },
+        {
+          "id": "q-entrance-physics-07-06-c3",
+          "text": "上側の＋極へ曲がる"
+        },
+        {
+          "id": "q-entrance-physics-07-06-c4",
+          "text": "下側の－極へ曲がる"
+        }
+      ],
+      "source": {
+        "page": 18,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 7,
+      "text": "陰極線をつくっている粒子は？",
+      "correctChoiceId": "q-entrance-physics-07-07-c2",
+      "explanation": "陰極線は電子の流れです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-07-c1",
+          "text": "原子核"
+        },
+        {
+          "id": "q-entrance-physics-07-07-c2",
+          "text": "電子"
+        },
+        {
+          "id": "q-entrance-physics-07-07-c3",
+          "text": "陽子"
+        },
+        {
+          "id": "q-entrance-physics-07-07-c4",
+          "text": "中性子"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 8,
+      "text": "金属の回路で電流が流れるとき、電子の電気の種類と外部回路での移動方向は？",
+      "correctChoiceId": "q-entrance-physics-07-08-c4",
+      "explanation": "電子は－の電気をもち、外部回路では－極側から＋極側へ移動します。電流の向きはその逆です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-08-c1",
+          "text": "－の電気をもち、電源の＋極側から－極側へ移動する"
+        },
+        {
+          "id": "q-entrance-physics-07-08-c2",
+          "text": "＋の電気をもち、電源の＋極側から－極側へ移動する"
+        },
+        {
+          "id": "q-entrance-physics-07-08-c3",
+          "text": "電気をもたず、移動しない"
+        },
+        {
+          "id": "q-entrance-physics-07-08-c4",
+          "text": "－の電気をもち、電源の－極側から＋極側へ移動する"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 9,
+      "text": "放射性物質が放射線を出す能力を何という？",
+      "correctChoiceId": "q-entrance-physics-07-09-c1",
+      "explanation": "放射能は放射線を出す能力を指し、放射線そのものとは区別します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-09-c1",
+          "text": "放射能"
+        },
+        {
+          "id": "q-entrance-physics-07-09-c2",
+          "text": "磁力"
+        },
+        {
+          "id": "q-entrance-physics-07-09-c3",
+          "text": "電力"
+        },
+        {
+          "id": "q-entrance-physics-07-09-c4",
+          "text": "透過力"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 10,
+      "text": "放射能の強さを表す単位は？",
+      "correctChoiceId": "q-entrance-physics-07-10-c1",
+      "explanation": "ベクレルは放射能の単位で、1 Bqは1秒間に平均1個の原子核が崩壊することに対応します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-10-c1",
+          "text": "ベクレル（Bq）"
+        },
+        {
+          "id": "q-entrance-physics-07-10-c2",
+          "text": "ワット（W）"
+        },
+        {
+          "id": "q-entrance-physics-07-10-c3",
+          "text": "ニュートン（N）"
+        },
+        {
+          "id": "q-entrance-physics-07-10-c4",
+          "text": "シーベルト（Sv）"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 11,
+      "text": "放射線による人体への影響を評価する線量の単位は？",
+      "correctChoiceId": "q-entrance-physics-07-11-c2",
+      "explanation": "シーベルトは、放射線の種類などによる人体への影響を考慮した線量の単位です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-11-c1",
+          "text": "アンペア（A）"
+        },
+        {
+          "id": "q-entrance-physics-07-11-c2",
+          "text": "シーベルト（Sv）"
+        },
+        {
+          "id": "q-entrance-physics-07-11-c3",
+          "text": "ベクレル（Bq）"
+        },
+        {
+          "id": "q-entrance-physics-07-11-c4",
+          "text": "オーム（Ω）"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 12,
+      "text": "放射線のうち、中学校で学ぶ電子の流れによるものは？",
+      "correctChoiceId": "q-entrance-physics-07-12-c4",
+      "explanation": "ここでいうβ線は電子の流れです。α線はヘリウム原子核、γ線やX線は電磁波です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-12-c1",
+          "text": "α線"
+        },
+        {
+          "id": "q-entrance-physics-07-12-c2",
+          "text": "γ線"
+        },
+        {
+          "id": "q-entrance-physics-07-12-c3",
+          "text": "X線"
+        },
+        {
+          "id": "q-entrance-physics-07-12-c4",
+          "text": "β線"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 13,
+      "text": "医療で体の内部を画像として調べる撮影に広く使われる放射線は？",
+      "correctChoiceId": "q-entrance-physics-07-13-c1",
+      "explanation": "X線が物質を透過する性質を利用して、体内のようすを画像にします。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-13-c1",
+          "text": "X線"
+        },
+        {
+          "id": "q-entrance-physics-07-13-c2",
+          "text": "α線"
+        },
+        {
+          "id": "q-entrance-physics-07-13-c3",
+          "text": "陰極線"
+        },
+        {
+          "id": "q-entrance-physics-07-13-c4",
+          "text": "β線"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-14",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 14,
+      "text": "α線は、何の流れによる放射線？",
+      "correctChoiceId": "q-entrance-physics-07-14-c4",
+      "explanation": "α線は、陽子2個と中性子2個からなるヘリウム原子核の流れです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-14-c1",
+          "text": "中性の酸素分子"
+        },
+        {
+          "id": "q-entrance-physics-07-14-c2",
+          "text": "電子"
+        },
+        {
+          "id": "q-entrance-physics-07-14-c3",
+          "text": "水素の原子そのもの"
+        },
+        {
+          "id": "q-entrance-physics-07-14-c4",
+          "text": "ヘリウムの原子核"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-15",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 15,
+      "text": "放射線が物質を通り抜ける性質を何という？",
+      "correctChoiceId": "q-entrance-physics-07-15-c3",
+      "explanation": "放射線には物質を透過する性質があり、その程度は放射線の種類や物質によって異なります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-15-c1",
+          "text": "慣性"
+        },
+        {
+          "id": "q-entrance-physics-07-15-c2",
+          "text": "反射の法則"
+        },
+        {
+          "id": "q-entrance-physics-07-15-c3",
+          "text": "透過性（透過力）"
+        },
+        {
+          "id": "q-entrance-physics-07-15-c4",
+          "text": "弾性"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-physics-07-16",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-07",
+      "order": 16,
+      "text": "食物や岩石から出たり、宇宙から地球へ届いたりする放射線をまとめて何という？",
+      "correctChoiceId": "q-entrance-physics-07-16-c1",
+      "explanation": "自然界にも放射線は存在し、地面や食物、宇宙などに由来します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-07-16-c1",
+          "text": "自然放射線"
+        },
+        {
+          "id": "q-entrance-physics-07-16-c2",
+          "text": "磁力線"
+        },
+        {
+          "id": "q-entrance-physics-07-16-c3",
+          "text": "静電気"
+        },
+        {
+          "id": "q-entrance-physics-07-16-c4",
+          "text": "誘導電流"
+        }
+      ],
+      "source": {
+        "page": 19,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 1,
+      "text": "磁力がはたらく空間を何という？",
+      "correctChoiceId": "q-entrance-physics-08-01-c4",
+      "explanation": "磁力がはたらく空間を磁界といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-01-c1",
+          "text": "光軸"
+        },
+        {
+          "id": "q-entrance-physics-08-01-c2",
+          "text": "電流"
+        },
+        {
+          "id": "q-entrance-physics-08-01-c3",
+          "text": "重心"
+        },
+        {
+          "id": "q-entrance-physics-08-01-c4",
+          "text": "磁界"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 2,
+      "text": "磁界の向きは、その場所に置いた方位磁針のどちらの極が指す向き？",
+      "correctChoiceId": "q-entrance-physics-08-02-c4",
+      "explanation": "方位磁針のN極が指す向きを磁界の向きとします。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-02-c1",
+          "text": "S極"
+        },
+        {
+          "id": "q-entrance-physics-08-02-c2",
+          "text": "N極とS極の中点"
+        },
+        {
+          "id": "q-entrance-physics-08-02-c3",
+          "text": "どちらの極でもよい"
+        },
+        {
+          "id": "q-entrance-physics-08-02-c4",
+          "text": "N極"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 3,
+      "text": "磁界のようすを表す線を何という？",
+      "correctChoiceId": "q-entrance-physics-08-03-c4",
+      "explanation": "磁力線の向きは磁界の向きで、線が密なところほど磁界が強いことを表します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-03-c1",
+          "text": "法線"
+        },
+        {
+          "id": "q-entrance-physics-08-03-c2",
+          "text": "陰極線"
+        },
+        {
+          "id": "q-entrance-physics-08-03-c3",
+          "text": "光線"
+        },
+        {
+          "id": "q-entrance-physics-08-03-c4",
+          "text": "磁力線"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 4,
+      "text": "まっすぐな導線を電流が鉛直下向きに流れる。上から見ると、導線のまわりの磁界はどちら向き？",
+      "correctChoiceId": "q-entrance-physics-08-04-c2",
+      "explanation": "右手の親指を電流の向きに向けると、残りの指の曲がる向きが磁界の向きです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-04-c1",
+          "text": "反時計回り"
+        },
+        {
+          "id": "q-entrance-physics-08-04-c2",
+          "text": "時計回り"
+        },
+        {
+          "id": "q-entrance-physics-08-04-c3",
+          "text": "導線に向かって放射状に内向き"
+        },
+        {
+          "id": "q-entrance-physics-08-04-c4",
+          "text": "導線から放射状に外向き"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 4,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 5,
+      "text": "コイルの片側の端から見ると、電流が反時計回りに流れている。その端とコイル内部の磁界の向きは？",
+      "correctChoiceId": "q-entrance-physics-08-05-c1",
+      "explanation": "右手の4本の指を電流に合わせると、親指がコイル内部の磁界を示します。反時計回りに見える端はN極です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-05-c1",
+          "text": "その端はN極で、内部の磁界はその端へ向く"
+        },
+        {
+          "id": "q-entrance-physics-08-05-c2",
+          "text": "磁界はできない"
+        },
+        {
+          "id": "q-entrance-physics-08-05-c3",
+          "text": "その端はN極で、内部の磁界はその端から離れる"
+        },
+        {
+          "id": "q-entrance-physics-08-05-c4",
+          "text": "その端はS極で、内部の磁界はその端へ向く"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 6,
+      "text": "導線やコイルの条件を同じにして電流を大きくすると、できる磁界はどうなる？",
+      "correctChoiceId": "q-entrance-physics-08-06-c1",
+      "explanation": "電流が大きいほど、その電流による磁界は強くなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-06-c1",
+          "text": "強くなる"
+        },
+        {
+          "id": "q-entrance-physics-08-06-c2",
+          "text": "弱くなる"
+        },
+        {
+          "id": "q-entrance-physics-08-06-c3",
+          "text": "必ず変わらない"
+        },
+        {
+          "id": "q-entrance-physics-08-06-c4",
+          "text": "必ず消える"
+        }
+      ],
+      "source": {
+        "page": 20,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 7,
+      "text": "同じ大きさの電流を流すコイルで、同じ長さに巻く回数を増やすと、内部の磁界はどうなる？",
+      "correctChoiceId": "q-entrance-physics-08-07-c4",
+      "explanation": "同じ長さに多く巻いたコイルほど、同じ電流で強い磁界をつくれます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-07-c1",
+          "text": "向きだけが必ず逆になる"
+        },
+        {
+          "id": "q-entrance-physics-08-07-c2",
+          "text": "弱くなる"
+        },
+        {
+          "id": "q-entrance-physics-08-07-c3",
+          "text": "必ず変わらない"
+        },
+        {
+          "id": "q-entrance-physics-08-07-c4",
+          "text": "強くなる"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 8,
+      "text": "磁界の中のコイルに電流を流すと右向きの力を受けた。磁界を変えずに電流だけを逆向きにすると？",
+      "correctChoiceId": "q-entrance-physics-08-08-c2",
+      "explanation": "電流だけの向きを逆にすると、磁界から受ける力の向きも逆になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-08-c1",
+          "text": "必ず上向きの力を受ける"
+        },
+        {
+          "id": "q-entrance-physics-08-08-c2",
+          "text": "左向きの力を受ける"
+        },
+        {
+          "id": "q-entrance-physics-08-08-c3",
+          "text": "右向きの力を受ける"
+        },
+        {
+          "id": "q-entrance-physics-08-08-c4",
+          "text": "必ず力が0になる"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 9,
+      "text": "磁界の中で電流を流したコイルが右向きの力を受けた。電流を変えずに磁界だけを逆向きにすると？",
+      "correctChoiceId": "q-entrance-physics-08-09-c2",
+      "explanation": "磁界だけの向きを逆にしても、受ける力の向きは逆になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-09-c1",
+          "text": "必ず力が0になる"
+        },
+        {
+          "id": "q-entrance-physics-08-09-c2",
+          "text": "左向きの力を受ける"
+        },
+        {
+          "id": "q-entrance-physics-08-09-c3",
+          "text": "右向きの力を受ける"
+        },
+        {
+          "id": "q-entrance-physics-08-09-c4",
+          "text": "必ず下向きの力を受ける"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 10,
+      "text": "コイルが右向きの力を受けている。電流と磁界の両方の向きを逆にすると、力の向きは？",
+      "correctChoiceId": "q-entrance-physics-08-10-c1",
+      "explanation": "電流と磁界を両方逆にすると、向きの反転が2回となり、力の向きはもとのままです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-10-c1",
+          "text": "右向きのまま"
+        },
+        {
+          "id": "q-entrance-physics-08-10-c2",
+          "text": "必ず上向きになる"
+        },
+        {
+          "id": "q-entrance-physics-08-10-c3",
+          "text": "必ず下向きになる"
+        },
+        {
+          "id": "q-entrance-physics-08-10-c4",
+          "text": "左向きになる"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 11,
+      "text": "磁界やコイルの条件を同じにし、流す電流を大きくすると、コイルが受ける力はどうなる？",
+      "correctChoiceId": "q-entrance-physics-08-11-c2",
+      "explanation": "電流が大きくなると、磁界から受ける力も大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-11-c1",
+          "text": "必ず0になる"
+        },
+        {
+          "id": "q-entrance-physics-08-11-c2",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-physics-08-11-c3",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-08-11-c4",
+          "text": "必ず変わらない"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 11,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-08-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-08",
+      "order": 12,
+      "text": "電流が磁界から受ける力を利用してコイルを連続して回転させる装置は？",
+      "correctChoiceId": "q-entrance-physics-08-12-c4",
+      "explanation": "モーターは電気エネルギーを運動エネルギーに変える装置です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-08-12-c1",
+          "text": "電池"
+        },
+        {
+          "id": "q-entrance-physics-08-12-c2",
+          "text": "検流計"
+        },
+        {
+          "id": "q-entrance-physics-08-12-c3",
+          "text": "変圧器"
+        },
+        {
+          "id": "q-entrance-physics-08-12-c4",
+          "text": "モーター"
+        }
+      ],
+      "source": {
+        "page": 21,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 1,
+      "text": "ごく小さな電流でも針が振れる、感度の高い電流計を何という？",
+      "correctChoiceId": "q-entrance-physics-09-01-c2",
+      "explanation": "検流計は小さな電流が流れたことや、その向きを調べるために使います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-01-c1",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-physics-09-01-c2",
+          "text": "検流計"
+        },
+        {
+          "id": "q-entrance-physics-09-01-c3",
+          "text": "温度計"
+        },
+        {
+          "id": "q-entrance-physics-09-01-c4",
+          "text": "ばねばかり"
+        }
+      ],
+      "source": {
+        "page": 22,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 2,
+      "text": "コイルに棒磁石を出し入れすると、コイルに電流が流れる。この現象は？",
+      "correctChoiceId": "q-entrance-physics-09-02-c2",
+      "explanation": "コイルを貫く磁界が変化することで電圧が生じ、閉じた回路に電流が流れます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-02-c1",
+          "text": "静電気"
+        },
+        {
+          "id": "q-entrance-physics-09-02-c2",
+          "text": "電磁誘導"
+        },
+        {
+          "id": "q-entrance-physics-09-02-c3",
+          "text": "真空放電"
+        },
+        {
+          "id": "q-entrance-physics-09-02-c4",
+          "text": "光の屈折"
+        }
+      ],
+      "source": {
+        "page": 22,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 3,
+      "text": "電磁誘導によって流れる電流を何という？",
+      "correctChoiceId": "q-entrance-physics-09-03-c3",
+      "explanation": "電磁誘導によって生じる電流を誘導電流といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-03-c1",
+          "text": "磁力線"
+        },
+        {
+          "id": "q-entrance-physics-09-03-c2",
+          "text": "放射線"
+        },
+        {
+          "id": "q-entrance-physics-09-03-c3",
+          "text": "誘導電流"
+        },
+        {
+          "id": "q-entrance-physics-09-03-c4",
+          "text": "陰極線"
+        }
+      ],
+      "source": {
+        "page": 22,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 4,
+      "text": "棒磁石のN極をコイルに近づけた場合と、同じ速さでS極を近づけた場合で、誘導電流の向きは？",
+      "correctChoiceId": "q-entrance-physics-09-04-c4",
+      "explanation": "近づける磁極を逆にすると、磁界の変化が逆になり、誘導電流も逆向きになります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-04-c1",
+          "text": "S極では電流が流れない"
+        },
+        {
+          "id": "q-entrance-physics-09-04-c2",
+          "text": "N極では電流が流れない"
+        },
+        {
+          "id": "q-entrance-physics-09-04-c3",
+          "text": "必ず同じ向きになる"
+        },
+        {
+          "id": "q-entrance-physics-09-04-c4",
+          "text": "逆向きになる"
+        }
+      ],
+      "source": {
+        "page": 22,
+        "question": 4,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 5,
+      "text": "棒磁石のN極をコイルに近づける場合と遠ざける場合で、誘導電流の向きは？",
+      "correctChoiceId": "q-entrance-physics-09-05-c1",
+      "explanation": "同じ磁極でも、近づける動きと遠ざける動きでは磁界の変化が逆になり、電流の向きが逆になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-05-c1",
+          "text": "逆向きになる"
+        },
+        {
+          "id": "q-entrance-physics-09-05-c2",
+          "text": "近づけるときは必ず流れない"
+        },
+        {
+          "id": "q-entrance-physics-09-05-c3",
+          "text": "必ず同じ向きになる"
+        },
+        {
+          "id": "q-entrance-physics-09-05-c4",
+          "text": "遠ざけるときは必ず流れない"
+        }
+      ],
+      "source": {
+        "page": 22,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 6,
+      "text": "棒磁石をコイルから遠ざけるとき、N極を向ける場合とS極を向ける場合で、誘導電流の向きは？",
+      "correctChoiceId": "q-entrance-physics-09-06-c1",
+      "explanation": "遠ざけ方が同じでも、磁極を逆にすると誘導電流の向きは逆になります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-06-c1",
+          "text": "逆向きになる"
+        },
+        {
+          "id": "q-entrance-physics-09-06-c2",
+          "text": "必ず同じ向きになる"
+        },
+        {
+          "id": "q-entrance-physics-09-06-c3",
+          "text": "N極のときだけ電流が0になる"
+        },
+        {
+          "id": "q-entrance-physics-09-06-c4",
+          "text": "S極のときだけ電流が0になる"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 7,
+      "text": "同じ棒磁石を同じコイルに近づける速さを大きくすると、誘導電流の大きさは？",
+      "correctChoiceId": "q-entrance-physics-09-07-c4",
+      "explanation": "磁石を速く動かすと、コイルを貫く磁界がより急に変化し、誘導電流が大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-07-c1",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-09-07-c2",
+          "text": "必ず0になる"
+        },
+        {
+          "id": "q-entrance-physics-09-07-c3",
+          "text": "必ず変わらない"
+        },
+        {
+          "id": "q-entrance-physics-09-07-c4",
+          "text": "大きくなる"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 8,
+      "text": "同じコイルに同じ速さで近づける棒磁石を、磁力の強いものに変えると、誘導電流の大きさは？",
+      "correctChoiceId": "q-entrance-physics-09-08-c3",
+      "explanation": "他の条件が同じなら、磁力が強いほど磁界の変化が大きくなり、大きな誘導電流を得られます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-08-c1",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-09-08-c2",
+          "text": "向きに関係なく必ず0になる"
+        },
+        {
+          "id": "q-entrance-physics-09-08-c3",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-physics-09-08-c4",
+          "text": "必ず変わらない"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 8,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 9,
+      "text": "他の条件を同じにしてコイルの巻数を増やすと、電磁誘導による電流を大きくできる。このために巻数はどうする？",
+      "correctChoiceId": "q-entrance-physics-09-09-c2",
+      "explanation": "巻数を多くすると誘導される電圧が大きくなり、同じ回路条件なら電流も大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-09-c1",
+          "text": "必ず1回にする"
+        },
+        {
+          "id": "q-entrance-physics-09-09-c2",
+          "text": "多くする"
+        },
+        {
+          "id": "q-entrance-physics-09-09-c3",
+          "text": "少なくする"
+        },
+        {
+          "id": "q-entrance-physics-09-09-c4",
+          "text": "0にする"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 9,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 10,
+      "text": "磁石を載せた台車がコイルの近くを通り、そのまま十分遠くまで離れた。検流計の針は最終的にどうなる？",
+      "correctChoiceId": "q-entrance-physics-09-10-c3",
+      "explanation": "磁石が十分離れるとコイルを貫く磁界の変化がほぼなくなり、誘導電流が流れなくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-10-c1",
+          "text": "永久に同じ向きへ振れ続ける"
+        },
+        {
+          "id": "q-entrance-physics-09-10-c2",
+          "text": "台車が遠いほど必ず振れが増える"
+        },
+        {
+          "id": "q-entrance-physics-09-10-c3",
+          "text": "0に戻る"
+        },
+        {
+          "id": "q-entrance-physics-09-10-c4",
+          "text": "最大の振れのまま止まる"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 10,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 11,
+      "text": "流れる向きが一定の電流を何という？",
+      "correctChoiceId": "q-entrance-physics-09-11-c1",
+      "explanation": "電池などから得られる、向きが一定の電流を直流といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-11-c1",
+          "text": "直流"
+        },
+        {
+          "id": "q-entrance-physics-09-11-c2",
+          "text": "磁界"
+        },
+        {
+          "id": "q-entrance-physics-09-11-c3",
+          "text": "放射線"
+        },
+        {
+          "id": "q-entrance-physics-09-11-c4",
+          "text": "交流"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-physics-09-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-09",
+      "order": 12,
+      "text": "流れる向きと大きさが周期的に変化する電流を何という？",
+      "correctChoiceId": "q-entrance-physics-09-12-c2",
+      "explanation": "家庭のコンセントから供給される電流は交流です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-09-12-c1",
+          "text": "陰極線"
+        },
+        {
+          "id": "q-entrance-physics-09-12-c2",
+          "text": "交流"
+        },
+        {
+          "id": "q-entrance-physics-09-12-c3",
+          "text": "直流"
+        },
+        {
+          "id": "q-entrance-physics-09-12-c4",
+          "text": "静電気"
+        }
+      ],
+      "source": {
+        "page": 23,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 1,
+      "text": "2つの力と同じはたらきをする1つの力を、もとの2力の何という？",
+      "correctChoiceId": "q-entrance-physics-10-01-c3",
+      "explanation": "複数の力をまとめて表した力が合力です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-01-c1",
+          "text": "分力"
+        },
+        {
+          "id": "q-entrance-physics-10-01-c2",
+          "text": "摩擦力"
+        },
+        {
+          "id": "q-entrance-physics-10-01-c3",
+          "text": "合力"
+        },
+        {
+          "id": "q-entrance-physics-10-01-c4",
+          "text": "重力"
+        }
+      ],
+      "source": {
+        "page": 24,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 2,
+      "text": "同じ点にはたらく、一直線上にない2力の合力は、2本の矢印を隣り合う辺とする平行四辺形のどの線で表す？",
+      "correctChoiceId": "q-entrance-physics-10-02-c1",
+      "explanation": "力の平行四辺形の法則では、共通の始点からの対角線が合力を表します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-02-c1",
+          "text": "共通の始点から反対側の頂点へ向かう対角線"
+        },
+        {
+          "id": "q-entrance-physics-10-02-c2",
+          "text": "短い方の辺を逆向きにした線"
+        },
+        {
+          "id": "q-entrance-physics-10-02-c3",
+          "text": "長い方の辺そのもの"
+        },
+        {
+          "id": "q-entrance-physics-10-02-c4",
+          "text": "2本の矢印の先端同士を結ぶ線"
+        }
+      ],
+      "source": {
+        "page": 24,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 3,
+      "text": "2本の糸でつった小球が静止している。糸が小球を引く2力の合力と、小球にはたらく重力の関係は？",
+      "correctChoiceId": "q-entrance-physics-10-03-c3",
+      "explanation": "小球が静止しているので、糸の力の合力は上向きで、下向きの重力とつり合います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-03-c1",
+          "text": "合力と重力は必ず垂直"
+        },
+        {
+          "id": "q-entrance-physics-10-03-c2",
+          "text": "重力は必ず合力の2倍"
+        },
+        {
+          "id": "q-entrance-physics-10-03-c3",
+          "text": "大きさが等しく、逆向きでつり合う"
+        },
+        {
+          "id": "q-entrance-physics-10-03-c4",
+          "text": "大きさが等しく、同じ向き"
+        }
+      ],
+      "source": {
+        "page": 24,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 4,
+      "text": "1つの力を同じはたらきをする2つの力に分けたとき、分けたそれぞれの力を何という？",
+      "correctChoiceId": "q-entrance-physics-10-04-c4",
+      "explanation": "力を分けることを力の分解といい、分けた力を分力といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-04-c1",
+          "text": "作用点"
+        },
+        {
+          "id": "q-entrance-physics-10-04-c2",
+          "text": "慣性"
+        },
+        {
+          "id": "q-entrance-physics-10-04-c3",
+          "text": "合力"
+        },
+        {
+          "id": "q-entrance-physics-10-04-c4",
+          "text": "分力"
+        }
+      ],
+      "source": {
+        "page": 24,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 5,
+      "text": "右上がりの斜面上の物体にはたらく重力を、斜面に平行な分力と垂直な分力に分けた。正しい向きは？",
+      "correctChoiceId": "q-entrance-physics-10-05-c1",
+      "explanation": "重力の2つの分力を合成すると鉛直下向きの重力になります。一方は斜面を下り、もう一方は面へ押しつける向きです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-05-c1",
+          "text": "平行な分力は斜面下向き、垂直な分力は斜面に押しつける向き"
+        },
+        {
+          "id": "q-entrance-physics-10-05-c2",
+          "text": "平行な分力は斜面上向き、垂直な分力は斜面から離れる向き"
+        },
+        {
+          "id": "q-entrance-physics-10-05-c3",
+          "text": "2つの分力は両方とも鉛直上向き"
+        },
+        {
+          "id": "q-entrance-physics-10-05-c4",
+          "text": "平行な分力も垂直な分力も水平方向"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 5,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 6,
+      "text": "斜面上の物体を斜面が垂直に押す力を何という？",
+      "correctChoiceId": "q-entrance-physics-10-06-c2",
+      "explanation": "物体が斜面から離れたりめり込んだりしないとき、垂直抗力は重力の面に垂直な分力などとつり合います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-06-c1",
+          "text": "張力"
+        },
+        {
+          "id": "q-entrance-physics-10-06-c2",
+          "text": "垂直抗力"
+        },
+        {
+          "id": "q-entrance-physics-10-06-c3",
+          "text": "浮力"
+        },
+        {
+          "id": "q-entrance-physics-10-06-c4",
+          "text": "重力"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 7,
+      "text": "摩擦のない斜面上で、斜面に平行な糸が台車を静止させている。糸が引く力の向きと大きさは？",
+      "correctChoiceId": "q-entrance-physics-10-07-c1",
+      "explanation": "斜面方向では、糸の上向きの張力が、重力の斜面下向きの分力とつり合います。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-07-c1",
+          "text": "斜面上向きで、重力の斜面に平行な分力と等しい"
+        },
+        {
+          "id": "q-entrance-physics-10-07-c2",
+          "text": "斜面下向きで、重力全体と等しい"
+        },
+        {
+          "id": "q-entrance-physics-10-07-c3",
+          "text": "水平方向で、重力の半分"
+        },
+        {
+          "id": "q-entrance-physics-10-07-c4",
+          "text": "斜面に垂直上向きで、重力全体と等しい"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 7,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 8,
+      "text": "物体Aが物体Bに力を加えると、Bも同時にAへ力を加える。この関係を表す法則は？",
+      "correctChoiceId": "q-entrance-physics-10-08-c2",
+      "explanation": "力を加える側も相手から力を受けます。この2力を作用・反作用といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-08-c1",
+          "text": "反射の法則"
+        },
+        {
+          "id": "q-entrance-physics-10-08-c2",
+          "text": "作用・反作用の法則"
+        },
+        {
+          "id": "q-entrance-physics-10-08-c3",
+          "text": "フックの法則"
+        },
+        {
+          "id": "q-entrance-physics-10-08-c4",
+          "text": "オームの法則"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 9,
+      "text": "作用・反作用の関係にある2力について正しいものは？",
+      "correctChoiceId": "q-entrance-physics-10-09-c1",
+      "explanation": "作用・反作用は異なる2物体にはたらきます。一つの物体にはたらく2力のつり合いとは区別します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-09-c1",
+          "text": "大きさが等しく逆向きで、別々の物体にはたらく"
+        },
+        {
+          "id": "q-entrance-physics-10-09-c2",
+          "text": "大きさが異なり逆向きで、同じ物体にはたらく"
+        },
+        {
+          "id": "q-entrance-physics-10-09-c3",
+          "text": "大きさが等しく逆向きで、必ず同じ物体にはたらく"
+        },
+        {
+          "id": "q-entrance-physics-10-09-c4",
+          "text": "大きさが等しく同じ向きで、同じ物体にはたらく"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-10-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-10",
+      "order": 10,
+      "text": "ロケットが噴射ガスを押す力と、噴射ガスがロケットを押す力の関係は？",
+      "correctChoiceId": "q-entrance-physics-10-10-c3",
+      "explanation": "ロケットとガスが互いに押し合う力なので、作用・反作用の関係です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-10-10-c1",
+          "text": "同じ向きの合力と分力"
+        },
+        {
+          "id": "q-entrance-physics-10-10-c2",
+          "text": "重力と浮力"
+        },
+        {
+          "id": "q-entrance-physics-10-10-c3",
+          "text": "作用・反作用"
+        },
+        {
+          "id": "q-entrance-physics-10-10-c4",
+          "text": "一つの物体にはたらく2力のつり合い"
+        }
+      ],
+      "source": {
+        "page": 25,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-physics-11-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-11",
+      "order": 1,
+      "text": "水中の物体が水の重さによって受ける圧力を何という？",
+      "correctChoiceId": "q-entrance-physics-11-01-c3",
+      "explanation": "水の重さによって生じる圧力が水圧です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-11-01-c1",
+          "text": "張力"
+        },
+        {
+          "id": "q-entrance-physics-11-01-c2",
+          "text": "磁力"
+        },
+        {
+          "id": "q-entrance-physics-11-01-c3",
+          "text": "水圧"
+        },
+        {
+          "id": "q-entrance-physics-11-01-c4",
+          "text": "大気圧"
+        }
+      ],
+      "source": {
+        "page": 26,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-11-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-11",
+      "order": 2,
+      "text": "水中の物体にはたらく水圧の説明として正しいものは？",
+      "correctChoiceId": "q-entrance-physics-11-02-c2",
+      "explanation": "水圧はあらゆる向きにはたらき、同じ水中では深いほど大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-11-02-c1",
+          "text": "深さによらずどこでも同じ"
+        },
+        {
+          "id": "q-entrance-physics-11-02-c2",
+          "text": "物体の面に垂直にはたらき、深いほど大きい"
+        },
+        {
+          "id": "q-entrance-physics-11-02-c3",
+          "text": "必ず上から下にだけはたらく"
+        },
+        {
+          "id": "q-entrance-physics-11-02-c4",
+          "text": "深いほど小さい"
+        }
+      ],
+      "source": {
+        "page": 26,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-11-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-11",
+      "order": 3,
+      "text": "水中の物体の上面と下面を比べると、下面の水圧と、その差による浮力の向きは？",
+      "correctChoiceId": "q-entrance-physics-11-03-c3",
+      "explanation": "下面はより深いため水圧が大きく、その結果として上向きの浮力がはたらきます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-11-03-c1",
+          "text": "上面の方が大きく、浮力は下向き"
+        },
+        {
+          "id": "q-entrance-physics-11-03-c2",
+          "text": "下面の方が小さく、浮力は上向き"
+        },
+        {
+          "id": "q-entrance-physics-11-03-c3",
+          "text": "下面の方が大きく、浮力は上向き"
+        },
+        {
+          "id": "q-entrance-physics-11-03-c4",
+          "text": "上下で等しく、浮力は横向き"
+        }
+      ],
+      "source": {
+        "page": 26,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-11-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-11",
+      "order": 4,
+      "text": "同じ水の中で、物体の水中に沈んでいる部分の体積を大きくすると、浮力はどうなる？",
+      "correctChoiceId": "q-entrance-physics-11-04-c4",
+      "explanation": "浮力は押しのけた水の重さに等しいので、水中部分の体積が大きいほど大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-11-04-c1",
+          "text": "必ず0になる"
+        },
+        {
+          "id": "q-entrance-physics-11-04-c2",
+          "text": "体積によらず必ず一定"
+        },
+        {
+          "id": "q-entrance-physics-11-04-c3",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-11-04-c4",
+          "text": "大きくなる"
+        }
+      ],
+      "source": {
+        "page": 26,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-11-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-11",
+      "order": 5,
+      "text": "空気中で1.8 Nを示した物体を水中につるすと、ばねばかりは1.4 Nを示した。浮力の大きさは？",
+      "correctChoiceId": "q-entrance-physics-11-05-c4",
+      "explanation": "浮力の分だけばねばかりの値が小さくなるので、1.8－1.4＝0.4 Nです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-11-05-c1",
+          "text": "1.8 N"
+        },
+        {
+          "id": "q-entrance-physics-11-05-c2",
+          "text": "3.2 N"
+        },
+        {
+          "id": "q-entrance-physics-11-05-c3",
+          "text": "1.4 N"
+        },
+        {
+          "id": "q-entrance-physics-11-05-c4",
+          "text": "0.4 N"
+        }
+      ],
+      "source": {
+        "page": 26,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 1,
+      "text": "台車が6.6 cmの距離を0.1秒で進んだ。この間の平均の速さは？",
+      "correctChoiceId": "q-entrance-physics-12-01-c2",
+      "explanation": "平均の速さ＝距離÷時間より、6.6÷0.1＝66 cm/sです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-01-c1",
+          "text": "0.66 cm/s"
+        },
+        {
+          "id": "q-entrance-physics-12-01-c2",
+          "text": "66 cm/s"
+        },
+        {
+          "id": "q-entrance-physics-12-01-c3",
+          "text": "6.6 cm/s"
+        },
+        {
+          "id": "q-entrance-physics-12-01-c4",
+          "text": "660 cm/s"
+        }
+      ],
+      "source": {
+        "page": 27,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 2,
+      "text": "記録タイマーで、0.1秒の間に打点の間隔が6つできた。このタイマーが1秒間に打点する回数は？",
+      "correctChoiceId": "q-entrance-physics-12-02-c2",
+      "explanation": "0.1秒に6間隔なので、1秒では6÷0.1＝60回です。点の個数と点の間の数を区別します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-02-c1",
+          "text": "10回"
+        },
+        {
+          "id": "q-entrance-physics-12-02-c2",
+          "text": "60回"
+        },
+        {
+          "id": "q-entrance-physics-12-02-c3",
+          "text": "6回"
+        },
+        {
+          "id": "q-entrance-physics-12-02-c4",
+          "text": "600回"
+        }
+      ],
+      "source": {
+        "page": 27,
+        "question": 2,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 3,
+      "text": "摩擦を無視できる2つの斜面で同じ台車を静かに離した。同じ時間ごとの移動距離の増え方が大きいのはAだった。傾きが大きいのは？",
+      "correctChoiceId": "q-entrance-physics-12-03-c2",
+      "explanation": "斜面の傾きが大きいほど重力の斜面方向の分力が大きく、速さの増え方も大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-03-c1",
+          "text": "移動距離の増え方は傾きに関係しない"
+        },
+        {
+          "id": "q-entrance-physics-12-03-c2",
+          "text": "斜面A"
+        },
+        {
+          "id": "q-entrance-physics-12-03-c3",
+          "text": "必ず同じ傾き"
+        },
+        {
+          "id": "q-entrance-physics-12-03-c4",
+          "text": "斜面B"
+        }
+      ],
+      "source": {
+        "page": 27,
+        "question": 3,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 4,
+      "text": "空気抵抗を無視したとき、物体が重力だけを受けて真下へ落下する運動を何という？",
+      "correctChoiceId": "q-entrance-physics-12-04-c2",
+      "explanation": "重力だけで落下する運動を自由落下といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-04-c1",
+          "text": "等速直線運動"
+        },
+        {
+          "id": "q-entrance-physics-12-04-c2",
+          "text": "自由落下"
+        },
+        {
+          "id": "q-entrance-physics-12-04-c3",
+          "text": "円運動"
+        },
+        {
+          "id": "q-entrance-physics-12-04-c4",
+          "text": "振動"
+        }
+      ],
+      "source": {
+        "page": 27,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 5,
+      "text": "速さが一定で、一直線上を進む運動を何という？",
+      "correctChoiceId": "q-entrance-physics-12-05-c1",
+      "explanation": "等速直線運動では、速さも進む向きも変わりません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-05-c1",
+          "text": "等速直線運動"
+        },
+        {
+          "id": "q-entrance-physics-12-05-c2",
+          "text": "円運動"
+        },
+        {
+          "id": "q-entrance-physics-12-05-c3",
+          "text": "自由落下"
+        },
+        {
+          "id": "q-entrance-physics-12-05-c4",
+          "text": "往復運動"
+        }
+      ],
+      "source": {
+        "page": 28,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 6,
+      "text": "記録テープを0.1秒ごとに切った。等速直線運動をしていると分かる並び方は？",
+      "correctChoiceId": "q-entrance-physics-12-06-c1",
+      "explanation": "同じ時間に進む距離が一定なら、速さは一定です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-06-c1",
+          "text": "切ったテープの長さがすべて等しい"
+        },
+        {
+          "id": "q-entrance-physics-12-06-c2",
+          "text": "テープの長さが不規則に変わる"
+        },
+        {
+          "id": "q-entrance-physics-12-06-c3",
+          "text": "テープの長さが順に減る"
+        },
+        {
+          "id": "q-entrance-physics-12-06-c4",
+          "text": "テープの長さが順に増える"
+        }
+      ],
+      "source": {
+        "page": 28,
+        "question": 6,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 7,
+      "text": "力がはたらかない、または合力が0のとき、静止や等速直線運動を続ける。この法則と性質の名称は？",
+      "correctChoiceId": "q-entrance-physics-12-07-c1",
+      "explanation": "物体が運動の状態を保とうとする性質が慣性で、その関係を表すのが慣性の法則です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-07-c1",
+          "text": "慣性の法則・慣性"
+        },
+        {
+          "id": "q-entrance-physics-12-07-c2",
+          "text": "フックの法則・弾性"
+        },
+        {
+          "id": "q-entrance-physics-12-07-c3",
+          "text": "反射の法則・反射"
+        },
+        {
+          "id": "q-entrance-physics-12-07-c4",
+          "text": "オームの法則・抵抗"
+        }
+      ],
+      "source": {
+        "page": 28,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 8,
+      "text": "傾きが一定で摩擦のない斜面を台車が下る。台車にはたらく重力の斜面方向の分力の大きさは？",
+      "correctChoiceId": "q-entrance-physics-12-08-c1",
+      "explanation": "質量と斜面の傾きが同じなら斜面方向の分力は一定です。速さは増えても力は増えません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-08-c1",
+          "text": "一定"
+        },
+        {
+          "id": "q-entrance-physics-12-08-c2",
+          "text": "時間とともに必ず小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-12-08-c3",
+          "text": "速さに比例して大きくなる"
+        },
+        {
+          "id": "q-entrance-physics-12-08-c4",
+          "text": "常に0"
+        }
+      ],
+      "source": {
+        "page": 28,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-12-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-12",
+      "order": 9,
+      "text": "摩擦のない斜面を上る台車はしだいに遅くなる。その理由は？",
+      "correctChoiceId": "q-entrance-physics-12-09-c4",
+      "explanation": "斜面を上る台車には斜面下向きの力がはたらくため、速さが小さくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-12-09-c1",
+          "text": "重力がなくなるから"
+        },
+        {
+          "id": "q-entrance-physics-12-09-c2",
+          "text": "重力の斜面方向の分力が運動と同じ向きにはたらくから"
+        },
+        {
+          "id": "q-entrance-physics-12-09-c3",
+          "text": "台車の質量が増えるから"
+        },
+        {
+          "id": "q-entrance-physics-12-09-c4",
+          "text": "重力の斜面方向の分力が運動と逆向きにはたらくから"
+        }
+      ],
+      "source": {
+        "page": 28,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 1,
+      "text": "物体に力を加え、その力の向きに物体を動かしたとき、力が物体に対してしたものを何という？",
+      "correctChoiceId": "q-entrance-physics-13-01-c3",
+      "explanation": "理科でいう仕事は、力を加えてその向きに物体を移動させたときに行われます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-01-c1",
+          "text": "慣性"
+        },
+        {
+          "id": "q-entrance-physics-13-01-c2",
+          "text": "圧力"
+        },
+        {
+          "id": "q-entrance-physics-13-01-c3",
+          "text": "仕事"
+        },
+        {
+          "id": "q-entrance-physics-13-01-c4",
+          "text": "電力"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 2,
+      "text": "一定の力と同じ向きに物体を動かすとき、仕事の大きさを求める式は？",
+      "correctChoiceId": "q-entrance-physics-13-02-c2",
+      "explanation": "仕事の単位はJで、1 Nの力でその向きに1 m動かすと1 Jです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-02-c1",
+          "text": "仕事＝速さ×時間"
+        },
+        {
+          "id": "q-entrance-physics-13-02-c2",
+          "text": "仕事＝力の大きさ×移動距離"
+        },
+        {
+          "id": "q-entrance-physics-13-02-c3",
+          "text": "仕事＝質量÷時間"
+        },
+        {
+          "id": "q-entrance-physics-13-02-c4",
+          "text": "仕事＝力の大きさ÷移動距離"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 3,
+      "text": "質量300 gの物体を2 mの高さまでゆっくり持ち上げた。100 gにはたらく重力を1 Nとすると、持ち上げる力の仕事は？",
+      "correctChoiceId": "q-entrance-physics-13-03-c4",
+      "explanation": "300 gにはたらく重力は3 N。仕事は3×2＝6 Jです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-03-c1",
+          "text": "600 J"
+        },
+        {
+          "id": "q-entrance-physics-13-03-c2",
+          "text": "0.6 J"
+        },
+        {
+          "id": "q-entrance-physics-13-03-c3",
+          "text": "3 J"
+        },
+        {
+          "id": "q-entrance-physics-13-03-c4",
+          "text": "6 J"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 4,
+      "text": "摩擦などを無視し、動滑車で同じ物体を同じ高さまで持ち上げる。直接持ち上げる場合と比べ、力を加える距離と仕事は？",
+      "correctChoiceId": "q-entrance-physics-13-04-c4",
+      "explanation": "道具で力を小さくしても、力を加える距離が増えるため仕事は同じです。これを仕事の原理といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-04-c1",
+          "text": "距離は長くなり、仕事も必ず大きくなる"
+        },
+        {
+          "id": "q-entrance-physics-13-04-c2",
+          "text": "距離は短くなり、仕事も小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-13-04-c3",
+          "text": "距離は同じで、仕事は小さくなる"
+        },
+        {
+          "id": "q-entrance-physics-13-04-c4",
+          "text": "距離は長くなるが、仕事は変わらない"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 5,
+      "text": "質量10 kgの物体を1 m持ち上げるのに20秒かかった。100 gにはたらく重力を1 Nとすると仕事率は？",
+      "correctChoiceId": "q-entrance-physics-13-05-c2",
+      "explanation": "重力は100 N、仕事は100×1＝100 J。仕事率＝100÷20＝5 Wです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-05-c1",
+          "text": "2000 W"
+        },
+        {
+          "id": "q-entrance-physics-13-05-c2",
+          "text": "5 W"
+        },
+        {
+          "id": "q-entrance-physics-13-05-c3",
+          "text": "100 W"
+        },
+        {
+          "id": "q-entrance-physics-13-05-c4",
+          "text": "50 W"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 6,
+      "text": "重力による位置エネルギーが大きくなる条件は？",
+      "correctChoiceId": "q-entrance-physics-13-06-c2",
+      "explanation": "重力による位置エネルギーは、物体の質量と基準面からの高さが大きいほど大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-06-c1",
+          "text": "質量や高さには関係しない"
+        },
+        {
+          "id": "q-entrance-physics-13-06-c2",
+          "text": "質量が大きく、基準面からの高さが高い"
+        },
+        {
+          "id": "q-entrance-physics-13-06-c3",
+          "text": "質量が大きく、高さが低いほど必ず大きい"
+        },
+        {
+          "id": "q-entrance-physics-13-06-c4",
+          "text": "質量が小さく、高さが低い"
+        }
+      ],
+      "source": {
+        "page": 29,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 7,
+      "text": "質量が同じ2物体では、運動エネルギーが大きいのはどちら？",
+      "correctChoiceId": "q-entrance-physics-13-07-c2",
+      "explanation": "質量が同じなら、速さが大きいほど運動エネルギーは大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-07-c1",
+          "text": "どちらも必ず同じ"
+        },
+        {
+          "id": "q-entrance-physics-13-07-c2",
+          "text": "速さが大きい物体"
+        },
+        {
+          "id": "q-entrance-physics-13-07-c3",
+          "text": "速さが小さい物体"
+        },
+        {
+          "id": "q-entrance-physics-13-07-c4",
+          "text": "静止している物体"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 8,
+      "text": "速さが同じ2物体では、運動エネルギーが大きいのはどちら？",
+      "correctChoiceId": "q-entrance-physics-13-08-c2",
+      "explanation": "速さが同じなら、質量が大きいほど運動エネルギーは大きくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-08-c1",
+          "text": "体積だけが小さい物体"
+        },
+        {
+          "id": "q-entrance-physics-13-08-c2",
+          "text": "質量が大きい物体"
+        },
+        {
+          "id": "q-entrance-physics-13-08-c3",
+          "text": "質量が小さい物体"
+        },
+        {
+          "id": "q-entrance-physics-13-08-c4",
+          "text": "どちらも必ず同じ"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 9,
+      "text": "位置エネルギーと運動エネルギーの和を何という？",
+      "correctChoiceId": "q-entrance-physics-13-09-c2",
+      "explanation": "位置エネルギーと運動エネルギーを合わせて力学的エネルギーといいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-09-c1",
+          "text": "化学エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-13-09-c2",
+          "text": "力学的エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-13-09-c3",
+          "text": "電気エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-13-09-c4",
+          "text": "熱エネルギー"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 10,
+      "text": "摩擦や空気抵抗がなく、位置エネルギーと運動エネルギーが移り変わっても、その和が一定に保たれることを何という？",
+      "correctChoiceId": "q-entrance-physics-13-10-c3",
+      "explanation": "摩擦などによるエネルギーの散逸がなければ、力学的エネルギーは一定です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-10-c1",
+          "text": "電磁誘導"
+        },
+        {
+          "id": "q-entrance-physics-13-10-c2",
+          "text": "仕事率の増大"
+        },
+        {
+          "id": "q-entrance-physics-13-10-c3",
+          "text": "力学的エネルギーの保存"
+        },
+        {
+          "id": "q-entrance-physics-13-10-c4",
+          "text": "熱伝導"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 11,
+      "text": "摩擦や空気抵抗を無視した振り子が高い位置から最下点へ動くとき、位置エネルギーと運動エネルギーは？",
+      "correctChoiceId": "q-entrance-physics-13-11-c3",
+      "explanation": "低くなると位置エネルギーが減り、その分が運動エネルギーへ変わって速くなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-11-c1",
+          "text": "両方とも増える"
+        },
+        {
+          "id": "q-entrance-physics-13-11-c2",
+          "text": "位置エネルギーは増え、運動エネルギーは減る"
+        },
+        {
+          "id": "q-entrance-physics-13-11-c3",
+          "text": "位置エネルギーは減り、運動エネルギーは増える"
+        },
+        {
+          "id": "q-entrance-physics-13-11-c4",
+          "text": "両方とも減る"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 11,
+        "adaptation": "図の条件・関係を文章化。記号選択・作図は同じ学習事項を問う4択へ再構成。"
+      }
+    },
+    {
+      "id": "q-entrance-physics-13-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-13",
+      "order": 12,
+      "text": "ジェットコースターが摩擦や空気抵抗で出発点と同じ高さまで戻れないのは、力学的エネルギーの一部が主に何に変わるため？",
+      "correctChoiceId": "q-entrance-physics-13-12-c2",
+      "explanation": "摩擦や空気抵抗により力学的エネルギーの一部が熱などへ変わります。すべてのエネルギーを合わせた総量は保存されます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-13-12-c1",
+          "text": "重力そのもの"
+        },
+        {
+          "id": "q-entrance-physics-13-12-c2",
+          "text": "熱エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-13-12-c3",
+          "text": "電荷だけ"
+        },
+        {
+          "id": "q-entrance-physics-13-12-c4",
+          "text": "新たな質量だけ"
+        }
+      ],
+      "source": {
+        "page": 30,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 1,
+      "text": "モーターが回るとき、電気エネルギーは主に何エネルギーに変わる？",
+      "correctChoiceId": "q-entrance-physics-14-01-c1",
+      "explanation": "モーターは電流が磁界から受ける力を利用し、電気エネルギーを回転運動に変えます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-01-c1",
+          "text": "運動エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-01-c2",
+          "text": "化学エネルギーだけ"
+        },
+        {
+          "id": "q-entrance-physics-14-01-c3",
+          "text": "位置エネルギーだけ"
+        },
+        {
+          "id": "q-entrance-physics-14-01-c4",
+          "text": "核エネルギー"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-02",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 2,
+      "text": "実際のモーターで、取り出せる力学的エネルギーは供給した電気エネルギーと比べてどうなる？",
+      "correctChoiceId": "q-entrance-physics-14-02-c4",
+      "explanation": "供給エネルギーの一部が熱や音などへ変わるため、取り出せる力学的エネルギーは小さくなります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-02-c1",
+          "text": "必ず同じ"
+        },
+        {
+          "id": "q-entrance-physics-14-02-c2",
+          "text": "必ず2倍"
+        },
+        {
+          "id": "q-entrance-physics-14-02-c3",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-physics-14-02-c4",
+          "text": "小さい"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-03",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 3,
+      "text": "火力発電で、燃料が燃えることによって水を沸かすとき、直接利用するエネルギーは？",
+      "correctChoiceId": "q-entrance-physics-14-03-c3",
+      "explanation": "燃料の化学エネルギーが熱に変わり、水蒸気をつくってタービンを回します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-03-c1",
+          "text": "光エネルギーだけ"
+        },
+        {
+          "id": "q-entrance-physics-14-03-c2",
+          "text": "核エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-03-c3",
+          "text": "熱エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-03-c4",
+          "text": "位置エネルギーだけ"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-04",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 4,
+      "text": "電球が点灯するとき、電気エネルギーは主にどの組み合わせに変わる？",
+      "correctChoiceId": "q-entrance-physics-14-04-c2",
+      "explanation": "電球は光を出すとともに熱も発生させます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-04-c1",
+          "text": "位置エネルギーと運動エネルギーだけ"
+        },
+        {
+          "id": "q-entrance-physics-14-04-c2",
+          "text": "光エネルギーと熱エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-04-c3",
+          "text": "核エネルギーと位置エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-04-c4",
+          "text": "化学エネルギーと核エネルギー"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-05",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 5,
+      "text": "同じ明るさで使うとき、一般に白熱電球より消費電力が小さい照明は？",
+      "correctChoiceId": "q-entrance-physics-14-05-c2",
+      "explanation": "LED照明は白熱電球より、電気エネルギーを光として利用する効率が高い照明です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-05-c1",
+          "text": "白熱電球に抵抗を足して同じ光量を保つ照明"
+        },
+        {
+          "id": "q-entrance-physics-14-05-c2",
+          "text": "LED照明"
+        },
+        {
+          "id": "q-entrance-physics-14-05-c3",
+          "text": "同じ白熱電球を2個使う照明"
+        },
+        {
+          "id": "q-entrance-physics-14-05-c4",
+          "text": "白熱電球を強く加熱する照明"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-06",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 6,
+      "text": "供給したエネルギーのうち、目的のはたらきに利用できたエネルギーの割合を何という？",
+      "correctChoiceId": "q-entrance-physics-14-06-c3",
+      "explanation": "変換効率＝目的に利用できたエネルギー÷供給したエネルギーです。百分率なら100をかけます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-06-c1",
+          "text": "振動数"
+        },
+        {
+          "id": "q-entrance-physics-14-06-c2",
+          "text": "放射能"
+        },
+        {
+          "id": "q-entrance-physics-14-06-c3",
+          "text": "エネルギー変換効率"
+        },
+        {
+          "id": "q-entrance-physics-14-06-c4",
+          "text": "仕事の原理"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-07",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 7,
+      "text": "物体を伝わって、高温の部分から低温の部分へ熱が移動する現象は？",
+      "correctChoiceId": "q-entrance-physics-14-07-c4",
+      "explanation": "金属の棒の一端を熱すると他端も温まるのは、熱伝導によるものです。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-07-c1",
+          "text": "放射"
+        },
+        {
+          "id": "q-entrance-physics-14-07-c2",
+          "text": "対流"
+        },
+        {
+          "id": "q-entrance-physics-14-07-c3",
+          "text": "電磁誘導"
+        },
+        {
+          "id": "q-entrance-physics-14-07-c4",
+          "text": "伝導（熱伝導）"
+        }
+      ],
+      "source": {
+        "page": 31,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-08",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 8,
+      "text": "温められた液体や気体が移動することで、熱が運ばれる現象は？",
+      "correctChoiceId": "q-entrance-physics-14-08-c1",
+      "explanation": "液体や気体そのものの移動によって熱が運ばれることを対流といいます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-08-c1",
+          "text": "対流"
+        },
+        {
+          "id": "q-entrance-physics-14-08-c2",
+          "text": "放射"
+        },
+        {
+          "id": "q-entrance-physics-14-08-c3",
+          "text": "伝導"
+        },
+        {
+          "id": "q-entrance-physics-14-08-c4",
+          "text": "屈折"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-09",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 9,
+      "text": "離れた熱源から電磁波によって熱が伝わる現象は？",
+      "correctChoiceId": "q-entrance-physics-14-09-c2",
+      "explanation": "熱放射は物質の移動や接触がなくても起こり、真空中でもエネルギーが伝わります。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-09-c1",
+          "text": "対流"
+        },
+        {
+          "id": "q-entrance-physics-14-09-c2",
+          "text": "放射（熱放射）"
+        },
+        {
+          "id": "q-entrance-physics-14-09-c3",
+          "text": "慣性"
+        },
+        {
+          "id": "q-entrance-physics-14-09-c4",
+          "text": "伝導"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-10",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 10,
+      "text": "地球の大気中の二酸化炭素などが、地表から出る赤外線を吸収・放出し、地表付近を温めるはたらきを何という？",
+      "correctChoiceId": "q-entrance-physics-14-10-c1",
+      "explanation": "二酸化炭素などの温室効果ガスが地表からの赤外線を吸収・放出することで、地表付近が温められます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-10-c1",
+          "text": "温室効果"
+        },
+        {
+          "id": "q-entrance-physics-14-10-c2",
+          "text": "電磁誘導"
+        },
+        {
+          "id": "q-entrance-physics-14-10-c3",
+          "text": "全反射"
+        },
+        {
+          "id": "q-entrance-physics-14-10-c4",
+          "text": "自由落下"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-11",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 11,
+      "text": "マグマなどによる地下の熱エネルギーを利用する発電は？",
+      "correctChoiceId": "q-entrance-physics-14-11-c4",
+      "explanation": "地熱発電は地下の熱を利用します。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-11-c1",
+          "text": "風力発電"
+        },
+        {
+          "id": "q-entrance-physics-14-11-c2",
+          "text": "水力発電"
+        },
+        {
+          "id": "q-entrance-physics-14-11-c3",
+          "text": "太陽光発電"
+        },
+        {
+          "id": "q-entrance-physics-14-11-c4",
+          "text": "地熱発電"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-12",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 12,
+      "text": "生物由来の燃料を燃やしたり、生物由来のガスを使ったりする発電は？",
+      "correctChoiceId": "q-entrance-physics-14-12-c4",
+      "explanation": "木材などの生物資源や、それらからつくられる燃料を利用するのがバイオマス発電です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-12-c1",
+          "text": "潮力発電"
+        },
+        {
+          "id": "q-entrance-physics-14-12-c2",
+          "text": "風力発電"
+        },
+        {
+          "id": "q-entrance-physics-14-12-c3",
+          "text": "原子力発電"
+        },
+        {
+          "id": "q-entrance-physics-14-12-c4",
+          "text": "バイオマス発電"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-13",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 13,
+      "text": "植物由来の燃料の燃焼で出る二酸化炭素と、その植物の成長時の吸収に着目した考え方は？",
+      "correctChoiceId": "q-entrance-physics-14-13-c3",
+      "explanation": "この考え方をカーボンニュートラルといいます。ただし、栽培・加工・輸送などの排出も含めると必ず全体がゼロになるわけではありません。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-13-c1",
+          "text": "植物は成長時に二酸化炭素を吸収しない"
+        },
+        {
+          "id": "q-entrance-physics-14-13-c2",
+          "text": "二酸化炭素は燃焼時にすべて酸素になる"
+        },
+        {
+          "id": "q-entrance-physics-14-13-c3",
+          "text": "成長時の吸収で燃焼時の排出が相殺されるとみなす"
+        },
+        {
+          "id": "q-entrance-physics-14-13-c4",
+          "text": "燃焼しても二酸化炭素は全く出ない"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-14",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 14,
+      "text": "太陽光や風力など、自然界で繰り返し補充されるエネルギーを何という？",
+      "correctChoiceId": "q-entrance-physics-14-14-c1",
+      "explanation": "太陽光、風力、水力、地熱などは再生可能エネルギーに分類されます。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-14-c1",
+          "text": "再生可能エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-14-c2",
+          "text": "化石燃料"
+        },
+        {
+          "id": "q-entrance-physics-14-14-c3",
+          "text": "核燃料"
+        },
+        {
+          "id": "q-entrance-physics-14-14-c4",
+          "text": "使い捨てエネルギー"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-physics-14-15",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-physics-14",
+      "order": 15,
+      "text": "使用済みのウラン燃料などから出る、放射線を出す物質を含む廃棄物を何という？",
+      "correctChoiceId": "q-entrance-physics-14-15-c1",
+      "explanation": "放射性物質を含む廃棄物を放射性廃棄物といい、放射能などの性質に応じた管理が必要です。",
+      "choices": [
+        {
+          "id": "q-entrance-physics-14-15-c1",
+          "text": "放射性廃棄物"
+        },
+        {
+          "id": "q-entrance-physics-14-15-c2",
+          "text": "再生可能エネルギー"
+        },
+        {
+          "id": "q-entrance-physics-14-15-c3",
+          "text": "化石燃料"
+        },
+        {
+          "id": "q-entrance-physics-14-15-c4",
+          "text": "一般の生ごみ"
+        }
+      ],
+      "source": {
+        "page": 32,
+        "question": 15
+      }
+    }
+  ]
+}

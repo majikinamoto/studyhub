@@ -35,7 +35,7 @@ try {
     chapterTitle.textContent = `${chapter.title}（準備中）`;
     chapterDescription.textContent = "この分野の教材は準備中です。";
     if (startQuizCard) startQuizCard.hidden = true;
-    unitList.innerHTML = `<a class="secondary-button" href="./subject.html?course=${encodeURIComponent(course.id)}">社会の分野一覧へ戻る</a>`;
+    unitList.innerHTML = `<a class="secondary-button" href="./subject.html?course=${encodeURIComponent(course.id)}">${escapeHtml(course.subjectName)}の分野一覧へ戻る</a>`;
     schoolBreadcrumbLink.href = "./entrance-exam.html";
     schoolBreadcrumbLink.textContent = course.gradeName;
     gradeBreadcrumbLink.hidden = true;
