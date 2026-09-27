@@ -1,6 +1,9 @@
 const app=document.querySelector('#learning-app'), notice=document.querySelector('#storage-message');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const key='studyhub:suken-2-first:roots:mastered';
+const topic=app.dataset.topic||'roots';
+const sources={roots:'../data/suken-roots.json',algebra:'../data/suken-algebra.json'};
+const key='studyhub:suken-2-first:'+topic+':mastered';
+let title='';
 let lessons=[],marks=new Set(),session;
 const url=(view,unit)=>'#'+new URLSearchParams({view,...(unit?{unit}:{})});
 function focus(){app.querySelector('h2')?.focus();}
@@ -15,7 +18,7 @@ function bindMarks(){
 const mark=l=>`<button class="mastery-button" data-mark="${l.id}" aria-label="${esc(l.title)}の覚えた印" aria-pressed="${marks.has(l.id)}">${marks.has(l.id)?'⭐':'☆'} 覚えた</button>`;
 function overview(){
  session=null;
- app.innerHTML=`<h2 tabindex="-1">√の基礎〜有理化</h2><p>初めてなら上から順に「説明から学ぶ」へ。紙と鉛筆で途中式を書いてみよう。</p><p id="marks" aria-live="polite">覚えた項目 ${marks.size}／${lessons.length}</p>
+ app.innerHTML=`<h2 tabindex="-1">${esc(title)}</h2><p>初めてなら上から順に「説明から学ぶ」へ。紙と鉛筆で途中式を書いてみよう。</p><p id="marks" aria-live="polite">覚えた項目 ${marks.size}／${lessons.length}</p>
  <section class="range-panel"><h3>問題を練習する</h3><p>習った項目をチェックして、自力練習をまとめて出題できます。</p><div class="lesson-actions"><button class="secondary-button" data-select="all">全選択</button><button class="secondary-button" data-select="none">全解除</button><button class="secondary-button" data-select="unlearned">まだ覚えていない項目</button></div><p id="selection" aria-live="polite">0項目・0問を選択</p><label>出題数 <select id="limit"><option value="all">すべて</option><option value="10">10問</option><option value="20">20問</option></select></label><button class="primary-button" id="start" disabled>選んだ項目から出題</button></section>
  ${lessons.map((l,i)=>`<article class="study-card"><p class="card-label">ステップ ${i+1}</p><h3>${esc(l.title)}</h3><div class="lesson-actions"><a class="primary-button" href="${url('lesson',l.id)}">説明から学ぶ</a><a class="secondary-button" href="${url('practice',l.id)}">自力練習 3問</a></div><div class="range-controls"><label class="range-checkbox"><input type="checkbox" value="${l.id}" aria-label="${esc(l.title)}を出題する">出題する</label>${mark(l)}</div></article>`).join('')}`;
  const checks=[...app.querySelectorAll('input[type=checkbox]')];
@@ -70,7 +73,8 @@ function route(){
  }else missing();
 }
 try{
- const r=await fetch('../data/suken-roots.json');if(!r.ok)throw Error('load failed');lessons=(await r.json()).lessons;
+ if(!Object.hasOwn(sources,topic))throw Error('unknown topic');
+ const r=await fetch(sources[topic]);if(!r.ok)throw Error('load failed');const data=await r.json();lessons=data.lessons;title=data.title;
  try{const saved=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(saved))marks=new Set(saved.filter(id=>lessons.some(l=>l.id===id)));}catch{notice.textContent='保存された印を読み込めませんでした。学習は続けられます。';}
  route();window.addEventListener('hashchange',()=>{route();focus();});
 }catch(error){console.warn(error);app.innerHTML='<h2>教材を読み込めませんでした</h2><p>通信状態を確認して再読み込みしてください。</p><a href="./suken-2-first.html">数検2級 1次へ戻る</a>';}

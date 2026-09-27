@@ -1,0 +1,1251 @@
+{
+  "version": 1,
+  "title": "展開・因数分解",
+  "note": "提供写真p.14〜18を参考に前提知識から補うオリジナル基礎教材。設問は本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "distribute",
+      "title": "かっこを開く：分配法則",
+      "steps": [
+        [
+          "文字は数の入れ物",
+          "3xは3×xの省略です。かっこの外の数を、中の各項に掛けます。",
+          "3(x + 2) = 3×x + 3×2 = 3x + 6",
+          "xに1を入れると、左右とも9になることを確かめよう。"
+        ],
+        [
+          "引き算にも配る",
+          "引かれる項にも、外の数を掛けます。",
+          "2(x − 4) = 2x − 8",
+          "最初の項だけに掛けて終わらないようにしよう。"
+        ],
+        [
+          "外がマイナスのとき",
+          "負の数を掛けるときも、1項ずつ符号を確認します。",
+          "−2(x − 3) = −2x + 6",
+          "−2×(−3)=+6。−(x−3)なら−1を配ります。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-distribute-1",
+          "stage": "guided",
+          "text": "3(x + 4)を開く途中式は？",
+          "hint": "3を両方に掛けよう。",
+          "explanation": "3(x+4)=3x+12。",
+          "correctChoiceId": "algebra-distribute-1-0",
+          "choices": [
+            {
+              "text": "3×x + 3×4",
+              "feedback": "正解です。3(x+4)=3x+12。",
+              "id": "algebra-distribute-1-0"
+            },
+            {
+              "text": "3×x + 4",
+              "feedback": "4にも3を掛けます。",
+              "id": "algebra-distribute-1-1"
+            },
+            {
+              "text": "x + 3×4",
+              "feedback": "xにも3を掛けます。",
+              "id": "algebra-distribute-1-2"
+            },
+            {
+              "text": "3×x×4",
+              "feedback": "かっこの中の足し算を残します。",
+              "id": "algebra-distribute-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-distribute-2",
+          "stage": "guided",
+          "text": "−2(x − 5)の定数部分は？",
+          "hint": "−2×(−5)を計算。",
+          "explanation": "−2(x−5)=−2x+10。",
+          "correctChoiceId": "algebra-distribute-2-1",
+          "choices": [
+            {
+              "text": "+7",
+              "feedback": "足すのではなく掛けます。",
+              "id": "algebra-distribute-2-0"
+            },
+            {
+              "text": "+10",
+              "feedback": "正解です。−2(x−5)=−2x+10。",
+              "id": "algebra-distribute-2-1"
+            },
+            {
+              "text": "−10",
+              "feedback": "負×負は正です。",
+              "id": "algebra-distribute-2-2"
+            },
+            {
+              "text": "−5",
+              "feedback": "外の−2を掛けます。",
+              "id": "algebra-distribute-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-distribute-3",
+          "stage": "practice",
+          "text": "4(x + 3)を展開すると？",
+          "hint": "4を2つの項に配ります。",
+          "explanation": "4×x+4×3=4x+12。",
+          "correctChoiceId": "algebra-distribute-3-2",
+          "choices": [
+            {
+              "text": "x + 12",
+              "feedback": "xの係数も4です。",
+              "id": "algebra-distribute-3-0"
+            },
+            {
+              "text": "12x",
+              "feedback": "xの項と数だけの項はまとめられません。",
+              "id": "algebra-distribute-3-1"
+            },
+            {
+              "text": "4x + 12",
+              "feedback": "正解です。4×x+4×3=4x+12。",
+              "id": "algebra-distribute-3-2"
+            },
+            {
+              "text": "4x + 3",
+              "feedback": "3にも4を掛けよう。",
+              "id": "algebra-distribute-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-distribute-4",
+          "stage": "practice",
+          "text": "5(2x − 1)を展開すると？",
+          "hint": "5×2xと5×(−1)。",
+          "explanation": "5×2x−5×1=10x−5。",
+          "correctChoiceId": "algebra-distribute-4-3",
+          "choices": [
+            {
+              "text": "10x − 1",
+              "feedback": "−1にも5を掛けます。",
+              "id": "algebra-distribute-4-0"
+            },
+            {
+              "text": "7x − 5",
+              "feedback": "5と2は掛けます。",
+              "id": "algebra-distribute-4-1"
+            },
+            {
+              "text": "10x + 5",
+              "feedback": "正×負は負です。",
+              "id": "algebra-distribute-4-2"
+            },
+            {
+              "text": "10x − 5",
+              "feedback": "正解です。5×2x−5×1=10x−5。",
+              "id": "algebra-distribute-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-distribute-5",
+          "stage": "practice",
+          "text": "−3(x − 2)を展開すると？",
+          "hint": "−3を両方に掛けよう。",
+          "explanation": "−3×x+(−3)×(−2)=−3x+6。",
+          "correctChoiceId": "algebra-distribute-5-0",
+          "choices": [
+            {
+              "text": "−3x + 6",
+              "feedback": "正解です。−3×x+(−3)×(−2)=−3x+6。",
+              "id": "algebra-distribute-5-0"
+            },
+            {
+              "text": "−3x − 6",
+              "feedback": "負×負は正です。",
+              "id": "algebra-distribute-5-1"
+            },
+            {
+              "text": "−3x − 2",
+              "feedback": "−2にも−3を掛けます。",
+              "id": "algebra-distribute-5-2"
+            },
+            {
+              "text": "3x + 6",
+              "feedback": "xの項のマイナスも残ります。",
+              "id": "algebra-distribute-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "title": "同じ種類の項をまとめる",
+      "steps": [
+        [
+          "項は足し算の部品",
+          "3x+2x+4では3xと2xが同じ種類です。文字とその指数が同じ項を同類項と呼びます。",
+          "3x + 2x + 4 = (3+2)x + 4 = 5x + 4",
+          "xの個数だけを足します。数だけの4は別に残します。"
+        ],
+        [
+          "xとx²は別の種類",
+          "x²はx×xです。xの項と一緒に足しまとめることはできません。",
+          "2x² + 3x + x² = 3x² + 3x",
+          "足し算と掛け算を区別しよう。x×x=x²ですが、x+x=2xです。"
+        ],
+        [
+          "かっこを開いてから整理",
+          "引くかっこの中は、各項の符号が逆になります。",
+          "(4x+3) − (x+2) = 4x+3−x−2 = 3x+1",
+          "−(x+2)=−x−2です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-terms-1",
+          "stage": "guided",
+          "text": "2x² + 3x + 5x²で、2x²とまとめられる項は？",
+          "hint": "文字と指数が同じ項。",
+          "explanation": "2x²+5x²=7x²。3xは別に残す。",
+          "correctChoiceId": "algebra-terms-1-0",
+          "choices": [
+            {
+              "text": "5x²",
+              "feedback": "正解です。2x²+5x²=7x²。3xは別に残す。",
+              "id": "algebra-terms-1-0"
+            },
+            {
+              "text": "3x",
+              "feedback": "xとx²は別の種類です。",
+              "id": "algebra-terms-1-1"
+            },
+            {
+              "text": "全部",
+              "feedback": "指数の違う項はまとめません。",
+              "id": "algebra-terms-1-2"
+            },
+            {
+              "text": "どれもない",
+              "feedback": "5x²は同じx²の項です。",
+              "id": "algebra-terms-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-terms-2",
+          "stage": "guided",
+          "text": "−(2x + 3)のかっこを開くと？",
+          "hint": "−1を両方に掛けます。",
+          "explanation": "−1×2x−1×3=−2x−3。",
+          "correctChoiceId": "algebra-terms-2-1",
+          "choices": [
+            {
+              "text": "2x + 3",
+              "feedback": "外のマイナスを配ろう。",
+              "id": "algebra-terms-2-0"
+            },
+            {
+              "text": "−2x − 3",
+              "feedback": "正解です。−1×2x−1×3=−2x−3。",
+              "id": "algebra-terms-2-1"
+            },
+            {
+              "text": "−2x + 3",
+              "feedback": "3の符号も逆になります。",
+              "id": "algebra-terms-2-2"
+            },
+            {
+              "text": "2x − 3",
+              "feedback": "2xの符号も逆になります。",
+              "id": "algebra-terms-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-terms-3",
+          "stage": "practice",
+          "text": "7x − 2x + 4を整理すると？",
+          "hint": "xの係数を引きます。",
+          "explanation": "(7−2)x+4=5x+4。",
+          "correctChoiceId": "algebra-terms-3-2",
+          "choices": [
+            {
+              "text": "9x",
+              "feedback": "数だけの4はxの項と足せません。",
+              "id": "algebra-terms-3-0"
+            },
+            {
+              "text": "5x² + 4",
+              "feedback": "足し引きで指数は変わりません。",
+              "id": "algebra-terms-3-1"
+            },
+            {
+              "text": "5x + 4",
+              "feedback": "正解です。(7−2)x+4=5x+4。",
+              "id": "algebra-terms-3-2"
+            },
+            {
+              "text": "9x + 4",
+              "feedback": "7−2です。足しません。",
+              "id": "algebra-terms-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-terms-4",
+          "stage": "practice",
+          "text": "3x² + 2x − x² + 5xを整理すると？",
+          "hint": "x²とxを別々に整理。",
+          "explanation": "(3−1)x²+(2+5)x=2x²+7x。",
+          "correctChoiceId": "algebra-terms-4-3",
+          "choices": [
+            {
+              "text": "9x²",
+              "feedback": "xの項はx²にできません。",
+              "id": "algebra-terms-4-0"
+            },
+            {
+              "text": "4x² + 7x",
+              "feedback": "x²の係数は3−1です。",
+              "id": "algebra-terms-4-1"
+            },
+            {
+              "text": "2x² + 3x",
+              "feedback": "xの係数は2+5です。",
+              "id": "algebra-terms-4-2"
+            },
+            {
+              "text": "2x² + 7x",
+              "feedback": "正解です。(3−1)x²+(2+5)x=2x²+7x。",
+              "id": "algebra-terms-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-terms-5",
+          "stage": "practice",
+          "text": "(5x + 2) − (2x − 3)を整理すると？",
+          "hint": "後ろのかっこに−1を配ります。",
+          "explanation": "5x+2−2x+3=3x+5。",
+          "correctChoiceId": "algebra-terms-5-0",
+          "choices": [
+            {
+              "text": "3x + 5",
+              "feedback": "正解です。5x+2−2x+3=3x+5。",
+              "id": "algebra-terms-5-0"
+            },
+            {
+              "text": "3x − 1",
+              "feedback": "−(−3)=+3です。",
+              "id": "algebra-terms-5-1"
+            },
+            {
+              "text": "7x − 1",
+              "feedback": "後ろの2xも引きます。",
+              "id": "algebra-terms-5-2"
+            },
+            {
+              "text": "3x − 5",
+              "feedback": "定数部分は2+3です。",
+              "id": "algebra-terms-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expand",
+      "title": "2つのかっこの掛け算",
+      "steps": [
+        [
+          "全部の組み合わせを掛ける",
+          "左のxも2も、右のxと3の両方に掛けます。",
+          "(x+2)(x+3) = x²+3x+2x+6 = x²+5x+6",
+          "4つの積を書いてから、同類項をまとめよう。"
+        ],
+        [
+          "2乗にも真ん中の項がある",
+          "同じかっこを2回掛けます。",
+          "(x+3)² = (x+3)(x+3) = x²+6x+9",
+          "(a+b)²=a²+2ab+b²。a²+b²だけにはなりません。"
+        ],
+        [
+          "和と差の積",
+          "真ん中の項が打ち消し合う組み合わせです。",
+          "(x+4)(x−4) = x²−4x+4x−16 = x²−16",
+          "(a+b)(a−b)=a²−b²。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-expand-1",
+          "stage": "guided",
+          "text": "(x+2)(x+5)の展開で、x×5の結果は？",
+          "hint": "数と文字を掛けます。",
+          "explanation": "4つの積はx²、5x、2x、10です。",
+          "correctChoiceId": "algebra-expand-1-0",
+          "choices": [
+            {
+              "text": "5x",
+              "feedback": "正解です。4つの積はx²、5x、2x、10です。",
+              "id": "algebra-expand-1-0"
+            },
+            {
+              "text": "5x²",
+              "feedback": "5にはxがないので指数は増えません。",
+              "id": "algebra-expand-1-1"
+            },
+            {
+              "text": "x + 5",
+              "feedback": "足すのではなく掛けます。",
+              "id": "algebra-expand-1-2"
+            },
+            {
+              "text": "7x",
+              "feedback": "2はこの積には使いません。",
+              "id": "algebra-expand-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-expand-2",
+          "stage": "guided",
+          "text": "(x+4)²のxの項は？",
+          "hint": "x×4が2回あります。",
+          "explanation": "x²+4x+4x+16=x²+8x+16。",
+          "correctChoiceId": "algebra-expand-2-1",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "真ん中の項は消えません。",
+              "id": "algebra-expand-2-0"
+            },
+            {
+              "text": "8x",
+              "feedback": "正解です。x²+4x+4x+16=x²+8x+16。",
+              "id": "algebra-expand-2-1"
+            },
+            {
+              "text": "4x",
+              "feedback": "交差して掛ける項が2つあります。",
+              "id": "algebra-expand-2-2"
+            },
+            {
+              "text": "16x",
+              "feedback": "16は4×4の定数部分です。",
+              "id": "algebra-expand-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-expand-3",
+          "stage": "practice",
+          "text": "(x+1)(x+6)を展開すると？",
+          "hint": "xの係数は1+6。",
+          "explanation": "x²+6x+x+6=x²+7x+6。",
+          "correctChoiceId": "algebra-expand-3-2",
+          "choices": [
+            {
+              "text": "x² + 6x + 7",
+              "feedback": "係数は和、定数は積です。",
+              "id": "algebra-expand-3-0"
+            },
+            {
+              "text": "2x + 7",
+              "feedback": "かっこ同士を足すのでなく掛けます。",
+              "id": "algebra-expand-3-1"
+            },
+            {
+              "text": "x² + 7x + 6",
+              "feedback": "正解です。x²+6x+x+6=x²+7x+6。",
+              "id": "algebra-expand-3-2"
+            },
+            {
+              "text": "x² + 6",
+              "feedback": "交差する積を忘れています。",
+              "id": "algebra-expand-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-expand-4",
+          "stage": "practice",
+          "text": "(x−3)²を展開すると？",
+          "hint": "(x−3)(x−3)を書こう。",
+          "explanation": "x²−3x−3x+9=x²−6x+9。",
+          "correctChoiceId": "algebra-expand-4-3",
+          "choices": [
+            {
+              "text": "x² − 9",
+              "feedback": "和と差の積の公式との混同です。",
+              "id": "algebra-expand-4-0"
+            },
+            {
+              "text": "x² + 6x + 9",
+              "feedback": "交差する積は−3xです。",
+              "id": "algebra-expand-4-1"
+            },
+            {
+              "text": "x² − 3x + 9",
+              "feedback": "−3xが2回あります。",
+              "id": "algebra-expand-4-2"
+            },
+            {
+              "text": "x² − 6x + 9",
+              "feedback": "正解です。x²−3x−3x+9=x²−6x+9。",
+              "id": "algebra-expand-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-expand-5",
+          "stage": "practice",
+          "text": "(2x+3)(2x−3)を展開すると？",
+          "hint": "a=2x、b=3として和と差の積。",
+          "explanation": "(2x)²−3²=4x²−9。",
+          "correctChoiceId": "algebra-expand-5-0",
+          "choices": [
+            {
+              "text": "4x² − 9",
+              "feedback": "正解です。(2x)²−3²=4x²−9。",
+              "id": "algebra-expand-5-0"
+            },
+            {
+              "text": "2x² − 9",
+              "feedback": "(2x)²では2も2乗します。",
+              "id": "algebra-expand-5-1"
+            },
+            {
+              "text": "4x² + 9",
+              "feedback": "最後の積は3×(−3)です。",
+              "id": "algebra-expand-5-2"
+            },
+            {
+              "text": "4x² − 6x − 9",
+              "feedback": "交差項−6xと+6xは消えます。",
+              "id": "algebra-expand-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common",
+      "title": "共通の因数でくくる",
+      "steps": [
+        [
+          "因数分解は掛け算の形に戻す",
+          "展開と逆向きの操作です。各項に共通する掛け算の部品を探します。",
+          "3x + 6 = 3(x+2)",
+          "戻して3x+6になれば確認できます。"
+        ],
+        [
+          "文字も共通なら外へ",
+          "2x²と6xには、どちらにも2xが掛かっています。",
+          "2x² + 6x = 2x(x+3)",
+          "各項を2xで割ったものを、かっこの中に残します。"
+        ],
+        [
+          "1を消さない",
+          "外に出した因数だけでできていた項は、中に1が残ります。",
+          "5x − 5 = 5(x−1)",
+          "5×1=5。かっこの中をxだけにしないように。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-common-1",
+          "stage": "guided",
+          "text": "6x + 9に共通する整数の因数で最大のものは？",
+          "hint": "6と9を両方割れる整数。",
+          "explanation": "6x+9=3(2x+3)。",
+          "correctChoiceId": "algebra-common-1-0",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "正解です。6x+9=3(2x+3)。",
+              "id": "algebra-common-1-0"
+            },
+            {
+              "text": "6",
+              "feedback": "9を6では整数に割れません。",
+              "id": "algebra-common-1-1"
+            },
+            {
+              "text": "9",
+              "feedback": "6を9では整数に割れません。",
+              "id": "algebra-common-1-2"
+            },
+            {
+              "text": "x",
+              "feedback": "9にはxが掛かっていません。",
+              "id": "algebra-common-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-common-2",
+          "stage": "guided",
+          "text": "4x² + 8x = 4x(　) の中は？",
+          "hint": "各項を4xで割ります。",
+          "explanation": "4x×x=4x²、4x×2=8x。",
+          "correctChoiceId": "algebra-common-2-1",
+          "choices": [
+            {
+              "text": "x + 2x",
+              "feedback": "8xのxも外に出ています。",
+              "id": "algebra-common-2-0"
+            },
+            {
+              "text": "x + 2",
+              "feedback": "正解です。4x×x=4x²、4x×2=8x。",
+              "id": "algebra-common-2-1"
+            },
+            {
+              "text": "x + 8",
+              "feedback": "8x÷4x=2です。",
+              "id": "algebra-common-2-2"
+            },
+            {
+              "text": "x² + 2x",
+              "feedback": "外に出した4xの分を取り除きます。",
+              "id": "algebra-common-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-common-3",
+          "stage": "practice",
+          "text": "5x + 15を因数分解すると？",
+          "hint": "共通する5を探す。",
+          "explanation": "5x+15=5×x+5×3=5(x+3)。",
+          "correctChoiceId": "algebra-common-3-2",
+          "choices": [
+            {
+              "text": "5x(x + 3)",
+              "feedback": "展開すると5x²+15xになってしまいます。",
+              "id": "algebra-common-3-0"
+            },
+            {
+              "text": "3(x + 5)",
+              "feedback": "展開したxの係数が3になります。",
+              "id": "algebra-common-3-1"
+            },
+            {
+              "text": "5(x + 3)",
+              "feedback": "正解です。5x+15=5×x+5×3=5(x+3)。",
+              "id": "algebra-common-3-2"
+            },
+            {
+              "text": "5(x + 15)",
+              "feedback": "15÷5=3です。",
+              "id": "algebra-common-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-common-4",
+          "stage": "practice",
+          "text": "3x² − 6xを因数分解すると？",
+          "hint": "両方に3xがあります。",
+          "explanation": "3x×x−3x×2=3x(x−2)。",
+          "correctChoiceId": "algebra-common-4-3",
+          "choices": [
+            {
+              "text": "3x(x − 6)",
+              "feedback": "6x÷3x=2です。",
+              "id": "algebra-common-4-0"
+            },
+            {
+              "text": "3(x − 2)",
+              "feedback": "最初のx²が再現できません。",
+              "id": "algebra-common-4-1"
+            },
+            {
+              "text": "3x(x + 2)",
+              "feedback": "引き算の符号を残します。",
+              "id": "algebra-common-4-2"
+            },
+            {
+              "text": "3x(x − 2)",
+              "feedback": "正解です。3x×x−3x×2=3x(x−2)。",
+              "id": "algebra-common-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-common-5",
+          "stage": "practice",
+          "text": "7x − 7を因数分解すると？",
+          "hint": "7=7×1です。",
+          "explanation": "7x−7=7(x−1)。",
+          "correctChoiceId": "algebra-common-5-0",
+          "choices": [
+            {
+              "text": "7(x − 1)",
+              "feedback": "正解です。7x−7=7(x−1)。",
+              "id": "algebra-common-5-0"
+            },
+            {
+              "text": "7x",
+              "feedback": "−7が消えています。",
+              "id": "algebra-common-5-1"
+            },
+            {
+              "text": "7(x − 7)",
+              "feedback": "7×7では49になります。",
+              "id": "algebra-common-5-2"
+            },
+            {
+              "text": "7(x + 1)",
+              "feedback": "最後の項は−7です。",
+              "id": "algebra-common-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factor",
+      "title": "2次式を因数分解する",
+      "steps": [
+        [
+          "足して・掛けて探す",
+          "展開の結果を逆に読みます。xの係数は2つの数の和、定数は積です。",
+          "(x+2)(x+3)=x²+5x+6",
+          "係数とは文字の前に掛かっている数。定数は文字のない項です。"
+        ],
+        [
+          "負の数も候補にする",
+          "足して1、掛けて−6になる数は3と−2です。",
+          "x²+x−6=(x+3)(x−2)",
+          "展開するとx²−2x+3x−6になり、元に戻ります。"
+        ],
+        [
+          "平方と差の公式を逆に",
+          "同じかっこが2つなら2乗で書けます。平方の差にも注目。",
+          "x²+6x+9=(x+3)² ／ x²−16=(x+4)(x−4)",
+          "まず共通因数がないかを確認してから公式を探そう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-factor-1",
+          "stage": "guided",
+          "text": "x²+7x+12を因数分解するために探す2数は？",
+          "hint": "足して7、掛けて12。",
+          "explanation": "3+4=7、3×4=12より(x+3)(x+4)。",
+          "correctChoiceId": "algebra-factor-1-1",
+          "choices": [
+            {
+              "text": "−3と−4",
+              "feedback": "和が−7になります。",
+              "id": "algebra-factor-1-0"
+            },
+            {
+              "text": "3と4",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-factor-1-1"
+            },
+            {
+              "text": "2と6",
+              "feedback": "積は12ですが和が8です。",
+              "id": "algebra-factor-1-2"
+            },
+            {
+              "text": "1と12",
+              "feedback": "和が13になります。",
+              "id": "algebra-factor-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-factor-2",
+          "stage": "guided",
+          "text": "x²−25で使う形は？",
+          "hint": "25=5²です。",
+          "explanation": "平方の差なのでx²−5²=(x+5)(x−5)。",
+          "correctChoiceId": "algebra-factor-2-2",
+          "choices": [
+            {
+              "text": "(x+5)²",
+              "feedback": "展開すると+10xの項が出ます。",
+              "id": "algebra-factor-2-0"
+            },
+            {
+              "text": "(x+25)(x−25)",
+              "feedback": "定数部分が−625になります。",
+              "id": "algebra-factor-2-1"
+            },
+            {
+              "text": "(x+5)(x−5)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-factor-2-2"
+            },
+            {
+              "text": "(x−5)²",
+              "feedback": "展開すると−10xの項が出ます。",
+              "id": "algebra-factor-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-factor-3",
+          "stage": "practice",
+          "text": "x²+8x+15を因数分解すると？",
+          "hint": "和8、積15を探そう。",
+          "explanation": "3+5=8、3×5=15。",
+          "correctChoiceId": "algebra-factor-3-3",
+          "choices": [
+            {
+              "text": "(x+1)(x+15)",
+              "feedback": "和は16になります。",
+              "id": "algebra-factor-3-0"
+            },
+            {
+              "text": "(x−3)(x−5)",
+              "feedback": "xの係数が−8になります。",
+              "id": "algebra-factor-3-1"
+            },
+            {
+              "text": "(x+3)(x−5)",
+              "feedback": "定数が−15になります。",
+              "id": "algebra-factor-3-2"
+            },
+            {
+              "text": "(x+3)(x+5)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-factor-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-factor-4",
+          "stage": "practice",
+          "text": "x²−x−12を因数分解すると？",
+          "hint": "和−1、積−12。",
+          "explanation": "−4+3=−1、−4×3=−12。",
+          "correctChoiceId": "algebra-factor-4-0",
+          "choices": [
+            {
+              "text": "(x−4)(x+3)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-factor-4-0"
+            },
+            {
+              "text": "(x+4)(x−3)",
+              "feedback": "和が+1になります。",
+              "id": "algebra-factor-4-1"
+            },
+            {
+              "text": "(x−4)(x−3)",
+              "feedback": "積が+12になります。",
+              "id": "algebra-factor-4-2"
+            },
+            {
+              "text": "(x−6)(x+2)",
+              "feedback": "和が−4になります。",
+              "id": "algebra-factor-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-factor-5",
+          "stage": "practice",
+          "text": "x²−10x+25を因数分解すると？",
+          "hint": "−10x=−2×x×5。",
+          "explanation": "x²−2×x×5+5²=(x−5)²。",
+          "correctChoiceId": "algebra-factor-5-1",
+          "choices": [
+            {
+              "text": "(x−10)²",
+              "feedback": "真ん中は−20x、定数は100になります。",
+              "id": "algebra-factor-5-0"
+            },
+            {
+              "text": "(x−5)²",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-factor-5-1"
+            },
+            {
+              "text": "(x+5)²",
+              "feedback": "真ん中の符号が逆です。",
+              "id": "algebra-factor-5-2"
+            },
+            {
+              "text": "(x+5)(x−5)",
+              "feedback": "展開するとx²−25です。",
+              "id": "algebra-factor-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cubic-expand",
+      "title": "3乗の展開を学ぶ",
+      "steps": [
+        [
+          "3乗は3回の掛け算",
+          "x³はx×x×x。まず2つのかっこを展開し、残りを掛けます。",
+          "(x+1)³=(x²+2x+1)(x+1)",
+          "2乗までの計算を使って作れます。"
+        ],
+        [
+          "6つの積を整理する",
+          "x²、2x、1のそれぞれにxと1を掛けます。",
+          "x³+x²+2x²+2x+x+1 = x³+3x²+3x+1",
+          "同じ指数の項をまとめます。"
+        ],
+        [
+          "公式でまとめる",
+          "aとbに式を当てはめます。引き算はbを負にした場合です。",
+          "(a+b)³=a³+3a²b+3ab²+b³",
+          "(a−b)³=a³−3a²b+3ab²−b³。符号は＋、−、＋、−です。"
+        ],
+        [
+          "係数も3乗する",
+          "2xをaに入れると、2にも指数が付きます。",
+          "(2x+1)³=8x³+12x²+6x+1",
+          "(2x)³=8x³、3(2x)²=12x²。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-cubic-expand-1",
+          "stage": "guided",
+          "text": "(x+2)³を掛け算で書くと？",
+          "hint": "同じかっこを3回。",
+          "explanation": "3乗は3倍ではありません。",
+          "correctChoiceId": "algebra-cubic-expand-1-1",
+          "choices": [
+            {
+              "text": "x³+8",
+              "feedback": "交差して掛ける項も必要です。",
+              "id": "algebra-cubic-expand-1-0"
+            },
+            {
+              "text": "(x+2)(x+2)(x+2)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-expand-1-1"
+            },
+            {
+              "text": "3(x+2)",
+              "feedback": "これは3倍です。",
+              "id": "algebra-cubic-expand-1-2"
+            },
+            {
+              "text": "(x+2)(x+2)",
+              "feedback": "これは2乗です。",
+              "id": "algebra-cubic-expand-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-expand-2",
+          "stage": "guided",
+          "text": "(x+2)³のx²の項は？",
+          "hint": "3×x²×2。",
+          "explanation": "x³+6x²+12x+8になります。",
+          "correctChoiceId": "algebra-cubic-expand-2-2",
+          "choices": [
+            {
+              "text": "12x²",
+              "feedback": "12はxの項の係数です。",
+              "id": "algebra-cubic-expand-2-0"
+            },
+            {
+              "text": "2x²",
+              "feedback": "公式の3も掛けます。",
+              "id": "algebra-cubic-expand-2-1"
+            },
+            {
+              "text": "6x²",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-expand-2-2"
+            },
+            {
+              "text": "3x²",
+              "feedback": "b=2も掛けます。",
+              "id": "algebra-cubic-expand-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-expand-3",
+          "stage": "practice",
+          "text": "(x+1)³を展開すると？",
+          "hint": "係数は1、3、3、1。",
+          "explanation": "(x²+2x+1)(x+1)を展開して整理する。",
+          "correctChoiceId": "algebra-cubic-expand-3-3",
+          "choices": [
+            {
+              "text": "x³+1",
+              "feedback": "真ん中の2項を忘れています。",
+              "id": "algebra-cubic-expand-3-0"
+            },
+            {
+              "text": "x³+2x²+2x+1",
+              "feedback": "同類項を全て足すと係数は3です。",
+              "id": "algebra-cubic-expand-3-1"
+            },
+            {
+              "text": "x³+3x²+1",
+              "feedback": "3xの項も必要です。",
+              "id": "algebra-cubic-expand-3-2"
+            },
+            {
+              "text": "x³+3x²+3x+1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-expand-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-expand-4",
+          "stage": "practice",
+          "text": "(x−2)³を展開すると？",
+          "hint": "＋、−、＋、−の順。",
+          "explanation": "x³−3x²×2+3x×4−8。",
+          "correctChoiceId": "algebra-cubic-expand-4-0",
+          "choices": [
+            {
+              "text": "x³−6x²+12x−8",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-expand-4-0"
+            },
+            {
+              "text": "x³−8",
+              "feedback": "交差する項がありません。",
+              "id": "algebra-cubic-expand-4-1"
+            },
+            {
+              "text": "x³−6x²−12x−8",
+              "feedback": "2乗された−2は+4です。",
+              "id": "algebra-cubic-expand-4-2"
+            },
+            {
+              "text": "x³−6x²+6x−8",
+              "feedback": "xの係数は3×2²=12です。",
+              "id": "algebra-cubic-expand-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-expand-5",
+          "stage": "practice",
+          "text": "(2x+1)³を展開すると？",
+          "hint": "2x全体をaと考えます。",
+          "explanation": "(2x)³+3(2x)²+3(2x)+1。",
+          "correctChoiceId": "algebra-cubic-expand-5-1",
+          "choices": [
+            {
+              "text": "8x³+1",
+              "feedback": "真ん中の2項が必要です。",
+              "id": "algebra-cubic-expand-5-0"
+            },
+            {
+              "text": "8x³+12x²+6x+1",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-expand-5-1"
+            },
+            {
+              "text": "2x³+6x²+6x+1",
+              "feedback": "2にも指数を適用します。",
+              "id": "algebra-cubic-expand-5-2"
+            },
+            {
+              "text": "8x³+6x²+6x+1",
+              "feedback": "3(2x)²=12x²です。",
+              "id": "algebra-cubic-expand-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cubic-factor",
+      "title": "3乗の和・差を因数分解する",
+      "steps": [
+        [
+          "3乗の和の公式",
+          "3乗の和を2つの式の積にします。展開して確かめられます。",
+          "a³+b³=(a+b)(a²−ab+b²)",
+          "(a+b)³の公式とは違います。左辺に真ん中の項がありません。"
+        ],
+        [
+          "なぜ真ん中が消えるか",
+          "各項にaとbを掛けると、打ち消す組ができます。",
+          "a³−a²b+ab²+a²b−ab²+b³=a³+b³",
+          "−a²bと+a²b、+ab²と−ab²が消えます。"
+        ],
+        [
+          "差では符号が変わる",
+          "和の公式のbを−bにすると差の公式になります。",
+          "a³−b³=(a−b)(a²+ab+b²)",
+          "2つ目のかっこの最後は、和でも差でもプラスです。"
+        ],
+        [
+          "立方体の形を見つける",
+          "8は2³です。x³+8ならa=x、b=2を使います。",
+          "x³+8=(x+2)(x²−2x+4)",
+          "まず各項を「何の3乗か」に直そう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "algebra-cubic-factor-1",
+          "stage": "guided",
+          "text": "x³+27で、27を何の3乗と見る？",
+          "hint": "同じ数を3回掛けて27。",
+          "explanation": "3×3×3=27です。",
+          "correctChoiceId": "algebra-cubic-factor-1-1",
+          "choices": [
+            {
+              "text": "27³",
+              "feedback": "27そのものをさらに3乗してしまいます。",
+              "id": "algebra-cubic-factor-1-0"
+            },
+            {
+              "text": "3³",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-factor-1-1"
+            },
+            {
+              "text": "9³",
+              "feedback": "9³=729です。",
+              "id": "algebra-cubic-factor-1-2"
+            },
+            {
+              "text": "3²",
+              "feedback": "3²=9です。",
+              "id": "algebra-cubic-factor-1-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-factor-2",
+          "stage": "guided",
+          "text": "x³−8=(x−2)(　) の中は？",
+          "hint": "差の公式の2つ目は全部プラス。",
+          "explanation": "a=x、b=2をa²+ab+b²に入れる。",
+          "correctChoiceId": "algebra-cubic-factor-2-2",
+          "choices": [
+            {
+              "text": "x²+2x−4",
+              "feedback": "最後はb²なのでプラスです。",
+              "id": "algebra-cubic-factor-2-0"
+            },
+            {
+              "text": "x²+4",
+              "feedback": "真ん中のabも必要です。",
+              "id": "algebra-cubic-factor-2-1"
+            },
+            {
+              "text": "x²+2x+4",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-factor-2-2"
+            },
+            {
+              "text": "x²−2x+4",
+              "feedback": "それは和の公式の2つ目の形です。",
+              "id": "algebra-cubic-factor-2-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-factor-3",
+          "stage": "practice",
+          "text": "x³+8を因数分解すると？",
+          "hint": "8=2³。",
+          "explanation": "和の公式にa=x、b=2を代入する。",
+          "correctChoiceId": "algebra-cubic-factor-3-3",
+          "choices": [
+            {
+              "text": "(x+2)³",
+              "feedback": "展開すると6x²と12xも出ます。",
+              "id": "algebra-cubic-factor-3-0"
+            },
+            {
+              "text": "(x+2)(x²+2x+4)",
+              "feedback": "真ん中を−2xにして交差項を消します。",
+              "id": "algebra-cubic-factor-3-1"
+            },
+            {
+              "text": "(x−2)(x²+2x+4)",
+              "feedback": "これはx³−8です。",
+              "id": "algebra-cubic-factor-3-2"
+            },
+            {
+              "text": "(x+2)(x²−2x+4)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-factor-3-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-factor-4",
+          "stage": "practice",
+          "text": "x³−27を因数分解すると？",
+          "hint": "27=3³。",
+          "explanation": "差の公式でa=x、b=3。",
+          "correctChoiceId": "algebra-cubic-factor-4-0",
+          "choices": [
+            {
+              "text": "(x−3)(x²+3x+9)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-factor-4-0"
+            },
+            {
+              "text": "(x−3)(x²−3x+9)",
+              "feedback": "差のとき2つ目の真ん中はプラスです。",
+              "id": "algebra-cubic-factor-4-1"
+            },
+            {
+              "text": "(x+3)(x²−3x+9)",
+              "feedback": "これはx³+27です。",
+              "id": "algebra-cubic-factor-4-2"
+            },
+            {
+              "text": "(x−3)(x²+3x+3)",
+              "feedback": "最後は3²=9です。",
+              "id": "algebra-cubic-factor-4-3"
+            }
+          ]
+        },
+        {
+          "id": "algebra-cubic-factor-5",
+          "stage": "practice",
+          "text": "8x³+1を因数分解すると？",
+          "hint": "8x³=(2x)³。",
+          "explanation": "a=2x、b=1。a²=4x²、ab=2xです。",
+          "correctChoiceId": "algebra-cubic-factor-5-1",
+          "choices": [
+            {
+              "text": "(8x+1)(64x²−8x+1)",
+              "feedback": "8xの3乗は512x³です。",
+              "id": "algebra-cubic-factor-5-0"
+            },
+            {
+              "text": "(2x+1)(4x²−2x+1)",
+              "feedback": "正解です。途中式も確認しよう。",
+              "id": "algebra-cubic-factor-5-1"
+            },
+            {
+              "text": "(2x+1)(2x²−2x+1)",
+              "feedback": "(2x)²=4x²です。",
+              "id": "algebra-cubic-factor-5-2"
+            },
+            {
+              "text": "(2x+1)(4x²+2x+1)",
+              "feedback": "和の公式の真ん中はマイナスです。",
+              "id": "algebra-cubic-factor-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
