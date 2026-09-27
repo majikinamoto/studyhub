@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "id": "powers",
+  "title": "指数と対数",
+  "phase": "first",
+  "prerequisite": "整数の累乗、分数、√。何乗かを考える学習です。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "powers",
+      "title": "0乗・負の指数・分数の指数",
+      "referencePages": [
+        84,
+        89
+      ],
+      "steps": [
+        [
+          "指数は掛ける個数",
+          "2³は2を3個掛けた数。掛け算では指数を足します。",
+          "2³×2²=2⁵=32、(2³)²=2⁶=64",
+          "底が同じときのルールです。2³+2²を2⁵にはできません。"
+        ],
+        [
+          "0乗と負の指数",
+          "指数が1減るごとに底で割ると考えます。底は0以外です。",
+          "2²=4 → 2¹=2 → 2⁰=1 → 2⁻¹=1/2 → 2⁻²=1/4",
+          "負の指数は負の数という意味ではありません。"
+        ],
+        [
+          "分数の指数",
+          "正の数aではa^(1/2)=√a。a^(1/3)は3乗するとaになる正の数です。",
+          "9^(1/2)=3、8^(1/3)=2、8^(2/3)=2²=4",
+          "a^(m/n)はn乗根をm乗します。この教材では底a>0で扱います。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "powers-powers-1",
+          "stage": "guided",
+          "text": "2³×2⁴を2の累乗にすると指数は？",
+          "hint": "同じ底の掛け算は指数を足す。",
+          "explanation": "3+4=7。",
+          "correctChoiceId": "powers-powers-1-0",
+          "choices": [
+            {
+              "text": "7",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-powers-1-0"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。同じ底の掛け算は指数を足す。",
+              "id": "powers-powers-1-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。同じ底の掛け算は指数を足す。",
+              "id": "powers-powers-1-2"
+            },
+            {
+              "text": "64",
+              "feedback": "途中式を見直そう。同じ底の掛け算は指数を足す。",
+              "id": "powers-powers-1-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-powers-2",
+          "stage": "guided",
+          "text": "5⁰の値は？",
+          "hint": "0以外の数の0乗。",
+          "explanation": "5¹÷5=1なので5⁰=1。",
+          "correctChoiceId": "powers-powers-2-3",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。0以外の数の0乗。",
+              "id": "powers-powers-2-0"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。0以外の数の0乗。",
+              "id": "powers-powers-2-1"
+            },
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。0以外の数の0乗。",
+              "id": "powers-powers-2-2"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-powers-2-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-powers-3",
+          "stage": "practice",
+          "text": "2⁻³の値は？",
+          "hint": "2³の逆数。",
+          "explanation": "1/(2×2×2)=1/8。",
+          "correctChoiceId": "powers-powers-3-2",
+          "choices": [
+            {
+              "text": "−6",
+              "feedback": "途中式を見直そう。2³の逆数。",
+              "id": "powers-powers-3-0"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。2³の逆数。",
+              "id": "powers-powers-3-1"
+            },
+            {
+              "text": "1/8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-powers-3-2"
+            },
+            {
+              "text": "−8",
+              "feedback": "途中式を見直そう。2³の逆数。",
+              "id": "powers-powers-3-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-powers-4",
+          "stage": "practice",
+          "text": "27^(1/3)の値は？",
+          "hint": "3乗して27になる正の数。",
+          "explanation": "3³=27。",
+          "correctChoiceId": "powers-powers-4-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。3乗して27になる正の数。",
+              "id": "powers-powers-4-0"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-powers-4-1"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。3乗して27になる正の数。",
+              "id": "powers-powers-4-2"
+            },
+            {
+              "text": "27",
+              "feedback": "途中式を見直そう。3乗して27になる正の数。",
+              "id": "powers-powers-4-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-powers-5",
+          "stage": "practice",
+          "text": "16^(3/4)の値は？",
+          "hint": "4乗根を求めて3乗。",
+          "explanation": "16^(1/4)=2なので2³=8。",
+          "correctChoiceId": "powers-powers-5-0",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-powers-5-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。4乗根を求めて3乗。",
+              "id": "powers-powers-5-1"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。4乗根を求めて3乗。",
+              "id": "powers-powers-5-2"
+            },
+            {
+              "text": "64",
+              "feedback": "途中式を見直そう。4乗根を求めて3乗。",
+              "id": "powers-powers-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logs",
+      "title": "対数は何乗かを表す",
+      "referencePages": [
+        90,
+        96
+      ],
+      "steps": [
+        [
+          "何乗するとその数になる？",
+          "2を3乗すると8。これを「底2の8の対数は3」といいます。",
+          "log₂8=3 ⇔ 2³=8",
+          "logはログと読みます。小さい2が底、8が真数、3が対数の値です。"
+        ],
+        [
+          "対数を使える条件",
+          "実数の範囲では、底は正で1以外、真数は正にします。",
+          "log₃1=0（3⁰=1）、log₃3=1",
+          "log₃0やlog₃(−1)はこの範囲では定義しません。"
+        ],
+        [
+          "掛け算が足し算になる",
+          "同じ底なら、指数の足し算のルールを逆向きに使えます。",
+          "log₂4+log₂8=log₂32=5",
+          "一般にlogₐM+logₐN=logₐ(MN)。引き算なら商、係数kは真数のk乗に対応します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "powers-logs-1",
+          "stage": "guided",
+          "text": "log₂8=3を指数の式で表すと？",
+          "hint": "底を何乗すると真数か。",
+          "explanation": "底2、指数3、結果8です。",
+          "correctChoiceId": "powers-logs-1-3",
+          "choices": [
+            {
+              "text": "8²=3",
+              "feedback": "途中式を見直そう。底を何乗すると真数か。",
+              "id": "powers-logs-1-0"
+            },
+            {
+              "text": "3²=8",
+              "feedback": "途中式を見直そう。底を何乗すると真数か。",
+              "id": "powers-logs-1-1"
+            },
+            {
+              "text": "2⁸=3",
+              "feedback": "途中式を見直そう。底を何乗すると真数か。",
+              "id": "powers-logs-1-2"
+            },
+            {
+              "text": "2³=8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-logs-1-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-logs-2",
+          "stage": "guided",
+          "text": "log₅1の値は？",
+          "hint": "5を何乗すると1？",
+          "explanation": "5⁰=1なので0。",
+          "correctChoiceId": "powers-logs-2-2",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。5を何乗すると1？",
+              "id": "powers-logs-2-0"
+            },
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。5を何乗すると1？",
+              "id": "powers-logs-2-1"
+            },
+            {
+              "text": "0",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-logs-2-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。5を何乗すると1？",
+              "id": "powers-logs-2-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-logs-3",
+          "stage": "practice",
+          "text": "log₃27の値は？",
+          "hint": "3³を計算。",
+          "explanation": "3³=27なので3。",
+          "correctChoiceId": "powers-logs-3-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。3³を計算。",
+              "id": "powers-logs-3-0"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-logs-3-1"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。3³を計算。",
+              "id": "powers-logs-3-2"
+            },
+            {
+              "text": "27",
+              "feedback": "途中式を見直そう。3³を計算。",
+              "id": "powers-logs-3-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-logs-4",
+          "stage": "practice",
+          "text": "log₂4+log₂8の値は？",
+          "hint": "それぞれ2と3。",
+          "explanation": "2+3=5。",
+          "correctChoiceId": "powers-logs-4-0",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-logs-4-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。それぞれ2と3。",
+              "id": "powers-logs-4-1"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。それぞれ2と3。",
+              "id": "powers-logs-4-2"
+            },
+            {
+              "text": "32",
+              "feedback": "途中式を見直そう。それぞれ2と3。",
+              "id": "powers-logs-4-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-logs-5",
+          "stage": "practice",
+          "text": "log₁₀100の値は？",
+          "hint": "10の何乗か。",
+          "explanation": "10²=100なので2。",
+          "correctChoiceId": "powers-logs-5-3",
+          "choices": [
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。10の何乗か。",
+              "id": "powers-logs-5-0"
+            },
+            {
+              "text": "100",
+              "feedback": "途中式を見直そう。10の何乗か。",
+              "id": "powers-logs-5-1"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。10の何乗か。",
+              "id": "powers-logs-5-2"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-logs-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

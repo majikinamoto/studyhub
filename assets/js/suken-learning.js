@@ -1,9 +1,10 @@
+import {sukenCourses,courseHref} from './suken-courses.js';
 const app=document.querySelector('#learning-app'), notice=document.querySelector('#storage-message');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const topic=app.dataset.topic||'roots';
-const sources={roots:'../data/suken-roots.json',algebra:'../data/suken-algebra.json'};
-const key='studyhub:suken-2-first:'+topic+':mastered';
-let title='';
+const topic=app.dataset.topic==='course'?new URLSearchParams(location.search).get('topic'):(app.dataset.topic||'roots');
+const course=sukenCourses.find(c=>c.id===topic);
+const key='studyhub:suken-2-'+(course?.phase||'first')+':'+topic+':mastered';
+let title='',courseNote='',prerequisite='';
 let lessons=[],marks=new Set(),session;
 const url=(view,unit)=>'#'+new URLSearchParams({view,...(unit?{unit}:{})});
 function focus(){app.querySelector('h2')?.focus();}
@@ -16,9 +17,13 @@ function bindMarks(){
  });
 }
 const mark=l=>`<button class="mastery-button" data-mark="${l.id}" aria-label="${esc(l.title)}の覚えた印" aria-pressed="${marks.has(l.id)}">${marks.has(l.id)?'⭐':'☆'} 覚えた</button>`;
+function contextNote(){
+ const links=(course?.prerequisites||[]).map(id=>sukenCourses.find(c=>c.id===id)).filter(Boolean);
+ return (courseNote?'<p class="lesson-note">'+esc(courseNote)+'</p>':'')+(prerequisite?'<p>先に確認：'+esc(prerequisite)+'</p>':'')+(links.length?'<p>基礎に戻る：'+links.map(c=>'<a class="text-link" href="'+courseHref(c)+'">'+esc(c.title)+'</a>').join(' ／ ')+'</p>':'');
+}
 function overview(){
  session=null;
- app.innerHTML=`<h2 tabindex="-1">${esc(title)}</h2><p>初めてなら上から順に「説明から学ぶ」へ。紙と鉛筆で途中式を書いてみよう。</p><p id="marks" aria-live="polite">覚えた項目 ${marks.size}／${lessons.length}</p>
+ app.innerHTML=`<h2 tabindex="-1">${esc(title)}</h2><p>初めてなら上から順に「説明から学ぶ」へ。紙と鉛筆で途中式を書いてみよう。</p>${contextNote()}<p id="marks" aria-live="polite">覚えた項目 ${marks.size}／${lessons.length}</p>
  <section class="range-panel"><h3>問題を練習する</h3><p>習った項目をチェックして、自力練習をまとめて出題できます。</p><div class="lesson-actions"><button class="secondary-button" data-select="all">全選択</button><button class="secondary-button" data-select="none">全解除</button><button class="secondary-button" data-select="unlearned">まだ覚えていない項目</button></div><p id="selection" aria-live="polite">0項目・0問を選択</p><label>出題数 <select id="limit"><option value="all">すべて</option><option value="10">10問</option><option value="20">20問</option></select></label><button class="primary-button" id="start" disabled>選んだ項目から出題</button></section>
  ${lessons.map((l,i)=>`<article class="study-card"><p class="card-label">ステップ ${i+1}</p><h3>${esc(l.title)}</h3><div class="lesson-actions"><a class="primary-button" href="${url('lesson',l.id)}">説明から学ぶ</a><a class="secondary-button" href="${url('practice',l.id)}">自力練習 3問</a></div><div class="range-controls"><label class="range-checkbox"><input type="checkbox" value="${l.id}" aria-label="${esc(l.title)}を出題する">出題する</label>${mark(l)}</div></article>`).join('')}`;
  const checks=[...app.querySelectorAll('input[type=checkbox]')];
@@ -28,9 +33,13 @@ function overview(){
  app.querySelector('#start').onclick=()=>{location.hash=new URLSearchParams({view:'mixed',units:checks.filter(c=>c.checked).map(c=>c.value).join(','),count:app.querySelector('#limit').value});};
  bindMarks();
 }
+function diagram(l,step){
+ if(!l.diagram||l.diagram.step!==step)return '';
+ return '<figure class="lesson-figure"><img src="../assets/images/suken/'+esc(l.diagram.file)+'" alt="'+esc(l.diagram.alt)+'"><figcaption>'+esc(l.diagram.caption)+'</figcaption></figure>';
+}
 function lesson(l,step=0){
  const [title,body,formula,note]=l.steps[step];
- app.innerHTML=`<a class="text-link" href="#view=overview">項目一覧へ戻る</a><p>説明 ${step+1}／${l.steps.length} · ${esc(l.title)}</p><section class="study-card"><h2 tabindex="-1">${esc(title)}</h2><p class="lesson-copy">${esc(body)}</p><p class="math-line">${esc(formula)}</p><p class="lesson-note">${esc(note)}</p><div class="lesson-actions">${step?'<button id="prev" class="secondary-button">前の説明</button>':''}<button id="next-step" class="primary-button">${step+1<l.steps.length?'次の説明':'途中の一手から練習する'}</button></div></section><p>何度戻っても大丈夫。分からないところを一つずつ確認しよう。</p>`;
+ app.innerHTML=`<a class="text-link" href="#view=overview">項目一覧へ戻る</a><p>説明 ${step+1}／${l.steps.length} · ${esc(l.title)}</p><section class="study-card"><h2 tabindex="-1">${esc(title)}</h2><p class="lesson-copy">${esc(body)}</p><p class="math-line">${esc(formula)}</p><p class="lesson-note">${esc(note)}</p>${diagram(l,step)}<div class="lesson-actions">${step?'<button id="prev" class="secondary-button">前の説明</button>':''}<button id="next-step" class="primary-button">${step+1<l.steps.length?'次の説明':'途中の一手から練習する'}</button></div></section><p>何度戻っても大丈夫。分からないところを一つずつ確認しよう。</p>${contextNote()}`;
  app.querySelector('#prev')?.addEventListener('click',()=>{lesson(l,step-1);focus();});
  app.querySelector('#next-step').onclick=()=>{if(step+1<l.steps.length){lesson(l,step+1);focus();}else location.hash=url('guided',l.id);};
 }
@@ -54,9 +63,14 @@ function question(){
  };
  app.querySelector('#next-question').onclick=()=>{if(!answered)return;session.index++;session.index<session.qs.length?question():finish();focus();};
 }
+function nextLessonLink(){
+ const last=lessons.findIndex(l=>l.id===session.ids[session.ids.length-1]);
+ if(last>=0&&last+1<lessons.length){const next=lessons[last+1];return '<a class="primary-button" href="'+url('lesson',next.id)+'">次の項目：'+esc(next.title)+'</a>';}
+ return '<a class="primary-button" href="./suken-2-'+course.phase+'.html">分野一覧で次に学ぶ内容を選ぶ</a>';
+}
 function finish(){
  const a=session.answers;
- app.innerHTML=`<section class="study-card"><h2 tabindex="-1">今回の練習</h2><p class="result-message">${a.length}問中 ${a.filter(x=>x.correct).length}問正解</p><p>ヒントなしで正解：${a.filter(x=>x.correct&&!x.hint).length}問 ／ ヒント使用：${a.filter(x=>x.hint).length}問</p><p>ヒントなしで解き方を説明できたら「覚えた」の目安にしよう。印はこのブラウザに保存されます。</p>${lessons.filter(l=>a.some(x=>x.unit===l.id)).map(l=>`<div class="result-box"><h3>${esc(l.title)}</h3><p>${a.some(x=>x.unit===l.id&&(!x.correct||x.hint))?'説明や途中式をもう一度確認しよう。':'ヒントなしで全問正解できました。'}</p><a class="text-link" href="${url('lesson',l.id)}">説明に戻る</a>${mark(l)}</div>`).join('')}<button id="retry" class="primary-button">同じ範囲をもう一度練習</button><a class="secondary-button" href="#view=overview">項目一覧へ戻る</a></section>`;
+ app.innerHTML=`<section class="study-card"><h2 tabindex="-1">今回の練習</h2><p class="result-message">${a.length}問中 ${a.filter(x=>x.correct).length}問正解</p><p>ヒントなしで正解：${a.filter(x=>x.correct&&!x.hint).length}問 ／ ヒント使用：${a.filter(x=>x.hint).length}問</p><p>ヒントなしで解き方を説明できたら「覚えた」の目安にしよう。印はこのブラウザに保存されます。</p>${lessons.filter(l=>a.some(x=>x.unit===l.id)).map(l=>`<div class="result-box"><h3>${esc(l.title)}</h3><p>${a.some(x=>x.unit===l.id&&(!x.correct||x.hint))?'説明や途中式をもう一度確認しよう。':'ヒントなしで全問正解できました。'}</p><a class="text-link" href="${url('lesson',l.id)}">説明に戻る</a>${mark(l)}</div>`).join('')}${nextLessonLink()}<button id="retry" class="primary-button">同じ範囲をもう一度練習</button><a class="secondary-button" href="#view=overview">項目一覧へ戻る</a></section>`;
  bindMarks();app.querySelector('#retry').onclick=()=>{route();focus();};
 }
 function missing(){app.innerHTML='<h2 tabindex="-1">この項目は見つかりません</h2><a href="#view=overview">項目一覧へ戻る</a>';}
@@ -73,8 +87,15 @@ function route(){
  }else missing();
 }
 try{
- if(!Object.hasOwn(sources,topic))throw Error('unknown topic');
- const r=await fetch(sources[topic]);if(!r.ok)throw Error('load failed');const data=await r.json();lessons=data.lessons;title=data.title;
+ if(!course)throw Error('unknown topic');
+ const r=await fetch('../data/suken-'+course.id+'.json');if(!r.ok)throw Error('load failed');const data=await r.json();lessons=data.lessons;title=data.title;courseNote=data.note||'';prerequisite=data.prerequisite||'';
+ if(app.dataset.topic==='course'){
+  document.title=title+' | 数検2級 '+(course.phase==='second'?'2次':'1次')+' | StudyHub';
+  document.querySelector('[data-course-title]').textContent=title;
+  document.querySelector('[data-course-crumb]').textContent=title;
+  const phaseLink=document.querySelector('[data-phase-link]');phaseLink.href='./suken-2-'+course.phase+'.html';phaseLink.textContent=course.phase==='second'?'2次':'1次';
+ }
+
  try{const saved=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(saved))marks=new Set(saved.filter(id=>lessons.some(l=>l.id===id)));}catch{notice.textContent='保存された印を読み込めませんでした。学習は続けられます。';}
  route();window.addEventListener('hashchange',()=>{route();focus();});
-}catch(error){console.warn(error);app.innerHTML='<h2>教材を読み込めませんでした</h2><p>通信状態を確認して再読み込みしてください。</p><a href="./suken-2-first.html">数検2級 1次へ戻る</a>';}
+}catch(error){console.warn(error);app.innerHTML=!course?'<h2>この分野は見つかりません</h2><a href="./suken-2-first.html">分野一覧へ戻る</a>':'<h2>教材を読み込めませんでした</h2><p>通信状態を確認して再読み込みしてください。</p><a href="./suken-2-first.html">数検2級 1次へ戻る</a>';}

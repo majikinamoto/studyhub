@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "id": "calculus",
+  "title": "微分と積分",
+  "phase": "first",
+  "prerequisite": "関数・座標、展開・因数分解。f(x)は関数の値を表す記号です。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "derivative",
+      "title": "変化の割合から微分へ",
+      "referencePages": [
+        98,
+        102
+      ],
+      "steps": [
+        [
+          "平均の変化の割合",
+          "f(x)=x²は、入力xを2乗する関数。xがaからbへ変わる間のyの変化を、xの変化で割ります。",
+          "xが1→3なら (f(3)−f(1))/(3−1)=(9−1)/2=4",
+          "グラフ上の2点を結ぶ直線の傾きです。"
+        ],
+        [
+          "2点を近づける",
+          "xからx+hまでの変化の割合を作ります。hは0ではない小さな増分です。",
+          "((x+h)²−x²)/h=(2xh+h²)/h=2x+h",
+          "hを0に近づけると2xに近づきます。これがその場所の接線の傾きです。"
+        ],
+        [
+          "導関数という新しい関数",
+          "各xでの接線の傾きを表す関数を導関数と呼び、f′(x)と書きます。導関数を求める操作が微分です。",
+          "f(x)=x² → f′(x)=2x ／ f(x)=x³ → f′(x)=3x²",
+          "正の整数nについて(xⁿ)′=nxⁿ⁻¹。定数の微分は0。和は項ごとに微分します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "calculus-derivative-1",
+          "stage": "guided",
+          "text": "f(x)=x²。f(3)−f(1)は？",
+          "hint": "値の差を先に計算。",
+          "explanation": "9−1=8。",
+          "correctChoiceId": "calculus-derivative-1-0",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-derivative-1-0"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。値の差を先に計算。",
+              "id": "calculus-derivative-1-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。値の差を先に計算。",
+              "id": "calculus-derivative-1-2"
+            },
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。値の差を先に計算。",
+              "id": "calculus-derivative-1-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-derivative-2",
+          "stage": "guided",
+          "text": "f(x)=x²。xが1→3の平均の変化の割合は？",
+          "hint": "値の差8をxの差2で割る。",
+          "explanation": "(9−1)/(3−1)=4。",
+          "correctChoiceId": "calculus-derivative-2-3",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。値の差8をxの差2で割る。",
+              "id": "calculus-derivative-2-0"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。値の差8をxの差2で割る。",
+              "id": "calculus-derivative-2-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。値の差8をxの差2で割る。",
+              "id": "calculus-derivative-2-2"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-derivative-2-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-derivative-3",
+          "stage": "practice",
+          "text": "f(x)=x³の導関数は？",
+          "hint": "指数を前に出し指数を1減らす。",
+          "explanation": "(x³)′=3x²。",
+          "correctChoiceId": "calculus-derivative-3-2",
+          "choices": [
+            {
+              "text": "3x³",
+              "feedback": "途中式を見直そう。指数を前に出し指数を1減らす。",
+              "id": "calculus-derivative-3-0"
+            },
+            {
+              "text": "x⁴/4",
+              "feedback": "途中式を見直そう。指数を前に出し指数を1減らす。",
+              "id": "calculus-derivative-3-1"
+            },
+            {
+              "text": "3x²",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-derivative-3-2"
+            },
+            {
+              "text": "x²",
+              "feedback": "途中式を見直そう。指数を前に出し指数を1減らす。",
+              "id": "calculus-derivative-3-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-derivative-4",
+          "stage": "practice",
+          "text": "f(x)=2x²+3x−5の導関数は？",
+          "hint": "各項を微分。",
+          "explanation": "2×2x+3−0=4x+3。",
+          "correctChoiceId": "calculus-derivative-4-1",
+          "choices": [
+            {
+              "text": "4x²+3",
+              "feedback": "途中式を見直そう。各項を微分。",
+              "id": "calculus-derivative-4-0"
+            },
+            {
+              "text": "4x+3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-derivative-4-1"
+            },
+            {
+              "text": "4x+3−5",
+              "feedback": "途中式を見直そう。各項を微分。",
+              "id": "calculus-derivative-4-2"
+            },
+            {
+              "text": "2x+3",
+              "feedback": "途中式を見直そう。各項を微分。",
+              "id": "calculus-derivative-4-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-derivative-5",
+          "stage": "practice",
+          "text": "f(x)=x²。x=3での接線の傾きは？",
+          "hint": "f′(x)=2xに3を代入。",
+          "explanation": "f′(3)=2×3=6。",
+          "correctChoiceId": "calculus-derivative-5-0",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-derivative-5-0"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。f′(x)=2xに3を代入。",
+              "id": "calculus-derivative-5-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。f′(x)=2xに3を代入。",
+              "id": "calculus-derivative-5-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。f′(x)=2xに3を代入。",
+              "id": "calculus-derivative-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tangent",
+      "title": "接線と増減",
+      "referencePages": [
+        102,
+        108
+      ],
+      "steps": [
+        [
+          "点と傾きから直線を作る",
+          "点(a,b)を通る傾きmの直線はy−b=m(x−a)。横にx−a動いた分だけ縦にm倍動く式です。",
+          "f(x)=x²、x=1 → 点(1,1)、傾き2 → y−1=2(x−1)",
+          "整理すると接線はy=2x−1です。"
+        ],
+        [
+          "傾きの符号を調べる",
+          "導関数が正ならグラフは右上がり、負なら右下がりです。",
+          "f(x)=x²−4x → f′(x)=2x−4",
+          "x<2では負、x>2では正。x=2の前後で減少から増加に変わります。"
+        ],
+        [
+          "極値と最大・最小",
+          "減少から増加に変わる点では極小、増加から減少では極大です。導関数0だけでは判断しません。",
+          "f(x)=x³ → f′(x)=3x²。x=0の両側で正なので極値なし",
+          "範囲内の最大・最小は、端の値と範囲内の極値を比べます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "calculus-tangent-1",
+          "stage": "guided",
+          "text": "y=x²のx=2での接点のy座標は？",
+          "hint": "2を2乗。",
+          "explanation": "f(2)=4なので接点は(2,4)。",
+          "correctChoiceId": "calculus-tangent-1-3",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。2を2乗。",
+              "id": "calculus-tangent-1-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。2を2乗。",
+              "id": "calculus-tangent-1-1"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。2を2乗。",
+              "id": "calculus-tangent-1-2"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-tangent-1-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-tangent-2",
+          "stage": "guided",
+          "text": "y=x²のx=2での接線は？",
+          "hint": "傾き4、点(2,4)。",
+          "explanation": "y−4=4(x−2)よりy=4x−4。",
+          "correctChoiceId": "calculus-tangent-2-2",
+          "choices": [
+            {
+              "text": "y=2x",
+              "feedback": "途中式を見直そう。傾き4、点(2,4)。",
+              "id": "calculus-tangent-2-0"
+            },
+            {
+              "text": "y=4",
+              "feedback": "途中式を見直そう。傾き4、点(2,4)。",
+              "id": "calculus-tangent-2-1"
+            },
+            {
+              "text": "y=4x−4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-tangent-2-2"
+            },
+            {
+              "text": "y=4x+4",
+              "feedback": "途中式を見直そう。傾き4、点(2,4)。",
+              "id": "calculus-tangent-2-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-tangent-3",
+          "stage": "practice",
+          "text": "f′(x)<0が続く区間でf(x)は？",
+          "hint": "接線の傾きが負。",
+          "explanation": "右へ進むと値が小さくなります。",
+          "correctChoiceId": "calculus-tangent-3-1",
+          "choices": [
+            {
+              "text": "必ず正",
+              "feedback": "途中式を見直そう。接線の傾きが負。",
+              "id": "calculus-tangent-3-0"
+            },
+            {
+              "text": "減少する",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-tangent-3-1"
+            },
+            {
+              "text": "増加する",
+              "feedback": "途中式を見直そう。接線の傾きが負。",
+              "id": "calculus-tangent-3-2"
+            },
+            {
+              "text": "必ず0",
+              "feedback": "途中式を見直そう。接線の傾きが負。",
+              "id": "calculus-tangent-3-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-tangent-4",
+          "stage": "practice",
+          "text": "f(x)=x²−6xで極小になるxは？",
+          "hint": "f′(x)=2x−6の符号。",
+          "explanation": "x=3で負から正に変わるので極小。",
+          "correctChoiceId": "calculus-tangent-4-0",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-tangent-4-0"
+            },
+            {
+              "text": "-3",
+              "feedback": "途中式を見直そう。f′(x)=2x−6の符号。",
+              "id": "calculus-tangent-4-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。f′(x)=2x−6の符号。",
+              "id": "calculus-tangent-4-2"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。f′(x)=2x−6の符号。",
+              "id": "calculus-tangent-4-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-tangent-5",
+          "stage": "practice",
+          "text": "y=x²、−1≤x≤2での最大値は？",
+          "hint": "両端とx=0を比較。",
+          "explanation": "x=−1,0,2でy=1,0,4。最大値4。",
+          "correctChoiceId": "calculus-tangent-5-3",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。両端とx=0を比較。",
+              "id": "calculus-tangent-5-0"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。両端とx=0を比較。",
+              "id": "calculus-tangent-5-1"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。両端とx=0を比較。",
+              "id": "calculus-tangent-5-2"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-tangent-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "integral",
+      "title": "積分は微分を逆にたどる",
+      "referencePages": [
+        109,
+        113
+      ],
+      "steps": [
+        [
+          "微分する前の関数を探す",
+          "微分するとf(x)になる関数F(x)を原始関数といいます。",
+          "f(x)=2xならF(x)=x²",
+          "x²+3もx²−5も微分すると2x。定数の分は決まりません。"
+        ],
+        [
+          "不定積分とC",
+          "原始関数を定数Cを付けてまとめたものが不定積分。∫は積分記号、dxはxで積分することを表します。",
+          "∫2x dx=x²+C、∫xⁿ dx=xⁿ⁺¹/(n+1)+C（nは0以上の整数）",
+          "指数を1増やし、その数で割ると、微分したときに元へ戻ります。"
+        ],
+        [
+          "定積分は端の値の差",
+          "下の端aから上の端bまでの定積分はF(b)−F(a)。書き方は∫ₐᵇ f(x) dxです。",
+          "∫₁³ 2x dx=[x²]₁³=9−1=8",
+          "Cは差を取ると消えます。[F(x)]ₐᵇはF(b)−F(a)の略です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "calculus-integral-1",
+          "stage": "guided",
+          "text": "微分すると3x²になる関数は？",
+          "hint": "x³の微分を確認。",
+          "explanation": "(x³)′=3x²。",
+          "correctChoiceId": "calculus-integral-1-2",
+          "choices": [
+            {
+              "text": "6x",
+              "feedback": "途中式を見直そう。x³の微分を確認。",
+              "id": "calculus-integral-1-0"
+            },
+            {
+              "text": "x²",
+              "feedback": "途中式を見直そう。x³の微分を確認。",
+              "id": "calculus-integral-1-1"
+            },
+            {
+              "text": "x³",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-integral-1-2"
+            },
+            {
+              "text": "3x³",
+              "feedback": "途中式を見直そう。x³の微分を確認。",
+              "id": "calculus-integral-1-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-integral-2",
+          "stage": "guided",
+          "text": "∫2x dxを求めると？",
+          "hint": "定数Cを付ける。",
+          "explanation": "x²+Cを微分すると2x。",
+          "correctChoiceId": "calculus-integral-2-1",
+          "choices": [
+            {
+              "text": "x³+C",
+              "feedback": "途中式を見直そう。定数Cを付ける。",
+              "id": "calculus-integral-2-0"
+            },
+            {
+              "text": "x²+C",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-integral-2-1"
+            },
+            {
+              "text": "2x²+C",
+              "feedback": "途中式を見直そう。定数Cを付ける。",
+              "id": "calculus-integral-2-2"
+            },
+            {
+              "text": "2+C",
+              "feedback": "途中式を見直そう。定数Cを付ける。",
+              "id": "calculus-integral-2-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-integral-3",
+          "stage": "practice",
+          "text": "∫3x² dxは？",
+          "hint": "3×x³/3。",
+          "explanation": "指数を3に増やし3で割るのでx³+C。",
+          "correctChoiceId": "calculus-integral-3-0",
+          "choices": [
+            {
+              "text": "x³+C",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-integral-3-0"
+            },
+            {
+              "text": "6x+C",
+              "feedback": "途中式を見直そう。3×x³/3。",
+              "id": "calculus-integral-3-1"
+            },
+            {
+              "text": "3x³+C",
+              "feedback": "途中式を見直そう。3×x³/3。",
+              "id": "calculus-integral-3-2"
+            },
+            {
+              "text": "x³/3+C",
+              "feedback": "途中式を見直そう。3×x³/3。",
+              "id": "calculus-integral-3-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-integral-4",
+          "stage": "practice",
+          "text": "∫₀² 2x dxの値は？",
+          "hint": "[x²]₀²。",
+          "explanation": "2²−0²=4。",
+          "correctChoiceId": "calculus-integral-4-3",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。[x²]₀²。",
+              "id": "calculus-integral-4-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。[x²]₀²。",
+              "id": "calculus-integral-4-1"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。[x²]₀²。",
+              "id": "calculus-integral-4-2"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-integral-4-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-integral-5",
+          "stage": "practice",
+          "text": "∫₁³ 1 dxの値は？",
+          "hint": "原始関数はx。",
+          "explanation": "[x]₁³=3−1=2。",
+          "correctChoiceId": "calculus-integral-5-2",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。原始関数はx。",
+              "id": "calculus-integral-5-0"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。原始関数はx。",
+              "id": "calculus-integral-5-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-integral-5-2"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。原始関数はx。",
+              "id": "calculus-integral-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "area",
+      "title": "積分と面積",
+      "referencePages": [
+        114,
+        118
+      ],
+      "steps": [
+        [
+          "細い長方形を足す",
+          "グラフの下を細い長方形で埋め、その幅を小さくして足す考えが定積分につながります。",
+          "f(x)≥0なら面積=∫ₐᵇ f(x) dx（a<b）",
+          "x軸より上で使うと、定積分がそのまま面積です。"
+        ],
+        [
+          "下側では符号が逆",
+          "定積分はx軸より下の部分を負として数えます。面積は正として足します。",
+          "y=−1、0≤x≤2 → 定積分−2、面積2",
+          "上下をまたぐときは交点で区切り、それぞれの面積を足します。"
+        ],
+        [
+          "2曲線の間",
+          "高さが「上の関数−下の関数」になるように式を作ります。",
+          "0≤x≤1で上がy=x、下がy=x² → 面積=∫₀¹(x−x²)dx=1/6",
+          "交点と上下関係を調べてから積分します。"
+        ]
+      ],
+      "diagram": {
+        "step": 2,
+        "file": "area.svg",
+        "alt": "0から1では直線y=xが曲線y=x²より上。間の高さはx−x²。",
+        "caption": "0から1では直線y=xが曲線y=x²より上。間の高さはx−x²。"
+      },
+      "questions": [
+        {
+          "id": "calculus-area-1",
+          "stage": "guided",
+          "text": "0≤x≤3でy=2とx軸の間の面積は？",
+          "hint": "高さ2、幅3。",
+          "explanation": "2×3=6で、∫₀³2 dxとも一致します。",
+          "correctChoiceId": "calculus-area-1-1",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。高さ2、幅3。",
+              "id": "calculus-area-1-0"
+            },
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-area-1-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。高さ2、幅3。",
+              "id": "calculus-area-1-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。高さ2、幅3。",
+              "id": "calculus-area-1-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-area-2",
+          "stage": "guided",
+          "text": "0≤x≤3でy=−2とx軸の間の面積は？",
+          "hint": "面積は正。",
+          "explanation": "定積分は−6ですが面積は6。",
+          "correctChoiceId": "calculus-area-2-0",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-area-2-0"
+            },
+            {
+              "text": "-6",
+              "feedback": "途中式を見直そう。面積は正。",
+              "id": "calculus-area-2-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。面積は正。",
+              "id": "calculus-area-2-2"
+            },
+            {
+              "text": "-3",
+              "feedback": "途中式を見直そう。面積は正。",
+              "id": "calculus-area-2-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-area-3",
+          "stage": "practice",
+          "text": "0≤x≤2でy=xとx軸の間の面積は？",
+          "hint": "∫₀²x dx。",
+          "explanation": "[x²/2]₀²=4/2=2。",
+          "correctChoiceId": "calculus-area-3-3",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。∫₀²x dx。",
+              "id": "calculus-area-3-0"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。∫₀²x dx。",
+              "id": "calculus-area-3-1"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。∫₀²x dx。",
+              "id": "calculus-area-3-2"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-area-3-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-area-4",
+          "stage": "practice",
+          "text": "0≤x≤1でy=3とy=1の間の面積は？",
+          "hint": "上−下が高さ。",
+          "explanation": "(3−1)×1=2。",
+          "correctChoiceId": "calculus-area-4-2",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。上−下が高さ。",
+              "id": "calculus-area-4-0"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。上−下が高さ。",
+              "id": "calculus-area-4-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-area-4-2"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。上−下が高さ。",
+              "id": "calculus-area-4-3"
+            }
+          ]
+        },
+        {
+          "id": "calculus-area-5",
+          "stage": "practice",
+          "text": "−1≤x≤1でy=xとx軸の間の面積の合計は？",
+          "hint": "0で区切ると三角形2つ。",
+          "explanation": "各面積1×1÷2=1/2。合計1。",
+          "correctChoiceId": "calculus-area-5-1",
+          "choices": [
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。0で区切ると三角形2つ。",
+              "id": "calculus-area-5-0"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "calculus-area-5-1"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。0で区切ると三角形2つ。",
+              "id": "calculus-area-5-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。0で区切ると三角形2つ。",
+              "id": "calculus-area-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

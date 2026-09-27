@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "id": "numbers",
+  "title": "数の整理と集合",
+  "phase": "first",
+  "prerequisite": "分数の足し算・引き算。√の意味は「√の基礎」で確認できます。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "rational",
+      "title": "有理数と循環小数",
+      "referencePages": [
+        14,
+        18
+      ],
+      "steps": [
+        [
+          "分数にできる数",
+          "整数どうしの比で表せる数を有理数といいます。分母を0にはしません。",
+          "0.25=25/100=1/4、3=3/1",
+          "√2のように整数の分数にできない実数が無理数です。"
+        ],
+        [
+          "繰り返す小数も分数にできる",
+          "0.333…は3がいつまでも続く小数。10倍すると小数部分がそろいます。",
+          "x=0.333… → 10x=3.333… → 9x=3",
+          "同じ小数部分を引くので9x=3。x=1/3です。"
+        ],
+        [
+          "2桁の繰り返し",
+          "繰り返す桁数に合わせて100倍します。",
+          "x=0.121212… → 100x−x=12 → x=12/99=4/33",
+          "小数点以下が有限で終わる小数も有理数です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "numbers-rational-1",
+          "stage": "guided",
+          "text": "0.777…をxとする。10x−xの値は？",
+          "hint": "7.777…から0.777…を引く。",
+          "explanation": "小数部分が打ち消し合って7。したがって9x=7。",
+          "correctChoiceId": "numbers-rational-1-0",
+          "choices": [
+            {
+              "text": "7",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-rational-1-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。7.777…から0.777…を引く。",
+              "id": "numbers-rational-1-1"
+            },
+            {
+              "text": "0.7",
+              "feedback": "途中式を見直そう。7.777…から0.777…を引く。",
+              "id": "numbers-rational-1-2"
+            },
+            {
+              "text": "70",
+              "feedback": "途中式を見直そう。7.777…から0.777…を引く。",
+              "id": "numbers-rational-1-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-rational-2",
+          "stage": "guided",
+          "text": "0.444…=xで9x=4となった。xは？",
+          "hint": "両辺を9で割る。",
+          "explanation": "9x=4よりx=4/9。",
+          "correctChoiceId": "numbers-rational-2-3",
+          "choices": [
+            {
+              "text": "9/4",
+              "feedback": "途中式を見直そう。両辺を9で割る。",
+              "id": "numbers-rational-2-0"
+            },
+            {
+              "text": "4/10",
+              "feedback": "途中式を見直そう。両辺を9で割る。",
+              "id": "numbers-rational-2-1"
+            },
+            {
+              "text": "1/4",
+              "feedback": "途中式を見直そう。両辺を9で割る。",
+              "id": "numbers-rational-2-2"
+            },
+            {
+              "text": "4/9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-rational-2-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-rational-3",
+          "stage": "practice",
+          "text": "0.222…（2が続く）を分数にすると？",
+          "hint": "10倍して元の数を引く。",
+          "explanation": "x=0.222…とすると10x−x=2。9x=2よりx=2/9。",
+          "correctChoiceId": "numbers-rational-3-2",
+          "choices": [
+            {
+              "text": "9/2",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-3-0"
+            },
+            {
+              "text": "2/99",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-3-1"
+            },
+            {
+              "text": "2/9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-rational-3-2"
+            },
+            {
+              "text": "2/10",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-3-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-rational-4",
+          "stage": "practice",
+          "text": "0.555…（5が続く）を分数にすると？",
+          "hint": "10倍して元の数を引く。",
+          "explanation": "x=0.555…とすると10x−x=5。9x=5よりx=5/9。",
+          "correctChoiceId": "numbers-rational-4-1",
+          "choices": [
+            {
+              "text": "5/99",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-4-0"
+            },
+            {
+              "text": "5/9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-rational-4-1"
+            },
+            {
+              "text": "5/10",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-4-2"
+            },
+            {
+              "text": "9/5",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-4-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-rational-5",
+          "stage": "practice",
+          "text": "0.888…（8が続く）を分数にすると？",
+          "hint": "10倍して元の数を引く。",
+          "explanation": "x=0.888…とすると10x−x=8。9x=8よりx=8/9。",
+          "correctChoiceId": "numbers-rational-5-0",
+          "choices": [
+            {
+              "text": "8/9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-rational-5-0"
+            },
+            {
+              "text": "8/10",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-5-1"
+            },
+            {
+              "text": "9/8",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-5-2"
+            },
+            {
+              "text": "8/99",
+              "feedback": "途中式を見直そう。10倍して元の数を引く。",
+              "id": "numbers-rational-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nested",
+      "title": "2重の√をほどく",
+      "referencePages": [
+        16,
+        18
+      ],
+      "steps": [
+        [
+          "2乗して中身を比べる",
+          "根号の中にもう一つ根号がある式を2重根号といいます。まず足し算の2乗を復習します。",
+          "(√2+√3)²=2+2√6+3=5+2√6",
+          "√2と√3は正なので、この和も正です。"
+        ],
+        [
+          "和と積を探す",
+          "√(A+2√B)を√m+√nにするには、m+n=A、mn=Bを満たす正の数を探します。",
+          "√(5+2√6)=√2+√3",
+          "2+3=5、2×3=6。外の√は正の平方根を表します。"
+        ],
+        [
+          "引き算のとき",
+          "√(A−2√B)では、大きい平方根から小さい平方根を引きます。",
+          "√(5−2√6)=√3−√2",
+          "√の値は0以上。符号を逆にしないようにしよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "numbers-nested-1",
+          "stage": "guided",
+          "text": "√(7+2√12)で探す、和7・積12の2数は？",
+          "hint": "足して7、掛けて12。",
+          "explanation": "3+4=7、3×4=12。",
+          "correctChoiceId": "numbers-nested-1-3",
+          "choices": [
+            {
+              "text": "2と6",
+              "feedback": "途中式を見直そう。足して7、掛けて12。",
+              "id": "numbers-nested-1-0"
+            },
+            {
+              "text": "1と12",
+              "feedback": "途中式を見直そう。足して7、掛けて12。",
+              "id": "numbers-nested-1-1"
+            },
+            {
+              "text": "2と5",
+              "feedback": "途中式を見直そう。足して7、掛けて12。",
+              "id": "numbers-nested-1-2"
+            },
+            {
+              "text": "3と4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-nested-1-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-nested-2",
+          "stage": "guided",
+          "text": "√(7+2√12)=√3+√4。√4を直すと？",
+          "hint": "√4=2。",
+          "explanation": "√3+√4=√3+2。",
+          "correctChoiceId": "numbers-nested-2-2",
+          "choices": [
+            {
+              "text": "√3+4",
+              "feedback": "途中式を見直そう。√4=2。",
+              "id": "numbers-nested-2-0"
+            },
+            {
+              "text": "2√3",
+              "feedback": "途中式を見直そう。√4=2。",
+              "id": "numbers-nested-2-1"
+            },
+            {
+              "text": "√3+2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-nested-2-2"
+            },
+            {
+              "text": "√7",
+              "feedback": "途中式を見直そう。√4=2。",
+              "id": "numbers-nested-2-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-nested-3",
+          "stage": "practice",
+          "text": "√(3+2√2)を簡単にすると？",
+          "hint": "和3、積2の2数。",
+          "explanation": "1+2=3、1×2=2より√1+√2。",
+          "correctChoiceId": "numbers-nested-3-1",
+          "choices": [
+            {
+              "text": "3+√2",
+              "feedback": "途中式を見直そう。和3、積2の2数。",
+              "id": "numbers-nested-3-0"
+            },
+            {
+              "text": "1+√2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-nested-3-1"
+            },
+            {
+              "text": "√3+√2",
+              "feedback": "途中式を見直そう。和3、積2の2数。",
+              "id": "numbers-nested-3-2"
+            },
+            {
+              "text": "1−√2",
+              "feedback": "途中式を見直そう。和3、積2の2数。",
+              "id": "numbers-nested-3-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-nested-4",
+          "stage": "practice",
+          "text": "√(6+2√5)を簡単にすると？",
+          "hint": "和6、積5の2数。",
+          "explanation": "1と5なので√1+√5=1+√5。",
+          "correctChoiceId": "numbers-nested-4-0",
+          "choices": [
+            {
+              "text": "1+√5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-nested-4-0"
+            },
+            {
+              "text": "√6+√5",
+              "feedback": "途中式を見直そう。和6、積5の2数。",
+              "id": "numbers-nested-4-1"
+            },
+            {
+              "text": "1−√5",
+              "feedback": "途中式を見直そう。和6、積5の2数。",
+              "id": "numbers-nested-4-2"
+            },
+            {
+              "text": "2+√5",
+              "feedback": "途中式を見直そう。和6、積5の2数。",
+              "id": "numbers-nested-4-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-nested-5",
+          "stage": "practice",
+          "text": "√(6−2√5)を簡単にすると？",
+          "hint": "結果が正になる順で引く。",
+          "explanation": "(√5−1)²=6−2√5で√5−1>0。",
+          "correctChoiceId": "numbers-nested-5-3",
+          "choices": [
+            {
+              "text": "1−√5",
+              "feedback": "途中式を見直そう。結果が正になる順で引く。",
+              "id": "numbers-nested-5-0"
+            },
+            {
+              "text": "√5+1",
+              "feedback": "途中式を見直そう。結果が正になる順で引く。",
+              "id": "numbers-nested-5-1"
+            },
+            {
+              "text": "√6−√5",
+              "feedback": "途中式を見直そう。結果が正になる順で引く。",
+              "id": "numbers-nested-5-2"
+            },
+            {
+              "text": "√5−1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-nested-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sets",
+      "title": "集合・共通部分・和集合",
+      "referencePages": [
+        24,
+        28
+      ],
+      "steps": [
+        [
+          "集まりをかっこで表す",
+          "条件のはっきりした集まりを集合、入っている一つ一つを要素と呼びます。",
+          "A={1,2,3}、B={3,4}",
+          "集合の中では順番は関係なく、同じ要素は1回だけ書きます。"
+        ],
+        [
+          "両方と、どちらか",
+          "∩は共通部分。両方に入るものです。∪は和集合。少なくとも片方に入るものです。",
+          "A∩B={3} ／ A∪B={1,2,3,4}",
+          "和集合で3を2回数えないようにしよう。"
+        ],
+        [
+          "全体から外す",
+          "全体集合Uを決めると、Aに入らない要素全体がAの補集合になります。",
+          "U={1,2,3,4,5}、A={1,2,3} → Aの補集合={4,5}",
+          "何を全体とするかを先に確認します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "numbers-sets-1",
+          "stage": "guided",
+          "text": "A={1,2,3}、B={3,4}の共通部分は？",
+          "hint": "両方にある数。",
+          "explanation": "3だけがAにもBにも入っています。",
+          "correctChoiceId": "numbers-sets-1-2",
+          "choices": [
+            {
+              "text": "{1,2}",
+              "feedback": "途中式を見直そう。両方にある数。",
+              "id": "numbers-sets-1-0"
+            },
+            {
+              "text": "{4}",
+              "feedback": "途中式を見直そう。両方にある数。",
+              "id": "numbers-sets-1-1"
+            },
+            {
+              "text": "{3}",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-sets-1-2"
+            },
+            {
+              "text": "{1,2,3,4}",
+              "feedback": "途中式を見直そう。両方にある数。",
+              "id": "numbers-sets-1-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-sets-2",
+          "stage": "guided",
+          "text": "A={1,2,3}、B={3,4}の和集合の要素は何個？",
+          "hint": "3は1回だけ数える。",
+          "explanation": "{1,2,3,4}の4個。",
+          "correctChoiceId": "numbers-sets-2-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。3は1回だけ数える。",
+              "id": "numbers-sets-2-0"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-sets-2-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。3は1回だけ数える。",
+              "id": "numbers-sets-2-2"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。3は1回だけ数える。",
+              "id": "numbers-sets-2-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-sets-3",
+          "stage": "practice",
+          "text": "A={2,4,6}、B={1,2,6}。A∩Bは？",
+          "hint": "両方のリストを見比べる。",
+          "explanation": "2と6が共通です。",
+          "correctChoiceId": "numbers-sets-3-0",
+          "choices": [
+            {
+              "text": "{2,6}",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-sets-3-0"
+            },
+            {
+              "text": "{1,2,4,6}",
+              "feedback": "途中式を見直そう。両方のリストを見比べる。",
+              "id": "numbers-sets-3-1"
+            },
+            {
+              "text": "{4}",
+              "feedback": "途中式を見直そう。両方のリストを見比べる。",
+              "id": "numbers-sets-3-2"
+            },
+            {
+              "text": "{1,4}",
+              "feedback": "途中式を見直そう。両方のリストを見比べる。",
+              "id": "numbers-sets-3-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-sets-4",
+          "stage": "practice",
+          "text": "A={1,3}、B={3,5}。A∪Bは？",
+          "hint": "片方にあれば入れる。",
+          "explanation": "3を重複させず{1,3,5}。",
+          "correctChoiceId": "numbers-sets-4-3",
+          "choices": [
+            {
+              "text": "{3}",
+              "feedback": "途中式を見直そう。片方にあれば入れる。",
+              "id": "numbers-sets-4-0"
+            },
+            {
+              "text": "{1,5}",
+              "feedback": "途中式を見直そう。片方にあれば入れる。",
+              "id": "numbers-sets-4-1"
+            },
+            {
+              "text": "{1,3,3,5}",
+              "feedback": "途中式を見直そう。片方にあれば入れる。",
+              "id": "numbers-sets-4-2"
+            },
+            {
+              "text": "{1,3,5}",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-sets-4-3"
+            }
+          ]
+        },
+        {
+          "id": "numbers-sets-5",
+          "stage": "practice",
+          "text": "U={1,2,3,4,5,6}、A={2,4,6}。Aの補集合は？",
+          "hint": "UからAを取り除く。",
+          "explanation": "2,4,6を除いた1,3,5です。",
+          "correctChoiceId": "numbers-sets-5-2",
+          "choices": [
+            {
+              "text": "{1,2,3,4,5,6}",
+              "feedback": "途中式を見直そう。UからAを取り除く。",
+              "id": "numbers-sets-5-0"
+            },
+            {
+              "text": "{1,5}",
+              "feedback": "途中式を見直そう。UからAを取り除く。",
+              "id": "numbers-sets-5-1"
+            },
+            {
+              "text": "{1,3,5}",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "numbers-sets-5-2"
+            },
+            {
+              "text": "{2,4,6}",
+              "feedback": "途中式を見直そう。UからAを取り除く。",
+              "id": "numbers-sets-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

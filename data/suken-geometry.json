@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "id": "geometry",
+  "title": "座標と関数・円",
+  "phase": "first",
+  "prerequisite": "一次方程式、展開、√。座標は横がx、縦がyです。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "coordinates",
+      "title": "座標・中点・距離",
+      "referencePages": [
+        40,
+        43
+      ],
+      "steps": [
+        [
+          "点を2つの数で示す",
+          "点(x,y)は原点から横にx、縦にy進んだ位置です。負なら逆向きに進みます。",
+          "A(1,2)、B(5,4) → 横の差4、縦の差2",
+          "距離を考えるときは、点の位置と差を区別します。"
+        ],
+        [
+          "中点は平均",
+          "線分の真ん中の座標は、横と縦をそれぞれ平均します。",
+          "A(1,2)、B(5,4)の中点=((1+5)/2,(2+4)/2)=(3,3)",
+          "足して2で割る操作を両方の座標に行います。"
+        ],
+        [
+          "距離は直角三角形から",
+          "横と縦の差を2乗して足すと距離の2乗になります。",
+          "A(1,1)、B(4,5) → 距離=√(3²+4²)=5",
+          "三平方の定理：直角を挟む辺a,bと斜辺cにはa²+b²=c²が成り立ちます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "geometry-coordinates-1",
+          "stage": "guided",
+          "text": "A(2,1)、B(6,7)の中点のx座標は？",
+          "hint": "横の座標を平均。",
+          "explanation": "(2+6)/2=4。",
+          "correctChoiceId": "geometry-coordinates-1-0",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-coordinates-1-0"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。横の座標を平均。",
+              "id": "geometry-coordinates-1-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。横の座標を平均。",
+              "id": "geometry-coordinates-1-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。横の座標を平均。",
+              "id": "geometry-coordinates-1-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-coordinates-2",
+          "stage": "guided",
+          "text": "A(2,1)、B(6,7)の中点は？",
+          "hint": "y座標も平均。",
+          "explanation": "((2+6)/2,(1+7)/2)=(4,4)。",
+          "correctChoiceId": "geometry-coordinates-2-3",
+          "choices": [
+            {
+              "text": "(8,8)",
+              "feedback": "途中式を見直そう。y座標も平均。",
+              "id": "geometry-coordinates-2-0"
+            },
+            {
+              "text": "(4,3)",
+              "feedback": "途中式を見直そう。y座標も平均。",
+              "id": "geometry-coordinates-2-1"
+            },
+            {
+              "text": "(2,3)",
+              "feedback": "途中式を見直そう。y座標も平均。",
+              "id": "geometry-coordinates-2-2"
+            },
+            {
+              "text": "(4,4)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-coordinates-2-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-coordinates-3",
+          "stage": "practice",
+          "text": "A(−2,3)、B(4,5)の中点は？",
+          "hint": "負の数もそのまま足す。",
+          "explanation": "((−2+4)/2,(3+5)/2)=(1,4)。",
+          "correctChoiceId": "geometry-coordinates-3-2",
+          "choices": [
+            {
+              "text": "(1,8)",
+              "feedback": "途中式を見直そう。負の数もそのまま足す。",
+              "id": "geometry-coordinates-3-0"
+            },
+            {
+              "text": "(2,4)",
+              "feedback": "途中式を見直そう。負の数もそのまま足す。",
+              "id": "geometry-coordinates-3-1"
+            },
+            {
+              "text": "(1,4)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-coordinates-3-2"
+            },
+            {
+              "text": "(3,4)",
+              "feedback": "途中式を見直そう。負の数もそのまま足す。",
+              "id": "geometry-coordinates-3-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-coordinates-4",
+          "stage": "practice",
+          "text": "原点から点(6,8)までの距離は？",
+          "hint": "√(6²+8²)。",
+          "explanation": "√(36+64)=√100=10。",
+          "correctChoiceId": "geometry-coordinates-4-1",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。√(6²+8²)。",
+              "id": "geometry-coordinates-4-0"
+            },
+            {
+              "text": "10",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-coordinates-4-1"
+            },
+            {
+              "text": "14",
+              "feedback": "途中式を見直そう。√(6²+8²)。",
+              "id": "geometry-coordinates-4-2"
+            },
+            {
+              "text": "100",
+              "feedback": "途中式を見直そう。√(6²+8²)。",
+              "id": "geometry-coordinates-4-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-coordinates-5",
+          "stage": "practice",
+          "text": "A(1,2)、B(4,6)の距離は？",
+          "hint": "差は横3、縦4。",
+          "explanation": "√(3²+4²)=5。",
+          "correctChoiceId": "geometry-coordinates-5-0",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-coordinates-5-0"
+            },
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。差は横3、縦4。",
+              "id": "geometry-coordinates-5-1"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。差は横3、縦4。",
+              "id": "geometry-coordinates-5-2"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。差は横3、縦4。",
+              "id": "geometry-coordinates-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "line",
+      "title": "直線の傾きと方程式",
+      "referencePages": [
+        40,
+        43
+      ],
+      "steps": [
+        [
+          "傾きは縦の変化÷横の変化",
+          "直線上の2点から、横に1進むと縦にどれだけ動くかを求めます。",
+          "(1,2)と(3,6) → 傾き(6−2)/(3−1)=2",
+          "横の差が0なら縦の直線x=定数です。割り算では傾きを出せません。"
+        ],
+        [
+          "点と傾きで直線を決める",
+          "点(a,b)を通る傾きmの直線は、横の差x−aと縦の差y−bを使って書けます。",
+          "y−b=m(x−a) ／ (1,2)、傾き3ならy=3x−1",
+          "式に元の点を代入して確認しよう。"
+        ],
+        [
+          "平行と垂直",
+          "縦でない平行な直線の傾きは同じ。縦でない2直線が垂直なら傾きの積は−1です。",
+          "傾き2に垂直な直線の傾きは−1/2",
+          "横の直線y=定数に垂直なのは、縦の直線x=定数です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "geometry-line-1",
+          "stage": "guided",
+          "text": "(1,2)と(3,6)を通る直線の横の変化は？",
+          "hint": "3−1。",
+          "explanation": "横座標の差は2。",
+          "correctChoiceId": "geometry-line-1-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。3−1。",
+              "id": "geometry-line-1-0"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-line-1-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。3−1。",
+              "id": "geometry-line-1-2"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。3−1。",
+              "id": "geometry-line-1-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-line-2",
+          "stage": "guided",
+          "text": "(1,2)と(3,6)を通る直線の傾きは？",
+          "hint": "縦の差4を横の差2で割る。",
+          "explanation": "4/2=2。",
+          "correctChoiceId": "geometry-line-2-0",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-line-2-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。縦の差4を横の差2で割る。",
+              "id": "geometry-line-2-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。縦の差4を横の差2で割る。",
+              "id": "geometry-line-2-2"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。縦の差4を横の差2で割る。",
+              "id": "geometry-line-2-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-line-3",
+          "stage": "practice",
+          "text": "点(1,3)を通り傾き2の直線は？",
+          "hint": "y−3=2(x−1)。",
+          "explanation": "y−3=2x−2よりy=2x+1。",
+          "correctChoiceId": "geometry-line-3-3",
+          "choices": [
+            {
+              "text": "y=2x−1",
+              "feedback": "途中式を見直そう。y−3=2(x−1)。",
+              "id": "geometry-line-3-0"
+            },
+            {
+              "text": "y=3x+2",
+              "feedback": "途中式を見直そう。y−3=2(x−1)。",
+              "id": "geometry-line-3-1"
+            },
+            {
+              "text": "y=x+2",
+              "feedback": "途中式を見直そう。y−3=2(x−1)。",
+              "id": "geometry-line-3-2"
+            },
+            {
+              "text": "y=2x+1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-line-3-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-line-4",
+          "stage": "practice",
+          "text": "直線y=3x+1と平行な直線の傾きは？",
+          "hint": "平行なら同じ傾き。",
+          "explanation": "切片が違っても傾きは3。",
+          "correctChoiceId": "geometry-line-4-2",
+          "choices": [
+            {
+              "text": "-3",
+              "feedback": "途中式を見直そう。平行なら同じ傾き。",
+              "id": "geometry-line-4-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。平行なら同じ傾き。",
+              "id": "geometry-line-4-1"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-line-4-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。平行なら同じ傾き。",
+              "id": "geometry-line-4-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-line-5",
+          "stage": "practice",
+          "text": "傾き2の直線に垂直な直線の傾きは？",
+          "hint": "積を−1にする。",
+          "explanation": "2×(−1/2)=−1。",
+          "correctChoiceId": "geometry-line-5-1",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。積を−1にする。",
+              "id": "geometry-line-5-0"
+            },
+            {
+              "text": "−1/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-line-5-1"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。積を−1にする。",
+              "id": "geometry-line-5-2"
+            },
+            {
+              "text": "−2",
+              "feedback": "途中式を見直そう。積を−1にする。",
+              "id": "geometry-line-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quadratic",
+      "title": "平方完成と最小値",
+      "referencePages": [
+        44,
+        50
+      ],
+      "steps": [
+        [
+          "関数は対応のルール",
+          "xを入れるとyが決まる式を関数と呼びます。2次関数ではx²の項が現れます。",
+          "y=x² → x=−2,−1,0,1,2ならy=4,1,0,1,4",
+          "点をつなぐと放物線という曲線になります。"
+        ],
+        [
+          "2乗の形を作る",
+          "x²+4xには4を足すと(x+2)²になります。足した4を引いて式を保ちます。",
+          "x²+4x+7=(x+2)²−4+7=(x+2)²+3",
+          "この変形を平方完成といいます。"
+        ],
+        [
+          "2乗は0以上",
+          "(x+2)²が最小の0になるx=−2で、yは最小値3をとります。",
+          "y=(x−p)²+q → 頂点(p,q)、最小値q",
+          "xに範囲があるときは頂点が範囲内か確認し、端の値も比べます。"
+        ]
+      ],
+      "diagram": {
+        "step": 2,
+        "file": "parabola.svg",
+        "alt": "y=(x+2)²+3の頂点は(−2,3)。頂点より低い点はありません。",
+        "caption": "y=(x+2)²+3の頂点は(−2,3)。頂点より低い点はありません。"
+      },
+      "questions": [
+        {
+          "id": "geometry-quadratic-1",
+          "stage": "guided",
+          "text": "x²+6xを(x+3)²を使って表すと？",
+          "hint": "(x+3)²=x²+6x+9。",
+          "explanation": "増えた9を引くので元と同じ式になります。",
+          "correctChoiceId": "geometry-quadratic-1-3",
+          "choices": [
+            {
+              "text": "(x+3)²",
+              "feedback": "途中式を見直そう。(x+3)²=x²+6x+9。",
+              "id": "geometry-quadratic-1-0"
+            },
+            {
+              "text": "(x+6)²−9",
+              "feedback": "途中式を見直そう。(x+3)²=x²+6x+9。",
+              "id": "geometry-quadratic-1-1"
+            },
+            {
+              "text": "(x+3)²+9",
+              "feedback": "途中式を見直そう。(x+3)²=x²+6x+9。",
+              "id": "geometry-quadratic-1-2"
+            },
+            {
+              "text": "(x+3)²−9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-1-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-2",
+          "stage": "guided",
+          "text": "y=(x−3)²+2が最小になるxは？",
+          "hint": "2乗部分を0にする。",
+          "explanation": "x−3=0なのでx=3。",
+          "correctChoiceId": "geometry-quadratic-2-2",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。2乗部分を0にする。",
+              "id": "geometry-quadratic-2-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。2乗部分を0にする。",
+              "id": "geometry-quadratic-2-1"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-2-2"
+            },
+            {
+              "text": "-3",
+              "feedback": "途中式を見直そう。2乗部分を0にする。",
+              "id": "geometry-quadratic-2-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-3",
+          "stage": "practice",
+          "text": "y=(x+1)²+4の最小値は？",
+          "hint": "2乗部分は0以上。",
+          "explanation": "x=−1のとき2乗が0になり最小値4。",
+          "correctChoiceId": "geometry-quadratic-3-1",
+          "choices": [
+            {
+              "text": "-4",
+              "feedback": "途中式を見直そう。2乗部分は0以上。",
+              "id": "geometry-quadratic-3-0"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-3-1"
+            },
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。2乗部分は0以上。",
+              "id": "geometry-quadratic-3-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。2乗部分は0以上。",
+              "id": "geometry-quadratic-3-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-4",
+          "stage": "practice",
+          "text": "y=x²−4x+7の頂点は？",
+          "hint": "(x−2)²との差を調整。",
+          "explanation": "y=(x−2)²+3より頂点(2,3)。",
+          "correctChoiceId": "geometry-quadratic-4-0",
+          "choices": [
+            {
+              "text": "(2,3)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-4-0"
+            },
+            {
+              "text": "(−2,3)",
+              "feedback": "途中式を見直そう。(x−2)²との差を調整。",
+              "id": "geometry-quadratic-4-1"
+            },
+            {
+              "text": "(2,7)",
+              "feedback": "途中式を見直そう。(x−2)²との差を調整。",
+              "id": "geometry-quadratic-4-2"
+            },
+            {
+              "text": "(4,3)",
+              "feedback": "途中式を見直そう。(x−2)²との差を調整。",
+              "id": "geometry-quadratic-4-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-5",
+          "stage": "practice",
+          "text": "0≤x≤1でy=(x−2)²の最小値は？",
+          "hint": "xは2に最も近い1まで。",
+          "explanation": "範囲内でx−2は−2から−1。2乗は4から1に減り、x=1で最小値1。",
+          "correctChoiceId": "geometry-quadratic-5-3",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。xは2に最も近い1まで。",
+              "id": "geometry-quadratic-5-0"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。xは2に最も近い1まで。",
+              "id": "geometry-quadratic-5-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。xは2に最も近い1まで。",
+              "id": "geometry-quadratic-5-2"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circle",
+      "title": "円の方程式",
+      "referencePages": [
+        51,
+        56
+      ],
+      "steps": [
+        [
+          "円は同じ距離の点の集まり",
+          "中心(a,b)から距離rの点(x,y)を集めると半径rの円になります。",
+          "√((x−a)²+(y−b)²)=r",
+          "rは正の数です。"
+        ],
+        [
+          "両辺を2乗する",
+          "距離の式を2乗すれば、円の方程式になります。",
+          "(x−a)²+(y−b)²=r²",
+          "右辺は半径そのものではなく、半径の2乗です。"
+        ],
+        [
+          "平方完成で中心を読む",
+          "xとyそれぞれで平方完成をします。",
+          "x²+y²−2x+4y=4 → (x−1)²+(y+2)²=9",
+          "中心は(1,−2)、半径は3。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "geometry-circle-1",
+          "stage": "guided",
+          "text": "(x−2)²+(y+1)²=25の中心のx座標は？",
+          "hint": "x−aのaを読む。",
+          "explanation": "x−2なのでa=2。",
+          "correctChoiceId": "geometry-circle-1-2",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。x−aのaを読む。",
+              "id": "geometry-circle-1-0"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。x−aのaを読む。",
+              "id": "geometry-circle-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-circle-1-2"
+            },
+            {
+              "text": "-2",
+              "feedback": "途中式を見直そう。x−aのaを読む。",
+              "id": "geometry-circle-1-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-circle-2",
+          "stage": "guided",
+          "text": "(x−2)²+(y+1)²=25の半径は？",
+          "hint": "半径の2乗が25。",
+          "explanation": "正の平方根√25=5。",
+          "correctChoiceId": "geometry-circle-2-1",
+          "choices": [
+            {
+              "text": "-5",
+              "feedback": "途中式を見直そう。半径の2乗が25。",
+              "id": "geometry-circle-2-0"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-circle-2-1"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。半径の2乗が25。",
+              "id": "geometry-circle-2-2"
+            },
+            {
+              "text": "625",
+              "feedback": "途中式を見直そう。半径の2乗が25。",
+              "id": "geometry-circle-2-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-circle-3",
+          "stage": "practice",
+          "text": "x²+y²=16の半径は？",
+          "hint": "r²=16。",
+          "explanation": "r>0よりr=4。",
+          "correctChoiceId": "geometry-circle-3-0",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-circle-3-0"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。r²=16。",
+              "id": "geometry-circle-3-1"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。r²=16。",
+              "id": "geometry-circle-3-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。r²=16。",
+              "id": "geometry-circle-3-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-circle-4",
+          "stage": "practice",
+          "text": "(x+3)²+(y−2)²=9の中心は？",
+          "hint": "x+3=x−(−3)。",
+          "explanation": "中心(a,b)=(−3,2)。",
+          "correctChoiceId": "geometry-circle-4-3",
+          "choices": [
+            {
+              "text": "(3,−2)",
+              "feedback": "途中式を見直そう。x+3=x−(−3)。",
+              "id": "geometry-circle-4-0"
+            },
+            {
+              "text": "(3,2)",
+              "feedback": "途中式を見直そう。x+3=x−(−3)。",
+              "id": "geometry-circle-4-1"
+            },
+            {
+              "text": "(−3,−2)",
+              "feedback": "途中式を見直そう。x+3=x−(−3)。",
+              "id": "geometry-circle-4-2"
+            },
+            {
+              "text": "(−3,2)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-circle-4-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-circle-5",
+          "stage": "practice",
+          "text": "中心(1,2)、半径3の円の式は？",
+          "hint": "右辺は3²。",
+          "explanation": "中心の座標をそれぞれ引き、半径の2乗を右辺に置きます。",
+          "correctChoiceId": "geometry-circle-5-2",
+          "choices": [
+            {
+              "text": "(x−1)²+(y−2)²=3",
+              "feedback": "途中式を見直そう。右辺は3²。",
+              "id": "geometry-circle-5-0"
+            },
+            {
+              "text": "x²+y²=9",
+              "feedback": "途中式を見直そう。右辺は3²。",
+              "id": "geometry-circle-5-1"
+            },
+            {
+              "text": "(x−1)²+(y−2)²=9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-circle-5-2"
+            },
+            {
+              "text": "(x+1)²+(y+2)²=9",
+              "feedback": "途中式を見直そう。右辺は3²。",
+              "id": "geometry-circle-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

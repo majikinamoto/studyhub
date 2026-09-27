@@ -1,0 +1,730 @@
+{
+  "version": 1,
+  "id": "sequences",
+  "title": "数列と和",
+  "phase": "first",
+  "prerequisite": "文字式、指数、分数。添字は順番を表します。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "arithmetic",
+      "title": "等差数列と和",
+      "referencePages": [
+        120,
+        124
+      ],
+      "steps": [
+        [
+          "並ぶ数に番号を付ける",
+          "順に並ぶ数の一つ一つが項。a₁は第1項、aₙは第n項です。",
+          "3,5,7,9,… → 初項3、公差2",
+          "隣の項にいつも同じ数を足す数列を等差数列といいます。"
+        ],
+        [
+          "第n項まで何回足す？",
+          "第1項から第n項へはn−1回進みます。",
+          "aₙ=a₁+(n−1)d ／ 3,5,7,…のa₄=3+3×2=9",
+          "dは公差。n回ではなくn−1回です。"
+        ],
+        [
+          "和は端どうしを組にする",
+          "逆順に並べた和と足すと、どの組も初項+末項になります。",
+          "Sₙ=n(a₁+aₙ)/2 ／ 3+5+7+9=4(3+9)/2=24",
+          "Sₙは第1項から第n項までの和。2回分の合計なので最後に2で割ります。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "sequences-arithmetic-1",
+          "stage": "guided",
+          "text": "初項2、公差3の等差数列。第5項まで何回3を足す？",
+          "hint": "第1項から4回進む。",
+          "explanation": "5−1=4回。",
+          "correctChoiceId": "sequences-arithmetic-1-0",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-arithmetic-1-0"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。第1項から4回進む。",
+              "id": "sequences-arithmetic-1-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。第1項から4回進む。",
+              "id": "sequences-arithmetic-1-2"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。第1項から4回進む。",
+              "id": "sequences-arithmetic-1-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-arithmetic-2",
+          "stage": "guided",
+          "text": "初項2、公差3の等差数列。第5項は？",
+          "hint": "2+4×3。",
+          "explanation": "2+12=14。",
+          "correctChoiceId": "sequences-arithmetic-2-3",
+          "choices": [
+            {
+              "text": "17",
+              "feedback": "途中式を見直そう。2+4×3。",
+              "id": "sequences-arithmetic-2-0"
+            },
+            {
+              "text": "15",
+              "feedback": "途中式を見直そう。2+4×3。",
+              "id": "sequences-arithmetic-2-1"
+            },
+            {
+              "text": "11",
+              "feedback": "途中式を見直そう。2+4×3。",
+              "id": "sequences-arithmetic-2-2"
+            },
+            {
+              "text": "14",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-arithmetic-2-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-arithmetic-3",
+          "stage": "practice",
+          "text": "初項5、公差−2の第4項は？",
+          "hint": "5+3×(−2)。",
+          "explanation": "5−6=−1。",
+          "correctChoiceId": "sequences-arithmetic-3-2",
+          "choices": [
+            {
+              "text": "11",
+              "feedback": "途中式を見直そう。5+3×(−2)。",
+              "id": "sequences-arithmetic-3-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。5+3×(−2)。",
+              "id": "sequences-arithmetic-3-1"
+            },
+            {
+              "text": "-1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-arithmetic-3-2"
+            },
+            {
+              "text": "-3",
+              "feedback": "途中式を見直そう。5+3×(−2)。",
+              "id": "sequences-arithmetic-3-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-arithmetic-4",
+          "stage": "practice",
+          "text": "1+2+…+10の和は？",
+          "hint": "10(1+10)/2。",
+          "explanation": "10×11÷2=55。",
+          "correctChoiceId": "sequences-arithmetic-4-1",
+          "choices": [
+            {
+              "text": "45",
+              "feedback": "途中式を見直そう。10(1+10)/2。",
+              "id": "sequences-arithmetic-4-0"
+            },
+            {
+              "text": "55",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-arithmetic-4-1"
+            },
+            {
+              "text": "110",
+              "feedback": "途中式を見直そう。10(1+10)/2。",
+              "id": "sequences-arithmetic-4-2"
+            },
+            {
+              "text": "50",
+              "feedback": "途中式を見直そう。10(1+10)/2。",
+              "id": "sequences-arithmetic-4-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-arithmetic-5",
+          "stage": "practice",
+          "text": "初項3、公差4の等差数列。第6項は？",
+          "hint": "3+(6−1)×4。",
+          "explanation": "3+20=23。",
+          "correctChoiceId": "sequences-arithmetic-5-0",
+          "choices": [
+            {
+              "text": "23",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-arithmetic-5-0"
+            },
+            {
+              "text": "27",
+              "feedback": "途中式を見直そう。3+(6−1)×4。",
+              "id": "sequences-arithmetic-5-1"
+            },
+            {
+              "text": "24",
+              "feedback": "途中式を見直そう。3+(6−1)×4。",
+              "id": "sequences-arithmetic-5-2"
+            },
+            {
+              "text": "19",
+              "feedback": "途中式を見直そう。3+(6−1)×4。",
+              "id": "sequences-arithmetic-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometric",
+      "title": "等比数列と和",
+      "referencePages": [
+        120,
+        124
+      ],
+      "steps": [
+        [
+          "同じ数を掛ける数列",
+          "隣の項へいつも同じ数rを掛ける数列が等比数列。rを公比といいます。",
+          "2,6,18,54,… → 初項2、公比3",
+          "第n項まで掛ける回数はn−1。aₙ=a₁rⁿ⁻¹です。"
+        ],
+        [
+          "和をずらして引く",
+          "S=a+ar+…+arⁿ⁻¹にrを掛けて引くと、中間の項が消えます。",
+          "(1−r)S=a−arⁿ → S=a(1−rⁿ)/(1−r)",
+          "r≠1の公式。r=1なら同じ数aをn個足してnaです。"
+        ],
+        [
+          "公比が負のとき",
+          "負の数を掛けると符号が交互に変わります。",
+          "3,−6,12,−24,… → r=−2、a₄=3(−2)³=−24",
+          "負の数を累乗するときはかっこを付けよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "sequences-geometric-1",
+          "stage": "guided",
+          "text": "2,6,18,…の公比は？",
+          "hint": "次の項÷前の項。",
+          "explanation": "6÷2=3。",
+          "correctChoiceId": "sequences-geometric-1-3",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。次の項÷前の項。",
+              "id": "sequences-geometric-1-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。次の項÷前の項。",
+              "id": "sequences-geometric-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。次の項÷前の項。",
+              "id": "sequences-geometric-1-2"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-geometric-1-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-geometric-2",
+          "stage": "guided",
+          "text": "初項2、公比3の第4項の式は？",
+          "hint": "3を3回掛ける。",
+          "explanation": "第1項から第4項へは3回進みます。",
+          "correctChoiceId": "sequences-geometric-2-2",
+          "choices": [
+            {
+              "text": "2+3×3",
+              "feedback": "途中式を見直そう。3を3回掛ける。",
+              "id": "sequences-geometric-2-0"
+            },
+            {
+              "text": "2³×3",
+              "feedback": "途中式を見直そう。3を3回掛ける。",
+              "id": "sequences-geometric-2-1"
+            },
+            {
+              "text": "2×3³",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-geometric-2-2"
+            },
+            {
+              "text": "2×3⁴",
+              "feedback": "途中式を見直そう。3を3回掛ける。",
+              "id": "sequences-geometric-2-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-geometric-3",
+          "stage": "practice",
+          "text": "初項1、公比2の第5項は？",
+          "hint": "1×2⁴。",
+          "explanation": "2×2×2×2=16。",
+          "correctChoiceId": "sequences-geometric-3-1",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。1×2⁴。",
+              "id": "sequences-geometric-3-0"
+            },
+            {
+              "text": "16",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-geometric-3-1"
+            },
+            {
+              "text": "32",
+              "feedback": "途中式を見直そう。1×2⁴。",
+              "id": "sequences-geometric-3-2"
+            },
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。1×2⁴。",
+              "id": "sequences-geometric-3-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-geometric-4",
+          "stage": "practice",
+          "text": "1+2+4+8の和は？",
+          "hint": "4項を足す。",
+          "explanation": "(1−2⁴)/(1−2)=15。",
+          "correctChoiceId": "sequences-geometric-4-0",
+          "choices": [
+            {
+              "text": "15",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-geometric-4-0"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。4項を足す。",
+              "id": "sequences-geometric-4-1"
+            },
+            {
+              "text": "14",
+              "feedback": "途中式を見直そう。4項を足す。",
+              "id": "sequences-geometric-4-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。4項を足す。",
+              "id": "sequences-geometric-4-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-geometric-5",
+          "stage": "practice",
+          "text": "初項2、公比−3の第3項は？",
+          "hint": "2×(−3)²。",
+          "explanation": "2×9=18。",
+          "correctChoiceId": "sequences-geometric-5-3",
+          "choices": [
+            {
+              "text": "-18",
+              "feedback": "途中式を見直そう。2×(−3)²。",
+              "id": "sequences-geometric-5-0"
+            },
+            {
+              "text": "-6",
+              "feedback": "途中式を見直そう。2×(−3)²。",
+              "id": "sequences-geometric-5-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。2×(−3)²。",
+              "id": "sequences-geometric-5-2"
+            },
+            {
+              "text": "18",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-geometric-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigma",
+      "title": "Σと和から一般項へ",
+      "referencePages": [
+        125,
+        130
+      ],
+      "steps": [
+        [
+          "Σは足し算の省略記号",
+          "Σはシグマ。指定された整数を順に式へ代入して、全部足します。",
+          "Σ（k=1から3）k²=1²+2²+3²=14",
+          "kは順に変わる番号。k²はその番号の2乗です。"
+        ],
+        [
+          "和の公式を使う",
+          "同じ定数は項の個数倍、1からnの和は等差数列の公式で求まります。",
+          "Σ（k=1からn）c=nc、Σ（k=1からn）k=n(n+1)/2",
+          "和は項ごとに分けられます。Σ(2k+1)=2Σk+Σ1。"
+        ],
+        [
+          "和の差が最後の項",
+          "Sₙは最初のn項の和。Sₙ₋₁を引くと第n項だけ残ります。",
+          "a₁=S₁、aₙ=Sₙ−Sₙ₋₁（n≥2）",
+          "n=1は別に確認します。たとえばSₙ=n²ならaₙ=2n−1。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "sequences-sigma-1",
+          "stage": "guided",
+          "text": "Σ（k=1から4）kはどの足し算？",
+          "hint": "1から4を代入。",
+          "explanation": "kが1,2,3,4なのでその和。",
+          "correctChoiceId": "sequences-sigma-1-2",
+          "choices": [
+            {
+              "text": "4+4+4+4",
+              "feedback": "途中式を見直そう。1から4を代入。",
+              "id": "sequences-sigma-1-0"
+            },
+            {
+              "text": "1+4",
+              "feedback": "途中式を見直そう。1から4を代入。",
+              "id": "sequences-sigma-1-1"
+            },
+            {
+              "text": "1+2+3+4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-sigma-1-2"
+            },
+            {
+              "text": "1×2×3×4",
+              "feedback": "途中式を見直そう。1から4を代入。",
+              "id": "sequences-sigma-1-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-sigma-2",
+          "stage": "guided",
+          "text": "Σ（k=1から4）3の値は？",
+          "hint": "3を4回足す。",
+          "explanation": "3+3+3+3=12。",
+          "correctChoiceId": "sequences-sigma-2-1",
+          "choices": [
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。3を4回足す。",
+              "id": "sequences-sigma-2-0"
+            },
+            {
+              "text": "12",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-sigma-2-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。3を4回足す。",
+              "id": "sequences-sigma-2-2"
+            },
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。3を4回足す。",
+              "id": "sequences-sigma-2-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-sigma-3",
+          "stage": "practice",
+          "text": "Σ（k=1から3）k²の値は？",
+          "hint": "各kを2乗して足す。",
+          "explanation": "1+4+9=14。",
+          "correctChoiceId": "sequences-sigma-3-0",
+          "choices": [
+            {
+              "text": "14",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-sigma-3-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。各kを2乗して足す。",
+              "id": "sequences-sigma-3-1"
+            },
+            {
+              "text": "36",
+              "feedback": "途中式を見直そう。各kを2乗して足す。",
+              "id": "sequences-sigma-3-2"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。各kを2乗して足す。",
+              "id": "sequences-sigma-3-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-sigma-4",
+          "stage": "practice",
+          "text": "Σ（k=1から3）(2k+1)の値は？",
+          "hint": "3、5、7を足す。",
+          "explanation": "3+5+7=15。",
+          "correctChoiceId": "sequences-sigma-4-3",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。3、5、7を足す。",
+              "id": "sequences-sigma-4-0"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。3、5、7を足す。",
+              "id": "sequences-sigma-4-1"
+            },
+            {
+              "text": "18",
+              "feedback": "途中式を見直そう。3、5、7を足す。",
+              "id": "sequences-sigma-4-2"
+            },
+            {
+              "text": "15",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-sigma-4-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-sigma-5",
+          "stage": "practice",
+          "text": "第n項までの和Sₙ=n²。第4項は？",
+          "hint": "S₄−S₃。",
+          "explanation": "16−9=7。",
+          "correctChoiceId": "sequences-sigma-5-2",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。S₄−S₃。",
+              "id": "sequences-sigma-5-0"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。S₄−S₃。",
+              "id": "sequences-sigma-5-1"
+            },
+            {
+              "text": "7",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-sigma-5-2"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。S₄−S₃。",
+              "id": "sequences-sigma-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recurrence",
+      "title": "漸化式から一般項へ",
+      "referencePages": [
+        131,
+        136
+      ],
+      "steps": [
+        [
+          "隣の項の関係で決める",
+          "aₙ₊₁は第n+1項。漸化式と初項を決めると、数列を順番に作れます。",
+          "a₁=1、aₙ₊₁=2aₙ+1 → 1,3,7,15,…",
+          "何番目の項を計算しているかを書いて確認しよう。"
+        ],
+        [
+          "定数を移して等比数列にする",
+          "両辺に1を足すと、かっこの中が同じ形になります。",
+          "aₙ₊₁+1=2(aₙ+1)",
+          "bₙ=aₙ+1と置けばbₙ₊₁=2bₙ。公比2の等比数列です。"
+        ],
+        [
+          "元の文字へ戻す",
+          "初項b₁=a₁+1=2なのでbₙ=2×2ⁿ⁻¹=2ⁿです。",
+          "aₙ=bₙ−1=2ⁿ−1",
+          "n=1で1、n=2で3となることを元の漸化式と比べます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "sequences-recurrence-1",
+          "stage": "guided",
+          "text": "a₁=1、aₙ₊₁=2aₙ+1。a₂は？",
+          "hint": "2×1+1。",
+          "explanation": "a₂=3。",
+          "correctChoiceId": "sequences-recurrence-1-1",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。2×1+1。",
+              "id": "sequences-recurrence-1-0"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-recurrence-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。2×1+1。",
+              "id": "sequences-recurrence-1-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。2×1+1。",
+              "id": "sequences-recurrence-1-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-recurrence-2",
+          "stage": "guided",
+          "text": "aₙ₊₁=2aₙ+1で、aₙ₊₁+1をくくると？",
+          "hint": "右辺は2aₙ+2。",
+          "explanation": "共通因数2でくくります。",
+          "correctChoiceId": "sequences-recurrence-2-0",
+          "choices": [
+            {
+              "text": "2(aₙ+1)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-recurrence-2-0"
+            },
+            {
+              "text": "2(aₙ−1)",
+              "feedback": "途中式を見直そう。右辺は2aₙ+2。",
+              "id": "sequences-recurrence-2-1"
+            },
+            {
+              "text": "2aₙ+1",
+              "feedback": "途中式を見直そう。右辺は2aₙ+2。",
+              "id": "sequences-recurrence-2-2"
+            },
+            {
+              "text": "aₙ+2",
+              "feedback": "途中式を見直そう。右辺は2aₙ+2。",
+              "id": "sequences-recurrence-2-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-recurrence-3",
+          "stage": "practice",
+          "text": "a₁=1、aₙ₊₁=2aₙ+1。a₄は？",
+          "hint": "1→3→7→次。",
+          "explanation": "2×7+1=15。",
+          "correctChoiceId": "sequences-recurrence-3-3",
+          "choices": [
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。1→3→7→次。",
+              "id": "sequences-recurrence-3-0"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。1→3→7→次。",
+              "id": "sequences-recurrence-3-1"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。1→3→7→次。",
+              "id": "sequences-recurrence-3-2"
+            },
+            {
+              "text": "15",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-recurrence-3-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-recurrence-4",
+          "stage": "practice",
+          "text": "a₁=1、bₙ=aₙ+1のときb₁は？",
+          "hint": "a₁に1を足す。",
+          "explanation": "1+1=2。",
+          "correctChoiceId": "sequences-recurrence-4-2",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。a₁に1を足す。",
+              "id": "sequences-recurrence-4-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。a₁に1を足す。",
+              "id": "sequences-recurrence-4-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-recurrence-4-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。a₁に1を足す。",
+              "id": "sequences-recurrence-4-3"
+            }
+          ]
+        },
+        {
+          "id": "sequences-recurrence-5",
+          "stage": "practice",
+          "text": "aₙ=2ⁿ−1の第5項は？",
+          "hint": "2⁵から1を引く。",
+          "explanation": "32−1=31。",
+          "correctChoiceId": "sequences-recurrence-5-1",
+          "choices": [
+            {
+              "text": "63",
+              "feedback": "途中式を見直そう。2⁵から1を引く。",
+              "id": "sequences-recurrence-5-0"
+            },
+            {
+              "text": "31",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "sequences-recurrence-5-1"
+            },
+            {
+              "text": "32",
+              "feedback": "途中式を見直そう。2⁵から1を引く。",
+              "id": "sequences-recurrence-5-2"
+            },
+            {
+              "text": "15",
+              "feedback": "途中式を見直そう。2⁵から1を引く。",
+              "id": "sequences-recurrence-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+export const courses=[];
+export function course(id,title,prerequisite,phase='first'){const c={id,title,phase,prerequisite,note:'提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。',lessons:[]};courses.push(c);return c;}
+export function q(text,answer,hint,explanation,wrong){return {text,answer:String(answer),hint,explanation,wrong:wrong.map(w=>Array.isArray(w)?[String(w[0]),w[1]]:[String(w),'途中式を見直そう。'+hint])};}
+export function lesson(c,id,title,pages,steps,questions,diagram){if(questions.length!==5)throw Error(id+' needs 5');c.lessons.push({id,title,referencePages:pages,steps,diagram,questions:questions.map((r,i)=>{const idq=c.id+'-'+id+'-'+(i+1);const choices=[{text:r.answer,feedback:'正解です。解説の途中式も確認しよう。'},...r.wrong.map(([text,feedback])=>({text,feedback}))];if(choices.length!==4||new Set(choices.map(x=>x.text)).size!==4)throw Error(idq+' choices');const offset=(i+c.lessons.length)%4;choices.push(...choices.splice(0,offset));choices.forEach((x,j)=>x.id=idq+'-'+j);return {id:idq,stage:i<2?'guided':'practice',text:r.text,hint:r.hint,explanation:r.explanation,correctChoiceId:choices.find(x=>x.text===r.answer).id,choices};})});}
+export function save(){for(const c of courses)fs.writeFileSync('data/suken-'+c.id+'.json',JSON.stringify({version:1,...c},null,2)+'\n');}

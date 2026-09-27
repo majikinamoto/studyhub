@@ -1,0 +1,730 @@
+{
+  "version": 1,
+  "id": "probability",
+  "title": "場合の数・確率・期待値",
+  "phase": "first",
+  "prerequisite": "分数と割合、集合。順番を区別するかを確かめます。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "count",
+      "title": "順列と組合せ",
+      "referencePages": [
+        158,
+        163
+      ],
+      "steps": [
+        [
+          "選んでから次を選ぶ",
+          "シャツ3種類それぞれにズボン2種類を合わせると、組合せは3×2通りです。",
+          "3×2=6通り",
+          "重ならない別の場合をまとめるときは足し算。続く選択を組み合わせるときは掛け算です。"
+        ],
+        [
+          "順番を区別して並べる",
+          "異なるn個からr個を並べる順列はnPᵣ。1つ選ぶごとに残りが減ります。",
+          "4P₂=4×3=12、4!=4×3×2×1=24",
+          "!は階乗。n個全部を並べるとn!通りです。"
+        ],
+        [
+          "順番を区別せず選ぶ",
+          "A,BとB,Aを同じ選び方とするのが組合せ。並べ替えたr!通り分を割ります。",
+          "4C₂=(4×3)/(2×1)=6",
+          "nCᵣ=nPᵣ/r!。同じ物を繰り返し選ばない場合です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "probability-count-1",
+          "stage": "guided",
+          "text": "シャツ4種類、ズボン3種類。1つずつ選ぶ方法は？",
+          "hint": "4×3。",
+          "explanation": "各シャツに3通りずつあるので12通り。",
+          "correctChoiceId": "probability-count-1-0",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-count-1-0"
+            },
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。4×3。",
+              "id": "probability-count-1-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。4×3。",
+              "id": "probability-count-1-2"
+            },
+            {
+              "text": "24",
+              "feedback": "途中式を見直そう。4×3。",
+              "id": "probability-count-1-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-count-2",
+          "stage": "guided",
+          "text": "異なる5人から1位と2位を選ぶ方法は？",
+          "hint": "1位5通り、2位は残り4通り。",
+          "explanation": "5P₂=5×4=20。",
+          "correctChoiceId": "probability-count-2-3",
+          "choices": [
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。1位5通り、2位は残り4通り。",
+              "id": "probability-count-2-0"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。1位5通り、2位は残り4通り。",
+              "id": "probability-count-2-1"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。1位5通り、2位は残り4通り。",
+              "id": "probability-count-2-2"
+            },
+            {
+              "text": "20",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-count-2-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-count-3",
+          "stage": "practice",
+          "text": "4!の値は？",
+          "hint": "4×3×2×1。",
+          "explanation": "4×3×2×1=24。",
+          "correctChoiceId": "probability-count-3-2",
+          "choices": [
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。4×3×2×1。",
+              "id": "probability-count-3-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。4×3×2×1。",
+              "id": "probability-count-3-1"
+            },
+            {
+              "text": "24",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-count-3-2"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。4×3×2×1。",
+              "id": "probability-count-3-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-count-4",
+          "stage": "practice",
+          "text": "異なる5人から2人を選ぶ方法は？",
+          "hint": "順列を2!で割る。",
+          "explanation": "5C₂=5×4/2=10。",
+          "correctChoiceId": "probability-count-4-1",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。順列を2!で割る。",
+              "id": "probability-count-4-0"
+            },
+            {
+              "text": "10",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-count-4-1"
+            },
+            {
+              "text": "20",
+              "feedback": "途中式を見直そう。順列を2!で割る。",
+              "id": "probability-count-4-2"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。順列を2!で割る。",
+              "id": "probability-count-4-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-count-5",
+          "stage": "practice",
+          "text": "異なる6人から2人を選ぶ方法は？",
+          "hint": "6×5/2。",
+          "explanation": "6C₂=15。",
+          "correctChoiceId": "probability-count-5-0",
+          "choices": [
+            {
+              "text": "15",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-count-5-0"
+            },
+            {
+              "text": "30",
+              "feedback": "途中式を見直そう。6×5/2。",
+              "id": "probability-count-5-1"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。6×5/2。",
+              "id": "probability-count-5-2"
+            },
+            {
+              "text": "36",
+              "feedback": "途中式を見直そう。6×5/2。",
+              "id": "probability-count-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chance",
+      "title": "確率と余事象",
+      "referencePages": [
+        164,
+        165
+      ],
+      "steps": [
+        [
+          "同じくらい起こる結果を数える",
+          "すべての結果が同様に確からしいとき、確率は条件を満たす結果の数を全結果の数で割ります。",
+          "公平なさいころで偶数：3/6=1/2",
+          "結果の起こりやすさが違うときは、個数だけでは割れません。"
+        ],
+        [
+          "どちらかが起こる確率",
+          "AまたはBの確率では、両方に含まれる部分を1回引きます。",
+          "P(A∪B)=P(A)+P(B)−P(A∩B)",
+          "Pは確率、∪はどちらか、∩は両方という記号です。"
+        ],
+        [
+          "起こらない方から考える",
+          "Aが起こらない出来事を余事象といいます。合計の確率は1です。",
+          "P(A)=1−P(Aが起こらない)",
+          "少なくとも1回など、反対を数えると簡単な場面で使います。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "probability-chance-1",
+          "stage": "guided",
+          "text": "公平なさいころ1個。全結果の数は？",
+          "hint": "1から6。",
+          "explanation": "同じ起こりやすさの6通り。",
+          "correctChoiceId": "probability-chance-1-3",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。1から6。",
+              "id": "probability-chance-1-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。1から6。",
+              "id": "probability-chance-1-1"
+            },
+            {
+              "text": "36",
+              "feedback": "途中式を見直そう。1から6。",
+              "id": "probability-chance-1-2"
+            },
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-chance-1-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-chance-2",
+          "stage": "guided",
+          "text": "公平なさいころ1個で5以上が出る確率は？",
+          "hint": "5と6の2通り。",
+          "explanation": "2/6=1/3。",
+          "correctChoiceId": "probability-chance-2-2",
+          "choices": [
+            {
+              "text": "2/3",
+              "feedback": "途中式を見直そう。5と6の2通り。",
+              "id": "probability-chance-2-0"
+            },
+            {
+              "text": "5/6",
+              "feedback": "途中式を見直そう。5と6の2通り。",
+              "id": "probability-chance-2-1"
+            },
+            {
+              "text": "1/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-chance-2-2"
+            },
+            {
+              "text": "1/6",
+              "feedback": "途中式を見直そう。5と6の2通り。",
+              "id": "probability-chance-2-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-chance-3",
+          "stage": "practice",
+          "text": "公平なさいころ1個で3の倍数が出る確率は？",
+          "hint": "3と6。",
+          "explanation": "2/6=1/3。",
+          "correctChoiceId": "probability-chance-3-1",
+          "choices": [
+            {
+              "text": "2/3",
+              "feedback": "途中式を見直そう。3と6。",
+              "id": "probability-chance-3-0"
+            },
+            {
+              "text": "1/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-chance-3-1"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。3と6。",
+              "id": "probability-chance-3-2"
+            },
+            {
+              "text": "1/6",
+              "feedback": "途中式を見直そう。3と6。",
+              "id": "probability-chance-3-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-chance-4",
+          "stage": "practice",
+          "text": "公平なさいころ1個で6以外が出る確率は？",
+          "hint": "1−P(6)。",
+          "explanation": "1−1/6=5/6。",
+          "correctChoiceId": "probability-chance-4-0",
+          "choices": [
+            {
+              "text": "5/6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-chance-4-0"
+            },
+            {
+              "text": "1/6",
+              "feedback": "途中式を見直そう。1−P(6)。",
+              "id": "probability-chance-4-1"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。1−P(6)。",
+              "id": "probability-chance-4-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。1−P(6)。",
+              "id": "probability-chance-4-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-chance-5",
+          "stage": "practice",
+          "text": "公平なさいころ1個で偶数または3の倍数が出る確率は？",
+          "hint": "2,3,4,6。6を重複させない。",
+          "explanation": "4/6=2/3。",
+          "correctChoiceId": "probability-chance-5-3",
+          "choices": [
+            {
+              "text": "5/6",
+              "feedback": "途中式を見直そう。2,3,4,6。6を重複させない。",
+              "id": "probability-chance-5-0"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。2,3,4,6。6を重複させない。",
+              "id": "probability-chance-5-1"
+            },
+            {
+              "text": "1/3",
+              "feedback": "途中式を見直そう。2,3,4,6。6を重複させない。",
+              "id": "probability-chance-5-2"
+            },
+            {
+              "text": "2/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-chance-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trials",
+      "title": "独立・反復・条件付き確率",
+      "referencePages": [
+        165,
+        167
+      ],
+      "steps": [
+        [
+          "独立な試行",
+          "前の結果が次の確率を変えないとき独立です。公平なコインを別々に投げるのが例です。",
+          "2回とも表：(1/2)×(1/2)=1/4",
+          "独立でない場合に、そのまま元の確率を掛けないようにしよう。"
+        ],
+        [
+          "同じ条件で繰り返す",
+          "成功確率pの独立な試行をn回行い、ちょうどr回成功する確率は成功する位置の選び方を掛けます。",
+          "nCᵣ pʳ(1−p)ⁿ⁻ʳ",
+          "公平なコイン3回で表2回なら3C₂×(1/2)²×(1/2)=3/8。"
+        ],
+        [
+          "条件で全体を絞る",
+          "Aが起こったと分かっているとき、全体をAに絞ってBの確率を考えます。",
+          "さいころで偶数と分かった後、6である確率は1/3",
+          "玉を戻さず引く場合は、2回目の玉の数が変わります。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "probability-trials-1",
+          "stage": "guided",
+          "text": "公平なコイン2回がともに表の確率は？",
+          "hint": "独立なので1/2を2回掛ける。",
+          "explanation": "1/2×1/2=1/4。",
+          "correctChoiceId": "probability-trials-1-2",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。独立なので1/2を2回掛ける。",
+              "id": "probability-trials-1-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。独立なので1/2を2回掛ける。",
+              "id": "probability-trials-1-1"
+            },
+            {
+              "text": "1/4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-trials-1-2"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。独立なので1/2を2回掛ける。",
+              "id": "probability-trials-1-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-trials-2",
+          "stage": "guided",
+          "text": "公平なコイン3回で表が2回出る位置の選び方は？",
+          "hint": "裏がどこかで区別。",
+          "explanation": "表表裏、表裏表、裏表表の3通り。",
+          "correctChoiceId": "probability-trials-2-1",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。裏がどこかで区別。",
+              "id": "probability-trials-2-0"
+            },
+            {
+              "text": "3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-trials-2-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。裏がどこかで区別。",
+              "id": "probability-trials-2-2"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。裏がどこかで区別。",
+              "id": "probability-trials-2-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-trials-3",
+          "stage": "practice",
+          "text": "公平なコイン3回で表がちょうど2回出る確率は？",
+          "hint": "各並びの確率1/8×3。",
+          "explanation": "3C₂(1/2)³=3/8。",
+          "correctChoiceId": "probability-trials-3-0",
+          "choices": [
+            {
+              "text": "3/8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-trials-3-0"
+            },
+            {
+              "text": "1/8",
+              "feedback": "途中式を見直そう。各並びの確率1/8×3。",
+              "id": "probability-trials-3-1"
+            },
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。各並びの確率1/8×3。",
+              "id": "probability-trials-3-2"
+            },
+            {
+              "text": "2/3",
+              "feedback": "途中式を見直そう。各並びの確率1/8×3。",
+              "id": "probability-trials-3-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-trials-4",
+          "stage": "practice",
+          "text": "公平なさいころで偶数が出たと分かっている。4以上である確率は？",
+          "hint": "全体を2,4,6に絞る。",
+          "explanation": "条件を満たすのは4,6の2通りなので2/3。",
+          "correctChoiceId": "probability-trials-4-3",
+          "choices": [
+            {
+              "text": "1/2",
+              "feedback": "途中式を見直そう。全体を2,4,6に絞る。",
+              "id": "probability-trials-4-0"
+            },
+            {
+              "text": "1/3",
+              "feedback": "途中式を見直そう。全体を2,4,6に絞る。",
+              "id": "probability-trials-4-1"
+            },
+            {
+              "text": "1/6",
+              "feedback": "途中式を見直そう。全体を2,4,6に絞る。",
+              "id": "probability-trials-4-2"
+            },
+            {
+              "text": "2/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-trials-4-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-trials-5",
+          "stage": "practice",
+          "text": "赤玉3個、白玉2個から無作為に1個引き、戻さず次を引く。最初が赤と分かったとき次も赤の確率は？",
+          "hint": "残りは赤2個、白2個。",
+          "explanation": "残り4個中赤2個なので2/4=1/2。",
+          "correctChoiceId": "probability-trials-5-2",
+          "choices": [
+            {
+              "text": "2/5",
+              "feedback": "途中式を見直そう。残りは赤2個、白2個。",
+              "id": "probability-trials-5-0"
+            },
+            {
+              "text": "3/4",
+              "feedback": "途中式を見直そう。残りは赤2個、白2個。",
+              "id": "probability-trials-5-1"
+            },
+            {
+              "text": "1/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-trials-5-2"
+            },
+            {
+              "text": "3/5",
+              "feedback": "途中式を見直そう。残りは赤2個、白2個。",
+              "id": "probability-trials-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expectation",
+      "title": "期待値は確率で重みを付けた平均",
+      "referencePages": [
+        167,
+        170
+      ],
+      "steps": [
+        [
+          "起こりやすさを反映した平均",
+          "値ごとに確率を掛けて足したものが期待値。1回で必ずその値が出るという意味ではありません。",
+          "公平なコインで表なら10点、裏なら0点 → 10×1/2+0×1/2=5点",
+          "平均の予想を表す数です。実際の得点は0点か10点。"
+        ],
+        [
+          "すべての結果を含める",
+          "得られる値をx₁,x₂,…、それぞれの確率をp₁,p₂,…とします。",
+          "E(X)=x₁p₁+x₂p₂+… ／ p₁+p₂+…=1",
+          "E(X)はXの期待値という記号です。"
+        ],
+        [
+          "点数が倍なら期待値も倍",
+          "すべての結果を2倍にするなら、各項も2倍になります。参加費を引くなら最後に引けます。",
+          "賞金の期待値80円、参加費30円 → 収支の期待値50円",
+          "負の結果も符号を付けて計算します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "probability-expectation-1",
+          "stage": "guided",
+          "text": "確率1/2で10点を得る結果が期待値に加える量は？",
+          "hint": "10×1/2。",
+          "explanation": "5点分です。",
+          "correctChoiceId": "probability-expectation-1-1",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。10×1/2。",
+              "id": "probability-expectation-1-0"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-expectation-1-1"
+            },
+            {
+              "text": "10",
+              "feedback": "途中式を見直そう。10×1/2。",
+              "id": "probability-expectation-1-2"
+            },
+            {
+              "text": "20",
+              "feedback": "途中式を見直そう。10×1/2。",
+              "id": "probability-expectation-1-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-expectation-2",
+          "stage": "guided",
+          "text": "公平なコインで表なら10点、裏なら2点。期待値は？",
+          "hint": "両方の点×確率を足す。",
+          "explanation": "10/2+2/2=6。",
+          "correctChoiceId": "probability-expectation-2-0",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-expectation-2-0"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。両方の点×確率を足す。",
+              "id": "probability-expectation-2-1"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。両方の点×確率を足す。",
+              "id": "probability-expectation-2-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。両方の点×確率を足す。",
+              "id": "probability-expectation-2-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-expectation-3",
+          "stage": "practice",
+          "text": "公平なさいころの目の期待値は？",
+          "hint": "1から6を足して6で割る。",
+          "explanation": "21/6=7/2。",
+          "correctChoiceId": "probability-expectation-3-3",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。1から6を足して6で割る。",
+              "id": "probability-expectation-3-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。1から6を足して6で割る。",
+              "id": "probability-expectation-3-1"
+            },
+            {
+              "text": "21",
+              "feedback": "途中式を見直そう。1から6を足して6で割る。",
+              "id": "probability-expectation-3-2"
+            },
+            {
+              "text": "7/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-expectation-3-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-expectation-4",
+          "stage": "practice",
+          "text": "確率1/4で20点、それ以外は0点。期待値は？",
+          "hint": "20×1/4+0×3/4。",
+          "explanation": "5点です。",
+          "correctChoiceId": "probability-expectation-4-2",
+          "choices": [
+            {
+              "text": "20",
+              "feedback": "途中式を見直そう。20×1/4+0×3/4。",
+              "id": "probability-expectation-4-0"
+            },
+            {
+              "text": "80",
+              "feedback": "途中式を見直そう。20×1/4+0×3/4。",
+              "id": "probability-expectation-4-1"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-expectation-4-2"
+            },
+            {
+              "text": "15",
+              "feedback": "途中式を見直そう。20×1/4+0×3/4。",
+              "id": "probability-expectation-4-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-expectation-5",
+          "stage": "practice",
+          "text": "賞金の期待値120円、参加費50円。収支の期待値は？",
+          "hint": "賞金から参加費を引く。",
+          "explanation": "120−50=70円。",
+          "correctChoiceId": "probability-expectation-5-1",
+          "choices": [
+            {
+              "text": "−70円",
+              "feedback": "途中式を見直そう。賞金から参加費を引く。",
+              "id": "probability-expectation-5-0"
+            },
+            {
+              "text": "70円",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-expectation-5-1"
+            },
+            {
+              "text": "170円",
+              "feedback": "途中式を見直そう。賞金から参加費を引く。",
+              "id": "probability-expectation-5-2"
+            },
+            {
+              "text": "120円",
+              "feedback": "途中式を見直そう。賞金から参加費を引く。",
+              "id": "probability-expectation-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

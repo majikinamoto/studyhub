@@ -1,0 +1,910 @@
+{
+  "version": 1,
+  "id": "reasoning",
+  "title": "証明・軌跡・規則性の入口",
+  "phase": "second",
+  "prerequisite": "1次の文字式、集合、座標、数列を先に確認しよう。",
+  "note": "2次の考え方を学ぶオリジナルの入口教材です。4択の後は、答えを隠して理由と途中式を紙に書こう。記述答案の自動採点はありません。",
+  "lessons": [
+    {
+      "id": "proof",
+      "title": "等式・不等式を証明する",
+      "referencePages": [
+        19,
+        23
+      ],
+      "steps": [
+        [
+          "例を調べるだけでは証明にならない",
+          "x=1や2で成り立っても、すべてのxで成り立つとは限りません。文字のまま変形します。",
+          "(x+1)²−(x−1)²=4x",
+          "左辺を展開し、同じ項を打ち消して右辺にします。"
+        ],
+        [
+          "不等式は差の符号を見る",
+          "左辺≥右辺を示すには、左辺−右辺が0以上と示せば十分です。",
+          "a²+b²−2ab=(a−b)²≥0",
+          "実数の2乗は0以上。この事実が理由になります。"
+        ],
+        [
+          "等号はいつ成り立つ？",
+          "差が0になる条件を調べます。",
+          "(a−b)²=0 ⇔ a=b",
+          "証明は「変形」と「その式が0以上である理由」の両方を書こう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "reasoning-proof-1",
+          "stage": "guided",
+          "text": "(x+1)²の展開は？",
+          "hint": "真ん中は2×x×1。",
+          "explanation": "x²+x+x+1=x²+2x+1。",
+          "correctChoiceId": "reasoning-proof-1-0",
+          "choices": [
+            {
+              "text": "x²+2x+1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-proof-1-0"
+            },
+            {
+              "text": "x²+1",
+              "feedback": "途中式を見直そう。真ん中は2×x×1。",
+              "id": "reasoning-proof-1-1"
+            },
+            {
+              "text": "x²+x+1",
+              "feedback": "途中式を見直そう。真ん中は2×x×1。",
+              "id": "reasoning-proof-1-2"
+            },
+            {
+              "text": "x²+2x−1",
+              "feedback": "途中式を見直そう。真ん中は2×x×1。",
+              "id": "reasoning-proof-1-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-proof-2",
+          "stage": "guided",
+          "text": "(x+1)²−(x−1)²を整理すると？",
+          "hint": "後ろの各項の符号を変える。",
+          "explanation": "x²+2x+1−x²+2x−1=4x。",
+          "correctChoiceId": "reasoning-proof-2-3",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。後ろの各項の符号を変える。",
+              "id": "reasoning-proof-2-0"
+            },
+            {
+              "text": "2x",
+              "feedback": "途中式を見直そう。後ろの各項の符号を変える。",
+              "id": "reasoning-proof-2-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。後ろの各項の符号を変える。",
+              "id": "reasoning-proof-2-2"
+            },
+            {
+              "text": "4x",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-proof-2-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-proof-3",
+          "stage": "practice",
+          "text": "a²+b²≥2abを示すための左辺−右辺は？",
+          "hint": "平方の形にする。",
+          "explanation": "a²−2ab+b²=(a−b)²≥0。",
+          "correctChoiceId": "reasoning-proof-3-2",
+          "choices": [
+            {
+              "text": "a−b",
+              "feedback": "途中式を見直そう。平方の形にする。",
+              "id": "reasoning-proof-3-0"
+            },
+            {
+              "text": "a²−b²",
+              "feedback": "途中式を見直そう。平方の形にする。",
+              "id": "reasoning-proof-3-1"
+            },
+            {
+              "text": "(a−b)²",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-proof-3-2"
+            },
+            {
+              "text": "(a+b)²",
+              "feedback": "途中式を見直そう。平方の形にする。",
+              "id": "reasoning-proof-3-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-proof-4",
+          "stage": "practice",
+          "text": "a²+b²≥2abの等号条件は？",
+          "hint": "差の2乗が0。",
+          "explanation": "(a−b)²=0ならa−b=0。",
+          "correctChoiceId": "reasoning-proof-4-1",
+          "choices": [
+            {
+              "text": "すべてのa,b",
+              "feedback": "途中式を見直そう。差の2乗が0。",
+              "id": "reasoning-proof-4-0"
+            },
+            {
+              "text": "a=b",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-proof-4-1"
+            },
+            {
+              "text": "a=−bなら常に成り立つ",
+              "feedback": "途中式を見直そう。差の2乗が0。",
+              "id": "reasoning-proof-4-2"
+            },
+            {
+              "text": "a=0だけ",
+              "feedback": "途中式を見直そう。差の2乗が0。",
+              "id": "reasoning-proof-4-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-proof-5",
+          "stage": "practice",
+          "text": "「すべての実数xでx²≥x」という主張を否定する例は？",
+          "hint": "0と1の間を試す。",
+          "explanation": "x²=1/4<1/2=xなので反例になります。",
+          "correctChoiceId": "reasoning-proof-5-0",
+          "choices": [
+            {
+              "text": "x=1/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-proof-5-0"
+            },
+            {
+              "text": "x=0",
+              "feedback": "途中式を見直そう。0と1の間を試す。",
+              "id": "reasoning-proof-5-1"
+            },
+            {
+              "text": "x=1",
+              "feedback": "途中式を見直そう。0と1の間を試す。",
+              "id": "reasoning-proof-5-2"
+            },
+            {
+              "text": "x=2",
+              "feedback": "途中式を見直そう。0と1の間を試す。",
+              "id": "reasoning-proof-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logic",
+      "title": "命題・逆・対偶",
+      "referencePages": [
+        24,
+        28
+      ],
+      "steps": [
+        [
+          "条件から結論へ",
+          "「pならばq」の形の主張を命題といいます。pを満たすすべての場合でqとなれば真です。",
+          "整数nについて、4の倍数なら偶数",
+          "n=4k=2(2k)と表せるので真。kは整数です。"
+        ],
+        [
+          "逆は必ずしも真ではない",
+          "条件と結論を入れ替えたものが逆です。元が真でも逆が真とは限りません。",
+          "偶数なら4の倍数、はn=2で成り立たない",
+          "一つでも成り立たない例があれば、すべて成り立つという主張を否定できます。"
+        ],
+        [
+          "対偶を使う",
+          "「pならばq」の対偶は「qでないならpでない」。元と対偶の真偽は一致します。",
+          "4の倍数なら偶数 ⇔ 偶数でないなら4の倍数でない",
+          "逆「qならp」と対偶を区別しよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "reasoning-logic-1",
+          "stage": "guided",
+          "text": "「4の倍数なら偶数」の条件は？",
+          "hint": "ならばの前。",
+          "explanation": "条件pは4の倍数であることです。",
+          "correctChoiceId": "reasoning-logic-1-3",
+          "choices": [
+            {
+              "text": "偶数である",
+              "feedback": "途中式を見直そう。ならばの前。",
+              "id": "reasoning-logic-1-0"
+            },
+            {
+              "text": "奇数である",
+              "feedback": "途中式を見直そう。ならばの前。",
+              "id": "reasoning-logic-1-1"
+            },
+            {
+              "text": "4でない",
+              "feedback": "途中式を見直そう。ならばの前。",
+              "id": "reasoning-logic-1-2"
+            },
+            {
+              "text": "4の倍数である",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-logic-1-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-logic-2",
+          "stage": "guided",
+          "text": "「4の倍数なら偶数」の逆は？",
+          "hint": "前後を入れ替える。",
+          "explanation": "pならqの逆はqならpです。",
+          "correctChoiceId": "reasoning-logic-2-2",
+          "choices": [
+            {
+              "text": "4の倍数でないなら奇数",
+              "feedback": "途中式を見直そう。前後を入れ替える。",
+              "id": "reasoning-logic-2-0"
+            },
+            {
+              "text": "偶数でないなら4の倍数",
+              "feedback": "途中式を見直そう。前後を入れ替える。",
+              "id": "reasoning-logic-2-1"
+            },
+            {
+              "text": "偶数なら4の倍数",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-logic-2-2"
+            },
+            {
+              "text": "奇数なら4の倍数でない",
+              "feedback": "途中式を見直そう。前後を入れ替える。",
+              "id": "reasoning-logic-2-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-logic-3",
+          "stage": "practice",
+          "text": "「偶数なら4の倍数」を否定する整数は？",
+          "hint": "偶数だが4で割り切れない数。",
+          "explanation": "6は偶数ですが4の倍数ではありません。",
+          "correctChoiceId": "reasoning-logic-3-1",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。偶数だが4で割り切れない数。",
+              "id": "reasoning-logic-3-0"
+            },
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-logic-3-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。偶数だが4で割り切れない数。",
+              "id": "reasoning-logic-3-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。偶数だが4で割り切れない数。",
+              "id": "reasoning-logic-3-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-logic-4",
+          "stage": "practice",
+          "text": "「pならばq」の対偶は？",
+          "hint": "前後を入れ替えて両方を否定。",
+          "explanation": "対偶は元の命題と真偽が一致します。",
+          "correctChoiceId": "reasoning-logic-4-0",
+          "choices": [
+            {
+              "text": "qでないならpでない",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-logic-4-0"
+            },
+            {
+              "text": "qならばp",
+              "feedback": "途中式を見直そう。前後を入れ替えて両方を否定。",
+              "id": "reasoning-logic-4-1"
+            },
+            {
+              "text": "pでないならqでない",
+              "feedback": "途中式を見直そう。前後を入れ替えて両方を否定。",
+              "id": "reasoning-logic-4-2"
+            },
+            {
+              "text": "pならばqでない",
+              "feedback": "途中式を見直そう。前後を入れ替えて両方を否定。",
+              "id": "reasoning-logic-4-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-logic-5",
+          "stage": "practice",
+          "text": "整数nで「nが6の倍数ならnは3の倍数」は？",
+          "hint": "整数倍で表す。",
+          "explanation": "2kも整数なので3の倍数です。",
+          "correctChoiceId": "reasoning-logic-5-3",
+          "choices": [
+            {
+              "text": "偽。6は3で割れない",
+              "feedback": "途中式を見直そう。整数倍で表す。",
+              "id": "reasoning-logic-5-0"
+            },
+            {
+              "text": "真。例を1個調べれば十分",
+              "feedback": "途中式を見直そう。整数倍で表す。",
+              "id": "reasoning-logic-5-1"
+            },
+            {
+              "text": "偽。すべての偶数は3の倍数ではない",
+              "feedback": "途中式を見直そう。整数倍で表す。",
+              "id": "reasoning-logic-5-2"
+            },
+            {
+              "text": "真。n=6k=3(2k)と書ける",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-logic-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locus",
+      "title": "軌跡は条件を満たす点の集まり",
+      "referencePages": [
+        57,
+        60
+      ],
+      "steps": [
+        [
+          "動く点を座標で置く",
+          "条件を満たす点Pが動ける場所全体を軌跡と呼びます。まずP(x,y)と置きます。",
+          "原点から距離2 → √(x²+y²)=2",
+          "距離の公式で条件を式にします。"
+        ],
+        [
+          "式が示す図形を読む",
+          "2乗してx²+y²=4なら、中心が原点、半径2の円です。",
+          "原点から距離2 ⇔ x²+y²=4",
+          "式から元の条件が確かに成り立つことも確認します。"
+        ],
+        [
+          "領域は不等式で表す",
+          "円の内側は中心からの距離が半径より小さい点。境界を含むかで記号が変わります。",
+          "x²+y²<4：内側のみ ／ x²+y²≤4：円周も含む",
+          "直線y=xより上ならy>x。点を一つ代入すると側を確かめられます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "reasoning-locus-1",
+          "stage": "guided",
+          "text": "原点から距離3の点P(x,y)の条件は？",
+          "hint": "距離を2乗。",
+          "explanation": "√(x²+y²)=3を2乗します。",
+          "correctChoiceId": "reasoning-locus-1-2",
+          "choices": [
+            {
+              "text": "x²+y²=3",
+              "feedback": "途中式を見直そう。距離を2乗。",
+              "id": "reasoning-locus-1-0"
+            },
+            {
+              "text": "x²−y²=9",
+              "feedback": "途中式を見直そう。距離を2乗。",
+              "id": "reasoning-locus-1-1"
+            },
+            {
+              "text": "x²+y²=9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-locus-1-2"
+            },
+            {
+              "text": "x+y=3",
+              "feedback": "途中式を見直そう。距離を2乗。",
+              "id": "reasoning-locus-1-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-locus-2",
+          "stage": "guided",
+          "text": "x²+y²=9はどんな図形？",
+          "hint": "円の式と比べる。",
+          "explanation": "半径の2乗が9なので半径3。",
+          "correctChoiceId": "reasoning-locus-2-1",
+          "choices": [
+            {
+              "text": "放物線",
+              "feedback": "途中式を見直そう。円の式と比べる。",
+              "id": "reasoning-locus-2-0"
+            },
+            {
+              "text": "原点中心、半径3の円",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-locus-2-1"
+            },
+            {
+              "text": "半径9の円",
+              "feedback": "途中式を見直そう。円の式と比べる。",
+              "id": "reasoning-locus-2-2"
+            },
+            {
+              "text": "直線",
+              "feedback": "途中式を見直そう。円の式と比べる。",
+              "id": "reasoning-locus-2-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-locus-3",
+          "stage": "practice",
+          "text": "x²+y²<1に入る点は？",
+          "hint": "左辺が1未満か確認。",
+          "explanation": "0²+0²=0<1。",
+          "correctChoiceId": "reasoning-locus-3-0",
+          "choices": [
+            {
+              "text": "(0,0)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-locus-3-0"
+            },
+            {
+              "text": "(1,0)",
+              "feedback": "途中式を見直そう。左辺が1未満か確認。",
+              "id": "reasoning-locus-3-1"
+            },
+            {
+              "text": "(0,1)",
+              "feedback": "途中式を見直そう。左辺が1未満か確認。",
+              "id": "reasoning-locus-3-2"
+            },
+            {
+              "text": "(1,1)",
+              "feedback": "途中式を見直そう。左辺が1未満か確認。",
+              "id": "reasoning-locus-3-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-locus-4",
+          "stage": "practice",
+          "text": "y>xに含まれる点は？",
+          "hint": "縦座標が横より大きい。",
+          "explanation": "2>1なので含まれます。",
+          "correctChoiceId": "reasoning-locus-4-3",
+          "choices": [
+            {
+              "text": "(2,1)",
+              "feedback": "途中式を見直そう。縦座標が横より大きい。",
+              "id": "reasoning-locus-4-0"
+            },
+            {
+              "text": "(1,1)",
+              "feedback": "途中式を見直そう。縦座標が横より大きい。",
+              "id": "reasoning-locus-4-1"
+            },
+            {
+              "text": "(0,−1)",
+              "feedback": "途中式を見直そう。縦座標が横より大きい。",
+              "id": "reasoning-locus-4-2"
+            },
+            {
+              "text": "(1,2)",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-locus-4-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-locus-5",
+          "stage": "practice",
+          "text": "A(−1,0)、B(1,0)から等距離の点Pの軌跡は？",
+          "hint": "距離の2乗を等しく置く。",
+          "explanation": "(x+1)²+y²=(x−1)²+y²より4x=0。逆にx=0なら等距離です。",
+          "correctChoiceId": "reasoning-locus-5-2",
+          "choices": [
+            {
+              "text": "x=1",
+              "feedback": "途中式を見直そう。距離の2乗を等しく置く。",
+              "id": "reasoning-locus-5-0"
+            },
+            {
+              "text": "x²+y²=1",
+              "feedback": "途中式を見直そう。距離の2乗を等しく置く。",
+              "id": "reasoning-locus-5-1"
+            },
+            {
+              "text": "x=0",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-locus-5-2"
+            },
+            {
+              "text": "y=0",
+              "feedback": "途中式を見直そう。距離の2乗を等しく置く。",
+              "id": "reasoning-locus-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "induction",
+      "title": "漸化式と数学的帰納法",
+      "referencePages": [
+        131,
+        136
+      ],
+      "steps": [
+        [
+          "前の項から次の項へ",
+          "隣り合う項の関係を表す式が漸化式です。最初の値と組にして順に決まります。",
+          "a₁=2、aₙ₊₁=aₙ+3 → 2,5,8,11,…",
+          "aₙ₊₁は次の項。等差数列ならaₙ=2+3(n−1)。"
+        ],
+        [
+          "すべての自然数で示す",
+          "数学的帰納法では、最初が成り立つことと、ある段が成り立てば次も成り立つことを示します。",
+          "①n=1を確認 ②n=kで成り立つと仮定しn=k+1を示す",
+          "①だけ、②だけでは足りません。両方で1,2,3,…へつながります。"
+        ],
+        [
+          "和の式を証明する例",
+          "1+…+k=k(k+1)/2と仮定して、次の項k+1を足します。",
+          "k(k+1)/2+(k+1)=(k+1)(k+2)/2",
+          "これはn=k+1の式。n=1の確認と合わせて、すべての自然数で成り立ちます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "reasoning-induction-1",
+          "stage": "guided",
+          "text": "a₁=2、aₙ₊₁=aₙ+3。a₂は？",
+          "hint": "a₁に3を足す。",
+          "explanation": "2+3=5。",
+          "correctChoiceId": "reasoning-induction-1-1",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。a₁に3を足す。",
+              "id": "reasoning-induction-1-0"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-induction-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。a₁に3を足す。",
+              "id": "reasoning-induction-1-2"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。a₁に3を足す。",
+              "id": "reasoning-induction-1-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-induction-2",
+          "stage": "guided",
+          "text": "a₁=2、aₙ₊₁=aₙ+3。a₃は？",
+          "hint": "a₂=5に3を足す。",
+          "explanation": "5+3=8。",
+          "correctChoiceId": "reasoning-induction-2-0",
+          "choices": [
+            {
+              "text": "8",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-induction-2-0"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。a₂=5に3を足す。",
+              "id": "reasoning-induction-2-1"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。a₂=5に3を足す。",
+              "id": "reasoning-induction-2-2"
+            },
+            {
+              "text": "11",
+              "feedback": "途中式を見直そう。a₂=5に3を足す。",
+              "id": "reasoning-induction-2-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-induction-3",
+          "stage": "practice",
+          "text": "a₁=1、aₙ₊₁=2aₙ+1。a₃は？",
+          "hint": "a₂を先に求める。",
+          "explanation": "a₂=3、a₃=2×3+1=7。",
+          "correctChoiceId": "reasoning-induction-3-3",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。a₂を先に求める。",
+              "id": "reasoning-induction-3-0"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。a₂を先に求める。",
+              "id": "reasoning-induction-3-1"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。a₂を先に求める。",
+              "id": "reasoning-induction-3-2"
+            },
+            {
+              "text": "7",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-induction-3-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-induction-4",
+          "stage": "practice",
+          "text": "帰納法でn=kの成立を仮定した後に示すのは？",
+          "hint": "次の段へのつながり。",
+          "explanation": "最初の成立と、このつながりが必要です。",
+          "correctChoiceId": "reasoning-induction-4-2",
+          "choices": [
+            {
+              "text": "n=kをもう一度仮定",
+              "feedback": "途中式を見直そう。次の段へのつながり。",
+              "id": "reasoning-induction-4-0"
+            },
+            {
+              "text": "結論は確認不要",
+              "feedback": "途中式を見直そう。次の段へのつながり。",
+              "id": "reasoning-induction-4-1"
+            },
+            {
+              "text": "n=k+1での成立",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-induction-4-2"
+            },
+            {
+              "text": "n=1だけ",
+              "feedback": "途中式を見直そう。次の段へのつながり。",
+              "id": "reasoning-induction-4-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-induction-5",
+          "stage": "practice",
+          "text": "1+…+k=k(k+1)/2から次の和を作るとき足すのは？",
+          "hint": "次の1項。",
+          "explanation": "第k+1項を足すのでk+1。",
+          "correctChoiceId": "reasoning-induction-5-1",
+          "choices": [
+            {
+              "text": "(k+1)²",
+              "feedback": "途中式を見直そう。次の1項。",
+              "id": "reasoning-induction-5-0"
+            },
+            {
+              "text": "k+1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-induction-5-1"
+            },
+            {
+              "text": "k",
+              "feedback": "途中式を見直そう。次の1項。",
+              "id": "reasoning-induction-5-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。次の1項。",
+              "id": "reasoning-induction-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "条件整理と余りの規則",
+      "referencePages": [
+        172,
+        175
+      ],
+      "steps": [
+        [
+          "個数と合計を別々に表す",
+          "文章の条件を一度に考えず、それぞれ式にします。",
+          "10円玉x枚、50円玉y枚が計5枚で130円 → x+y=5、10x+50y=130",
+          "枚数は0以上の整数。答えが出たら元の条件に戻して確認します。"
+        ],
+        [
+          "余りだけを追う",
+          "7で割ると2余る数の2乗は、7で割ると4余ります。7の倍数の部分は余りに影響しません。",
+          "(7k+2)²=7(7k²+4k)+4",
+          "この考えで大きな累乗も小さな余りで計算できます。"
+        ],
+        [
+          "繰り返しを見つける",
+          "2の累乗を7で割った余りは2,4,1,2,4,1,…と繰り返します。",
+          "2¹→2、2²→4、2³→1、2⁴→2",
+          "指数を3で割った余りで位置を判定。3の倍数なら余り1です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "reasoning-rules-1",
+          "stage": "guided",
+          "text": "10円玉x枚と50円玉y枚が計5枚。枚数の式は？",
+          "hint": "金額ではなく枚数。",
+          "explanation": "2種類の枚数の和が5です。",
+          "correctChoiceId": "reasoning-rules-1-0",
+          "choices": [
+            {
+              "text": "x+y=5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-rules-1-0"
+            },
+            {
+              "text": "10x+50y=5",
+              "feedback": "途中式を見直そう。金額ではなく枚数。",
+              "id": "reasoning-rules-1-1"
+            },
+            {
+              "text": "xy=5",
+              "feedback": "途中式を見直そう。金額ではなく枚数。",
+              "id": "reasoning-rules-1-2"
+            },
+            {
+              "text": "x−y=5",
+              "feedback": "途中式を見直そう。金額ではなく枚数。",
+              "id": "reasoning-rules-1-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-rules-2",
+          "stage": "guided",
+          "text": "10円玉と50円玉が計5枚で130円。50円玉は何枚？",
+          "hint": "全部10円なら50円。差80円を40円で割る。",
+          "explanation": "50円玉1枚で40円増えるので80/40=2枚。",
+          "correctChoiceId": "reasoning-rules-2-3",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。全部10円なら50円。差80円を40円で割る。",
+              "id": "reasoning-rules-2-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。全部10円なら50円。差80円を40円で割る。",
+              "id": "reasoning-rules-2-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。全部10円なら50円。差80円を40円で割る。",
+              "id": "reasoning-rules-2-2"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-rules-2-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-rules-3",
+          "stage": "practice",
+          "text": "2⁴を7で割った余りは？",
+          "hint": "16=7×2+2。",
+          "explanation": "余り2です。",
+          "correctChoiceId": "reasoning-rules-3-2",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。16=7×2+2。",
+              "id": "reasoning-rules-3-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。16=7×2+2。",
+              "id": "reasoning-rules-3-1"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-rules-3-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。16=7×2+2。",
+              "id": "reasoning-rules-3-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-rules-4",
+          "stage": "practice",
+          "text": "2⁶を7で割った余りは？",
+          "hint": "64=7×9+1。",
+          "explanation": "指数6は周期3の倍数なので余り1。",
+          "correctChoiceId": "reasoning-rules-4-1",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。64=7×9+1。",
+              "id": "reasoning-rules-4-0"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-rules-4-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。64=7×9+1。",
+              "id": "reasoning-rules-4-2"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。64=7×9+1。",
+              "id": "reasoning-rules-4-3"
+            }
+          ]
+        },
+        {
+          "id": "reasoning-rules-5",
+          "stage": "practice",
+          "text": "2¹⁰を7で割った余りは？",
+          "hint": "指数10=3×3+1。",
+          "explanation": "余りの周期2,4,1の最初に戻るので2。",
+          "correctChoiceId": "reasoning-rules-5-0",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "reasoning-rules-5-0"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。指数10=3×3+1。",
+              "id": "reasoning-rules-5-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。指数10=3×3+1。",
+              "id": "reasoning-rules-5-2"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。指数10=3×3+1。",
+              "id": "reasoning-rules-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

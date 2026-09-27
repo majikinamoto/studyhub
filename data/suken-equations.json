@@ -1,0 +1,732 @@
+{
+  "version": 1,
+  "id": "equations",
+  "title": "方程式と複素数",
+  "phase": "first",
+  "prerequisite": "展開・因数分解と√を先に学ぼう。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "zero",
+      "title": "積が0になる方程式",
+      "referencePages": [
+        29,
+        38
+      ],
+      "steps": [
+        [
+          "方程式の解とは",
+          "式を成り立たせるxの値が解です。両辺に同じ数を足す・引く、0以外の同じ数で割る操作で探します。",
+          "x+3=5 → x=2",
+          "代入して左辺と右辺が等しくなるか確認しよう。"
+        ],
+        [
+          "積が0なら",
+          "2つの数の積が0なら、少なくとも一方は0です。",
+          "(x−2)(x+3)=0 → x−2=0 または x+3=0",
+          "x=2、−3の両方が解になります。"
+        ],
+        [
+          "まず因数分解する",
+          "2次式でも、積の形に直せば同じ考えで解けます。",
+          "x²−5x+6=0 → (x−2)(x−3)=0 → x=2,3",
+          "掛けて6、足して−5になる−2と−3を探します。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-zero-1",
+          "stage": "guided",
+          "text": "(x−4)(x+1)=0。x−4=0から得られる解は？",
+          "hint": "両辺に4を足す。",
+          "explanation": "x−4=0よりx=4。",
+          "correctChoiceId": "equations-zero-1-0",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-zero-1-0"
+            },
+            {
+              "text": "-4",
+              "feedback": "途中式を見直そう。両辺に4を足す。",
+              "id": "equations-zero-1-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。両辺に4を足す。",
+              "id": "equations-zero-1-2"
+            },
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。両辺に4を足す。",
+              "id": "equations-zero-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-zero-2",
+          "stage": "guided",
+          "text": "(x−4)(x+1)=0の解をすべて選ぶ。",
+          "hint": "もう一方の因数も0とする。",
+          "explanation": "x−4=0またはx+1=0なので4と−1。",
+          "correctChoiceId": "equations-zero-2-3",
+          "choices": [
+            {
+              "text": "4だけ",
+              "feedback": "途中式を見直そう。もう一方の因数も0とする。",
+              "id": "equations-zero-2-0"
+            },
+            {
+              "text": "−4と1",
+              "feedback": "途中式を見直そう。もう一方の因数も0とする。",
+              "id": "equations-zero-2-1"
+            },
+            {
+              "text": "4と1",
+              "feedback": "途中式を見直そう。もう一方の因数も0とする。",
+              "id": "equations-zero-2-2"
+            },
+            {
+              "text": "4と−1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-zero-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-zero-3",
+          "stage": "practice",
+          "text": "x²−7x+12=0の解は？",
+          "hint": "積12、和−7。",
+          "explanation": "(x−3)(x−4)=0より3と4。",
+          "correctChoiceId": "equations-zero-3-2",
+          "choices": [
+            {
+              "text": "2と6",
+              "feedback": "途中式を見直そう。積12、和−7。",
+              "id": "equations-zero-3-0"
+            },
+            {
+              "text": "−3と4",
+              "feedback": "途中式を見直そう。積12、和−7。",
+              "id": "equations-zero-3-1"
+            },
+            {
+              "text": "3と4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-zero-3-2"
+            },
+            {
+              "text": "−3と−4",
+              "feedback": "途中式を見直そう。積12、和−7。",
+              "id": "equations-zero-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-zero-4",
+          "stage": "practice",
+          "text": "x²−9=0の解は？",
+          "hint": "平方の差で因数分解。",
+          "explanation": "(x−3)(x+3)=0より±3。",
+          "correctChoiceId": "equations-zero-4-1",
+          "choices": [
+            {
+              "text": "0と3",
+              "feedback": "途中式を見直そう。平方の差で因数分解。",
+              "id": "equations-zero-4-0"
+            },
+            {
+              "text": "3と−3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-zero-4-1"
+            },
+            {
+              "text": "3だけ",
+              "feedback": "途中式を見直そう。平方の差で因数分解。",
+              "id": "equations-zero-4-2"
+            },
+            {
+              "text": "9と−9",
+              "feedback": "途中式を見直そう。平方の差で因数分解。",
+              "id": "equations-zero-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-zero-5",
+          "stage": "practice",
+          "text": "x(x−2)(x+5)=0の解は？",
+          "hint": "3つの因数をそれぞれ0にする。",
+          "explanation": "x=0またはx−2=0またはx+5=0。",
+          "correctChoiceId": "equations-zero-5-0",
+          "choices": [
+            {
+              "text": "0、2、−5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-zero-5-0"
+            },
+            {
+              "text": "2、−5だけ",
+              "feedback": "途中式を見直そう。3つの因数をそれぞれ0にする。",
+              "id": "equations-zero-5-1"
+            },
+            {
+              "text": "0、−2、5",
+              "feedback": "途中式を見直そう。3つの因数をそれぞれ0にする。",
+              "id": "equations-zero-5-2"
+            },
+            {
+              "text": "0、2、5",
+              "feedback": "途中式を見直そう。3つの因数をそれぞれ0にする。",
+              "id": "equations-zero-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complex",
+      "title": "iと複素数の計算",
+      "referencePages": [
+        29,
+        33
+      ],
+      "steps": [
+        [
+          "負の数の平方根を考える",
+          "実数を2乗しても負にはなりません。そこで2乗が−1になる新しい数iを定めます。",
+          "i²=−1",
+          "iは文字のように計算し、i²が出たら−1に置き換えます。"
+        ],
+        [
+          "実数部分とiの部分",
+          "a+biの形が複素数です。同じ種類をまとめます。",
+          "(2+3i)+(4−i)=6+2i",
+          "実数どうし、iの係数どうしを足します。"
+        ],
+        [
+          "掛け算と割り算",
+          "展開してi²を−1にします。分母がa+biならa−biを掛けると実数になります。",
+          "(1+i)(1−i)=1−i²=2 ／ 1/(1+i)=(1−i)/2",
+          "a−biを共役な複素数と呼びます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-complex-1",
+          "stage": "guided",
+          "text": "i²を実数で表すと？",
+          "hint": "iの定義を使う。",
+          "explanation": "i²=−1と定めています。",
+          "correctChoiceId": "equations-complex-1-3",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。iの定義を使う。",
+              "id": "equations-complex-1-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。iの定義を使う。",
+              "id": "equations-complex-1-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。iの定義を使う。",
+              "id": "equations-complex-1-2"
+            },
+            {
+              "text": "-1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-complex-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-complex-2",
+          "stage": "guided",
+          "text": "(2+i)+(3+2i)を計算すると？",
+          "hint": "同じ種類をまとめる。",
+          "explanation": "2+3=5、i+2i=3i。",
+          "correctChoiceId": "equations-complex-2-2",
+          "choices": [
+            {
+              "text": "6+3i",
+              "feedback": "途中式を見直そう。同じ種類をまとめる。",
+              "id": "equations-complex-2-0"
+            },
+            {
+              "text": "5+3",
+              "feedback": "途中式を見直そう。同じ種類をまとめる。",
+              "id": "equations-complex-2-1"
+            },
+            {
+              "text": "5+3i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-complex-2-2"
+            },
+            {
+              "text": "5+2i",
+              "feedback": "途中式を見直そう。同じ種類をまとめる。",
+              "id": "equations-complex-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-complex-3",
+          "stage": "practice",
+          "text": "(3+2i)−(1+5i)は？",
+          "hint": "後ろのかっこの両方を引く。",
+          "explanation": "3−1+(2−5)i=2−3i。",
+          "correctChoiceId": "equations-complex-3-1",
+          "choices": [
+            {
+              "text": "2+3i",
+              "feedback": "途中式を見直そう。後ろのかっこの両方を引く。",
+              "id": "equations-complex-3-0"
+            },
+            {
+              "text": "2−3i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-complex-3-1"
+            },
+            {
+              "text": "2+7i",
+              "feedback": "途中式を見直そう。後ろのかっこの両方を引く。",
+              "id": "equations-complex-3-2"
+            },
+            {
+              "text": "4−3i",
+              "feedback": "途中式を見直そう。後ろのかっこの両方を引く。",
+              "id": "equations-complex-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-complex-4",
+          "stage": "practice",
+          "text": "(2+i)(2−i)は？",
+          "hint": "平方の差とi²=−1。",
+          "explanation": "4−i²=4−(−1)=5。",
+          "correctChoiceId": "equations-complex-4-0",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-complex-4-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。平方の差とi²=−1。",
+              "id": "equations-complex-4-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。平方の差とi²=−1。",
+              "id": "equations-complex-4-2"
+            },
+            {
+              "text": "-5",
+              "feedback": "途中式を見直そう。平方の差とi²=−1。",
+              "id": "equations-complex-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-complex-5",
+          "stage": "practice",
+          "text": "i³は？",
+          "hint": "i³=i²×i。",
+          "explanation": "(−1)×i=−i。",
+          "correctChoiceId": "equations-complex-5-3",
+          "choices": [
+            {
+              "text": "i",
+              "feedback": "途中式を見直そう。i³=i²×i。",
+              "id": "equations-complex-5-0"
+            },
+            {
+              "text": "−1",
+              "feedback": "途中式を見直そう。i³=i²×i。",
+              "id": "equations-complex-5-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。i³=i²×i。",
+              "id": "equations-complex-5-2"
+            },
+            {
+              "text": "−i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-complex-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "formula",
+      "title": "解の公式と判別式",
+      "referencePages": [
+        29,
+        33,
+        44,
+        50
+      ],
+      "steps": [
+        [
+          "因数分解できなくても解ける",
+          "ax²+bx+c=0（a≠0）を平方完成すると、平方根を使った解の公式が得られます。",
+          "x=(−b±√(b²−4ac))/(2a)",
+          "±はプラスとマイナスの両方。分子全体を2aで割ります。"
+        ],
+        [
+          "符号ごと代入する",
+          "x²−4x+1=0ならa=1、b=−4、c=1です。",
+          "x=(4±√12)/2=(4±2√3)/2=2±√3",
+          "bは−4。−bは4、b²は16になります。"
+        ],
+        [
+          "根号の中で解の種類が分かる",
+          "D=b²−4acを判別式といいます。D>0なら異なる実数解2つ、D=0なら実数解1つ（重解）です。",
+          "D<0なら実数解なし。複素数ならx²+1=0にx=±i",
+          "実数解の個数と、複素数まで広げた解を区別しよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-formula-1",
+          "stage": "guided",
+          "text": "x²−6x+2=0の解の公式でbは？",
+          "hint": "xの係数を符号ごと読む。",
+          "explanation": "b=−6です。",
+          "correctChoiceId": "equations-formula-1-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。xの係数を符号ごと読む。",
+              "id": "equations-formula-1-0"
+            },
+            {
+              "text": "-6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-formula-1-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。xの係数を符号ごと読む。",
+              "id": "equations-formula-1-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。xの係数を符号ごと読む。",
+              "id": "equations-formula-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-formula-2",
+          "stage": "guided",
+          "text": "x²−6x+2=0のD=b²−4acは？",
+          "hint": "36−4×1×2。",
+          "explanation": "D=36−8=28。",
+          "correctChoiceId": "equations-formula-2-0",
+          "choices": [
+            {
+              "text": "28",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-formula-2-0"
+            },
+            {
+              "text": "44",
+              "feedback": "途中式を見直そう。36−4×1×2。",
+              "id": "equations-formula-2-1"
+            },
+            {
+              "text": "-44",
+              "feedback": "途中式を見直そう。36−4×1×2。",
+              "id": "equations-formula-2-2"
+            },
+            {
+              "text": "32",
+              "feedback": "途中式を見直そう。36−4×1×2。",
+              "id": "equations-formula-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-formula-3",
+          "stage": "practice",
+          "text": "x²−2x−1=0の解は？",
+          "hint": "(2±√8)/2を簡単にする。",
+          "explanation": "√8=2√2より1±√2。",
+          "correctChoiceId": "equations-formula-3-3",
+          "choices": [
+            {
+              "text": "2±√2",
+              "feedback": "途中式を見直そう。(2±√8)/2を簡単にする。",
+              "id": "equations-formula-3-0"
+            },
+            {
+              "text": "−1±√2",
+              "feedback": "途中式を見直そう。(2±√8)/2を簡単にする。",
+              "id": "equations-formula-3-1"
+            },
+            {
+              "text": "1±2",
+              "feedback": "途中式を見直そう。(2±√8)/2を簡単にする。",
+              "id": "equations-formula-3-2"
+            },
+            {
+              "text": "1±√2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-formula-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-formula-4",
+          "stage": "practice",
+          "text": "x²+2x+1=0の異なる実数解の個数は？",
+          "hint": "D=4−4=0。",
+          "explanation": "(x+1)²=0で解は−1の1つ。",
+          "correctChoiceId": "equations-formula-4-2",
+          "choices": [
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。D=4−4=0。",
+              "id": "equations-formula-4-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。D=4−4=0。",
+              "id": "equations-formula-4-1"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-formula-4-2"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。D=4−4=0。",
+              "id": "equations-formula-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-formula-5",
+          "stage": "practice",
+          "text": "x²+4=0を複素数の範囲で解くと？",
+          "hint": "(2i)²=−4。",
+          "explanation": "x=2iまたは−2i。",
+          "correctChoiceId": "equations-formula-5-1",
+          "choices": [
+            {
+              "text": "実数解が2つ",
+              "feedback": "途中式を見直そう。(2i)²=−4。",
+              "id": "equations-formula-5-0"
+            },
+            {
+              "text": "±2i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-formula-5-1"
+            },
+            {
+              "text": "±2",
+              "feedback": "途中式を見直そう。(2i)²=−4。",
+              "id": "equations-formula-5-2"
+            },
+            {
+              "text": "±4i",
+              "feedback": "途中式を見直そう。(2i)²=−4。",
+              "id": "equations-formula-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remainder",
+      "title": "余りと因数定理",
+      "referencePages": [
+        34,
+        38
+      ],
+      "steps": [
+        [
+          "多項式を割る",
+          "xの式も整数と同じように、割る式×商+余りに分けられます。",
+          "x²+3x+5=(x−1)(x+4)+9",
+          "右辺を展開すると元に戻ります。"
+        ],
+        [
+          "代入すると余りが分かる",
+          "x−aで割ると、x=aを入れたとき積の部分が0になります。",
+          "P(x)=(x−a)Q(x)+r → P(a)=r",
+          "P(x)はxの多項式につけた名前。P(a)はxをaに置き換えた値です。"
+        ],
+        [
+          "余りが0なら因数",
+          "P(a)=0なら余りなしで割れるので、x−aが因数になります。",
+          "P(2)=0 → P(x)はx−2で割り切れる",
+          "x+2で割る場合はa=−2。符号に注意しよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-remainder-1",
+          "stage": "guided",
+          "text": "P(x)=x²+3x+5をx−1で割った余りはP(何)？",
+          "hint": "x−1=0となる値。",
+          "explanation": "x=1を代入します。",
+          "correctChoiceId": "equations-remainder-1-2",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。x−1=0となる値。",
+              "id": "equations-remainder-1-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。x−1=0となる値。",
+              "id": "equations-remainder-1-1"
+            },
+            {
+              "text": "1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-remainder-1-2"
+            },
+            {
+              "text": "-1",
+              "feedback": "途中式を見直そう。x−1=0となる値。",
+              "id": "equations-remainder-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-remainder-2",
+          "stage": "guided",
+          "text": "P(x)=x²+3x+5。P(1)は？",
+          "hint": "xをすべて1に置く。",
+          "explanation": "1²+3×1+5=9。",
+          "correctChoiceId": "equations-remainder-2-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。xをすべて1に置く。",
+              "id": "equations-remainder-2-0"
+            },
+            {
+              "text": "9",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-remainder-2-1"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。xをすべて1に置く。",
+              "id": "equations-remainder-2-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。xをすべて1に置く。",
+              "id": "equations-remainder-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-remainder-3",
+          "stage": "practice",
+          "text": "x²+2x+3をx−2で割った余りは？",
+          "hint": "x=2を代入。",
+          "explanation": "2²+2×2+3=11。",
+          "correctChoiceId": "equations-remainder-3-0",
+          "choices": [
+            {
+              "text": "11",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-remainder-3-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。x=2を代入。",
+              "id": "equations-remainder-3-1"
+            },
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。x=2を代入。",
+              "id": "equations-remainder-3-2"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。x=2を代入。",
+              "id": "equations-remainder-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-remainder-4",
+          "stage": "practice",
+          "text": "x³+2x+1をx+1で割った余りは？",
+          "hint": "x=−1を代入。",
+          "explanation": "(−1)³+2(−1)+1=−2。",
+          "correctChoiceId": "equations-remainder-4-3",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。x=−1を代入。",
+              "id": "equations-remainder-4-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。x=−1を代入。",
+              "id": "equations-remainder-4-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。x=−1を代入。",
+              "id": "equations-remainder-4-2"
+            },
+            {
+              "text": "-2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-remainder-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-remainder-5",
+          "stage": "practice",
+          "text": "P(3)=0のとき、必ずP(x)の因数になる式は？",
+          "hint": "代入で0になる一次式。",
+          "explanation": "因数定理よりx−3で割り切れます。",
+          "correctChoiceId": "equations-remainder-5-2",
+          "choices": [
+            {
+              "text": "x²−3",
+              "feedback": "途中式を見直そう。代入で0になる一次式。",
+              "id": "equations-remainder-5-0"
+            },
+            {
+              "text": "3x+1",
+              "feedback": "途中式を見直そう。代入で0になる一次式。",
+              "id": "equations-remainder-5-1"
+            },
+            {
+              "text": "x−3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-remainder-5-2"
+            },
+            {
+              "text": "x+3",
+              "feedback": "途中式を見直そう。代入で0になる一次式。",
+              "id": "equations-remainder-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

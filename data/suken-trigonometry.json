@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "id": "trigonometry",
+  "title": "三角比と三角関数",
+  "phase": "first",
+  "prerequisite": "分数、√、三平方の定理。角度と辺の対応から始めます。",
+  "note": "提供写真を参考に、未習の基礎から補うオリジナル教材です。掲載問題の転載や、本番問題の再現ではありません。",
+  "lessons": [
+    {
+      "id": "ratio",
+      "title": "sin・cos・tanは辺の比",
+      "referencePages": [
+        62,
+        66
+      ],
+      "steps": [
+        [
+          "基準の角を決める",
+          "直角三角形で、直角以外の角θ（シータ）を一つ決めます。直角の向かいが斜辺、θの向かいが対辺、残りが隣辺です。",
+          "斜辺5、対辺3、隣辺4の三角形を考えます。",
+          "三角形を拡大しても、同じ角の辺の比は変わりません。"
+        ],
+        [
+          "3つの比に名前を付ける",
+          "sinはサイン、cosはコサイン、tanはタンジェントと読みます。",
+          "sinθ=対辺/斜辺=3/5、cosθ=隣辺/斜辺=4/5、tanθ=対辺/隣辺=3/4",
+          "何で割るかが違います。基準の角が変われば対辺と隣辺も変わります。"
+        ],
+        [
+          "比から長さに戻す",
+          "比が分かれば、分母にある辺を掛けることで長さが分かります。",
+          "対辺=斜辺×sinθ ／ 斜辺10、sinθ=3/5なら対辺6",
+          "三平方の定理からsin²θ+cos²θ=1も成り立ちます。sin²θは(sinθ)²の意味です。"
+        ]
+      ],
+      "diagram": {
+        "step": 0,
+        "file": "triangle.svg",
+        "alt": "基準の角θに対して斜辺5、対辺3、隣辺4の直角三角形。",
+        "caption": "基準の角θに対して斜辺5、対辺3、隣辺4の直角三角形。"
+      },
+      "questions": [
+        {
+          "id": "trigonometry-ratio-1",
+          "stage": "guided",
+          "text": "斜辺13、θの対辺5、隣辺12。sinθの分母は？",
+          "hint": "sinは対辺÷斜辺。",
+          "explanation": "分母は斜辺13です。",
+          "correctChoiceId": "trigonometry-ratio-1-0",
+          "choices": [
+            {
+              "text": "13",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-ratio-1-0"
+            },
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。sinは対辺÷斜辺。",
+              "id": "trigonometry-ratio-1-1"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。sinは対辺÷斜辺。",
+              "id": "trigonometry-ratio-1-2"
+            },
+            {
+              "text": "17",
+              "feedback": "途中式を見直そう。sinは対辺÷斜辺。",
+              "id": "trigonometry-ratio-1-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-ratio-2",
+          "stage": "guided",
+          "text": "斜辺13、対辺5、隣辺12。cosθは？",
+          "hint": "cosは隣辺÷斜辺。",
+          "explanation": "12÷13=12/13。",
+          "correctChoiceId": "trigonometry-ratio-2-3",
+          "choices": [
+            {
+              "text": "5/13",
+              "feedback": "途中式を見直そう。cosは隣辺÷斜辺。",
+              "id": "trigonometry-ratio-2-0"
+            },
+            {
+              "text": "5/12",
+              "feedback": "途中式を見直そう。cosは隣辺÷斜辺。",
+              "id": "trigonometry-ratio-2-1"
+            },
+            {
+              "text": "13/12",
+              "feedback": "途中式を見直そう。cosは隣辺÷斜辺。",
+              "id": "trigonometry-ratio-2-2"
+            },
+            {
+              "text": "12/13",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-ratio-2-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-ratio-3",
+          "stage": "practice",
+          "text": "斜辺10、対辺6、隣辺8。sinθは？",
+          "hint": "6/10を約分。",
+          "explanation": "6/10=3/5。",
+          "correctChoiceId": "trigonometry-ratio-3-2",
+          "choices": [
+            {
+              "text": "3/4",
+              "feedback": "途中式を見直そう。6/10を約分。",
+              "id": "trigonometry-ratio-3-0"
+            },
+            {
+              "text": "5/3",
+              "feedback": "途中式を見直そう。6/10を約分。",
+              "id": "trigonometry-ratio-3-1"
+            },
+            {
+              "text": "3/5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-ratio-3-2"
+            },
+            {
+              "text": "4/5",
+              "feedback": "途中式を見直そう。6/10を約分。",
+              "id": "trigonometry-ratio-3-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-ratio-4",
+          "stage": "practice",
+          "text": "対辺8、隣辺15、斜辺17。tanθは？",
+          "hint": "tanは対辺÷隣辺。",
+          "explanation": "8÷15=8/15。",
+          "correctChoiceId": "trigonometry-ratio-4-1",
+          "choices": [
+            {
+              "text": "15/8",
+              "feedback": "途中式を見直そう。tanは対辺÷隣辺。",
+              "id": "trigonometry-ratio-4-0"
+            },
+            {
+              "text": "8/15",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-ratio-4-1"
+            },
+            {
+              "text": "8/17",
+              "feedback": "途中式を見直そう。tanは対辺÷隣辺。",
+              "id": "trigonometry-ratio-4-2"
+            },
+            {
+              "text": "15/17",
+              "feedback": "途中式を見直そう。tanは対辺÷隣辺。",
+              "id": "trigonometry-ratio-4-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-ratio-5",
+          "stage": "practice",
+          "text": "斜辺20、sinθ=3/5の直角三角形。対辺の長さは？",
+          "hint": "20に3/5を掛ける。",
+          "explanation": "20×3/5=12。",
+          "correctChoiceId": "trigonometry-ratio-5-0",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-ratio-5-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。20に3/5を掛ける。",
+              "id": "trigonometry-ratio-5-1"
+            },
+            {
+              "text": "15",
+              "feedback": "途中式を見直そう。20に3/5を掛ける。",
+              "id": "trigonometry-ratio-5-2"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。20に3/5を掛ける。",
+              "id": "trigonometry-ratio-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "angles",
+      "title": "特別な角と弧度法",
+      "referencePages": [
+        62,
+        82
+      ],
+      "steps": [
+        [
+          "45度と30度",
+          "直角二等辺三角形の辺の比は1:1:√2。正三角形を半分にすると30度の向かいの辺は斜辺の半分です。",
+          "sin45°=cos45°=√2/2、sin30°=1/2、cos30°=√3/2",
+          "tan45°=1、sin60°=√3/2、cos60°=1/2も図形の辺の比から求まります。"
+        ],
+        [
+          "半径1の円に広げる",
+          "原点から右向きを0度、反時計回りを正とします。半径1の円上の点のx座標をcosθ、y座標をsinθとします。",
+          "90°では(0,1)、180°では(−1,0)",
+          "直角三角形で決めた比を、もっと広い角度にも使える定義です。"
+        ],
+        [
+          "弧の長さで角を測る",
+          "半径1の円で、弧の長さと同じ数で角を表すのが弧度法。単位はラジアンです。πは円周率です。",
+          "180°=πラジアン、90°=π/2、60°=π/3",
+          "度からラジアンへはπ/180を掛けます。sin(π/2)=sin90°=1。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "trigonometry-angles-1",
+          "stage": "guided",
+          "text": "180°をラジアンで表すと？",
+          "hint": "半周の弧の長さ。",
+          "explanation": "半径1の円周は2πなので半周はπ。",
+          "correctChoiceId": "trigonometry-angles-1-3",
+          "choices": [
+            {
+              "text": "2π",
+              "feedback": "途中式を見直そう。半周の弧の長さ。",
+              "id": "trigonometry-angles-1-0"
+            },
+            {
+              "text": "π/2",
+              "feedback": "途中式を見直そう。半周の弧の長さ。",
+              "id": "trigonometry-angles-1-1"
+            },
+            {
+              "text": "180π",
+              "feedback": "途中式を見直そう。半周の弧の長さ。",
+              "id": "trigonometry-angles-1-2"
+            },
+            {
+              "text": "π",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-angles-1-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-angles-2",
+          "stage": "guided",
+          "text": "90°をラジアンで表すと？",
+          "hint": "180°の半分。",
+          "explanation": "π÷2=π/2。",
+          "correctChoiceId": "trigonometry-angles-2-2",
+          "choices": [
+            {
+              "text": "2π",
+              "feedback": "途中式を見直そう。180°の半分。",
+              "id": "trigonometry-angles-2-0"
+            },
+            {
+              "text": "π/4",
+              "feedback": "途中式を見直そう。180°の半分。",
+              "id": "trigonometry-angles-2-1"
+            },
+            {
+              "text": "π/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-angles-2-2"
+            },
+            {
+              "text": "π",
+              "feedback": "途中式を見直そう。180°の半分。",
+              "id": "trigonometry-angles-2-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-angles-3",
+          "stage": "practice",
+          "text": "sin30°は？",
+          "hint": "正三角形を半分にする。",
+          "explanation": "30°の対辺は斜辺の半分。",
+          "correctChoiceId": "trigonometry-angles-3-1",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。正三角形を半分にする。",
+              "id": "trigonometry-angles-3-0"
+            },
+            {
+              "text": "1/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-angles-3-1"
+            },
+            {
+              "text": "√3/2",
+              "feedback": "途中式を見直そう。正三角形を半分にする。",
+              "id": "trigonometry-angles-3-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。正三角形を半分にする。",
+              "id": "trigonometry-angles-3-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-angles-4",
+          "stage": "practice",
+          "text": "cos180°は？",
+          "hint": "単位円の左端のx座標。",
+          "explanation": "左端は(−1,0)なのでcos180°=−1。",
+          "correctChoiceId": "trigonometry-angles-4-0",
+          "choices": [
+            {
+              "text": "-1",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-angles-4-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。単位円の左端のx座標。",
+              "id": "trigonometry-angles-4-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。単位円の左端のx座標。",
+              "id": "trigonometry-angles-4-2"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。単位円の左端のx座標。",
+              "id": "trigonometry-angles-4-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-angles-5",
+          "stage": "practice",
+          "text": "60°をラジアンで表すと？",
+          "hint": "180°の3分の1。",
+          "explanation": "60×π/180=π/3。",
+          "correctChoiceId": "trigonometry-angles-5-3",
+          "choices": [
+            {
+              "text": "π/6",
+              "feedback": "途中式を見直そう。180°の3分の1。",
+              "id": "trigonometry-angles-5-0"
+            },
+            {
+              "text": "3π",
+              "feedback": "途中式を見直そう。180°の3分の1。",
+              "id": "trigonometry-angles-5-1"
+            },
+            {
+              "text": "2π/3",
+              "feedback": "途中式を見直そう。180°の3分の1。",
+              "id": "trigonometry-angles-5-2"
+            },
+            {
+              "text": "π/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-angles-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triangle",
+      "title": "三角形の面積と余弦定理",
+      "referencePages": [
+        67,
+        74
+      ],
+      "steps": [
+        [
+          "高さをsinで求める",
+          "2辺b,cとその間の角Aが分かると、高さはc sinAです。底辺×高さ÷2を使います。",
+          "面積S=(1/2)bc sinA",
+          "間の角であることが大切。sin30°=1/2、sin90°=1です。"
+        ],
+        [
+          "余弦定理",
+          "角Aの向かいの辺をa、角を挟む2辺をb,cとすると、3辺と角を結びつけられます。",
+          "a²=b²+c²−2bc cosA",
+          "cos90°=0なら三平方の定理になります。cos60°=1/2です。"
+        ],
+        [
+          "平方根を忘れずに",
+          "余弦定理で出るのはa²。辺の長さaにするには正の平方根を取ります。",
+          "b=3、c=5、A=60° → a²=9+25−15=19 → a=√19",
+          "正弦定理a/sinA=b/sinB=c/sinCも、向かい合う辺と角を結ぶ公式です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "trigonometry-triangle-1",
+          "stage": "guided",
+          "text": "b=4、c=6、間の角30°。面積の式は？",
+          "hint": "sin30°=1/2。",
+          "explanation": "底辺4、高さ6×1/2、その積を2で割ります。",
+          "correctChoiceId": "trigonometry-triangle-1-2",
+          "choices": [
+            {
+              "text": "4×6÷(1/2)",
+              "feedback": "途中式を見直そう。sin30°=1/2。",
+              "id": "trigonometry-triangle-1-0"
+            },
+            {
+              "text": "4+6+1/2",
+              "feedback": "途中式を見直そう。sin30°=1/2。",
+              "id": "trigonometry-triangle-1-1"
+            },
+            {
+              "text": "4×6×(1/2)÷2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-triangle-1-2"
+            },
+            {
+              "text": "4×6×2",
+              "feedback": "途中式を見直そう。sin30°=1/2。",
+              "id": "trigonometry-triangle-1-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-triangle-2",
+          "stage": "guided",
+          "text": "b=4、c=6、間の角30°。面積は？",
+          "hint": "24×1/2÷2。",
+          "explanation": "24÷2÷2=6。",
+          "correctChoiceId": "trigonometry-triangle-2-1",
+          "choices": [
+            {
+              "text": "48",
+              "feedback": "途中式を見直そう。24×1/2÷2。",
+              "id": "trigonometry-triangle-2-0"
+            },
+            {
+              "text": "6",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-triangle-2-1"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。24×1/2÷2。",
+              "id": "trigonometry-triangle-2-2"
+            },
+            {
+              "text": "24",
+              "feedback": "途中式を見直そう。24×1/2÷2。",
+              "id": "trigonometry-triangle-2-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-triangle-3",
+          "stage": "practice",
+          "text": "2辺6と8、間の角90°の三角形の面積は？",
+          "hint": "sin90°=1。",
+          "explanation": "6×8÷2=24。",
+          "correctChoiceId": "trigonometry-triangle-3-0",
+          "choices": [
+            {
+              "text": "24",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-triangle-3-0"
+            },
+            {
+              "text": "48",
+              "feedback": "途中式を見直そう。sin90°=1。",
+              "id": "trigonometry-triangle-3-1"
+            },
+            {
+              "text": "14",
+              "feedback": "途中式を見直そう。sin90°=1。",
+              "id": "trigonometry-triangle-3-2"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。sin90°=1。",
+              "id": "trigonometry-triangle-3-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-triangle-4",
+          "stage": "practice",
+          "text": "2辺3と4、間の角90°。向かいの辺は？",
+          "hint": "余弦の項は0。",
+          "explanation": "a²=9+16=25、a=5。",
+          "correctChoiceId": "trigonometry-triangle-4-3",
+          "choices": [
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。余弦の項は0。",
+              "id": "trigonometry-triangle-4-0"
+            },
+            {
+              "text": "25",
+              "feedback": "途中式を見直そう。余弦の項は0。",
+              "id": "trigonometry-triangle-4-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。余弦の項は0。",
+              "id": "trigonometry-triangle-4-2"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-triangle-4-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-triangle-5",
+          "stage": "practice",
+          "text": "2辺2と3、間の角60°。向かいの辺の2乗は？",
+          "hint": "cos60°=1/2。",
+          "explanation": "a²=4+9−2×2×3×1/2=7。",
+          "correctChoiceId": "trigonometry-triangle-5-2",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。cos60°=1/2。",
+              "id": "trigonometry-triangle-5-0"
+            },
+            {
+              "text": "19",
+              "feedback": "途中式を見直そう。cos60°=1/2。",
+              "id": "trigonometry-triangle-5-1"
+            },
+            {
+              "text": "7",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-triangle-5-2"
+            },
+            {
+              "text": "13",
+              "feedback": "途中式を見直そう。cos60°=1/2。",
+              "id": "trigonometry-triangle-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "addition",
+      "title": "加法定理と2倍角",
+      "referencePages": [
+        75,
+        82
+      ],
+      "steps": [
+        [
+          "角の和を扱う",
+          "sin(α+β)はsinα+sinβではありません。角の和には加法定理を使います。α、βは角を表す文字です。",
+          "sin(α+β)=sinα cosβ+cosα sinβ",
+          "たとえばsin(30°+30°)=√3/2で、1/2+1/2=1とは異なります。"
+        ],
+        [
+          "cosの加法定理",
+          "cosではcosどうしの積からsinどうしの積を引きます。",
+          "cos(α+β)=cosα cosβ−sinα sinβ",
+          "45°と30°ならsin45°=cos45°=√2/2、sin30°=1/2、cos30°=√3/2を代入できます。"
+        ],
+        [
+          "同じ角を足す",
+          "β=α=θとすると、2倍角の公式になります。",
+          "sin2θ=2sinθ cosθ、cos2θ=cos²θ−sin²θ=1−2sin²θ",
+          "sin²θ+cos²θ=1を使って最後の形に直せます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "trigonometry-addition-1",
+          "stage": "guided",
+          "text": "sin(α+β)の公式の最初の項は？",
+          "hint": "片方がsin、片方がcos。",
+          "explanation": "sinα cosβ+cosα sinβです。",
+          "correctChoiceId": "trigonometry-addition-1-1",
+          "choices": [
+            {
+              "text": "sinα+sinβ",
+              "feedback": "途中式を見直そう。片方がsin、片方がcos。",
+              "id": "trigonometry-addition-1-0"
+            },
+            {
+              "text": "sinα cosβ",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-addition-1-1"
+            },
+            {
+              "text": "sinα sinβ",
+              "feedback": "途中式を見直そう。片方がsin、片方がcos。",
+              "id": "trigonometry-addition-1-2"
+            },
+            {
+              "text": "cosα cosβ",
+              "feedback": "途中式を見直そう。片方がsin、片方がcos。",
+              "id": "trigonometry-addition-1-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-addition-2",
+          "stage": "guided",
+          "text": "cos(α+β)の公式の2つの積の間の符号は？",
+          "hint": "cosでは引き算。",
+          "explanation": "cosα cosβ−sinα sinβです。",
+          "correctChoiceId": "trigonometry-addition-2-0",
+          "choices": [
+            {
+              "text": "−",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-addition-2-0"
+            },
+            {
+              "text": "＋",
+              "feedback": "途中式を見直そう。cosでは引き算。",
+              "id": "trigonometry-addition-2-1"
+            },
+            {
+              "text": "×",
+              "feedback": "途中式を見直そう。cosでは引き算。",
+              "id": "trigonometry-addition-2-2"
+            },
+            {
+              "text": "÷",
+              "feedback": "途中式を見直そう。cosでは引き算。",
+              "id": "trigonometry-addition-2-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-addition-3",
+          "stage": "practice",
+          "text": "sinθ=3/5、cosθ=4/5のときsin2θは？",
+          "hint": "2×3/5×4/5。",
+          "explanation": "2×12/25=24/25。",
+          "correctChoiceId": "trigonometry-addition-3-3",
+          "choices": [
+            {
+              "text": "7/5",
+              "feedback": "途中式を見直そう。2×3/5×4/5。",
+              "id": "trigonometry-addition-3-0"
+            },
+            {
+              "text": "12/25",
+              "feedback": "途中式を見直そう。2×3/5×4/5。",
+              "id": "trigonometry-addition-3-1"
+            },
+            {
+              "text": "7/25",
+              "feedback": "途中式を見直そう。2×3/5×4/5。",
+              "id": "trigonometry-addition-3-2"
+            },
+            {
+              "text": "24/25",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-addition-3-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-addition-4",
+          "stage": "practice",
+          "text": "sinθ=3/5、cosθ=4/5のときcos2θは？",
+          "hint": "cos²θ−sin²θ。",
+          "explanation": "16/25−9/25=7/25。",
+          "correctChoiceId": "trigonometry-addition-4-2",
+          "choices": [
+            {
+              "text": "24/25",
+              "feedback": "途中式を見直そう。cos²θ−sin²θ。",
+              "id": "trigonometry-addition-4-0"
+            },
+            {
+              "text": "−7/25",
+              "feedback": "途中式を見直そう。cos²θ−sin²θ。",
+              "id": "trigonometry-addition-4-1"
+            },
+            {
+              "text": "7/25",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-addition-4-2"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。cos²θ−sin²θ。",
+              "id": "trigonometry-addition-4-3"
+            }
+          ]
+        },
+        {
+          "id": "trigonometry-addition-5",
+          "stage": "practice",
+          "text": "sin75°を加法定理で求めると？",
+          "hint": "75°=45°+30°。",
+          "explanation": "(√2/2)(√3/2)+(√2/2)(1/2)=(√6+√2)/4。",
+          "correctChoiceId": "trigonometry-addition-5-1",
+          "choices": [
+            {
+              "text": "√3/2",
+              "feedback": "途中式を見直そう。75°=45°+30°。",
+              "id": "trigonometry-addition-5-0"
+            },
+            {
+              "text": "(√6+√2)/4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "trigonometry-addition-5-1"
+            },
+            {
+              "text": "(√6−√2)/4",
+              "feedback": "途中式を見直そう。75°=45°+30°。",
+              "id": "trigonometry-addition-5-2"
+            },
+            {
+              "text": "(√3+1)/2",
+              "feedback": "途中式を見直そう。75°=45°+30°。",
+              "id": "trigonometry-addition-5-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
