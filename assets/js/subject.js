@@ -60,7 +60,7 @@ try {
           <h3>${chapter.title}</h3>
           <p>${chapter.description}</p>
         </div>
-        ${chapter.available === false
+        ${chapter.available === false && !chapter.learningSections?.length
           ? '<span class="primary-button is-disabled" aria-disabled="true">準備中</span>'
           : `<a class="primary-button" href="./chapter.html?chapter=${encodeURIComponent(chapter.id)}">開く</a>`}
       </article>

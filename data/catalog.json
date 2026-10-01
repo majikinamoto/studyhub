@@ -71,6 +71,10 @@
       "chapters": [
         {
           "id": "chapter-entrance-social-geography",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "地理の重要事項を単元別の4択問題で確認します。" },
+            { "id": "materials", "title": "資料問題", "description": "地図・地図記号、時差・縮尺、気候・統計の読み取りを練習します。" }
+          ],
           "number": "地理",
           "title": "地理",
           "description": "学びたい単元を選んでください。ラジオボタンで選択し、「回答する」を押すと正解と解説が表示されます。",
@@ -78,6 +82,10 @@
         },
         {
           "id": "chapter-entrance-social-history",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "歴史の重要事項を単元別の4択問題で確認します。" },
+            { "id": "materials", "title": "資料問題", "description": "年表の前後関係、人物の業績、時代ごとの文化を確認します。" }
+          ],
           "number": "歴史",
           "title": "歴史",
           "description": "世界の古代文明から現代まで、23単元・403問。ヒントと解説付きの4択問題で学びます。",
@@ -86,6 +94,10 @@
         },
         {
           "id": "chapter-entrance-social-civics",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "人権・政治・経済・国際社会の重要事項を単元別に確認します。" },
+            { "id": "materials", "title": "資料問題", "description": "人口・経済のグラフ、政治制度の図、憲法条文の読み取りを練習します。" }
+          ],
           "number": "公民",
           "title": "公民",
           "description": "社会のしくみや政治・経済を学びます。",

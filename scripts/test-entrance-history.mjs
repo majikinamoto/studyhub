@@ -64,7 +64,19 @@ try {
   await go('pages/subject.html?course=entrance-social-studies');
   await page.locator('#chapter-list .study-card').first().waitFor();
   assert.equal(await page.locator('#chapter-list a[href*="social-history"]').count(),1);
+  assert.equal(await page.locator('#chapter-list a[href*="social-civics"]').count(),1);
+  for (const field of ['geography', 'history', 'civics']) {
+    await go(`pages/chapter.html?chapter=chapter-entrance-social-${field}`);
+    await page.locator('#unit-list a[href*="section=materials"]').waitFor();
+    assert.equal(await page.locator('#unit-list .study-card').count(),2);
+    assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth));
+    await page.locator('#unit-list a[href*="section=materials"]').click();
+    await page.getByRole('heading',{name:'準備中',exact:true}).waitFor();
+    assert.equal(await page.locator('#quiz-form').count(),0);
+  }
+  await go('pages/subject.html?course=entrance-social-studies');
   await page.locator('#chapter-list a[href*="social-history"]').click();
+  await page.locator('#unit-list a[href*="section=recall"]').click();
   await page.locator('.range-panel').waitFor();
   assert.equal(await page.locator('#unit-list .study-card').count(),23);
   await page.locator('.mastery-button').first().click();
