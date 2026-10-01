@@ -39,7 +39,10 @@ try{
    assert(!(await page.locator('#question-hint').getAttribute('open')));
    await page.locator('#question-hint summary').click();
    assert.equal(await page.locator('#hint-text').innerText(),q.hint);
-   for(const img of await page.locator('#question-material img').all())assert(await img.evaluate(el=>el.complete&&el.naturalWidth>0));
+   for(const img of await page.locator('#question-material img').all()){
+    await page.waitForFunction(el=>el.complete&&el.naturalWidth>0,await img.elementHandle());
+    assert(await img.evaluate(el=>el.naturalWidth>0));
+   }
    await page.locator(`input[value="${q.correctChoiceId}"]`).check();
    assert(await page.locator('#result-box').isHidden());
    await page.locator('#quiz-form button[type=submit]').click();
