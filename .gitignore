@@ -1,1 +1,11 @@
 /StudyHub-sports-materials
+
+# Local source attachments used to author questions.
+/.codex-remote-attachments/
+
+# Local preview screenshots.
+/docs/drafts/**/*.png
+/docs/drafts/**/*.jpg
+/docs/drafts/**/*.jpeg
+/docs/drafts/**/*.webp
+/docs/drafts/**/*.gif
