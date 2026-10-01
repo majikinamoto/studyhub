@@ -57,17 +57,18 @@ export async function getCatalog() {
 }
 
 export async function getQuestionStore() {
-  const [existing, geography, physics, history, civics] = await Promise.all([
+  const [existing, geography, physics, history, civics, materials] = await Promise.all([
     fetchJson(new URL("questions.json", DATA_ROOT)),
     fetchJson(new URL("entrance-geography.json", DATA_ROOT)),
     fetchJson(new URL("entrance-physics.json", DATA_ROOT)),
     fetchJson(new URL("entrance-history.json", DATA_ROOT)),
-    fetchJson(new URL("entrance-civics.json", DATA_ROOT))
+    fetchJson(new URL("entrance-civics.json", DATA_ROOT)),
+    fetchJson(new URL("entrance-materials.json", DATA_ROOT))
   ]);
   const questionData = {
     meta: existing.meta,
-    units: [...existing.units, ...geography.units, ...physics.units, ...history.units, ...civics.units],
-    questions: [...existing.questions, ...geography.questions, ...physics.questions, ...history.questions, ...civics.questions]
+    units: [...existing.units, ...geography.units, ...physics.units, ...history.units, ...civics.units, ...materials.units],
+    questions: [...existing.questions, ...geography.questions, ...physics.questions, ...history.questions, ...civics.questions, ...materials.questions]
   };
   return buildQuestionIndex(questionData);
 }

@@ -396,3 +396,16 @@ p {
 .range-panel button:disabled, .mastery-button:disabled { opacity: .5; cursor: default; }
 .range-summary { font-weight: 800; }
 .storage-message:empty { display: none; }
+
+.question-material { margin: 0 0 20px; padding: 14px; border: 1px solid var(--color-border); border-radius: 14px; background: #fff; min-width: 0; }
+.material-title { font-weight: 800; margin-bottom: 12px; }
+.material-table-wrap { overflow-x: auto; margin-top: 10px; }
+.material-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.material-table th, .material-table td { padding: 8px; border: 1px solid var(--color-border); text-align: left; overflow-wrap: anywhere; }
+.material-table thead th { background: #edf5f1; }
+.material-table tbody th { font-weight: 700; }
+.material-chart, .material-image { display: block; width: 100%; height: auto; }
+.material-symbol { display: block; width: 100px; height: 100px; margin: 12px auto; }
+.material-note { font-size: .8rem; color: var(--color-muted); margin: 10px 0 0; }
+.material-flow { display: grid; gap: 10px; padding-left: 24px; margin: 0; }
+.material-flow li { padding: 10px; background: #edf5f1; border-radius: 8px; }

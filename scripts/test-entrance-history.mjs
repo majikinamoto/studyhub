@@ -71,7 +71,7 @@ try {
     assert.equal(await page.locator('#unit-list .study-card').count(),2);
     assert(!await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth));
     await page.locator('#unit-list a[href*="section=materials"]').click();
-    await page.getByRole('heading',{name:'準備中',exact:true}).waitFor();
+    await page.locator('#unit-list .study-card').first().waitFor();
     assert.equal(await page.locator('#quiz-form').count(),0);
   }
   await go('pages/subject.html?course=entrance-social-studies');

@@ -1,6 +1,7 @@
 import { getCatalog, getQuestionStore, getQueryParam } from "./dataService.js";
 
 import { collectSelectedQuestions } from "./rangeSelection.js";
+import { renderQuestionMaterial } from "./questionMaterial.js";
 const selectionParams = new URLSearchParams(window.location.search);
 const isSelection = selectionParams.get("selection") === "1";
 const requestedCount = selectionParams.get("count");
@@ -13,6 +14,7 @@ const questionNumber = document.querySelector("#question-number");
 const quizProgress = document.querySelector("#quiz-progress");
 const randomToggle = document.querySelector("#random-toggle");
 const questionText = document.querySelector("#question-text");
+const questionMaterial = document.querySelector("#question-material");
 const questionHint = document.querySelector("#question-hint");
 const hintText = document.querySelector("#hint-text");
 const quizForm = document.querySelector("#quiz-form");
@@ -70,6 +72,7 @@ function renderQuestion() {
   questionNumber.textContent = `問題 ${currentIndex + 1}`;
   quizProgress.textContent = `${currentIndex + 1} / ${questions.length}`;
   questionText.textContent = question.text;
+  renderQuestionMaterial(questionMaterial, question.material);
   if (questionHint) {
     questionHint.hidden = !question.hint;
     questionHint.open = false;
@@ -115,6 +118,7 @@ function showMissing(message) {
     quizTitle.textContent = "確認問題";
   }
   questionText.textContent = message;
+  renderQuestionMaterial(questionMaterial, null);
   if (questionHint) questionHint.hidden = true;
   quizProgress.textContent = "0 / 0";
   quizForm.innerHTML = "";
@@ -142,6 +146,11 @@ try {
     course = findCourseByChapter(catalog, targetChapterId);
     chapter = course ? findChapter(course, targetChapterId) : null;
     baseQuestions = chapter ? questionStore.questionsByChapter.get(chapter.id) || [] : [];
+    if (chapter?.learningSections) {
+      const section = selectionParams.get("section") || "recall";
+      const unitIds = new Set(questionStore.units.filter(item => item.chapterId === chapter.id && (item.learningSection || "recall") === section).map(item => item.id));
+      baseQuestions = baseQuestions.filter(item => unitIds.has(item.unitId));
+    }
   }
 
   if (!course || (!isSelection && (!chapter || (unitId && !unit)))) {
