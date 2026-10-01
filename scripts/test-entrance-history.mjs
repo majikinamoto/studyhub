@@ -31,7 +31,7 @@ history.units.forEach((unit, i) => {
   }).flat();
   assert.deepEqual(history.questions.filter(q => q.unitId === unit.id).map(q=>q.sourceQuestion), expected);
 });
-const banks = ['questions.json','entrance-geography.json','entrance-physics.json','entrance-history.json'].map(read);
+const banks = ['questions.json','entrance-geography.json','entrance-physics.json','entrance-history.json','entrance-civics.json'].map(read);
 for (const key of ['units','questions']) {
   const ids = banks.flatMap(bank => bank[key].map(item => item.id));
   assert.equal(new Set(ids).size, ids.length, `${key}: IDs must be globally unique`);
