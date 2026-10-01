@@ -201,6 +201,23 @@ p {
   gap: 12px;
 }
 
+.question-hint {
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: var(--color-surface-soft);
+}
+
+.question-hint summary {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.question-hint p {
+  margin-top: 8px;
+}
+
 .choice-card {
   display: grid;
   grid-template-columns: auto 1fr;

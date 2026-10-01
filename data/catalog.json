@@ -67,7 +67,7 @@
       "gradeName": "高校受験",
       "subjectId": "social-studies",
       "subjectName": "社会",
-      "description": "高校入試 一問一答 社会。地理の22単元・278問を学びます。",
+      "description": "高校入試 一問一答 社会。地理22単元・278問と歴史23単元・403問を学びます。",
       "chapters": [
         {
           "id": "chapter-entrance-social-geography",
@@ -80,8 +80,9 @@
           "id": "chapter-entrance-social-history",
           "number": "歴史",
           "title": "歴史",
-          "description": "日本と世界の歴史を学びます。",
-          "available": false
+          "description": "世界の古代文明から現代まで、23単元・403問。ヒントと解説付きの4択問題で学びます。",
+          "available": true,
+          "showUnits": true
         },
         {
           "id": "chapter-entrance-social-civics",

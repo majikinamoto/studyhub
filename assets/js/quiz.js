@@ -13,6 +13,8 @@ const questionNumber = document.querySelector("#question-number");
 const quizProgress = document.querySelector("#quiz-progress");
 const randomToggle = document.querySelector("#random-toggle");
 const questionText = document.querySelector("#question-text");
+const questionHint = document.querySelector("#question-hint");
+const hintText = document.querySelector("#hint-text");
 const quizForm = document.querySelector("#quiz-form");
 const resultBox = document.querySelector("#result-box");
 const resultMessage = document.querySelector("#result-message");
@@ -68,6 +70,11 @@ function renderQuestion() {
   questionNumber.textContent = `問題 ${currentIndex + 1}`;
   quizProgress.textContent = `${currentIndex + 1} / ${questions.length}`;
   questionText.textContent = question.text;
+  if (questionHint) {
+    questionHint.hidden = !question.hint;
+    questionHint.open = false;
+    hintText.textContent = question.hint || "";
+  }
   resultBox.hidden = true;
   nextButton.hidden = true;
 
@@ -108,6 +115,7 @@ function showMissing(message) {
     quizTitle.textContent = "確認問題";
   }
   questionText.textContent = message;
+  if (questionHint) questionHint.hidden = true;
   quizProgress.textContent = "0 / 0";
   quizForm.innerHTML = "";
   resultBox.hidden = true;
