@@ -4,6 +4,24 @@ const data=Object.fromEntries(['numbers','equations','geometry','trigonometry','
 let checked=0;
 function check(topic,unit,n,expected){const q=data[topic].lessons.find(l=>l.id===unit).questions[n-1];const answer=q.choices.find(c=>c.id===q.correctChoiceId).text;assert.equal(answer,String(expected),q.id);checked++;}
 const factorial=n=>n<2?1:n*factorial(n-1);const choose=(n,r)=>factorial(n)/factorial(r)/factorial(n-r);
+// Independently verify the new calculation lessons.
+const divideComplex=([a,b],[c,d])=>[(a*c+b*d)/(c*c+d*d),(b*c-a*d)/(c*c+d*d)];
+assert.deepEqual(divideComplex([1,0],[1,1]),[.5,-.5]);
+assert.deepEqual(divideComplex([3,1],[1,1]),[2,-1]);
+assert.deepEqual(divideComplex([4,2],[1,-1]),[1,3]);
+for(const [n,answer] of [[1,'2−i'],[2,2**2+1],[3,'(1−i)/2'],[4,'2−i'],[5,'1+3i']])check('equations','conjugate',n,answer);
+check('equations','root-relations',1,-5);check('equations','root-relations',2,-(-5)/1);check('equations','root-relations',3,-4/2);
+for(const [n,b,c] of [[4,-4,1],[5,2,-3]])check('equations','root-relations',n,(-b)**2-2*c);
+check('powers','base-change',1,'log₂8/log₂4');check('powers','base-change',2,'3/2');
+assert.equal(Math.log2(8)/Math.log2(4),1.5);check('powers','base-change',3,3**2+2);check('powers','base-change',4,'x>2');
+assert.equal(Math.log2(4)+Math.log2(4-2),3);check('powers','base-change',5,'x=4');
+for(const [n,answer] of [[1,'2, 3'],[2,'正'],[3,'2<x<3'],[4,'x≦2 または x≧3'],[5,'2≦x≦3']])check('geometry','quadratic-sign',n,answer);
+for(const x of [-5,0,2,2.5,3,4,10]){const v=x*x-5*x+6;assert.equal(v<0,x>2&&x<3);assert.equal(v>=0,x<=2||x>=3);assert.equal(-v>=0,x>=2&&x<=3);}
+const average=values=>values.reduce((s,v)=>s+v,0)/values.length;
+const variance=values=>average(values.map(v=>(v-average(values))**2));
+check('probability','variance',1,average([2,4,6]));check('probability','variance',2,(2-average([2,4,6]))**2);
+assert.equal(variance([2,4,6]),8/3);check('probability','variance',3,'8/3');check('probability','variance',4,Math.sqrt(variance([2,6])));
+check('probability','variance',5,Math.round(variance([0,Math.sqrt(12)].map(v=>v*2))));
 const sum=a=>a.reduce((x,y)=>x+y,0);const dot=(a,b)=>sum(a.map((v,i)=>v*b[i]));
 for(const [n,x]of [[1,7],[2,'4/9'],[3,'2/9'],[4,'5/9'],[5,'8/9']])check('numbers','rational',n,x);
 check('numbers','sets',2,new Set([1,2,3,3,4]).size);

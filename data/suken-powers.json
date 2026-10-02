@@ -365,6 +365,183 @@
           ]
         }
       ]
+    },
+    {
+      "id": "base-change",
+      "title": "底の変換と対数の方程式",
+      "referencePages": [],
+      "steps": [
+        [
+          "底が違うとき",
+          "対数を同じ底にそろえると、知っている累乗で計算できます。底a,cは正で1以外、真数bは正です。",
+          "logₐb=log꜀b/log꜀a",
+          "log₄8=log₂8/log₂4=3/2。割る順番は真数の対数÷底の対数です。"
+        ],
+        [
+          "方程式を累乗に戻す",
+          "logₐx=kはaᵏ=xという意味です。真数の条件を最初に書きます。",
+          "log₂(x−1)=3 → x−1>0、x−1=8 → x=9",
+          "求めた9は条件x>1を満たします。"
+        ],
+        [
+          "足し算は積にする",
+          "同じ底の対数の和を一つにまとめます。各真数が正である条件を残します。",
+          "log₂x+log₂(x−2)=3 → x>2、x(x−2)=8 → x=4または−2 → x=4",
+          "−2は式を変形した後の方程式の解ですが、元の真数の条件に合わないので除きます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "powers-base-change-1",
+          "stage": "guided",
+          "text": "log₄8を底2に直した式は？",
+          "hint": "真数の対数を分子にする。",
+          "explanation": "底の変換公式でこの順番になります。",
+          "correctChoiceId": "powers-base-change-1-2",
+          "choices": [
+            {
+              "text": "log₂8−log₂4",
+              "feedback": "途中式を見直そう。真数の対数を分子にする。",
+              "id": "powers-base-change-1-0"
+            },
+            {
+              "text": "log₂8+log₂4",
+              "feedback": "途中式を見直そう。真数の対数を分子にする。",
+              "id": "powers-base-change-1-1"
+            },
+            {
+              "text": "log₂8/log₂4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-base-change-1-2"
+            },
+            {
+              "text": "log₂4/log₂8",
+              "feedback": "途中式を見直そう。真数の対数を分子にする。",
+              "id": "powers-base-change-1-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-base-change-2",
+          "stage": "guided",
+          "text": "log₄8の値は？",
+          "hint": "2³=8、2²=4。",
+          "explanation": "3÷2=3/2。",
+          "correctChoiceId": "powers-base-change-2-1",
+          "choices": [
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。2³=8、2²=4。",
+              "id": "powers-base-change-2-0"
+            },
+            {
+              "text": "3/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-base-change-2-1"
+            },
+            {
+              "text": "2/3",
+              "feedback": "途中式を見直そう。2³=8、2²=4。",
+              "id": "powers-base-change-2-2"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。2³=8、2²=4。",
+              "id": "powers-base-change-2-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-base-change-3",
+          "stage": "practice",
+          "text": "log₃(x−2)=2を解くと？",
+          "hint": "x−2=3²。",
+          "explanation": "x−2=9よりx=11。条件x>2も満たします。",
+          "correctChoiceId": "powers-base-change-3-0",
+          "choices": [
+            {
+              "text": "11",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-base-change-3-0"
+            },
+            {
+              "text": "7",
+              "feedback": "途中式を見直そう。x−2=3²。",
+              "id": "powers-base-change-3-1"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。x−2=3²。",
+              "id": "powers-base-change-3-2"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。x−2=3²。",
+              "id": "powers-base-change-3-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-base-change-4",
+          "stage": "practice",
+          "text": "log₂x+log₂(x−2)で必要な条件は？",
+          "hint": "両方の真数が正。",
+          "explanation": "x>0かつx−2>0なのでx>2です。",
+          "correctChoiceId": "powers-base-change-4-3",
+          "choices": [
+            {
+              "text": "x>0",
+              "feedback": "途中式を見直そう。両方の真数が正。",
+              "id": "powers-base-change-4-0"
+            },
+            {
+              "text": "x≠2",
+              "feedback": "途中式を見直そう。両方の真数が正。",
+              "id": "powers-base-change-4-1"
+            },
+            {
+              "text": "x<2",
+              "feedback": "途中式を見直そう。両方の真数が正。",
+              "id": "powers-base-change-4-2"
+            },
+            {
+              "text": "x>2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-base-change-4-3"
+            }
+          ]
+        },
+        {
+          "id": "powers-base-change-5",
+          "stage": "practice",
+          "text": "log₂x+log₂(x−2)=3を解くと？",
+          "hint": "x(x−2)=8を解き、条件を確認。",
+          "explanation": "x²−2x−8=(x−4)(x+2)=0。x>2なので4だけ。",
+          "correctChoiceId": "powers-base-change-5-2",
+          "choices": [
+            {
+              "text": "x=4, −2",
+              "feedback": "途中式を見直そう。x(x−2)=8を解き、条件を確認。",
+              "id": "powers-base-change-5-0"
+            },
+            {
+              "text": "x=8",
+              "feedback": "途中式を見直そう。x(x−2)=8を解き、条件を確認。",
+              "id": "powers-base-change-5-1"
+            },
+            {
+              "text": "x=4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "powers-base-change-5-2"
+            },
+            {
+              "text": "x=−2",
+              "feedback": "途中式を見直そう。x(x−2)=8を解き、条件を確認。",
+              "id": "powers-base-change-5-3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

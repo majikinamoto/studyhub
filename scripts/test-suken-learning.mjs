@@ -16,7 +16,7 @@ for(const c of records){
  if(l.diagram){assert(fs.existsSync('assets/images/suken/'+l.diagram.file));assert(l.diagram.step<l.steps.length);}
  }
 }
-assert.equal(total,250);console.log('Schema: 50 lessons, '+total+' questions, '+stepCount+' explanation steps');
+assert.equal(total,275);console.log('Schema: 55 lessons, '+total+' questions, '+stepCount+' explanation steps');
 const root=process.cwd();const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}try{const data=fs.readFileSync(file);const ext=path.extname(file);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml'})[ext]||'application/octet-stream');res.end(data);}catch{res.writeHead(404).end();}});
 await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
 const browser=await chromium.launch({channel:'msedge',headless:true});

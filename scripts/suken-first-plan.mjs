@@ -1,0 +1,8 @@
+export const firstPlan=`<section class="section-stack" aria-labelledby="plan-title"><div class="section-heading"><h2 id="plan-title">2026年12月5日に向けて、まず1次</h2><p>高校数学が初めてでも、意味を確認してから計算へ進もう。学習時間は取り組みながら決めよう。説明1画面・問題1問からでも大丈夫。翌日は前日の問題を1問解き直します。週に1日は復習に使い、難しい項目は2日に分けて大丈夫。</p><p>最初に <a class="text-link" href="./suken-roots.html#view=lesson&amp;unit=squares">2乗と負の数</a>、次に <a class="text-link" href="./suken-algebra.html#view=lesson&amp;unit=distribute">分配法則</a>。習っている内容は自力練習で確認して進もう。</p></div><div class="card-grid">
+<article class="study-card"><h3>1：計算の土台</h3><p>√、展開・因数分解、数の整理と集合。符号や分数で迷ったら同じ項目へ戻ります。分数式、絶対値、整数もここで学びます。</p></article>
+<article class="study-card"><h3>2：方程式と関数</h3><p>方程式・複素数、座標・直線・2次関数・円・2次不等式。追加の共役と解と係数もここで学びます。基礎と記述の両方で確認します。</p></article>
+<article class="study-card"><h3>3：高校数学の計算</h3><p>三角比・三角関数、指数・対数、微分・積分。公式の文字の意味を説明できてから使います。基礎と記述の両方で確認します。</p></article>
+<article class="study-card"><h3>4：数列・ベクトル・確率統計</h3><p>数列、ベクトル、場合の数・確率、分散・標準偏差。確率分布と統計的な推測も学びます。覚えた印のない項目をまとめて練習します。</p></article>
+<article class="study-card"><h3>5：紙で本番の準備</h3><p>選択肢を見る前に答えと途中式を紙に書こう。公式過去問を50分で解き、間違いを「意味・公式・計算」に分けて復習します。練習目標は15問中12問以上を安定して解くこと。</p><a class="text-link" href="https://www.su-gaku.net/suken/support/past_questions/" target="_blank" rel="noopener">公式の過去問題へ</a></article>
+<article class="study-card"><h3>進め方に迷ったら</h3><p>自力3問をヒントなしで解き、途中式を説明できたら次へ。間違えたら説明を読み直して、翌日にもう一度。予定より遅れたら復習日を使い、未習の内容を急いで飛ばさないようにしよう。</p></article>
+</div><p>公式の1次は50分・15問、合格基準は70％程度です。12問は練習の目標です。受検予定日12月5日に合わせた学習案内です。 <a class="text-link" href="https://www.su-gaku.net/suken/examination/summary/2q/" target="_blank" rel="noopener">公式の2級概要</a></p><p>全11分野の記述教材では、確率分布・統計的な推測まで学べます。分野を一巡したら要点整理・公式過去問でも力を確かめよう。まず1次の学習を優先し、2次は基礎が固まってから進めよう。</p></section>`;

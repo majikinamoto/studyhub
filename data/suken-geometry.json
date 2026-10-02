@@ -731,6 +731,183 @@
           ]
         }
       ]
+    },
+    {
+      "id": "quadratic-sign",
+      "title": "2次不等式：積の符号を調べる",
+      "referencePages": [],
+      "steps": [
+        [
+          "不等式は範囲を答える",
+          "方程式は等しくなる値、不等式は大小の条件を満たす値の範囲を求めます。",
+          "x²−5x+6=(x−2)(x−3)",
+          "まず等号になる境目2、3を見つけます。"
+        ],
+        [
+          "境目の間と外を調べる",
+          "x<2では両方負、2<x<3では片方正・片方負、x>3では両方正になります。",
+          "(x−2)(x−3)>0 → x<2 または x>3",
+          "負×負は正。境目の外側で積は正、内側で負です。"
+        ],
+        [
+          "等号と先頭の符号に注意",
+          "≧や≦なら境目を含めます。負の数で両辺を割ると不等号の向きが逆になります。",
+          "−x²+5x−6≧0 → (x−2)(x−3)≦0 → 2≦x≦3",
+          "外側か内側かを丸暗記せず、各区間の数を代入して確認しよう。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "geometry-quadratic-sign-1",
+          "stage": "guided",
+          "text": "(x−2)(x−3)=0の境目は？",
+          "hint": "どちらかの因数が0。",
+          "explanation": "x−2=0またはx−3=0より2、3。",
+          "correctChoiceId": "geometry-quadratic-sign-1-0",
+          "choices": [
+            {
+              "text": "2, 3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-sign-1-0"
+            },
+            {
+              "text": "−2, −3",
+              "feedback": "途中式を見直そう。どちらかの因数が0。",
+              "id": "geometry-quadratic-sign-1-1"
+            },
+            {
+              "text": "0, 5",
+              "feedback": "途中式を見直そう。どちらかの因数が0。",
+              "id": "geometry-quadratic-sign-1-2"
+            },
+            {
+              "text": "1, 6",
+              "feedback": "途中式を見直そう。どちらかの因数が0。",
+              "id": "geometry-quadratic-sign-1-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-sign-2",
+          "stage": "guided",
+          "text": "x=0のとき(x−2)(x−3)の符号は？",
+          "hint": "負×負を考える。",
+          "explanation": "(−2)(−3)=6で正です。",
+          "correctChoiceId": "geometry-quadratic-sign-2-3",
+          "choices": [
+            {
+              "text": "負",
+              "feedback": "途中式を見直そう。負×負を考える。",
+              "id": "geometry-quadratic-sign-2-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。負×負を考える。",
+              "id": "geometry-quadratic-sign-2-1"
+            },
+            {
+              "text": "決められない",
+              "feedback": "途中式を見直そう。負×負を考える。",
+              "id": "geometry-quadratic-sign-2-2"
+            },
+            {
+              "text": "正",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-sign-2-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-sign-3",
+          "stage": "practice",
+          "text": "x²−5x+6<0の解は？",
+          "hint": "2と3の間で積が負。",
+          "explanation": "境目では0なので含まず、2<x<3。",
+          "correctChoiceId": "geometry-quadratic-sign-3-2",
+          "choices": [
+            {
+              "text": "2≦x≦3",
+              "feedback": "途中式を見直そう。2と3の間で積が負。",
+              "id": "geometry-quadratic-sign-3-0"
+            },
+            {
+              "text": "x<3",
+              "feedback": "途中式を見直そう。2と3の間で積が負。",
+              "id": "geometry-quadratic-sign-3-1"
+            },
+            {
+              "text": "2<x<3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-sign-3-2"
+            },
+            {
+              "text": "x<2 または x>3",
+              "feedback": "途中式を見直そう。2と3の間で積が負。",
+              "id": "geometry-quadratic-sign-3-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-sign-4",
+          "stage": "practice",
+          "text": "x²−5x+6≧0の解は？",
+          "hint": "外側で正、境目で0。",
+          "explanation": "≧なので2と3も含めます。",
+          "correctChoiceId": "geometry-quadratic-sign-4-1",
+          "choices": [
+            {
+              "text": "x≧2",
+              "feedback": "途中式を見直そう。外側で正、境目で0。",
+              "id": "geometry-quadratic-sign-4-0"
+            },
+            {
+              "text": "x≦2 または x≧3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-sign-4-1"
+            },
+            {
+              "text": "2≦x≦3",
+              "feedback": "途中式を見直そう。外側で正、境目で0。",
+              "id": "geometry-quadratic-sign-4-2"
+            },
+            {
+              "text": "x<2 または x>3",
+              "feedback": "途中式を見直そう。外側で正、境目で0。",
+              "id": "geometry-quadratic-sign-4-3"
+            }
+          ]
+        },
+        {
+          "id": "geometry-quadratic-sign-5",
+          "stage": "practice",
+          "text": "−x²+5x−6≧0の解は？",
+          "hint": "−1で割ると≦になる。",
+          "explanation": "x²−5x+6≦0なので境目を含む内側。",
+          "correctChoiceId": "geometry-quadratic-sign-5-0",
+          "choices": [
+            {
+              "text": "2≦x≦3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "geometry-quadratic-sign-5-0"
+            },
+            {
+              "text": "x≦2 または x≧3",
+              "feedback": "途中式を見直そう。−1で割ると≦になる。",
+              "id": "geometry-quadratic-sign-5-1"
+            },
+            {
+              "text": "2<x<3",
+              "feedback": "途中式を見直そう。−1で割ると≦になる。",
+              "id": "geometry-quadratic-sign-5-2"
+            },
+            {
+              "text": "x≧3",
+              "feedback": "途中式を見直そう。−1で割ると≦になる。",
+              "id": "geometry-quadratic-sign-5-3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

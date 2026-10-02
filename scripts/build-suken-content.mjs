@@ -1,4 +1,5 @@
 import './build-suken-numbers.mjs';
+import './build-suken-algebra-bridge.mjs';
 import './build-suken-equations-geometry.mjs';
 import './build-suken-trig-powers.mjs';
 import './build-suken-calculus-sequences.mjs';
@@ -31,8 +32,10 @@ for(const [id,order] of [['equations',['zero','complex','formula','remainder']],
  const c=courses.find(c=>c.id===id);c.lessons.sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));
 }
 const sets=courses.find(c=>c.id==='numbers').lessons.find(l=>l.id==='sets');
+await import('./build-suken-first-additions.mjs');
 sets.questions[1].text='A={1,2,3}、B={3,4}の和集合の要素は何個？';
 const {addFigures}=await import('./build-suken-figures.mjs');
 addFigures(courses);
 save();
+await import('./build-suken-first-bridge.mjs');
 console.log(courses.reduce((n,c)=>n+c.lessons.length,0)+' new lessons generated');

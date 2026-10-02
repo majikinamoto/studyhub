@@ -727,6 +727,360 @@
           ]
         }
       ]
+    },
+    {
+      "id": "conjugate",
+      "title": "複素数の割り算：共役で実数にする",
+      "referencePages": [],
+      "steps": [
+        [
+          "iの2乗を確認する",
+          "iは2乗すると−1になる数です。実数部分とiの付いた部分を分けて計算します。",
+          "(2+i)(2−i)=4−i²=5",
+          "展開したときの−2iと+2iは打ち消し合います。"
+        ],
+        [
+          "共役な数を掛ける",
+          "a+biに対するa−biを共役な複素数といいます。分母と分子に同じ数を掛けます。",
+          "1/(2+i)=(2−i)/((2+i)(2−i))=(2−i)/5",
+          "分母だけに掛けると値が変わります。分母a+biが0でない場合に使います。"
+        ],
+        [
+          "実数部分と虚数部分を分ける",
+          "分子を展開し、i²を−1に直してから、分子全体を分母で割ります。",
+          "(3+i)/(1+i)=((3+i)(1−i))/2=(4−2i)/2=2−i",
+          "最後に元の分母を掛けて、元の分子に戻るか確かめられます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-conjugate-1",
+          "stage": "guided",
+          "text": "2+iの共役な複素数は？",
+          "hint": "iの項の符号を変える。",
+          "explanation": "実数部分2はそのまま、+iを−iにします。",
+          "correctChoiceId": "equations-conjugate-1-0",
+          "choices": [
+            {
+              "text": "2−i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-conjugate-1-0"
+            },
+            {
+              "text": "−2+i",
+              "feedback": "途中式を見直そう。iの項の符号を変える。",
+              "id": "equations-conjugate-1-1"
+            },
+            {
+              "text": "−2−i",
+              "feedback": "途中式を見直そう。iの項の符号を変える。",
+              "id": "equations-conjugate-1-2"
+            },
+            {
+              "text": "2+i",
+              "feedback": "途中式を見直そう。iの項の符号を変える。",
+              "id": "equations-conjugate-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-conjugate-2",
+          "stage": "guided",
+          "text": "(2+i)(2−i)の値は？",
+          "hint": "4−i²を計算する。",
+          "explanation": "i²=−1なので4−(−1)=5。",
+          "correctChoiceId": "equations-conjugate-2-3",
+          "choices": [
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。4−i²を計算する。",
+              "id": "equations-conjugate-2-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。4−i²を計算する。",
+              "id": "equations-conjugate-2-1"
+            },
+            {
+              "text": "4−i",
+              "feedback": "途中式を見直そう。4−i²を計算する。",
+              "id": "equations-conjugate-2-2"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-conjugate-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-conjugate-3",
+          "stage": "practice",
+          "text": "1/(1+i)を計算すると？",
+          "hint": "分母分子に1−iを掛ける。",
+          "explanation": "分母は1−i²=2、分子は1−i。",
+          "correctChoiceId": "equations-conjugate-3-2",
+          "choices": [
+            {
+              "text": "1−i",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-3-0"
+            },
+            {
+              "text": "−i",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-3-1"
+            },
+            {
+              "text": "(1−i)/2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-conjugate-3-2"
+            },
+            {
+              "text": "(1+i)/2",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-conjugate-4",
+          "stage": "practice",
+          "text": "(3+i)/(1+i)を計算すると？",
+          "hint": "分母分子に1−iを掛ける。",
+          "explanation": "分子3−3i+i−i²=4−2i、分母2より2−i。",
+          "correctChoiceId": "equations-conjugate-4-1",
+          "choices": [
+            {
+              "text": "3−i",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-4-0"
+            },
+            {
+              "text": "2−i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-conjugate-4-1"
+            },
+            {
+              "text": "2+i",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-4-2"
+            },
+            {
+              "text": "1−i",
+              "feedback": "途中式を見直そう。分母分子に1−iを掛ける。",
+              "id": "equations-conjugate-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-conjugate-5",
+          "stage": "practice",
+          "text": "(4+2i)/(1−i)を計算すると？",
+          "hint": "分母分子に1+iを掛ける。",
+          "explanation": "分子4+4i+2i+2i²=2+6i、分母2より1+3i。",
+          "correctChoiceId": "equations-conjugate-5-0",
+          "choices": [
+            {
+              "text": "1+3i",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-conjugate-5-0"
+            },
+            {
+              "text": "3+i",
+              "feedback": "途中式を見直そう。分母分子に1+iを掛ける。",
+              "id": "equations-conjugate-5-1"
+            },
+            {
+              "text": "1−3i",
+              "feedback": "途中式を見直そう。分母分子に1+iを掛ける。",
+              "id": "equations-conjugate-5-2"
+            },
+            {
+              "text": "2+6i",
+              "feedback": "途中式を見直そう。分母分子に1+iを掛ける。",
+              "id": "equations-conjugate-5-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-relations",
+      "title": "解と係数：解かずに和と積を求める",
+      "referencePages": [],
+      "steps": [
+        [
+          "2つの解から式を作る",
+          "解がα、βの2次方程式は、a(x−α)(x−β)=0と書けます。αはアルファ、βはベータです。",
+          "a(x−α)(x−β)=ax²−a(α+β)x+aαβ",
+          "実数解でも複素数解でも、この関係を使えます。"
+        ],
+        [
+          "係数を比べる",
+          "ax²+bx+c=0と比べると、解の和と積が分かります。aは0でない数です。",
+          "α+β=−b/a、αβ=c/a",
+          "x²−5x+6=0なら和5、積6。和のマイナスを忘れないようにします。"
+        ],
+        [
+          "2乗の和へ広げる",
+          "和を2乗すると、α²+2αβ+β²になります。余分な2αβを引きます。",
+          "α²+β²=(α+β)²−2αβ",
+          "x²−5x+6=0なら25−12=13。解そのものを出さなくても計算できます。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "equations-root-relations-1",
+          "stage": "guided",
+          "text": "x²−5x+6=0のbは？",
+          "hint": "符号も係数の一部。",
+          "explanation": "xの係数は−5です。",
+          "correctChoiceId": "equations-root-relations-1-3",
+          "choices": [
+            {
+              "text": "5",
+              "feedback": "途中式を見直そう。符号も係数の一部。",
+              "id": "equations-root-relations-1-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。符号も係数の一部。",
+              "id": "equations-root-relations-1-1"
+            },
+            {
+              "text": "1",
+              "feedback": "途中式を見直そう。符号も係数の一部。",
+              "id": "equations-root-relations-1-2"
+            },
+            {
+              "text": "-5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-root-relations-1-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-root-relations-2",
+          "stage": "guided",
+          "text": "x²−5x+6=0の2つの解の和は？",
+          "hint": "−b/aを使う。",
+          "explanation": "−(−5)/1=5。",
+          "correctChoiceId": "equations-root-relations-2-2",
+          "choices": [
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。−b/aを使う。",
+              "id": "equations-root-relations-2-0"
+            },
+            {
+              "text": "-6",
+              "feedback": "途中式を見直そう。−b/aを使う。",
+              "id": "equations-root-relations-2-1"
+            },
+            {
+              "text": "5",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-root-relations-2-2"
+            },
+            {
+              "text": "-5",
+              "feedback": "途中式を見直そう。−b/aを使う。",
+              "id": "equations-root-relations-2-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-root-relations-3",
+          "stage": "practice",
+          "text": "2x²+3x−4=0の2つの解の積は？",
+          "hint": "c/aを計算する。",
+          "explanation": "−4/2=−2。",
+          "correctChoiceId": "equations-root-relations-3-1",
+          "choices": [
+            {
+              "text": "−3/2",
+              "feedback": "途中式を見直そう。c/aを計算する。",
+              "id": "equations-root-relations-3-0"
+            },
+            {
+              "text": "-2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-root-relations-3-1"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。c/aを計算する。",
+              "id": "equations-root-relations-3-2"
+            },
+            {
+              "text": "-4",
+              "feedback": "途中式を見直そう。c/aを計算する。",
+              "id": "equations-root-relations-3-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-root-relations-4",
+          "stage": "practice",
+          "text": "x²−4x+1=0の解をα、βとするとα²+β²は？",
+          "hint": "和4、積1。",
+          "explanation": "4²−2×1=14。",
+          "correctChoiceId": "equations-root-relations-4-0",
+          "choices": [
+            {
+              "text": "14",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-root-relations-4-0"
+            },
+            {
+              "text": "16",
+              "feedback": "途中式を見直そう。和4、積1。",
+              "id": "equations-root-relations-4-1"
+            },
+            {
+              "text": "18",
+              "feedback": "途中式を見直そう。和4、積1。",
+              "id": "equations-root-relations-4-2"
+            },
+            {
+              "text": "15",
+              "feedback": "途中式を見直そう。和4、積1。",
+              "id": "equations-root-relations-4-3"
+            }
+          ]
+        },
+        {
+          "id": "equations-root-relations-5",
+          "stage": "practice",
+          "text": "x²+2x−3=0の解をα、βとするとα²+β²は？",
+          "hint": "和−2、積−3。",
+          "explanation": "(−2)²−2×(−3)=4+6=10。",
+          "correctChoiceId": "equations-root-relations-5-3",
+          "choices": [
+            {
+              "text": "-2",
+              "feedback": "途中式を見直そう。和−2、積−3。",
+              "id": "equations-root-relations-5-0"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。和−2、積−3。",
+              "id": "equations-root-relations-5-1"
+            },
+            {
+              "text": "-10",
+              "feedback": "途中式を見直そう。和−2、積−3。",
+              "id": "equations-root-relations-5-2"
+            },
+            {
+              "text": "10",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "equations-root-relations-5-3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -725,6 +725,183 @@
           ]
         }
       ]
+    },
+    {
+      "id": "variance",
+      "title": "データの分析：分散と標準偏差",
+      "referencePages": [],
+      "steps": [
+        [
+          "平均からのずれを調べる",
+          "同じ平均でも、値の散らばり方は違います。各値から平均を引いた差を偏差といいます。",
+          "データ1,3,5 → 平均3 → 偏差−2,0,2",
+          "偏差をそのまま足すと0になるので、散らばりの指標には2乗を使います。"
+        ],
+        [
+          "偏差の2乗を平均する",
+          "分散は偏差の2乗の平均です。この教材ではデータの個数nで割ります。",
+          "データ1,3,5の分散=(4+0+4)/3=8/3",
+          "統計的推測で用いる不偏分散（n−1で割るもの）とは区別します。"
+        ],
+        [
+          "平方根で元の単位へ戻す",
+          "標準偏差は分散の正の平方根です。値の散らばりを元のデータと同じ単位で表します。",
+          "データ2,6 → 平均4、分散4、標準偏差2",
+          "全データに同じ数を足しても分散は変わりません。全データを2倍すると分散は4倍、標準偏差は2倍です。"
+        ]
+      ],
+      "questions": [
+        {
+          "id": "probability-variance-1",
+          "stage": "guided",
+          "text": "データ2,4,6の平均は？",
+          "hint": "合計を個数3で割る。",
+          "explanation": "(2+4+6)/3=4。",
+          "correctChoiceId": "probability-variance-1-0",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-variance-1-0"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。合計を個数3で割る。",
+              "id": "probability-variance-1-1"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。合計を個数3で割る。",
+              "id": "probability-variance-1-2"
+            },
+            {
+              "text": "12",
+              "feedback": "途中式を見直そう。合計を個数3で割る。",
+              "id": "probability-variance-1-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-variance-2",
+          "stage": "guided",
+          "text": "データ2,4,6で値2の偏差の2乗は？",
+          "hint": "平均4との差を2乗。",
+          "explanation": "(2−4)²=4。",
+          "correctChoiceId": "probability-variance-2-3",
+          "choices": [
+            {
+              "text": "-2",
+              "feedback": "途中式を見直そう。平均4との差を2乗。",
+              "id": "probability-variance-2-0"
+            },
+            {
+              "text": "2",
+              "feedback": "途中式を見直そう。平均4との差を2乗。",
+              "id": "probability-variance-2-1"
+            },
+            {
+              "text": "-4",
+              "feedback": "途中式を見直そう。平均4との差を2乗。",
+              "id": "probability-variance-2-2"
+            },
+            {
+              "text": "4",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-variance-2-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-variance-3",
+          "stage": "practice",
+          "text": "データ2,4,6の分散は？",
+          "hint": "偏差の2乗4,0,4の平均。",
+          "explanation": "(4+0+4)/3=8/3。",
+          "correctChoiceId": "probability-variance-3-2",
+          "choices": [
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。偏差の2乗4,0,4の平均。",
+              "id": "probability-variance-3-0"
+            },
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。偏差の2乗4,0,4の平均。",
+              "id": "probability-variance-3-1"
+            },
+            {
+              "text": "8/3",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-variance-3-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。偏差の2乗4,0,4の平均。",
+              "id": "probability-variance-3-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-variance-4",
+          "stage": "practice",
+          "text": "データ2,6の標準偏差は？",
+          "hint": "平均4、分散4。",
+          "explanation": "分散((2−4)²+(6−4)²)/2=4。√4=2。",
+          "correctChoiceId": "probability-variance-4-1",
+          "choices": [
+            {
+              "text": "0",
+              "feedback": "途中式を見直そう。平均4、分散4。",
+              "id": "probability-variance-4-0"
+            },
+            {
+              "text": "2",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-variance-4-1"
+            },
+            {
+              "text": "4",
+              "feedback": "途中式を見直そう。平均4、分散4。",
+              "id": "probability-variance-4-2"
+            },
+            {
+              "text": "8",
+              "feedback": "途中式を見直そう。平均4、分散4。",
+              "id": "probability-variance-4-3"
+            }
+          ]
+        },
+        {
+          "id": "probability-variance-5",
+          "stage": "practice",
+          "text": "分散3のデータの各値を2倍したとき、分散は？",
+          "hint": "偏差も2倍、2乗は4倍。",
+          "explanation": "3×2²=12。",
+          "correctChoiceId": "probability-variance-5-0",
+          "choices": [
+            {
+              "text": "12",
+              "feedback": "正解です。解説の途中式も確認しよう。",
+              "id": "probability-variance-5-0"
+            },
+            {
+              "text": "6",
+              "feedback": "途中式を見直そう。偏差も2倍、2乗は4倍。",
+              "id": "probability-variance-5-1"
+            },
+            {
+              "text": "3",
+              "feedback": "途中式を見直そう。偏差も2倍、2乗は4倍。",
+              "id": "probability-variance-5-2"
+            },
+            {
+              "text": "9",
+              "feedback": "途中式を見直そう。偏差も2倍、2乗は4倍。",
+              "id": "probability-variance-5-3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
