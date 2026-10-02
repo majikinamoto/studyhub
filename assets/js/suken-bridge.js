@@ -1,16 +1,16 @@
 const app=document.querySelector('#learning-app'),notice=document.querySelector('#storage-message');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const full=app.dataset.curriculum==='first',topic=new URLSearchParams(location.search).get('topic');
+const phase=app.dataset.curriculum,full=['first','second'].includes(phase),second=phase==='second',bridgeFile='suken-'+phase+'-bridge.html',topic=new URLSearchParams(location.search).get('topic');
 let key='studyhub:suken:algebra-bridge:v1';
 let data,curriculum,state={diagnostic:{},answers:{}};
 const link=(view,unit='',n=0)=>'#'+new URLSearchParams({view,unit,n});
-const topicLink=id=>'./suken-first-bridge.html?topic='+encodeURIComponent(id);
-const returnLinks=()=>full?'<p><a href="./suken-first-bridge.html">全分野の一覧へ</a></p>':'';
+const topicLink=id=>'./'+bridgeFile+'?topic='+encodeURIComponent(id);
+const returnLinks=()=>full?'<p><a href="./'+bridgeFile+'">全分野の一覧へ</a></p>':'';
 const lines=a=>'<div class="math-line bridge-lines">'+a.map(s=>'<span>'+esc(s)+'</span>').join('')+'</div>';
 function save(){try{localStorage.setItem(key,JSON.stringify(state));notice.textContent='';}catch{notice.textContent='記録を保存できません。このページを閉じると記録が失われます。';}}
 function catalog(){
- app.innerHTML='<h2 tabindex="-1">11分野から選ぼう</h2><p>初めてなら上から順に。各分野の確認3問から、必要な基礎を探せます。学習時間は決めなくても大丈夫。</p>'+curriculum.groups.map(g=>{
- let saved={};try{saved=JSON.parse(localStorage.getItem('studyhub:suken:first-bridge:'+g.id+':v1')||'{}');}catch{}
+ app.innerHTML='<h2 tabindex="-1">'+curriculum.groups.length+'分野から選ぼう</h2><p>初めてなら上から順に。各分野の確認3問から、必要な基礎を探せます。学習時間は決めなくても大丈夫。</p>'+curriculum.groups.map(g=>{
+ let saved={};try{saved=JSON.parse(localStorage.getItem('studyhub:suken:'+phase+'-bridge:'+g.id+':v1')||'{}');}catch{}
  const completed=g.lessons.reduce((n,l)=>n+Object.values(saved?.answers?.[l.id]||{}).filter(v=>['independent','review'].includes(v)).length,0);
  const last=saved?.last;const valid=last&&g.lessons.some(l=>l.id===last.unit)&&['lesson','question'].includes(last.view)&&Number.isInteger(last.n)&&last.n>=0&&last.n<(last.view==='lesson'?g.lessons.find(l=>l.id===last.unit).steps.length:5);
  return '<article class="study-card"><h3>'+esc(g.title)+'</h3><p>'+g.lessons.length+'項目・'+g.lessons.length*5+'問＋確認3問</p><p class="bridge-progress">記録：'+completed+'／'+g.lessons.length*5+'問</p><div class="lesson-actions"><a class="primary-button" href="'+topicLink(g.id)+'">分野を開く</a>'+(valid?'<a class="secondary-button" href="'+topicLink(g.id)+link(last.view,last.unit,last.n)+'">前回の続き</a>':'')+'</div></article>';
@@ -26,7 +26,7 @@ function lesson(l,n){
 }
 function question(q,n,l){
  const diagnostic=!l;let hint=false;
- app.innerHTML=`<a href="${link('overview')}">項目一覧へ</a><p>${diagnostic?'出発点の確認':n<2?'途中の一手':'選択肢なしの自力練習'} · ${diagnostic?n+1:n<2?n+1:n-1}／${diagnostic?3:n<2?2:3}</p><section class="study-card"><h2 tabindex="-1">${esc(q.text)}</h2><p>紙に答えと途中式を書こう。分からなければ、ヒントや解説を見て大丈夫。</p><details id="hint"><summary>ヒントを見る</summary><p>${esc(q.hint)}</p></details><button id="reveal" class="primary-button">答え・途中式を確認する</button><div id="solution" hidden><h3>答え：${esc(q.answer)}</h3>${lines(q.lines)}<h3>途中式も確認しよう</h3><ul>${q.check.map(c=>'<li>'+esc(c)+'</li>').join('')}</ul><p>式の並び順や因数の順番が違っても、同じ式なら正解です。</p><p id="hint-note"></p><div class="bridge-feedback"><button data-assess="independent" class="primary-button">答えを見る前に、途中式も書いて解けた</button><button data-assess="review" class="secondary-button">ヒント・解説で分かった／まだ難しい</button></div></div></section>`;
+ app.innerHTML=`<a href="${link('overview')}">項目一覧へ</a><p>${diagnostic?'出発点の確認':n<2?'途中の一手':'選択肢なしの自力練習'} · ${diagnostic?n+1:n<2?n+1:n-1}／${diagnostic?3:n<2?2:3}</p><section class="study-card"><h2 tabindex="-1">${esc(q.text)}</h2><p>${second?'紙に答え・途中式・理由を書こう。条件や等号成立も確認しよう。':'紙に答えと途中式を書こう。'}分からなければ、ヒントや解説を見て大丈夫。</p><details id="hint"><summary>ヒントを見る</summary><p>${esc(q.hint)}</p></details><button id="reveal" class="primary-button">答え・途中式を確認する</button><div id="solution" hidden><h3>答え：${esc(q.answer)}</h3>${lines(q.lines)}<h3>途中式も確認しよう</h3><ul>${q.check.map(c=>'<li>'+esc(c)+'</li>').join('')}</ul><p>${second?'解き方が違っても、条件を満たし、結論までの理由が正しければ構いません。確認欄で答案を照合しよう。':'式の並び順や因数の順番が違っても、同じ式なら正解です。'}</p><p id="hint-note"></p><div class="bridge-feedback"><button data-assess="independent" class="primary-button">答えを見る前に、途中式も書いて解けた</button><button data-assess="review" class="secondary-button">ヒント・解説で分かった／まだ難しい</button></div></div></section>`;
  app.querySelector('#hint').ontoggle=e=>{if(e.target.open)hint=true;};
  app.querySelector('#reveal').onclick=()=>{hint=hint||app.querySelector('#hint').open;app.querySelector('#solution').hidden=false;app.querySelector('#reveal').hidden=true;if(hint){app.querySelector('[data-assess=independent]').hidden=true;app.querySelector('#hint-note').textContent='今回はヒントを使ったので、復習として記録します。';}};
  app.querySelectorAll('[data-assess]').forEach(b=>b.onclick=()=>{
@@ -39,7 +39,7 @@ function question(q,n,l){
 }
 function diagnosticResult(){
  const missing=data.diagnostic.filter((q,n)=>state.diagnostic[n]!=='independent');
- app.innerHTML=`<h2 tabindex="-1">出発点の確認が終わりました</h2><p>3問の自己確認は、理解度の目安です。${missing.length?'まず、次の基礎を読み直そう。':'次は3つの項の2乗へ。途中で迷ったら基礎に戻れます。'}</p>${missing.map(q=>`<p><a class="primary-button" href="${esc(q.href)}">${esc(q.label)}を学ぶ</a></p>`).join('')}<a class="primary-button" href="${link('lesson',data.lessons[0].id)}">1次へのステップを始める</a><a class="secondary-button" href="${link('overview')}">項目一覧へ</a>`;
+ app.innerHTML=`<h2 tabindex="-1">出発点の確認が終わりました</h2><p>3問の自己確認は、理解度の目安です。${missing.length?'まず、次の基礎を読み直そう。':'次はこの分野の説明へ。途中で迷ったら基礎に戻れます。'}</p>${missing.map(q=>`<p><a class="primary-button" href="${esc(q.href)}">${esc(q.label)}を学ぶ</a></p>`).join('')}<a class="primary-button" href="${link('lesson',data.lessons[0].id)}">${second?'理由を書く練習を始める':'説明から練習を始める'}</a><a class="secondary-button" href="${link('overview')}">項目一覧へ</a>`;
 }
 function finish(l){
  const a=state.answers[l.id]||{},next=data.lessons[data.lessons.indexOf(l)+1];
@@ -56,10 +56,10 @@ function route(){
  app.querySelector('h2')?.focus();
 }
 try{
- const r=await fetch(full?'../data/suken-first-bridge.json':'../data/suken-algebra-bridge.json');if(!r.ok)throw Error('load');const loaded=await r.json();
- if(full){curriculum=loaded;data=curriculum.groups.find(g=>g.id===topic);if(topic&&!data){app.innerHTML='<h2>この分野は見つかりません</h2><a href="./suken-first-bridge.html">全分野の一覧へ</a>'; }else if(data){key='studyhub:suken:first-bridge:'+data.id+':v1';document.querySelector('#topic-label').textContent=data.title;document.title=data.title+'：基礎から記述へ | StudyHub';}}else data=loaded;
+ const r=await fetch(full?'../data/suken-'+phase+'-bridge.json':'../data/suken-algebra-bridge.json');if(!r.ok)throw Error('load');const loaded=await r.json();
+ if(full){curriculum=loaded;data=curriculum.groups.find(g=>g.id===topic);if(topic&&!data){app.innerHTML='<h2>この分野は見つかりません</h2><a href="./'+bridgeFile+'">全分野の一覧へ</a>'; }else if(data){key='studyhub:suken:'+phase+'-bridge:'+data.id+':v1';document.querySelector('#topic-label').textContent=data.title;document.title=data.title+(second?'：理由を書いて解く':'：基礎から記述へ')+' | StudyHub';}}else data=loaded;
  if(!data){if(!topic)catalog();}else{
  try{const s=JSON.parse(localStorage.getItem(key)||'null');if(s&&typeof s.diagnostic==='object'&&s.diagnostic&&!Array.isArray(s.diagnostic)&&typeof s.answers==='object'&&s.answers&&!Array.isArray(s.answers)){state={diagnostic:{},answers:{},last:s.last};for(let n=0;n<3;n++)if(['independent','review'].includes(s.diagnostic[n]))state.diagnostic[n]=s.diagnostic[n];for(const l of data.lessons){state.answers[l.id]={};for(let n=0;n<5;n++)if(['independent','review'].includes(s.answers[l.id]?.[n]))state.answers[l.id][n]=s.answers[l.id][n];}}}catch{notice.textContent='保存記録を読み込めませんでした。学習は続けられます。';}
  route();addEventListener('hashchange',route);
  }
-}catch{app.innerHTML='<h2>教材を読み込めませんでした</h2><p>通信状態を確認して再読み込みしてください。</p><a href="./suken-2-first.html">1次の入口へ</a>';}
+}catch{app.innerHTML='<h2>教材を読み込めませんでした</h2><p>通信状態を確認して再読み込みしてください。</p><a href="./suken-2-'+(second?'second':'first')+'.html">'+(second?'2次':'1次')+'の入口へ</a>';}

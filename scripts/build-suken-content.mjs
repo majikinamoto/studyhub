@@ -38,4 +38,5 @@ const {addFigures}=await import('./build-suken-figures.mjs');
 addFigures(courses);
 save();
 await import('./build-suken-first-bridge.mjs');
+await import('./build-suken-second-bridge.mjs');
 console.log(courses.reduce((n,c)=>n+c.lessons.length,0)+' new lessons generated');

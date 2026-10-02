@@ -6,11 +6,11 @@ for(const phase of ['first','second']){
  const courses=sukenCourses.filter(c=>c.phase===phase).map(c=>({...c,data:JSON.parse(fs.readFileSync('data/suken-'+c.id+'.json','utf8'))}));
  const units=courses.reduce((n,c)=>n+c.data.lessons.length,0),questions=courses.reduce((n,c)=>n+c.data.lessons.reduce((m,l)=>m+l.questions.length,0),0);
  const label=phase==='first'?'1次':'2次';
- const bridge=phase==='first'?JSON.parse(fs.readFileSync('data/suken-first-bridge.json','utf8')):null;
+ const bridge=JSON.parse(fs.readFileSync('data/suken-'+phase+'-bridge.json','utf8'));
  const bridgeUnits=bridge?.groups.reduce((n,g)=>n+g.lessons.length,0);
  const bridgeQuestions=bridge?.groups.reduce((n,g)=>n+g.lessons.reduce((m,l)=>m+l.questions.length,0),0);
- const start=bridge?`<section class="study-card" aria-labelledby="start-title"><p class="card-label">1次の全11分野</p><h2 id="start-title">説明から記述まで、ここから始めよう</h2><p>${bridgeUnits}項目・${bridgeQuestions}問＋分野別の確認33問。ヒントと途中式を使いながら、紙に答えを書いて進めます。前回の続きも開けます。</p><a class="primary-button" href="./suken-first-bridge.html">1次の学習を始める・続ける</a><p><a class="text-link" href="#list-title">4択の基礎教材で復習する</a></p></section>`:'';
- const intro=phase==='first'?'高校数学が初めてなら、上から順に。分からない言葉を確認し、紙に途中式を書きながら進もう。 <a class="text-link" href="./suken-first-bridge.html">全分野を学ぶ：確認問題と、選択肢なしの記述練習</a>':'理由を説明する練習の入口。まず4択で考え方を確かめ、答えを隠して紙に証明や途中式を書こう。';
+ const start=bridge?`<section class="study-card" aria-labelledby="start-title"><p class="card-label">${label}の${bridge.groups.length}分野</p><h2 id="start-title">説明から記述まで、ここから始めよう</h2><p>${bridgeUnits}項目・${bridgeQuestions}問＋分野別の確認${bridge.groups.length*3}問。ヒントと途中式を使いながら、紙に答えを書いて進めます。前回の続きも開けます。</p><a class="primary-button" href="./suken-${phase}-bridge.html">${label}の学習を始める・続ける</a><p><a class="text-link" href="#list-title">4択の基礎教材で復習する</a></p></section>`:'';
+ const intro=phase==='first'?'高校数学が初めてなら、上から順に。分からない言葉を確認し、紙に途中式を書きながら進もう。 <a class="text-link" href="./suken-first-bridge.html">全分野を学ぶ：確認問題と、選択肢なしの記述練習</a>':'紙に答え・途中式・理由を書く練習です。まず主要な型を学び、一巡したら公式過去問題に挑戦しよう。';
  const cards=courses.map((c,i)=>`<article class="study-card"><p class="card-label">${i+1} · ${c.data.lessons.length}項目・${c.data.lessons.reduce((n,l)=>n+l.questions.length,0)}問</p><h3>${esc(c.title)}</h3><p>${c.data.lessons.map(l=>esc(l.title)).join(' ／ ')}</p><a class="primary-button" href="${esc(courseHref(c))}#view=lesson&amp;unit=${c.data.lessons[0].id}">説明から学ぶ</a><a class="secondary-button" href="${esc(courseHref(c))}">項目を選んで練習</a></article>`).join('\n');
  fs.writeFileSync('pages/suken-2-'+phase+'.html',`<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>数検 2級 ${label} | StudyHub</title><link rel="stylesheet" href="../assets/css/style.css"></head>

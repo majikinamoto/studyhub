@@ -1,0 +1,2437 @@
+{
+  "version": 1,
+  "title": "数検2級2次：理由を書いて解く",
+  "note": "主要な型を学ぶ初期教材。公式過去問題・答案添削と組み合わせて使います。",
+  "groups": [
+    {
+      "id": "reasoning",
+      "title": "証明・整数・論理",
+      "href": "./suken-course.html?topic=reasoning",
+      "diagnostic": [
+        {
+          "text": "(x+1)²の展開は？",
+          "answer": "x²+2x+1",
+          "hint": "真ん中は2×x×1。",
+          "lines": [
+            "x²+x+x+1=x²+2x+1。"
+          ],
+          "check": [
+            "解答に至る式または理由を紙に書いた",
+            "説明と自分の理由を照合した"
+          ],
+          "id": "base-proof-0",
+          "stage": "guided",
+          "label": "等式・不等式を証明する",
+          "href": "./suken-second-bridge.html?topic=reasoning#view=lesson&unit=base-proof"
+        },
+        {
+          "text": "「4の倍数なら偶数」の条件は？",
+          "answer": "4の倍数である",
+          "hint": "ならばの前。",
+          "lines": [
+            "条件pは4の倍数であることです。"
+          ],
+          "check": [
+            "解答に至る式または理由を紙に書いた",
+            "説明と自分の理由を照合した"
+          ],
+          "id": "base-logic-0",
+          "stage": "guided",
+          "label": "命題・逆・対偶",
+          "href": "./suken-second-bridge.html?topic=reasoning#view=lesson&unit=base-logic"
+        },
+        {
+          "text": "原点から距離3の点P(x,y)の条件は？",
+          "answer": "x²+y²=9",
+          "hint": "距離を2乗。",
+          "lines": [
+            "√(x²+y²)=3を2乗します。"
+          ],
+          "check": [
+            "解答に至る式または理由を紙に書いた",
+            "説明と自分の理由を照合した"
+          ],
+          "id": "base-locus-0",
+          "stage": "guided",
+          "label": "軌跡は条件を満たす点の集まり",
+          "href": "./suken-second-bridge.html?topic=reasoning#view=lesson&unit=base-locus"
+        }
+      ],
+      "lessons": [
+        {
+          "id": "base-proof",
+          "title": "等式・不等式を証明する",
+          "origin": "existing",
+          "source": "既存の2次基礎教材",
+          "href": "./suken-course.html?topic=reasoning#view=lesson&unit=proof",
+          "steps": [
+            {
+              "title": "例を調べるだけでは証明にならない",
+              "body": "x=1や2で成り立っても、すべてのxで成り立つとは限りません。文字のまま変形します。",
+              "lines": [
+                "(x+1)²−(x−1)²=4x"
+              ],
+              "note": "左辺を展開し、同じ項を打ち消して右辺にします。"
+            },
+            {
+              "title": "不等式は差の符号を見る",
+              "body": "左辺≥右辺を示すには、左辺−右辺が0以上と示せば十分です。",
+              "lines": [
+                "a²+b²−2ab=(a−b)²≥0"
+              ],
+              "note": "実数の2乗は0以上。この事実が理由になります。"
+            },
+            {
+              "title": "等号はいつ成り立つ？",
+              "body": "差が0になる条件を調べます。",
+              "lines": [
+                "(a−b)²=0 ⇔ a=b"
+              ],
+              "note": "証明は「変形」と「その式が0以上である理由」の両方を書こう。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "(x+1)²の展開は？",
+              "answer": "x²+2x+1",
+              "hint": "真ん中は2×x×1。",
+              "lines": [
+                "x²+x+x+1=x²+2x+1。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-proof-0",
+              "stage": "guided"
+            },
+            {
+              "text": "(x+1)²−(x−1)²を整理すると？",
+              "answer": "4x",
+              "hint": "後ろの各項の符号を変える。",
+              "lines": [
+                "x²+2x+1−x²+2x−1=4x。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-proof-1",
+              "stage": "guided"
+            },
+            {
+              "text": "a²+b²≥2abを示すための左辺−右辺は？",
+              "answer": "(a−b)²",
+              "hint": "平方の形にする。",
+              "lines": [
+                "a²−2ab+b²=(a−b)²≥0。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-proof-2",
+              "stage": "practice"
+            },
+            {
+              "text": "a²+b²≥2abの等号条件は？",
+              "answer": "a=b",
+              "hint": "差の2乗が0。",
+              "lines": [
+                "(a−b)²=0ならa−b=0。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-proof-3",
+              "stage": "practice"
+            },
+            {
+              "text": "「すべての実数xでx²≥x」という主張を否定する例は？",
+              "answer": "x=1/2",
+              "hint": "0と1の間を試す。",
+              "lines": [
+                "x²=1/4<1/2=xなので反例になります。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-proof-4",
+              "stage": "practice"
+            }
+          ]
+        },
+        {
+          "id": "base-logic",
+          "title": "命題・逆・対偶",
+          "origin": "existing",
+          "source": "既存の2次基礎教材",
+          "href": "./suken-course.html?topic=reasoning#view=lesson&unit=logic",
+          "steps": [
+            {
+              "title": "条件から結論へ",
+              "body": "「pならばq」の形の主張を命題といいます。pを満たすすべての場合でqとなれば真です。",
+              "lines": [
+                "整数nについて、4の倍数なら偶数"
+              ],
+              "note": "n=4k=2(2k)と表せるので真。kは整数です。"
+            },
+            {
+              "title": "逆は必ずしも真ではない",
+              "body": "条件と結論を入れ替えたものが逆です。元が真でも逆が真とは限りません。",
+              "lines": [
+                "偶数なら4の倍数、はn=2で成り立たない"
+              ],
+              "note": "一つでも成り立たない例があれば、すべて成り立つという主張を否定できます。"
+            },
+            {
+              "title": "対偶を使う",
+              "body": "「pならばq」の対偶は「qでないならpでない」。元と対偶の真偽は一致します。",
+              "lines": [
+                "4の倍数なら偶数 ⇔ 偶数でないなら4の倍数でない"
+              ],
+              "note": "逆「qならp」と対偶を区別しよう。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "「4の倍数なら偶数」の条件は？",
+              "answer": "4の倍数である",
+              "hint": "ならばの前。",
+              "lines": [
+                "条件pは4の倍数であることです。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-logic-0",
+              "stage": "guided"
+            },
+            {
+              "text": "「4の倍数なら偶数」の逆は？",
+              "answer": "偶数なら4の倍数",
+              "hint": "前後を入れ替える。",
+              "lines": [
+                "pならqの逆はqならpです。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-logic-1",
+              "stage": "guided"
+            },
+            {
+              "text": "「偶数なら4の倍数」を否定する整数は？",
+              "answer": "6",
+              "hint": "偶数だが4で割り切れない数。",
+              "lines": [
+                "6は偶数ですが4の倍数ではありません。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-logic-2",
+              "stage": "practice"
+            },
+            {
+              "text": "「pならばq」の対偶は？",
+              "answer": "qでないならpでない",
+              "hint": "前後を入れ替えて両方を否定。",
+              "lines": [
+                "対偶は元の命題と真偽が一致します。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-logic-3",
+              "stage": "practice"
+            },
+            {
+              "text": "整数nで「nが6の倍数ならnは3の倍数」は？",
+              "answer": "真。n=6k=3(2k)と書ける",
+              "hint": "整数倍で表す。",
+              "lines": [
+                "2kも整数なので3の倍数です。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-logic-4",
+              "stage": "practice"
+            }
+          ]
+        },
+        {
+          "id": "base-locus",
+          "title": "軌跡は条件を満たす点の集まり",
+          "origin": "existing",
+          "source": "既存の2次基礎教材",
+          "href": "./suken-course.html?topic=reasoning#view=lesson&unit=locus",
+          "steps": [
+            {
+              "title": "動く点を座標で置く",
+              "body": "条件を満たす点Pが動ける場所全体を軌跡と呼びます。まずP(x,y)と置きます。",
+              "lines": [
+                "原点から距離2 → √(x²+y²)=2"
+              ],
+              "note": "距離の公式で条件を式にします。"
+            },
+            {
+              "title": "式が示す図形を読む",
+              "body": "2乗してx²+y²=4なら、中心が原点、半径2の円です。",
+              "lines": [
+                "原点から距離2 ⇔ x²+y²=4"
+              ],
+              "note": "式から元の条件が確かに成り立つことも確認します。"
+            },
+            {
+              "title": "領域は不等式で表す",
+              "body": "円の内側は中心からの距離が半径より小さい点。境界を含むかで記号が変わります。",
+              "lines": [
+                "x²+y²<4：内側のみ ／ x²+y²≤4：円周も含む"
+              ],
+              "note": "直線y=xより上ならy>x。点を一つ代入すると側を確かめられます。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "原点から距離3の点P(x,y)の条件は？",
+              "answer": "x²+y²=9",
+              "hint": "距離を2乗。",
+              "lines": [
+                "√(x²+y²)=3を2乗します。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-locus-0",
+              "stage": "guided"
+            },
+            {
+              "text": "x²+y²=9はどんな図形？",
+              "answer": "原点中心、半径3の円",
+              "hint": "円の式と比べる。",
+              "lines": [
+                "半径の2乗が9なので半径3。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-locus-1",
+              "stage": "guided"
+            },
+            {
+              "text": "x²+y²<1に入る点は？",
+              "answer": "(0,0)",
+              "hint": "左辺が1未満か確認。",
+              "lines": [
+                "0²+0²=0<1。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-locus-2",
+              "stage": "practice"
+            },
+            {
+              "text": "y>xに含まれる点は？",
+              "answer": "(1,2)",
+              "hint": "縦座標が横より大きい。",
+              "lines": [
+                "2>1なので含まれます。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-locus-3",
+              "stage": "practice"
+            },
+            {
+              "text": "A(−1,0)、B(1,0)から等距離の点Pの軌跡は？",
+              "answer": "x=0",
+              "hint": "距離の2乗を等しく置く。",
+              "lines": [
+                "(x+1)²+y²=(x−1)²+y²より4x=0。逆にx=0なら等距離です。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-locus-4",
+              "stage": "practice"
+            }
+          ]
+        },
+        {
+          "id": "base-induction",
+          "title": "漸化式と数学的帰納法",
+          "origin": "existing",
+          "source": "既存の2次基礎教材",
+          "href": "./suken-course.html?topic=reasoning#view=lesson&unit=induction",
+          "steps": [
+            {
+              "title": "前の項から次の項へ",
+              "body": "隣り合う項の関係を表す式が漸化式です。最初の値と組にして順に決まります。",
+              "lines": [
+                "a₁=2、aₙ₊₁=aₙ+3 → 2,5,8,11,…"
+              ],
+              "note": "aₙ₊₁は次の項。等差数列ならaₙ=2+3(n−1)。"
+            },
+            {
+              "title": "すべての自然数で示す",
+              "body": "数学的帰納法では、最初が成り立つことと、ある段が成り立てば次も成り立つことを示します。",
+              "lines": [
+                "①n=1を確認 ②n=kで成り立つと仮定しn=k+1を示す"
+              ],
+              "note": "①だけ、②だけでは足りません。両方で1,2,3,…へつながります。"
+            },
+            {
+              "title": "和の式を証明する例",
+              "body": "1+…+k=k(k+1)/2と仮定して、次の項k+1を足します。",
+              "lines": [
+                "k(k+1)/2+(k+1)=(k+1)(k+2)/2"
+              ],
+              "note": "これはn=k+1の式。n=1の確認と合わせて、すべての自然数で成り立ちます。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "a₁=2、aₙ₊₁=aₙ+3。a₂は？",
+              "answer": "5",
+              "hint": "a₁に3を足す。",
+              "lines": [
+                "2+3=5。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-induction-0",
+              "stage": "guided"
+            },
+            {
+              "text": "a₁=2、aₙ₊₁=aₙ+3。a₃は？",
+              "answer": "8",
+              "hint": "a₂=5に3を足す。",
+              "lines": [
+                "5+3=8。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-induction-1",
+              "stage": "guided"
+            },
+            {
+              "text": "a₁=1、aₙ₊₁=2aₙ+1。a₃は？",
+              "answer": "7",
+              "hint": "a₂を先に求める。",
+              "lines": [
+                "a₂=3、a₃=2×3+1=7。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-induction-2",
+              "stage": "practice"
+            },
+            {
+              "text": "帰納法でn=kの成立を仮定した後に示すのは？",
+              "answer": "n=k+1での成立",
+              "hint": "次の段へのつながり。",
+              "lines": [
+                "最初の成立と、このつながりが必要です。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-induction-3",
+              "stage": "practice"
+            },
+            {
+              "text": "1+…+k=k(k+1)/2から次の和を作るとき足すのは？",
+              "answer": "k+1",
+              "hint": "次の1項。",
+              "lines": [
+                "第k+1項を足すのでk+1。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-induction-4",
+              "stage": "practice"
+            }
+          ]
+        },
+        {
+          "id": "base-rules",
+          "title": "条件整理と余りの規則",
+          "origin": "existing",
+          "source": "既存の2次基礎教材",
+          "href": "./suken-course.html?topic=reasoning#view=lesson&unit=rules",
+          "steps": [
+            {
+              "title": "個数と合計を別々に表す",
+              "body": "文章の条件を一度に考えず、それぞれ式にします。",
+              "lines": [
+                "10円玉x枚、50円玉y枚が計5枚で130円 → x+y=5、10x+50y=130"
+              ],
+              "note": "枚数は0以上の整数。答えが出たら元の条件に戻して確認します。"
+            },
+            {
+              "title": "余りだけを追う",
+              "body": "7で割ると2余る数の2乗は、7で割ると4余ります。7の倍数の部分は余りに影響しません。",
+              "lines": [
+                "(7k+2)²=7(7k²+4k)+4"
+              ],
+              "note": "この考えで大きな累乗も小さな余りで計算できます。"
+            },
+            {
+              "title": "繰り返しを見つける",
+              "body": "2の累乗を7で割った余りは2,4,1,2,4,1,…と繰り返します。",
+              "lines": [
+                "2¹→2、2²→4、2³→1、2⁴→2"
+              ],
+              "note": "指数を3で割った余りで位置を判定。3の倍数なら余り1です。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "10円玉x枚と50円玉y枚が計5枚。枚数の式は？",
+              "answer": "x+y=5",
+              "hint": "金額ではなく枚数。",
+              "lines": [
+                "2種類の枚数の和が5です。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-rules-0",
+              "stage": "guided"
+            },
+            {
+              "text": "10円玉と50円玉が計5枚で130円。50円玉は何枚？",
+              "answer": "2",
+              "hint": "全部10円なら50円。差80円を40円で割る。",
+              "lines": [
+                "50円玉1枚で40円増えるので80/40=2枚。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-rules-1",
+              "stage": "guided"
+            },
+            {
+              "text": "2⁴を7で割った余りは？",
+              "answer": "2",
+              "hint": "16=7×2+2。",
+              "lines": [
+                "余り2です。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-rules-2",
+              "stage": "practice"
+            },
+            {
+              "text": "2⁶を7で割った余りは？",
+              "answer": "1",
+              "hint": "64=7×9+1。",
+              "lines": [
+                "指数6は周期3の倍数なので余り1。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-rules-3",
+              "stage": "practice"
+            },
+            {
+              "text": "2¹⁰を7で割った余りは？",
+              "answer": "2",
+              "hint": "指数10=3×3+1。",
+              "lines": [
+                "余りの周期2,4,1の最初に戻るので2。"
+              ],
+              "check": [
+                "解答に至る式または理由を紙に書いた",
+                "説明と自分の理由を照合した"
+              ],
+              "id": "base-rules-4",
+              "stage": "practice"
+            }
+          ]
+        },
+        {
+          "topic": "reasoning",
+          "id": "inequality-proof",
+          "title": "差と等号条件で証明する",
+          "steps": [
+            {
+              "title": "差を作る",
+              "body": "結論の左辺から右辺を引き、符号が分かる形にします。",
+              "lines": [
+                "a²+b²−2ab=(a−b)²≥0"
+              ],
+              "note": "a、bが実数だから2乗は0以上です。"
+            },
+            {
+              "title": "条件を使う",
+              "body": "正の数なら積や分母の符号が決まります。",
+              "lines": [
+                "a>0、b>0 ⇒ (a−b)²/(ab)≥0"
+              ],
+              "note": "0で割らないことも確かめよう。"
+            },
+            {
+              "title": "等号まで書く",
+              "body": "差が0になる条件を元の文字で示して証明を閉じます。",
+              "lines": [
+                "(a−b)²=0 ⇔ a=b"
+              ],
+              "note": "数値をいくつか試すだけでは、すべての場合の証明になりません。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "実数a、bについて、a²+b²−2abを因数分解し、符号を述べよう。",
+              "answer": "(a−b)²≥0",
+              "hint": "平方の形にする。",
+              "lines": [
+                "a²+b²−2ab=(a−b)²",
+                "実数の2乗は0以上。"
+              ],
+              "check": [
+                "恒等式を書いた",
+                "0以上である理由を書いた"
+              ],
+              "id": "inequality-proof-0",
+              "stage": "guided"
+            },
+            {
+              "text": "a²+b²≥2abで、等号が成り立つ条件を示そう。",
+              "answer": "a=b",
+              "hint": "差が0になる条件。",
+              "lines": [
+                "等号 ⇔ (a−b)²=0 ⇔ a=b"
+              ],
+              "check": [
+                "必要十分の条件として書いた"
+              ],
+              "id": "inequality-proof-1",
+              "stage": "guided"
+            },
+            {
+              "text": "正の実数a、bについて、a/b+b/a≥2を証明し、等号条件を述べよう。",
+              "answer": "等号はa=b",
+              "hint": "左辺−2を通分。",
+              "lines": [
+                "a/b+b/a−2=(a²+b²−2ab)/(ab)=(a−b)²/(ab)",
+                "ab>0より差は0以上。等号はa=b。"
+              ],
+              "check": [
+                "ab>0を明記した",
+                "通分と等号条件を書いた"
+              ],
+              "id": "inequality-proof-2",
+              "stage": "practice"
+            },
+            {
+              "text": "実数x、yについて、2(x²+y²)≥(x+y)²を証明し、等号条件を述べよう。",
+              "answer": "等号はx=y",
+              "hint": "差を展開。",
+              "lines": [
+                "2(x²+y²)−(x+y)²=x²−2xy+y²=(x−y)²≥0",
+                "等号 ⇔ x=y"
+              ],
+              "check": [
+                "すべての実数で成立する理由を書いた",
+                "等号条件を書いた"
+              ],
+              "id": "inequality-proof-3",
+              "stage": "practice"
+            },
+            {
+              "text": "正の実数xについて、x+4/xの最小値と、そのときのxを求めよう。",
+              "answer": "最小値4、x=2",
+              "hint": "x+4/x−4を一つの分数に。",
+              "lines": [
+                "x+4/x−4=(x−2)²/x≥0",
+                "x>0であり、x=2のとき等号。最小値は4。"
+              ],
+              "check": [
+                "分母の符号を確認した",
+                "実際に最小値を取るxを書いた"
+              ],
+              "id": "inequality-proof-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-course.html?topic=reasoning"
+        },
+        {
+          "topic": "reasoning",
+          "id": "integer-proof",
+          "title": "整数の条件を文字で表す",
+          "steps": [
+            {
+              "title": "余りを表す",
+              "body": "偶数は2k、奇数は2k+1と表せます。kは整数と宣言します。",
+              "lines": [
+                "n=2k または n=2k+1（kは整数）"
+              ],
+              "note": "負の整数でも同じ表し方を使えます。"
+            },
+            {
+              "title": "連続する整数を見る",
+              "body": "連続する整数の積には、割り切れる数が含まれます。",
+              "lines": [
+                "n(n+1)：どちらか一方が偶数"
+              ],
+              "note": "「たぶん割れる」ではなく、場合を尽くして説明します。"
+            },
+            {
+              "title": "反例と証明を区別する",
+              "body": "一般に成り立つという主張を否定するには、反例一つで十分です。",
+              "lines": [
+                "n=1では、n²+n+1=3"
+              ],
+              "note": "証明には全体を覆う理由が必要です。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "奇数nを整数kで表そう。",
+              "answer": "n=2k+1（kは整数）",
+              "hint": "2で割った余りが1。",
+              "lines": [
+                "n=2k+1、k∈整数"
+              ],
+              "check": [
+                "kが整数であることを書いた"
+              ],
+              "id": "integer-proof-0",
+              "stage": "guided"
+            },
+            {
+              "text": "奇数nの2乗を、4で割った余りが分かる形にしよう。",
+              "answer": "n²=4k(k+1)+1、余り1",
+              "hint": "2k+1を2乗。",
+              "lines": [
+                "(2k+1)²=4k²+4k+1=4k(k+1)+1"
+              ],
+              "check": [
+                "4の倍数部分と余りを分けた"
+              ],
+              "id": "integer-proof-1",
+              "stage": "guided"
+            },
+            {
+              "text": "任意の整数nについて、n(n+1)が偶数であることを証明しよう。",
+              "answer": "連続する2整数の一方が偶数なので積は偶数",
+              "hint": "nの偶奇で場合分け。",
+              "lines": [
+                "nが偶数ならnが2の倍数。",
+                "nが奇数ならn+1が2の倍数。どちらの場合も積は2の倍数。"
+              ],
+              "check": [
+                "偶数と奇数の両方を扱った"
+              ],
+              "id": "integer-proof-2",
+              "stage": "practice"
+            },
+            {
+              "text": "任意の整数nについて、n³−nが6の倍数であることを証明しよう。",
+              "answer": "n³−n=n(n−1)(n+1)は6の倍数",
+              "hint": "連続する3整数。",
+              "lines": [
+                "n³−n=(n−1)n(n+1)",
+                "連続する3整数には3の倍数があり、少なくとも一つの偶数がある。",
+                "2と3は互いに素なので積は6の倍数。"
+              ],
+              "check": [
+                "2の倍数と3の倍数の両方を説明した",
+                "6の倍数につなげた"
+              ],
+              "id": "integer-proof-3",
+              "stage": "practice"
+            },
+            {
+              "text": "「すべての正の整数nでn²+n+1は素数」という主張を、反例で否定しよう。",
+              "answer": "例えばn=4：21=3×7",
+              "hint": "小さなnを順に試す。",
+              "lines": [
+                "n=4のときn²+n+1=16+4+1=21=3×7",
+                "21は素数でないので主張は成り立たない。"
+              ],
+              "check": [
+                "正の整数を選んだ",
+                "合成数であることを因数で示した"
+              ],
+              "id": "integer-proof-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-course.html?topic=reasoning"
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "関数と方程式の条件",
+      "href": "./suken-first-bridge.html?topic=equations",
+      "diagnostic": [
+        {
+          "text": "y=x²−2ax+1の軸と頂点を求めよう。",
+          "answer": "軸x=a、頂点(a,1−a²)",
+          "hint": "平方完成。",
+          "lines": [
+            "y=(x−a)²+1−a²"
+          ],
+          "check": [
+            "平方完成を示した"
+          ],
+          "id": "quadratic-parameter-0",
+          "stage": "guided",
+          "label": "2次関数の条件を決める",
+          "href": "./suken-second-bridge.html?topic=functions#view=lesson&unit=quadratic-parameter"
+        },
+        {
+          "text": "x²−2ax+1=0が異なる2実数解を持つaの範囲を求めよう。",
+          "answer": "a<−1 または a>1",
+          "hint": "D>0。",
+          "lines": [
+            "D=(−2a)²−4=4(a²−1)>0",
+            "(a−1)(a+1)>0よりa<−1またはa>1。"
+          ],
+          "check": [
+            "重解を除いた",
+            "不等式の両側の範囲を書いた"
+          ],
+          "id": "quadratic-parameter-1",
+          "stage": "guided",
+          "label": "2次関数の条件を決める",
+          "href": "./suken-second-bridge.html?topic=functions#view=lesson&unit=quadratic-parameter"
+        },
+        {
+          "text": "2ˣ=tと置くと、4ˣは何になり、tにはどんな条件がある？",
+          "answer": "4ˣ=t²、t>0",
+          "hint": "指数法則。",
+          "lines": [
+            "4ˣ=(2²)ˣ=(2ˣ)²=t²",
+            "2ˣは常に正なのでt>0。"
+          ],
+          "check": [
+            "t>0を残した"
+          ],
+          "id": "equations-domain-0",
+          "stage": "guided",
+          "label": "指数・対数・三角の解を吟味する",
+          "href": "./suken-second-bridge.html?topic=functions#view=lesson&unit=equations-domain"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "functions",
+          "id": "quadratic-parameter",
+          "title": "2次関数の条件を決める",
+          "steps": [
+            {
+              "title": "平方完成から始める",
+              "body": "軸・最小値と、解の位置を読み取ります。",
+              "lines": [
+                "x²−2ax+1=(x−a)²+1−a²"
+              ],
+              "note": "係数に文字があっても、操作は同じです。"
+            },
+            {
+              "title": "異なる実数解",
+              "body": "判別式の符号を、不等式で表します。",
+              "lines": [
+                "D=4a²−4、D>0 ⇔ |a|>1"
+              ],
+              "note": "重解を含める場合はD≥0です。"
+            },
+            {
+              "title": "定義域も見る",
+              "body": "区間の最小値は頂点か端点にあります。",
+              "lines": [
+                "0≤x≤2では、軸x=aが区間内か外かを調べる"
+              ],
+              "note": "最大値は端点を比較します。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "y=x²−2ax+1の軸と頂点を求めよう。",
+              "answer": "軸x=a、頂点(a,1−a²)",
+              "hint": "平方完成。",
+              "lines": [
+                "y=(x−a)²+1−a²"
+              ],
+              "check": [
+                "平方完成を示した"
+              ],
+              "id": "quadratic-parameter-0",
+              "stage": "guided"
+            },
+            {
+              "text": "x²−2ax+1=0が異なる2実数解を持つaの範囲を求めよう。",
+              "answer": "a<−1 または a>1",
+              "hint": "D>0。",
+              "lines": [
+                "D=(−2a)²−4=4(a²−1)>0",
+                "(a−1)(a+1)>0よりa<−1またはa>1。"
+              ],
+              "check": [
+                "重解を除いた",
+                "不等式の両側の範囲を書いた"
+              ],
+              "id": "quadratic-parameter-1",
+              "stage": "guided"
+            },
+            {
+              "text": "x²−2ax+1=0が異なる2つの正の実数解を持つaの範囲を求めよう。",
+              "answer": "a>1",
+              "hint": "判別式・解の和・積。",
+              "lines": [
+                "D>0より|a|>1。解をα、βとするとα+β=2a、αβ=1>0。",
+                "積が正なので同符号。和が正のa>0なら両方正。よってa>1。"
+              ],
+              "check": [
+                "異なる実数解の条件を書いた",
+                "和と積から正の解を説明した"
+              ],
+              "id": "quadratic-parameter-2",
+              "stage": "practice"
+            },
+            {
+              "text": "0≤x≤2でy=x²−2x+3の最大値と最小値、そのときのxを求めよう。",
+              "answer": "最大値3（x=0,2）、最小値2（x=1）",
+              "hint": "頂点と両端を比較。",
+              "lines": [
+                "y=(x−1)²+2、頂点x=1は区間内。",
+                "y(0)=3、y(1)=2、y(2)=3。"
+              ],
+              "check": [
+                "区間内の頂点を確認した",
+                "両端と等号位置を書いた"
+              ],
+              "id": "quadratic-parameter-3",
+              "stage": "practice"
+            },
+            {
+              "text": "0≤x≤2でy=x²−2ax+1の最小値m(a)を求めよう。",
+              "answer": "a<0：1、0≤a≤2：1−a²、a>2：5−4a",
+              "hint": "軸が左・中・右の3通り。",
+              "lines": [
+                "a<0では区間で増加し、x=0でm=1。",
+                "0≤a≤2ではx=aでm=1−a²。",
+                "a>2では区間で減少し、x=2でm=5−4a。"
+              ],
+              "check": [
+                "3通りの範囲を漏らさず示した",
+                "端点a=0,2で式が一致することを確認した"
+              ],
+              "id": "quadratic-parameter-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=equations"
+        },
+        {
+          "topic": "functions",
+          "id": "equations-domain",
+          "title": "指数・対数・三角の解を吟味する",
+          "steps": [
+            {
+              "title": "指数は置き換える",
+              "body": "2ˣ=tと置いたらt>0を残します。",
+              "lines": [
+                "4ˣ=(2ˣ)²=t²、t>0"
+              ],
+              "note": "tの解をそのままxの解にしないように。"
+            },
+            {
+              "title": "対数の真数条件",
+              "body": "対数をまとめる前に、各真数が正である条件を書きます。",
+              "lines": [
+                "log₂(x−1)+log₂(x+1)：x>1"
+              ],
+              "note": "積が正だけでは元の条件を満たすとは限りません。"
+            },
+            {
+              "title": "三角関数は角の範囲",
+              "body": "置き換えた値の範囲と、角の定義域を照合します。",
+              "lines": [
+                "sinθ+cosθ=√2 sin(θ+π/4)"
+              ],
+              "note": "角の範囲によって解の個数が変わります。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "2ˣ=tと置くと、4ˣは何になり、tにはどんな条件がある？",
+              "answer": "4ˣ=t²、t>0",
+              "hint": "指数法則。",
+              "lines": [
+                "4ˣ=(2²)ˣ=(2ˣ)²=t²",
+                "2ˣは常に正なのでt>0。"
+              ],
+              "check": [
+                "t>0を残した"
+              ],
+              "id": "equations-domain-0",
+              "stage": "guided"
+            },
+            {
+              "text": "log₂(x−1)+log₂(x+1)の真数条件を求めよう。",
+              "answer": "x>1",
+              "hint": "両方を正に。",
+              "lines": [
+                "x−1>0かつx+1>0よりx>1。"
+              ],
+              "check": [
+                "条件をかつで結んだ"
+              ],
+              "id": "equations-domain-1",
+              "stage": "guided"
+            },
+            {
+              "text": "4ˣ−5·2ˣ+4=0を解こう。",
+              "answer": "x=0,2",
+              "hint": "t=2ˣ>0。",
+              "lines": [
+                "t²−5t+4=(t−1)(t−4)=0",
+                "t=1,4はいずれも正。2ˣ=1,4よりx=0,2。"
+              ],
+              "check": [
+                "置き換えの条件を書いた",
+                "xに戻した"
+              ],
+              "id": "equations-domain-2",
+              "stage": "practice"
+            },
+            {
+              "text": "log₂(x−1)+log₂(x+1)=3を解こう。",
+              "answer": "x=3",
+              "hint": "真数条件を先に書く。",
+              "lines": [
+                "真数条件はx>1。",
+                "log₂((x−1)(x+1))=3よりx²−1=8、x=±3。",
+                "x>1を満たすのはx=3。"
+              ],
+              "check": [
+                "真数条件を書いた",
+                "負の候補を除いた"
+              ],
+              "id": "equations-domain-3",
+              "stage": "practice"
+            },
+            {
+              "text": "0≤θ<2πでsinθ+cosθ=1を解こう。",
+              "answer": "θ=0,π/2",
+              "hint": "合成し、角の範囲に戻す。",
+              "lines": [
+                "√2 sin(θ+π/4)=1よりsin(θ+π/4)=1/√2。",
+                "π/4≤θ+π/4<9π/4なのでθ+π/4=π/4,3π/4。",
+                "θ=0,π/2。"
+              ],
+              "check": [
+                "範囲を移して調べた",
+                "すべての解を元の範囲で確認した"
+              ],
+              "id": "equations-domain-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=equations"
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "軌跡と最短距離",
+      "href": "./suken-first-bridge.html?topic=geometry",
+      "diagnostic": [
+        {
+          "text": "A(1,2)から距離3の点P(x,y)の軌跡を求めよう。",
+          "answer": "(x−1)²+(y−2)²=9",
+          "hint": "距離公式。",
+          "lines": [
+            "PA²=(x−1)²+(y−2)²=3²",
+            "逆にこの式ならPA=3。"
+          ],
+          "check": [
+            "中心と半径の条件を式にした"
+          ],
+          "id": "locus-conditions-0",
+          "stage": "guided",
+          "label": "軌跡を式と条件で表す",
+          "href": "./suken-second-bridge.html?topic=geometry#view=lesson&unit=locus-conditions"
+        },
+        {
+          "text": "x²+y²−4x+2y=4の円の中心と半径を求めよう。",
+          "answer": "中心(2,−1)、半径3",
+          "hint": "x、yそれぞれ平方完成。",
+          "lines": [
+            "(x−2)²+(y+1)²=4+4+1=9"
+          ],
+          "check": [
+            "平方完成した",
+            "半径を9でなく3とした"
+          ],
+          "id": "locus-conditions-1",
+          "stage": "guided",
+          "label": "軌跡を式と条件で表す",
+          "href": "./suken-second-bridge.html?topic=geometry#view=lesson&unit=locus-conditions"
+        },
+        {
+          "text": "A(1,2)をx軸に関して対称移動した点を求めよう。",
+          "answer": "A′(1,−2)",
+          "hint": "y座標の符号だけ変える。",
+          "lines": [
+            "(x,y)→(x,−y)よりA′(1,−2)。"
+          ],
+          "check": [
+            "x座標を保った"
+          ],
+          "id": "reflection-distance-0",
+          "stage": "guided",
+          "label": "対称移動で最短距離を考える",
+          "href": "./suken-second-bridge.html?topic=geometry#view=lesson&unit=reflection-distance"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "geometry",
+          "id": "locus-conditions",
+          "title": "軌跡を式と条件で表す",
+          "steps": [
+            {
+              "title": "動く点を置く",
+              "body": "点Pを(x,y)とし、距離の条件を方程式にします。",
+              "lines": [
+                "PA²=(x−a)²+(y−b)²"
+              ],
+              "note": "距離は非負なので等距離の条件は2乗してよいです。"
+            },
+            {
+              "title": "円・直線に整理する",
+              "body": "展開してから平方完成や整理をします。",
+              "lines": [
+                "x²+y²−4x+2y=4 ⇒ (x−2)²+(y+1)²=9"
+              ],
+              "note": "中心と半径が分かります。"
+            },
+            {
+              "title": "逆も確認する",
+              "body": "得た式を満たす点が元の条件を満たすことも確かめます。",
+              "lines": [
+                "PA=PB ⇔ PA²=PB²"
+              ],
+              "note": "動ける範囲や除外点があれば付け加えます。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A(1,2)から距離3の点P(x,y)の軌跡を求めよう。",
+              "answer": "(x−1)²+(y−2)²=9",
+              "hint": "距離公式。",
+              "lines": [
+                "PA²=(x−1)²+(y−2)²=3²",
+                "逆にこの式ならPA=3。"
+              ],
+              "check": [
+                "中心と半径の条件を式にした"
+              ],
+              "id": "locus-conditions-0",
+              "stage": "guided"
+            },
+            {
+              "text": "x²+y²−4x+2y=4の円の中心と半径を求めよう。",
+              "answer": "中心(2,−1)、半径3",
+              "hint": "x、yそれぞれ平方完成。",
+              "lines": [
+                "(x−2)²+(y+1)²=4+4+1=9"
+              ],
+              "check": [
+                "平方完成した",
+                "半径を9でなく3とした"
+              ],
+              "id": "locus-conditions-1",
+              "stage": "guided"
+            },
+            {
+              "text": "A(0,0)、B(4,2)から等距離の点Pの軌跡を求めよう。",
+              "answer": "2x+y=5",
+              "hint": "PA²=PB²。",
+              "lines": [
+                "x²+y²=(x−4)²+(y−2)²",
+                "8x+4y=20より2x+y=5。",
+                "距離は非負なので逆も成り立ち、この直線全体が軌跡。"
+              ],
+              "check": [
+                "両距離を式にした",
+                "式の逆も確認した"
+              ],
+              "id": "locus-conditions-2",
+              "stage": "practice"
+            },
+            {
+              "text": "A(0,0)、B(3,0)について、PA=2PBとなる点Pの軌跡を求めよう。",
+              "answer": "(x−4)²+y²=4",
+              "hint": "比を2乗すると4倍。",
+              "lines": [
+                "x²+y²=4((x−3)²+y²)",
+                "3x²+3y²−24x+36=0より(x−4)²+y²=4。",
+                "両距離は非負なので逆も成り立つ。"
+              ],
+              "check": [
+                "比を2乗した",
+                "中心(4,0)、半径2も確認した"
+              ],
+              "id": "locus-conditions-3",
+              "stage": "practice"
+            },
+            {
+              "text": "直線y=2x上の点PとA(0,0)の中点Mの軌跡を求めよう。",
+              "answer": "直線y=2x全体",
+              "hint": "P=(t,2t)と置く。",
+              "lines": [
+                "P=(t,2t)、tは任意の実数。M=(t/2,t)。",
+                "M=(x,y)ならy=2x。逆に直線上の点はt=2xで得られる。"
+              ],
+              "check": [
+                "パラメータの範囲を書いた",
+                "直線全体が得られる理由を書いた"
+              ],
+              "id": "locus-conditions-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=geometry"
+        },
+        {
+          "topic": "geometry",
+          "id": "reflection-distance",
+          "title": "対称移動で最短距離を考える",
+          "steps": [
+            {
+              "title": "折れ線を直線にする",
+              "body": "直線上の点Qを通る最短経路では、片方の点を直線に関して反転させます。",
+              "lines": [
+                "QA=QA′ ⇒ QA+QB=QA′+QB≥A′B"
+              ],
+              "note": "最後は三角不等式で比較します。"
+            },
+            {
+              "title": "交点を求める",
+              "body": "反転した点ともう一方を結ぶ直線を、境界の直線と連立します。",
+              "lines": [
+                "A(1,2)のx軸対称はA′(1,−2)"
+              ],
+              "note": "交点が指定された範囲に含まれるかも見ます。"
+            },
+            {
+              "title": "等号の成立を確認",
+              "body": "反転した点ともう一方を結ぶ線分上にQがあるとき等号です。",
+              "lines": [
+                "A′、Q、Bがこの順に一直線上"
+              ],
+              "note": "直線への距離では絶対値を忘れないで。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A(1,2)をx軸に関して対称移動した点を求めよう。",
+              "answer": "A′(1,−2)",
+              "hint": "y座標の符号だけ変える。",
+              "lines": [
+                "(x,y)→(x,−y)よりA′(1,−2)。"
+              ],
+              "check": [
+                "x座標を保った"
+              ],
+              "id": "reflection-distance-0",
+              "stage": "guided"
+            },
+            {
+              "text": "A′(1,−2)、B(5,2)を通る直線を求めよう。",
+              "answer": "y=x−3",
+              "hint": "傾きは(2+2)/(5−1)。",
+              "lines": [
+                "傾きは1。y+2=x−1よりy=x−3。"
+              ],
+              "check": [
+                "2点を通ることを確認した"
+              ],
+              "id": "reflection-distance-1",
+              "stage": "guided"
+            },
+            {
+              "text": "Qがx軸上を動くとき、A(1,2)、B(5,2)に対するQA+QBの最小値とQを求めよう。",
+              "answer": "最小値4√2、Q(3,0)",
+              "hint": "Aをx軸対称にする。",
+              "lines": [
+                "A′(1,−2)とするとQA=QA′。QA+QB≥A′B=√(4²+4²)=4√2。",
+                "線分A′Bとx軸の交点はy=x−3からQ(3,0)。ここで等号。"
+              ],
+              "check": [
+                "三角不等式を書いた",
+                "等号が成立する交点を求めた"
+              ],
+              "id": "reflection-distance-2",
+              "stage": "practice"
+            },
+            {
+              "text": "A(−1,2)を直線y=2x−1に関して対称移動した点Pを求めよう。",
+              "answer": "P(3,0)",
+              "hint": "APは垂直、中点は直線上。",
+              "lines": [
+                "P=(a,b)。垂直条件よりa+2b=3。",
+                "中点((a−1)/2,(b+2)/2)が直線上なので2a−b=6。",
+                "連立してa=3、b=0。"
+              ],
+              "check": [
+                "垂直条件と中点条件を書いた",
+                "連立の結果を確認した"
+              ],
+              "id": "reflection-distance-3",
+              "stage": "practice"
+            },
+            {
+              "text": "Qが直線y=2x−1上を動くとき、A(−1,2)、B(1,6)に対するQA+QBの最小値とQを求めよう。",
+              "answer": "最小値2√10、Q(2,3)",
+              "hint": "Aの反転はP(3,0)。",
+              "lines": [
+                "QA=QPよりQA+QB≥PB=√((1−3)²+6²)=2√10。",
+                "PBの直線はy=−3x+9。y=2x−1と連立してQ(2,3)。",
+                "Qは線分PB上にあり、等号が成立。"
+              ],
+              "check": [
+                "反転による距離の一致を説明した",
+                "線分上の交点で等号になることを確認した"
+              ],
+              "id": "reflection-distance-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=geometry"
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "title": "微分・積分の活用",
+      "href": "./suken-first-bridge.html?topic=calculus",
+      "diagnostic": [
+        {
+          "text": "f(x)=x³−3xの導関数と、その零点を求めよう。",
+          "answer": "f′(x)=3x²−3、x=±1",
+          "hint": "微分して因数分解。",
+          "lines": [
+            "f′(x)=3(x−1)(x+1)=0よりx=−1,1。"
+          ],
+          "check": [
+            "零点を両方書いた"
+          ],
+          "id": "derivative-reasoning-0",
+          "stage": "guided",
+          "label": "接線・増減から結論を出す",
+          "href": "./suken-second-bridge.html?topic=calculus#view=lesson&unit=derivative-reasoning"
+        },
+        {
+          "text": "f(x)=x³−3xの極大値と極小値を求めよう。",
+          "answer": "極大値2（x=−1）、極小値−2（x=1）",
+          "hint": "導関数の符号の変化。",
+          "lines": [
+            "f′はx<−1で正、−1<x<1で負、x>1で正。",
+            "x=−1で増加から減少、f(−1)=2。x=1で減少から増加、f(1)=−2。"
+          ],
+          "check": [
+            "符号の変化で極値を判断した"
+          ],
+          "id": "derivative-reasoning-1",
+          "stage": "guided",
+          "label": "接線・増減から結論を出す",
+          "href": "./suken-second-bridge.html?topic=calculus#view=lesson&unit=derivative-reasoning"
+        },
+        {
+          "text": "y=x²とy=2xの交点を求めよう。",
+          "answer": "(0,0)、(2,4)",
+          "hint": "x²−2x=0。",
+          "lines": [
+            "x(x−2)=0よりx=0,2。対応するyは0,4。"
+          ],
+          "check": [
+            "y座標も求めた"
+          ],
+          "id": "area-integral-0",
+          "stage": "guided",
+          "label": "面積を上下の差で求める",
+          "href": "./suken-second-bridge.html?topic=calculus#view=lesson&unit=area-integral"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "calculus",
+          "id": "derivative-reasoning",
+          "title": "接線・増減から結論を出す",
+          "steps": [
+            {
+              "title": "接線には点と傾き",
+              "body": "点の座標と微分係数を使います。",
+              "lines": [
+                "y−f(a)=f′(a)(x−a)"
+              ],
+              "note": "微分係数は接線の傾きです。"
+            },
+            {
+              "title": "符号を表にする",
+              "body": "導関数が0になる点で区間を分け、符号を調べます。",
+              "lines": [
+                "f(x)=x³−3x、f′(x)=3(x−1)(x+1)"
+              ],
+              "note": "極値だけでなく、増減の区間を書こう。"
+            },
+            {
+              "title": "交点の数を読む",
+              "body": "単調な区間ごとに、端の値と水平線を比較します。",
+              "lines": [
+                "f(−1)=2、f(1)=−2"
+              ],
+              "note": "極値と同じ高さでは接するので、異なる解の数が変わります。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "f(x)=x³−3xの導関数と、その零点を求めよう。",
+              "answer": "f′(x)=3x²−3、x=±1",
+              "hint": "微分して因数分解。",
+              "lines": [
+                "f′(x)=3(x−1)(x+1)=0よりx=−1,1。"
+              ],
+              "check": [
+                "零点を両方書いた"
+              ],
+              "id": "derivative-reasoning-0",
+              "stage": "guided"
+            },
+            {
+              "text": "f(x)=x³−3xの極大値と極小値を求めよう。",
+              "answer": "極大値2（x=−1）、極小値−2（x=1）",
+              "hint": "導関数の符号の変化。",
+              "lines": [
+                "f′はx<−1で正、−1<x<1で負、x>1で正。",
+                "x=−1で増加から減少、f(−1)=2。x=1で減少から増加、f(1)=−2。"
+              ],
+              "check": [
+                "符号の変化で極値を判断した"
+              ],
+              "id": "derivative-reasoning-1",
+              "stage": "guided"
+            },
+            {
+              "text": "y=x³−3xのx=2における接線を求めよう。",
+              "answer": "y=9x−16",
+              "hint": "点(2,f(2))と傾き。",
+              "lines": [
+                "f(2)=2、f′(2)=9。",
+                "y−2=9(x−2)よりy=9x−16。"
+              ],
+              "check": [
+                "点と傾きの両方を使った"
+              ],
+              "id": "derivative-reasoning-2",
+              "stage": "practice"
+            },
+            {
+              "text": "x³−3x=aが異なる3実数解を持つaの範囲を、増減を使って求めよう。",
+              "answer": "−2<a<2",
+              "hint": "極大・極小の間の水平線。",
+              "lines": [
+                "f′の符号は正・負・正、極大値2、極小値−2。",
+                "−2<a<2なら3つの単調区間でそれぞれ1交点。",
+                "a=±2では接して異なる解は2つ、範囲外では1つ。"
+              ],
+              "check": [
+                "極値と交点を関連付けた",
+                "境界を除いた理由を書いた"
+              ],
+              "id": "derivative-reasoning-3",
+              "stage": "practice"
+            },
+            {
+              "text": "0≤x≤3でf(x)=x³−3xの最大値と最小値、そのときのxを求めよう。",
+              "answer": "最大値18（x=3）、最小値−2（x=1）",
+              "hint": "区間内の停留点と端点。",
+              "lines": [
+                "停留点は区間内ではx=1。",
+                "f(0)=0、f(1)=−2、f(3)=18。増減と比較から結論。"
+              ],
+              "check": [
+                "区間外のx=−1を除いた",
+                "端点も比較した"
+              ],
+              "id": "derivative-reasoning-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=calculus"
+        },
+        {
+          "topic": "calculus",
+          "id": "area-integral",
+          "title": "面積を上下の差で求める",
+          "steps": [
+            {
+              "title": "交点が積分の端",
+              "body": "曲線の式を等置して交点を求めます。",
+              "lines": [
+                "x²=2x ⇒ x=0,2"
+              ],
+              "note": "どちらが上かを区間内で調べます。"
+            },
+            {
+              "title": "上から下を引く",
+              "body": "面積は負にならない差を積分します。",
+              "lines": [
+                "0≤x≤2では2x≥x²、S=∫₀²(2x−x²)dx"
+              ],
+              "note": "上下が変わるなら交点で区間を分けます。"
+            },
+            {
+              "title": "原始関数と端点",
+              "body": "原始関数に上端と下端を代入して引きます。",
+              "lines": [
+                "S=[x²−x³/3]₀²=4/3"
+              ],
+              "note": "図と式の両方で囲まれた範囲を確認しよう。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "y=x²とy=2xの交点を求めよう。",
+              "answer": "(0,0)、(2,4)",
+              "hint": "x²−2x=0。",
+              "lines": [
+                "x(x−2)=0よりx=0,2。対応するyは0,4。"
+              ],
+              "check": [
+                "y座標も求めた"
+              ],
+              "id": "area-integral-0",
+              "stage": "guided"
+            },
+            {
+              "text": "0≤x≤2で、2x−x²が0以上である理由を示そう。",
+              "answer": "2x−x²=x(2−x)≥0",
+              "hint": "各因数の符号。",
+              "lines": [
+                "x≥0かつ2−x≥0なので積は0以上。"
+              ],
+              "check": [
+                "区間条件を使った"
+              ],
+              "id": "area-integral-1",
+              "stage": "guided"
+            },
+            {
+              "text": "y=x²とy=2xで囲まれた図形の面積を求めよう。",
+              "answer": "4/3",
+              "hint": "上−下を積分。",
+              "lines": [
+                "交点はx=0,2、区間内では2x≥x²。",
+                "S=∫₀²(2x−x²)dx=[x²−x³/3]₀²=4−8/3=4/3。"
+              ],
+              "check": [
+                "交点と上下関係を示した",
+                "上端−下端で計算した"
+              ],
+              "id": "area-integral-2",
+              "stage": "practice"
+            },
+            {
+              "text": "y=x²−1とx軸、x=−2、x=2で囲まれる部分の面積の合計を求めよう。",
+              "answer": "4",
+              "hint": "x=±1で符号が変わる。",
+              "lines": [
+                "偶関数なのでS=2{∫₀¹(1−x²)dx+∫₁²(x²−1)dx}。",
+                "=2{2/3+4/3}=4。"
+              ],
+              "check": [
+                "符号の変わる点で分けた",
+                "符号付き積分と面積を区別した"
+              ],
+              "id": "area-integral-3",
+              "stage": "practice"
+            },
+            {
+              "text": "y=x²と、そのx=1での接線、x=0、x=2で囲まれる部分の面積を求めよう。",
+              "answer": "2/3",
+              "hint": "接線を出し、曲線−接線。",
+              "lines": [
+                "接線はy−1=2(x−1)、y=2x−1。",
+                "x²−(2x−1)=(x−1)²≥0。",
+                "S=∫₀²(x−1)²dx=[(x−1)³/3]₀²=2/3。"
+              ],
+              "check": [
+                "接線を正しく求めた",
+                "曲線の方が上と示した"
+              ],
+              "id": "area-integral-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=calculus"
+        }
+      ]
+    },
+    {
+      "id": "sequences",
+      "title": "数列・帰納法・和",
+      "href": "./suken-first-bridge.html?topic=sequences",
+      "diagnostic": [
+        {
+          "text": "a₁=2、aₙ₊₁=3aₙ+2のa₂、a₃を求めよう。",
+          "answer": "a₂=8、a₃=26",
+          "hint": "順に代入。",
+          "lines": [
+            "a₂=3·2+2=8、a₃=3·8+2=26。"
+          ],
+          "check": [
+            "前の項を使った"
+          ],
+          "id": "recurrence-transform-0",
+          "stage": "guided",
+          "label": "漸化式を等比数列に変える",
+          "href": "./suken-second-bridge.html?topic=sequences#view=lesson&unit=recurrence-transform"
+        },
+        {
+          "text": "aₙ₊₁=3aₙ+2をaₙ₊₁+c=3(aₙ+c)とするcを求めよう。",
+          "answer": "c=1",
+          "hint": "定数項を比較。",
+          "lines": [
+            "2+c=3cよりc=1。"
+          ],
+          "check": [
+            "文字の係数と定数を比較した"
+          ],
+          "id": "recurrence-transform-1",
+          "stage": "guided",
+          "label": "漸化式を等比数列に変える",
+          "href": "./suken-second-bridge.html?topic=sequences#view=lesson&unit=recurrence-transform"
+        },
+        {
+          "text": "1+3+…+(2n−1)=n²のn=1の成立を確認しよう。",
+          "answer": "左辺=1、右辺=1²=1",
+          "hint": "最初の項だけ。",
+          "lines": [
+            "n=1では左辺1、右辺1。よって成立。"
+          ],
+          "check": [
+            "始点を確認した"
+          ],
+          "id": "induction-sums-0",
+          "stage": "guided",
+          "label": "和を予想し、帰納法で示す",
+          "href": "./suken-second-bridge.html?topic=sequences#view=lesson&unit=induction-sums"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "sequences",
+          "id": "recurrence-transform",
+          "title": "漸化式を等比数列に変える",
+          "steps": [
+            {
+              "title": "最初の項を試す",
+              "body": "初項と漸化式から2、3項を計算し、構造を見ます。",
+              "lines": [
+                "a₁=2、aₙ₊₁=3aₙ+2 ⇒ a₂=8、a₃=26"
+              ],
+              "note": "少数の例は予想の材料で、一般式の証明とは別です。"
+            },
+            {
+              "title": "定数をずらす",
+              "body": "aₙ₊₁+c=3(aₙ+c)となるcを探します。",
+              "lines": [
+                "2+c=3c ⇒ c=1"
+              ],
+              "note": "新しい数列の初項も計算します。"
+            },
+            {
+              "title": "元に戻す",
+              "body": "bₙ=aₙ+1なら、bₙは初項3、公比3の等比数列です。",
+              "lines": [
+                "bₙ=3ⁿ、aₙ=3ⁿ−1"
+              ],
+              "note": "初項と漸化式の両方で確かめよう。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "a₁=2、aₙ₊₁=3aₙ+2のa₂、a₃を求めよう。",
+              "answer": "a₂=8、a₃=26",
+              "hint": "順に代入。",
+              "lines": [
+                "a₂=3·2+2=8、a₃=3·8+2=26。"
+              ],
+              "check": [
+                "前の項を使った"
+              ],
+              "id": "recurrence-transform-0",
+              "stage": "guided"
+            },
+            {
+              "text": "aₙ₊₁=3aₙ+2をaₙ₊₁+c=3(aₙ+c)とするcを求めよう。",
+              "answer": "c=1",
+              "hint": "定数項を比較。",
+              "lines": [
+                "2+c=3cよりc=1。"
+              ],
+              "check": [
+                "文字の係数と定数を比較した"
+              ],
+              "id": "recurrence-transform-1",
+              "stage": "guided"
+            },
+            {
+              "text": "a₁=2、aₙ₊₁=3aₙ+2の一般項を求めよう。",
+              "answer": "aₙ=3ⁿ−1",
+              "hint": "bₙ=aₙ+1。",
+              "lines": [
+                "bₙ₊₁=3bₙ、b₁=3よりbₙ=3·3ⁿ⁻¹=3ⁿ。",
+                "aₙ=bₙ−1=3ⁿ−1。"
+              ],
+              "check": [
+                "新しい数列の初項を書いた",
+                "元の数列に戻した"
+              ],
+              "id": "recurrence-transform-2",
+              "stage": "practice"
+            },
+            {
+              "text": "a₁=1、aₙ₊₁=2aₙ+3の一般項を求めよう。",
+              "answer": "aₙ=2ⁿ⁺¹−3",
+              "hint": "aₙ+3に注目。",
+              "lines": [
+                "aₙ₊₁+3=2(aₙ+3)、a₁+3=4。",
+                "aₙ+3=4·2ⁿ⁻¹=2ⁿ⁺¹よりaₙ=2ⁿ⁺¹−3。"
+              ],
+              "check": [
+                "ずらす定数を示した",
+                "初項を照合した"
+              ],
+              "id": "recurrence-transform-3",
+              "stage": "practice"
+            },
+            {
+              "text": "a₁=2、aₙ₊₁=3aₙ+2について、初項から第n項までの和を求めよう。",
+              "answer": "3(3ⁿ−1)/2−n",
+              "hint": "一般項を等比部分と定数に分ける。",
+              "lines": [
+                "aₖ=3ᵏ−1なのでSₙ=Σₖ₌₁ⁿ3ᵏ−n。",
+                "Sₙ=3(3ⁿ−1)/(3−1)−n=3(3ⁿ−1)/2−n。"
+              ],
+              "check": [
+                "定数の和がnであることを使った",
+                "n=1で2になることを確認した"
+              ],
+              "id": "recurrence-transform-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=sequences"
+        },
+        {
+          "topic": "sequences",
+          "id": "induction-sums",
+          "title": "和を予想し、帰納法で示す",
+          "steps": [
+            {
+              "title": "初めの一歩",
+              "body": "すべての正整数nに関する主張では、まずn=1を確かめます。",
+              "lines": [
+                "1+3+…+(2n−1)=n²：n=1で1=1"
+              ],
+              "note": "成立する始点が必要です。"
+            },
+            {
+              "title": "kからk+1へ",
+              "body": "n=kで成立すると仮定し、次の項を足します。",
+              "lines": [
+                "k²+(2k+1)=(k+1)²"
+              ],
+              "note": "仮定をどこで使ったか分かる答案にします。"
+            },
+            {
+              "title": "差で消える和",
+              "body": "部分分数分解すると、中間の項が打ち消し合います。",
+              "lines": [
+                "1/{k(k+1)}=1/k−1/(k+1)"
+              ],
+              "note": "最初と最後の項を残そう。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "1+3+…+(2n−1)=n²のn=1の成立を確認しよう。",
+              "answer": "左辺=1、右辺=1²=1",
+              "hint": "最初の項だけ。",
+              "lines": [
+                "n=1では左辺1、右辺1。よって成立。"
+              ],
+              "check": [
+                "始点を確認した"
+              ],
+              "id": "induction-sums-0",
+              "stage": "guided"
+            },
+            {
+              "text": "n=kで奇数の和がk²なら、次の項を足した和を求めよう。",
+              "answer": "(k+1)²",
+              "hint": "第k+1項は2k+1。",
+              "lines": [
+                "k²+(2k+1)=k²+2k+1=(k+1)²。"
+              ],
+              "check": [
+                "第k+1項を正しく表した"
+              ],
+              "id": "induction-sums-1",
+              "stage": "guided"
+            },
+            {
+              "text": "1+3+…+(2n−1)=n²を数学的帰納法で証明しよう。",
+              "answer": "すべての正整数nで成立",
+              "hint": "初期確認、仮定、次の段階、結論。",
+              "lines": [
+                "n=1では1=1²で成立。",
+                "n=kで成立すると仮定する。n=k+1の和はk²+(2k+1)=(k+1)²。",
+                "したがって数学的帰納法よりすべての正整数nで成立。"
+              ],
+              "check": [
+                "初期確認を書いた",
+                "仮定から次の段階を導いた",
+                "全体の結論を書いた"
+              ],
+              "id": "induction-sums-2",
+              "stage": "practice"
+            },
+            {
+              "text": "Σₖ₌₁ⁿ1/{k(k+1)}を求めよう。",
+              "answer": "n/(n+1)",
+              "hint": "差に分解して消す。",
+              "lines": [
+                "1/{k(k+1)}=1/k−1/(k+1)。",
+                "和は(1−1/2)+(1/2−1/3)+…+(1/n−1/(n+1))。",
+                "=1−1/(n+1)=n/(n+1)。"
+              ],
+              "check": [
+                "中間項が消える様子を示した",
+                "終わりの項を残した"
+              ],
+              "id": "induction-sums-3",
+              "stage": "practice"
+            },
+            {
+              "text": "2ⁿ≥n+1がすべての正整数nで成り立つことを帰納法で示そう。",
+              "answer": "すべての正整数nで成立",
+              "hint": "仮定を2倍し、2k+2とk+2を比較。",
+              "lines": [
+                "n=1では2≥2で成立。",
+                "n=kで2ᵏ≥k+1と仮定すると、2ᵏ⁺¹≥2k+2≥k+2（k≥1）。",
+                "よってn=k+1でも成立し、帰納法から結論。"
+              ],
+              "check": [
+                "初期確認をした",
+                "k≥1を使った比較を書いた",
+                "帰納法の結論を書いた"
+              ],
+              "id": "induction-sums-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=sequences"
+        }
+      ]
+    },
+    {
+      "id": "vectors",
+      "title": "ベクトルと図形",
+      "href": "./suken-first-bridge.html?topic=vectors",
+      "diagnostic": [
+        {
+          "text": "A(0,0)、B(6,3)の線分をAP:PB=1:2に内分するPを求めよう。",
+          "answer": "P(2,1)",
+          "hint": "P=(2A+B)/3。",
+          "lines": [
+            "P=((2·0+6)/3,(2·0+3)/3)=(2,1)。"
+          ],
+          "check": [
+            "比と係数を逆に対応させた"
+          ],
+          "id": "affine-intersection-0",
+          "stage": "guided",
+          "label": "ベクトルで分点・交点を求める",
+          "href": "./suken-second-bridge.html?topic=vectors#view=lesson&unit=affine-intersection"
+        },
+        {
+          "text": "A(1,2)、B(5,4)を通る直線上の点をtで表そう。",
+          "answer": "(1+4t,2+2t)、tは実数",
+          "hint": "A+t(B−A)。",
+          "lines": [
+            "B−A=(4,2)よりP=(1,2)+t(4,2)。"
+          ],
+          "check": [
+            "tの範囲を示した"
+          ],
+          "id": "affine-intersection-1",
+          "stage": "guided",
+          "label": "ベクトルで分点・交点を求める",
+          "href": "./suken-second-bridge.html?topic=vectors#view=lesson&unit=affine-intersection"
+        },
+        {
+          "text": "a=(1,2)、b=(3,−1)の内積を求めよう。",
+          "answer": "1",
+          "hint": "成分の積を足す。",
+          "lines": [
+            "a·b=1·3+2·(−1)=1。"
+          ],
+          "check": [
+            "成分ごとに掛けた"
+          ],
+          "id": "inner-product-geometry-0",
+          "stage": "guided",
+          "label": "内積で角・垂直・面積を求める",
+          "href": "./suken-second-bridge.html?topic=vectors#view=lesson&unit=inner-product-geometry"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "vectors",
+          "id": "affine-intersection",
+          "title": "ベクトルで分点・交点を求める",
+          "steps": [
+            {
+              "title": "位置ベクトルで表す",
+              "body": "内分は両端のベクトルの重み付き平均です。",
+              "lines": [
+                "AP:PB=m:n ⇒ p=(na+mb)/(m+n)"
+              ],
+              "note": "反対側の比が係数になります。"
+            },
+            {
+              "title": "直線上の点を表す",
+              "body": "直線上なら一つのパラメータで表せます。",
+              "lines": [
+                "p=a+t(b−a)=(1−t)a+tb"
+              ],
+              "note": "線分上なら0≤t≤1。"
+            },
+            {
+              "title": "交点は2通りの表現",
+              "body": "異なる直線から表した同じベクトルを等置し、独立な係数を比較します。",
+              "lines": [
+                "s b=(1−t)c+t d"
+              ],
+              "note": "係数比較は基準ベクトルが平行でないときに使います。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A(0,0)、B(6,3)の線分をAP:PB=1:2に内分するPを求めよう。",
+              "answer": "P(2,1)",
+              "hint": "P=(2A+B)/3。",
+              "lines": [
+                "P=((2·0+6)/3,(2·0+3)/3)=(2,1)。"
+              ],
+              "check": [
+                "比と係数を逆に対応させた"
+              ],
+              "id": "affine-intersection-0",
+              "stage": "guided"
+            },
+            {
+              "text": "A(1,2)、B(5,4)を通る直線上の点をtで表そう。",
+              "answer": "(1+4t,2+2t)、tは実数",
+              "hint": "A+t(B−A)。",
+              "lines": [
+                "B−A=(4,2)よりP=(1,2)+t(4,2)。"
+              ],
+              "check": [
+                "tの範囲を示した"
+              ],
+              "id": "affine-intersection-1",
+              "stage": "guided"
+            },
+            {
+              "text": "A(0,0)、B(6,0)、C(0,6)で、BCの中点MとCAの中点Nを使い、AMとBNの交点Gを求めよう。",
+              "answer": "G(2,2)",
+              "hint": "AMとBNをそれぞれ表す。",
+              "lines": [
+                "M(3,3)、N(0,3)。AM上ではG=(3s,3s)。",
+                "BN上ではG=(6−6t,3t)。3s=3tと3s=6−6tよりs=t=2/3。",
+                "G=(2,2)。"
+              ],
+              "check": [
+                "両直線の表現を書いた",
+                "連立で交点を求めた"
+              ],
+              "id": "affine-intersection-2",
+              "stage": "practice"
+            },
+            {
+              "text": "平行でないベクトルb、cで、A=0、B=b、C=c。DはBCをBD:DC=2:1に内分する。ADと、CAの中点Nを通るBNの交点Pをb、cで表そう。",
+              "answer": "p=(b+2c)/5",
+              "hint": "d=(b+2c)/3、n=c/2。",
+              "lines": [
+                "p=s(b+2c)/3=(1−t)b+(t/2)c。",
+                "s/3=1−t、2s/3=t/2よりt=4s/3、s=3/5。",
+                "p=(b+2c)/5。"
+              ],
+              "check": [
+                "b、cが平行でないので係数比較できると説明した",
+                "分点を正しく表した"
+              ],
+              "id": "affine-intersection-3",
+              "stage": "practice"
+            },
+            {
+              "text": "空間のA(1,0,2)、B(3,4,0)、C(−1,2,4)の重心Gを求めよう。",
+              "answer": "G(1,2,2)",
+              "hint": "3点の座標の平均。",
+              "lines": [
+                "G=((1+3−1)/3,(0+4+2)/3,(2+0+4)/3)=(1,2,2)。"
+              ],
+              "check": [
+                "3成分を平均した",
+                "各中線を2:1に内分する点であることを確認した"
+              ],
+              "id": "affine-intersection-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=vectors"
+        },
+        {
+          "topic": "vectors",
+          "id": "inner-product-geometry",
+          "title": "内積で角・垂直・面積を求める",
+          "steps": [
+            {
+              "title": "内積と長さ",
+              "body": "座標なら成分の積の和で内積を求めます。",
+              "lines": [
+                "a·b=a₁b₁+a₂b₂、|a|=√(a₁²+a₂²)"
+              ],
+              "note": "内積は数で、ベクトルとは違います。"
+            },
+            {
+              "title": "角と垂直",
+              "body": "0でないベクトルの角は内積から求めます。",
+              "lines": [
+                "cosθ=(a·b)/(|a||b|)、a⊥b ⇔ a·b=0"
+              ],
+              "note": "角の範囲は0≤θ≤πです。"
+            },
+            {
+              "title": "面積につなげる",
+              "body": "辺の長さとその間の角から三角形の面積が求まります。",
+              "lines": [
+                "S=|a||b|sinθ/2"
+              ],
+              "note": "cosからsinを求めるとき、角の範囲から非負の平方根を取ります。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "a=(1,2)、b=(3,−1)の内積を求めよう。",
+              "answer": "1",
+              "hint": "成分の積を足す。",
+              "lines": [
+                "a·b=1·3+2·(−1)=1。"
+              ],
+              "check": [
+                "成分ごとに掛けた"
+              ],
+              "id": "inner-product-geometry-0",
+              "stage": "guided"
+            },
+            {
+              "text": "a=(1,2)の長さを求めよう。",
+              "answer": "√5",
+              "hint": "成分の2乗の和。",
+              "lines": [
+                "|a|=√(1²+2²)=√5。"
+              ],
+              "check": [
+                "長さの平方根を取った"
+              ],
+              "id": "inner-product-geometry-1",
+              "stage": "guided"
+            },
+            {
+              "text": "a=(1,0)、b=(1,√3)のなす角を求めよう。",
+              "answer": "π/3（60°）",
+              "hint": "内積と両方の長さ。",
+              "lines": [
+                "a·b=1、|a|=1、|b|=2。cosθ=1/2。",
+                "0≤θ≤πよりθ=π/3。"
+              ],
+              "check": [
+                "角の範囲を書いた",
+                "内積を長さの積で割った"
+              ],
+              "id": "inner-product-geometry-2",
+              "stage": "practice"
+            },
+            {
+              "text": "a=(2,1)、b=(t,−4)が垂直となるtを求めよう。",
+              "answer": "t=2",
+              "hint": "内積0。",
+              "lines": [
+                "a·b=2t−4=0よりt=2。両ベクトルは0でない。"
+              ],
+              "check": [
+                "垂直条件を式にした"
+              ],
+              "id": "inner-product-geometry-3",
+              "stage": "practice"
+            },
+            {
+              "text": "O(0,0)、A(2,1)、B(1,3)について、内積を使って△OABの面積を求めよう。",
+              "answer": "5/2",
+              "hint": "cosからsinを求める。",
+              "lines": [
+                "a·b=5、|a|=√5、|b|=√10なのでcosθ=1/√2。",
+                "0≤θ≤πよりsinθ=1/√2。",
+                "S=√5·√10·(1/√2)/2=5/2。"
+              ],
+              "check": [
+                "sinの正の値を取った",
+                "三角形なので1/2を掛けた"
+              ],
+              "id": "inner-product-geometry-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=vectors"
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "確率・期待値・分散",
+      "href": "./suken-first-bridge.html?topic=probability",
+      "diagnostic": [
+        {
+          "text": "公平な2個の区別できるさいころで、出た目の和が5となる結果を列挙しよう。",
+          "answer": "(1,4),(2,3),(3,2),(4,1)の4通り",
+          "hint": "順序を区別。",
+          "lines": [
+            "和5の組は(1,4),(2,3),(3,2),(4,1)。"
+          ],
+          "check": [
+            "入れ替えた組も数えた"
+          ],
+          "id": "conditional-count-0",
+          "stage": "guided",
+          "label": "条件付き確率を数え直す",
+          "href": "./suken-second-bridge.html?topic=probability#view=lesson&unit=conditional-count"
+        },
+        {
+          "text": "Aが起きた条件のもとでBが起きる確率の公式を書こう。",
+          "answer": "P(B|A)=P(A∩B)/P(A)、P(A)>0",
+          "hint": "条件Aを分母に。",
+          "lines": [
+            "条件により全体をAに絞るので、Aの中のBの割合を求める。"
+          ],
+          "check": [
+            "P(A)>0を書いた"
+          ],
+          "id": "conditional-count-1",
+          "stage": "guided",
+          "label": "条件付き確率を数え直す",
+          "href": "./suken-second-bridge.html?topic=probability#view=lesson&unit=conditional-count"
+        },
+        {
+          "text": "Xが0,1,2をそれぞれ確率1/2,1/6,1/3で取る。E(X)を求めよう。",
+          "answer": "5/6",
+          "hint": "値×確率の和。",
+          "lines": [
+            "E(X)=0·1/2+1·1/6+2·1/3=5/6。"
+          ],
+          "check": [
+            "確率の和が1と確認した"
+          ],
+          "id": "expectation-interpretation-0",
+          "stage": "guided",
+          "label": "期待値・分散を意味と結びつける",
+          "href": "./suken-second-bridge.html?topic=probability#view=lesson&unit=expectation-interpretation"
+        }
+      ],
+      "lessons": [
+        {
+          "topic": "probability",
+          "id": "conditional-count",
+          "title": "条件付き確率を数え直す",
+          "steps": [
+            {
+              "title": "標本を決める",
+              "body": "等確率な結果が何かを先に決めます。",
+              "lines": [
+                "2個の区別できる公平なさいころ：36通り"
+              ],
+              "note": "和の値を等確率と考えないように。"
+            },
+            {
+              "title": "条件に絞る",
+              "body": "Aが起きたと分かったら、全体をAの結果に絞ります。",
+              "lines": [
+                "P(B|A)=P(A∩B)/P(A)（P(A)>0）"
+              ],
+              "note": "AとBの順番を取り違えないで。"
+            },
+            {
+              "title": "順序の有無",
+              "body": "同時に選ぶなら組合せ、順番に選ぶなら順序つきで数えます。",
+              "lines": [
+                "5個から2個同時：₅C₂=10"
+              ],
+              "note": "どちらの数え方でも、分子と分母をそろえれば同じ確率になります。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "公平な2個の区別できるさいころで、出た目の和が5となる結果を列挙しよう。",
+              "answer": "(1,4),(2,3),(3,2),(4,1)の4通り",
+              "hint": "順序を区別。",
+              "lines": [
+                "和5の組は(1,4),(2,3),(3,2),(4,1)。"
+              ],
+              "check": [
+                "入れ替えた組も数えた"
+              ],
+              "id": "conditional-count-0",
+              "stage": "guided"
+            },
+            {
+              "text": "Aが起きた条件のもとでBが起きる確率の公式を書こう。",
+              "answer": "P(B|A)=P(A∩B)/P(A)、P(A)>0",
+              "hint": "条件Aを分母に。",
+              "lines": [
+                "条件により全体をAに絞るので、Aの中のBの割合を求める。"
+              ],
+              "check": [
+                "P(A)>0を書いた"
+              ],
+              "id": "conditional-count-1",
+              "stage": "guided"
+            },
+            {
+              "text": "公平な2個の区別できるさいころで、和が5と分かったとき、最初のさいころが1である確率を求めよう。",
+              "answer": "1/4",
+              "hint": "条件を満たす4通りだけを見る。",
+              "lines": [
+                "和5の結果は4通り、うち最初が1なのは(1,4)だけ。",
+                "条件付き確率は1/4。"
+              ],
+              "check": [
+                "36でなく条件下の4を分母にした"
+              ],
+              "id": "conditional-count-2",
+              "stage": "practice"
+            },
+            {
+              "text": "赤3個、白2個の球から2個を同時に取り出す。赤が少なくとも1個と分かったとき、2個とも赤である確率を求めよう。",
+              "answer": "1/3",
+              "hint": "白白を全体から除く。",
+              "lines": [
+                "全結果は₅C₂=10。白白は₂C₂=1なので条件下は9通り。",
+                "赤赤は₃C₂=3。求める確率は3/9=1/3。"
+              ],
+              "check": [
+                "条件に合わせて分母を変えた",
+                "同時取り出しとして数えた"
+              ],
+              "id": "conditional-count-3",
+              "stage": "practice"
+            },
+            {
+              "text": "公平な硬貨を3回投げる。表が少なくとも1回出たと分かったとき、表がちょうど2回出た確率を求めよう。",
+              "answer": "3/7",
+              "hint": "全部裏を除く。",
+              "lines": [
+                "全8通りから裏裏裏を除き7通り。",
+                "表2回の結果は₃C₂=3通りなので3/7。"
+              ],
+              "check": [
+                "条件下の結果を数えた",
+                "等確率な列を基準にした"
+              ],
+              "id": "conditional-count-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=probability"
+        },
+        {
+          "topic": "probability",
+          "id": "expectation-interpretation",
+          "title": "期待値・分散を意味と結びつける",
+          "steps": [
+            {
+              "title": "値に確率を掛ける",
+              "body": "確率変数の平均は、値と確率の積の和です。",
+              "lines": [
+                "E(X)=ΣxP(X=x)"
+              ],
+              "note": "最も起きやすい値とは別です。"
+            },
+            {
+              "title": "分散の計算",
+              "body": "2乗の平均から平均の2乗を引きます。",
+              "lines": [
+                "V(X)=E(X²)−{E(X)}²"
+              ],
+              "note": "標準偏差は分散の非負の平方根です。"
+            },
+            {
+              "title": "変換と判断",
+              "body": "得点や料金を加えてもばらつきは変わりません。倍率は分散に2乗で効きます。",
+              "lines": [
+                "E(aX+b)=aE(X)+b、V(aX+b)=a²V(X)"
+              ],
+              "note": "期待値は長期平均で、1回の結果を保証しません。"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Xが0,1,2をそれぞれ確率1/2,1/6,1/3で取る。E(X)を求めよう。",
+              "answer": "5/6",
+              "hint": "値×確率の和。",
+              "lines": [
+                "E(X)=0·1/2+1·1/6+2·1/3=5/6。"
+              ],
+              "check": [
+                "確率の和が1と確認した"
+              ],
+              "id": "expectation-interpretation-0",
+              "stage": "guided"
+            },
+            {
+              "text": "同じXについてE(X²)を求めよう。",
+              "answer": "3/2",
+              "hint": "値を2乗してから確率を掛ける。",
+              "lines": [
+                "E(X²)=0²·1/2+1²·1/6+2²·1/3=1/6+4/3=3/2。"
+              ],
+              "check": [
+                "確率を2乗しなかった"
+              ],
+              "id": "expectation-interpretation-1",
+              "stage": "guided"
+            },
+            {
+              "text": "Xが0,1,2を確率1/2,1/6,1/3で取るとき、分散と標準偏差を求めよう。",
+              "answer": "分散29/36、標準偏差√29/6",
+              "hint": "E(X²)−E(X)²。",
+              "lines": [
+                "V(X)=3/2−(5/6)²=54/36−25/36=29/36。",
+                "σ(X)=√(29/36)=√29/6。"
+              ],
+              "check": [
+                "平均を2乗した",
+                "標準偏差も求めた"
+              ],
+              "id": "expectation-interpretation-2",
+              "stage": "practice"
+            },
+            {
+              "text": "公平な硬貨を10回投げ、表の回数をXとする。得点Y=15X−50の期待値と標準偏差を求めよう。",
+              "answer": "期待値25、標準偏差15√10/2",
+              "hint": "Xは二項分布B(10,1/2)。",
+              "lines": [
+                "E(X)=10·1/2=5、V(X)=10·1/2·1/2=5/2。",
+                "E(Y)=15·5−50=25、σ(Y)=15√(5/2)=15√10/2。"
+              ],
+              "check": [
+                "独立な公平な試行を二項分布とした",
+                "定数−50は標準偏差に影響しないと説明した"
+              ],
+              "id": "expectation-interpretation-3",
+              "stage": "practice"
+            },
+            {
+              "text": "公平なさいころを1回振り、6なら600円、他なら0円を受け取る。参加費120円を払うとき、純利益の期待値と参加判断に関する意味を述べよう。",
+              "answer": "期待値−20円。長期平均では損だが1回の結果は保証しない",
+              "hint": "受取額の平均から参加費を引く。",
+              "lines": [
+                "E(受取額)=600·1/6=100円。純利益の期待値=100−120=−20円。",
+                "同じ条件で繰り返す長期平均は1回あたり20円の損を示す。1回ごとの損益は別。"
+              ],
+              "check": [
+                "参加費を差し引いた",
+                "期待値を確実な結果と混同しなかった"
+              ],
+              "id": "expectation-interpretation-4",
+              "stage": "practice"
+            }
+          ],
+          "origin": "new",
+          "source": "2次に向けたオリジナル記述練習",
+          "href": "./suken-first-bridge.html?topic=probability"
+        }
+      ]
+    }
+  ]
+}
