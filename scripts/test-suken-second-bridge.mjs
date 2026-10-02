@@ -5,7 +5,7 @@ import http from 'node:http';
 import os from 'node:os';
 import {createRequire} from 'node:module';
 const d=JSON.parse(fs.readFileSync('data/suken-second-bridge.json','utf8'));
-assert.equal(d.groups.length,7);assert.equal(d.groups.reduce((n,g)=>n+g.lessons.length,0),19);
+assert.equal(d.groups.length,7);assert.equal(d.groups.reduce((n,g)=>n+g.lessons.length,0),25);
 for(const g of d.groups){assert.equal(g.diagnostic.length,3);assert.equal(new Set(g.lessons.map(l=>l.id)).size,g.lessons.length);for(const l of g.lessons){assert.equal(l.questions.length,5);assert(l.steps.length>=3);for(const s of l.steps)assert(s.title&&s.body&&s.lines.length&&s.note);for(const q of l.questions)assert(q.text&&q.answer&&q.hint&&q.lines.length&&q.check.length&&!q.choices);}}
 const {chromium}=createRequire(import.meta.url)(process.env.PLAYWRIGHT_MODULE||'C:/Users/Owner/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root=process.cwd(),server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname);if(!p.startsWith(root+path.sep)){res.writeHead(403).end();return;}try{res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml'})[path.extname(p)]||'text/plain');res.end(fs.readFileSync(p));}catch{res.writeHead(404).end();}});
@@ -41,5 +41,5 @@ try{
  const blocked=await browser.newPage({viewport:{width:390,height:844}});await blocked.addInitScript(()=>{Storage.prototype.setItem=()=>{throw Error('blocked');};Storage.prototype.getItem=()=>{throw Error('blocked');};});await blocked.goto(url+'?topic=functions#view=question&unit='+l.id+'&n=0');await blocked.locator('#reveal').click();await blocked.locator('[data-assess=review]').click();await blocked.waitForFunction(t=>document.querySelector('#learning-app h2')?.textContent===t,l.questions[1].text);assert((await blocked.locator('#storage-message').textContent()).includes('保存できません'));await blocked.close();
  for(const entry of ['/pages/suken-2.html','/pages/suken-2-second.html']){await page.goto(base+entry);assert(await page.locator('a[href="./suken-second-bridge.html"]').count());await overflow();}
  await page.setViewportSize({width:1280,height:900});await page.goto(url);await ready('7分野から選ぼう');assert.deepEqual(errors,[]);
- console.log('PASS: 57 explanation screens, 95 exercises + 21 diagnostics, hidden answers, hints, reload, resume, storage isolation/errors, bad routes, 320/390px and desktop, entry links.');
+ console.log('PASS: 75 explanation screens, 125 exercises + 21 diagnostics, hidden answers, hints, reload, resume, storage isolation/errors, bad routes, 320/390px and desktop, entry links.');
 }finally{await browser.close();await new Promise(r=>server.close(r));}
