@@ -11,6 +11,9 @@
 .is-correct { background: #e5f5eb; color: #16532c; }
 .is-wrong { background: #fff0df; color: #713b0e; }
 .vocab-score { font-size: 1.5rem; font-weight: bold; }
+.vocab-mastery { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 10px 12px; cursor: pointer; border: 1px solid #899aaf; border-radius: 8px; }
+.vocab-mastery:has(input:checked) { background: #e5f5eb; border-color: #4b8c75; color: #16532c; }
+.vocab-mastery input[type="checkbox"] { width: 20px; height: 20px; min-width: 20px; margin: 0; flex: none; accent-color: #4b8c75; }
 #vocabulary-app progress { width: 100%; height: 12px; }
 #vocabulary-app h2, .vocab-built, .vocab-feedback, #review li { overflow-wrap: anywhere; }
 #vocabulary-app .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

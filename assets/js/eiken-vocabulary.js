@@ -4,6 +4,32 @@ const data=window.EikenVocabularyData, kind=document.body.dataset.vocabulary;
 const phraseMode=kind==='phrases', checkMode=kind==='checks', app=document.querySelector('#vocabulary-app');
 if(!data||(checkMode&&!data.checks)){app.textContent='教材を読み込めませんでした。再読み込みしてください。';return;}
 let unit,source=[],mode='easy',queue=[],index=0,mistakes=[],correct=0,answered=false,chosen=[],tokens=[],hinted=false,hints=0;
+const availableUnits=checkMode?data.units:data.studyUnits;
+const masteryKey='studyhub:eiken:'+kind+':mastered';
+let mastered=new Set(),storageNotice='';
+try {
+  const saved=JSON.parse(localStorage.getItem(masteryKey)||'[]');
+  if(Array.isArray(saved))mastered=new Set(saved.filter(id=>availableUnits.some(u=>String(u.id)===id)));
+} catch { storageNotice='保存したチェックを読み込めませんでした。チェックはこの画面内で使用できます。'; }
+function masterySummary(){
+  const summary=paragraph('覚えたユニット '+mastered.size+' / '+availableUnits.length,app);
+  summary.id='mastery-summary';summary.setAttribute('aria-live','polite');
+  paragraph('「覚えた」は自分で付け外しできます。この端末・ブラウザに保存されます。',app);
+  const notice=paragraph(storageNotice,app);notice.id='mastery-notice';notice.setAttribute('role','status');
+}
+function masteryControl(u){
+  const id=String(u.id),label=document.createElement('label');label.className='vocab-mastery';
+  const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.checked=mastered.has(id);
+  checkbox.setAttribute('aria-label','Unit '+id+'の覚えたチェック');
+  checkbox.addEventListener('change',()=>{
+    if(checkbox.checked)mastered.add(id);else mastered.delete(id);
+    try {localStorage.setItem(masteryKey,JSON.stringify([...mastered]));storageNotice='';}
+    catch {storageNotice='チェックを保存できませんでした。ページを閉じると今回の変更が失われます。';}
+    const summary=app.querySelector('#mastery-summary');if(summary)summary.textContent='覚えたユニット '+mastered.size+' / '+availableUnits.length;
+    const notice=app.querySelector('#mastery-notice');if(notice)notice.textContent=storageNotice;
+  });
+  label.append(checkbox,document.createTextNode('覚えた'));return label;
+}
 const alternatives={167:['cheer up 〜'],192:['depend upon'],407:['keep in contact with'],624:['put away 〜']};
 const shuffle=values=>{const r=[...values];for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]];}return r;};
 const normalize=v=>v.normalize('NFKC').trim().toLowerCase().replace(/\s+/g,' ');
@@ -13,9 +39,11 @@ function focusTitle(){const h=app.querySelector('h2');h.tabIndex=-1;h.focus();}
 function start(items){queue=checkMode?[...items]:shuffle(items);index=0;mistakes=[];correct=0;hints=0;question();}
 function menu(){
 app.innerHTML='<h2>Unitを選ぶ</h2><p>選んだUnitの全問を練習します。結果画面で、間違えた問題だけに再挑戦できます。</p><div class="vocab-controls" id="mode-controls"></div><div class="card-grid" id="unit-cards"></div>';
+masterySummary();
+for(const element of [app.querySelector('#mastery-summary'),app.querySelector('#mastery-summary').nextElementSibling,app.querySelector('#mastery-notice')])app.insertBefore(element,app.querySelector('#mode-controls'));
 if(phraseMode)paragraph('〜は目的語、A・Bは人や物、doは動詞の原形、doingは動名詞を入れる位置です。これらの札も並べて熟語の形を作ります。',app.querySelector('#mode-controls'));
 if(!phraseMode&&!checkMode){const label=document.createElement('label');label.textContent='モード： ';const select=document.createElement('select');select.setAttribute('aria-label','学習モード');for(const [value,text]of [['easy','イージー：3択'],['hard','ハード：タイピング']]){const o=document.createElement('option');o.value=value;o.textContent=text;select.append(o);}select.value=mode;select.addEventListener('change',()=>mode=select.value);label.append(select);app.querySelector('#mode-controls').append(label);}
-for(const u of (checkMode?data.units:data.studyUnits)){const items=checkMode?data.checks.filter(i=>i.unit===u.id):u[kind];const card=document.createElement('article');card.className='study-card';card.innerHTML='<div><p class="card-label">'+items.length+(phraseMode?'熟語':checkMode?'問':'語')+'</p><h3>Unit '+u.id+'</h3><p>'+(checkMode?'英文の空欄に合う語句を3択で選びます。':'教材番号 '+u.first+'〜'+u.last+'の'+(phraseMode?'熟語':'単語')+'を練習します。')+'</p></div>';card.append(button('Unit '+u.id+'を始める',()=>{unit=u;source=items;start(source);},'primary-button'));app.querySelector('#unit-cards').append(card);}
+for(const u of (checkMode?data.units:data.studyUnits)){const items=checkMode?data.checks.filter(i=>i.unit===u.id):u[kind];const card=document.createElement('article');card.className='study-card';card.innerHTML='<div><p class="card-label">'+items.length+(phraseMode?'熟語':checkMode?'問':'語')+'</p><h3>Unit '+u.id+'</h3><p>'+(checkMode?'英文の空欄に合う語句を3択で選びます。':'教材番号 '+u.first+'〜'+u.last+'の'+(phraseMode?'熟語':'単語')+'を練習します。')+'</p></div>';card.append(button('Unit '+u.id+'を始める',()=>{unit=u;source=items;start(source);},'primary-button'));card.append(masteryControl(u));app.querySelector('#unit-cards').append(card);}
 }
 function question(){
 answered=false;chosen=[];hinted=false;const item=queue[index];app.dataset.item=String(item.number);
@@ -28,6 +56,6 @@ else{const form=document.createElement('form');form.className='vocab-controls';c
 }
 function renderTokens(){app.querySelector('#built').textContent=chosen.length?chosen.map(t=>t.word).join(' '):'ここに回答が並びます';app.querySelectorAll('[data-token]').forEach(b=>b.disabled=answered||chosen.some(t=>t.id===Number(b.dataset.token)));app.querySelector('#editing .primary-button').disabled=answered||chosen.length!==tokens.length;app.querySelectorAll('#editing .secondary-button').forEach(b=>b.disabled=answered||!chosen.length);}
 function check(value){if(answered)return;answered=true;const item=queue[index],passed=[item.answer,...(!checkMode?alternatives[item.number]||[]:[])].some(a=>normalize(value)===normalize(a));if(passed)correct++;else mistakes.push(item);app.querySelectorAll('#answer-area button, #answer-area input').forEach(e=>e.disabled=true);const feedback=app.querySelector('#feedback');feedback.className='vocab-feedback '+(passed?'is-correct':'is-wrong');paragraph((passed?'正解！':'もう一度覚えよう。')+' 正解：'+item.answer+(hinted?'（ヒント使用）':''),feedback);if(checkMode){paragraph(item.sentence.replace('( )',item.answer),feedback).lang='en';paragraph('日本語訳：'+item.translation,feedback);paragraph('解説：'+item.explanation,feedback);}else{paragraph(item.meaning,feedback);if(alternatives[item.number])paragraph('別の形：'+alternatives[item.number].join(' / '),feedback);}const next=button(index+1===queue.length?'結果を見る':'次の問題',()=>{index++;if(index===queue.length)result();else question();},'primary-button');app.querySelector('#next-control').append(next);next.focus();}
-function result(){app.innerHTML='<h2>Unit '+unit.id+'の学習結果</h2><p class="vocab-score">'+queue.length+'問中 '+correct+'問正解</p><div id="review"></div><div class="vocab-controls" id="result-controls"></div>';if(!phraseMode&&!checkMode&&mode==='hard')paragraph('頭文字ヒントの使用：'+hints+'問',app.querySelector('#review'));if(mistakes.length){const h=document.createElement('h3');h.textContent='間違えた問題';const list=document.createElement('ul');mistakes.forEach(item=>{const li=document.createElement('li');li.textContent=checkMode?'問'+item.number+'：'+item.sentence.replace('( )',item.answer)+' — '+item.translation:item.number+'. '+item.answer+'：'+item.meaning;list.append(li);});app.querySelector('#review').append(h,list);const retry=[...mistakes];app.querySelector('#result-controls').append(button('間違えた'+retry.length+'問に再挑戦',()=>start(retry),'primary-button'));}else paragraph('全問正解です！',app.querySelector('#review'));app.querySelector('#result-controls').append(button('Unit '+unit.id+'をもう一度',()=>start(source)),button('Unit選択に戻る',()=>{menu();focusTitle();}));focusTitle();}
+function result(){app.innerHTML='<h2>Unit '+unit.id+'の学習結果</h2><p class="vocab-score">'+queue.length+'問中 '+correct+'問正解</p><div id="review"></div><div class="vocab-controls" id="result-controls"></div>';if(!phraseMode&&!checkMode&&mode==='hard')paragraph('頭文字ヒントの使用：'+hints+'問',app.querySelector('#review'));if(mistakes.length){const h=document.createElement('h3');h.textContent='間違えた問題';const list=document.createElement('ul');mistakes.forEach(item=>{const li=document.createElement('li');li.textContent=checkMode?'問'+item.number+'：'+item.sentence.replace('( )',item.answer)+' — '+item.translation:item.number+'. '+item.answer+'：'+item.meaning;list.append(li);});app.querySelector('#review').append(h,list);const retry=[...mistakes];app.querySelector('#result-controls').append(button('間違えた'+retry.length+'問に再挑戦',()=>start(retry),'primary-button'));}else paragraph('全問正解です！',app.querySelector('#review'));app.querySelector('#result-controls').append(button('Unit '+unit.id+'をもう一度',()=>start(source)),button('Unit選択に戻る',()=>{menu();focusTitle();}));masterySummary();app.querySelector('#result-controls').prepend(masteryControl(unit));focusTitle();}
 menu();
 })();
