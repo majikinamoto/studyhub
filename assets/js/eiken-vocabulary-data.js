@@ -756,5 +756,15 @@
     const items=entries.filter(item=>item.number>=first&&item.number<=last);
     return {id, first, last, words:items.filter(item=>item.kind==='W'), phrases:items.filter(item=>item.kind==='P')};
   });
-  window.EikenVocabularyData = {entries, units};
+  // 写真の見出しは24項目ずつ。Unit 1は1-2から始まる。
+  const studyUnits = units.flatMap(unit => {
+    const firstPart=unit.id===1?2:1;
+    return Array.from({length:unit.id===1?3:4}, (_, index) => {
+      const first=unit.first+index*24, last=first+23;
+      const items=entries.filter(item=>item.number>=first&&item.number<=last);
+      return {id:unit.id+'-'+(firstPart+index), parent:unit.id, first, last,
+        words:items.filter(item=>item.kind==='W'), phrases:items.filter(item=>item.kind==='P')};
+    });
+  });
+  window.EikenVocabularyData = {entries, units, studyUnits};
 })();

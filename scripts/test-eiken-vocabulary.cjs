@@ -36,9 +36,14 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const open=name=>page.goto(pathToFileURL(path.resolve('pages',name)).href);
 const width=async()=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
 await open('eiken.html');assert.equal(await page.locator('a[href="./eiken-checks.html"]').count(),1);
+assert.equal(data.studyUnits.length,31);
+assert.deepEqual(data.studyUnits.flatMap(u=>[...u.words,...u.phrases]).map(i=>i.number).sort((a,b)=>a-b),data.entries.map(i=>i.number));
+for(const u of data.studyUnits){assert.equal(u.last-u.first+1,24);assert.equal(u.words.length+u.phrases.length,24);}
+assert.equal(data.studyUnits.find(u=>u.id==='5-1').first,361);
+assert.equal(data.studyUnits.find(u=>u.id==='5-2').first,385);
 for(const kind of ['words','phrases','checks']){
-await open('eiken-'+kind+'.html');assert.equal(await page.locator('#unit-cards article').count(),8);await width();
-for(const unit of data.units){
+await open('eiken-'+kind+'.html');assert.equal(await page.locator('#unit-cards article').count(),kind==='checks'?8:31);await width();
+for(const unit of (kind==='checks'?data.units:data.studyUnits)){
 await page.getByRole('button',{name:'Unit '+unit.id+'を始める',exact:true}).click();
 const items=kind==='checks'?data.checks.filter(c=>c.unit===unit.id):unit[kind];
 assert.match(await page.locator('#vocabulary-app').innerText(),new RegExp('1 / '+items.length+'問'));
@@ -76,19 +81,19 @@ await page.getByRole('button',{name:'Unit '+unit.id+'をもう一度',exact:true
 await page.getByRole('button',{name:'Unit選択に戻る',exact:true}).click();
 }
 }
-await open('eiken-words.html');await page.getByLabel('学習モード').selectOption('hard');await page.getByRole('button',{name:'Unit 1を始める',exact:true}).click();
-for(let i=0;i<62;i++){
+await open('eiken-words.html');await page.getByLabel('学習モード').selectOption('hard');await page.getByRole('button',{name:'Unit 1-2を始める',exact:true}).click();
+for(let i=0;i<21;i++){
 const num=Number(await page.locator('#vocabulary-app').getAttribute('data-item'));const item=data.entries.find(v=>v.number===num);
 if(i===0){await page.getByRole('button',{name:'頭文字を見る',exact:true}).click();assert.match(await page.locator('#answer-area').innerText(),/頭文字：/);}
 const fullwidth=item.answer.toUpperCase().replace(/[A-Z]/g,c=>String.fromCharCode(c.charCodeAt(0)+65248));
 await page.getByLabel('英単語の回答').fill(i===1?'wrong':'  '+fullwidth+'  ');await page.getByRole('button',{name:'答え合わせ',exact:true}).click();assert.match(await page.locator('#feedback').innerText(),i===1?/もう一度/:/^正解！/);await page.locator('#next-control button').click();
 }
-assert.match(await page.locator('.vocab-score').innerText(),/62問中 61問正解/);assert.match(await page.locator('#review').innerText(),/ヒントの使用：1問/);
+assert.match(await page.locator('.vocab-score').innerText(),/21問中 20問正解/);assert.match(await page.locator('#review').innerText(),/ヒントの使用：1問/);
 await page.getByRole('button',{name:'間違えた1問に再挑戦',exact:true}).click();assert.match(await page.locator('#vocabulary-app').innerText(),/1 \/ 1問/);
 await open('eiken-checks.html');await page.screenshot({path:'docs/drafts/eiken-menu-mobile.png',fullPage:true});
 await page.getByRole('button',{name:'Unit 8を始める',exact:true}).click();await page.locator('.vocab-choices button').nth(1).click();await page.screenshot({path:'docs/drafts/eiken-check-mobile.png',fullPage:true});await width();
 await page.setViewportSize({width:1280,height:900});await open('eiken-words.html');await page.screenshot({path:'docs/drafts/eiken-menu-desktop.png',fullPage:true});await width();
 assert.deepEqual(errors,[]);
-console.log('PASS: 744 entries, 160 checks, answer keys Units 1–7; all 904 easy/phrase/check questions across 8 Units, hard typing, Unicode, hints, undo/reset, wrong-only retry, full retry, mobile/desktop, no browser errors.');
+console.log('PASS: 744 entries, 160 checks, answer keys Units 1–7; all 904 easy/phrase/check questions across 31 vocabulary Units and 8 check Units, hard typing, Unicode, hints, undo/reset, wrong-only retry, full retry, mobile/desktop, no browser errors.');
 }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
