@@ -1,0 +1,7422 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "高校入試 一問一答 理科・生物編",
+    "targetCourseId": "entrance-science",
+    "questionFormat": "multiple-choice-4",
+    "sourceTitle": "高校入試 入試問題で覚える 一問一答 理科 改訂版",
+    "originalQuestionCount": 211,
+    "questionCount": 227,
+    "note": "ユーザー提供写真を確認。複数の名称を答える原問題は分割し、全原問題の番号を保存。図表は学習用に再構成。"
+  },
+  "units": [
+    {
+      "id": "unit-entrance-biology-01",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 1,
+      "title": "観察器具の使い方",
+      "sourceStartPage": 66,
+      "sourceQuestionCount": 13
+    },
+    {
+      "id": "unit-entrance-biology-02",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 2,
+      "title": "花のつくりとはたらき",
+      "sourceStartPage": 68,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-biology-03",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 3,
+      "title": "植物の分類",
+      "sourceStartPage": 70,
+      "sourceQuestionCount": 17
+    },
+    {
+      "id": "unit-entrance-biology-04",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 4,
+      "title": "動物の分類",
+      "sourceStartPage": 72,
+      "sourceQuestionCount": 18
+    },
+    {
+      "id": "unit-entrance-biology-05",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 5,
+      "title": "生物と細胞",
+      "sourceStartPage": 74,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-biology-06",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 6,
+      "title": "根・茎・葉のつくりとはたらき",
+      "sourceStartPage": 76,
+      "sourceQuestionCount": 19
+    },
+    {
+      "id": "unit-entrance-biology-07",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 7,
+      "title": "消化と吸収",
+      "sourceStartPage": 79,
+      "sourceQuestionCount": 21
+    },
+    {
+      "id": "unit-entrance-biology-08",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 8,
+      "title": "呼吸のはたらき",
+      "sourceStartPage": 82,
+      "sourceQuestionCount": 7
+    },
+    {
+      "id": "unit-entrance-biology-09",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 9,
+      "title": "血液の循環",
+      "sourceStartPage": 83,
+      "sourceQuestionCount": 13
+    },
+    {
+      "id": "unit-entrance-biology-10",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 10,
+      "title": "血液の成分",
+      "sourceStartPage": 85,
+      "sourceQuestionCount": 8
+    },
+    {
+      "id": "unit-entrance-biology-11",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 11,
+      "title": "排出のしくみ",
+      "sourceStartPage": 86,
+      "sourceQuestionCount": 8
+    },
+    {
+      "id": "unit-entrance-biology-12",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 12,
+      "title": "刺激と反応",
+      "sourceStartPage": 87,
+      "sourceQuestionCount": 20
+    },
+    {
+      "id": "unit-entrance-biology-13",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 13,
+      "title": "細胞分裂",
+      "sourceStartPage": 90,
+      "sourceQuestionCount": 4
+    },
+    {
+      "id": "unit-entrance-biology-14",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 14,
+      "title": "生物のふえ方",
+      "sourceStartPage": 91,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-biology-15",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 15,
+      "title": "遺伝の規則性",
+      "sourceStartPage": 93,
+      "sourceQuestionCount": 6
+    },
+    {
+      "id": "unit-entrance-biology-16",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 16,
+      "title": "生物の変遷と進化",
+      "sourceStartPage": 94,
+      "sourceQuestionCount": 6
+    },
+    {
+      "id": "unit-entrance-biology-17",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 17,
+      "title": "自然界のつながり",
+      "sourceStartPage": 95,
+      "sourceQuestionCount": 12
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-entrance-biology-01-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 1,
+      "text": "手で持った花をルーペで観察するときの操作は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-001-c1",
+          "text": "ルーペを目に近づけ、花を前後に動かす"
+        },
+        {
+          "id": "q-entrance-biology-01-001-c2",
+          "text": "ルーペを花に付け、顔を動かさない"
+        },
+        {
+          "id": "q-entrance-biology-01-001-c3",
+          "text": "目を閉じて花を動かす"
+        },
+        {
+          "id": "q-entrance-biology-01-001-c4",
+          "text": "ルーペと花を固定する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-001-c1",
+      "explanation": "ルーペは目に近づけ、観察物を動かしてピントを合わせる。",
+      "source": {
+        "page": 66,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 2,
+      "text": "双眼実体顕微鏡で粗くピントを合わせた後の操作は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-002-c1",
+          "text": "左目で微動ねじ、右目で視度調節リングを調整する"
+        },
+        {
+          "id": "q-entrance-biology-01-002-c2",
+          "text": "右目で微動ねじ、左目で視度調節リングを調整する"
+        },
+        {
+          "id": "q-entrance-biology-01-002-c3",
+          "text": "両目を閉じて粗動ねじを調整する"
+        },
+        {
+          "id": "q-entrance-biology-01-002-c4",
+          "text": "左右の目を同時に視度調節リングだけで合わせる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-002-c2",
+      "explanation": "まず右目のピントを合わせ、その後左目の視度を合わせる。",
+      "source": {
+        "page": 66,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 3,
+      "text": "双眼実体顕微鏡では必ずプレパラートをつくる必要がある？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-003-c1",
+          "text": "必ずある"
+        },
+        {
+          "id": "q-entrance-biology-01-003-c2",
+          "text": "液体だけ必要"
+        },
+        {
+          "id": "q-entrance-biology-01-003-c3",
+          "text": "ない"
+        },
+        {
+          "id": "q-entrance-biology-01-003-c4",
+          "text": "花だけ必要"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-003-c3",
+      "explanation": "観察物をそのまま立体的に見ることができる。",
+      "source": {
+        "page": 66,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 4,
+      "text": "双眼実体顕微鏡で観察物はどのように見える？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-004-c1",
+          "text": "必ず平面的"
+        },
+        {
+          "id": "q-entrance-biology-01-004-c2",
+          "text": "輪郭だけ"
+        },
+        {
+          "id": "q-entrance-biology-01-004-c3",
+          "text": "光だけ"
+        },
+        {
+          "id": "q-entrance-biology-01-004-c4",
+          "text": "立体的"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-004-c4",
+      "explanation": "左右の目で異なる方向から見るため、立体的に観察できる。",
+      "source": {
+        "page": 66,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 5,
+      "text": "顕微鏡を置くのに適切な場所は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-005-c1",
+          "text": "直射日光が当たらない明るい場所"
+        },
+        {
+          "id": "q-entrance-biology-01-005-c2",
+          "text": "直射日光が当たる場所"
+        },
+        {
+          "id": "q-entrance-biology-01-005-c3",
+          "text": "暗闇"
+        },
+        {
+          "id": "q-entrance-biology-01-005-c4",
+          "text": "傾いた不安定な場所"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-005-c1",
+      "explanation": "明るく水平な場所に置き、直射日光を避ける。",
+      "source": {
+        "page": 66,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 6,
+      "text": "顕微鏡で最初に使う対物レンズは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-006-c1",
+          "text": "最も高倍率"
+        },
+        {
+          "id": "q-entrance-biology-01-006-c2",
+          "text": "最も低倍率"
+        },
+        {
+          "id": "q-entrance-biology-01-006-c3",
+          "text": "必ず40倍"
+        },
+        {
+          "id": "q-entrance-biology-01-006-c4",
+          "text": "倍率は無関係"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-006-c2",
+      "explanation": "低倍率は視野が広く、対象を見つけやすい。",
+      "source": {
+        "page": 67,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 7,
+      "text": "視野を明るくするため、反射鏡と何を調整する？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-007-c1",
+          "text": "クリップ"
+        },
+        {
+          "id": "q-entrance-biology-01-007-c2",
+          "text": "接眼レンズの取り付け順"
+        },
+        {
+          "id": "q-entrance-biology-01-007-c3",
+          "text": "しぼり"
+        },
+        {
+          "id": "q-entrance-biology-01-007-c4",
+          "text": "プレパラートの厚さだけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-007-c3",
+      "explanation": "反射鏡やしぼりで光の量を調節する。",
+      "source": {
+        "page": 67,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 8,
+      "text": "対物レンズをプレパラートへ近づけるときと、ピントを合わせるときの操作は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-008-c1",
+          "text": "のぞきながら近づけ続ける"
+        },
+        {
+          "id": "q-entrance-biology-01-008-c2",
+          "text": "横から見て遠ざけ、のぞいて近づける"
+        },
+        {
+          "id": "q-entrance-biology-01-008-c3",
+          "text": "レンズをプレパラートに押し付ける"
+        },
+        {
+          "id": "q-entrance-biology-01-008-c4",
+          "text": "横から見て近づけ、のぞきながら遠ざける"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-008-c4",
+      "explanation": "横から見て接触を防ぎ、その後レンズを遠ざけながら合わせる。",
+      "source": {
+        "page": 67,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 9,
+      "text": "接眼15倍、対物10倍の顕微鏡の倍率は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-009-c1",
+          "text": "150倍"
+        },
+        {
+          "id": "q-entrance-biology-01-009-c2",
+          "text": "25倍"
+        },
+        {
+          "id": "q-entrance-biology-01-009-c3",
+          "text": "5倍"
+        },
+        {
+          "id": "q-entrance-biology-01-009-c4",
+          "text": "1.5倍"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-009-c1",
+      "explanation": "全体の倍率は接眼×対物＝15×10。",
+      "source": {
+        "page": 67,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 10,
+      "text": "視野の右端にある像を中央へ動かすには、プレパラートを？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-010-c1",
+          "text": "左へ動かす"
+        },
+        {
+          "id": "q-entrance-biology-01-010-c2",
+          "text": "右へ動かす"
+        },
+        {
+          "id": "q-entrance-biology-01-010-c3",
+          "text": "上へ動かす"
+        },
+        {
+          "id": "q-entrance-biology-01-010-c4",
+          "text": "下へ動かす"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-010-c2",
+      "explanation": "顕微鏡の像は左右が逆なので、プレパラートを右へ動かすと像は左へ動く。",
+      "source": {
+        "page": 67,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 11,
+      "text": "顕微鏡の倍率を上げると、見える範囲は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-011-c1",
+          "text": "広くなる"
+        },
+        {
+          "id": "q-entrance-biology-01-011-c2",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-biology-01-011-c3",
+          "text": "狭くなる"
+        },
+        {
+          "id": "q-entrance-biology-01-011-c4",
+          "text": "必ず全体が見える"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-011-c3",
+      "explanation": "高倍率ほど拡大されるため、一度に見える範囲は狭い。",
+      "source": {
+        "page": 67,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 12,
+      "text": "高倍率にすると、視野の明るさと対物レンズから試料までの距離は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-012-c1",
+          "text": "明るくなり、距離が長くなる"
+        },
+        {
+          "id": "q-entrance-biology-01-012-c2",
+          "text": "暗くなり、距離が長くなる"
+        },
+        {
+          "id": "q-entrance-biology-01-012-c3",
+          "text": "明るくなり、距離が短くなる"
+        },
+        {
+          "id": "q-entrance-biology-01-012-c4",
+          "text": "暗くなり、距離が短くなる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-012-c4",
+      "explanation": "高倍率では視野は暗く、作動距離は短くなる。",
+      "source": {
+        "page": 67,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-01-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-01",
+      "order": 13,
+      "text": "400倍にする接眼・対物の組合せは？接眼10/15倍、対物4/10/40倍から選ぶ。",
+      "choices": [
+        {
+          "id": "q-entrance-biology-01-013-c1",
+          "text": "10倍・40倍"
+        },
+        {
+          "id": "q-entrance-biology-01-013-c2",
+          "text": "15倍・40倍"
+        },
+        {
+          "id": "q-entrance-biology-01-013-c3",
+          "text": "10倍・10倍"
+        },
+        {
+          "id": "q-entrance-biology-01-013-c4",
+          "text": "15倍・4倍"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-01-013-c1",
+      "explanation": "10×40＝400。15倍と40倍では600倍。",
+      "source": {
+        "page": 67,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 1,
+      "text": "花の図のAの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-001-c1",
+          "text": "やく"
+        },
+        {
+          "id": "q-entrance-biology-02-001-c2",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-001-c3",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-001-c4",
+          "text": "胚珠"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-001-c2",
+      "explanation": "めしべの先端で花粉が付く部分が柱頭。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 2,
+      "text": "花の図のBの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-002-c1",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-002-c2",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-002-c3",
+          "text": "やく"
+        },
+        {
+          "id": "q-entrance-biology-02-002-c4",
+          "text": "胚珠"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-002-c3",
+      "explanation": "おしべの先端の袋状の部分で花粉をつくる。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 3,
+      "text": "花の図のCの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-003-c1",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-003-c2",
+          "text": "やく"
+        },
+        {
+          "id": "q-entrance-biology-02-003-c3",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-003-c4",
+          "text": "子房"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-003-c4",
+      "explanation": "めしべの根元のふくらんだ部分が子房。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 4,
+      "text": "花の図のDの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-004-c1",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-004-c2",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-004-c3",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-004-c4",
+          "text": "花弁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-004-c1",
+      "explanation": "子房の中にある胚珠は、受精後に種子になる。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 5,
+      "text": "花の図のEの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-005-c1",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-005-c2",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-005-c3",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-005-c4",
+          "text": "やく"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-005-c2",
+      "explanation": "花の外側にあり、つぼみを保護する部分ががく。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 6,
+      "text": "花の図で、Bを含む細い器官全体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-006-c1",
+          "text": "めしべ"
+        },
+        {
+          "id": "q-entrance-biology-02-006-c2",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-006-c3",
+          "text": "おしべ"
+        },
+        {
+          "id": "q-entrance-biology-02-006-c4",
+          "text": "花弁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-006-c3",
+      "explanation": "花粉をつくるやくをもつ器官がおしべ。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 7,
+      "text": "花の図で、AとCを含む中央の器官全体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-007-c1",
+          "text": "おしべ"
+        },
+        {
+          "id": "q-entrance-biology-02-007-c2",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-007-c3",
+          "text": "花弁"
+        },
+        {
+          "id": "q-entrance-biology-02-007-c4",
+          "text": "めしべ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-007-c4",
+      "explanation": "柱頭・花柱・子房からなる中央の器官がめしべ。",
+      "source": {
+        "page": 68,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "花の断面（模式図）",
+        "image": "science-flower",
+        "alt": "中央のめしべの先にA、根元のふくらみにC、その内部の粒にD。左右の細い器官の先の袋にB、花の根元の外側にE。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 8,
+      "text": "めしべの先端部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-008-c1",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-008-c2",
+          "text": "やく"
+        },
+        {
+          "id": "q-entrance-biology-02-008-c3",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-008-c4",
+          "text": "花弁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-008-c1",
+      "explanation": "柱頭には受粉で花粉が付く。",
+      "source": {
+        "page": 68,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 9,
+      "text": "おしべの先端の袋状の部分に入っているものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-009-c1",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-009-c2",
+          "text": "花粉"
+        },
+        {
+          "id": "q-entrance-biology-02-009-c3",
+          "text": "種子"
+        },
+        {
+          "id": "q-entrance-biology-02-009-c4",
+          "text": "果実"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-009-c2",
+      "explanation": "やくの中に花粉がつくられる。",
+      "source": {
+        "page": 68,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 10,
+      "text": "タンポポの小花で、種子の先の綿毛になる部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-010-c1",
+          "text": "花弁"
+        },
+        {
+          "id": "q-entrance-biology-02-010-c2",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-010-c3",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-010-c4",
+          "text": "やく"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-010-c3",
+      "explanation": "タンポポのがくは綿毛のような形になる。",
+      "source": {
+        "page": 68,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 11,
+      "text": "タンポポの1つの小花の花弁は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-011-c1",
+          "text": "離れている"
+        },
+        {
+          "id": "q-entrance-biology-02-011-c2",
+          "text": "全くない"
+        },
+        {
+          "id": "q-entrance-biology-02-011-c3",
+          "text": "子房の中にある"
+        },
+        {
+          "id": "q-entrance-biology-02-011-c4",
+          "text": "くっついている"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-011-c4",
+      "explanation": "タンポポは合弁花類で、花弁がつながる。",
+      "source": {
+        "page": 68,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 12,
+      "text": "カキの果実と種子は、花のどの部分が成長したもの？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-012-c1",
+          "text": "果実は子房、種子は胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-012-c2",
+          "text": "果実は胚珠、種子は子房"
+        },
+        {
+          "id": "q-entrance-biology-02-012-c3",
+          "text": "果実はがく、種子は花弁"
+        },
+        {
+          "id": "q-entrance-biology-02-012-c4",
+          "text": "果実は柱頭、種子はやく"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-012-c1",
+      "explanation": "子房が果実に、胚珠が種子になる。",
+      "source": {
+        "page": 68,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 13,
+      "text": "花の構造を外側から中心へ並べると？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-013-c1",
+          "text": "めしべ→おしべ→花弁→がく"
+        },
+        {
+          "id": "q-entrance-biology-02-013-c2",
+          "text": "がく→花弁→おしべ→めしべ"
+        },
+        {
+          "id": "q-entrance-biology-02-013-c3",
+          "text": "花弁→がく→めしべ→おしべ"
+        },
+        {
+          "id": "q-entrance-biology-02-013-c4",
+          "text": "がく→めしべ→花弁→おしべ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-013-c2",
+      "explanation": "一般的な被子植物の花では、この順で並ぶ。",
+      "source": {
+        "page": 69,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 14,
+      "text": "受粉では、花粉はめしべのどこに付く？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-014-c1",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-014-c2",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-014-c3",
+          "text": "柱頭"
+        },
+        {
+          "id": "q-entrance-biology-02-014-c4",
+          "text": "花弁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-014-c3",
+      "explanation": "柱頭に付いた花粉から花粉管が伸びる。",
+      "source": {
+        "page": 69,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 15,
+      "text": "受精後、胚珠は何になる？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-015-c1",
+          "text": "果実"
+        },
+        {
+          "id": "q-entrance-biology-02-015-c2",
+          "text": "花弁"
+        },
+        {
+          "id": "q-entrance-biology-02-015-c3",
+          "text": "がく"
+        },
+        {
+          "id": "q-entrance-biology-02-015-c4",
+          "text": "種子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-015-c4",
+      "explanation": "胚珠が種子、子房が果実になる。",
+      "source": {
+        "page": 69,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 16,
+      "text": "マツで将来まつかさになるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-016-c1",
+          "text": "雌花"
+        },
+        {
+          "id": "q-entrance-biology-02-016-c2",
+          "text": "雄花"
+        },
+        {
+          "id": "q-entrance-biology-02-016-c3",
+          "text": "葉"
+        },
+        {
+          "id": "q-entrance-biology-02-016-c4",
+          "text": "根"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-016-c1",
+      "explanation": "雌花のりん片に胚珠があり、種子をつくる。",
+      "source": {
+        "page": 69,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 17,
+      "text": "マツで花粉のうをもつのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-017-c1",
+          "text": "雌花のりん片"
+        },
+        {
+          "id": "q-entrance-biology-02-017-c2",
+          "text": "雄花のりん片"
+        },
+        {
+          "id": "q-entrance-biology-02-017-c3",
+          "text": "葉の気孔"
+        },
+        {
+          "id": "q-entrance-biology-02-017-c4",
+          "text": "根毛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-017-c2",
+      "explanation": "雄花のりん片には花粉をつくる袋がある。",
+      "source": {
+        "page": 69,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 18,
+      "text": "マツの雄花のりん片で花粉をつくる袋は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-018-c1",
+          "text": "胞子のう"
+        },
+        {
+          "id": "q-entrance-biology-02-018-c2",
+          "text": "胚珠"
+        },
+        {
+          "id": "q-entrance-biology-02-018-c3",
+          "text": "花粉のう"
+        },
+        {
+          "id": "q-entrance-biology-02-018-c4",
+          "text": "子房"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-018-c3",
+      "explanation": "マツの雄花は花粉のうで花粉をつくる。",
+      "source": {
+        "page": 69,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-019",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 19,
+      "text": "マツの雌花のりん片にあり、受精後に種子となるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-019-c1",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-02-019-c2",
+          "text": "やく"
+        },
+        {
+          "id": "q-entrance-biology-02-019-c3",
+          "text": "花弁"
+        },
+        {
+          "id": "q-entrance-biology-02-019-c4",
+          "text": "胚珠"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-019-c4",
+      "explanation": "裸子植物の胚珠は子房に包まれない。",
+      "source": {
+        "page": 69,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-02-020",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-02",
+      "order": 20,
+      "text": "マツと同じ裸子植物の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-02-020-c1",
+          "text": "イチョウとスギ"
+        },
+        {
+          "id": "q-entrance-biology-02-020-c2",
+          "text": "アサガオとイネ"
+        },
+        {
+          "id": "q-entrance-biology-02-020-c3",
+          "text": "イチョウとイネ"
+        },
+        {
+          "id": "q-entrance-biology-02-020-c4",
+          "text": "スギとアサガオ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-02-020-c1",
+      "explanation": "イチョウとスギは裸子植物、アサガオとイネは被子植物。",
+      "source": {
+        "page": 69,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 1,
+      "text": "種子をつくる植物の総称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-001-c1",
+          "text": "シダ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-001-c2",
+          "text": "種子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-001-c3",
+          "text": "コケ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-001-c4",
+          "text": "胞子植物だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-001-c2",
+      "explanation": "種子植物には裸子植物と被子植物がある。",
+      "source": {
+        "page": 70,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 2,
+      "text": "胚珠が子房に包まれる植物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-002-c1",
+          "text": "裸子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-002-c2",
+          "text": "シダ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-002-c3",
+          "text": "被子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-002-c4",
+          "text": "コケ植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-002-c3",
+      "explanation": "被子植物は胚珠が子房の中にある。",
+      "source": {
+        "page": 70,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 3,
+      "text": "胚珠がむき出しの植物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-003-c1",
+          "text": "被子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-003-c2",
+          "text": "シダ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-003-c3",
+          "text": "コケ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-003-c4",
+          "text": "裸子植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-003-c4",
+      "explanation": "マツやイチョウなどの胚珠は子房に包まれない。",
+      "source": {
+        "page": 70,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 4,
+      "text": "トウモロコシのように子葉が1枚の植物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-004-c1",
+          "text": "単子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-004-c2",
+          "text": "双子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-004-c3",
+          "text": "裸子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-004-c4",
+          "text": "コケ植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-004-c1",
+      "explanation": "単子葉類は子葉が1枚で、平行脈やひげ根が多い。",
+      "source": {
+        "page": 70,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 5,
+      "text": "エンドウのように子葉が2枚の植物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-005-c1",
+          "text": "単子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-005-c2",
+          "text": "双子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-005-c3",
+          "text": "裸子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-005-c4",
+          "text": "シダ植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-005-c2",
+      "explanation": "双子葉類の子葉は2枚。",
+      "source": {
+        "page": 70,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 6,
+      "text": "図の葉Aの葉脈は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-006-c1",
+          "text": "平行脈"
+        },
+        {
+          "id": "q-entrance-biology-03-006-c2",
+          "text": "主根"
+        },
+        {
+          "id": "q-entrance-biology-03-006-c3",
+          "text": "網状脈"
+        },
+        {
+          "id": "q-entrance-biology-03-006-c4",
+          "text": "ひげ根"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-006-c3",
+      "explanation": "網目状に枝分かれした葉脈を網状脈という。",
+      "source": {
+        "page": 70,
+        "question": 6
+      },
+      "material": {
+        "type": "image",
+        "title": "二種類の葉脈",
+        "image": "science-leaves",
+        "alt": "Aは幅広い葉で葉脈が網目状に枝分かれし、Bは細長い葉で葉脈がほぼ平行に伸びる。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 7,
+      "text": "図の葉Bの葉脈は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-007-c1",
+          "text": "網状脈"
+        },
+        {
+          "id": "q-entrance-biology-03-007-c2",
+          "text": "側根"
+        },
+        {
+          "id": "q-entrance-biology-03-007-c3",
+          "text": "維管束の輪"
+        },
+        {
+          "id": "q-entrance-biology-03-007-c4",
+          "text": "平行脈"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-007-c4",
+      "explanation": "葉脈がほぼ平行に伸びている。",
+      "source": {
+        "page": 70,
+        "question": 7
+      },
+      "material": {
+        "type": "image",
+        "title": "二種類の葉脈",
+        "image": "science-leaves",
+        "alt": "Aは幅広い葉で葉脈が網目状に枝分かれし、Bは細長い葉で葉脈がほぼ平行に伸びる。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 8,
+      "text": "双子葉類の根の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-008-c1",
+          "text": "主根と側根"
+        },
+        {
+          "id": "q-entrance-biology-03-008-c2",
+          "text": "ひげ根だけ"
+        },
+        {
+          "id": "q-entrance-biology-03-008-c3",
+          "text": "仮根だけ"
+        },
+        {
+          "id": "q-entrance-biology-03-008-c4",
+          "text": "根毛だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-008-c1",
+      "explanation": "太い主根から細い側根が枝分かれする。",
+      "source": {
+        "page": 70,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 9,
+      "text": "イネなどの単子葉類の多数の細い根は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-009-c1",
+          "text": "主根"
+        },
+        {
+          "id": "q-entrance-biology-03-009-c2",
+          "text": "ひげ根"
+        },
+        {
+          "id": "q-entrance-biology-03-009-c3",
+          "text": "仮根"
+        },
+        {
+          "id": "q-entrance-biology-03-009-c4",
+          "text": "胞子のう"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-009-c2",
+      "explanation": "単子葉類はほぼ同じ太さの細いひげ根をもつ。",
+      "source": {
+        "page": 71,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 10,
+      "text": "サクラのように花弁が1枚ずつ離れた双子葉類は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-010-c1",
+          "text": "合弁花類"
+        },
+        {
+          "id": "q-entrance-biology-03-010-c2",
+          "text": "単子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-010-c3",
+          "text": "離弁花類"
+        },
+        {
+          "id": "q-entrance-biology-03-010-c4",
+          "text": "裸子植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-010-c3",
+      "explanation": "サクラ、アブラナ、エンドウなどが離弁花類。",
+      "source": {
+        "page": 71,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 11,
+      "text": "アサガオのように花弁がつながった双子葉類は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-011-c1",
+          "text": "離弁花類"
+        },
+        {
+          "id": "q-entrance-biology-03-011-c2",
+          "text": "単子葉類"
+        },
+        {
+          "id": "q-entrance-biology-03-011-c3",
+          "text": "裸子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-011-c4",
+          "text": "合弁花類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-011-c4",
+      "explanation": "アサガオ、ツツジ、タンポポなどが合弁花類。",
+      "source": {
+        "page": 71,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 12,
+      "text": "シダ植物やコケ植物は何をつくって増える？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-012-c1",
+          "text": "胞子"
+        },
+        {
+          "id": "q-entrance-biology-03-012-c2",
+          "text": "種子"
+        },
+        {
+          "id": "q-entrance-biology-03-012-c3",
+          "text": "果実"
+        },
+        {
+          "id": "q-entrance-biology-03-012-c4",
+          "text": "卵殻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-012-c1",
+      "explanation": "種子をつくらず胞子で増える。",
+      "source": {
+        "page": 71,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 13,
+      "text": "シダで胞子をつくる袋は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-013-c1",
+          "text": "花粉のう"
+        },
+        {
+          "id": "q-entrance-biology-03-013-c2",
+          "text": "胞子のう"
+        },
+        {
+          "id": "q-entrance-biology-03-013-c3",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-03-013-c4",
+          "text": "やく"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-013-c2",
+      "explanation": "シダの葉の裏などに胞子のうがある。",
+      "source": {
+        "page": 71,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 14,
+      "text": "ゼニゴケで胞子をつくるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-014-c1",
+          "text": "雄株"
+        },
+        {
+          "id": "q-entrance-biology-03-014-c2",
+          "text": "どちらの株も同じ"
+        },
+        {
+          "id": "q-entrance-biology-03-014-c3",
+          "text": "雌株"
+        },
+        {
+          "id": "q-entrance-biology-03-014-c4",
+          "text": "仮根だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-014-c3",
+      "explanation": "雌株側に胞子をつくる器官ができる。",
+      "source": {
+        "page": 71,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 15,
+      "text": "シダとコケのうち、葉・茎・根の区別ができるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-015-c1",
+          "text": "コケ植物"
+        },
+        {
+          "id": "q-entrance-biology-03-015-c2",
+          "text": "両方ともない"
+        },
+        {
+          "id": "q-entrance-biology-03-015-c3",
+          "text": "どちらも種子植物"
+        },
+        {
+          "id": "q-entrance-biology-03-015-c4",
+          "text": "シダ植物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-015-c4",
+      "explanation": "シダ植物には葉・茎・根と維管束がある。",
+      "source": {
+        "page": 71,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 16,
+      "text": "コケ植物が水を取り入れる主な場所は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-016-c1",
+          "text": "体の表面"
+        },
+        {
+          "id": "q-entrance-biology-03-016-c2",
+          "text": "仮根だけ"
+        },
+        {
+          "id": "q-entrance-biology-03-016-c3",
+          "text": "子房"
+        },
+        {
+          "id": "q-entrance-biology-03-016-c4",
+          "text": "花粉のう"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-016-c1",
+      "explanation": "コケは体の表面から水を吸収する。",
+      "source": {
+        "page": 71,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-biology-03-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-03",
+      "order": 17,
+      "text": "コケの仮根の主なはたらきは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-03-017-c1",
+          "text": "種子をつくる"
+        },
+        {
+          "id": "q-entrance-biology-03-017-c2",
+          "text": "体を土や岩に固定する"
+        },
+        {
+          "id": "q-entrance-biology-03-017-c3",
+          "text": "光合成だけを行う"
+        },
+        {
+          "id": "q-entrance-biology-03-017-c4",
+          "text": "花粉を運ぶ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-03-017-c2",
+      "explanation": "仮根は体を固定し、根のような主な吸水器官ではない。",
+      "source": {
+        "page": 71,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 1,
+      "text": "背骨がある動物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-001-c1",
+          "text": "無セキツイ動物"
+        },
+        {
+          "id": "q-entrance-biology-04-001-c2",
+          "text": "軟体動物だけ"
+        },
+        {
+          "id": "q-entrance-biology-04-001-c3",
+          "text": "セキツイ動物"
+        },
+        {
+          "id": "q-entrance-biology-04-001-c4",
+          "text": "節足動物だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-001-c3",
+      "explanation": "魚類から哺乳類までの仲間がセキツイ動物。",
+      "source": {
+        "page": 72,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 2,
+      "text": "一般に母体内で育った子を産むセキツイ動物の仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-002-c1",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-04-002-c2",
+          "text": "両生類"
+        },
+        {
+          "id": "q-entrance-biology-04-002-c3",
+          "text": "鳥類"
+        },
+        {
+          "id": "q-entrance-biology-04-002-c4",
+          "text": "ホニュウ類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-002-c4",
+      "explanation": "哺乳類の多くは胎生で、子に乳を与える。",
+      "source": {
+        "page": 72,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 3,
+      "text": "子が母体内で育って生まれる生まれ方は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-003-c1",
+          "text": "胎生"
+        },
+        {
+          "id": "q-entrance-biology-04-003-c2",
+          "text": "卵生"
+        },
+        {
+          "id": "q-entrance-biology-04-003-c3",
+          "text": "出芽"
+        },
+        {
+          "id": "q-entrance-biology-04-003-c4",
+          "text": "分裂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-003-c1",
+      "explanation": "母体内で育った子を産むことを胎生という。",
+      "source": {
+        "page": 72,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 4,
+      "text": "産まれた卵から子が生まれる生まれ方は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-004-c1",
+          "text": "胎生"
+        },
+        {
+          "id": "q-entrance-biology-04-004-c2",
+          "text": "卵生"
+        },
+        {
+          "id": "q-entrance-biology-04-004-c3",
+          "text": "出芽"
+        },
+        {
+          "id": "q-entrance-biology-04-004-c4",
+          "text": "栄養生殖"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-004-c2",
+      "explanation": "卵から子が生まれることを卵生という。",
+      "source": {
+        "page": 72,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 5,
+      "text": "一生えらで呼吸するセキツイ動物の仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-005-c1",
+          "text": "鳥類"
+        },
+        {
+          "id": "q-entrance-biology-04-005-c2",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-005-c3",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-04-005-c4",
+          "text": "ハチュウ類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-005-c3",
+      "explanation": "魚類は水中でえらを使って呼吸する。",
+      "source": {
+        "page": 72,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 6,
+      "text": "子はえら、成体は肺や皮膚で呼吸する仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-006-c1",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-04-006-c2",
+          "text": "鳥類"
+        },
+        {
+          "id": "q-entrance-biology-04-006-c3",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-006-c4",
+          "text": "両生類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-006-c4",
+      "explanation": "カエルなどの両生類は成長で呼吸の方法が変わる。",
+      "source": {
+        "page": 72,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 7,
+      "text": "両生類が水中に産む卵にないものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-007-c1",
+          "text": "殻"
+        },
+        {
+          "id": "q-entrance-biology-04-007-c2",
+          "text": "細胞膜"
+        },
+        {
+          "id": "q-entrance-biology-04-007-c3",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-04-007-c4",
+          "text": "遺伝子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-007-c1",
+      "explanation": "乾燥を防ぐ硬い殻がないため、水中で育つ。",
+      "source": {
+        "page": 72,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 8,
+      "text": "ハチュウ類が陸上に産む卵の特徴は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-008-c1",
+          "text": "細胞がない"
+        },
+        {
+          "id": "q-entrance-biology-04-008-c2",
+          "text": "殻がある"
+        },
+        {
+          "id": "q-entrance-biology-04-008-c3",
+          "text": "核がない"
+        },
+        {
+          "id": "q-entrance-biology-04-008-c4",
+          "text": "水分が全くない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-008-c2",
+      "explanation": "殻などが卵を乾燥から守る。",
+      "source": {
+        "page": 72,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 9,
+      "text": "羽毛に覆われ、殻のある卵を産む仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-009-c1",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-009-c2",
+          "text": "両生類"
+        },
+        {
+          "id": "q-entrance-biology-04-009-c3",
+          "text": "鳥類"
+        },
+        {
+          "id": "q-entrance-biology-04-009-c4",
+          "text": "魚類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-009-c3",
+      "explanation": "鳥類は羽毛をもち、肺で呼吸する。",
+      "source": {
+        "page": 72,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 10,
+      "text": "肉食動物の目が前向きに付く利点は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-010-c1",
+          "text": "後方だけが見える"
+        },
+        {
+          "id": "q-entrance-biology-04-010-c2",
+          "text": "視野が必ず360°になる"
+        },
+        {
+          "id": "q-entrance-biology-04-010-c3",
+          "text": "色が見えなくなる"
+        },
+        {
+          "id": "q-entrance-biology-04-010-c4",
+          "text": "前方の距離をつかみやすい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-010-c4",
+      "explanation": "両目で重なる視野が広く、距離を判断しやすい。",
+      "source": {
+        "page": 73,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 11,
+      "text": "草食動物の目が顔の側面にある利点は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-011-c1",
+          "text": "広い範囲を見渡せる"
+        },
+        {
+          "id": "q-entrance-biology-04-011-c2",
+          "text": "前方しか見えない"
+        },
+        {
+          "id": "q-entrance-biology-04-011-c3",
+          "text": "必ず夜しか見えない"
+        },
+        {
+          "id": "q-entrance-biology-04-011-c4",
+          "text": "距離が完全に分からない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-011-c1",
+      "explanation": "周囲の広い範囲を見て敵を発見しやすい。",
+      "source": {
+        "page": 73,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 12,
+      "text": "背骨がない動物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-012-c1",
+          "text": "セキツイ動物"
+        },
+        {
+          "id": "q-entrance-biology-04-012-c2",
+          "text": "無セキツイ動物"
+        },
+        {
+          "id": "q-entrance-biology-04-012-c3",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-012-c4",
+          "text": "鳥類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-012-c2",
+      "explanation": "背骨の有無が大きな分類の基準。",
+      "source": {
+        "page": 73,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 13,
+      "text": "外骨格があり、体や脚に節がある動物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-013-c1",
+          "text": "軟体動物"
+        },
+        {
+          "id": "q-entrance-biology-04-013-c2",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-04-013-c3",
+          "text": "節足動物"
+        },
+        {
+          "id": "q-entrance-biology-04-013-c4",
+          "text": "両生類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-013-c3",
+      "explanation": "昆虫、エビ、カニなどが節足動物。",
+      "source": {
+        "page": 73,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 14,
+      "text": "バッタやカブトムシの仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-014-c1",
+          "text": "甲殻類"
+        },
+        {
+          "id": "q-entrance-biology-04-014-c2",
+          "text": "軟体動物"
+        },
+        {
+          "id": "q-entrance-biology-04-014-c3",
+          "text": "ハチュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-014-c4",
+          "text": "昆虫類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-014-c4",
+      "explanation": "昆虫類は節足動物で、成体の脚が6本。",
+      "source": {
+        "page": 73,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 15,
+      "text": "昆虫が空気を取り入れる体表の穴は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-015-c1",
+          "text": "気門"
+        },
+        {
+          "id": "q-entrance-biology-04-015-c2",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-04-015-c3",
+          "text": "えら"
+        },
+        {
+          "id": "q-entrance-biology-04-015-c4",
+          "text": "肺胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-015-c1",
+      "explanation": "気門から空気を取り入れ、気管で体内へ送る。",
+      "source": {
+        "page": 73,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 16,
+      "text": "エビやカニの仲間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-016-c1",
+          "text": "昆虫類"
+        },
+        {
+          "id": "q-entrance-biology-04-016-c2",
+          "text": "甲殻類"
+        },
+        {
+          "id": "q-entrance-biology-04-016-c3",
+          "text": "軟体動物"
+        },
+        {
+          "id": "q-entrance-biology-04-016-c4",
+          "text": "魚類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-016-c2",
+      "explanation": "甲殻類も節足動物に含まれる。",
+      "source": {
+        "page": 73,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 17,
+      "text": "カニや昆虫の体の外を覆う骨格は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-017-c1",
+          "text": "内骨格"
+        },
+        {
+          "id": "q-entrance-biology-04-017-c2",
+          "text": "背骨"
+        },
+        {
+          "id": "q-entrance-biology-04-017-c3",
+          "text": "外骨格"
+        },
+        {
+          "id": "q-entrance-biology-04-017-c4",
+          "text": "脊髄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-017-c3",
+      "explanation": "外骨格は体を支え、内部を保護する。",
+      "source": {
+        "page": 73,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-biology-04-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-04",
+      "order": 18,
+      "text": "イカや貝のように外とう膜をもつ動物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-04-018-c1",
+          "text": "節足動物"
+        },
+        {
+          "id": "q-entrance-biology-04-018-c2",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-04-018-c3",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-04-018-c4",
+          "text": "軟体動物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-04-018-c4",
+      "explanation": "軟体動物には外とう膜があり、内臓を包む。",
+      "source": {
+        "page": 73,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 1,
+      "text": "植物細胞の図でAの部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-001-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-001-c2",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-05-001-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-001-c4",
+          "text": "細胞壁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-001-c1",
+      "explanation": "核には遺伝子が含まれる。",
+      "source": {
+        "page": 74,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "植物の細胞（模式図）",
+        "image": "science-plant-cell",
+        "alt": "Aは円形の中心構造、Bは大きな袋、Cは小さな緑色の粒、Dは内側の薄い境界、Eは外側の厚い境界を指す。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 2,
+      "text": "植物細胞の図でBの部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-002-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-002-c2",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-05-002-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-002-c4",
+          "text": "細胞壁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-002-c2",
+      "explanation": "液胞は液体で満たされ、物質を蓄える。",
+      "source": {
+        "page": 74,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "植物の細胞（模式図）",
+        "image": "science-plant-cell",
+        "alt": "Aは円形の中心構造、Bは大きな袋、Cは小さな緑色の粒、Dは内側の薄い境界、Eは外側の厚い境界を指す。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 3,
+      "text": "植物細胞の図でCの部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-003-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-003-c2",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-05-003-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-003-c4",
+          "text": "細胞膜"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-003-c3",
+      "explanation": "葉緑体で光合成が行われる。",
+      "source": {
+        "page": 74,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "植物の細胞（模式図）",
+        "image": "science-plant-cell",
+        "alt": "Aは円形の中心構造、Bは大きな袋、Cは小さな緑色の粒、Dは内側の薄い境界、Eは外側の厚い境界を指す。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 4,
+      "text": "植物細胞の図でDの薄い境界は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-004-c1",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-004-c2",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-004-c3",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-05-004-c4",
+          "text": "細胞膜"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-004-c4",
+      "explanation": "細胞膜は細胞質を包む薄い膜である。",
+      "source": {
+        "page": 74,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "植物の細胞（模式図）",
+        "image": "science-plant-cell",
+        "alt": "Aは円形の中心構造、Bは大きな袋、Cは小さな緑色の粒、Dは内側の薄い境界、Eは外側の厚い境界を指す。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 5,
+      "text": "植物細胞の図でEの厚い外側の部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-005-c1",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-005-c2",
+          "text": "細胞膜"
+        },
+        {
+          "id": "q-entrance-biology-05-005-c3",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-005-c4",
+          "text": "葉緑体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-005-c1",
+      "explanation": "細胞壁は細胞膜の外側にある。",
+      "source": {
+        "page": 74,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "植物の細胞（模式図）",
+        "image": "science-plant-cell",
+        "alt": "Aは円形の中心構造、Bは大きな袋、Cは小さな緑色の粒、Dは内側の薄い境界、Eは外側の厚い境界を指す。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 6,
+      "text": "細胞の核と細胞膜以外の部分の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-006-c1",
+          "text": "組織"
+        },
+        {
+          "id": "q-entrance-biology-05-006-c2",
+          "text": "細胞質"
+        },
+        {
+          "id": "q-entrance-biology-05-006-c3",
+          "text": "器官"
+        },
+        {
+          "id": "q-entrance-biology-05-006-c4",
+          "text": "染色体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-006-c2",
+      "explanation": "核以外で細胞膜に包まれた部分を細胞質という。",
+      "source": {
+        "page": 74,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 7,
+      "text": "植物細胞の境界が動物細胞よりはっきり見える理由となるつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-007-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-007-c2",
+          "text": "細胞膜"
+        },
+        {
+          "id": "q-entrance-biology-05-007-c3",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-007-c4",
+          "text": "ミトコンドリア"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-007-c3",
+      "explanation": "植物細胞には細胞膜の外に細胞壁がある。",
+      "source": {
+        "page": 74,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 8,
+      "text": "植物細胞で液体に満たされ、物質を蓄えるつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-008-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-008-c2",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-008-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-008-c4",
+          "text": "液胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-008-c4",
+      "explanation": "成長した植物細胞では液胞が発達する。",
+      "source": {
+        "page": 74,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 9,
+      "text": "動物細胞で遺伝子を含むつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-009-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-009-c2",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-009-c3",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-05-009-c4",
+          "text": "細胞壁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-009-c1",
+      "explanation": "動物細胞にも核がある。",
+      "source": {
+        "page": 74,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 10,
+      "text": "動物細胞の外側を包む薄い膜は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-010-c1",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-010-c2",
+          "text": "細胞膜"
+        },
+        {
+          "id": "q-entrance-biology-05-010-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-010-c4",
+          "text": "染色体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-010-c2",
+      "explanation": "動物細胞には細胞壁がなく、細胞膜で包まれる。",
+      "source": {
+        "page": 74,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 11,
+      "text": "動物細胞と植物細胞に共通し、遺伝子を含むつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-011-c1",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-05-011-c2",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-05-011-c3",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-011-c4",
+          "text": "気孔"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-011-c3",
+      "explanation": "核は動物細胞にも植物細胞にも見られる。",
+      "source": {
+        "page": 75,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 12,
+      "text": "細胞の核を染める染色液として適切なのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-012-c1",
+          "text": "ヨウ素液"
+        },
+        {
+          "id": "q-entrance-biology-05-012-c2",
+          "text": "BTB溶液"
+        },
+        {
+          "id": "q-entrance-biology-05-012-c3",
+          "text": "石灰水"
+        },
+        {
+          "id": "q-entrance-biology-05-012-c4",
+          "text": "酢酸カーミン溶液"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-012-c4",
+      "explanation": "酢酸カーミンや酢酸オルセインなどで核を染める。",
+      "source": {
+        "page": 75,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 13,
+      "text": "細胞分裂の観察で根をうすい塩酸に入れて温める主な理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-013-c1",
+          "text": "細胞を一つずつ離れやすくする"
+        },
+        {
+          "id": "q-entrance-biology-05-013-c2",
+          "text": "核を青色に染める"
+        },
+        {
+          "id": "q-entrance-biology-05-013-c3",
+          "text": "光合成を促す"
+        },
+        {
+          "id": "q-entrance-biology-05-013-c4",
+          "text": "細胞壁を厚くする"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-013-c1",
+      "explanation": "細胞を離して重なりを減らすと観察しやすい。",
+      "source": {
+        "page": 75,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 14,
+      "text": "体が一つの細胞からできている生物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-014-c1",
+          "text": "多細胞生物"
+        },
+        {
+          "id": "q-entrance-biology-05-014-c2",
+          "text": "単細胞生物"
+        },
+        {
+          "id": "q-entrance-biology-05-014-c3",
+          "text": "種子植物"
+        },
+        {
+          "id": "q-entrance-biology-05-014-c4",
+          "text": "脊椎動物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-014-c2",
+      "explanation": "一つの細胞で生命活動を行う。",
+      "source": {
+        "page": 75,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 15,
+      "text": "体が多数の細胞からできている生物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-015-c1",
+          "text": "単細胞生物"
+        },
+        {
+          "id": "q-entrance-biology-05-015-c2",
+          "text": "原子"
+        },
+        {
+          "id": "q-entrance-biology-05-015-c3",
+          "text": "多細胞生物"
+        },
+        {
+          "id": "q-entrance-biology-05-015-c4",
+          "text": "分子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-015-c3",
+      "explanation": "多くの細胞が役割を分担する。",
+      "source": {
+        "page": 75,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 16,
+      "text": "ゾウリムシはどのような生物か？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-016-c1",
+          "text": "多細胞生物"
+        },
+        {
+          "id": "q-entrance-biology-05-016-c2",
+          "text": "種子植物"
+        },
+        {
+          "id": "q-entrance-biology-05-016-c3",
+          "text": "菌類"
+        },
+        {
+          "id": "q-entrance-biology-05-016-c4",
+          "text": "単細胞生物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-016-c4",
+      "explanation": "ゾウリムシの体は一つの細胞でできている。",
+      "source": {
+        "page": 75,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 17,
+      "text": "形や働きが同じ細胞の集まりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-017-c1",
+          "text": "組織"
+        },
+        {
+          "id": "q-entrance-biology-05-017-c2",
+          "text": "器官"
+        },
+        {
+          "id": "q-entrance-biology-05-017-c3",
+          "text": "個体"
+        },
+        {
+          "id": "q-entrance-biology-05-017-c4",
+          "text": "細胞膜"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-017-c1",
+      "explanation": "同じ働きをする細胞が集まって組織になる。",
+      "source": {
+        "page": 75,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 18,
+      "text": "複数の組織が集まり、決まった形と働きをもつものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-018-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-018-c2",
+          "text": "器官"
+        },
+        {
+          "id": "q-entrance-biology-05-018-c3",
+          "text": "染色体"
+        },
+        {
+          "id": "q-entrance-biology-05-018-c4",
+          "text": "細胞質"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-018-c2",
+      "explanation": "胃や肝臓、植物の葉や根などが器官である。",
+      "source": {
+        "page": 75,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-05-019",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-05",
+      "order": 19,
+      "text": "複数の器官が集まってできた一つの生物の体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-05-019-c1",
+          "text": "組織"
+        },
+        {
+          "id": "q-entrance-biology-05-019-c2",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-05-019-c3",
+          "text": "個体"
+        },
+        {
+          "id": "q-entrance-biology-05-019-c4",
+          "text": "分子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-05-019-c3",
+      "explanation": "細胞、組織、器官がまとまって個体を構成する。",
+      "source": {
+        "page": 75,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 1,
+      "text": "葉の維管束で水や無機養分が通る管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-001-c1",
+          "text": "師管"
+        },
+        {
+          "id": "q-entrance-biology-06-001-c2",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-001-c3",
+          "text": "根毛"
+        },
+        {
+          "id": "q-entrance-biology-06-001-c4",
+          "text": "道管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-001-c4",
+      "explanation": "道管は水と無機養分の通り道である。",
+      "source": {
+        "page": 76,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 2,
+      "text": "葉の維管束の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-002-c1",
+          "text": "葉脈"
+        },
+        {
+          "id": "q-entrance-biology-06-002-c2",
+          "text": "根毛"
+        },
+        {
+          "id": "q-entrance-biology-06-002-c3",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-002-c4",
+          "text": "柱頭"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-002-c1",
+      "explanation": "葉脈には道管と師管がある。",
+      "source": {
+        "page": 76,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 3,
+      "text": "葉の表皮にある、二つの細胞に囲まれたすき間は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-003-c1",
+          "text": "葉脈"
+        },
+        {
+          "id": "q-entrance-biology-06-003-c2",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-003-c3",
+          "text": "道管"
+        },
+        {
+          "id": "q-entrance-biology-06-003-c4",
+          "text": "根毛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-003-c2",
+      "explanation": "気孔を通して気体や水蒸気が出入りする。",
+      "source": {
+        "page": 76,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 4,
+      "text": "気孔の周囲にある三日月形の細胞は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-004-c1",
+          "text": "神経細胞"
+        },
+        {
+          "id": "q-entrance-biology-06-004-c2",
+          "text": "赤血球"
+        },
+        {
+          "id": "q-entrance-biology-06-004-c3",
+          "text": "孔辺細胞"
+        },
+        {
+          "id": "q-entrance-biology-06-004-c4",
+          "text": "卵細胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-004-c3",
+      "explanation": "二つの孔辺細胞が気孔を囲む。",
+      "source": {
+        "page": 76,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 5,
+      "text": "双子葉類の茎で、維管束の内側にある水の通り道は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-005-c1",
+          "text": "師管"
+        },
+        {
+          "id": "q-entrance-biology-06-005-c2",
+          "text": "表皮"
+        },
+        {
+          "id": "q-entrance-biology-06-005-c3",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-005-c4",
+          "text": "道管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-005-c4",
+      "explanation": "双子葉類の茎では道管が内側、師管が外側にある。",
+      "source": {
+        "page": 76,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 6,
+      "text": "葉で作られた栄養分を運ぶ管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-006-c1",
+          "text": "師管"
+        },
+        {
+          "id": "q-entrance-biology-06-006-c2",
+          "text": "道管"
+        },
+        {
+          "id": "q-entrance-biology-06-006-c3",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-006-c4",
+          "text": "根毛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-006-c1",
+      "explanation": "師管は光合成で作られた栄養分の通り道である。",
+      "source": {
+        "page": 77,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 7,
+      "text": "道管と師管がまとまった束は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-007-c1",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-06-007-c2",
+          "text": "維管束"
+        },
+        {
+          "id": "q-entrance-biology-06-007-c3",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-06-007-c4",
+          "text": "花粉管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-007-c2",
+      "explanation": "維管束は根・茎・葉をつなぐ。",
+      "source": {
+        "page": 77,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 8,
+      "text": "赤インクを溶かした水を吸わせた植物で赤く染まる管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-008-c1",
+          "text": "師管"
+        },
+        {
+          "id": "q-entrance-biology-06-008-c2",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-06-008-c3",
+          "text": "道管"
+        },
+        {
+          "id": "q-entrance-biology-06-008-c4",
+          "text": "孔辺細胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-008-c3",
+      "explanation": "水の通り道である道管に色がつく。",
+      "source": {
+        "page": 77,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 9,
+      "text": "根毛の働きの組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-009-c1",
+          "text": "花粉の生成と受粉"
+        },
+        {
+          "id": "q-entrance-biology-06-009-c2",
+          "text": "光合成と種子形成"
+        },
+        {
+          "id": "q-entrance-biology-06-009-c3",
+          "text": "酸素の生成と開花"
+        },
+        {
+          "id": "q-entrance-biology-06-009-c4",
+          "text": "水や無機養分の吸収と体の固定"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-009-c4",
+      "explanation": "根毛は表面積を増やして吸収を助ける。",
+      "source": {
+        "page": 77,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 10,
+      "text": "植物から水が水蒸気となって出る現象は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-010-c1",
+          "text": "蒸散"
+        },
+        {
+          "id": "q-entrance-biology-06-010-c2",
+          "text": "蒸留"
+        },
+        {
+          "id": "q-entrance-biology-06-010-c3",
+          "text": "凝固"
+        },
+        {
+          "id": "q-entrance-biology-06-010-c4",
+          "text": "受粉"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-010-c1",
+      "explanation": "主に葉の気孔から水蒸気が出る。",
+      "source": {
+        "page": 77,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 11,
+      "text": "葉の表・裏に別々にワセリンを塗って蒸散を調べた。一般に気孔が多いのはどちらか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-011-c1",
+          "text": "葉の表"
+        },
+        {
+          "id": "q-entrance-biology-06-011-c2",
+          "text": "葉の裏"
+        },
+        {
+          "id": "q-entrance-biology-06-011-c3",
+          "text": "葉柄の中心"
+        },
+        {
+          "id": "q-entrance-biology-06-011-c4",
+          "text": "茎の内部"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-011-c2",
+      "explanation": "多くの陸上植物では葉の裏に気孔が多い。",
+      "source": {
+        "page": 77,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 12,
+      "text": "蒸散の実験で水面に油を浮かべる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-012-c1",
+          "text": "植物の呼吸を止める"
+        },
+        {
+          "id": "q-entrance-biology-06-012-c2",
+          "text": "道管を染める"
+        },
+        {
+          "id": "q-entrance-biology-06-012-c3",
+          "text": "水面からの蒸発を防ぐ"
+        },
+        {
+          "id": "q-entrance-biology-06-012-c4",
+          "text": "光を遮る"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-012-c3",
+      "explanation": "水の減少を植物の蒸散によるものとして調べるためである。",
+      "source": {
+        "page": 78,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 13,
+      "text": "葉の細胞中にある緑色の粒は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-013-c1",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-biology-06-013-c2",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-06-013-c3",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-06-013-c4",
+          "text": "葉緑体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-013-c4",
+      "explanation": "葉緑体には葉緑素が含まれる。",
+      "source": {
+        "page": 78,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 14,
+      "text": "光合成で発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-014-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-biology-06-014-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-biology-06-014-c3",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-biology-06-014-c4",
+          "text": "二酸化炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-014-c1",
+      "explanation": "光合成は二酸化炭素を取り入れ、酸素を放出する。",
+      "source": {
+        "page": 78,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 15,
+      "text": "光合成で作られ、葉に蓄えられる有機物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-015-c1",
+          "text": "塩化ナトリウム"
+        },
+        {
+          "id": "q-entrance-biology-06-015-c2",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-06-015-c3",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-biology-06-015-c4",
+          "text": "水"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-015-c2",
+      "explanation": "光合成で作られた糖の一部はデンプンとして蓄えられる。",
+      "source": {
+        "page": 78,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 16,
+      "text": "葉が重なりにくい付き方をする利点は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-016-c1",
+          "text": "根毛が増える"
+        },
+        {
+          "id": "q-entrance-biology-06-016-c2",
+          "text": "水が凍る"
+        },
+        {
+          "id": "q-entrance-biology-06-016-c3",
+          "text": "多くの葉に光が当たる"
+        },
+        {
+          "id": "q-entrance-biology-06-016-c4",
+          "text": "花粉がなくなる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-016-c3",
+      "explanation": "葉が光を受けやすくなり、光合成に適する。",
+      "source": {
+        "page": 78,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 17,
+      "text": "緑色のBTB溶液にオオカナダモを入れ十分な光を当てると青色に戻った。理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-017-c1",
+          "text": "呼吸だけで酸素が増えた"
+        },
+        {
+          "id": "q-entrance-biology-06-017-c2",
+          "text": "光合成で二酸化炭素が増えた"
+        },
+        {
+          "id": "q-entrance-biology-06-017-c3",
+          "text": "蒸散で窒素が減った"
+        },
+        {
+          "id": "q-entrance-biology-06-017-c4",
+          "text": "光合成が呼吸より盛んで二酸化炭素が減った"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-017-c4",
+      "explanation": "二酸化炭素が減ると酸性が弱まり、BTB溶液の色が戻る。",
+      "source": {
+        "page": 78,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 18,
+      "text": "デンプンの検出に用いる薬品は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-018-c1",
+          "text": "ヨウ素液"
+        },
+        {
+          "id": "q-entrance-biology-06-018-c2",
+          "text": "石灰水"
+        },
+        {
+          "id": "q-entrance-biology-06-018-c3",
+          "text": "BTB溶液"
+        },
+        {
+          "id": "q-entrance-biology-06-018-c4",
+          "text": "塩酸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-018-c1",
+      "explanation": "デンプンがあるとヨウ素液は青紫色になる。",
+      "source": {
+        "page": 78,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-biology-06-019",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-06",
+      "order": 19,
+      "text": "デンプンにヨウ素液を加えたときの色は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-06-019-c1",
+          "text": "黄色"
+        },
+        {
+          "id": "q-entrance-biology-06-019-c2",
+          "text": "青紫色"
+        },
+        {
+          "id": "q-entrance-biology-06-019-c3",
+          "text": "赤色"
+        },
+        {
+          "id": "q-entrance-biology-06-019-c4",
+          "text": "緑色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-06-019-c2",
+      "explanation": "青紫色への変化はデンプンがあることを示す。",
+      "source": {
+        "page": 78,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 1,
+      "text": "食道から送られた食物を一時的にため、胃液で消化する器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-001-c1",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-001-c2",
+          "text": "小腸"
+        },
+        {
+          "id": "q-entrance-biology-07-001-c3",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-001-c4",
+          "text": "大腸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-001-c3",
+      "explanation": "胃液にはタンパク質を分解する消化酵素がある。",
+      "source": {
+        "page": 79,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 2,
+      "text": "胆汁を作る器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-002-c1",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-002-c2",
+          "text": "小腸"
+        },
+        {
+          "id": "q-entrance-biology-07-002-c3",
+          "text": "大腸"
+        },
+        {
+          "id": "q-entrance-biology-07-002-c4",
+          "text": "肝臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-002-c4",
+      "explanation": "肝臓は胆汁を作り、吸収された栄養分も処理する。",
+      "source": {
+        "page": 79,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 3,
+      "text": "柔毛があり、栄養分を主に吸収する器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-003-c1",
+          "text": "小腸"
+        },
+        {
+          "id": "q-entrance-biology-07-003-c2",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-003-c3",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-003-c4",
+          "text": "大腸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-003-c1",
+      "explanation": "小腸の内壁には多数の柔毛がある。",
+      "source": {
+        "page": 79,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 4,
+      "text": "小腸の後に続き、水分などを吸収する器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-004-c1",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-004-c2",
+          "text": "大腸"
+        },
+        {
+          "id": "q-entrance-biology-07-004-c3",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-004-c4",
+          "text": "すい臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-004-c2",
+      "explanation": "大腸では水分が吸収され、便が作られる。",
+      "source": {
+        "page": 79,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 5,
+      "text": "口から肛門まで続く食物の通り道は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-005-c1",
+          "text": "気管"
+        },
+        {
+          "id": "q-entrance-biology-07-005-c2",
+          "text": "尿管"
+        },
+        {
+          "id": "q-entrance-biology-07-005-c3",
+          "text": "消化管"
+        },
+        {
+          "id": "q-entrance-biology-07-005-c4",
+          "text": "血管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-005-c3",
+      "explanation": "食道、胃、小腸、大腸などが消化管を構成する。",
+      "source": {
+        "page": 79,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 6,
+      "text": "だ液のアミラーゼが分解する物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-006-c1",
+          "text": "脂肪"
+        },
+        {
+          "id": "q-entrance-biology-07-006-c2",
+          "text": "タンパク質"
+        },
+        {
+          "id": "q-entrance-biology-07-006-c3",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-biology-07-006-c4",
+          "text": "デンプン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-006-c4",
+      "explanation": "アミラーゼはデンプンを麦芽糖などに分解する。",
+      "source": {
+        "page": 79,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 7,
+      "text": "だ液による消化の実験を約40℃で行う理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-007-c1",
+          "text": "体温に近くアミラーゼが働きやすい"
+        },
+        {
+          "id": "q-entrance-biology-07-007-c2",
+          "text": "デンプンが気化する"
+        },
+        {
+          "id": "q-entrance-biology-07-007-c3",
+          "text": "すべての酵素が壊れる"
+        },
+        {
+          "id": "q-entrance-biology-07-007-c4",
+          "text": "水が沸騰する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-007-c1",
+      "explanation": "だ液の酵素は体温に近い温度で働きやすい。",
+      "source": {
+        "page": 79,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 8,
+      "text": "脂肪の消化でできる物質の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-008-c1",
+          "text": "ブドウ糖とアミノ酸"
+        },
+        {
+          "id": "q-entrance-biology-07-008-c2",
+          "text": "脂肪酸とモノグリセリド"
+        },
+        {
+          "id": "q-entrance-biology-07-008-c3",
+          "text": "デンプンと麦芽糖"
+        },
+        {
+          "id": "q-entrance-biology-07-008-c4",
+          "text": "酸素と水素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-008-c2",
+      "explanation": "脂肪は脂肪酸とモノグリセリドに分解される。",
+      "source": {
+        "page": 79,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 9,
+      "text": "表のAとCにヨウ素液を加えたとき、青紫色になるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-009-c1",
+          "text": "Aだけ"
+        },
+        {
+          "id": "q-entrance-biology-07-009-c2",
+          "text": "AとCの両方"
+        },
+        {
+          "id": "q-entrance-biology-07-009-c3",
+          "text": "Cだけ"
+        },
+        {
+          "id": "q-entrance-biology-07-009-c4",
+          "text": "どちらもならない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-009-c3",
+      "explanation": "Aではだ液がデンプンを分解し、Cにはデンプンが残る。",
+      "source": {
+        "page": 80,
+        "question": 6
+      },
+      "material": {
+        "type": "table",
+        "title": "だ液の実験：すべて約40℃で10分間温める",
+        "headers": [
+          "試験管",
+          "液体",
+          "加える薬品"
+        ],
+        "rows": [
+          [
+            "A",
+            "デンプン溶液＋だ液",
+            "ヨウ素液"
+          ],
+          [
+            "B",
+            "デンプン溶液＋だ液",
+            "ベネジクト液（加熱）"
+          ],
+          [
+            "C",
+            "デンプン溶液＋水",
+            "ヨウ素液"
+          ],
+          [
+            "D",
+            "デンプン溶液＋水",
+            "ベネジクト液（加熱）"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 10,
+      "text": "表のBとDにベネジクト液を加えて加熱したとき、赤褐色になるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-010-c1",
+          "text": "Dだけ"
+        },
+        {
+          "id": "q-entrance-biology-07-010-c2",
+          "text": "BとDの両方"
+        },
+        {
+          "id": "q-entrance-biology-07-010-c3",
+          "text": "どちらもならない"
+        },
+        {
+          "id": "q-entrance-biology-07-010-c4",
+          "text": "Bだけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-010-c4",
+      "explanation": "だ液でできた麦芽糖などがベネジクト液に反応する。",
+      "source": {
+        "page": 80,
+        "question": 7
+      },
+      "material": {
+        "type": "table",
+        "title": "だ液の実験：すべて約40℃で10分間温める",
+        "headers": [
+          "試験管",
+          "液体",
+          "加える薬品"
+        ],
+        "rows": [
+          [
+            "A",
+            "デンプン溶液＋だ液",
+            "ヨウ素液"
+          ],
+          [
+            "B",
+            "デンプン溶液＋だ液",
+            "ベネジクト液（加熱）"
+          ],
+          [
+            "C",
+            "デンプン溶液＋水",
+            "ヨウ素液"
+          ],
+          [
+            "D",
+            "デンプン溶液＋水",
+            "ベネジクト液（加熱）"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 11,
+      "text": "ブドウ糖にベネジクト液を加えて加熱すると何色の沈殿ができるか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-011-c1",
+          "text": "赤褐色"
+        },
+        {
+          "id": "q-entrance-biology-07-011-c2",
+          "text": "青紫色"
+        },
+        {
+          "id": "q-entrance-biology-07-011-c3",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-biology-07-011-c4",
+          "text": "白色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-011-c1",
+      "explanation": "ブドウ糖や麦芽糖は加熱したベネジクト液に反応する。",
+      "source": {
+        "page": 80,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 12,
+      "text": "一つの条件以外を同じにして比較する実験は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-012-c1",
+          "text": "蒸留"
+        },
+        {
+          "id": "q-entrance-biology-07-012-c2",
+          "text": "対照実験"
+        },
+        {
+          "id": "q-entrance-biology-07-012-c3",
+          "text": "電気分解"
+        },
+        {
+          "id": "q-entrance-biology-07-012-c4",
+          "text": "受粉"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-012-c2",
+      "explanation": "変えた条件が結果に及ぼす影響を調べる。",
+      "source": {
+        "page": 80,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 13,
+      "text": "胃液のペプシンが分解する物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-013-c1",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-07-013-c2",
+          "text": "脂肪"
+        },
+        {
+          "id": "q-entrance-biology-07-013-c3",
+          "text": "タンパク質"
+        },
+        {
+          "id": "q-entrance-biology-07-013-c4",
+          "text": "食塩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-013-c3",
+      "explanation": "ペプシンはタンパク質を分解する消化酵素である。",
+      "source": {
+        "page": 80,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 14,
+      "text": "主に体を作る材料になる栄養素は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-014-c1",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-07-014-c2",
+          "text": "脂肪"
+        },
+        {
+          "id": "q-entrance-biology-07-014-c3",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-biology-07-014-c4",
+          "text": "タンパク質"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-014-c4",
+      "explanation": "タンパク質は筋肉など体の材料になる。",
+      "source": {
+        "page": 80,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 15,
+      "text": "タンパク質が消化されて最終的にできる物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-015-c1",
+          "text": "アミノ酸"
+        },
+        {
+          "id": "q-entrance-biology-07-015-c2",
+          "text": "脂肪酸"
+        },
+        {
+          "id": "q-entrance-biology-07-015-c3",
+          "text": "ブドウ糖"
+        },
+        {
+          "id": "q-entrance-biology-07-015-c4",
+          "text": "麦芽糖"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-015-c1",
+      "explanation": "タンパク質は小腸で吸収できるアミノ酸になる。",
+      "source": {
+        "page": 80,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 16,
+      "text": "胆汁を作る器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-016-c1",
+          "text": "胆のう"
+        },
+        {
+          "id": "q-entrance-biology-07-016-c2",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-016-c3",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-016-c4",
+          "text": "小腸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-016-c2",
+      "explanation": "胆汁は肝臓で作られる。",
+      "source": {
+        "page": 80,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 17,
+      "text": "胆汁を蓄える器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-017-c1",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-017-c2",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-07-017-c3",
+          "text": "胆のう"
+        },
+        {
+          "id": "q-entrance-biology-07-017-c4",
+          "text": "腎臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-017-c3",
+      "explanation": "肝臓で作られた胆汁は胆のうに蓄えられる。",
+      "source": {
+        "page": 81,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 18,
+      "text": "すい液のリパーゼが分解する物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-018-c1",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-07-018-c2",
+          "text": "タンパク質"
+        },
+        {
+          "id": "q-entrance-biology-07-018-c3",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-biology-07-018-c4",
+          "text": "脂肪"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-018-c4",
+      "explanation": "リパーゼは脂肪の消化に関わる。",
+      "source": {
+        "page": 81,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-019",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 19,
+      "text": "デンプンはだ液とすい液のほか、どの器官の壁の酵素で分解されるか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-019-c1",
+          "text": "小腸"
+        },
+        {
+          "id": "q-entrance-biology-07-019-c2",
+          "text": "大腸"
+        },
+        {
+          "id": "q-entrance-biology-07-019-c3",
+          "text": "食道"
+        },
+        {
+          "id": "q-entrance-biology-07-019-c4",
+          "text": "肝臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-019-c1",
+      "explanation": "小腸の壁の酵素も糖の消化を進める。",
+      "source": {
+        "page": 81,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-020",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 20,
+      "text": "小腸の内壁にある小さな突起は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-020-c1",
+          "text": "根毛"
+        },
+        {
+          "id": "q-entrance-biology-07-020-c2",
+          "text": "柔毛"
+        },
+        {
+          "id": "q-entrance-biology-07-020-c3",
+          "text": "気孔"
+        },
+        {
+          "id": "q-entrance-biology-07-020-c4",
+          "text": "肺胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-020-c2",
+      "explanation": "柔毛は栄養分を吸収する部分である。",
+      "source": {
+        "page": 81,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-021",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 21,
+      "text": "小腸に多数の柔毛がある利点は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-021-c1",
+          "text": "温度が必ず下がる"
+        },
+        {
+          "id": "q-entrance-biology-07-021-c2",
+          "text": "消化管が短くなる"
+        },
+        {
+          "id": "q-entrance-biology-07-021-c3",
+          "text": "表面積が増え吸収しやすい"
+        },
+        {
+          "id": "q-entrance-biology-07-021-c4",
+          "text": "酸素だけを作る"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-021-c3",
+      "explanation": "広い表面積で栄養分を効率よく吸収する。",
+      "source": {
+        "page": 81,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-022",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 22,
+      "text": "柔毛の毛細血管に入る物質の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-022-c1",
+          "text": "脂肪とデンプン"
+        },
+        {
+          "id": "q-entrance-biology-07-022-c2",
+          "text": "タンパク質とデンプン"
+        },
+        {
+          "id": "q-entrance-biology-07-022-c3",
+          "text": "脂肪酸と食物繊維"
+        },
+        {
+          "id": "q-entrance-biology-07-022-c4",
+          "text": "ブドウ糖とアミノ酸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-022-c4",
+      "explanation": "小さく分解されたブドウ糖とアミノ酸が毛細血管に入る。",
+      "source": {
+        "page": 81,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-023",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 23,
+      "text": "吸収された脂肪酸とモノグリセリドが再び脂肪になって入る管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-023-c1",
+          "text": "リンパ管"
+        },
+        {
+          "id": "q-entrance-biology-07-023-c2",
+          "text": "道管"
+        },
+        {
+          "id": "q-entrance-biology-07-023-c3",
+          "text": "気管"
+        },
+        {
+          "id": "q-entrance-biology-07-023-c4",
+          "text": "尿管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-023-c1",
+      "explanation": "脂肪は主に柔毛のリンパ管に入る。",
+      "source": {
+        "page": 81,
+        "question": 20
+      }
+    },
+    {
+      "id": "q-entrance-biology-07-024",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-07",
+      "order": 24,
+      "text": "小腸で吸収されたブドウ糖やアミノ酸が最初に運ばれる器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-07-024-c1",
+          "text": "肺"
+        },
+        {
+          "id": "q-entrance-biology-07-024-c2",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-07-024-c3",
+          "text": "腎臓"
+        },
+        {
+          "id": "q-entrance-biology-07-024-c4",
+          "text": "脳"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-07-024-c2",
+      "explanation": "肝臓は栄養分を一時的に蓄え、調整する。",
+      "source": {
+        "page": 81,
+        "question": 21
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 1,
+      "text": "口や鼻から吸い込まれた空気が肺へ向かって通る管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-001-c1",
+          "text": "食道"
+        },
+        {
+          "id": "q-entrance-biology-08-001-c2",
+          "text": "尿管"
+        },
+        {
+          "id": "q-entrance-biology-08-001-c3",
+          "text": "気管"
+        },
+        {
+          "id": "q-entrance-biology-08-001-c4",
+          "text": "リンパ管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-001-c3",
+      "explanation": "気管は空気の通り道である。",
+      "source": {
+        "page": 82,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 2,
+      "text": "気管が枝分かれした部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-002-c1",
+          "text": "肺静脈"
+        },
+        {
+          "id": "q-entrance-biology-08-002-c2",
+          "text": "柔毛"
+        },
+        {
+          "id": "q-entrance-biology-08-002-c3",
+          "text": "食道"
+        },
+        {
+          "id": "q-entrance-biology-08-002-c4",
+          "text": "気管支"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-002-c4",
+      "explanation": "気管支は肺の内部でさらに枝分かれする。",
+      "source": {
+        "page": 82,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 3,
+      "text": "肺の下にあり、呼吸運動に関わる膜状の筋肉は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-003-c1",
+          "text": "横隔膜"
+        },
+        {
+          "id": "q-entrance-biology-08-003-c2",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-08-003-c3",
+          "text": "細胞膜"
+        },
+        {
+          "id": "q-entrance-biology-08-003-c4",
+          "text": "外とう膜"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-003-c1",
+      "explanation": "横隔膜や肋骨を動かす筋肉で胸の容積を変える。",
+      "source": {
+        "page": 82,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 4,
+      "text": "肺にある毛細血管に囲まれた小さな袋は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-004-c1",
+          "text": "柔毛"
+        },
+        {
+          "id": "q-entrance-biology-08-004-c2",
+          "text": "肺胞"
+        },
+        {
+          "id": "q-entrance-biology-08-004-c3",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-08-004-c4",
+          "text": "胆のう"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-004-c2",
+      "explanation": "肺胞と毛細血管の間で酸素と二酸化炭素を交換する。",
+      "source": {
+        "page": 82,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 5,
+      "text": "多数の肺胞があることで大きくなるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-005-c1",
+          "text": "血液の密度"
+        },
+        {
+          "id": "q-entrance-biology-08-005-c2",
+          "text": "気管の長さ"
+        },
+        {
+          "id": "q-entrance-biology-08-005-c3",
+          "text": "表面積"
+        },
+        {
+          "id": "q-entrance-biology-08-005-c4",
+          "text": "心臓の部屋数"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-005-c3",
+      "explanation": "気体交換を行う面積が広くなる。",
+      "source": {
+        "page": 82,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 6,
+      "text": "細胞が栄養分と酸素を使ってエネルギーを得る働きは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-006-c1",
+          "text": "光合成"
+        },
+        {
+          "id": "q-entrance-biology-08-006-c2",
+          "text": "蒸散"
+        },
+        {
+          "id": "q-entrance-biology-08-006-c3",
+          "text": "受粉"
+        },
+        {
+          "id": "q-entrance-biology-08-006-c4",
+          "text": "細胞呼吸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-006-c4",
+      "explanation": "細胞呼吸では二酸化炭素などが生じる。",
+      "source": {
+        "page": 82,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-08-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-08",
+      "order": 7,
+      "text": "細胞の活動でアンモニアのほかに生じる不要な物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-08-007-c1",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-biology-08-007-c2",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-08-007-c3",
+          "text": "ヘモグロビン"
+        },
+        {
+          "id": "q-entrance-biology-08-007-c4",
+          "text": "胆汁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-08-007-c1",
+      "explanation": "二酸化炭素は血液で肺へ運ばれ、体外へ出る。",
+      "source": {
+        "page": 82,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 1,
+      "text": "心臓から肺以外の全身を通り、心臓へ戻る循環は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-001-c1",
+          "text": "肺循環"
+        },
+        {
+          "id": "q-entrance-biology-09-001-c2",
+          "text": "体循環"
+        },
+        {
+          "id": "q-entrance-biology-09-001-c3",
+          "text": "蒸散"
+        },
+        {
+          "id": "q-entrance-biology-09-001-c4",
+          "text": "消化"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-001-c2",
+      "explanation": "体循環は全身の細胞に酸素や栄養分を届ける。",
+      "source": {
+        "page": 83,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 2,
+      "text": "心臓から肺を通り、心臓へ戻る循環は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-002-c1",
+          "text": "体循環"
+        },
+        {
+          "id": "q-entrance-biology-09-002-c2",
+          "text": "消化"
+        },
+        {
+          "id": "q-entrance-biology-09-002-c3",
+          "text": "肺循環"
+        },
+        {
+          "id": "q-entrance-biology-09-002-c4",
+          "text": "排出"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-002-c3",
+      "explanation": "肺循環では肺で気体交換が行われる。",
+      "source": {
+        "page": 83,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 3,
+      "text": "小腸で吸収した栄養分を最も多く含む血液が通る経路は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-003-c1",
+          "text": "心臓から肺へ"
+        },
+        {
+          "id": "q-entrance-biology-09-003-c2",
+          "text": "肺から心臓へ"
+        },
+        {
+          "id": "q-entrance-biology-09-003-c3",
+          "text": "腎臓から心臓へ"
+        },
+        {
+          "id": "q-entrance-biology-09-003-c4",
+          "text": "小腸から肝臓へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-003-c4",
+      "explanation": "小腸で吸収された栄養分は肝臓へ運ばれる。",
+      "source": {
+        "page": 83,
+        "question": 3
+      },
+      "material": {
+        "type": "image",
+        "title": "血液の主な経路（模式図）",
+        "image": "science-circulation",
+        "alt": "心臓から肺へ肺動脈、肺から心臓へ肺静脈。心臓から全身の器官へ血液が送られ戻る。小腸から肝臓へは別の経路がある。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 4,
+      "text": "尿素が除かれた直後の血液が流れる経路は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-004-c1",
+          "text": "腎臓から心臓へ"
+        },
+        {
+          "id": "q-entrance-biology-09-004-c2",
+          "text": "肝臓から小腸へ"
+        },
+        {
+          "id": "q-entrance-biology-09-004-c3",
+          "text": "心臓から腎臓へ"
+        },
+        {
+          "id": "q-entrance-biology-09-004-c4",
+          "text": "心臓から肺へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-004-c1",
+      "explanation": "腎臓で尿素が除かれるため、腎臓から出る血液では少ない。",
+      "source": {
+        "page": 83,
+        "question": 4
+      },
+      "material": {
+        "type": "image",
+        "title": "血液の主な経路（模式図）",
+        "image": "science-circulation",
+        "alt": "心臓から肺へ肺動脈、肺から心臓へ肺静脈。心臓から全身の器官へ血液が送られ戻る。小腸から肝臓へは別の経路がある。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 5,
+      "text": "肺で酸素を取り入れた直後の血液が通る管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-005-c1",
+          "text": "肺動脈"
+        },
+        {
+          "id": "q-entrance-biology-09-005-c2",
+          "text": "肺静脈"
+        },
+        {
+          "id": "q-entrance-biology-09-005-c3",
+          "text": "大静脈"
+        },
+        {
+          "id": "q-entrance-biology-09-005-c4",
+          "text": "肝門脈"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-005-c2",
+      "explanation": "肺から心臓へ戻る肺静脈に酸素の多い血液が流れる。",
+      "source": {
+        "page": 83,
+        "question": 5
+      },
+      "material": {
+        "type": "image",
+        "title": "血液の主な経路（模式図）",
+        "image": "science-circulation",
+        "alt": "心臓から肺へ肺動脈、肺から心臓へ肺静脈。心臓から全身の器官へ血液が送られ戻る。小腸から肝臓へは別の経路がある。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 6,
+      "text": "肺から心臓へ血液を運ぶ血管の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-006-c1",
+          "text": "肺動脈"
+        },
+        {
+          "id": "q-entrance-biology-09-006-c2",
+          "text": "大動脈"
+        },
+        {
+          "id": "q-entrance-biology-09-006-c3",
+          "text": "肺静脈"
+        },
+        {
+          "id": "q-entrance-biology-09-006-c4",
+          "text": "毛細血管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-006-c3",
+      "explanation": "心臓へ戻る向きの血管は静脈である。",
+      "source": {
+        "page": 83,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 7,
+      "text": "心臓から肺へ血液を運ぶ血管の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-007-c1",
+          "text": "肺静脈"
+        },
+        {
+          "id": "q-entrance-biology-09-007-c2",
+          "text": "大静脈"
+        },
+        {
+          "id": "q-entrance-biology-09-007-c3",
+          "text": "肝門脈"
+        },
+        {
+          "id": "q-entrance-biology-09-007-c4",
+          "text": "肺動脈"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-007-c4",
+      "explanation": "心臓から出る向きの血管は動脈である。",
+      "source": {
+        "page": 84,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 8,
+      "text": "肺動脈の血液は肺静脈の血液と比べてどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-008-c1",
+          "text": "二酸化炭素が多い"
+        },
+        {
+          "id": "q-entrance-biology-09-008-c2",
+          "text": "酸素が多い"
+        },
+        {
+          "id": "q-entrance-biology-09-008-c3",
+          "text": "栄養分が全くない"
+        },
+        {
+          "id": "q-entrance-biology-09-008-c4",
+          "text": "尿素が全くない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-008-c1",
+      "explanation": "肺動脈には全身から戻った静脈血が流れる。",
+      "source": {
+        "page": 84,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 9,
+      "text": "酸素が多く、二酸化炭素が少ない血液は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-009-c1",
+          "text": "静脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-009-c2",
+          "text": "動脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-009-c3",
+          "text": "血小板"
+        },
+        {
+          "id": "q-entrance-biology-09-009-c4",
+          "text": "組織液"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-009-c2",
+      "explanation": "動脈血という名称は血液の性質を表す。",
+      "source": {
+        "page": 84,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 10,
+      "text": "二酸化炭素が多く、酸素が少ない血液は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-010-c1",
+          "text": "動脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-010-c2",
+          "text": "胆汁"
+        },
+        {
+          "id": "q-entrance-biology-09-010-c3",
+          "text": "静脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-010-c4",
+          "text": "リンパ球"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-010-c3",
+      "explanation": "静脈血という名称は血液の性質を表す。",
+      "source": {
+        "page": 84,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 11,
+      "text": "静脈の特徴として正しいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-011-c1",
+          "text": "動脈より壁が厚く、弁がない"
+        },
+        {
+          "id": "q-entrance-biology-09-011-c2",
+          "text": "壁がなく、酸素だけを運ぶ"
+        },
+        {
+          "id": "q-entrance-biology-09-011-c3",
+          "text": "細胞壁に囲まれ、栄養分だけを運ぶ"
+        },
+        {
+          "id": "q-entrance-biology-09-011-c4",
+          "text": "動脈より壁が薄く、逆流を防ぐ弁がある"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-011-c4",
+      "explanation": "静脈の弁は血液の逆流を防ぐ。",
+      "source": {
+        "page": 84,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 12,
+      "text": "全身へ血液を送り出す心臓の部屋は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-012-c1",
+          "text": "左心室"
+        },
+        {
+          "id": "q-entrance-biology-09-012-c2",
+          "text": "右心室"
+        },
+        {
+          "id": "q-entrance-biology-09-012-c3",
+          "text": "左心房"
+        },
+        {
+          "id": "q-entrance-biology-09-012-c4",
+          "text": "右心房"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-012-c1",
+      "explanation": "左心室から大動脈へ血液が送られる。",
+      "source": {
+        "page": 84,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-09-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-09",
+      "order": 13,
+      "text": "心室が縮むとき、肺と全身へそれぞれ送られる血液の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-09-013-c1",
+          "text": "肺へ動脈血、全身へ静脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-013-c2",
+          "text": "肺へ静脈血、全身へ動脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-013-c3",
+          "text": "両方へ静脈血"
+        },
+        {
+          "id": "q-entrance-biology-09-013-c4",
+          "text": "両方へ動脈血"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-09-013-c2",
+      "explanation": "右心室は肺へ、左心室は全身へ血液を送る。",
+      "source": {
+        "page": 84,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 1,
+      "text": "血液中の多数の円盤形の細胞で、酸素を運ぶものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-001-c1",
+          "text": "白血球"
+        },
+        {
+          "id": "q-entrance-biology-10-001-c2",
+          "text": "血小板"
+        },
+        {
+          "id": "q-entrance-biology-10-001-c3",
+          "text": "赤血球"
+        },
+        {
+          "id": "q-entrance-biology-10-001-c4",
+          "text": "神経細胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-001-c3",
+      "explanation": "赤血球にはヘモグロビンが含まれる。",
+      "source": {
+        "page": 85,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 2,
+      "text": "血液中で体内に入った細菌などを分解する細胞は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-002-c1",
+          "text": "赤血球"
+        },
+        {
+          "id": "q-entrance-biology-10-002-c2",
+          "text": "血小板"
+        },
+        {
+          "id": "q-entrance-biology-10-002-c3",
+          "text": "孔辺細胞"
+        },
+        {
+          "id": "q-entrance-biology-10-002-c4",
+          "text": "白血球"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-002-c4",
+      "explanation": "白血球は体を守る働きをする。",
+      "source": {
+        "page": 85,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 3,
+      "text": "赤血球に含まれ、酸素を運ぶ物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-003-c1",
+          "text": "ヘモグロビン"
+        },
+        {
+          "id": "q-entrance-biology-10-003-c2",
+          "text": "アミラーゼ"
+        },
+        {
+          "id": "q-entrance-biology-10-003-c3",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-10-003-c4",
+          "text": "尿素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-003-c1",
+      "explanation": "ヘモグロビンは赤色の物質で酸素と結びつく。",
+      "source": {
+        "page": 85,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 4,
+      "text": "ヘモグロビンの性質として正しいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-004-c1",
+          "text": "酸素の少ない所で結びつき、多い所で離す"
+        },
+        {
+          "id": "q-entrance-biology-10-004-c2",
+          "text": "酸素の多い所で結びつき、少ない所で離す"
+        },
+        {
+          "id": "q-entrance-biology-10-004-c3",
+          "text": "どこでも酸素を全く離さない"
+        },
+        {
+          "id": "q-entrance-biology-10-004-c4",
+          "text": "二酸化炭素しか運ばない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-004-c2",
+      "explanation": "肺で酸素を受け取り、全身の細胞で酸素を渡す。",
+      "source": {
+        "page": 85,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 5,
+      "text": "白血球が分解するものとして適切なのは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-005-c1",
+          "text": "骨"
+        },
+        {
+          "id": "q-entrance-biology-10-005-c2",
+          "text": "赤血球中の酸素"
+        },
+        {
+          "id": "q-entrance-biology-10-005-c3",
+          "text": "体内に侵入した細菌"
+        },
+        {
+          "id": "q-entrance-biology-10-005-c4",
+          "text": "胃で作られた尿素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-005-c3",
+      "explanation": "白血球は異物の排除などに関わる。",
+      "source": {
+        "page": 85,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 6,
+      "text": "吸収されたブドウ糖やアミノ酸が溶け込む血液の液体成分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-006-c1",
+          "text": "赤血球"
+        },
+        {
+          "id": "q-entrance-biology-10-006-c2",
+          "text": "血小板"
+        },
+        {
+          "id": "q-entrance-biology-10-006-c3",
+          "text": "ヘモグロビン"
+        },
+        {
+          "id": "q-entrance-biology-10-006-c4",
+          "text": "血しょう"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-006-c4",
+      "explanation": "血しょうは栄養分や不要な物質を運ぶ。",
+      "source": {
+        "page": 85,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 7,
+      "text": "血しょうが毛細血管からしみ出し、細胞の周囲を満たす液体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-007-c1",
+          "text": "組織液"
+        },
+        {
+          "id": "q-entrance-biology-10-007-c2",
+          "text": "胆汁"
+        },
+        {
+          "id": "q-entrance-biology-10-007-c3",
+          "text": "胃液"
+        },
+        {
+          "id": "q-entrance-biology-10-007-c4",
+          "text": "尿"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-007-c1",
+      "explanation": "組織液を介して細胞と血液が物質を交換する。",
+      "source": {
+        "page": 85,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-10-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-10",
+      "order": 8,
+      "text": "出血したときに血液を固める働きをする成分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-10-008-c1",
+          "text": "赤血球"
+        },
+        {
+          "id": "q-entrance-biology-10-008-c2",
+          "text": "血小板"
+        },
+        {
+          "id": "q-entrance-biology-10-008-c3",
+          "text": "血しょうだけ"
+        },
+        {
+          "id": "q-entrance-biology-10-008-c4",
+          "text": "アミラーゼ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-10-008-c2",
+      "explanation": "血小板は血液の凝固に関わる。",
+      "source": {
+        "page": 85,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 1,
+      "text": "細胞の活動で二酸化炭素のほかにできる有害な不要物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-001-c1",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-11-001-c2",
+          "text": "アミラーゼ"
+        },
+        {
+          "id": "q-entrance-biology-11-001-c3",
+          "text": "アンモニア"
+        },
+        {
+          "id": "q-entrance-biology-11-001-c4",
+          "text": "ヘモグロビン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-001-c3",
+      "explanation": "タンパク質などの代謝でアンモニアができる。",
+      "source": {
+        "page": 86,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 2,
+      "text": "アンモニアを尿素に変える器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-002-c1",
+          "text": "腎臓"
+        },
+        {
+          "id": "q-entrance-biology-11-002-c2",
+          "text": "膀胱"
+        },
+        {
+          "id": "q-entrance-biology-11-002-c3",
+          "text": "肺"
+        },
+        {
+          "id": "q-entrance-biology-11-002-c4",
+          "text": "肝臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-002-c4",
+      "explanation": "肝臓は有害なアンモニアを比較的害の少ない尿素に変える。",
+      "source": {
+        "page": 86,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 3,
+      "text": "血液中から尿素などを取り除く器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-003-c1",
+          "text": "腎臓"
+        },
+        {
+          "id": "q-entrance-biology-11-003-c2",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-11-003-c3",
+          "text": "胃"
+        },
+        {
+          "id": "q-entrance-biology-11-003-c4",
+          "text": "心臓"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-003-c1",
+      "explanation": "腎臓は血液中の不要な物質を除いて尿を作る。",
+      "source": {
+        "page": 86,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 4,
+      "text": "腎臓で作られる液体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-004-c1",
+          "text": "胆汁"
+        },
+        {
+          "id": "q-entrance-biology-11-004-c2",
+          "text": "尿"
+        },
+        {
+          "id": "q-entrance-biology-11-004-c3",
+          "text": "だ液"
+        },
+        {
+          "id": "q-entrance-biology-11-004-c4",
+          "text": "胃液"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-004-c2",
+      "explanation": "尿には尿素などの不要な物質が含まれる。",
+      "source": {
+        "page": 86,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 5,
+      "text": "尿を一時的に蓄える器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-005-c1",
+          "text": "腎臓"
+        },
+        {
+          "id": "q-entrance-biology-11-005-c2",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-11-005-c3",
+          "text": "膀胱"
+        },
+        {
+          "id": "q-entrance-biology-11-005-c4",
+          "text": "小腸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-005-c3",
+      "explanation": "尿は膀胱に蓄えられた後に体外へ出る。",
+      "source": {
+        "page": 86,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 6,
+      "text": "図で腎臓から送られた尿が蓄えられるBの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-006-c1",
+          "text": "腎臓"
+        },
+        {
+          "id": "q-entrance-biology-11-006-c2",
+          "text": "尿管"
+        },
+        {
+          "id": "q-entrance-biology-11-006-c3",
+          "text": "大腸"
+        },
+        {
+          "id": "q-entrance-biology-11-006-c4",
+          "text": "膀胱"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-006-c4",
+      "explanation": "左右の腎臓から尿管を通って膀胱へ尿が送られる。",
+      "source": {
+        "page": 86,
+        "question": 6
+      },
+      "material": {
+        "type": "image",
+        "title": "尿の通り道（模式図）",
+        "image": "science-urinary",
+        "alt": "Aは左右の豆形の器官、Cは各Aから下に伸びる管、Bは二本の管がつながる袋。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 7,
+      "text": "図で腎臓と膀胱をつなぐCの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-007-c1",
+          "text": "尿管"
+        },
+        {
+          "id": "q-entrance-biology-11-007-c2",
+          "text": "気管"
+        },
+        {
+          "id": "q-entrance-biology-11-007-c3",
+          "text": "食道"
+        },
+        {
+          "id": "q-entrance-biology-11-007-c4",
+          "text": "動脈"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-007-c1",
+      "explanation": "尿管は尿を腎臓から膀胱へ運ぶ。",
+      "source": {
+        "page": 86,
+        "question": 7
+      },
+      "material": {
+        "type": "image",
+        "title": "尿の通り道（模式図）",
+        "image": "science-urinary",
+        "alt": "Aは左右の豆形の器官、Cは各Aから下に伸びる管、Bは二本の管がつながる袋。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-11-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-11",
+      "order": 8,
+      "text": "腎臓から心臓の方向へ戻る血液が流れる血管は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-11-008-c1",
+          "text": "動脈"
+        },
+        {
+          "id": "q-entrance-biology-11-008-c2",
+          "text": "静脈"
+        },
+        {
+          "id": "q-entrance-biology-11-008-c3",
+          "text": "尿管"
+        },
+        {
+          "id": "q-entrance-biology-11-008-c4",
+          "text": "気管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-11-008-c2",
+      "explanation": "心臓へ戻る向きの血管を静脈という。",
+      "source": {
+        "page": 86,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 1,
+      "text": "目や耳など、外界の刺激を受け取る器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-001-c1",
+          "text": "消化器官"
+        },
+        {
+          "id": "q-entrance-biology-12-001-c2",
+          "text": "排出器官"
+        },
+        {
+          "id": "q-entrance-biology-12-001-c3",
+          "text": "感覚器官"
+        },
+        {
+          "id": "q-entrance-biology-12-001-c4",
+          "text": "生殖器官"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-001-c3",
+      "explanation": "感覚器官には目、耳、鼻、舌、皮膚などがある。",
+      "source": {
+        "page": 87,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 2,
+      "text": "感覚器官から中枢へ信号を伝える神経は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-002-c1",
+          "text": "運動神経"
+        },
+        {
+          "id": "q-entrance-biology-12-002-c2",
+          "text": "道管"
+        },
+        {
+          "id": "q-entrance-biology-12-002-c3",
+          "text": "毛細血管"
+        },
+        {
+          "id": "q-entrance-biology-12-002-c4",
+          "text": "感覚神経"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-002-c4",
+      "explanation": "感覚神経は刺激の信号を脳や脊髄へ伝える。",
+      "source": {
+        "page": 87,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 3,
+      "text": "目の図でAの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-003-c1",
+          "text": "レンズ（水晶体）"
+        },
+        {
+          "id": "q-entrance-biology-12-003-c2",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-003-c3",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-003-c4",
+          "text": "視神経"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-003-c1",
+      "explanation": "水晶体は光を屈折させる。",
+      "source": {
+        "page": 87,
+        "question": 3
+      },
+      "material": {
+        "type": "image",
+        "title": "目の断面（模式図）",
+        "image": "science-eye",
+        "alt": "光は左から入り、Aは前方の凸レンズ形の部分、BはAの前でひとみを囲む部分、Cは眼球の奥の内面。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 4,
+      "text": "目の図でBの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-004-c1",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-004-c2",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-004-c3",
+          "text": "レンズ（水晶体）"
+        },
+        {
+          "id": "q-entrance-biology-12-004-c4",
+          "text": "視神経"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-004-c2",
+      "explanation": "虹彩はひとみの大きさを調整する。",
+      "source": {
+        "page": 87,
+        "question": 3
+      },
+      "material": {
+        "type": "image",
+        "title": "目の断面（模式図）",
+        "image": "science-eye",
+        "alt": "光は左から入り、Aは前方の凸レンズ形の部分、BはAの前でひとみを囲む部分、Cは眼球の奥の内面。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 5,
+      "text": "目の図でCの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-005-c1",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-005-c2",
+          "text": "レンズ（水晶体）"
+        },
+        {
+          "id": "q-entrance-biology-12-005-c3",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-005-c4",
+          "text": "角膜"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-005-c3",
+      "explanation": "網膜の上に像ができる。",
+      "source": {
+        "page": 87,
+        "question": 3
+      },
+      "material": {
+        "type": "image",
+        "title": "目の断面（模式図）",
+        "image": "science-eye",
+        "alt": "光は左から入り、Aは前方の凸レンズ形の部分、BはAの前でひとみを囲む部分、Cは眼球の奥の内面。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 6,
+      "text": "目で光を屈折させ、網膜の上に像を作る部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-006-c1",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-006-c2",
+          "text": "鼓膜"
+        },
+        {
+          "id": "q-entrance-biology-12-006-c3",
+          "text": "耳小骨"
+        },
+        {
+          "id": "q-entrance-biology-12-006-c4",
+          "text": "レンズ（水晶体）"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-006-c4",
+      "explanation": "水晶体の働きは凸レンズに似ている。",
+      "source": {
+        "page": 87,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 7,
+      "text": "目に入る光の量を調節する部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-007-c1",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-007-c2",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-007-c3",
+          "text": "視神経"
+        },
+        {
+          "id": "q-entrance-biology-12-007-c4",
+          "text": "うずまき管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-007-c1",
+      "explanation": "虹彩がひとみの大きさを変える。",
+      "source": {
+        "page": 87,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 8,
+      "text": "鼓膜の振動を耳小骨が伝える先は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-008-c1",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-008-c2",
+          "text": "うずまき管"
+        },
+        {
+          "id": "q-entrance-biology-12-008-c3",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-008-c4",
+          "text": "気管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-008-c2",
+      "explanation": "うずまき管で音の刺激が受け取られる。",
+      "source": {
+        "page": 87,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 9,
+      "text": "脳と脊髄からなる神経は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-009-c1",
+          "text": "末しょう神経"
+        },
+        {
+          "id": "q-entrance-biology-12-009-c2",
+          "text": "運動神経だけ"
+        },
+        {
+          "id": "q-entrance-biology-12-009-c3",
+          "text": "中枢神経"
+        },
+        {
+          "id": "q-entrance-biology-12-009-c4",
+          "text": "感覚神経だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-009-c3",
+      "explanation": "中枢神経は情報を処理し、命令を出す。",
+      "source": {
+        "page": 87,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 10,
+      "text": "感覚神経や運動神経など、体の各部へ広がる神経の総称は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-010-c1",
+          "text": "中枢神経"
+        },
+        {
+          "id": "q-entrance-biology-12-010-c2",
+          "text": "脳"
+        },
+        {
+          "id": "q-entrance-biology-12-010-c3",
+          "text": "脊髄"
+        },
+        {
+          "id": "q-entrance-biology-12-010-c4",
+          "text": "末しょう神経"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-010-c4",
+      "explanation": "末しょう神経は中枢と体の各部をつなぐ。",
+      "source": {
+        "page": 88,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 11,
+      "text": "脳や脊髄の命令を筋肉へ伝える神経は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-011-c1",
+          "text": "運動神経"
+        },
+        {
+          "id": "q-entrance-biology-12-011-c2",
+          "text": "感覚神経"
+        },
+        {
+          "id": "q-entrance-biology-12-011-c3",
+          "text": "毛細血管"
+        },
+        {
+          "id": "q-entrance-biology-12-011-c4",
+          "text": "リンパ管"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-011-c1",
+      "explanation": "運動神経の信号により筋肉が動く。",
+      "source": {
+        "page": 88,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 12,
+      "text": "寒いと感じて意識して手をポケットに入れるときの信号の経路は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-012-c1",
+          "text": "皮膚→筋肉→脳"
+        },
+        {
+          "id": "q-entrance-biology-12-012-c2",
+          "text": "皮膚→脊髄→脳→脊髄→筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-012-c3",
+          "text": "脳→皮膚→筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-012-c4",
+          "text": "皮膚→脊髄→筋肉だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-012-c2",
+      "explanation": "意識した反応では脳が判断して命令を出す。",
+      "source": {
+        "page": 88,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-013",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 13,
+      "text": "刺激を受けた皮膚から中枢へ、次に中枢から筋肉へ伝える神経の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-013-c1",
+          "text": "運動神経、感覚神経"
+        },
+        {
+          "id": "q-entrance-biology-12-013-c2",
+          "text": "感覚神経、感覚神経"
+        },
+        {
+          "id": "q-entrance-biology-12-013-c3",
+          "text": "感覚神経、運動神経"
+        },
+        {
+          "id": "q-entrance-biology-12-013-c4",
+          "text": "運動神経、運動神経"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-013-c3",
+      "explanation": "感覚神経が刺激を送り、運動神経が命令を伝える。",
+      "source": {
+        "page": 88,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-014",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 14,
+      "text": "刺激に対して意識とは関係なく起こる反応は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-014-c1",
+          "text": "光合成"
+        },
+        {
+          "id": "q-entrance-biology-12-014-c2",
+          "text": "消化管"
+        },
+        {
+          "id": "q-entrance-biology-12-014-c3",
+          "text": "受精"
+        },
+        {
+          "id": "q-entrance-biology-12-014-c4",
+          "text": "反射"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-014-c4",
+      "explanation": "熱い物から手を引くなどの反応を反射という。",
+      "source": {
+        "page": 88,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-015",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 15,
+      "text": "熱い物に触れ思わず手を引く反射の主な信号経路は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-015-c1",
+          "text": "皮膚→感覚神経→脊髄→運動神経→筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-015-c2",
+          "text": "皮膚→運動神経→脳→感覚神経→筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-015-c3",
+          "text": "皮膚→筋肉→脊髄"
+        },
+        {
+          "id": "q-entrance-biology-12-015-c4",
+          "text": "脳→皮膚→筋肉"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-015-c1",
+      "explanation": "この反射では脊髄から筋肉へ命令が出る。",
+      "source": {
+        "page": 88,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-016",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 16,
+      "text": "反射は意識して行う反応と比べ、一般に反応までの時間がどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-016-c1",
+          "text": "長い"
+        },
+        {
+          "id": "q-entrance-biology-12-016-c2",
+          "text": "短い"
+        },
+        {
+          "id": "q-entrance-biology-12-016-c3",
+          "text": "必ず同じ"
+        },
+        {
+          "id": "q-entrance-biology-12-016-c4",
+          "text": "一日かかる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-016-c2",
+      "explanation": "脳で判断する過程を経ずに命令が伝わるため速い。",
+      "source": {
+        "page": 89,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-017",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 17,
+      "text": "熱い物から手を引く反射で命令を出す中枢は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-017-c1",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-017-c2",
+          "text": "肝臓"
+        },
+        {
+          "id": "q-entrance-biology-12-017-c3",
+          "text": "脊髄"
+        },
+        {
+          "id": "q-entrance-biology-12-017-c4",
+          "text": "小腸"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-017-c3",
+      "explanation": "この反射の中枢は脊髄である。",
+      "source": {
+        "page": 89,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-018",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 18,
+      "text": "周囲が明るくなるとひとみはどうなるか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-018-c1",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-biology-12-018-c2",
+          "text": "なくなる"
+        },
+        {
+          "id": "q-entrance-biology-12-018-c3",
+          "text": "必ず同じ大きさ"
+        },
+        {
+          "id": "q-entrance-biology-12-018-c4",
+          "text": "小さくなる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-018-c4",
+      "explanation": "入る光の量を減らすためひとみが小さくなる。",
+      "source": {
+        "page": 89,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-019",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 19,
+      "text": "骨と筋肉をつなぐ丈夫なつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-019-c1",
+          "text": "けん"
+        },
+        {
+          "id": "q-entrance-biology-12-019-c2",
+          "text": "関節"
+        },
+        {
+          "id": "q-entrance-biology-12-019-c3",
+          "text": "網膜"
+        },
+        {
+          "id": "q-entrance-biology-12-019-c4",
+          "text": "肺胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-019-c1",
+      "explanation": "けんは筋肉の力を骨に伝える。",
+      "source": {
+        "page": 89,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-020",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 20,
+      "text": "骨と骨のつなぎ目で曲げられる部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-020-c1",
+          "text": "けん"
+        },
+        {
+          "id": "q-entrance-biology-12-020-c2",
+          "text": "関節"
+        },
+        {
+          "id": "q-entrance-biology-12-020-c3",
+          "text": "虹彩"
+        },
+        {
+          "id": "q-entrance-biology-12-020-c4",
+          "text": "気孔"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-020-c2",
+      "explanation": "関節で骨どうしが動く。",
+      "source": {
+        "page": 89,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-021",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 21,
+      "text": "腕立て伏せで肘を伸ばして体を持ち上げるとき、主に収縮する筋肉は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-021-c1",
+          "text": "腕を曲げる側の筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-021-c2",
+          "text": "両側とも収縮しない"
+        },
+        {
+          "id": "q-entrance-biology-12-021-c3",
+          "text": "腕を伸ばす側の筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-021-c4",
+          "text": "骨そのもの"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-021-c3",
+      "explanation": "筋肉は縮むことで骨を引き、肘を伸ばす。",
+      "source": {
+        "page": 89,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-biology-12-022",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-12",
+      "order": 22,
+      "text": "熱い物に触れ腕を曲げて手を引くとき、主に収縮する筋肉は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-12-022-c1",
+          "text": "腕を伸ばす側の筋肉"
+        },
+        {
+          "id": "q-entrance-biology-12-022-c2",
+          "text": "両側とも収縮しない"
+        },
+        {
+          "id": "q-entrance-biology-12-022-c3",
+          "text": "けんそのもの"
+        },
+        {
+          "id": "q-entrance-biology-12-022-c4",
+          "text": "腕を曲げる側の筋肉"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-12-022-c4",
+      "explanation": "一対の筋肉の一方が収縮して腕を曲げる。",
+      "source": {
+        "page": 89,
+        "question": 20
+      }
+    },
+    {
+      "id": "q-entrance-biology-13-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-13",
+      "order": 1,
+      "text": "タマネギの根に等間隔の印を付けて成長させた。特によく伸びる場所は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-13-001-c1",
+          "text": "先端に近い部分"
+        },
+        {
+          "id": "q-entrance-biology-13-001-c2",
+          "text": "根の付け根だけ"
+        },
+        {
+          "id": "q-entrance-biology-13-001-c3",
+          "text": "根全体が同じ割合"
+        },
+        {
+          "id": "q-entrance-biology-13-001-c4",
+          "text": "先端から遠い部分だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-13-001-c1",
+      "explanation": "根の先端近くで細胞が分裂し、その細胞が大きくなる。",
+      "source": {
+        "page": 90,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-13-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-13",
+      "order": 2,
+      "text": "根が伸びるとき、細胞の数の増加とともに起こる変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-13-002-c1",
+          "text": "細胞がすべて消える"
+        },
+        {
+          "id": "q-entrance-biology-13-002-c2",
+          "text": "増えた細胞が大きくなる"
+        },
+        {
+          "id": "q-entrance-biology-13-002-c3",
+          "text": "細胞壁がなくなる"
+        },
+        {
+          "id": "q-entrance-biology-13-002-c4",
+          "text": "核がすべてなくなる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-13-002-c2",
+      "explanation": "細胞分裂と細胞の成長によって根が伸びる。",
+      "source": {
+        "page": 90,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-13-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-13",
+      "order": 3,
+      "text": "体細胞分裂の進み方として正しい順序は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-13-003-c1",
+          "text": "中央に並ぶ→二つになる→複製される→両端へ分かれる"
+        },
+        {
+          "id": "q-entrance-biology-13-003-c2",
+          "text": "二つになる→両端へ分かれる→中央に並ぶ→複製される"
+        },
+        {
+          "id": "q-entrance-biology-13-003-c3",
+          "text": "染色体が複製される→中央に並ぶ→両端へ分かれる→二つの細胞になる"
+        },
+        {
+          "id": "q-entrance-biology-13-003-c4",
+          "text": "両端へ分かれる→中央に並ぶ→複製される→二つになる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-13-003-c3",
+      "explanation": "複製された染色体が等しく分かれる。",
+      "source": {
+        "page": 90,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-13-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-13",
+      "order": 4,
+      "text": "体細胞分裂の前後で、一つの細胞に含まれる染色体の数は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-13-004-c1",
+          "text": "半分になる"
+        },
+        {
+          "id": "q-entrance-biology-13-004-c2",
+          "text": "二倍になる"
+        },
+        {
+          "id": "q-entrance-biology-13-004-c3",
+          "text": "ゼロになる"
+        },
+        {
+          "id": "q-entrance-biology-13-004-c4",
+          "text": "変わらない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-13-004-c4",
+      "explanation": "複製した染色体を等しく分けるので、分裂後も同じ数になる。",
+      "source": {
+        "page": 90,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 1,
+      "text": "受精せず、親の体の一部から新しい個体ができる増え方は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-001-c1",
+          "text": "無性生殖"
+        },
+        {
+          "id": "q-entrance-biology-14-001-c2",
+          "text": "有性生殖"
+        },
+        {
+          "id": "q-entrance-biology-14-001-c3",
+          "text": "受粉"
+        },
+        {
+          "id": "q-entrance-biology-14-001-c4",
+          "text": "減数分裂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-001-c1",
+      "explanation": "無性生殖では受精を伴わない。",
+      "source": {
+        "page": 91,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 2,
+      "text": "無性生殖の子が親と同じ形質をもつ主な理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-002-c1",
+          "text": "親と違う遺伝子だけを受け継ぐ"
+        },
+        {
+          "id": "q-entrance-biology-14-002-c2",
+          "text": "親の遺伝子をそのまま受け継ぐ"
+        },
+        {
+          "id": "q-entrance-biology-14-002-c3",
+          "text": "染色体がなくなる"
+        },
+        {
+          "id": "q-entrance-biology-14-002-c4",
+          "text": "核が半分になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-002-c2",
+      "explanation": "無性生殖では通常、親と同じ遺伝情報を受け継ぐ。",
+      "source": {
+        "page": 91,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 3,
+      "text": "生殖細胞を作るとき染色体数が半分になる分裂は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-003-c1",
+          "text": "体細胞分裂"
+        },
+        {
+          "id": "q-entrance-biology-14-003-c2",
+          "text": "受精"
+        },
+        {
+          "id": "q-entrance-biology-14-003-c3",
+          "text": "減数分裂"
+        },
+        {
+          "id": "q-entrance-biology-14-003-c4",
+          "text": "発芽"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-003-c3",
+      "explanation": "受精で染色体数が元に戻る。",
+      "source": {
+        "page": 91,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 4,
+      "text": "被子植物の胚珠内にある雌の生殖細胞は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-004-c1",
+          "text": "精細胞"
+        },
+        {
+          "id": "q-entrance-biology-14-004-c2",
+          "text": "花粉管"
+        },
+        {
+          "id": "q-entrance-biology-14-004-c3",
+          "text": "孔辺細胞"
+        },
+        {
+          "id": "q-entrance-biology-14-004-c4",
+          "text": "卵細胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-004-c4",
+      "explanation": "胚珠内の卵細胞と精細胞が受精する。",
+      "source": {
+        "page": 91,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 5,
+      "text": "被子植物の花粉管の中を移動する雄の生殖細胞は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-005-c1",
+          "text": "精細胞"
+        },
+        {
+          "id": "q-entrance-biology-14-005-c2",
+          "text": "卵細胞"
+        },
+        {
+          "id": "q-entrance-biology-14-005-c3",
+          "text": "孔辺細胞"
+        },
+        {
+          "id": "q-entrance-biology-14-005-c4",
+          "text": "根毛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-005-c1",
+      "explanation": "精細胞は花粉管を通って胚珠へ運ばれる。",
+      "source": {
+        "page": 91,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 6,
+      "text": "卵細胞と精細胞の核が合体してできるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-006-c1",
+          "text": "花粉"
+        },
+        {
+          "id": "q-entrance-biology-14-006-c2",
+          "text": "受精卵"
+        },
+        {
+          "id": "q-entrance-biology-14-006-c3",
+          "text": "種皮"
+        },
+        {
+          "id": "q-entrance-biology-14-006-c4",
+          "text": "気孔"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-006-c2",
+      "explanation": "核の合体を受精といい、受精卵ができる。",
+      "source": {
+        "page": 91,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 7,
+      "text": "受精卵が成長し、自分で食物を取る前の個体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-007-c1",
+          "text": "花粉"
+        },
+        {
+          "id": "q-entrance-biology-14-007-c2",
+          "text": "胞子"
+        },
+        {
+          "id": "q-entrance-biology-14-007-c3",
+          "text": "胚"
+        },
+        {
+          "id": "q-entrance-biology-14-007-c4",
+          "text": "成体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-007-c3",
+      "explanation": "発生の初期の個体を胚という。",
+      "source": {
+        "page": 91,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 8,
+      "text": "受精卵が分裂を繰り返し、生物特有の体を完成させる過程は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-008-c1",
+          "text": "受粉"
+        },
+        {
+          "id": "q-entrance-biology-14-008-c2",
+          "text": "蒸散"
+        },
+        {
+          "id": "q-entrance-biology-14-008-c3",
+          "text": "減数分裂"
+        },
+        {
+          "id": "q-entrance-biology-14-008-c4",
+          "text": "発生"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-008-c4",
+      "explanation": "発生によって体の各部分が作られる。",
+      "source": {
+        "page": 91,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 9,
+      "text": "体細胞の染色体が二本の動物で、卵の染色体数は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-009-c1",
+          "text": "一本"
+        },
+        {
+          "id": "q-entrance-biology-14-009-c2",
+          "text": "二本"
+        },
+        {
+          "id": "q-entrance-biology-14-009-c3",
+          "text": "四本"
+        },
+        {
+          "id": "q-entrance-biology-14-009-c4",
+          "text": "ゼロ本"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-009-c1",
+      "explanation": "減数分裂によって生殖細胞の染色体数は半分になる。",
+      "source": {
+        "page": 92,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 10,
+      "text": "雌雄の体細胞の染色体がそれぞれ二本の動物で、受精後の子の体細胞の染色体は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-010-c1",
+          "text": "雌由来二本だけ"
+        },
+        {
+          "id": "q-entrance-biology-14-010-c2",
+          "text": "雌由来一本と雄由来一本"
+        },
+        {
+          "id": "q-entrance-biology-14-010-c3",
+          "text": "雄由来二本だけ"
+        },
+        {
+          "id": "q-entrance-biology-14-010-c4",
+          "text": "雌由来二本と雄由来二本"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-010-c2",
+      "explanation": "両親の生殖細胞が合体し、元の染色体数になる。",
+      "source": {
+        "page": 92,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-14-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-14",
+      "order": 11,
+      "text": "カエルの生殖細胞の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-14-011-c1",
+          "text": "受精卵と胚"
+        },
+        {
+          "id": "q-entrance-biology-14-011-c2",
+          "text": "胚とオタマジャクシ"
+        },
+        {
+          "id": "q-entrance-biology-14-011-c3",
+          "text": "卵と精子"
+        },
+        {
+          "id": "q-entrance-biology-14-011-c4",
+          "text": "卵と受精卵"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-14-011-c3",
+      "explanation": "動物の生殖細胞は卵と精子である。",
+      "source": {
+        "page": 92,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 1,
+      "text": "核内にあり、遺伝子を含むひも状のつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-001-c1",
+          "text": "細胞壁"
+        },
+        {
+          "id": "q-entrance-biology-15-001-c2",
+          "text": "葉緑体"
+        },
+        {
+          "id": "q-entrance-biology-15-001-c3",
+          "text": "液胞"
+        },
+        {
+          "id": "q-entrance-biology-15-001-c4",
+          "text": "染色体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-001-c4",
+      "explanation": "細胞分裂のとき染色体を観察しやすい。",
+      "source": {
+        "page": 93,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 2,
+      "text": "遺伝子の本体である物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-002-c1",
+          "text": "DNA"
+        },
+        {
+          "id": "q-entrance-biology-15-002-c2",
+          "text": "アミラーゼ"
+        },
+        {
+          "id": "q-entrance-biology-15-002-c3",
+          "text": "デンプン"
+        },
+        {
+          "id": "q-entrance-biology-15-002-c4",
+          "text": "ヘモグロビン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-002-c1",
+      "explanation": "DNAはデオキシリボ核酸の略称である。",
+      "source": {
+        "page": 93,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 3,
+      "text": "対の遺伝子が減数分裂で別々の生殖細胞に入る規則は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-003-c1",
+          "text": "質量保存の法則"
+        },
+        {
+          "id": "q-entrance-biology-15-003-c2",
+          "text": "分離の法則"
+        },
+        {
+          "id": "q-entrance-biology-15-003-c3",
+          "text": "オームの法則"
+        },
+        {
+          "id": "q-entrance-biology-15-003-c4",
+          "text": "反射の法則"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-003-c2",
+      "explanation": "各生殖細胞は対の遺伝子の一方を受け継ぐ。",
+      "source": {
+        "page": 93,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 4,
+      "text": "AAのエンドウとaaのエンドウをかけ合わせた子の遺伝子型は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-004-c1",
+          "text": "AA"
+        },
+        {
+          "id": "q-entrance-biology-15-004-c2",
+          "text": "aa"
+        },
+        {
+          "id": "q-entrance-biology-15-004-c3",
+          "text": "Aa"
+        },
+        {
+          "id": "q-entrance-biology-15-004-c4",
+          "text": "Aだけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-004-c3",
+      "explanation": "一方の親からA、他方からaを受け継ぐ。",
+      "source": {
+        "page": 93,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 5,
+      "text": "丸い種子のAが顕性のとき、Aa同士の子で丸い種子になる遺伝子型は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-005-c1",
+          "text": "AAだけ"
+        },
+        {
+          "id": "q-entrance-biology-15-005-c2",
+          "text": "aaだけ"
+        },
+        {
+          "id": "q-entrance-biology-15-005-c3",
+          "text": "Aaとaa"
+        },
+        {
+          "id": "q-entrance-biology-15-005-c4",
+          "text": "AAとAa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-005-c4",
+      "explanation": "AをもつAAとAaで顕性形質が現れる。",
+      "source": {
+        "page": 93,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-15-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-15",
+      "order": 6,
+      "text": "Aa同士の子の遺伝子型AA：Aa：aaの比は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-15-006-c1",
+          "text": "1：2：1"
+        },
+        {
+          "id": "q-entrance-biology-15-006-c2",
+          "text": "3：1：0"
+        },
+        {
+          "id": "q-entrance-biology-15-006-c3",
+          "text": "1：1：1"
+        },
+        {
+          "id": "q-entrance-biology-15-006-c4",
+          "text": "2：1：2"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-15-006-c1",
+      "explanation": "組合せはAA、Aa、Aa、aaとなる。",
+      "source": {
+        "page": 93,
+        "question": 6
+      },
+      "material": {
+        "type": "table",
+        "title": "Aa同士の組合せ：各親が作る生殖細胞",
+        "headers": [
+          "親1＼親2",
+          "A",
+          "a"
+        ],
+        "rows": [
+          [
+            "A",
+            "AA",
+            "Aa"
+          ],
+          [
+            "a",
+            "Aa",
+            "aa"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 1,
+      "text": "生物が長い年月の間、世代を重ねながら変化することは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-001-c1",
+          "text": "発生"
+        },
+        {
+          "id": "q-entrance-biology-16-001-c2",
+          "text": "進化"
+        },
+        {
+          "id": "q-entrance-biology-16-001-c3",
+          "text": "成長"
+        },
+        {
+          "id": "q-entrance-biology-16-001-c4",
+          "text": "変態"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-001-c2",
+      "explanation": "進化は世代を越えた生物の変化である。",
+      "source": {
+        "page": 94,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 2,
+      "text": "共通の祖先の器官から変化し、基本的なつくりが共通する器官は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-002-c1",
+          "text": "消化器官"
+        },
+        {
+          "id": "q-entrance-biology-16-002-c2",
+          "text": "感覚器官"
+        },
+        {
+          "id": "q-entrance-biology-16-002-c3",
+          "text": "相同器官"
+        },
+        {
+          "id": "q-entrance-biology-16-002-c4",
+          "text": "排出器官"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-002-c3",
+      "explanation": "形や働きが違っていても基本的な構造が共通する。",
+      "source": {
+        "page": 94,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 3,
+      "text": "ヒトの腕と相同器官に当たるペンギンの部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-003-c1",
+          "text": "くちばし"
+        },
+        {
+          "id": "q-entrance-biology-16-003-c2",
+          "text": "尾"
+        },
+        {
+          "id": "q-entrance-biology-16-003-c3",
+          "text": "後ろあし"
+        },
+        {
+          "id": "q-entrance-biology-16-003-c4",
+          "text": "つばさ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-003-c4",
+      "explanation": "どちらも脊椎動物の前肢に由来する。",
+      "source": {
+        "page": 94,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 4,
+      "text": "両生類の祖先はどの仲間に由来すると考えられるか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-004-c1",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-16-004-c2",
+          "text": "鳥類"
+        },
+        {
+          "id": "q-entrance-biology-16-004-c3",
+          "text": "ホニュウ類"
+        },
+        {
+          "id": "q-entrance-biology-16-004-c4",
+          "text": "昆虫類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-004-c1",
+      "explanation": "両生類は魚類の系統から進化したと考えられる。",
+      "source": {
+        "page": 94,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 5,
+      "text": "始祖鳥は鳥類とどの仲間の特徴を合わせもつか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-005-c1",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-16-005-c2",
+          "text": "ハチュウ類"
+        },
+        {
+          "id": "q-entrance-biology-16-005-c3",
+          "text": "昆虫類"
+        },
+        {
+          "id": "q-entrance-biology-16-005-c4",
+          "text": "両生類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-005-c2",
+      "explanation": "羽毛のほか、歯や長い尾などの特徴をもつ。",
+      "source": {
+        "page": 94,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-biology-16-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-16",
+      "order": 6,
+      "text": "鳥類の祖先の系統はどの仲間に含まれるか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-16-006-c1",
+          "text": "魚類"
+        },
+        {
+          "id": "q-entrance-biology-16-006-c2",
+          "text": "両生類"
+        },
+        {
+          "id": "q-entrance-biology-16-006-c3",
+          "text": "ハチュウ類"
+        },
+        {
+          "id": "q-entrance-biology-16-006-c4",
+          "text": "ホニュウ類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-16-006-c3",
+      "explanation": "鳥類は恐竜を含むハチュウ類の系統から進化した。",
+      "source": {
+        "page": 94,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 1,
+      "text": "ある地域の生物と生物以外の環境をまとめて捉えたものは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-001-c1",
+          "text": "食物連鎖"
+        },
+        {
+          "id": "q-entrance-biology-17-001-c2",
+          "text": "組織"
+        },
+        {
+          "id": "q-entrance-biology-17-001-c3",
+          "text": "個体"
+        },
+        {
+          "id": "q-entrance-biology-17-001-c4",
+          "text": "生態系"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-001-c4",
+      "explanation": "生態系には生物と、それを取り巻く環境が含まれる。",
+      "source": {
+        "page": 95,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 2,
+      "text": "生物の食べる・食べられる関係によるつながりは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-002-c1",
+          "text": "食物連鎖"
+        },
+        {
+          "id": "q-entrance-biology-17-002-c2",
+          "text": "体循環"
+        },
+        {
+          "id": "q-entrance-biology-17-002-c3",
+          "text": "細胞分裂"
+        },
+        {
+          "id": "q-entrance-biology-17-002-c4",
+          "text": "発生"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-002-c1",
+      "explanation": "食物連鎖を通して有機物が移動する。",
+      "source": {
+        "page": 95,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 3,
+      "text": "複数の食物連鎖が網目状につながった関係は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-003-c1",
+          "text": "維管束"
+        },
+        {
+          "id": "q-entrance-biology-17-003-c2",
+          "text": "食物網"
+        },
+        {
+          "id": "q-entrance-biology-17-003-c3",
+          "text": "肺循環"
+        },
+        {
+          "id": "q-entrance-biology-17-003-c4",
+          "text": "染色体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-003-c2",
+      "explanation": "自然界では食べる・食べられる関係が複雑につながる。",
+      "source": {
+        "page": 95,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 4,
+      "text": "図のA・Bはそれぞれどの役割か？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-004-c1",
+          "text": "生産者・消費者"
+        },
+        {
+          "id": "q-entrance-biology-17-004-c2",
+          "text": "分解者・消費者"
+        },
+        {
+          "id": "q-entrance-biology-17-004-c3",
+          "text": "消費者・生産者"
+        },
+        {
+          "id": "q-entrance-biology-17-004-c4",
+          "text": "生産者・分解者"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-004-c3",
+      "explanation": "植物は生産者、動物は消費者として位置付けられる。",
+      "source": {
+        "page": 95,
+        "question": 4
+      },
+      "material": {
+        "type": "image",
+        "title": "食べる・食べられる関係",
+        "image": "science-food-pyramid",
+        "alt": "上段のAは二次消費者、中段のAは一次消費者、下段のBは植物。下の段が上の段に食べられる。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 5,
+      "text": "図で一次消費者が増えた直後、二次消費者はどう変化しやすいか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-005-c1",
+          "text": "減る"
+        },
+        {
+          "id": "q-entrance-biology-17-005-c2",
+          "text": "全滅する"
+        },
+        {
+          "id": "q-entrance-biology-17-005-c3",
+          "text": "必ず変化しない"
+        },
+        {
+          "id": "q-entrance-biology-17-005-c4",
+          "text": "増える"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-005-c4",
+      "explanation": "餌が増えることで二次消費者も増えやすい。",
+      "source": {
+        "page": 95,
+        "question": 5
+      },
+      "material": {
+        "type": "image",
+        "title": "食べる・食べられる関係",
+        "image": "science-food-pyramid",
+        "alt": "上段のAは二次消費者、中段のAは一次消費者、下段のBは植物。下の段が上の段に食べられる。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 6,
+      "text": "図で一次消費者が増えた直後、生産者はどう変化しやすいか？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-006-c1",
+          "text": "減る"
+        },
+        {
+          "id": "q-entrance-biology-17-006-c2",
+          "text": "増える"
+        },
+        {
+          "id": "q-entrance-biology-17-006-c3",
+          "text": "無限に増える"
+        },
+        {
+          "id": "q-entrance-biology-17-006-c4",
+          "text": "必ず変化しない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-006-c1",
+      "explanation": "植物を食べる動物が増えると植物は減りやすい。",
+      "source": {
+        "page": 95,
+        "question": 6
+      },
+      "material": {
+        "type": "image",
+        "title": "食べる・食べられる関係",
+        "image": "science-food-pyramid",
+        "alt": "上段のAは二次消費者、中段のAは一次消費者、下段のBは植物。下の段が上の段に食べられる。"
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 7,
+      "text": "光合成で無機物から有機物を作る植物の役割は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-007-c1",
+          "text": "消費者"
+        },
+        {
+          "id": "q-entrance-biology-17-007-c2",
+          "text": "生産者"
+        },
+        {
+          "id": "q-entrance-biology-17-007-c3",
+          "text": "分解者"
+        },
+        {
+          "id": "q-entrance-biology-17-007-c4",
+          "text": "外来種"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-007-c2",
+      "explanation": "植物は光のエネルギーを使い、有機物を作る。",
+      "source": {
+        "page": 96,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 8,
+      "text": "植物の作った有機物を直接または間接に食べる動物の役割は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-008-c1",
+          "text": "生産者"
+        },
+        {
+          "id": "q-entrance-biology-17-008-c2",
+          "text": "分解者だけ"
+        },
+        {
+          "id": "q-entrance-biology-17-008-c3",
+          "text": "消費者"
+        },
+        {
+          "id": "q-entrance-biology-17-008-c4",
+          "text": "無機物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-008-c3",
+      "explanation": "動物は他の生物が作った有機物を利用する。",
+      "source": {
+        "page": 96,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-009",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 9,
+      "text": "死がいやふんの有機物を無機物にする菌類などの役割は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-009-c1",
+          "text": "生産者"
+        },
+        {
+          "id": "q-entrance-biology-17-009-c2",
+          "text": "一次消費者だけ"
+        },
+        {
+          "id": "q-entrance-biology-17-009-c3",
+          "text": "二次消費者だけ"
+        },
+        {
+          "id": "q-entrance-biology-17-009-c4",
+          "text": "分解者"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-009-c4",
+      "explanation": "分解者は有機物を分解し、物質の循環に関わる。",
+      "source": {
+        "page": 96,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-010",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 10,
+      "text": "アオカビ・大腸菌・乳酸菌のうち菌類は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-010-c1",
+          "text": "アオカビ"
+        },
+        {
+          "id": "q-entrance-biology-17-010-c2",
+          "text": "大腸菌"
+        },
+        {
+          "id": "q-entrance-biology-17-010-c3",
+          "text": "乳酸菌"
+        },
+        {
+          "id": "q-entrance-biology-17-010-c4",
+          "text": "すべて細菌類"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-010-c1",
+      "explanation": "大腸菌と乳酸菌は細菌類、アオカビは菌類である。",
+      "source": {
+        "page": 96,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-011",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 11,
+      "text": "大気中の二酸化炭素が生産者の有機物になる働きは？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-011-c1",
+          "text": "呼吸"
+        },
+        {
+          "id": "q-entrance-biology-17-011-c2",
+          "text": "光合成"
+        },
+        {
+          "id": "q-entrance-biology-17-011-c3",
+          "text": "蒸散"
+        },
+        {
+          "id": "q-entrance-biology-17-011-c4",
+          "text": "受粉"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-011-c2",
+      "explanation": "光合成で二酸化炭素の炭素が有機物に取り込まれる。",
+      "source": {
+        "page": 96,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-biology-17-012",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-biology-17",
+      "order": 12,
+      "text": "本来いなかった地域へ持ち込まれ、定着した生物は？",
+      "choices": [
+        {
+          "id": "q-entrance-biology-17-012-c1",
+          "text": "生産者"
+        },
+        {
+          "id": "q-entrance-biology-17-012-c2",
+          "text": "相同器官"
+        },
+        {
+          "id": "q-entrance-biology-17-012-c3",
+          "text": "外来種"
+        },
+        {
+          "id": "q-entrance-biology-17-012-c4",
+          "text": "単細胞生物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-biology-17-012-c3",
+      "explanation": "外来種は別の地域から人の活動などによって持ち込まれた生物である。",
+      "source": {
+        "page": 96,
+        "question": 12
+      }
+    }
+  ]
+}

@@ -113,11 +113,15 @@
       "gradeName": "高校受験",
       "subjectId": "science",
       "subjectName": "理科",
-      "description": "高校入試 一問一答 理科。物理の14項目・168問を学びます。",
+      "description": "高校入試 一問一答 理科。物理・化学・生物・地学を、4択と図表付き問題で学びます。",
       "materialTitle": "高校入試 一問一答 理科",
       "chapters": [
         {
           "id": "chapter-entrance-science-physics",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "光・音・力・電流・運動・エネルギーを確認します。" },
+            { "id": "materials", "title": "資料編の補足", "description": "測定器の操作と単位換算を補います。" }
+          ],
           "number": "物理",
           "title": "物理",
           "description": "光・音・力・電流・運動・エネルギーの14項目。出題する項目を選んで学習できます。",
@@ -125,24 +129,39 @@
         },
         {
           "id": "chapter-entrance-science-chemistry",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "物質・化学変化・イオン・中和を確認します。" },
+            { "id": "materials", "title": "資料編の補足", "description": "器具操作、実験の理由、周期表の知識を補います。" }
+          ],
           "number": "化学",
           "title": "化学",
-          "description": "化学の教材は準備中です。",
-          "available": false
+          "description": "16単元・214問。物質の性質から化学変化、酸・アルカリ、中和まで学びます。",
+          "available": true,
+          "showUnits": true
         },
         {
           "id": "chapter-entrance-science-biology",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "植物・動物・人体・遺伝・生態系を確認します。" },
+            { "id": "materials", "title": "資料編の補足", "description": "観察器具と実験の準備・染色の知識を補います。" }
+          ],
           "number": "生物",
           "title": "生物",
-          "description": "生物の教材は準備中です。",
-          "available": false
+          "description": "17単元・227問。植物や動物の分類、人体、細胞・遺伝、自然界のつながりを学びます。",
+          "available": true,
+          "showUnits": true
         },
         {
           "id": "chapter-entrance-science-earth",
+          "learningSections": [
+            { "id": "recall", "title": "一問一答", "description": "岩石・地震・地層・気象・天体を確認します。" },
+            { "id": "materials", "title": "資料編の補足", "description": "粒の大きさ、鉱物の特徴、天気記号の知識を補います。" }
+          ],
           "number": "地学",
           "title": "地学",
-          "description": "地学の教材は準備中です。",
-          "available": false
+          "description": "16単元・179問。火山や地震、気象の観測、地球と天体の運動を学びます。",
+          "available": true,
+          "showUnits": true
         }
       ]
     }

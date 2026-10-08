@@ -1,0 +1,1247 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "高校入試 一問一答 理科・資料編",
+    "targetCourseId": "entrance-science",
+    "questionFormat": "multiple-choice-4",
+    "sourceTitle": "高校入試 入試問題で覚える 一問一答 理科 改訂版",
+    "questionCount": 37,
+    "note": "本文と重なる知識を除き、資料編の補足知識を4択化。"
+  },
+  "units": [
+    {
+      "id": "unit-entrance-science-materials-physics-01",
+      "chapterId": "chapter-entrance-science-physics",
+      "order": 91,
+      "title": "資料編：測定器と単位",
+      "sourceStartPage": 130,
+      "sourceQuestionCount": 0,
+      "learningSection": "materials"
+    },
+    {
+      "id": "unit-entrance-science-materials-chemistry-01",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 91,
+      "title": "資料編：器具操作と実験の理由",
+      "sourceStartPage": 132,
+      "sourceQuestionCount": 0,
+      "learningSection": "materials"
+    },
+    {
+      "id": "unit-entrance-science-materials-biology-01",
+      "chapterId": "chapter-entrance-science-biology",
+      "order": 91,
+      "title": "資料編：観察と光合成実験",
+      "sourceStartPage": 132,
+      "sourceQuestionCount": 0,
+      "learningSection": "materials"
+    },
+    {
+      "id": "unit-entrance-science-materials-earth-01",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 91,
+      "title": "資料編：鉱物と天気記号",
+      "sourceStartPage": 158,
+      "sourceQuestionCount": 0,
+      "learningSection": "materials"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-entrance-science-materials-physics-01-001",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 1,
+      "text": "電流計の－端子を5 Aから500 mAへ替えると、同じ電流を測る針の振れはどうなるか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-001-c1",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-001-c2",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-001-c3",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-001-c4",
+          "text": "必ず左へ逆転する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-001-c1",
+      "explanation": "測定範囲が小さいほど、同じ電流に対する振れは大きくなる。",
+      "source": {
+        "page": 130,
+        "question": 1,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-002",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 2,
+      "text": "電圧の大きさが分からないとき、教材の電圧計で最初に選ぶ－端子は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-002-c1",
+          "text": "15 V"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-002-c2",
+          "text": "300 V"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-002-c3",
+          "text": "3 V"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-002-c4",
+          "text": "すべて同時につなぐ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-002-c2",
+      "explanation": "まず最大の範囲から測り、振れが小さい場合に範囲を下げる。",
+      "source": {
+        "page": 131,
+        "question": 2,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-003",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 3,
+      "text": "教材の検流計に＋端子から電流が流れ込むと、針はどちらへ振れるか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-003-c1",
+          "text": "左"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-003-c2",
+          "text": "必ず静止"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-003-c3",
+          "text": "右"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-003-c4",
+          "text": "上下"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-003-c3",
+      "explanation": "この教材の検流計では＋端子から流れ込むと右へ振れる。",
+      "source": {
+        "page": 131,
+        "question": 3,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-004",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 4,
+      "text": "1 m²は何cm²か？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-004-c1",
+          "text": "100 cm²"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-004-c2",
+          "text": "1000 cm²"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-004-c3",
+          "text": "1000000 cm²"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-004-c4",
+          "text": "10000 cm²"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-004-c4",
+      "explanation": "1 m＝100 cmなので、面積は100×100倍になる。",
+      "source": {
+        "page": 149,
+        "question": 4,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-005",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 5,
+      "text": "1 m³は何cm³か？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-005-c1",
+          "text": "1000000 cm³"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-005-c2",
+          "text": "100 cm³"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-005-c3",
+          "text": "1000 cm³"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-005-c4",
+          "text": "10000 cm³"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-005-c1",
+      "explanation": "体積の換算は100×100×100倍である。",
+      "source": {
+        "page": 149,
+        "question": 5,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-006",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 6,
+      "text": "1 m/sは何km/hか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-006-c1",
+          "text": "0.36 km/h"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-006-c2",
+          "text": "3.6 km/h"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-006-c3",
+          "text": "36 km/h"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-006-c4",
+          "text": "360 km/h"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-006-c2",
+      "explanation": "1時間に3600 m進むので3.6 km/hとなる。",
+      "source": {
+        "page": 149,
+        "question": 6,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-physics-01-007",
+      "chapterId": "chapter-entrance-science-physics",
+      "unitId": "unit-entrance-science-materials-physics-01",
+      "order": 7,
+      "text": "1 Whは何Jか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-physics-01-007-c1",
+          "text": "60 J"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-007-c2",
+          "text": "100 J"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-007-c3",
+          "text": "3600 J"
+        },
+        {
+          "id": "q-entrance-science-materials-physics-01-007-c4",
+          "text": "1000 J"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-physics-01-007-c3",
+      "explanation": "1 Wを1時間、つまり3600秒使った電力量は3600 Jである。",
+      "source": {
+        "page": 149,
+        "question": 7,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 1,
+      "text": "上皿てんびんの分銅を載せるときに使う器具は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-001-c1",
+          "text": "スポイト"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-001-c2",
+          "text": "ガラス棒"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-001-c3",
+          "text": "温度計"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-001-c4",
+          "text": "ピンセット"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-001-c4",
+      "explanation": "手で直接触れず、分銅の汚れなどを防ぐ。",
+      "source": {
+        "page": 132,
+        "question": 1,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 2,
+      "text": "右利きの人が決まった質量の物質を量り取る場合、分銅と薬包紙を載せるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-002-c1",
+          "text": "左の皿"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-002-c2",
+          "text": "右の皿"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-002-c3",
+          "text": "左右両方に分銅"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-002-c4",
+          "text": "皿の下"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-002-c1",
+      "explanation": "左に分銅と薬包紙、右に薬包紙と量り取る物質を置く。",
+      "source": {
+        "page": 132,
+        "question": 2,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 3,
+      "text": "電子てんびんで容器を使って物質だけの質量を量るため、容器を置いた後にすることは？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-003-c1",
+          "text": "容器の体積を掛ける"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-003-c2",
+          "text": "表示をゼロにする"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-003-c3",
+          "text": "表示を100にする"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-003-c4",
+          "text": "容器を加熱する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-003-c2",
+      "explanation": "容器の質量を差し引く風袋引きである。",
+      "source": {
+        "page": 132,
+        "question": 3,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 4,
+      "text": "メスシリンダーの図を正しく読むと？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-004-c1",
+          "text": "83.0 mL"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-004-c2",
+          "text": "85.0 mL"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-004-c3",
+          "text": "84.0 mL"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-004-c4",
+          "text": "90.0 mL"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-004-c3",
+      "explanation": "水の液面の最も低い所を水平に見る。1 mLの目盛りでは0.1 mLまで目分量で読む。",
+      "source": {
+        "page": 133,
+        "question": 4,
+        "section": "資料編"
+      },
+      "material": {
+        "type": "image",
+        "title": "メスシリンダーの目盛り（mL）",
+        "image": "science-meniscus",
+        "alt": "80〜90 mLの間が1 mLずつに分かれ、液面の最も低い部分は80から四目盛り上にある。"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 5,
+      "text": "水に沈む固体の体積をメスシリンダーで求める式は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-005-c1",
+          "text": "前の値−後の値"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-005-c2",
+          "text": "前の値＋後の値"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-005-c3",
+          "text": "後の値÷前の値"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-005-c4",
+          "text": "固体を入れた後の値−入れる前の値"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-005-c4",
+      "explanation": "固体は水中にすべて沈め、増えた体積を求める。",
+      "source": {
+        "page": 133,
+        "question": 5,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 6,
+      "text": "ガスバーナーの点火前、二つの調節ねじはどうしておくか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-006-c1",
+          "text": "ガスも空気も閉じる"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-006-c2",
+          "text": "両方全開"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-006-c3",
+          "text": "ガスだけ全開"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-006-c4",
+          "text": "空気だけ全開"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-006-c1",
+      "explanation": "教材の手順では両方が閉じていることを確認してから元栓を開く。",
+      "source": {
+        "page": 133,
+        "question": 6,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 7,
+      "text": "点火後に青い炎へ調節するとき、開くねじは？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-007-c1",
+          "text": "元栓だけ"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-007-c2",
+          "text": "空気調節ねじ"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-007-c3",
+          "text": "ガス調節ねじだけ"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-007-c4",
+          "text": "台のねじ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-007-c2",
+      "explanation": "ガス調節ねじを押さえながら空気を取り入れ、青い炎にする。",
+      "source": {
+        "page": 133,
+        "question": 7,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 8,
+      "text": "ガスバーナーの消火で、調節ねじを閉じる順序は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-008-c1",
+          "text": "ガス→空気"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-008-c2",
+          "text": "同時に元栓を外す"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-008-c3",
+          "text": "空気→ガス"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-008-c4",
+          "text": "ガスだけ開く"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-008-c3",
+      "explanation": "空気調節ねじ、ガス調節ねじ、元栓の順に閉じる。",
+      "source": {
+        "page": 133,
+        "question": 8,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 9,
+      "text": "教材で示された試験管に入れる液の量の目安は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-009-c1",
+          "text": "試験管いっぱい"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-009-c2",
+          "text": "試験管の3/4〜4/5"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-009-c3",
+          "text": "必ず1 mL"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-009-c4",
+          "text": "試験管の1/5〜1/4"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-009-c4",
+      "explanation": "加熱時の飛び出しなどを防ぐため少量にする。",
+      "source": {
+        "page": 134,
+        "question": 9,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 10,
+      "text": "固体を加熱する試験管の口を少し下げる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-010-c1",
+          "text": "生じた液体が加熱部へ戻り管が割れるのを防ぐ"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-010-c2",
+          "text": "気体を固体にする"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-010-c3",
+          "text": "炎を管内へ入れる"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-010-c4",
+          "text": "酸素を発生させる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-010-c1",
+      "explanation": "凝縮した水が熱い部分に戻ると、急冷して割れるおそれがある。",
+      "source": {
+        "page": 134,
+        "question": 10,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 11,
+      "text": "蒸留装置の温度計の液だめを枝の高さに置く理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-011-c1",
+          "text": "液体の底の温度を測るため"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-011-c2",
+          "text": "出ていく蒸気の温度を測るため"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-011-c3",
+          "text": "冷却水の温度を測るため"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-011-c4",
+          "text": "室温だけを測るため"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-011-c2",
+      "explanation": "蒸留では枝を通る蒸気の温度を測る。",
+      "source": {
+        "page": 139,
+        "question": 11,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 12,
+      "text": "蒸留でガラス管の先を集まった液体につけない理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-012-c1",
+          "text": "液体の密度を上げる"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-012-c2",
+          "text": "蒸気を発生させない"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-012-c3",
+          "text": "加熱をやめたときの逆流を防ぐ"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-012-c4",
+          "text": "エタノールを分解する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-012-c3",
+      "explanation": "冷えて装置内の圧力が下がると、液体が吸い戻される場合がある。",
+      "source": {
+        "page": 139,
+        "question": 12,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 13,
+      "text": "酸化銅の還元後にゴム管を閉じる教材の操作は、何を防ぐためか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-013-c1",
+          "text": "銅が水に溶けること"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-013-c2",
+          "text": "炭素が金になること"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-013-c3",
+          "text": "二酸化炭素が水になること"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-013-c4",
+          "text": "銅が空気中の酸素で再び酸化すること"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-013-c4",
+      "explanation": "空気が入ると高温の銅が再び酸素と結びつくおそれがある。",
+      "source": {
+        "page": 142,
+        "question": 13,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 14,
+      "text": "ムラサキキャベツ液の酸性・中性・アルカリ性の色の順序は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-014-c1",
+          "text": "赤・紫・黄"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-014-c2",
+          "text": "青・緑・黄"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-014-c3",
+          "text": "黄・紫・赤"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-014-c4",
+          "text": "赤・無色・青"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-014-c1",
+      "explanation": "教材ではムラサキキャベツ液を赤、紫、黄の順で示している。",
+      "source": {
+        "page": 148,
+        "question": 14,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 15,
+      "text": "周期表の各元素の左上に示される原子番号は、何の数と等しいか？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-015-c1",
+          "text": "中性子だけの数"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-015-c2",
+          "text": "陽子の数"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-015-c3",
+          "text": "分子の数"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-015-c4",
+          "text": "イオンの電荷の大きさ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-015-c2",
+      "explanation": "元素は陽子の数によって区別される。",
+      "source": {
+        "page": 154,
+        "question": 15,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-chemistry-01-016",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-science-materials-chemistry-01",
+      "order": 16,
+      "text": "周期表で銅Cuの原子番号は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-chemistry-01-016-c1",
+          "text": "26"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-016-c2",
+          "text": "30"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-016-c3",
+          "text": "29"
+        },
+        {
+          "id": "q-entrance-science-materials-chemistry-01-016-c4",
+          "text": "47"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-chemistry-01-016-c3",
+      "explanation": "銅は原子番号29の元素である。",
+      "source": {
+        "page": 155,
+        "question": 16,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-001",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 1,
+      "text": "双眼実体顕微鏡で最初に合わせる幅は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-001-c1",
+          "text": "試験管の幅"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-001-c2",
+          "text": "葉脈の幅"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-001-c3",
+          "text": "ステージの厚さ"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-001-c4",
+          "text": "両目の幅"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-001-c4",
+      "explanation": "左右の視野が一つに重なるように鏡筒を調整する。",
+      "source": {
+        "page": 134,
+        "question": 1,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-002",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 2,
+      "text": "顕微鏡のレンズを取り付ける順序は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-002-c1",
+          "text": "接眼レンズ→対物レンズ"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-002-c2",
+          "text": "対物レンズ→接眼レンズ"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-002-c3",
+          "text": "両方を同時にねじ込む"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-002-c4",
+          "text": "接眼レンズだけ取り付ける"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-002-c1",
+      "explanation": "鏡筒にほこりが入りにくいよう、接眼レンズを先に取り付ける。",
+      "source": {
+        "page": 135,
+        "question": 2,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-003",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 3,
+      "text": "カバーガラスを端からゆっくり下ろす理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-003-c1",
+          "text": "細胞を燃やす"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-003-c2",
+          "text": "空気の泡が入りにくくする"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-003-c3",
+          "text": "核を染める"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-003-c4",
+          "text": "水を蒸発させる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-003-c2",
+      "explanation": "泡が入ると観察しにくくなる。",
+      "source": {
+        "page": 136,
+        "question": 3,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-004",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 4,
+      "text": "乾いてしまったプレパラートに水を補う器具は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-004-c1",
+          "text": "ガスバーナー"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-004-c2",
+          "text": "分銅"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-004-c3",
+          "text": "スポイト"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-004-c4",
+          "text": "電流計"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-004-c3",
+      "explanation": "カバーガラスとスライドガラスの間に水を補う。",
+      "source": {
+        "page": 136,
+        "question": 4,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-005",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 5,
+      "text": "光合成の実験前に植物を一晩暗所に置く理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-005-c1",
+          "text": "葉緑体を新しく作る"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-005-c2",
+          "text": "酸素を増やす"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-005-c3",
+          "text": "気孔を永久に閉じる"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-005-c4",
+          "text": "葉に蓄えられたデンプンを減らす"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-005-c4",
+      "explanation": "実験前のデンプンの影響を減らし、光を当てた後の変化を調べる。",
+      "source": {
+        "page": 146,
+        "question": 5,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-006",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 6,
+      "text": "ヨウ素液を使う前に、葉を温めたエタノールにつける目的は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-006-c1",
+          "text": "脱色する"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-006-c2",
+          "text": "受粉させる"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-006-c3",
+          "text": "デンプンを作る"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-006-c4",
+          "text": "気孔を増やす"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-006-c1",
+      "explanation": "葉の緑色を取り除くとヨウ素液の変色を見やすい。",
+      "source": {
+        "page": 146,
+        "question": 6,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-007",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 7,
+      "text": "酢酸オルセイン溶液で核を染めると、教材で示される色は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-007-c1",
+          "text": "黄色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-007-c2",
+          "text": "赤紫色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-007-c3",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-007-c4",
+          "text": "無色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-007-c2",
+      "explanation": "酢酸オルセインは核や染色体の観察に使う染色液である。",
+      "source": {
+        "page": 148,
+        "question": 7,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-biology-01-008",
+      "chapterId": "chapter-entrance-science-biology",
+      "unitId": "unit-entrance-science-materials-biology-01",
+      "order": 8,
+      "text": "酢酸ダーリア溶液で核を染めると、教材で示される色は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-biology-01-008-c1",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-008-c2",
+          "text": "黄色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-008-c3",
+          "text": "青紫色"
+        },
+        {
+          "id": "q-entrance-science-materials-biology-01-008-c4",
+          "text": "無色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-biology-01-008-c3",
+      "explanation": "教材では酢酸ダーリアによる染色を青紫色としている。",
+      "source": {
+        "page": 148,
+        "question": 8,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 1,
+      "text": "かんらん石の形と割れ方の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-001-c1",
+          "text": "板状・薄くはがれる"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-001-c2",
+          "text": "柱状・決まった方向に割れる"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-001-c3",
+          "text": "六角柱・水に溶ける"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-001-c4",
+          "text": "丸みのある粒状・ガラス状に不規則に割れる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-001-c4",
+      "explanation": "かんらん石は粒状で、ガラス状に割れる特徴がある。",
+      "source": {
+        "page": 158,
+        "question": 1,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 2,
+      "text": "砂岩を構成する粒の直径の範囲は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-002-c1",
+          "text": "1/16 mm以上2 mm未満"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-002-c2",
+          "text": "2 mm以上"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-002-c3",
+          "text": "1/16 mm未満"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-002-c4",
+          "text": "20 mm以上"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-002-c1",
+      "explanation": "粒の大きさでれき岩、砂岩、泥岩を区別する。",
+      "source": {
+        "page": 159,
+        "question": 2,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 3,
+      "text": "雨と雪が混じって降る天気は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-003-c1",
+          "text": "ひょう"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-003-c2",
+          "text": "みぞれ"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-003-c3",
+          "text": "霧"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-003-c4",
+          "text": "快晴"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-003-c2",
+      "explanation": "みぞれはとけかけた雪や雨と雪の混じった降水である。",
+      "source": {
+        "page": 160,
+        "question": 3,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 4,
+      "text": "視程が1 km未満になる、空中の小さな水滴による現象は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-004-c1",
+          "text": "ひょう"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-004-c2",
+          "text": "雪"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-004-c3",
+          "text": "霧"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-004-c4",
+          "text": "雷"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-004-c3",
+      "explanation": "霧は小さな水滴が地表付近に浮かんで見通しを悪くする現象である。",
+      "source": {
+        "page": 160,
+        "question": 4,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 5,
+      "text": "教材で、直径5 mm以上の氷の粒が降る天気は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-005-c1",
+          "text": "あられ"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-005-c2",
+          "text": "霧"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-005-c3",
+          "text": "雨"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-005-c4",
+          "text": "ひょう"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-005-c4",
+      "explanation": "教材は氷の粒を直径5 mmでひょうとあられに分けている。",
+      "source": {
+        "page": 160,
+        "question": 5,
+        "section": "資料編"
+      }
+    },
+    {
+      "id": "q-entrance-science-materials-earth-01-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-science-materials-earth-01",
+      "order": 6,
+      "text": "図の天気図記号が示す風向と風力は？",
+      "choices": [
+        {
+          "id": "q-entrance-science-materials-earth-01-006-c1",
+          "text": "北東・4"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-006-c2",
+          "text": "南西・4"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-006-c3",
+          "text": "北東・2"
+        },
+        {
+          "id": "q-entrance-science-materials-earth-01-006-c4",
+          "text": "南西・2"
+        }
+      ],
+      "correctChoiceId": "q-entrance-science-materials-earth-01-006-c1",
+      "explanation": "棒が伸びる北東が風向。羽根の示す値を合計すると風力4。",
+      "source": {
+        "page": 160,
+        "question": 6,
+        "section": "資料編"
+      },
+      "material": {
+        "type": "image",
+        "title": "天気図記号（北は上）",
+        "image": "science-wind-four",
+        "alt": "縦線入りの円から北東へ棒が伸び、羽根が四本ある。"
+      }
+    }
+  ]
+}

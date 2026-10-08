@@ -1,0 +1,6928 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "高校入試 一問一答 理科・化学編",
+    "targetCourseId": "entrance-science",
+    "questionFormat": "multiple-choice-4",
+    "sourceTitle": "高校入試 入試問題で覚える 一問一答 理科 改訂版",
+    "originalQuestionCount": 214,
+    "questionCount": 214,
+    "note": "ユーザー提供写真を確認。複数の名称を答える原問題は分割し、全原問題の番号を保存。図表は学習用に再構成。"
+  },
+  "units": [
+    {
+      "id": "unit-entrance-chemistry-01",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 1,
+      "title": "身のまわりの物質とその性質",
+      "sourceStartPage": 34,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-chemistry-02",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 2,
+      "title": "気体の発生と性質",
+      "sourceStartPage": 36,
+      "sourceQuestionCount": 24
+    },
+    {
+      "id": "unit-entrance-chemistry-03",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 3,
+      "title": "水溶液の性質",
+      "sourceStartPage": 39,
+      "sourceQuestionCount": 8
+    },
+    {
+      "id": "unit-entrance-chemistry-04",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 4,
+      "title": "濃度・溶解度",
+      "sourceStartPage": 40,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-chemistry-05",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 5,
+      "title": "物質の状態変化",
+      "sourceStartPage": 42,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-chemistry-06",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 6,
+      "title": "物質の分解",
+      "sourceStartPage": 44,
+      "sourceQuestionCount": 15
+    },
+    {
+      "id": "unit-entrance-chemistry-07",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 7,
+      "title": "物質の成り立ち",
+      "sourceStartPage": 46,
+      "sourceQuestionCount": 18
+    },
+    {
+      "id": "unit-entrance-chemistry-08",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 8,
+      "title": "鉄と硫黄の反応",
+      "sourceStartPage": 48,
+      "sourceQuestionCount": 7
+    },
+    {
+      "id": "unit-entrance-chemistry-09",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 9,
+      "title": "発熱反応と吸熱反応",
+      "sourceStartPage": 49,
+      "sourceQuestionCount": 8
+    },
+    {
+      "id": "unit-entrance-chemistry-10",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 10,
+      "title": "酸化と還元",
+      "sourceStartPage": 50,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-chemistry-11",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 11,
+      "title": "化学変化と質量",
+      "sourceStartPage": 52,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-chemistry-12",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 12,
+      "title": "原子の成り立ちとイオン",
+      "sourceStartPage": 54,
+      "sourceQuestionCount": 16
+    },
+    {
+      "id": "unit-entrance-chemistry-13",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 13,
+      "title": "化学変化と電池",
+      "sourceStartPage": 56,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-chemistry-14",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 14,
+      "title": "酸・アルカリ",
+      "sourceStartPage": 58,
+      "sourceQuestionCount": 28
+    },
+    {
+      "id": "unit-entrance-chemistry-15",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 15,
+      "title": "中和",
+      "sourceStartPage": 62,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-chemistry-16",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "order": 16,
+      "title": "プラスチック",
+      "sourceStartPage": 64,
+      "sourceQuestionCount": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-entrance-chemistry-01-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 1,
+      "text": "金属を磨いたときの輝きを何という？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-001-c1",
+          "text": "金属光沢"
+        },
+        {
+          "id": "q-entrance-chemistry-01-001-c2",
+          "text": "透明度"
+        },
+        {
+          "id": "q-entrance-chemistry-01-001-c3",
+          "text": "屈折"
+        },
+        {
+          "id": "q-entrance-chemistry-01-001-c4",
+          "text": "蛍光"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-001-c1",
+      "explanation": "金属の表面に見られる特有の輝きが金属光沢。",
+      "source": {
+        "page": 34,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 2,
+      "text": "金属をたたくと、薄くどうなる？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-002-c1",
+          "text": "縮む"
+        },
+        {
+          "id": "q-entrance-chemistry-01-002-c2",
+          "text": "広がる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-002-c3",
+          "text": "必ず粉になる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-002-c4",
+          "text": "必ず液体になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-002-c2",
+      "explanation": "たたいて薄く広がる性質を展性という。",
+      "source": {
+        "page": 34,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 3,
+      "text": "金属を引っ張るとどうなる性質がある？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-003-c1",
+          "text": "必ず縮む"
+        },
+        {
+          "id": "q-entrance-chemistry-01-003-c2",
+          "text": "必ず燃える"
+        },
+        {
+          "id": "q-entrance-chemistry-01-003-c3",
+          "text": "のびる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-003-c4",
+          "text": "水になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-003-c3",
+      "explanation": "引っ張って線状にのびる性質を延性という。",
+      "source": {
+        "page": 34,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 4,
+      "text": "金属は熱のほかに何をよく通す？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-004-c1",
+          "text": "水だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-01-004-c2",
+          "text": "音だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-01-004-c3",
+          "text": "光だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-01-004-c4",
+          "text": "電流"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-004-c4",
+      "explanation": "金属は熱や電流をよく通す。",
+      "source": {
+        "page": 34,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 5,
+      "text": "鉄とアルミニウムを区別する方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-005-c1",
+          "text": "磁石に付くか調べる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-005-c2",
+          "text": "どちらも金属光沢があるか調べる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-005-c3",
+          "text": "どちらも電流を通すか調べる"
+        },
+        {
+          "id": "q-entrance-chemistry-01-005-c4",
+          "text": "どちらも熱を通すか調べる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-005-c1",
+      "explanation": "鉄は磁石に付くが、アルミニウムは通常付かない。",
+      "source": {
+        "page": 34,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 6,
+      "text": "質量12 g、体積10 cm³の食塩水の密度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-006-c1",
+          "text": "0.83 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-006-c2",
+          "text": "1.2 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-006-c3",
+          "text": "120 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-006-c4",
+          "text": "2 g/cm³"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-006-c2",
+      "explanation": "密度＝質量÷体積。12÷10＝1.2。",
+      "source": {
+        "page": 34,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 7,
+      "text": "銀の密度は10.49 g/cm³。銀100 cm³の質量は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-007-c1",
+          "text": "10.49 g"
+        },
+        {
+          "id": "q-entrance-chemistry-01-007-c2",
+          "text": "104.9 g"
+        },
+        {
+          "id": "q-entrance-chemistry-01-007-c3",
+          "text": "1049 g"
+        },
+        {
+          "id": "q-entrance-chemistry-01-007-c4",
+          "text": "0.1049 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-007-c3",
+      "explanation": "質量＝密度×体積。10.49×100＝1049。",
+      "source": {
+        "page": 34,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 8,
+      "text": "質量78.7 g、体積10.0 cm³の金属の密度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-008-c1",
+          "text": "0.127 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-008-c2",
+          "text": "78.7 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-008-c3",
+          "text": "787 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-008-c4",
+          "text": "7.87 g/cm³"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-008-c4",
+      "explanation": "78.7÷10.0＝7.87 g/cm³。",
+      "source": {
+        "page": 35,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 9,
+      "text": "密度7.87 g/cm³の金属は、表ではどれ？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-009-c1",
+          "text": "鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-01-009-c2",
+          "text": "金"
+        },
+        {
+          "id": "q-entrance-chemistry-01-009-c3",
+          "text": "銀"
+        },
+        {
+          "id": "q-entrance-chemistry-01-009-c4",
+          "text": "銅"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-009-c1",
+      "explanation": "表の鉄の密度は7.87 g/cm³である。",
+      "source": {
+        "page": 35,
+        "question": 9
+      },
+      "material": {
+        "type": "table",
+        "title": "金属の密度",
+        "headers": [
+          "金属",
+          "密度（g/cm³）"
+        ],
+        "rows": [
+          [
+            "金",
+            19.3
+          ],
+          [
+            "銀",
+            10.49
+          ],
+          [
+            "銅",
+            8.96
+          ],
+          [
+            "鉛",
+            11.34
+          ],
+          [
+            "鉄",
+            7.87
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 10,
+      "text": "質量2.24 g、密度8.96 g/cm³の銅の体積は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-010-c1",
+          "text": "4 cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-010-c2",
+          "text": "0.25 cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-010-c3",
+          "text": "20.07 cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-010-c4",
+          "text": "2.5 cm³"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-010-c2",
+      "explanation": "体積＝質量÷密度。2.24÷8.96＝0.25。",
+      "source": {
+        "page": 35,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 11,
+      "text": "水30.0 mLに金属16.2 gを沈めると液面が36.0 mLになった。金属の密度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-011-c1",
+          "text": "0.45 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-011-c2",
+          "text": "0.54 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-011-c3",
+          "text": "2.7 g/cm³"
+        },
+        {
+          "id": "q-entrance-chemistry-01-011-c4",
+          "text": "97.2 g/cm³"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-011-c3",
+      "explanation": "金属の体積は36.0−30.0＝6.0 cm³。16.2÷6.0＝2.7。",
+      "source": {
+        "page": 35,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 12,
+      "text": "プラスチックや砂糖のように、炭素を含む物質の分類は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-012-c1",
+          "text": "無機物"
+        },
+        {
+          "id": "q-entrance-chemistry-01-012-c2",
+          "text": "単体だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-01-012-c3",
+          "text": "金属だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-01-012-c4",
+          "text": "有機物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-012-c4",
+      "explanation": "有機物は炭素を含む。炭素や二酸化炭素などは例外として無機物に分類する。",
+      "source": {
+        "page": 35,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 13,
+      "text": "砂糖と食塩を加熱したとき、黒くこげるのは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-013-c1",
+          "text": "砂糖"
+        },
+        {
+          "id": "q-entrance-chemistry-01-013-c2",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-chemistry-01-013-c3",
+          "text": "両方"
+        },
+        {
+          "id": "q-entrance-chemistry-01-013-c4",
+          "text": "どちらもこげない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-013-c1",
+      "explanation": "砂糖は有機物で、加熱すると炭素を含む黒い物質ができる。",
+      "source": {
+        "page": 35,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-01-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-01",
+      "order": 14,
+      "text": "すべての有機物に含まれる元素の記号は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-01-014-c1",
+          "text": "O"
+        },
+        {
+          "id": "q-entrance-chemistry-01-014-c2",
+          "text": "C"
+        },
+        {
+          "id": "q-entrance-chemistry-01-014-c3",
+          "text": "H"
+        },
+        {
+          "id": "q-entrance-chemistry-01-014-c4",
+          "text": "N"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-01-014-c2",
+      "explanation": "有機物には炭素Cが含まれる。",
+      "source": {
+        "page": 35,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 1,
+      "text": "水で満たした容器を水中で逆さにし、気体で水を押し出して集める方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-001-c1",
+          "text": "上方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-001-c2",
+          "text": "下方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-001-c3",
+          "text": "水上置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-001-c4",
+          "text": "ろ過"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-001-c3",
+      "explanation": "水にとけにくい気体を、水を押し出して集める方法。",
+      "source": {
+        "page": 36,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 2,
+      "text": "水上置換法に適した気体の性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-002-c1",
+          "text": "水によくとける"
+        },
+        {
+          "id": "q-entrance-chemistry-02-002-c2",
+          "text": "必ず空気より重い"
+        },
+        {
+          "id": "q-entrance-chemistry-02-002-c3",
+          "text": "必ず色がある"
+        },
+        {
+          "id": "q-entrance-chemistry-02-002-c4",
+          "text": "水にとけにくい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-002-c4",
+      "explanation": "水によくとける気体は、水上置換では集めにくい。",
+      "source": {
+        "page": 36,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 3,
+      "text": "口を下にした容器の上部へ気体を送り、空気を下へ追い出す方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-003-c1",
+          "text": "上方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-003-c2",
+          "text": "下方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-003-c3",
+          "text": "水上置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-003-c4",
+          "text": "蒸留"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-003-c1",
+      "explanation": "空気より密度が小さい気体を、上方置換法で集める。",
+      "source": {
+        "page": 36,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 4,
+      "text": "上方置換法は、水にとけやすく空気より密度がどのような気体に適する？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-004-c1",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-004-c2",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-004-c3",
+          "text": "必ず等しい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-004-c4",
+          "text": "密度は無関係"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-004-c2",
+      "explanation": "軽い気体が上にたまることを利用する。",
+      "source": {
+        "page": 36,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 5,
+      "text": "口を上にした容器の底へ気体を送り、空気を上へ追い出す方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-005-c1",
+          "text": "上方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-005-c2",
+          "text": "水上置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-005-c3",
+          "text": "下方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-005-c4",
+          "text": "ろ過"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-005-c3",
+      "explanation": "空気より密度が大きい気体を、容器の下からためる方法。",
+      "source": {
+        "page": 36,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 6,
+      "text": "下方置換法は空気より密度がどのような気体に適する？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-006-c1",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-006-c2",
+          "text": "必ず等しい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-006-c3",
+          "text": "密度は無関係"
+        },
+        {
+          "id": "q-entrance-chemistry-02-006-c4",
+          "text": "大きい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-006-c4",
+      "explanation": "重い気体が容器の底にたまることを利用する。",
+      "source": {
+        "page": 36,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 7,
+      "text": "気体のにおいを調べるとき、適切な方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-007-c1",
+          "text": "手であおいで少量を鼻へ送る"
+        },
+        {
+          "id": "q-entrance-chemistry-02-007-c2",
+          "text": "鼻を容器に入れる"
+        },
+        {
+          "id": "q-entrance-chemistry-02-007-c3",
+          "text": "直接深く吸い込む"
+        },
+        {
+          "id": "q-entrance-chemistry-02-007-c4",
+          "text": "気体を口に入れる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-007-c1",
+      "explanation": "直接吸い込まず、手であおいで少量を確かめる。",
+      "source": {
+        "page": 37,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 8,
+      "text": "発生し始めの気体を実験に使わない理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-008-c1",
+          "text": "すべて水だから"
+        },
+        {
+          "id": "q-entrance-chemistry-02-008-c2",
+          "text": "装置内の空気が混ざっているから"
+        },
+        {
+          "id": "q-entrance-chemistry-02-008-c3",
+          "text": "すべて酸素だから"
+        },
+        {
+          "id": "q-entrance-chemistry-02-008-c4",
+          "text": "気体が存在しないから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-008-c2",
+      "explanation": "最初に出てくる気体には、装置内にあった空気が混ざる。",
+      "source": {
+        "page": 37,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 9,
+      "text": "酸素を発生させる組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-009-c1",
+          "text": "亜鉛とうすい塩酸"
+        },
+        {
+          "id": "q-entrance-chemistry-02-009-c2",
+          "text": "石灰石とうすい塩酸"
+        },
+        {
+          "id": "q-entrance-chemistry-02-009-c3",
+          "text": "二酸化マンガンとうすい過酸化水素水"
+        },
+        {
+          "id": "q-entrance-chemistry-02-009-c4",
+          "text": "食塩と水"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-009-c3",
+      "explanation": "二酸化マンガンが過酸化水素の分解を助け、酸素が発生する。",
+      "source": {
+        "page": 37,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 10,
+      "text": "酸素を集めるのに使える方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-010-c1",
+          "text": "上方置換法だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-02-010-c2",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-02-010-c3",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-02-010-c4",
+          "text": "水上置換法"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-010-c4",
+      "explanation": "酸素は水にとけにくく、水上置換法で集められる。",
+      "source": {
+        "page": 37,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 11,
+      "text": "酸素中に火の付いた線香を入れると？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-011-c1",
+          "text": "激しく燃える"
+        },
+        {
+          "id": "q-entrance-chemistry-02-011-c2",
+          "text": "すぐ消える"
+        },
+        {
+          "id": "q-entrance-chemistry-02-011-c3",
+          "text": "必ず青くなる"
+        },
+        {
+          "id": "q-entrance-chemistry-02-011-c4",
+          "text": "必ず水になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-011-c1",
+      "explanation": "酸素には物質の燃焼を助ける性質がある。",
+      "source": {
+        "page": 37,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 12,
+      "text": "亜鉛に何を加えると水素が発生する？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-012-c1",
+          "text": "食塩水"
+        },
+        {
+          "id": "q-entrance-chemistry-02-012-c2",
+          "text": "うすい塩酸"
+        },
+        {
+          "id": "q-entrance-chemistry-02-012-c3",
+          "text": "石灰水"
+        },
+        {
+          "id": "q-entrance-chemistry-02-012-c4",
+          "text": "エタノール"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-012-c2",
+      "explanation": "亜鉛などの金属とうすい塩酸の反応で水素が発生する。",
+      "source": {
+        "page": 37,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 13,
+      "text": "水素の密度は空気より？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-013-c1",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-013-c2",
+          "text": "同じ"
+        },
+        {
+          "id": "q-entrance-chemistry-02-013-c3",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-013-c4",
+          "text": "測れない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-013-c3",
+      "explanation": "水素は空気より密度が小さく、非常に軽い気体。",
+      "source": {
+        "page": 37,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 14,
+      "text": "水素は水にとけにくい。集める方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-014-c1",
+          "text": "下方置換法だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-02-014-c2",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-02-014-c3",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-02-014-c4",
+          "text": "水上置換法"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-014-c4",
+      "explanation": "水素は水上置換法で集められる。",
+      "source": {
+        "page": 37,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 15,
+      "text": "水素に火を近づけると？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-015-c1",
+          "text": "音を立てて燃える"
+        },
+        {
+          "id": "q-entrance-chemistry-02-015-c2",
+          "text": "線香の燃焼を助けるだけ"
+        },
+        {
+          "id": "q-entrance-chemistry-02-015-c3",
+          "text": "石灰水が白くなる"
+        },
+        {
+          "id": "q-entrance-chemistry-02-015-c4",
+          "text": "必ず消火する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-015-c1",
+      "explanation": "水素は燃える気体で、少量を調べると音を立てて燃える。",
+      "source": {
+        "page": 37,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-016",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 16,
+      "text": "うすい塩酸を加えて二酸化炭素を発生させる物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-016-c1",
+          "text": "亜鉛"
+        },
+        {
+          "id": "q-entrance-chemistry-02-016-c2",
+          "text": "石灰石"
+        },
+        {
+          "id": "q-entrance-chemistry-02-016-c3",
+          "text": "鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-02-016-c4",
+          "text": "アルミニウム"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-016-c2",
+      "explanation": "石灰石の炭酸カルシウムと塩酸の反応で二酸化炭素が出る。",
+      "source": {
+        "page": 38,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-017",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 17,
+      "text": "二酸化炭素の性質の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-017-c1",
+          "text": "空気より密度が小さく、水に全くとけない"
+        },
+        {
+          "id": "q-entrance-chemistry-02-017-c2",
+          "text": "空気より密度が小さく、水によくとける"
+        },
+        {
+          "id": "q-entrance-chemistry-02-017-c3",
+          "text": "空気より密度が大きく、水に少しとける"
+        },
+        {
+          "id": "q-entrance-chemistry-02-017-c4",
+          "text": "空気より密度が大きく、よく燃える"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-017-c3",
+      "explanation": "二酸化炭素は空気より重く、水に少しとける。",
+      "source": {
+        "page": 38,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-018",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 18,
+      "text": "二酸化炭素を集める方法として、水上置換法以外に適切なのは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-018-c1",
+          "text": "上方置換法"
+        },
+        {
+          "id": "q-entrance-chemistry-02-018-c2",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-02-018-c3",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-02-018-c4",
+          "text": "下方置換法"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-018-c4",
+      "explanation": "空気より密度が大きいため、下方置換法でも集められる。",
+      "source": {
+        "page": 38,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-019",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 19,
+      "text": "エタノールの燃焼後の気体で石灰水が白くにごった。検出された気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-019-c1",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-019-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-019-c3",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-019-c4",
+          "text": "窒素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-019-c1",
+      "explanation": "二酸化炭素を石灰水に通すと、白い沈殿ができる。",
+      "source": {
+        "page": 38,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-020",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 20,
+      "text": "二酸化炭素がとけた水の性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-020-c1",
+          "text": "中性"
+        },
+        {
+          "id": "q-entrance-chemistry-02-020-c2",
+          "text": "酸性"
+        },
+        {
+          "id": "q-entrance-chemistry-02-020-c3",
+          "text": "アルカリ性"
+        },
+        {
+          "id": "q-entrance-chemistry-02-020-c4",
+          "text": "金属性"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-020-c2",
+      "explanation": "二酸化炭素が水にとけると、弱い酸性を示す。",
+      "source": {
+        "page": 38,
+        "question": 20
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-021",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 21,
+      "text": "アンモニアに特有のにおいは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-021-c1",
+          "text": "無臭"
+        },
+        {
+          "id": "q-entrance-chemistry-02-021-c2",
+          "text": "甘いにおい"
+        },
+        {
+          "id": "q-entrance-chemistry-02-021-c3",
+          "text": "刺激臭"
+        },
+        {
+          "id": "q-entrance-chemistry-02-021-c4",
+          "text": "花の香り"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-021-c3",
+      "explanation": "アンモニアは特有の刺激臭をもつ。",
+      "source": {
+        "page": 38,
+        "question": 21
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-022",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 22,
+      "text": "アンモニアの集め方と理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-022-c1",
+          "text": "水上置換法・水にとけない"
+        },
+        {
+          "id": "q-entrance-chemistry-02-022-c2",
+          "text": "下方置換法・空気より重い"
+        },
+        {
+          "id": "q-entrance-chemistry-02-022-c3",
+          "text": "ろ過・固体だから"
+        },
+        {
+          "id": "q-entrance-chemistry-02-022-c4",
+          "text": "上方置換法・水によくとけ、空気より軽い"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-022-c4",
+      "explanation": "アンモニアは水に非常によくとけ、空気より密度が小さい。",
+      "source": {
+        "page": 38,
+        "question": 22
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-023",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 23,
+      "text": "刺激臭があり、殺菌・消毒作用がある気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-023-c1",
+          "text": "塩素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-023-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-023-c3",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-023-c4",
+          "text": "窒素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-023-c1",
+      "explanation": "塩素は刺激臭をもち、殺菌・消毒に利用される。",
+      "source": {
+        "page": 38,
+        "question": 23
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-02-024",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-02",
+      "order": 24,
+      "text": "塩酸は、何という物質が水にとけたもの？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-02-024-c1",
+          "text": "塩化ナトリウム"
+        },
+        {
+          "id": "q-entrance-chemistry-02-024-c2",
+          "text": "塩化水素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-024-c3",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-02-024-c4",
+          "text": "塩素だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-02-024-c2",
+      "explanation": "塩化水素HClの水溶液が塩酸。",
+      "source": {
+        "page": 38,
+        "question": 24
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 1,
+      "text": "食塩水の食塩のように、とけている物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-001-c1",
+          "text": "溶媒"
+        },
+        {
+          "id": "q-entrance-chemistry-03-001-c2",
+          "text": "溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-03-001-c3",
+          "text": "溶質"
+        },
+        {
+          "id": "q-entrance-chemistry-03-001-c4",
+          "text": "沈殿"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-001-c3",
+      "explanation": "溶質は溶媒にとけている物質。",
+      "source": {
+        "page": 39,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 2,
+      "text": "食塩水の水のように、物質をとかす液体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-002-c1",
+          "text": "溶質"
+        },
+        {
+          "id": "q-entrance-chemistry-03-002-c2",
+          "text": "結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-03-002-c3",
+          "text": "沈殿"
+        },
+        {
+          "id": "q-entrance-chemistry-03-002-c4",
+          "text": "溶媒"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-002-c4",
+      "explanation": "物質をとかしている液体を溶媒という。",
+      "source": {
+        "page": 39,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 3,
+      "text": "物質が液体にとけた、液全体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-003-c1",
+          "text": "溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-03-003-c2",
+          "text": "溶質"
+        },
+        {
+          "id": "q-entrance-chemistry-03-003-c3",
+          "text": "溶媒"
+        },
+        {
+          "id": "q-entrance-chemistry-03-003-c4",
+          "text": "結晶"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-003-c1",
+      "explanation": "溶液は溶質と溶媒を合わせた液全体。",
+      "source": {
+        "page": 39,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 4,
+      "text": "水を溶媒にした溶液は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-004-c1",
+          "text": "結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-03-004-c2",
+          "text": "水溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-03-004-c3",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-03-004-c4",
+          "text": "有機物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-004-c2",
+      "explanation": "水が溶媒である溶液を水溶液という。",
+      "source": {
+        "page": 39,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 5,
+      "text": "均一にとけた水溶液の上部と下部の濃さは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-005-c1",
+          "text": "上部が濃い"
+        },
+        {
+          "id": "q-entrance-chemistry-03-005-c2",
+          "text": "下部が濃い"
+        },
+        {
+          "id": "q-entrance-chemistry-03-005-c3",
+          "text": "同じ"
+        },
+        {
+          "id": "q-entrance-chemistry-03-005-c4",
+          "text": "必ず交互に変わる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-005-c3",
+      "explanation": "溶質は均一に広がるので、どの部分でも濃さは同じ。",
+      "source": {
+        "page": 39,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 6,
+      "text": "1種類の物質からできたものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-006-c1",
+          "text": "混合物"
+        },
+        {
+          "id": "q-entrance-chemistry-03-006-c2",
+          "text": "溶液だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-03-006-c3",
+          "text": "水溶液だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-03-006-c4",
+          "text": "純粋な物質"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-006-c4",
+      "explanation": "鉄や食塩など、1種類の物質だけからなるものを純粋な物質という。",
+      "source": {
+        "page": 39,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 7,
+      "text": "塩酸のように複数の物質が混ざったものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-007-c1",
+          "text": "混合物"
+        },
+        {
+          "id": "q-entrance-chemistry-03-007-c2",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-03-007-c3",
+          "text": "化合物そのもの"
+        },
+        {
+          "id": "q-entrance-chemistry-03-007-c4",
+          "text": "純物質"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-007-c1",
+      "explanation": "塩酸は塩化水素と水からなる混合物。",
+      "source": {
+        "page": 39,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-03-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-03",
+      "order": 8,
+      "text": "ろ紙を使って固体と液体を分ける方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-03-008-c1",
+          "text": "蒸留"
+        },
+        {
+          "id": "q-entrance-chemistry-03-008-c2",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-03-008-c3",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-03-008-c4",
+          "text": "電気分解"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-03-008-c2",
+      "explanation": "ろ紙を通れる液体と、残る固体を分ける方法がろ過。",
+      "source": {
+        "page": 39,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 1,
+      "text": "溶液の質量に対する溶質の質量の割合を％で表す濃度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-001-c1",
+          "text": "密度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-001-c2",
+          "text": "溶解度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-001-c3",
+          "text": "質量パーセント濃度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-001-c4",
+          "text": "湿度"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-001-c3",
+      "explanation": "溶質の質量÷溶液の質量×100で求める。",
+      "source": {
+        "page": 40,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 2,
+      "text": "水150 gに食塩50 gをとかしたときの質量パーセント濃度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-002-c1",
+          "text": "33.3％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-002-c2",
+          "text": "50％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-002-c3",
+          "text": "75％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-002-c4",
+          "text": "25％"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-002-c4",
+      "explanation": "溶液の質量は200 g。50÷200×100＝25％。",
+      "source": {
+        "page": 40,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 3,
+      "text": "5％の食塩水100 gに含まれる食塩は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-003-c1",
+          "text": "5 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-003-c2",
+          "text": "95 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-003-c3",
+          "text": "20 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-003-c4",
+          "text": "0.5 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-003-c1",
+      "explanation": "100×5÷100＝5 g。",
+      "source": {
+        "page": 40,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 4,
+      "text": "蒸発皿45.2 g、食塩水入り65.2 g、蒸発後47.6 g。もとの濃度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-004-c1",
+          "text": "20％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-004-c2",
+          "text": "12％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-004-c3",
+          "text": "2.4％"
+        },
+        {
+          "id": "q-entrance-chemistry-04-004-c4",
+          "text": "10％"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-004-c2",
+      "explanation": "食塩水20.0 g、食塩2.4 g。2.4÷20.0×100＝12％。",
+      "source": {
+        "page": 40,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 5,
+      "text": "一定温度の水100 gにとける物質の最大質量は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-005-c1",
+          "text": "密度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-005-c2",
+          "text": "濃度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-005-c3",
+          "text": "溶解度"
+        },
+        {
+          "id": "q-entrance-chemistry-04-005-c4",
+          "text": "質量保存"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-005-c3",
+      "explanation": "溶解度は温度と物質の種類によって異なる。",
+      "source": {
+        "page": 40,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 6,
+      "text": "温度ごとの溶解度を示すグラフは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-006-c1",
+          "text": "柱状図"
+        },
+        {
+          "id": "q-entrance-chemistry-04-006-c2",
+          "text": "天気図"
+        },
+        {
+          "id": "q-entrance-chemistry-04-006-c3",
+          "text": "回路図"
+        },
+        {
+          "id": "q-entrance-chemistry-04-006-c4",
+          "text": "溶解度曲線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-006-c4",
+      "explanation": "横軸に温度、縦軸に溶解度をとる。",
+      "source": {
+        "page": 40,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 7,
+      "text": "その温度でそれ以上物質がとけない水溶液は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-007-c1",
+          "text": "飽和水溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-04-007-c2",
+          "text": "不飽和水溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-04-007-c3",
+          "text": "純粋な水"
+        },
+        {
+          "id": "q-entrance-chemistry-04-007-c4",
+          "text": "沈殿だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-007-c1",
+      "explanation": "溶解度いっぱいまで溶質がとけている水溶液。",
+      "source": {
+        "page": 40,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 8,
+      "text": "60℃の水100 gに食塩・ミョウバン・硝酸カリウムを各30 g入れるとすべてとけた。各50 gの場合はどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-008-c1",
+          "text": "3種類ともすべてとける"
+        },
+        {
+          "id": "q-entrance-chemistry-04-008-c2",
+          "text": "食塩はすべてはとけない"
+        },
+        {
+          "id": "q-entrance-chemistry-04-008-c3",
+          "text": "3種類とも全くとけない"
+        },
+        {
+          "id": "q-entrance-chemistry-04-008-c4",
+          "text": "硝酸カリウムだけとけない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-008-c2",
+      "explanation": "表の食塩の60℃の溶解度は50 gより小さい。",
+      "source": {
+        "page": 41,
+        "question": 8
+      },
+      "material": {
+        "type": "table",
+        "title": "水100 gに溶ける質量（グラフから読んだ概数）",
+        "headers": [
+          "温度（℃）",
+          "食塩（g）",
+          "ミョウバン（g）",
+          "硝酸カリウム（g）"
+        ],
+        "rows": [
+          [
+            20,
+            36,
+            12,
+            32
+          ],
+          [
+            40,
+            37,
+            25,
+            60
+          ],
+          [
+            60,
+            38,
+            60,
+            108
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 9,
+      "text": "60℃の水100 gの飽和ミョウバン水溶液を40℃に冷やす。結晶の質量は表では約いくつ？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-009-c1",
+          "text": "15 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-009-c2",
+          "text": "25 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-009-c3",
+          "text": "35 g"
+        },
+        {
+          "id": "q-entrance-chemistry-04-009-c4",
+          "text": "45 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-009-c3",
+      "explanation": "60℃と40℃の溶解度の差が、出てくる結晶の質量になる。",
+      "source": {
+        "page": 41,
+        "question": 9
+      },
+      "material": {
+        "type": "table",
+        "title": "水100 gに溶ける質量（グラフから読んだ概数）",
+        "headers": [
+          "温度（℃）",
+          "食塩（g）",
+          "ミョウバン（g）",
+          "硝酸カリウム（g）"
+        ],
+        "rows": [
+          [
+            20,
+            36,
+            12,
+            32
+          ],
+          [
+            40,
+            37,
+            25,
+            60
+          ],
+          [
+            60,
+            38,
+            60,
+            108
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 10,
+      "text": "60℃の飽和水溶液を20℃へ冷やすと、表の3物質で結晶が最も多く出るものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-010-c1",
+          "text": "ミョウバン"
+        },
+        {
+          "id": "q-entrance-chemistry-04-010-c2",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-chemistry-04-010-c3",
+          "text": "どれも同じ"
+        },
+        {
+          "id": "q-entrance-chemistry-04-010-c4",
+          "text": "硝酸カリウム"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-010-c4",
+      "explanation": "温度低下に伴う溶解度の減少が最も大きいのは硝酸カリウム。",
+      "source": {
+        "page": 41,
+        "question": 10
+      },
+      "material": {
+        "type": "table",
+        "title": "水100 gに溶ける質量（グラフから読んだ概数）",
+        "headers": [
+          "温度（℃）",
+          "食塩（g）",
+          "ミョウバン（g）",
+          "硝酸カリウム（g）"
+        ],
+        "rows": [
+          [
+            20,
+            36,
+            12,
+            32
+          ],
+          [
+            40,
+            37,
+            25,
+            60
+          ],
+          [
+            60,
+            38,
+            60,
+            108
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-04-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-04",
+      "order": 11,
+      "text": "溶解度の差を利用して、とかした物質を結晶として取り出す方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-04-011-c1",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-04-011-c2",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-04-011-c3",
+          "text": "蒸留"
+        },
+        {
+          "id": "q-entrance-chemistry-04-011-c4",
+          "text": "電気分解"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-04-011-c1",
+      "explanation": "温度を下げるなどして結晶を取り出す方法が再結晶。",
+      "source": {
+        "page": 41,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 1,
+      "text": "温度によって固体・液体・気体の姿が変わることは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-001-c1",
+          "text": "化学変化"
+        },
+        {
+          "id": "q-entrance-chemistry-05-001-c2",
+          "text": "状態変化"
+        },
+        {
+          "id": "q-entrance-chemistry-05-001-c3",
+          "text": "中和"
+        },
+        {
+          "id": "q-entrance-chemistry-05-001-c4",
+          "text": "還元"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-001-c2",
+      "explanation": "状態変化では物質の種類は変わらず、状態が変わる。",
+      "source": {
+        "page": 42,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 2,
+      "text": "状態変化の前後で物質の質量は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-002-c1",
+          "text": "必ず増える"
+        },
+        {
+          "id": "q-entrance-chemistry-05-002-c2",
+          "text": "必ず減る"
+        },
+        {
+          "id": "q-entrance-chemistry-05-002-c3",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-chemistry-05-002-c4",
+          "text": "ゼロになる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-002-c3",
+      "explanation": "出入りがなければ、状態が変わっても粒子の総数と質量は変わらない。",
+      "source": {
+        "page": 42,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 3,
+      "text": "固体が液体になる温度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-003-c1",
+          "text": "沸点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-003-c2",
+          "text": "露点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-003-c3",
+          "text": "引火点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-003-c4",
+          "text": "融点"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-003-c4",
+      "explanation": "純物質が融解する温度を融点という。",
+      "source": {
+        "page": 42,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 4,
+      "text": "液体が沸騰して気体になる温度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-004-c1",
+          "text": "沸点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-004-c2",
+          "text": "融点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-004-c3",
+          "text": "露点"
+        },
+        {
+          "id": "q-entrance-chemistry-05-004-c4",
+          "text": "南中高度"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-004-c1",
+      "explanation": "沸騰する温度が沸点で、圧力によっても変わる。",
+      "source": {
+        "page": 42,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 5,
+      "text": "同じ質量の氷と水を比べると、氷の体積と密度は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-005-c1",
+          "text": "体積が小さく、密度が大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-05-005-c2",
+          "text": "体積が大きく、密度が小さい"
+        },
+        {
+          "id": "q-entrance-chemistry-05-005-c3",
+          "text": "両方大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-05-005-c4",
+          "text": "両方小さい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-005-c2",
+      "explanation": "水は凍ると体積が増える。質量は同じなので密度が小さくなる。",
+      "source": {
+        "page": 42,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 6,
+      "text": "粒子が近接しているが、規則的な位置に固定されず動くモデルはどの状態？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-006-c1",
+          "text": "固体"
+        },
+        {
+          "id": "q-entrance-chemistry-05-006-c2",
+          "text": "気体"
+        },
+        {
+          "id": "q-entrance-chemistry-05-006-c3",
+          "text": "液体"
+        },
+        {
+          "id": "q-entrance-chemistry-05-006-c4",
+          "text": "真空"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-006-c3",
+      "explanation": "液体の粒子は近くに集まりながら、互いの位置を変える。",
+      "source": {
+        "page": 42,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 7,
+      "text": "液体を沸騰させ、蒸気を冷やして液体として集める方法は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-007-c1",
+          "text": "ろ過"
+        },
+        {
+          "id": "q-entrance-chemistry-05-007-c2",
+          "text": "再結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-05-007-c3",
+          "text": "中和"
+        },
+        {
+          "id": "q-entrance-chemistry-05-007-c4",
+          "text": "蒸留"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-007-c4",
+      "explanation": "沸点の差を利用して液体を分離する方法。",
+      "source": {
+        "page": 42,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 8,
+      "text": "沸騰石を入れる主な理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-008-c1",
+          "text": "急な沸騰を防ぐため"
+        },
+        {
+          "id": "q-entrance-chemistry-05-008-c2",
+          "text": "液体の質量を増やすため"
+        },
+        {
+          "id": "q-entrance-chemistry-05-008-c3",
+          "text": "沸点を必ず0℃にするため"
+        },
+        {
+          "id": "q-entrance-chemistry-05-008-c4",
+          "text": "蒸気を止めるため"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-008-c1",
+      "explanation": "突然激しく沸騰する突沸を防ぐため、加熱前に入れる。",
+      "source": {
+        "page": 43,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 9,
+      "text": "水とエタノールを蒸留で分けられる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-009-c1",
+          "text": "質量が同じだから"
+        },
+        {
+          "id": "q-entrance-chemistry-05-009-c2",
+          "text": "沸点が異なるから"
+        },
+        {
+          "id": "q-entrance-chemistry-05-009-c3",
+          "text": "両方が固体だから"
+        },
+        {
+          "id": "q-entrance-chemistry-05-009-c4",
+          "text": "色が必ず違うから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-009-c2",
+      "explanation": "低い沸点のエタノールを多く含む蒸気が先に出てくる。",
+      "source": {
+        "page": 43,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 10,
+      "text": "蒸留で最初に液体が集まり始めるのは、温度変化が小さくなる最初の区間。この表では？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-010-c1",
+          "text": "0〜5分後"
+        },
+        {
+          "id": "q-entrance-chemistry-05-010-c2",
+          "text": "15〜20分後"
+        },
+        {
+          "id": "q-entrance-chemistry-05-010-c3",
+          "text": "5〜10分後"
+        },
+        {
+          "id": "q-entrance-chemistry-05-010-c4",
+          "text": "20〜25分後"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-010-c3",
+      "explanation": "最初の温度変化が小さい区間に、沸点の低い成分を多く含む蒸気が出る。",
+      "source": {
+        "page": 43,
+        "question": 10
+      },
+      "material": {
+        "type": "line",
+        "title": "混合物の蒸留：温度の変化（模式図）",
+        "description": "時間に対する温度変化。5〜10分で最初の横ばいとなる。",
+        "labels": [
+          "0",
+          "5",
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "values": [
+          20,
+          75,
+          75,
+          85,
+          90,
+          95
+        ],
+        "max": 100,
+        "unit": "温度（℃）",
+        "labelHeader": "時間（分）"
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-05-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-05",
+      "order": 11,
+      "text": "水を加熱する図で、液体と気体が共存する区間は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-05-011-c1",
+          "text": "A"
+        },
+        {
+          "id": "q-entrance-chemistry-05-011-c2",
+          "text": "B"
+        },
+        {
+          "id": "q-entrance-chemistry-05-011-c3",
+          "text": "C"
+        },
+        {
+          "id": "q-entrance-chemistry-05-011-c4",
+          "text": "D"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-05-011-c4",
+      "explanation": "100℃付近の横ばいのDでは、水が沸騰して水と水蒸気が共存する。",
+      "source": {
+        "page": 43,
+        "question": 11
+      },
+      "material": {
+        "type": "image",
+        "title": "水の加熱曲線（模式図）",
+        "image": "science-water-heating",
+        "alt": "縦軸は温度、横軸は加熱時間。Aは0℃未満で上昇、Bは0℃で横ばい、Cは0℃から100℃へ上昇、Dは100℃で横ばい、Eは100℃以上へ上昇。"
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 1,
+      "text": "1種類の物質が2種類以上の物質に分かれる化学変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-001-c1",
+          "text": "分解"
+        },
+        {
+          "id": "q-entrance-chemistry-06-001-c2",
+          "text": "化合"
+        },
+        {
+          "id": "q-entrance-chemistry-06-001-c3",
+          "text": "状態変化"
+        },
+        {
+          "id": "q-entrance-chemistry-06-001-c4",
+          "text": "中和"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-001-c1",
+      "explanation": "化学変化によって別の複数の物質になることを分解という。",
+      "source": {
+        "page": 44,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 2,
+      "text": "加熱によって起こる分解は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-002-c1",
+          "text": "電気分解"
+        },
+        {
+          "id": "q-entrance-chemistry-06-002-c2",
+          "text": "熱分解"
+        },
+        {
+          "id": "q-entrance-chemistry-06-002-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-06-002-c4",
+          "text": "蒸留"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-002-c2",
+      "explanation": "熱を加えて物質を分解することが熱分解。",
+      "source": {
+        "page": 44,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 3,
+      "text": "炭酸水素ナトリウムを加熱して発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-003-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-003-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-003-c3",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-003-c4",
+          "text": "窒素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-003-c3",
+      "explanation": "炭酸水素ナトリウムは炭酸ナトリウム、水、二酸化炭素に分解する。",
+      "source": {
+        "page": 44,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 4,
+      "text": "炭酸水素ナトリウムの熱分解で試験管に付く液体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-004-c1",
+          "text": "エタノール"
+        },
+        {
+          "id": "q-entrance-chemistry-06-004-c2",
+          "text": "塩酸"
+        },
+        {
+          "id": "q-entrance-chemistry-06-004-c3",
+          "text": "水銀"
+        },
+        {
+          "id": "q-entrance-chemistry-06-004-c4",
+          "text": "水"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-004-c4",
+      "explanation": "熱分解でできた水蒸気が冷えて、水滴になる。",
+      "source": {
+        "page": 44,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 5,
+      "text": "水に触れると青から赤（桃色）に変わる試験紙は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-005-c1",
+          "text": "塩化コバルト紙"
+        },
+        {
+          "id": "q-entrance-chemistry-06-005-c2",
+          "text": "赤色リトマス紙"
+        },
+        {
+          "id": "q-entrance-chemistry-06-005-c3",
+          "text": "青色リトマス紙"
+        },
+        {
+          "id": "q-entrance-chemistry-06-005-c4",
+          "text": "ろ紙"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-005-c1",
+      "explanation": "塩化コバルト紙は水を検出する。",
+      "source": {
+        "page": 44,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 6,
+      "text": "炭酸水素ナトリウムの熱分解後に残る固体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-006-c1",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-chemistry-06-006-c2",
+          "text": "炭酸ナトリウム"
+        },
+        {
+          "id": "q-entrance-chemistry-06-006-c3",
+          "text": "砂糖"
+        },
+        {
+          "id": "q-entrance-chemistry-06-006-c4",
+          "text": "酸化銅"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-006-c2",
+      "explanation": "2NaHCO₃→Na₂CO₃＋H₂O＋CO₂の反応。",
+      "source": {
+        "page": 44,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 7,
+      "text": "酸化銀の熱分解後に残る物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-007-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-007-c2",
+          "text": "水"
+        },
+        {
+          "id": "q-entrance-chemistry-06-007-c3",
+          "text": "銀"
+        },
+        {
+          "id": "q-entrance-chemistry-06-007-c4",
+          "text": "炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-007-c3",
+      "explanation": "酸化銀は銀と酸素に分解する。",
+      "source": {
+        "page": 44,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 8,
+      "text": "酸化銀の熱分解で発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-008-c1",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-008-c2",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-008-c3",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-008-c4",
+          "text": "酸素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-008-c4",
+      "explanation": "2Ag₂O→4Ag＋O₂で酸素ができる。",
+      "source": {
+        "page": 44,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 9,
+      "text": "水の電気分解で、電流を流しやすくするため少量とかす物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-009-c1",
+          "text": "水酸化ナトリウム"
+        },
+        {
+          "id": "q-entrance-chemistry-06-009-c2",
+          "text": "砂糖"
+        },
+        {
+          "id": "q-entrance-chemistry-06-009-c3",
+          "text": "エタノール"
+        },
+        {
+          "id": "q-entrance-chemistry-06-009-c4",
+          "text": "油"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-009-c1",
+      "explanation": "純粋な水は電流を通しにくいので、電解質を少量加える。",
+      "source": {
+        "page": 45,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 10,
+      "text": "水の電気分解で陽極に発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-010-c1",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-010-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-010-c3",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-010-c4",
+          "text": "塩素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-010-c2",
+      "explanation": "水の電気分解で陽極に酸素、陰極に水素が発生する。",
+      "source": {
+        "page": 45,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 11,
+      "text": "水の電気分解で陰極に発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-011-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-011-c2",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-011-c3",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-011-c4",
+          "text": "塩素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-011-c3",
+      "explanation": "水素の体積は酸素の約2倍になる。",
+      "source": {
+        "page": 45,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 12,
+      "text": "水の電気分解の式2H₂O→2［　］＋O₂に入る化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-012-c1",
+          "text": "H"
+        },
+        {
+          "id": "q-entrance-chemistry-06-012-c2",
+          "text": "OH"
+        },
+        {
+          "id": "q-entrance-chemistry-06-012-c3",
+          "text": "H₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-06-012-c4",
+          "text": "H₂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-012-c4",
+      "explanation": "水素は2原子からなる分子H₂として発生する。",
+      "source": {
+        "page": 45,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 13,
+      "text": "水の電気分解でできる水素と酸素の質量比は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-013-c1",
+          "text": "1：8"
+        },
+        {
+          "id": "q-entrance-chemistry-06-013-c2",
+          "text": "2：1"
+        },
+        {
+          "id": "q-entrance-chemistry-06-013-c3",
+          "text": "1：16"
+        },
+        {
+          "id": "q-entrance-chemistry-06-013-c4",
+          "text": "8：1"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-013-c1",
+      "explanation": "体積比2：1と密度比1：16から、質量比は2：16＝1：8。",
+      "source": {
+        "page": 45,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 14,
+      "text": "塩化銅水溶液を電気分解したとき、陽極に出る気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-014-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-014-c2",
+          "text": "塩素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-014-c3",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-06-014-c4",
+          "text": "二酸化炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-014-c2",
+      "explanation": "陽極では塩化物イオンから塩素ができる。",
+      "source": {
+        "page": 45,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-06-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-06",
+      "order": 15,
+      "text": "塩化銅水溶液の電気分解で銅が付く電極は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-06-015-c1",
+          "text": "陽極"
+        },
+        {
+          "id": "q-entrance-chemistry-06-015-c2",
+          "text": "両極に同量"
+        },
+        {
+          "id": "q-entrance-chemistry-06-015-c3",
+          "text": "陰極"
+        },
+        {
+          "id": "q-entrance-chemistry-06-015-c4",
+          "text": "どちらにも付かない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-06-015-c3",
+      "explanation": "銅イオンが陰極で電子を受け取り、銅になる。",
+      "source": {
+        "page": 45,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 1,
+      "text": "化学変化でそれ以上分割できない物質を構成する粒子は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-001-c1",
+          "text": "分子"
+        },
+        {
+          "id": "q-entrance-chemistry-07-001-c2",
+          "text": "細胞"
+        },
+        {
+          "id": "q-entrance-chemistry-07-001-c3",
+          "text": "結晶"
+        },
+        {
+          "id": "q-entrance-chemistry-07-001-c4",
+          "text": "原子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-001-c4",
+      "explanation": "化学変化では原子の種類は変わらず、結び付きが変わる。",
+      "source": {
+        "page": 46,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 2,
+      "text": "分子をつくる物質で、その物質の性質を示す最小の粒子は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-002-c1",
+          "text": "分子"
+        },
+        {
+          "id": "q-entrance-chemistry-07-002-c2",
+          "text": "原子核"
+        },
+        {
+          "id": "q-entrance-chemistry-07-002-c3",
+          "text": "電子"
+        },
+        {
+          "id": "q-entrance-chemistry-07-002-c4",
+          "text": "細胞"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-002-c1",
+      "explanation": "分子をつくる物質では、分子がその物質の性質を示す最小の粒子。",
+      "source": {
+        "page": 46,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 3,
+      "text": "1種類の元素だけからできた純物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-003-c1",
+          "text": "化合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-003-c2",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-07-003-c3",
+          "text": "混合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-003-c4",
+          "text": "水溶液"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-003-c2",
+      "explanation": "酸素や鉄など、1種類の元素からなるものが単体。",
+      "source": {
+        "page": 46,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 4,
+      "text": "2種類以上の元素が一定の割合で結び付いた純物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-004-c1",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-07-004-c2",
+          "text": "混合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-004-c3",
+          "text": "化合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-004-c4",
+          "text": "溶媒"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-004-c3",
+      "explanation": "水や食塩のように、異なる元素からなる純物質が化合物。",
+      "source": {
+        "page": 46,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 5,
+      "text": "酸素の分類は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-005-c1",
+          "text": "化合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-005-c2",
+          "text": "混合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-005-c3",
+          "text": "溶液"
+        },
+        {
+          "id": "q-entrance-chemistry-07-005-c4",
+          "text": "単体"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-005-c4",
+      "explanation": "酸素分子は酸素原子だけからできる。",
+      "source": {
+        "page": 46,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 6,
+      "text": "水の分類は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-006-c1",
+          "text": "化合物"
+        },
+        {
+          "id": "q-entrance-chemistry-07-006-c2",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-07-006-c3",
+          "text": "元素"
+        },
+        {
+          "id": "q-entrance-chemistry-07-006-c4",
+          "text": "混合物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-006-c1",
+      "explanation": "水は水素と酸素が結び付いた化合物。",
+      "source": {
+        "page": 46,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 7,
+      "text": "原子は種類によって、大きさのほかに何が異なる？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-007-c1",
+          "text": "化学変化での消滅時刻"
+        },
+        {
+          "id": "q-entrance-chemistry-07-007-c2",
+          "text": "質量"
+        },
+        {
+          "id": "q-entrance-chemistry-07-007-c3",
+          "text": "元素記号の長さだけ"
+        },
+        {
+          "id": "q-entrance-chemistry-07-007-c4",
+          "text": "細胞数"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-007-c2",
+      "explanation": "原子の質量は元素によって異なる。",
+      "source": {
+        "page": 46,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 8,
+      "text": "原子の種類は化学変化で別の種類に変わるか？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-008-c1",
+          "text": "必ず変わる"
+        },
+        {
+          "id": "q-entrance-chemistry-07-008-c2",
+          "text": "半分だけ変わる"
+        },
+        {
+          "id": "q-entrance-chemistry-07-008-c3",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-chemistry-07-008-c4",
+          "text": "すべて電子になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-008-c3",
+      "explanation": "化学変化は原子の組合せを変えるが、原子の種類は変えない。",
+      "source": {
+        "page": 46,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 9,
+      "text": "二酸化炭素の化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-009-c1",
+          "text": "CO"
+        },
+        {
+          "id": "q-entrance-chemistry-07-009-c2",
+          "text": "C₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-07-009-c3",
+          "text": "O₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-009-c4",
+          "text": "CO₂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-009-c4",
+      "explanation": "炭素原子1個と酸素原子2個からなる分子。",
+      "source": {
+        "page": 46,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 10,
+      "text": "塩化ナトリウムの化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-010-c1",
+          "text": "NaCl"
+        },
+        {
+          "id": "q-entrance-chemistry-07-010-c2",
+          "text": "Na₂Cl"
+        },
+        {
+          "id": "q-entrance-chemistry-07-010-c3",
+          "text": "NCl"
+        },
+        {
+          "id": "q-entrance-chemistry-07-010-c4",
+          "text": "NaOH"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-010-c1",
+      "explanation": "ナトリウムと塩素の比が1：1でNaCl。",
+      "source": {
+        "page": 46,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 11,
+      "text": "硫化鉄の化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-011-c1",
+          "text": "FeO"
+        },
+        {
+          "id": "q-entrance-chemistry-07-011-c2",
+          "text": "FeS"
+        },
+        {
+          "id": "q-entrance-chemistry-07-011-c3",
+          "text": "Fe₂S₃"
+        },
+        {
+          "id": "q-entrance-chemistry-07-011-c4",
+          "text": "FS"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-011-c2",
+      "explanation": "教材で扱う硫化鉄はFeS。",
+      "source": {
+        "page": 46,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 12,
+      "text": "アンモニアの化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-012-c1",
+          "text": "N₂H"
+        },
+        {
+          "id": "q-entrance-chemistry-07-012-c2",
+          "text": "NH₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-012-c3",
+          "text": "NH₃"
+        },
+        {
+          "id": "q-entrance-chemistry-07-012-c4",
+          "text": "N₃H"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-012-c3",
+      "explanation": "窒素原子1個と水素原子3個からなる。",
+      "source": {
+        "page": 46,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 13,
+      "text": "2NaHCO₃→Na₂CO₃＋［A］＋［B］。AとBは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-013-c1",
+          "text": "H₂とO₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-013-c2",
+          "text": "NaClとH₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-013-c3",
+          "text": "COとO₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-013-c4",
+          "text": "H₂OとCO₂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-013-c4",
+      "explanation": "炭酸水素ナトリウムは炭酸ナトリウム、水、二酸化炭素になる。",
+      "source": {
+        "page": 47,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 14,
+      "text": "2Ag₂O→［　］Ag＋O₂。係数は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-014-c1",
+          "text": "4"
+        },
+        {
+          "id": "q-entrance-chemistry-07-014-c2",
+          "text": "1"
+        },
+        {
+          "id": "q-entrance-chemistry-07-014-c3",
+          "text": "2"
+        },
+        {
+          "id": "q-entrance-chemistry-07-014-c4",
+          "text": "3"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-014-c1",
+      "explanation": "左辺の銀原子は2×2＝4個。右辺も4Agとする。",
+      "source": {
+        "page": 47,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 15,
+      "text": "2Mg＋O₂→2［　］に入る化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-015-c1",
+          "text": "Mg₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-07-015-c2",
+          "text": "MgO"
+        },
+        {
+          "id": "q-entrance-chemistry-07-015-c3",
+          "text": "MgO₂"
+        },
+        {
+          "id": "q-entrance-chemistry-07-015-c4",
+          "text": "Mg₂O₂"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-015-c2",
+      "explanation": "マグネシウムと酸素から酸化マグネシウムMgOができる。",
+      "source": {
+        "page": 47,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-016",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 16,
+      "text": "2CuO＋C→［　］Cu＋CO₂。係数は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-016-c1",
+          "text": "1"
+        },
+        {
+          "id": "q-entrance-chemistry-07-016-c2",
+          "text": "3"
+        },
+        {
+          "id": "q-entrance-chemistry-07-016-c3",
+          "text": "2"
+        },
+        {
+          "id": "q-entrance-chemistry-07-016-c4",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-016-c3",
+      "explanation": "銅原子の数を左右で2個にそろえる。",
+      "source": {
+        "page": 47,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-017",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 17,
+      "text": "H₂SO₄＋［A］→BaSO₄＋［B］H₂O。AとBは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-017-c1",
+          "text": "BaOHと1"
+        },
+        {
+          "id": "q-entrance-chemistry-07-017-c2",
+          "text": "BaOと2"
+        },
+        {
+          "id": "q-entrance-chemistry-07-017-c3",
+          "text": "BaCl₂と1"
+        },
+        {
+          "id": "q-entrance-chemistry-07-017-c4",
+          "text": "Ba(OH)₂と2"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-017-c4",
+      "explanation": "硫酸と水酸化バリウムから硫酸バリウムと2分子の水ができる。",
+      "source": {
+        "page": 47,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-07-018",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-07",
+      "order": 18,
+      "text": "水素と酸素から水ができる粒子数の関係は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-07-018-c1",
+          "text": "水素分子2個＋酸素分子1個→水分子2個"
+        },
+        {
+          "id": "q-entrance-chemistry-07-018-c2",
+          "text": "水素分子1個＋酸素原子1個→水分子1個"
+        },
+        {
+          "id": "q-entrance-chemistry-07-018-c3",
+          "text": "水素分子1個＋酸素分子1個→水分子1個"
+        },
+        {
+          "id": "q-entrance-chemistry-07-018-c4",
+          "text": "水素分子2個＋酸素分子2個→水分子1個"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-07-018-c1",
+      "explanation": "2H₂＋O₂→2H₂Oで、原子の数が保存される。",
+      "source": {
+        "page": 47,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 1,
+      "text": "鉄と硫黄の混合物を加熱してできる黒い物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-001-c1",
+          "text": "酸化鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-08-001-c2",
+          "text": "硫化鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-08-001-c3",
+          "text": "炭酸鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-08-001-c4",
+          "text": "塩化鉄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-001-c2",
+      "explanation": "鉄と硫黄が化合して硫化鉄ができる。",
+      "source": {
+        "page": 48,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 2,
+      "text": "Fe＋S→［　］に入る化学式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-002-c1",
+          "text": "FeO"
+        },
+        {
+          "id": "q-entrance-chemistry-08-002-c2",
+          "text": "Fe₂S"
+        },
+        {
+          "id": "q-entrance-chemistry-08-002-c3",
+          "text": "FeS"
+        },
+        {
+          "id": "q-entrance-chemistry-08-002-c4",
+          "text": "FS"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-002-c3",
+      "explanation": "鉄と硫黄の比が1：1で結び付く。",
+      "source": {
+        "page": 48,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 3,
+      "text": "鉄と硫黄の反応が加熱をやめても続く理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-003-c1",
+          "text": "反応で酸素が消えるから"
+        },
+        {
+          "id": "q-entrance-chemistry-08-003-c2",
+          "text": "水が冷やすから"
+        },
+        {
+          "id": "q-entrance-chemistry-08-003-c3",
+          "text": "質量がなくなるから"
+        },
+        {
+          "id": "q-entrance-chemistry-08-003-c4",
+          "text": "反応で出る熱が次の反応を進めるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-003-c4",
+      "explanation": "発熱反応なので、反応で発生する熱が次の部分の反応を進める。",
+      "source": {
+        "page": 48,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 4,
+      "text": "加熱前の鉄と硫黄の混合物は磁石に付く？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-004-c1",
+          "text": "付く"
+        },
+        {
+          "id": "q-entrance-chemistry-08-004-c2",
+          "text": "付かない"
+        },
+        {
+          "id": "q-entrance-chemistry-08-004-c3",
+          "text": "水を入れたときだけ付く"
+        },
+        {
+          "id": "q-entrance-chemistry-08-004-c4",
+          "text": "硫黄だけ付く"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-004-c1",
+      "explanation": "混合物中には鉄がそのままあるため、磁石に引き付けられる。",
+      "source": {
+        "page": 48,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 5,
+      "text": "加熱後の硫化鉄は、教材の実験で磁石に付く？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-005-c1",
+          "text": "鉄と同じように付く"
+        },
+        {
+          "id": "q-entrance-chemistry-08-005-c2",
+          "text": "付かない"
+        },
+        {
+          "id": "q-entrance-chemistry-08-005-c3",
+          "text": "水素だけ付く"
+        },
+        {
+          "id": "q-entrance-chemistry-08-005-c4",
+          "text": "硫黄だけ付く"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-005-c2",
+      "explanation": "硫化鉄は、もとの鉄とは性質が異なる。",
+      "source": {
+        "page": 48,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 6,
+      "text": "加熱前の鉄と硫黄にうすい塩酸を加えて出る気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-006-c1",
+          "text": "硫化水素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-006-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-006-c3",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-006-c4",
+          "text": "二酸化炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-006-c3",
+      "explanation": "混合物の鉄が塩酸と反応し、水素が発生する。",
+      "source": {
+        "page": 48,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-08-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-08",
+      "order": 7,
+      "text": "硫化鉄にうすい塩酸を加えて出る気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-08-007-c1",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-007-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-007-c3",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-chemistry-08-007-c4",
+          "text": "硫化水素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-08-007-c4",
+      "explanation": "硫化水素は腐った卵のようなにおいをもつ有毒な気体。",
+      "source": {
+        "page": 48,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 1,
+      "text": "周囲に熱を放出し、温度を上げる反応は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-001-c1",
+          "text": "発熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-001-c2",
+          "text": "吸熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-001-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-09-001-c4",
+          "text": "蒸発"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-001-c1",
+      "explanation": "化学変化で熱を周囲に出す反応を発熱反応という。",
+      "source": {
+        "page": 49,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 2,
+      "text": "鉄と硫黄の反応では、熱を吸収するか放出するか？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-002-c1",
+          "text": "吸収する"
+        },
+        {
+          "id": "q-entrance-chemistry-09-002-c2",
+          "text": "放出する"
+        },
+        {
+          "id": "q-entrance-chemistry-09-002-c3",
+          "text": "全く出入りしない"
+        },
+        {
+          "id": "q-entrance-chemistry-09-002-c4",
+          "text": "熱が質量に変わるだけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-002-c2",
+      "explanation": "鉄と硫黄の化合は発熱反応。",
+      "source": {
+        "page": 49,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 3,
+      "text": "鉄・活性炭・食塩水を混ぜると、鉄は何と結び付く？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-003-c1",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-chemistry-09-003-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-09-003-c3",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-09-003-c4",
+          "text": "硫黄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-003-c3",
+      "explanation": "空気中の酸素と鉄が結び付く酸化で発熱する。",
+      "source": {
+        "page": 49,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 4,
+      "text": "化学かいろで酸素を集めるものと、酸化して発熱するものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-004-c1",
+          "text": "鉄・活性炭"
+        },
+        {
+          "id": "q-entrance-chemistry-09-004-c2",
+          "text": "食塩・水"
+        },
+        {
+          "id": "q-entrance-chemistry-09-004-c3",
+          "text": "水・食塩"
+        },
+        {
+          "id": "q-entrance-chemistry-09-004-c4",
+          "text": "活性炭・鉄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-004-c4",
+      "explanation": "活性炭が酸素を集め、鉄の酸化によって発熱する。",
+      "source": {
+        "page": 49,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 5,
+      "text": "酸化カルシウムと水の反応は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-005-c1",
+          "text": "発熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-005-c2",
+          "text": "吸熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-005-c3",
+          "text": "状態変化だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-09-005-c4",
+          "text": "蒸留"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-005-c1",
+      "explanation": "水酸化カルシウムができる際に熱を放出する。",
+      "source": {
+        "page": 49,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 6,
+      "text": "周囲から熱を吸収して温度が下がる反応は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-006-c1",
+          "text": "発熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-006-c2",
+          "text": "吸熱反応"
+        },
+        {
+          "id": "q-entrance-chemistry-09-006-c3",
+          "text": "燃焼"
+        },
+        {
+          "id": "q-entrance-chemistry-09-006-c4",
+          "text": "酸化だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-006-c2",
+      "explanation": "周囲の熱を吸収するので周囲の温度が下がる。",
+      "source": {
+        "page": 49,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 7,
+      "text": "水酸化バリウムと塩化アンモニウムを混ぜて冷たくなる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-007-c1",
+          "text": "周囲へ熱を放出するから"
+        },
+        {
+          "id": "q-entrance-chemistry-09-007-c2",
+          "text": "温度計が発熱するから"
+        },
+        {
+          "id": "q-entrance-chemistry-09-007-c3",
+          "text": "周囲から熱を奪うから"
+        },
+        {
+          "id": "q-entrance-chemistry-09-007-c4",
+          "text": "光だけを出すから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-007-c3",
+      "explanation": "この反応は吸熱反応で、アンモニアも発生する。",
+      "source": {
+        "page": 49,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-09-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-09",
+      "order": 8,
+      "text": "酸とアルカリの中和での熱の出入りは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-09-008-c1",
+          "text": "吸熱する"
+        },
+        {
+          "id": "q-entrance-chemistry-09-008-c2",
+          "text": "必ず熱は出入りしない"
+        },
+        {
+          "id": "q-entrance-chemistry-09-008-c3",
+          "text": "必ず凍る"
+        },
+        {
+          "id": "q-entrance-chemistry-09-008-c4",
+          "text": "発熱する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-09-008-c4",
+      "explanation": "中和は熱を放出する反応。",
+      "source": {
+        "page": 49,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 1,
+      "text": "スチールウールを空気中で燃やしてできる物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-001-c1",
+          "text": "酸化鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-10-001-c2",
+          "text": "硫化鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-10-001-c3",
+          "text": "炭酸鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-10-001-c4",
+          "text": "塩化鉄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-001-c1",
+      "explanation": "鉄が空気中の酸素と結び付いて酸化鉄になる。",
+      "source": {
+        "page": 50,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 2,
+      "text": "物質が酸素と結び付く変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-002-c1",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-002-c2",
+          "text": "酸化"
+        },
+        {
+          "id": "q-entrance-chemistry-10-002-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-10-002-c4",
+          "text": "蒸発"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-002-c2",
+      "explanation": "酸素と結び付く変化を酸化という。",
+      "source": {
+        "page": 50,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 3,
+      "text": "酸素と結び付いてできた物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-003-c1",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-10-003-c2",
+          "text": "混合物だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-10-003-c3",
+          "text": "酸化物"
+        },
+        {
+          "id": "q-entrance-chemistry-10-003-c4",
+          "text": "溶媒"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-003-c3",
+      "explanation": "酸化鉄、酸化銅などが酸化物。",
+      "source": {
+        "page": 50,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 4,
+      "text": "鉄の酸化物は、教材の実験では鉄のように電流を通す？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-004-c1",
+          "text": "同じようによく通す"
+        },
+        {
+          "id": "q-entrance-chemistry-10-004-c2",
+          "text": "必ず超伝導になる"
+        },
+        {
+          "id": "q-entrance-chemistry-10-004-c3",
+          "text": "空気よりよく通す"
+        },
+        {
+          "id": "q-entrance-chemistry-10-004-c4",
+          "text": "通さない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-004-c4",
+      "explanation": "金属の鉄と酸化物の性質は異なる。",
+      "source": {
+        "page": 50,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 5,
+      "text": "鉄を完全に酸化すると固体の質量が増える理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-005-c1",
+          "text": "酸素の質量が加わるから"
+        },
+        {
+          "id": "q-entrance-chemistry-10-005-c2",
+          "text": "鉄原子が増殖するから"
+        },
+        {
+          "id": "q-entrance-chemistry-10-005-c3",
+          "text": "熱の重さだけ増えるから"
+        },
+        {
+          "id": "q-entrance-chemistry-10-005-c4",
+          "text": "窒素だけが加わるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-005-c1",
+      "explanation": "鉄と酸素が結び付き、酸素の分だけ質量が増える。",
+      "source": {
+        "page": 50,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 6,
+      "text": "熱や光を出し、激しく進む酸化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-006-c1",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-006-c2",
+          "text": "燃焼"
+        },
+        {
+          "id": "q-entrance-chemistry-10-006-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-10-006-c4",
+          "text": "凝固"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-006-c2",
+      "explanation": "燃焼は熱や光を伴って急速に進む酸化。",
+      "source": {
+        "page": 50,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 7,
+      "text": "有機物を燃やしたときに、炭素を含むことの手がかりになる気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-007-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-10-007-c2",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-chemistry-10-007-c3",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-10-007-c4",
+          "text": "ヘリウム"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-007-c3",
+      "explanation": "有機物に含まれる炭素が酸化されて二酸化炭素になる。",
+      "source": {
+        "page": 50,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 8,
+      "text": "酸化銅と炭素を加熱したとき、炭素が酸化されてできる物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-008-c1",
+          "text": "銅"
+        },
+        {
+          "id": "q-entrance-chemistry-10-008-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-10-008-c3",
+          "text": "鉄"
+        },
+        {
+          "id": "q-entrance-chemistry-10-008-c4",
+          "text": "二酸化炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-008-c4",
+      "explanation": "炭素が酸化銅の酸素を受け取り、二酸化炭素になる。",
+      "source": {
+        "page": 51,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 9,
+      "text": "酸化銅と炭素を加熱し、銅と二酸化炭素ができる反応の化学反応式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-009-c1",
+          "text": "2CuO＋C→2Cu＋CO₂"
+        },
+        {
+          "id": "q-entrance-chemistry-10-009-c2",
+          "text": "CuO＋C→Cu＋CO"
+        },
+        {
+          "id": "q-entrance-chemistry-10-009-c3",
+          "text": "2Cu＋O₂→2CuO"
+        },
+        {
+          "id": "q-entrance-chemistry-10-009-c4",
+          "text": "CuO→Cu＋O"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-009-c1",
+      "explanation": "教材で扱う反応は、酸化銅の還元と炭素の酸化が同時に進む。",
+      "source": {
+        "page": 51,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 10,
+      "text": "加熱をやめる前に石灰水から導管を出す理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-010-c1",
+          "text": "酸素を作るため"
+        },
+        {
+          "id": "q-entrance-chemistry-10-010-c2",
+          "text": "石灰水の逆流を防ぐため"
+        },
+        {
+          "id": "q-entrance-chemistry-10-010-c3",
+          "text": "二酸化炭素を増やすため"
+        },
+        {
+          "id": "q-entrance-chemistry-10-010-c4",
+          "text": "銅をとかすため"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-010-c2",
+      "explanation": "冷却で装置内の気圧が下がると、石灰水が逆流するおそれがある。",
+      "source": {
+        "page": 51,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 11,
+      "text": "酸化物から酸素が奪われる変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-011-c1",
+          "text": "酸化"
+        },
+        {
+          "id": "q-entrance-chemistry-10-011-c2",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-10-011-c3",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-011-c4",
+          "text": "凝結"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-011-c3",
+      "explanation": "酸化物から酸素が取り除かれる変化を還元という。",
+      "source": {
+        "page": 51,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 12,
+      "text": "酸化銅が炭素によって還元されるとき、炭素に起こる変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-012-c1",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-012-c2",
+          "text": "凝固"
+        },
+        {
+          "id": "q-entrance-chemistry-10-012-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-10-012-c4",
+          "text": "酸化"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-012-c4",
+      "explanation": "酸化銅から奪った酸素と炭素が結び付くため、炭素は酸化される。",
+      "source": {
+        "page": 51,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 13,
+      "text": "酸化銅と炭素の反応で、酸化銅と炭素はそれぞれ？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-013-c1",
+          "text": "酸化銅は還元、炭素は酸化"
+        },
+        {
+          "id": "q-entrance-chemistry-10-013-c2",
+          "text": "酸化銅は酸化、炭素は還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-013-c3",
+          "text": "どちらも還元"
+        },
+        {
+          "id": "q-entrance-chemistry-10-013-c4",
+          "text": "どちらも酸化"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-013-c1",
+      "explanation": "酸素を失う酸化銅が還元され、酸素を受け取る炭素が酸化される。",
+      "source": {
+        "page": 51,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-10-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-10",
+      "order": 14,
+      "text": "マグネシウムが二酸化炭素中で燃えたときの黒い物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-10-014-c1",
+          "text": "酸化マグネシウム"
+        },
+        {
+          "id": "q-entrance-chemistry-10-014-c2",
+          "text": "炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-10-014-c3",
+          "text": "銅"
+        },
+        {
+          "id": "q-entrance-chemistry-10-014-c4",
+          "text": "鉄"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-10-014-c2",
+      "explanation": "二酸化炭素から酸素が奪われ、炭素が残る。",
+      "source": {
+        "page": 51,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 1,
+      "text": "炭酸水素ナトリウムにうすい塩酸を加えると出る気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-001-c1",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-11-001-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-11-001-c3",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-11-001-c4",
+          "text": "窒素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-001-c3",
+      "explanation": "炭酸水素塩と酸の反応で二酸化炭素が発生する。",
+      "source": {
+        "page": 52,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 2,
+      "text": "密閉容器内の化学変化で、全体の質量が変わらない法則は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-002-c1",
+          "text": "オームの法則"
+        },
+        {
+          "id": "q-entrance-chemistry-11-002-c2",
+          "text": "フックの法則"
+        },
+        {
+          "id": "q-entrance-chemistry-11-002-c3",
+          "text": "反射の法則"
+        },
+        {
+          "id": "q-entrance-chemistry-11-002-c4",
+          "text": "質量保存の法則"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-002-c4",
+      "explanation": "物質の出入りがなければ、化学変化の前後で全体の質量は保存される。",
+      "source": {
+        "page": 52,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 3,
+      "text": "質量保存が成り立つ理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-003-c1",
+          "text": "原子の結び付きは変わるが、種類と数は変わらないから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-003-c2",
+          "text": "原子の種類が変わり、数が増えるから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-003-c3",
+          "text": "原子が消えるから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-003-c4",
+          "text": "熱がすべて原子になるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-003-c1",
+      "explanation": "組合せが変わっても、各元素の原子数が保存される。",
+      "source": {
+        "page": 52,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 4,
+      "text": "Mg3.0 gと結び付く酸素は2.0 g。Mg：酸素の質量比は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-004-c1",
+          "text": "2：3"
+        },
+        {
+          "id": "q-entrance-chemistry-11-004-c2",
+          "text": "3：2"
+        },
+        {
+          "id": "q-entrance-chemistry-11-004-c3",
+          "text": "3：5"
+        },
+        {
+          "id": "q-entrance-chemistry-11-004-c4",
+          "text": "1：1"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-004-c2",
+      "explanation": "3.0：2.0を簡単にすると3：2。",
+      "source": {
+        "page": 52,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 5,
+      "text": "Mg：酸素＝3：2。酸化マグネシウム3.0 g中のMgは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-005-c1",
+          "text": "1.2 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-005-c2",
+          "text": "3.0 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-005-c3",
+          "text": "1.8 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-005-c4",
+          "text": "5.0 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-005-c3",
+      "explanation": "Mg：酸化物＝3：5。3.0×3÷5＝1.8。",
+      "source": {
+        "page": 52,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 6,
+      "text": "銅0.4 gを完全に酸化すると酸化銅0.5 g。銅：酸素は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-006-c1",
+          "text": "1：4"
+        },
+        {
+          "id": "q-entrance-chemistry-11-006-c2",
+          "text": "5：4"
+        },
+        {
+          "id": "q-entrance-chemistry-11-006-c3",
+          "text": "4：5"
+        },
+        {
+          "id": "q-entrance-chemistry-11-006-c4",
+          "text": "4：1"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-006-c4",
+      "explanation": "酸素は0.5−0.4＝0.1 g。0.4：0.1＝4：1。",
+      "source": {
+        "page": 53,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 7,
+      "text": "銅：酸素＝4：1。酸化銅10 gに含まれる銅は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-007-c1",
+          "text": "8 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-007-c2",
+          "text": "2 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-007-c3",
+          "text": "12.5 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-007-c4",
+          "text": "10 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-007-c1",
+      "explanation": "銅：酸化銅＝4：5なので、10×4÷5＝8。",
+      "source": {
+        "page": 53,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 8,
+      "text": "銅10 gを完全に酸化してできる酸化銅は？銅：酸素＝4：1。",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-008-c1",
+          "text": "8 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-008-c2",
+          "text": "12.5 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-008-c3",
+          "text": "10 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-008-c4",
+          "text": "40 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-008-c2",
+      "explanation": "10×5÷4＝12.5 g。",
+      "source": {
+        "page": 53,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 9,
+      "text": "銅の加熱を繰り返すと質量が増えなくなる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-009-c1",
+          "text": "酸素の質量が無限に増えるから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-009-c2",
+          "text": "銅が全てなくなるから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-009-c3",
+          "text": "銅と結び付く酸素の割合が一定だから"
+        },
+        {
+          "id": "q-entrance-chemistry-11-009-c4",
+          "text": "温度計が止まるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-009-c3",
+      "explanation": "すべての銅が酸化すると、一定割合以上の酸素は結び付かない。",
+      "source": {
+        "page": 53,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 10,
+      "text": "銅2.0 gを加熱し、固体全体が2.4 gになった。銅：酸素＝4：1なら、できた酸化銅は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-010-c1",
+          "text": "2.4 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-010-c2",
+          "text": "0.4 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-010-c3",
+          "text": "2.5 g"
+        },
+        {
+          "id": "q-entrance-chemistry-11-010-c4",
+          "text": "2.0 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-010-c4",
+      "explanation": "酸素0.4 gと反応した銅は1.6 g。酸化銅は1.6＋0.4＝2.0 g。",
+      "source": {
+        "page": 53,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-11-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-11",
+      "order": 11,
+      "text": "銅の酸化の反応式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-11-011-c1",
+          "text": "2Cu＋O₂→2CuO"
+        },
+        {
+          "id": "q-entrance-chemistry-11-011-c2",
+          "text": "Cu＋O₂→CuO"
+        },
+        {
+          "id": "q-entrance-chemistry-11-011-c3",
+          "text": "CuO＋C→Cu"
+        },
+        {
+          "id": "q-entrance-chemistry-11-011-c4",
+          "text": "Cu＋S→CuO"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-11-011-c1",
+      "explanation": "銅と酸素から酸化銅ができ、左右の原子数をそろえる。",
+      "source": {
+        "page": 53,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 1,
+      "text": "原子の中心にあるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-001-c1",
+          "text": "電子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-001-c2",
+          "text": "原子核"
+        },
+        {
+          "id": "q-entrance-chemistry-12-001-c3",
+          "text": "分子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-001-c4",
+          "text": "細胞核"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-001-c2",
+      "explanation": "原子核の周りに電子が存在する。",
+      "source": {
+        "page": 54,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 2,
+      "text": "原子核を構成する、＋の電気をもつ粒子と電気をもたない粒子は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-002-c1",
+          "text": "電子・陽子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-002-c2",
+          "text": "中性子・電子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-002-c3",
+          "text": "陽子・中性子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-002-c4",
+          "text": "分子・電子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-002-c3",
+      "explanation": "陽子は正、中性子は電気的に中性。",
+      "source": {
+        "page": 54,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 3,
+      "text": "原子核の周りにある、−の電気をもつ粒子は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-003-c1",
+          "text": "陽子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-003-c2",
+          "text": "中性子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-003-c3",
+          "text": "原子核"
+        },
+        {
+          "id": "q-entrance-chemistry-12-003-c4",
+          "text": "電子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-003-c4",
+      "explanation": "電子は負の電気をもつ。",
+      "source": {
+        "page": 54,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 4,
+      "text": "水にとけると電流を通す物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-004-c1",
+          "text": "電解質"
+        },
+        {
+          "id": "q-entrance-chemistry-12-004-c2",
+          "text": "非電解質"
+        },
+        {
+          "id": "q-entrance-chemistry-12-004-c3",
+          "text": "溶媒だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-12-004-c4",
+          "text": "単体だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-004-c1",
+      "explanation": "水中でイオンを生じる物質が電解質。",
+      "source": {
+        "page": 54,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 5,
+      "text": "水にとけても電流を通さない物質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-005-c1",
+          "text": "電解質"
+        },
+        {
+          "id": "q-entrance-chemistry-12-005-c2",
+          "text": "非電解質"
+        },
+        {
+          "id": "q-entrance-chemistry-12-005-c3",
+          "text": "陽イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-005-c4",
+          "text": "陰イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-005-c2",
+      "explanation": "水にとけてもイオンにならない物質が非電解質。",
+      "source": {
+        "page": 54,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 6,
+      "text": "食塩・砂糖・水酸化ナトリウム・塩化水素のうち、非電解質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-006-c1",
+          "text": "食塩"
+        },
+        {
+          "id": "q-entrance-chemistry-12-006-c2",
+          "text": "水酸化ナトリウム"
+        },
+        {
+          "id": "q-entrance-chemistry-12-006-c3",
+          "text": "砂糖"
+        },
+        {
+          "id": "q-entrance-chemistry-12-006-c4",
+          "text": "塩化水素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-006-c3",
+      "explanation": "砂糖は水にとけるが、イオンに分かれない。",
+      "source": {
+        "page": 54,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 7,
+      "text": "原子が電子を失い、＋の電気を帯びたものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-007-c1",
+          "text": "陰イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-007-c2",
+          "text": "中性子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-007-c3",
+          "text": "電子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-007-c4",
+          "text": "陽イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-007-c4",
+      "explanation": "負の電子を失うと、全体が正に帯電する。",
+      "source": {
+        "page": 54,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 8,
+      "text": "原子が電子を受け取り、−の電気を帯びたものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-008-c1",
+          "text": "陰イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-008-c2",
+          "text": "陽イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-008-c3",
+          "text": "陽子"
+        },
+        {
+          "id": "q-entrance-chemistry-12-008-c4",
+          "text": "中性子"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-008-c1",
+      "explanation": "負の電子が増えると、全体が負に帯電する。",
+      "source": {
+        "page": 54,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 9,
+      "text": "物質が水にとけて陽イオンと陰イオンに分かれることは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-009-c1",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-12-009-c2",
+          "text": "電離"
+        },
+        {
+          "id": "q-entrance-chemistry-12-009-c3",
+          "text": "融解"
+        },
+        {
+          "id": "q-entrance-chemistry-12-009-c4",
+          "text": "凝結"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-009-c2",
+      "explanation": "電解質が水中でイオンに分かれることを電離という。",
+      "source": {
+        "page": 55,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 10,
+      "text": "塩化銅が電離してできる陽イオンと陰イオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-010-c1",
+          "text": "銅イオン・水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-010-c2",
+          "text": "水素イオン・塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-010-c3",
+          "text": "銅イオン・塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-12-010-c4",
+          "text": "ナトリウムイオン・塩化物イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-010-c3",
+      "explanation": "CuCl₂→Cu²⁺＋2Cl⁻。",
+      "source": {
+        "page": 55,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 11,
+      "text": "銅イオンCu²⁺のでき方は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-011-c1",
+          "text": "銅原子が電子を2個受け取る"
+        },
+        {
+          "id": "q-entrance-chemistry-12-011-c2",
+          "text": "銅原子が陽子を2個失う"
+        },
+        {
+          "id": "q-entrance-chemistry-12-011-c3",
+          "text": "銅原子が中性子を2個受け取る"
+        },
+        {
+          "id": "q-entrance-chemistry-12-011-c4",
+          "text": "銅原子が電子を2個失う"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-011-c4",
+      "explanation": "電子を2個失うことで、2価の陽イオンになる。",
+      "source": {
+        "page": 55,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 12,
+      "text": "塩化物イオンCl⁻のでき方は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-012-c1",
+          "text": "塩素原子が電子を1個受け取る"
+        },
+        {
+          "id": "q-entrance-chemistry-12-012-c2",
+          "text": "塩素原子が電子を1個失う"
+        },
+        {
+          "id": "q-entrance-chemistry-12-012-c3",
+          "text": "塩素原子が陽子を1個受け取る"
+        },
+        {
+          "id": "q-entrance-chemistry-12-012-c4",
+          "text": "塩素原子が中性子を失う"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-012-c1",
+      "explanation": "電子を1個受け取り、1価の陰イオンになる。",
+      "source": {
+        "page": 55,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 13,
+      "text": "CuCl₂の電離の式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-013-c1",
+          "text": "CuCl₂→Cu⁺＋Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-013-c2",
+          "text": "CuCl₂→Cu²⁺＋2Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-013-c3",
+          "text": "CuCl₂→Cu²⁻＋2Cl⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-12-013-c4",
+          "text": "CuCl₂→2Cu²⁺＋Cl⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-013-c2",
+      "explanation": "原子数と電荷の合計を左右でそろえる。",
+      "source": {
+        "page": 55,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 14,
+      "text": "NaClの電離の式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-014-c1",
+          "text": "NaCl→Na²⁺＋Cl²⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-014-c2",
+          "text": "NaCl→Na⁻＋Cl⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-12-014-c3",
+          "text": "NaCl→Na⁺＋Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-014-c4",
+          "text": "NaCl→Na⁺＋OH⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-014-c3",
+      "explanation": "ナトリウムイオンと塩化物イオンが1：1でできる。",
+      "source": {
+        "page": 55,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 15,
+      "text": "NaOHの電離の式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-015-c1",
+          "text": "NaOH→Na⁻＋OH⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-12-015-c2",
+          "text": "NaOH→Na⁺＋Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-015-c3",
+          "text": "NaOH→H⁺＋OH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-015-c4",
+          "text": "NaOH→Na⁺＋OH⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-015-c4",
+      "explanation": "ナトリウムイオンと水酸化物イオンに分かれる。",
+      "source": {
+        "page": 55,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-12-016",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-12",
+      "order": 16,
+      "text": "HClの電離の式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-12-016-c1",
+          "text": "HCl→H⁺＋Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-016-c2",
+          "text": "HCl→H⁻＋Cl⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-12-016-c3",
+          "text": "HCl→Na⁺＋Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-12-016-c4",
+          "text": "HCl→H⁺＋OH⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-12-016-c1",
+      "explanation": "塩化水素は水中で水素イオンと塩化物イオンを生じる。",
+      "source": {
+        "page": 55,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 1,
+      "text": "Mgを硫酸亜鉛水溶液に入れるとMgがとけて亜鉛が付いた。陽イオンになりやすい金属は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-001-c1",
+          "text": "亜鉛"
+        },
+        {
+          "id": "q-entrance-chemistry-13-001-c2",
+          "text": "マグネシウム"
+        },
+        {
+          "id": "q-entrance-chemistry-13-001-c3",
+          "text": "どちらも同じ"
+        },
+        {
+          "id": "q-entrance-chemistry-13-001-c4",
+          "text": "比較できない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-001-c2",
+      "explanation": "Mgが電子を失い、亜鉛イオンが電子を受け取るため、Mgの方がイオンになりやすい。",
+      "source": {
+        "page": 56,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 2,
+      "text": "マグネシウムがイオンになる式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-002-c1",
+          "text": "Mg→Mg⁺＋e⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-13-002-c2",
+          "text": "Mg＋2e⁻→Mg²⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-13-002-c3",
+          "text": "Mg→Mg²⁺＋2e⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-13-002-c4",
+          "text": "Mg→Mg²⁻＋2e⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-002-c3",
+      "explanation": "Mgは電子を2個失ってMg²⁺になる。",
+      "source": {
+        "page": 56,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 3,
+      "text": "亜鉛を硫酸銅水溶液に入れると亜鉛がとけて銅が付いた。陽イオンになりやすい金属は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-003-c1",
+          "text": "銅"
+        },
+        {
+          "id": "q-entrance-chemistry-13-003-c2",
+          "text": "どちらも同じ"
+        },
+        {
+          "id": "q-entrance-chemistry-13-003-c3",
+          "text": "比較できない"
+        },
+        {
+          "id": "q-entrance-chemistry-13-003-c4",
+          "text": "亜鉛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-003-c4",
+      "explanation": "亜鉛が電子を失い、銅イオンが電子を受け取る。",
+      "source": {
+        "page": 56,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 4,
+      "text": "Zn→［　］＋2e⁻に入る式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-004-c1",
+          "text": "Zn²⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-13-004-c2",
+          "text": "Zn⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-13-004-c3",
+          "text": "Zn²⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-13-004-c4",
+          "text": "Zn⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-004-c1",
+      "explanation": "亜鉛原子は電子を2個失って陽イオンになる。",
+      "source": {
+        "page": 56,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 5,
+      "text": "化学電池のエネルギー変換は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-005-c1",
+          "text": "電気エネルギー→化学エネルギー"
+        },
+        {
+          "id": "q-entrance-chemistry-13-005-c2",
+          "text": "化学エネルギー→電気エネルギー"
+        },
+        {
+          "id": "q-entrance-chemistry-13-005-c3",
+          "text": "光エネルギー→音エネルギー"
+        },
+        {
+          "id": "q-entrance-chemistry-13-005-c4",
+          "text": "熱エネルギー→位置エネルギー"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-005-c2",
+      "explanation": "物質の化学エネルギーを電気として取り出す。",
+      "source": {
+        "page": 56,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 6,
+      "text": "ダニエル電池で、−極の金属と＋極の陽イオンは電子をそれぞれどうする？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-006-c1",
+          "text": "−極で受け取り、＋極で失う"
+        },
+        {
+          "id": "q-entrance-chemistry-13-006-c2",
+          "text": "両方で失う"
+        },
+        {
+          "id": "q-entrance-chemistry-13-006-c3",
+          "text": "−極で失い、＋極で受け取る"
+        },
+        {
+          "id": "q-entrance-chemistry-13-006-c4",
+          "text": "両方で受け取る"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-006-c3",
+      "explanation": "−極で電子を出し、＋極では陽イオンが電子を受け取る。",
+      "source": {
+        "page": 56,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 7,
+      "text": "ダニエル電池の＋極になる金属は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-007-c1",
+          "text": "亜鉛"
+        },
+        {
+          "id": "q-entrance-chemistry-13-007-c2",
+          "text": "両方"
+        },
+        {
+          "id": "q-entrance-chemistry-13-007-c3",
+          "text": "セロハン"
+        },
+        {
+          "id": "q-entrance-chemistry-13-007-c4",
+          "text": "銅"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-007-c4",
+      "explanation": "亜鉛が−極、銅が＋極になる。",
+      "source": {
+        "page": 57,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 8,
+      "text": "ダニエル電池でイオンになる原子と、原子になるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-008-c1",
+          "text": "亜鉛原子・銅イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-13-008-c2",
+          "text": "銅原子・亜鉛イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-13-008-c3",
+          "text": "亜鉛原子・水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-13-008-c4",
+          "text": "銅原子・硫酸イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-008-c1",
+      "explanation": "Zn→Zn²⁺＋2e⁻、Cu²⁺＋2e⁻→Cu。",
+      "source": {
+        "page": 57,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 9,
+      "text": "ダニエル電池の導線内の電子と電流の向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-009-c1",
+          "text": "電子も電流も亜鉛→銅"
+        },
+        {
+          "id": "q-entrance-chemistry-13-009-c2",
+          "text": "電子は亜鉛→銅、電流は銅→亜鉛"
+        },
+        {
+          "id": "q-entrance-chemistry-13-009-c3",
+          "text": "電子は銅→亜鉛、電流は亜鉛→銅"
+        },
+        {
+          "id": "q-entrance-chemistry-13-009-c4",
+          "text": "電子も電流も銅→亜鉛"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-009-c2",
+      "explanation": "電子の流れと、正電荷の移動で定めた電流の向きは逆。",
+      "source": {
+        "page": 57,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 10,
+      "text": "充電して繰り返し使える電池は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-010-c1",
+          "text": "一次電池"
+        },
+        {
+          "id": "q-entrance-chemistry-13-010-c2",
+          "text": "燃料電池だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-13-010-c3",
+          "text": "二次電池"
+        },
+        {
+          "id": "q-entrance-chemistry-13-010-c4",
+          "text": "光電池だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-010-c3",
+      "explanation": "外部から電流を流して元の状態へ近づけ、再使用する電池。",
+      "source": {
+        "page": 57,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 11,
+      "text": "水素と酸素から水ができる反応で電気を取り出す装置は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-011-c1",
+          "text": "電解装置"
+        },
+        {
+          "id": "q-entrance-chemistry-13-011-c2",
+          "text": "検流計"
+        },
+        {
+          "id": "q-entrance-chemistry-13-011-c3",
+          "text": "電圧計"
+        },
+        {
+          "id": "q-entrance-chemistry-13-011-c4",
+          "text": "燃料電池"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-011-c4",
+      "explanation": "燃料の化学エネルギーを電気エネルギーへ変える。",
+      "source": {
+        "page": 57,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-13-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-13",
+      "order": 12,
+      "text": "水素と酸素から水ができる反応式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-13-012-c1",
+          "text": "2H₂＋O₂→2H₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-13-012-c2",
+          "text": "H₂＋O₂→H₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-13-012-c3",
+          "text": "2H₂O→2H₂＋O₂"
+        },
+        {
+          "id": "q-entrance-chemistry-13-012-c4",
+          "text": "H₂＋2O₂→H₂O"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-13-012-c1",
+      "explanation": "各元素の原子数を左右で一致させる。",
+      "source": {
+        "page": 57,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 1,
+      "text": "酸性の原因となるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-001-c1",
+          "text": "水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-001-c2",
+          "text": "水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-001-c3",
+          "text": "ナトリウムイオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-001-c4",
+          "text": "塩化物イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-001-c2",
+      "explanation": "酸性の水溶液の共通の性質は水素イオンによる。",
+      "source": {
+        "page": 58,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 2,
+      "text": "塩化水素が電離してできるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-002-c1",
+          "text": "Na⁺とCl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-002-c2",
+          "text": "H⁺とOH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-002-c3",
+          "text": "H⁺とCl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-002-c4",
+          "text": "Cu²⁺とCl⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-002-c3",
+      "explanation": "HCl→H⁺＋Cl⁻。",
+      "source": {
+        "page": 58,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 3,
+      "text": "硫酸が電離してできるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-003-c1",
+          "text": "H⁺とSO₄⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-003-c2",
+          "text": "2H⁻とSO₄²⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-14-003-c3",
+          "text": "Na⁺とSO₄²⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-003-c4",
+          "text": "2H⁺とSO₄²⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-003-c4",
+      "explanation": "H₂SO₄→2H⁺＋SO₄²⁻で電荷の合計も0になる。",
+      "source": {
+        "page": 58,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 4,
+      "text": "硝酸が電離してできるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-004-c1",
+          "text": "H⁺とNO₃⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-004-c2",
+          "text": "H⁺とCl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-004-c3",
+          "text": "Na⁺とNO₃⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-004-c4",
+          "text": "H⁻とNO₃⁺"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-004-c1",
+      "explanation": "HNO₃→H⁺＋NO₃⁻。",
+      "source": {
+        "page": 58,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 5,
+      "text": "酸性の水溶液に青色リトマス紙を付けると？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-005-c1",
+          "text": "青色のまま"
+        },
+        {
+          "id": "q-entrance-chemistry-14-005-c2",
+          "text": "赤色になる"
+        },
+        {
+          "id": "q-entrance-chemistry-14-005-c3",
+          "text": "黄色になる"
+        },
+        {
+          "id": "q-entrance-chemistry-14-005-c4",
+          "text": "緑色になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-005-c2",
+      "explanation": "酸性は青色リトマス紙を赤色に変える。",
+      "source": {
+        "page": 58,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 6,
+      "text": "酸性の水溶液中のBTB溶液の色は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-006-c1",
+          "text": "青色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-006-c2",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-006-c3",
+          "text": "黄色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-006-c4",
+          "text": "無色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-006-c3",
+      "explanation": "BTBは酸性で黄色、中性で緑、アルカリ性で青。",
+      "source": {
+        "page": 58,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 7,
+      "text": "酸性の水溶液のpHは7より？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-007-c1",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-14-007-c2",
+          "text": "常に等しい"
+        },
+        {
+          "id": "q-entrance-chemistry-14-007-c3",
+          "text": "必ず14"
+        },
+        {
+          "id": "q-entrance-chemistry-14-007-c4",
+          "text": "小さい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-007-c4",
+      "explanation": "pH7が中性、7未満が酸性。",
+      "source": {
+        "page": 58,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 8,
+      "text": "亜鉛などの金属にうすい酸を加えると発生する気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-008-c1",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-14-008-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-14-008-c3",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-chemistry-14-008-c4",
+          "text": "二酸化炭素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-008-c1",
+      "explanation": "水素イオンが電子を受け取り、水素になる。",
+      "source": {
+        "page": 58,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 9,
+      "text": "アンモニア水・食酢・石けん水のうちpH7未満は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-009-c1",
+          "text": "アンモニア水"
+        },
+        {
+          "id": "q-entrance-chemistry-14-009-c2",
+          "text": "食酢"
+        },
+        {
+          "id": "q-entrance-chemistry-14-009-c3",
+          "text": "石けん水"
+        },
+        {
+          "id": "q-entrance-chemistry-14-009-c4",
+          "text": "どれもpH7"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-009-c2",
+      "explanation": "食酢は酸性。アンモニア水と石けん水はアルカリ性。",
+      "source": {
+        "page": 59,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 10,
+      "text": "BTB溶液が緑色になった水溶液の性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-010-c1",
+          "text": "酸性"
+        },
+        {
+          "id": "q-entrance-chemistry-14-010-c2",
+          "text": "アルカリ性"
+        },
+        {
+          "id": "q-entrance-chemistry-14-010-c3",
+          "text": "中性"
+        },
+        {
+          "id": "q-entrance-chemistry-14-010-c4",
+          "text": "金属性"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-010-c3",
+      "explanation": "BTB溶液は中性で緑色を示す。",
+      "source": {
+        "page": 59,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 11,
+      "text": "中性の水溶液のpHは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-011-c1",
+          "text": "0"
+        },
+        {
+          "id": "q-entrance-chemistry-14-011-c2",
+          "text": "1"
+        },
+        {
+          "id": "q-entrance-chemistry-14-011-c3",
+          "text": "14"
+        },
+        {
+          "id": "q-entrance-chemistry-14-011-c4",
+          "text": "7"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-011-c4",
+      "explanation": "教材で扱う標準的な条件ではpH7が中性。",
+      "source": {
+        "page": 59,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-012",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 12,
+      "text": "アルカリ性の原因となるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-012-c1",
+          "text": "水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-012-c2",
+          "text": "水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-012-c3",
+          "text": "銅イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-012-c4",
+          "text": "塩化物イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-012-c1",
+      "explanation": "アルカリ性の共通の性質はOH⁻による。",
+      "source": {
+        "page": 59,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-013",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 13,
+      "text": "NaOH→Na⁺＋［　］に入る式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-013-c1",
+          "text": "OH⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-14-013-c2",
+          "text": "OH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-013-c3",
+          "text": "H⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-14-013-c4",
+          "text": "Cl⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-013-c2",
+      "explanation": "水酸化ナトリウムはナトリウムイオンと水酸化物イオンを生じる。",
+      "source": {
+        "page": 59,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-014",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 14,
+      "text": "水酸化カリウムKOHの電離でできるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-014-c1",
+          "text": "K⁻とOH⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-14-014-c2",
+          "text": "K²⁺と2OH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-014-c3",
+          "text": "K⁺とOH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-014-c4",
+          "text": "H⁺とCl⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-014-c3",
+      "explanation": "KOH→K⁺＋OH⁻。",
+      "source": {
+        "page": 59,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-015",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 15,
+      "text": "Ba(OH)₂の電離でできるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-015-c1",
+          "text": "Ba⁺とOH⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-015-c2",
+          "text": "Ba²⁻と2OH⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-14-015-c3",
+          "text": "Ba⁺と2Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-14-015-c4",
+          "text": "Ba²⁺と2OH⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-015-c4",
+      "explanation": "水酸化バリウムは1個からOH⁻を2個生じる。",
+      "source": {
+        "page": 59,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-016",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 16,
+      "text": "アルカリ性の液に赤色リトマス紙を付けると？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-016-c1",
+          "text": "青色になる"
+        },
+        {
+          "id": "q-entrance-chemistry-14-016-c2",
+          "text": "赤色のまま"
+        },
+        {
+          "id": "q-entrance-chemistry-14-016-c3",
+          "text": "黄色になる"
+        },
+        {
+          "id": "q-entrance-chemistry-14-016-c4",
+          "text": "緑色になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-016-c1",
+      "explanation": "アルカリ性は赤色リトマス紙を青色に変える。",
+      "source": {
+        "page": 59,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-017",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 17,
+      "text": "アルカリ性の液中のBTB溶液の色は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-017-c1",
+          "text": "黄色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-017-c2",
+          "text": "青色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-017-c3",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-017-c4",
+          "text": "無色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-017-c2",
+      "explanation": "アルカリ性ではBTB溶液は青色。",
+      "source": {
+        "page": 60,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-018",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 18,
+      "text": "アルカリ性の液のpHは7より？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-018-c1",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-chemistry-14-018-c2",
+          "text": "常に等しい"
+        },
+        {
+          "id": "q-entrance-chemistry-14-018-c3",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-chemistry-14-018-c4",
+          "text": "必ず0"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-018-c3",
+      "explanation": "pH7を超えるとアルカリ性。",
+      "source": {
+        "page": 60,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-019",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 19,
+      "text": "アルカリ性の液中のフェノールフタレインの色は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-019-c1",
+          "text": "無色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-019-c2",
+          "text": "青色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-019-c3",
+          "text": "緑色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-019-c4",
+          "text": "赤色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-019-c4",
+      "explanation": "フェノールフタレインはアルカリ性で赤色を示す。",
+      "source": {
+        "page": 60,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-020",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 20,
+      "text": "酸性の液中のフェノールフタレインの色は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-020-c1",
+          "text": "無色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-020-c2",
+          "text": "赤色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-020-c3",
+          "text": "青色"
+        },
+        {
+          "id": "q-entrance-chemistry-14-020-c4",
+          "text": "黄色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-020-c1",
+      "explanation": "酸性や中性では無色である。",
+      "source": {
+        "page": 60,
+        "question": 20
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-021",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 21,
+      "text": "BTB溶液を青色にする水溶液は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-021-c1",
+          "text": "炭酸水"
+        },
+        {
+          "id": "q-entrance-chemistry-14-021-c2",
+          "text": "石けん水"
+        },
+        {
+          "id": "q-entrance-chemistry-14-021-c3",
+          "text": "食酢"
+        },
+        {
+          "id": "q-entrance-chemistry-14-021-c4",
+          "text": "レモン汁"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-021-c2",
+      "explanation": "石けん水はアルカリ性、他の3つは酸性。",
+      "source": {
+        "page": 60,
+        "question": 21
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-022",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 22,
+      "text": "青色リトマス紙に塩酸を付けて電流を流すと、赤いしみはどちらへ動く？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-022-c1",
+          "text": "陽極側"
+        },
+        {
+          "id": "q-entrance-chemistry-14-022-c2",
+          "text": "両側へ同じだけ"
+        },
+        {
+          "id": "q-entrance-chemistry-14-022-c3",
+          "text": "陰極側"
+        },
+        {
+          "id": "q-entrance-chemistry-14-022-c4",
+          "text": "全く動かない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-022-c3",
+      "explanation": "水素イオンは陽イオンなので、陰極に引かれる。",
+      "source": {
+        "page": 60,
+        "question": 22
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-023",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 23,
+      "text": "酸性の赤いしみが陰極へ動くことから、原因となるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-023-c1",
+          "text": "陰イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-023-c2",
+          "text": "中性分子だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-14-023-c3",
+          "text": "電子だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-14-023-c4",
+          "text": "陽イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-023-c4",
+      "explanation": "正電荷をもつ粒子は陰極へ移動する。",
+      "source": {
+        "page": 60,
+        "question": 23
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-024",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 24,
+      "text": "酸性の原因となり、陰極へ移動するイオンの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-024-c1",
+          "text": "水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-024-c2",
+          "text": "塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-024-c3",
+          "text": "水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-024-c4",
+          "text": "硫酸イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-024-c1",
+      "explanation": "水素イオンH⁺が酸性の原因となる。",
+      "source": {
+        "page": 61,
+        "question": 24
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-025",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 25,
+      "text": "イオンの移動実験で、ろ紙を純水でなく食塩水で湿らせる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-025-c1",
+          "text": "ろ紙を溶かすため"
+        },
+        {
+          "id": "q-entrance-chemistry-14-025-c2",
+          "text": "電流を通しやすくするため"
+        },
+        {
+          "id": "q-entrance-chemistry-14-025-c3",
+          "text": "光を通すため"
+        },
+        {
+          "id": "q-entrance-chemistry-14-025-c4",
+          "text": "水素を燃やすため"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-025-c2",
+      "explanation": "食塩水中のイオンが電流を運ぶ。",
+      "source": {
+        "page": 61,
+        "question": 25
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-026",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 26,
+      "text": "赤色リトマス紙の中央へNaOH水溶液を付けた。電流を流すと青いしみは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-026-c1",
+          "text": "陰極側へ動く"
+        },
+        {
+          "id": "q-entrance-chemistry-14-026-c2",
+          "text": "両側へ同じだけ動く"
+        },
+        {
+          "id": "q-entrance-chemistry-14-026-c3",
+          "text": "陽極側へ動く"
+        },
+        {
+          "id": "q-entrance-chemistry-14-026-c4",
+          "text": "塩酸のしみと同じ向きに動く"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-026-c3",
+      "explanation": "水酸化物イオンは陰イオンで、陽極へ移動する。",
+      "source": {
+        "page": 61,
+        "question": 26
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-027",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 27,
+      "text": "アルカリ性の青いしみが陽極へ動くことから、原因となるものは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-027-c1",
+          "text": "陽イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-027-c2",
+          "text": "中性分子だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-14-027-c3",
+          "text": "陽子だけ"
+        },
+        {
+          "id": "q-entrance-chemistry-14-027-c4",
+          "text": "陰イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-027-c4",
+      "explanation": "負電荷の粒子が陽極へ引かれる。",
+      "source": {
+        "page": 61,
+        "question": 27
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-14-028",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-14",
+      "order": 28,
+      "text": "赤色リトマス紙を青色に変えるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-14-028-c1",
+          "text": "水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-028-c2",
+          "text": "水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-028-c3",
+          "text": "ナトリウムイオン"
+        },
+        {
+          "id": "q-entrance-chemistry-14-028-c4",
+          "text": "塩化物イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-14-028-c1",
+      "explanation": "OH⁻がアルカリ性の原因である。",
+      "source": {
+        "page": 61,
+        "question": 28
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 1,
+      "text": "酸とアルカリが互いの性質を打ち消す反応は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-001-c1",
+          "text": "電離"
+        },
+        {
+          "id": "q-entrance-chemistry-15-001-c2",
+          "text": "中和"
+        },
+        {
+          "id": "q-entrance-chemistry-15-001-c3",
+          "text": "還元"
+        },
+        {
+          "id": "q-entrance-chemistry-15-001-c4",
+          "text": "融解"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-001-c2",
+      "explanation": "水素イオンと水酸化物イオンが反応して水をつくる。",
+      "source": {
+        "page": 62,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 2,
+      "text": "中和で水になるイオンの組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-002-c1",
+          "text": "水素イオンと塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-002-c2",
+          "text": "ナトリウムイオンと塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-002-c3",
+          "text": "水素イオンと水酸化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-002-c4",
+          "text": "銅イオンと硫酸イオン"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-002-c3",
+      "explanation": "H⁺＋OH⁻→H₂O。",
+      "source": {
+        "page": 62,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 3,
+      "text": "H⁺＋［　］→H₂Oに入る式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-003-c1",
+          "text": "Cl⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-15-003-c2",
+          "text": "Na⁺"
+        },
+        {
+          "id": "q-entrance-chemistry-15-003-c3",
+          "text": "O²⁻"
+        },
+        {
+          "id": "q-entrance-chemistry-15-003-c4",
+          "text": "OH⁻"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-003-c4",
+      "explanation": "水酸化物イオンが水素イオンと結び付き水になる。",
+      "source": {
+        "page": 62,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 4,
+      "text": "アルカリ性の液に酸を加えるとBTBの色は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-004-c1",
+          "text": "青→緑→黄"
+        },
+        {
+          "id": "q-entrance-chemistry-15-004-c2",
+          "text": "黄→緑→青"
+        },
+        {
+          "id": "q-entrance-chemistry-15-004-c3",
+          "text": "赤→無色→青"
+        },
+        {
+          "id": "q-entrance-chemistry-15-004-c4",
+          "text": "青→赤→無色"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-004-c1",
+      "explanation": "アルカリ性、中性、酸性の順に変化する。",
+      "source": {
+        "page": 62,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 5,
+      "text": "NaOH水溶液に塩酸を加え、中性を越えたときのイオンの変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-005-c1",
+          "text": "H⁺が減り、その後OH⁻が増える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-005-c2",
+          "text": "OH⁻が減り、その後H⁺が増える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-005-c3",
+          "text": "Na⁺が全て消える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-005-c4",
+          "text": "Cl⁻が全て消える"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-005-c2",
+      "explanation": "中和する間はOH⁻が消費され、その後は過剰なH⁺が残る。",
+      "source": {
+        "page": 62,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 6,
+      "text": "中和で水以外にできる物質の総称は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-006-c1",
+          "text": "単体"
+        },
+        {
+          "id": "q-entrance-chemistry-15-006-c2",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-15-006-c3",
+          "text": "塩"
+        },
+        {
+          "id": "q-entrance-chemistry-15-006-c4",
+          "text": "金属"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-006-c3",
+      "explanation": "酸の陰イオンとアルカリの陽イオンが組み合わさった物質が塩。",
+      "source": {
+        "page": 62,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-007",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 7,
+      "text": "中和の反応では熱を？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-007-c1",
+          "text": "吸収する"
+        },
+        {
+          "id": "q-entrance-chemistry-15-007-c2",
+          "text": "必ず出入りしない"
+        },
+        {
+          "id": "q-entrance-chemistry-15-007-c3",
+          "text": "全て光へ変える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-007-c4",
+          "text": "放出する"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-007-c4",
+      "explanation": "中和は発熱反応。",
+      "source": {
+        "page": 62,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-008",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 8,
+      "text": "同じ塩酸100 mLがNaOH水溶液60 mLで中性になる。100 mL加えた液の性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-008-c1",
+          "text": "アルカリ性"
+        },
+        {
+          "id": "q-entrance-chemistry-15-008-c2",
+          "text": "酸性"
+        },
+        {
+          "id": "q-entrance-chemistry-15-008-c3",
+          "text": "中性"
+        },
+        {
+          "id": "q-entrance-chemistry-15-008-c4",
+          "text": "判定できない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-008-c1",
+      "explanation": "中和に必要な量を超えてNaOHが残るので、アルカリ性になる。",
+      "source": {
+        "page": 63,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-009",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 9,
+      "text": "塩酸にNaOH水溶液を加えると、加えた量に比例して増えるイオンは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-009-c1",
+          "text": "水素イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-009-c2",
+          "text": "ナトリウムイオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-009-c3",
+          "text": "塩化物イオン"
+        },
+        {
+          "id": "q-entrance-chemistry-15-009-c4",
+          "text": "水酸化物イオンが最初から比例して増える"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-009-c2",
+      "explanation": "Na⁺は中和で消費されず、加えた分だけ増える。",
+      "source": {
+        "page": 63,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-010",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 10,
+      "text": "NaOH水溶液に塩酸を加えると、H⁺の数はどう変わる？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-010-c1",
+          "text": "最初から減り続ける"
+        },
+        {
+          "id": "q-entrance-chemistry-15-010-c2",
+          "text": "最初から一定の割合で増える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-010-c3",
+          "text": "中和するまではほぼ0で、その後増える"
+        },
+        {
+          "id": "q-entrance-chemistry-15-010-c4",
+          "text": "いつまでも0"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-010-c3",
+      "explanation": "加えたH⁺はまずOH⁻と反応し、OH⁻がなくなると余る。",
+      "source": {
+        "page": 63,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-15-011",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-15",
+      "order": 11,
+      "text": "HCl＋NaOH→H₂O＋［　］に入る式は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-15-011-c1",
+          "text": "Na₂O"
+        },
+        {
+          "id": "q-entrance-chemistry-15-011-c2",
+          "text": "H₂"
+        },
+        {
+          "id": "q-entrance-chemistry-15-011-c3",
+          "text": "CO₂"
+        },
+        {
+          "id": "q-entrance-chemistry-15-011-c4",
+          "text": "NaCl"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-15-011-c4",
+      "explanation": "塩酸と水酸化ナトリウムの中和で塩化ナトリウムができる。",
+      "source": {
+        "page": 63,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-001",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 1,
+      "text": "一般的なプラスチックの性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-001-c1",
+          "text": "密度が比較的小さく、電流を通しにくい"
+        },
+        {
+          "id": "q-entrance-chemistry-16-001-c2",
+          "text": "密度が非常に大きく、電流をよく通す"
+        },
+        {
+          "id": "q-entrance-chemistry-16-001-c3",
+          "text": "磁石に必ず付く"
+        },
+        {
+          "id": "q-entrance-chemistry-16-001-c4",
+          "text": "熱を必ずよく通す"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-001-c1",
+      "explanation": "一般的なプラスチックは軽く、電気を通しにくい。",
+      "source": {
+        "page": 64,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-002",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 2,
+      "text": "一般的なプラスチックの分類と伝導性は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-002-c1",
+          "text": "無機物で、熱や電流をよく通す"
+        },
+        {
+          "id": "q-entrance-chemistry-16-002-c2",
+          "text": "有機物で、熱や電流を通しにくい"
+        },
+        {
+          "id": "q-entrance-chemistry-16-002-c3",
+          "text": "金属で、磁石に付く"
+        },
+        {
+          "id": "q-entrance-chemistry-16-002-c4",
+          "text": "単体で、必ず燃えない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-002-c2",
+      "explanation": "炭素を含む有機物で、熱や電流を通しにくいものが多い。",
+      "source": {
+        "page": 64,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-003",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 3,
+      "text": "プラスチックの燃焼で、石灰水を白くする気体は？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-003-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-chemistry-16-003-c2",
+          "text": "水素"
+        },
+        {
+          "id": "q-entrance-chemistry-16-003-c3",
+          "text": "二酸化炭素"
+        },
+        {
+          "id": "q-entrance-chemistry-16-003-c4",
+          "text": "窒素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-003-c3",
+      "explanation": "プラスチックの炭素が燃焼で二酸化炭素になる。",
+      "source": {
+        "page": 64,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-004",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 4,
+      "text": "材質表示PETが示すプラスチックは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-004-c1",
+          "text": "ポリエチレン"
+        },
+        {
+          "id": "q-entrance-chemistry-16-004-c2",
+          "text": "ポリプロピレン"
+        },
+        {
+          "id": "q-entrance-chemistry-16-004-c3",
+          "text": "ポリ塩化ビニル"
+        },
+        {
+          "id": "q-entrance-chemistry-16-004-c4",
+          "text": "ポリエチレンテレフタラート"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-004-c4",
+      "explanation": "PETはポリエチレンテレフタラートの略称。",
+      "source": {
+        "page": 64,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-005",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 5,
+      "text": "ペットボトル本体の材料と略称の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-005-c1",
+          "text": "ポリエチレンテレフタラート・PET"
+        },
+        {
+          "id": "q-entrance-chemistry-16-005-c2",
+          "text": "ポリエチレン・PE"
+        },
+        {
+          "id": "q-entrance-chemistry-16-005-c3",
+          "text": "ポリプロピレン・PP"
+        },
+        {
+          "id": "q-entrance-chemistry-16-005-c4",
+          "text": "ポリ塩化ビニル・PVC"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-005-c1",
+      "explanation": "一般的なペットボトル本体にPETが使われる。",
+      "source": {
+        "page": 64,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-chemistry-16-006",
+      "chapterId": "chapter-entrance-science-chemistry",
+      "unitId": "unit-entrance-chemistry-16",
+      "order": 6,
+      "text": "微生物のはたらきで分解されるプラスチックは？",
+      "choices": [
+        {
+          "id": "q-entrance-chemistry-16-006-c1",
+          "text": "導電性プラスチック"
+        },
+        {
+          "id": "q-entrance-chemistry-16-006-c2",
+          "text": "生分解性プラスチック"
+        },
+        {
+          "id": "q-entrance-chemistry-16-006-c3",
+          "text": "耐熱性プラスチック"
+        },
+        {
+          "id": "q-entrance-chemistry-16-006-c4",
+          "text": "形状記憶合金"
+        }
+      ],
+      "correctChoiceId": "q-entrance-chemistry-16-006-c2",
+      "explanation": "生分解性プラスチックは微生物の作用で分解される。",
+      "source": {
+        "page": 64,
+        "question": 6
+      }
+    }
+  ]
+}

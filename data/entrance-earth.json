@@ -1,0 +1,5914 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "高校入試 一問一答 理科・地学編",
+    "targetCourseId": "entrance-science",
+    "questionFormat": "multiple-choice-4",
+    "sourceTitle": "高校入試 入試問題で覚える 一問一答 理科 改訂版",
+    "originalQuestionCount": 179,
+    "questionCount": 179,
+    "note": "ユーザー提供写真を確認。複数の名称を答える原問題は分割し、全原問題の番号を保存。図表は学習用に再構成。"
+  },
+  "units": [
+    {
+      "id": "unit-entrance-earth-01",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 1,
+      "title": "マグマと火山",
+      "sourceStartPage": 98,
+      "sourceQuestionCount": 6
+    },
+    {
+      "id": "unit-entrance-earth-02",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 2,
+      "title": "鉱物",
+      "sourceStartPage": 99,
+      "sourceQuestionCount": 9
+    },
+    {
+      "id": "unit-entrance-earth-03",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 3,
+      "title": "火成岩",
+      "sourceStartPage": 100,
+      "sourceQuestionCount": 13
+    },
+    {
+      "id": "unit-entrance-earth-04",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 4,
+      "title": "地震のゆれ",
+      "sourceStartPage": 102,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-earth-05",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 5,
+      "title": "地層と堆積岩",
+      "sourceStartPage": 104,
+      "sourceQuestionCount": 24
+    },
+    {
+      "id": "unit-entrance-earth-06",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 6,
+      "title": "気象の観測",
+      "sourceStartPage": 108,
+      "sourceQuestionCount": 9
+    },
+    {
+      "id": "unit-entrance-earth-07",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 7,
+      "title": "水蒸気と雲の発生",
+      "sourceStartPage": 110,
+      "sourceQuestionCount": 9
+    },
+    {
+      "id": "unit-entrance-earth-08",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 8,
+      "title": "大気による圧力",
+      "sourceStartPage": 112,
+      "sourceQuestionCount": 14
+    },
+    {
+      "id": "unit-entrance-earth-09",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 9,
+      "title": "気圧と風",
+      "sourceStartPage": 114,
+      "sourceQuestionCount": 11
+    },
+    {
+      "id": "unit-entrance-earth-10",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 10,
+      "title": "前線と天気",
+      "sourceStartPage": 116,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-earth-11",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 11,
+      "title": "日本の天気",
+      "sourceStartPage": 118,
+      "sourceQuestionCount": 13
+    },
+    {
+      "id": "unit-entrance-earth-12",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 12,
+      "title": "天体の日周運動",
+      "sourceStartPage": 120,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-earth-13",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 13,
+      "title": "地球の運動と季節の変化",
+      "sourceStartPage": 122,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-earth-14",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 14,
+      "title": "太陽のようすと月の運動",
+      "sourceStartPage": 124,
+      "sourceQuestionCount": 10
+    },
+    {
+      "id": "unit-entrance-earth-15",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 15,
+      "title": "太陽系と惑星",
+      "sourceStartPage": 126,
+      "sourceQuestionCount": 12
+    },
+    {
+      "id": "unit-entrance-earth-16",
+      "chapterId": "chapter-entrance-science-earth",
+      "order": 16,
+      "title": "銀河系・宇宙",
+      "sourceStartPage": 128,
+      "sourceQuestionCount": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-entrance-earth-01-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 1,
+      "text": "地下で岩石が高温でとけた物質を何という？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-001-c1",
+          "text": "マグマ"
+        },
+        {
+          "id": "q-entrance-earth-01-001-c2",
+          "text": "溶岩"
+        },
+        {
+          "id": "q-entrance-earth-01-001-c3",
+          "text": "火山灰"
+        },
+        {
+          "id": "q-entrance-earth-01-001-c4",
+          "text": "火山ガス"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-001-c1",
+      "explanation": "地下にあるときはマグマ、地表に出たものは溶岩と呼ぶ。",
+      "source": {
+        "page": 98,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-01-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 2,
+      "text": "噴火で火口から出る火山ガス・溶岩・火山灰などの総称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-002-c1",
+          "text": "火成岩"
+        },
+        {
+          "id": "q-entrance-earth-01-002-c2",
+          "text": "火山噴出物"
+        },
+        {
+          "id": "q-entrance-earth-01-002-c3",
+          "text": "堆積物"
+        },
+        {
+          "id": "q-entrance-earth-01-002-c4",
+          "text": "鉱物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-002-c2",
+      "explanation": "火山噴出物には火山ガス、溶岩、火山灰、火山弾、軽石などが含まれる。",
+      "source": {
+        "page": 98,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-01-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 3,
+      "text": "火山ガスに最も多く含まれる成分は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-003-c1",
+          "text": "酸素"
+        },
+        {
+          "id": "q-entrance-earth-01-003-c2",
+          "text": "窒素"
+        },
+        {
+          "id": "q-entrance-earth-01-003-c3",
+          "text": "水蒸気"
+        },
+        {
+          "id": "q-entrance-earth-01-003-c4",
+          "text": "水素"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-003-c3",
+      "explanation": "火山ガスの主成分は水蒸気である。",
+      "source": {
+        "page": 98,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-01-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 4,
+      "text": "ねばりけが大きいマグマの噴火の特徴は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-004-c1",
+          "text": "黒っぽい噴出物が多く、必ず静かに流れる"
+        },
+        {
+          "id": "q-entrance-earth-01-004-c2",
+          "text": "白っぽい噴出物が多く、必ず静かに流れる"
+        },
+        {
+          "id": "q-entrance-earth-01-004-c3",
+          "text": "黒っぽい噴出物が多く、必ず噴火しない"
+        },
+        {
+          "id": "q-entrance-earth-01-004-c4",
+          "text": "白っぽい噴出物が多く、激しい噴火になりやすい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-004-c4",
+      "explanation": "ねばりけが大きいとガスが抜けにくく、激しい噴火になりやすい。",
+      "source": {
+        "page": 98,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-01-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 5,
+      "text": "図のAのように盛り上がった火山をつくるマグマのねばりけは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-005-c1",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-earth-01-005-c2",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-earth-01-005-c3",
+          "text": "ない"
+        },
+        {
+          "id": "q-entrance-earth-01-005-c4",
+          "text": "形とは関係しない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-005-c1",
+      "explanation": "ねばりけが大きいマグマは遠くまで流れにくく、盛り上がった形になる。",
+      "source": {
+        "page": 98,
+        "question": 5
+      },
+      "material": {
+        "type": "image",
+        "title": "火山の形（模式図）",
+        "image": "science-volcano",
+        "alt": "Aは急な傾斜で盛り上がった形、Bは幅広く傾斜がゆるやかな盾形。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-01-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-01",
+      "order": 6,
+      "text": "図のBのように盾をふせた形の火山をつくるマグマのねばりけは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-01-006-c1",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-earth-01-006-c2",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-earth-01-006-c3",
+          "text": "ない"
+        },
+        {
+          "id": "q-entrance-earth-01-006-c4",
+          "text": "形とは関係しない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-01-006-c2",
+      "explanation": "ねばりけが小さいマグマは流れやすく、傾斜がゆるやかな火山になる。",
+      "source": {
+        "page": 98,
+        "question": 6
+      },
+      "material": {
+        "type": "image",
+        "title": "火山の形（模式図）",
+        "image": "science-volcano",
+        "alt": "Aは急な傾斜で盛り上がった形、Bは幅広く傾斜がゆるやかな盾形。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 1,
+      "text": "白っぽい火成岩に多い、セキエイやチョウ石は何鉱物？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-001-c1",
+          "text": "有色鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-001-c2",
+          "text": "金属鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-001-c3",
+          "text": "無色鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-001-c4",
+          "text": "化石鉱物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-001-c3",
+      "explanation": "セキエイやチョウ石は無色鉱物で、白っぽい火成岩に多い。",
+      "source": {
+        "page": 99,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 2,
+      "text": "黒っぽい火成岩は、何鉱物の割合が大きい？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-002-c1",
+          "text": "無色鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-002-c2",
+          "text": "透明鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-002-c3",
+          "text": "化石鉱物"
+        },
+        {
+          "id": "q-entrance-earth-02-002-c4",
+          "text": "有色鉱物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-002-c4",
+      "explanation": "カンラン石、キ石、カクセン石、クロウンモなどは有色鉱物である。",
+      "source": {
+        "page": 99,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 3,
+      "text": "無色か白色で、不規則に割れる鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-003-c1",
+          "text": "セキエイ"
+        },
+        {
+          "id": "q-entrance-earth-02-003-c2",
+          "text": "チョウ石"
+        },
+        {
+          "id": "q-entrance-earth-02-003-c3",
+          "text": "クロウンモ"
+        },
+        {
+          "id": "q-entrance-earth-02-003-c4",
+          "text": "カンラン石"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-003-c1",
+      "explanation": "セキエイは無色か白色で、不規則に割れる。",
+      "source": {
+        "page": 99,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 4,
+      "text": "白色で、決まった方向に割れる鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-004-c1",
+          "text": "セキエイ"
+        },
+        {
+          "id": "q-entrance-earth-02-004-c2",
+          "text": "チョウ石"
+        },
+        {
+          "id": "q-entrance-earth-02-004-c3",
+          "text": "キ石"
+        },
+        {
+          "id": "q-entrance-earth-02-004-c4",
+          "text": "クロウンモ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-004-c2",
+      "explanation": "チョウ石には決まった方向に割れる性質がある。",
+      "source": {
+        "page": 99,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 5,
+      "text": "長い柱状で、黒っぽい鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-005-c1",
+          "text": "キ石"
+        },
+        {
+          "id": "q-entrance-earth-02-005-c2",
+          "text": "カンラン石"
+        },
+        {
+          "id": "q-entrance-earth-02-005-c3",
+          "text": "カクセン石"
+        },
+        {
+          "id": "q-entrance-earth-02-005-c4",
+          "text": "セキエイ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-005-c3",
+      "explanation": "カクセン石は長い柱状で、暗い色をしている。",
+      "source": {
+        "page": 99,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 6,
+      "text": "板状で、薄くはがれやすい黒い鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-006-c1",
+          "text": "カクセン石"
+        },
+        {
+          "id": "q-entrance-earth-02-006-c2",
+          "text": "チョウ石"
+        },
+        {
+          "id": "q-entrance-earth-02-006-c3",
+          "text": "キ石"
+        },
+        {
+          "id": "q-entrance-earth-02-006-c4",
+          "text": "クロウンモ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-006-c4",
+      "explanation": "クロウンモは板状で、一方向に薄くはがれやすい。",
+      "source": {
+        "page": 99,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 7,
+      "text": "緑褐色で、ガラス状の小さな鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-007-c1",
+          "text": "カンラン石"
+        },
+        {
+          "id": "q-entrance-earth-02-007-c2",
+          "text": "チョウ石"
+        },
+        {
+          "id": "q-entrance-earth-02-007-c3",
+          "text": "クロウンモ"
+        },
+        {
+          "id": "q-entrance-earth-02-007-c4",
+          "text": "セキエイ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-007-c1",
+      "explanation": "カンラン石は緑褐色の小さな粒として見られる。",
+      "source": {
+        "page": 99,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 8,
+      "text": "暗褐色で、短い柱状の鉱物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-008-c1",
+          "text": "カクセン石"
+        },
+        {
+          "id": "q-entrance-earth-02-008-c2",
+          "text": "キ石"
+        },
+        {
+          "id": "q-entrance-earth-02-008-c3",
+          "text": "クロウンモ"
+        },
+        {
+          "id": "q-entrance-earth-02-008-c4",
+          "text": "セキエイ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-008-c2",
+      "explanation": "キ石は短い柱状、カクセン石は長い柱状という特徴で区別できる。",
+      "source": {
+        "page": 99,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-02-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-02",
+      "order": 9,
+      "text": "鉱物のように規則正しい形をした固体を何という？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-02-009-c1",
+          "text": "細胞"
+        },
+        {
+          "id": "q-entrance-earth-02-009-c2",
+          "text": "化石"
+        },
+        {
+          "id": "q-entrance-earth-02-009-c3",
+          "text": "結晶"
+        },
+        {
+          "id": "q-entrance-earth-02-009-c4",
+          "text": "溶液"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-02-009-c3",
+      "explanation": "結晶は粒子が規則正しく並んだ固体で、特徴的な形が現れることがある。",
+      "source": {
+        "page": 99,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 1,
+      "text": "マグマが冷えて固まってできた岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-001-c1",
+          "text": "堆積岩"
+        },
+        {
+          "id": "q-entrance-earth-03-001-c2",
+          "text": "れき岩"
+        },
+        {
+          "id": "q-entrance-earth-03-001-c3",
+          "text": "石灰岩"
+        },
+        {
+          "id": "q-entrance-earth-03-001-c4",
+          "text": "火成岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-001-c4",
+      "explanation": "マグマが固まった岩石を火成岩という。",
+      "source": {
+        "page": 100,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 2,
+      "text": "マグマが地表付近で急に冷えた岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-002-c1",
+          "text": "火山岩"
+        },
+        {
+          "id": "q-entrance-earth-03-002-c2",
+          "text": "深成岩"
+        },
+        {
+          "id": "q-entrance-earth-03-002-c3",
+          "text": "堆積岩"
+        },
+        {
+          "id": "q-entrance-earth-03-002-c4",
+          "text": "変成岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-002-c1",
+      "explanation": "急冷した火山岩は一般に斑状組織をもつ。",
+      "source": {
+        "page": 100,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 3,
+      "text": "マグマが地下深くでゆっくり冷えた岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-003-c1",
+          "text": "火山岩"
+        },
+        {
+          "id": "q-entrance-earth-03-003-c2",
+          "text": "深成岩"
+        },
+        {
+          "id": "q-entrance-earth-03-003-c3",
+          "text": "れき岩"
+        },
+        {
+          "id": "q-entrance-earth-03-003-c4",
+          "text": "泥岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-003-c2",
+      "explanation": "ゆっくり冷えると鉱物の結晶が大きく成長する。",
+      "source": {
+        "page": 100,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 4,
+      "text": "図Aの大きな結晶が細かい部分に散らばるつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-004-c1",
+          "text": "等粒状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-004-c2",
+          "text": "柱状図"
+        },
+        {
+          "id": "q-entrance-earth-03-004-c3",
+          "text": "斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-004-c4",
+          "text": "しゅう曲"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-004-c3",
+      "explanation": "火山岩では斑晶が石基の中に散らばる。",
+      "source": {
+        "page": 100,
+        "question": 4
+      },
+      "material": {
+        "type": "image",
+        "title": "火成岩の組織（模式図）",
+        "image": "science-rock-texture",
+        "alt": "Aは細かな地に大きな結晶が散在する。Bは大きな結晶が互いに接して組み合わさる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 5,
+      "text": "斑状組織の比較的大きな結晶は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-005-c1",
+          "text": "石基"
+        },
+        {
+          "id": "q-entrance-earth-03-005-c2",
+          "text": "地層"
+        },
+        {
+          "id": "q-entrance-earth-03-005-c3",
+          "text": "化石"
+        },
+        {
+          "id": "q-entrance-earth-03-005-c4",
+          "text": "斑晶"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-005-c4",
+      "explanation": "斑晶はマグマ内で先に成長した比較的大きな結晶である。",
+      "source": {
+        "page": 100,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 6,
+      "text": "斑状組織の細かい粒やガラス質の部分は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-006-c1",
+          "text": "石基"
+        },
+        {
+          "id": "q-entrance-earth-03-006-c2",
+          "text": "斑晶"
+        },
+        {
+          "id": "q-entrance-earth-03-006-c3",
+          "text": "化石"
+        },
+        {
+          "id": "q-entrance-earth-03-006-c4",
+          "text": "れき"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-006-c1",
+      "explanation": "石基は急に冷えて固まった細かい部分である。",
+      "source": {
+        "page": 100,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 7,
+      "text": "流紋岩の分類と組織の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-007-c1",
+          "text": "深成岩・等粒状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-007-c2",
+          "text": "火山岩・斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-007-c3",
+          "text": "堆積岩・斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-007-c4",
+          "text": "深成岩・斑状組織"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-007-c2",
+      "explanation": "流紋岩は火山岩である。",
+      "source": {
+        "page": 101,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 8,
+      "text": "図Bの大きな結晶が組み合わさったつくりは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-008-c1",
+          "text": "斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-008-c2",
+          "text": "柱状図"
+        },
+        {
+          "id": "q-entrance-earth-03-008-c3",
+          "text": "等粒状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-008-c4",
+          "text": "断層"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-008-c3",
+      "explanation": "深成岩は十分成長した鉱物の結晶からなる。",
+      "source": {
+        "page": 101,
+        "question": 8
+      },
+      "material": {
+        "type": "image",
+        "title": "火成岩の組織（模式図）",
+        "image": "science-rock-texture",
+        "alt": "Aは細かな地に大きな結晶が散在する。Bは大きな結晶が互いに接して組み合わさる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 9,
+      "text": "花こう岩の分類と組織の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-009-c1",
+          "text": "火山岩・斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-009-c2",
+          "text": "深成岩・斑状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-009-c3",
+          "text": "堆積岩・等粒状組織"
+        },
+        {
+          "id": "q-entrance-earth-03-009-c4",
+          "text": "深成岩・等粒状組織"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-009-c4",
+      "explanation": "花こう岩は地下深くでゆっくり冷えてできる。",
+      "source": {
+        "page": 101,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 10,
+      "text": "花こう岩・玄武岩・せん緑岩・斑れい岩のうち火山岩は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-010-c1",
+          "text": "玄武岩"
+        },
+        {
+          "id": "q-entrance-earth-03-010-c2",
+          "text": "花こう岩"
+        },
+        {
+          "id": "q-entrance-earth-03-010-c3",
+          "text": "せん緑岩"
+        },
+        {
+          "id": "q-entrance-earth-03-010-c4",
+          "text": "斑れい岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-010-c1",
+      "explanation": "他の三つは深成岩である。",
+      "source": {
+        "page": 101,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 11,
+      "text": "安山岩はどの岩石に分類されるか？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-011-c1",
+          "text": "深成岩"
+        },
+        {
+          "id": "q-entrance-earth-03-011-c2",
+          "text": "火山岩"
+        },
+        {
+          "id": "q-entrance-earth-03-011-c3",
+          "text": "堆積岩"
+        },
+        {
+          "id": "q-entrance-earth-03-011-c4",
+          "text": "変成岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-011-c2",
+      "explanation": "火山岩には流紋岩、安山岩、玄武岩がある。",
+      "source": {
+        "page": 101,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 12,
+      "text": "代表的な火山岩の中で有色鉱物の割合が最も大きいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-012-c1",
+          "text": "安山岩"
+        },
+        {
+          "id": "q-entrance-earth-03-012-c2",
+          "text": "流紋岩"
+        },
+        {
+          "id": "q-entrance-earth-03-012-c3",
+          "text": "玄武岩"
+        },
+        {
+          "id": "q-entrance-earth-03-012-c4",
+          "text": "花こう岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-012-c3",
+      "explanation": "玄武岩は有色鉱物が多く、黒っぽい。",
+      "source": {
+        "page": 101,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-03-013",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-03",
+      "order": 13,
+      "text": "代表的な深成岩の中で無色鉱物の割合が最も大きいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-03-013-c1",
+          "text": "せん緑岩"
+        },
+        {
+          "id": "q-entrance-earth-03-013-c2",
+          "text": "斑れい岩"
+        },
+        {
+          "id": "q-entrance-earth-03-013-c3",
+          "text": "玄武岩"
+        },
+        {
+          "id": "q-entrance-earth-03-013-c4",
+          "text": "花こう岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-03-013-c4",
+      "explanation": "花こう岩は石英や長石が多く、白っぽい。",
+      "source": {
+        "page": 101,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 1,
+      "text": "地震が最初に発生した地下の場所は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-001-c1",
+          "text": "震源"
+        },
+        {
+          "id": "q-entrance-earth-04-001-c2",
+          "text": "震央"
+        },
+        {
+          "id": "q-entrance-earth-04-001-c3",
+          "text": "断層面の地表端"
+        },
+        {
+          "id": "q-entrance-earth-04-001-c4",
+          "text": "観測点"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-001-c1",
+      "explanation": "震源は地震が発生した地下の場所である。",
+      "source": {
+        "page": 102,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 2,
+      "text": "震源の真上にある地表の地点は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-002-c1",
+          "text": "震源"
+        },
+        {
+          "id": "q-entrance-earth-04-002-c2",
+          "text": "震央"
+        },
+        {
+          "id": "q-entrance-earth-04-002-c3",
+          "text": "観測点"
+        },
+        {
+          "id": "q-entrance-earth-04-002-c4",
+          "text": "地層"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-002-c2",
+      "explanation": "震源の真上の地表の地点を震央という。",
+      "source": {
+        "page": 102,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 3,
+      "text": "地震記録で、小さなゆれに続いて大きなゆれが始まった。小さなゆれと大きなゆれの名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-003-c1",
+          "text": "主要動・初期微動"
+        },
+        {
+          "id": "q-entrance-earth-04-003-c2",
+          "text": "震源・震央"
+        },
+        {
+          "id": "q-entrance-earth-04-003-c3",
+          "text": "初期微動・主要動"
+        },
+        {
+          "id": "q-entrance-earth-04-003-c4",
+          "text": "震度・マグニチュード"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-003-c3",
+      "explanation": "最初の小さなゆれが初期微動、後の大きなゆれが主要動である。",
+      "source": {
+        "page": 102,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 4,
+      "text": "初期微動を伝える、速い地震波は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-004-c1",
+          "text": "S波"
+        },
+        {
+          "id": "q-entrance-earth-04-004-c2",
+          "text": "光波"
+        },
+        {
+          "id": "q-entrance-earth-04-004-c3",
+          "text": "電波"
+        },
+        {
+          "id": "q-entrance-earth-04-004-c4",
+          "text": "P波"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-004-c4",
+      "explanation": "P波はS波より速く、先に到着して初期微動を起こす。",
+      "source": {
+        "page": 102,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 5,
+      "text": "日本の震度は何段階？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-005-c1",
+          "text": "10段階"
+        },
+        {
+          "id": "q-entrance-earth-04-005-c2",
+          "text": "7段階"
+        },
+        {
+          "id": "q-entrance-earth-04-005-c3",
+          "text": "8段階"
+        },
+        {
+          "id": "q-entrance-earth-04-005-c4",
+          "text": "12段階"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-005-c1",
+      "explanation": "0、1、2、3、4、5弱、5強、6弱、6強、7の10段階である。",
+      "source": {
+        "page": 102,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 6,
+      "text": "地震そのものの規模を表す数値は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-006-c1",
+          "text": "震度"
+        },
+        {
+          "id": "q-entrance-earth-04-006-c2",
+          "text": "マグニチュード"
+        },
+        {
+          "id": "q-entrance-earth-04-006-c3",
+          "text": "震央距離"
+        },
+        {
+          "id": "q-entrance-earth-04-006-c4",
+          "text": "初期微動継続時間"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-006-c2",
+      "explanation": "マグニチュードは地震の規模、震度は各地点でのゆれの強さを表す。",
+      "source": {
+        "page": 102,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 7,
+      "text": "P波の到着からS波の到着までの時間を何という？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-007-c1",
+          "text": "主要動継続時間"
+        },
+        {
+          "id": "q-entrance-earth-04-007-c2",
+          "text": "公転周期"
+        },
+        {
+          "id": "q-entrance-earth-04-007-c3",
+          "text": "初期微動継続時間"
+        },
+        {
+          "id": "q-entrance-earth-04-007-c4",
+          "text": "震源の深さ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-007-c3",
+      "explanation": "P波とS波の到着時刻の差が初期微動継続時間である。",
+      "source": {
+        "page": 102,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 8,
+      "text": "初期微動が8時43分15秒に始まり、主要動が8時43分25秒に始まった。初期微動継続時間は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-008-c1",
+          "text": "15秒"
+        },
+        {
+          "id": "q-entrance-earth-04-008-c2",
+          "text": "25秒"
+        },
+        {
+          "id": "q-entrance-earth-04-008-c3",
+          "text": "40秒"
+        },
+        {
+          "id": "q-entrance-earth-04-008-c4",
+          "text": "10秒"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-008-c4",
+      "explanation": "25−15＝10秒。主要動の始まりまでの時間差を求める。",
+      "source": {
+        "page": 103,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 9,
+      "text": "表の地点AではP波とS波の到着時刻の差が10秒だった。震源からの距離は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-009-c1",
+          "text": "120 km"
+        },
+        {
+          "id": "q-entrance-earth-04-009-c2",
+          "text": "60 km"
+        },
+        {
+          "id": "q-entrance-earth-04-009-c3",
+          "text": "100 km"
+        },
+        {
+          "id": "q-entrance-earth-04-009-c4",
+          "text": "240 km"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-009-c1",
+      "explanation": "表では120 kmの地点で差が30−20＝10秒となる。",
+      "source": {
+        "page": 103,
+        "question": 9
+      },
+      "material": {
+        "type": "table",
+        "title": "地震発生から波が届くまでの時間",
+        "headers": [
+          "震源からの距離（km）",
+          "P波（秒）",
+          "S波（秒）"
+        ],
+        "rows": [
+          [
+            60,
+            10,
+            15
+          ],
+          [
+            120,
+            20,
+            30
+          ],
+          [
+            180,
+            30,
+            45
+          ],
+          [
+            240,
+            40,
+            60
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 10,
+      "text": "日本海溝では、どのプレートがどのプレートの下に沈み込む？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-010-c1",
+          "text": "大陸プレートが海洋プレートの下に沈み込む"
+        },
+        {
+          "id": "q-entrance-earth-04-010-c2",
+          "text": "海洋プレートが大陸プレートの下に沈み込む"
+        },
+        {
+          "id": "q-entrance-earth-04-010-c3",
+          "text": "両方が地表に浮き上がる"
+        },
+        {
+          "id": "q-entrance-earth-04-010-c4",
+          "text": "プレートは動かない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-010-c2",
+      "explanation": "日本海溝では海洋プレートが大陸側のプレートの下へ沈み込む。",
+      "source": {
+        "page": 103,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 11,
+      "text": "日本付近のプレート境界の地震は、太平洋側から日本海側へいくと震源がどうなる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-011-c1",
+          "text": "浅くなる"
+        },
+        {
+          "id": "q-entrance-earth-04-011-c2",
+          "text": "すべて地表になる"
+        },
+        {
+          "id": "q-entrance-earth-04-011-c3",
+          "text": "深くなる"
+        },
+        {
+          "id": "q-entrance-earth-04-011-c4",
+          "text": "深さは必ず一定"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-011-c3",
+      "explanation": "海洋プレートが内陸側へ沈み込むため、震源は日本海側ほど深くなる傾向がある。",
+      "source": {
+        "page": 103,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-04-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-04",
+      "order": 12,
+      "text": "繰り返しずれて活動し、今後もずれる可能性のある断層は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-04-012-c1",
+          "text": "しゅう曲"
+        },
+        {
+          "id": "q-entrance-earth-04-012-c2",
+          "text": "かぎ層"
+        },
+        {
+          "id": "q-entrance-earth-04-012-c3",
+          "text": "示準化石"
+        },
+        {
+          "id": "q-entrance-earth-04-012-c4",
+          "text": "活断層"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-04-012-c4",
+      "explanation": "過去に繰り返し活動し、将来も動く可能性がある断層を活断層という。",
+      "source": {
+        "page": 103,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 1,
+      "text": "岩石が気温の変化や風雨によってもろくなることは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-001-c1",
+          "text": "風化"
+        },
+        {
+          "id": "q-entrance-earth-05-001-c2",
+          "text": "侵食"
+        },
+        {
+          "id": "q-entrance-earth-05-001-c3",
+          "text": "運搬"
+        },
+        {
+          "id": "q-entrance-earth-05-001-c4",
+          "text": "堆積"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-001-c1",
+      "explanation": "風化は岩石がその場でもろくなることをいう。",
+      "source": {
+        "page": 104,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 2,
+      "text": "もろくなった岩石が流水によって削り取られることは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-002-c1",
+          "text": "風化"
+        },
+        {
+          "id": "q-entrance-earth-05-002-c2",
+          "text": "侵食"
+        },
+        {
+          "id": "q-entrance-earth-05-002-c3",
+          "text": "運搬"
+        },
+        {
+          "id": "q-entrance-earth-05-002-c4",
+          "text": "堆積"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-002-c2",
+      "explanation": "流水などが岩石や土砂を削り取るはたらきを侵食という。",
+      "source": {
+        "page": 104,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 3,
+      "text": "侵食された土砂が水によって下流へ移されることは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-003-c1",
+          "text": "風化"
+        },
+        {
+          "id": "q-entrance-earth-05-003-c2",
+          "text": "侵食"
+        },
+        {
+          "id": "q-entrance-earth-05-003-c3",
+          "text": "運搬"
+        },
+        {
+          "id": "q-entrance-earth-05-003-c4",
+          "text": "堆積"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-003-c3",
+      "explanation": "水が土砂を運ぶはたらきが運搬である。",
+      "source": {
+        "page": 104,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 4,
+      "text": "運ばれた土砂が、流れのゆるやかな場所に積もることは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-004-c1",
+          "text": "風化"
+        },
+        {
+          "id": "q-entrance-earth-05-004-c2",
+          "text": "侵食"
+        },
+        {
+          "id": "q-entrance-earth-05-004-c3",
+          "text": "運搬"
+        },
+        {
+          "id": "q-entrance-earth-05-004-c4",
+          "text": "堆積"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-004-c4",
+      "explanation": "流れがゆるやかになると、運ばれた土砂が積もる。",
+      "source": {
+        "page": 104,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 5,
+      "text": "上下に重なった地層で、ふつう上の地層は下よりどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-005-c1",
+          "text": "新しい"
+        },
+        {
+          "id": "q-entrance-earth-05-005-c2",
+          "text": "古い"
+        },
+        {
+          "id": "q-entrance-earth-05-005-c3",
+          "text": "必ず同じ年代"
+        },
+        {
+          "id": "q-entrance-earth-05-005-c4",
+          "text": "年代は比較できない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-005-c1",
+      "explanation": "地層が逆転するなどの変動がなければ、上ほど後に堆積している。",
+      "source": {
+        "page": 104,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 6,
+      "text": "地層の重なり方を柱の形で表した図の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-006-c1",
+          "text": "天気図"
+        },
+        {
+          "id": "q-entrance-earth-05-006-c2",
+          "text": "柱状図"
+        },
+        {
+          "id": "q-entrance-earth-05-006-c3",
+          "text": "状態図"
+        },
+        {
+          "id": "q-entrance-earth-05-006-c4",
+          "text": "回路図"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-006-c2",
+      "explanation": "柱状図は地層の種類や厚さ、重なり方を表す。",
+      "source": {
+        "page": 104,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 7,
+      "text": "同じ地点で、下かられき岩・砂岩・泥岩の順に堆積した。海水面と海岸からの距離の変化は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-007-c1",
+          "text": "海水面が下がり、海岸から近くなった"
+        },
+        {
+          "id": "q-entrance-earth-05-007-c2",
+          "text": "海水面が上がり、海岸から近くなった"
+        },
+        {
+          "id": "q-entrance-earth-05-007-c3",
+          "text": "海水面が上がり、海岸から遠くなった"
+        },
+        {
+          "id": "q-entrance-earth-05-007-c4",
+          "text": "海水面が下がり、海岸から遠くなった"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-007-c3",
+      "explanation": "細かい泥ほど沖に運ばれやすい。泥岩へ変わるのは海岸から遠くなる変化を示す。",
+      "source": {
+        "page": 104,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 8,
+      "text": "図の柱状図から、火山の噴火は少なくとも何回あったと考えられる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-008-c1",
+          "text": "1回"
+        },
+        {
+          "id": "q-entrance-earth-05-008-c2",
+          "text": "3回"
+        },
+        {
+          "id": "q-entrance-earth-05-008-c3",
+          "text": "4回"
+        },
+        {
+          "id": "q-entrance-earth-05-008-c4",
+          "text": "2回"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-008-c4",
+      "explanation": "離れた火山灰の層が2層あるので、少なくとも2回の噴火があったと考える。",
+      "source": {
+        "page": 105,
+        "question": 8
+      },
+      "material": {
+        "type": "image",
+        "title": "地層の柱状図",
+        "image": "science-strata",
+        "alt": "下から、れき、砂、火山灰、砂、泥、火山灰、れきの順に重なる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 9,
+      "text": "れきの角が取れて丸みを帯びる主な原因は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-009-c1",
+          "text": "流水に運ばれる間にぶつかり合うから"
+        },
+        {
+          "id": "q-entrance-earth-05-009-c2",
+          "text": "太陽光だけで丸くなるから"
+        },
+        {
+          "id": "q-entrance-earth-05-009-c3",
+          "text": "結晶が成長するから"
+        },
+        {
+          "id": "q-entrance-earth-05-009-c4",
+          "text": "空気中で燃えるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-009-c1",
+      "explanation": "流水で運ばれる間に、れき同士や川底とぶつかって角が取れる。",
+      "source": {
+        "page": 105,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 10,
+      "text": "れき岩・砂岩・泥岩を区別する基準は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-010-c1",
+          "text": "岩石全体の重さ"
+        },
+        {
+          "id": "q-entrance-earth-05-010-c2",
+          "text": "粒の大きさ"
+        },
+        {
+          "id": "q-entrance-earth-05-010-c3",
+          "text": "化石の数だけ"
+        },
+        {
+          "id": "q-entrance-earth-05-010-c4",
+          "text": "地層の厚さだけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-010-c2",
+      "explanation": "れき、砂、泥の粒径の違いで分類する。",
+      "source": {
+        "page": 105,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 11,
+      "text": "泥岩・砂岩・れき岩・凝灰岩のうち、火山の噴火を示す岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-011-c1",
+          "text": "泥岩"
+        },
+        {
+          "id": "q-entrance-earth-05-011-c2",
+          "text": "砂岩"
+        },
+        {
+          "id": "q-entrance-earth-05-011-c3",
+          "text": "凝灰岩"
+        },
+        {
+          "id": "q-entrance-earth-05-011-c4",
+          "text": "れき岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-011-c3",
+      "explanation": "火山灰などが積もって固まった岩石が凝灰岩である。",
+      "source": {
+        "page": 105,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 12,
+      "text": "生物の死がいなどからでき、薄い塩酸で泡を出す岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-012-c1",
+          "text": "チャート"
+        },
+        {
+          "id": "q-entrance-earth-05-012-c2",
+          "text": "砂岩"
+        },
+        {
+          "id": "q-entrance-earth-05-012-c3",
+          "text": "花こう岩"
+        },
+        {
+          "id": "q-entrance-earth-05-012-c4",
+          "text": "石灰岩"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-012-c4",
+      "explanation": "石灰岩の主成分は炭酸カルシウムで、塩酸と反応して二酸化炭素を出す。",
+      "source": {
+        "page": 105,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-013",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 13,
+      "text": "生物の死がいなどからでき、薄い塩酸で気体を出さない岩石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-013-c1",
+          "text": "チャート"
+        },
+        {
+          "id": "q-entrance-earth-05-013-c2",
+          "text": "石灰岩"
+        },
+        {
+          "id": "q-entrance-earth-05-013-c3",
+          "text": "大理石"
+        },
+        {
+          "id": "q-entrance-earth-05-013-c4",
+          "text": "炭酸カルシウム"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-013-c1",
+      "explanation": "チャートは主に二酸化ケイ素からでき、薄い塩酸では気体を出さない。",
+      "source": {
+        "page": 105,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-014",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 14,
+      "text": "地層が堆積した当時の環境を示す化石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-014-c1",
+          "text": "示準化石"
+        },
+        {
+          "id": "q-entrance-earth-05-014-c2",
+          "text": "示相化石"
+        },
+        {
+          "id": "q-entrance-earth-05-014-c3",
+          "text": "かぎ層"
+        },
+        {
+          "id": "q-entrance-earth-05-014-c4",
+          "text": "火山灰"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-014-c2",
+      "explanation": "示相化石は生物の生息環境を手がかりに堆積環境を推定する。",
+      "source": {
+        "page": 106,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-015",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 15,
+      "text": "サンゴの化石がある地層は、どのような海でできたと考える？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-015-c1",
+          "text": "深くて冷たい海"
+        },
+        {
+          "id": "q-entrance-earth-05-015-c2",
+          "text": "深くて暖かい海"
+        },
+        {
+          "id": "q-entrance-earth-05-015-c3",
+          "text": "浅くて暖かい海"
+        },
+        {
+          "id": "q-entrance-earth-05-015-c4",
+          "text": "浅くて凍った海"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-015-c3",
+      "explanation": "サンゴの化石は浅くて暖かい海の環境を示す。",
+      "source": {
+        "page": 106,
+        "question": 15
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-016",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 16,
+      "text": "アサリの化石がある地層は、どのような海でできたと考える？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-016-c1",
+          "text": "深海"
+        },
+        {
+          "id": "q-entrance-earth-05-016-c2",
+          "text": "必ず氷に覆われた海"
+        },
+        {
+          "id": "q-entrance-earth-05-016-c3",
+          "text": "海から遠い砂漠"
+        },
+        {
+          "id": "q-entrance-earth-05-016-c4",
+          "text": "浅い海"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-016-c4",
+      "explanation": "アサリは浅い海にすむため、浅い海の堆積環境を示す。",
+      "source": {
+        "page": 106,
+        "question": 16
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-017",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 17,
+      "text": "地層が堆積した年代を知る手がかりとなる化石は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-017-c1",
+          "text": "示準化石"
+        },
+        {
+          "id": "q-entrance-earth-05-017-c2",
+          "text": "示相化石"
+        },
+        {
+          "id": "q-entrance-earth-05-017-c3",
+          "text": "かぎ層"
+        },
+        {
+          "id": "q-entrance-earth-05-017-c4",
+          "text": "鉱物"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-017-c1",
+      "explanation": "示準化石は特定の時代に広く分布した生物の化石である。",
+      "source": {
+        "page": 106,
+        "question": 17
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-018",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 18,
+      "text": "新生代の示準化石はどれ？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-018-c1",
+          "text": "アンモナイト"
+        },
+        {
+          "id": "q-entrance-earth-05-018-c2",
+          "text": "ビカリア"
+        },
+        {
+          "id": "q-entrance-earth-05-018-c3",
+          "text": "フズリナ"
+        },
+        {
+          "id": "q-entrance-earth-05-018-c4",
+          "text": "サンヨウチュウ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-018-c2",
+      "explanation": "ビカリアは新生代、アンモナイトは中生代、フズリナとサンヨウチュウは古生代。",
+      "source": {
+        "page": 106,
+        "question": 18
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-019",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 19,
+      "text": "アンモナイトが栄えた中生代に栄えた生物は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-019-c1",
+          "text": "ナウマンゾウ"
+        },
+        {
+          "id": "q-entrance-earth-05-019-c2",
+          "text": "サンヨウチュウ"
+        },
+        {
+          "id": "q-entrance-earth-05-019-c3",
+          "text": "ティラノサウルス"
+        },
+        {
+          "id": "q-entrance-earth-05-019-c4",
+          "text": "フズリナ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-019-c3",
+      "explanation": "アンモナイトと恐竜のティラノサウルスは中生代に栄えた。",
+      "source": {
+        "page": 106,
+        "question": 19
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-020",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 20,
+      "text": "示準化石になる生物の分布範囲と生存期間の特徴は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-020-c1",
+          "text": "分布が狭く、生存期間が長い"
+        },
+        {
+          "id": "q-entrance-earth-05-020-c2",
+          "text": "分布が広く、生存期間が長い"
+        },
+        {
+          "id": "q-entrance-earth-05-020-c3",
+          "text": "分布が狭く、生存期間が短い"
+        },
+        {
+          "id": "q-entrance-earth-05-020-c4",
+          "text": "分布が広く、生存期間が短い"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-020-c4",
+      "explanation": "広い地域で地層を比べられ、短い期間を特定できる生物が適している。",
+      "source": {
+        "page": 106,
+        "question": 20
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-021",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 21,
+      "text": "離れた地点の地層を対比する手がかりとなる層は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-021-c1",
+          "text": "かぎ層"
+        },
+        {
+          "id": "q-entrance-earth-05-021-c2",
+          "text": "マントル"
+        },
+        {
+          "id": "q-entrance-earth-05-021-c3",
+          "text": "核"
+        },
+        {
+          "id": "q-entrance-earth-05-021-c4",
+          "text": "雲の層"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-021-c1",
+      "explanation": "特徴が明確で広く分布する火山灰の層などが、かぎ層として使われる。",
+      "source": {
+        "page": 106,
+        "question": 21
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-022",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 22,
+      "text": "図のAのような地層のずれは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-022-c1",
+          "text": "しゅう曲"
+        },
+        {
+          "id": "q-entrance-earth-05-022-c2",
+          "text": "断層"
+        },
+        {
+          "id": "q-entrance-earth-05-022-c3",
+          "text": "風化"
+        },
+        {
+          "id": "q-entrance-earth-05-022-c4",
+          "text": "堆積"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-022-c2",
+      "explanation": "大きな力で地層が切れてずれたものが断層である。",
+      "source": {
+        "page": 107,
+        "question": 22
+      },
+      "material": {
+        "type": "image",
+        "title": "地層の変形（模式図）",
+        "image": "science-deformation",
+        "alt": "Aは斜めの切れ目を境に地層がずれている。Bは地層が連続したまま波状に曲がる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-023",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 23,
+      "text": "図のBのような地層の曲がりは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-023-c1",
+          "text": "断層"
+        },
+        {
+          "id": "q-entrance-earth-05-023-c2",
+          "text": "侵食"
+        },
+        {
+          "id": "q-entrance-earth-05-023-c3",
+          "text": "しゅう曲"
+        },
+        {
+          "id": "q-entrance-earth-05-023-c4",
+          "text": "運搬"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-023-c3",
+      "explanation": "地層が大きな力を受けて波状に曲がることをしゅう曲という。",
+      "source": {
+        "page": 107,
+        "question": 23
+      },
+      "material": {
+        "type": "image",
+        "title": "地層の変形（模式図）",
+        "image": "science-deformation",
+        "alt": "Aは斜めの切れ目を境に地層がずれている。Bは地層が連続したまま波状に曲がる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-05-024",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-05",
+      "order": 24,
+      "text": "貝の化石の層と火山灰の層があり、断層は火山灰の層もずらしている。古い順に並べると？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-05-024-c1",
+          "text": "断層の形成→火山の噴火→貝の層の堆積"
+        },
+        {
+          "id": "q-entrance-earth-05-024-c2",
+          "text": "火山の噴火→貝の層の堆積→断層の形成"
+        },
+        {
+          "id": "q-entrance-earth-05-024-c3",
+          "text": "貝の層の堆積→断層の形成→火山の噴火"
+        },
+        {
+          "id": "q-entrance-earth-05-024-c4",
+          "text": "貝の層の堆積→火山の噴火→断層の形成"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-05-024-c4",
+      "explanation": "火山灰が貝の層の上にあれば噴火が後。火山灰もずれているので断層はさらに後である。",
+      "source": {
+        "page": 107,
+        "question": 24
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 1,
+      "text": "図の天気記号A〜Eの対応として正しいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-001-c1",
+          "text": "A快晴・B晴れ・Cくもり・D雨・E雪"
+        },
+        {
+          "id": "q-entrance-earth-06-001-c2",
+          "text": "A晴れ・B快晴・C雨・Dくもり・E雪"
+        },
+        {
+          "id": "q-entrance-earth-06-001-c3",
+          "text": "A快晴・Bくもり・C晴れ・D雪・E雨"
+        },
+        {
+          "id": "q-entrance-earth-06-001-c4",
+          "text": "A雨・B雪・Cくもり・D晴れ・E快晴"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-001-c1",
+      "explanation": "快晴は白い円、晴れは縦線入り、くもりは二重円、雨は黒い円、雪は円内の6本の放射線で表す。",
+      "source": {
+        "page": 108,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "天気記号と天気図記号",
+        "image": "science-weather-symbols",
+        "alt": "Aは白い円、Bは縦線入りの円、Cは二重円、Dは黒い円、Eは六本の放射線入りの円。Fは二重円から西北西へ棒が伸び、羽根が三本ある。北は上。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 2,
+      "text": "雨も雪も降らず、空の7割が雲で覆われている。天気は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-002-c1",
+          "text": "快晴"
+        },
+        {
+          "id": "q-entrance-earth-06-002-c2",
+          "text": "晴れ"
+        },
+        {
+          "id": "q-entrance-earth-06-002-c3",
+          "text": "くもり"
+        },
+        {
+          "id": "q-entrance-earth-06-002-c4",
+          "text": "雨"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-002-c2",
+      "explanation": "雲量0〜1が快晴、2〜8が晴れ、9〜10がくもりである。",
+      "source": {
+        "page": 108,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 3,
+      "text": "天気・風向・風力をまとめて表す記号を何という？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-003-c1",
+          "text": "柱状図"
+        },
+        {
+          "id": "q-entrance-earth-06-003-c2",
+          "text": "化学式"
+        },
+        {
+          "id": "q-entrance-earth-06-003-c3",
+          "text": "天気図記号"
+        },
+        {
+          "id": "q-entrance-earth-06-003-c4",
+          "text": "地図の等高線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-003-c3",
+      "explanation": "天気図記号は天気、風向、風力をまとめて表す。",
+      "source": {
+        "page": 108,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 4,
+      "text": "図の天気図記号Fが示す風向・風力・天気は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-004-c1",
+          "text": "東南東・3・くもり"
+        },
+        {
+          "id": "q-entrance-earth-06-004-c2",
+          "text": "西北西・6・晴れ"
+        },
+        {
+          "id": "q-entrance-earth-06-004-c3",
+          "text": "東南東・6・晴れ"
+        },
+        {
+          "id": "q-entrance-earth-06-004-c4",
+          "text": "西北西・3・くもり"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-004-c4",
+      "explanation": "棒が伸びる方が風の吹いてくる方角で、羽根が風力、円が天気を表す。",
+      "source": {
+        "page": 108,
+        "question": 4
+      },
+      "material": {
+        "type": "image",
+        "title": "天気記号と天気図記号",
+        "image": "science-weather-symbols",
+        "alt": "Aは白い円、Bは縦線入りの円、Cは二重円、Dは黒い円、Eは六本の放射線入りの円。Fは二重円から西北西へ棒が伸び、羽根が三本ある。北は上。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 5,
+      "text": "等圧線は4 hPa間隔。1020 hPaから低圧側へ2本目の等圧線の気圧は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-005-c1",
+          "text": "1012 hPa"
+        },
+        {
+          "id": "q-entrance-earth-06-005-c2",
+          "text": "1016 hPa"
+        },
+        {
+          "id": "q-entrance-earth-06-005-c3",
+          "text": "1028 hPa"
+        },
+        {
+          "id": "q-entrance-earth-06-005-c4",
+          "text": "1008 hPa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-005-c1",
+      "explanation": "1020−4×2＝1012 hPaとなる。",
+      "source": {
+        "page": 109,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 6,
+      "text": "乾球14℃、湿球12℃のとき、表から求める湿度は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-006-c1",
+          "text": "89％"
+        },
+        {
+          "id": "q-entrance-earth-06-006-c2",
+          "text": "78％"
+        },
+        {
+          "id": "q-entrance-earth-06-006-c3",
+          "text": "72％"
+        },
+        {
+          "id": "q-entrance-earth-06-006-c4",
+          "text": "100％"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-006-c2",
+      "explanation": "乾球14℃の行と、差2℃の列の交点は78％である。",
+      "source": {
+        "page": 109,
+        "question": 6
+      },
+      "material": {
+        "type": "table",
+        "title": "湿度表（％）",
+        "headers": [
+          "乾球（℃）＼乾球−湿球（℃）",
+          0,
+          1,
+          2,
+          3
+        ],
+        "rows": [
+          [
+            12,
+            100,
+            88,
+            76,
+            65
+          ],
+          [
+            14,
+            100,
+            89,
+            78,
+            67
+          ],
+          [
+            16,
+            100,
+            89,
+            79,
+            69
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 7,
+      "text": "乾球19℃、湿球15℃のとき、気温は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-007-c1",
+          "text": "15℃"
+        },
+        {
+          "id": "q-entrance-earth-06-007-c2",
+          "text": "17℃"
+        },
+        {
+          "id": "q-entrance-earth-06-007-c3",
+          "text": "19℃"
+        },
+        {
+          "id": "q-entrance-earth-06-007-c4",
+          "text": "4℃"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-007-c3",
+      "explanation": "気温は乾球の示度で読む。湿球は蒸発により低い温度になる。",
+      "source": {
+        "page": 109,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 8,
+      "text": "気温を測る条件として正しいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-008-c1",
+          "text": "地上約15 mで、直射日光を当てる"
+        },
+        {
+          "id": "q-entrance-earth-06-008-c2",
+          "text": "地表に接して、直射日光を当てる"
+        },
+        {
+          "id": "q-entrance-earth-06-008-c3",
+          "text": "密閉した日なたで測る"
+        },
+        {
+          "id": "q-entrance-earth-06-008-c4",
+          "text": "地上約1.5 mで、直射日光を避ける"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-008-c4",
+      "explanation": "風通しがよく、地上約1.5 m、直射日光が当たらない場所で測る。",
+      "source": {
+        "page": 109,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-06-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-06",
+      "order": 9,
+      "text": "雨やくもりの日は、気温と湿度の一日の変化がどうなる傾向がある？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-06-009-c1",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-earth-06-009-c2",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-earth-06-009-c3",
+          "text": "必ず逆転する"
+        },
+        {
+          "id": "q-entrance-earth-06-009-c4",
+          "text": "必ずゼロになる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-06-009-c1",
+      "explanation": "日射の影響が小さく、晴れた日より日変化が小さい傾向がある。",
+      "source": {
+        "page": 109,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 1,
+      "text": "空気1 m³に含める水蒸気の最大質量を何という？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-001-c1",
+          "text": "湿度"
+        },
+        {
+          "id": "q-entrance-earth-07-001-c2",
+          "text": "飽和水蒸気量"
+        },
+        {
+          "id": "q-entrance-earth-07-001-c3",
+          "text": "露点"
+        },
+        {
+          "id": "q-entrance-earth-07-001-c4",
+          "text": "気圧"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-001-c2",
+      "explanation": "飽和水蒸気量は、その気温で空気1 m³に含める水蒸気の最大質量である。",
+      "source": {
+        "page": 110,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 2,
+      "text": "湿度＝実際の水蒸気量÷何×100？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-002-c1",
+          "text": "気圧"
+        },
+        {
+          "id": "q-entrance-earth-07-002-c2",
+          "text": "空気の質量"
+        },
+        {
+          "id": "q-entrance-earth-07-002-c3",
+          "text": "その気温の飽和水蒸気量"
+        },
+        {
+          "id": "q-entrance-earth-07-002-c4",
+          "text": "露点"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-002-c3",
+      "explanation": "湿度は飽和水蒸気量に対する、実際の水蒸気量の割合である。",
+      "source": {
+        "page": 110,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 3,
+      "text": "水蒸気量が変わらず気温だけ上がると、飽和水蒸気量と湿度は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-003-c1",
+          "text": "両方増える"
+        },
+        {
+          "id": "q-entrance-earth-07-003-c2",
+          "text": "両方減る"
+        },
+        {
+          "id": "q-entrance-earth-07-003-c3",
+          "text": "飽和水蒸気量は減り、湿度は上がる"
+        },
+        {
+          "id": "q-entrance-earth-07-003-c4",
+          "text": "飽和水蒸気量は増え、湿度は下がる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-003-c4",
+      "explanation": "気温が高いほど飽和水蒸気量が大きいので、同じ水蒸気量なら湿度は下がる。",
+      "source": {
+        "page": 110,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 4,
+      "text": "水を冷やして金属容器の表面に水滴が付き始める温度は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-004-c1",
+          "text": "露点"
+        },
+        {
+          "id": "q-entrance-earth-07-004-c2",
+          "text": "沸点"
+        },
+        {
+          "id": "q-entrance-earth-07-004-c3",
+          "text": "融点"
+        },
+        {
+          "id": "q-entrance-earth-07-004-c4",
+          "text": "南中高度"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-004-c1",
+      "explanation": "露点は水蒸気が凝結し始める温度である。",
+      "source": {
+        "page": 110,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 5,
+      "text": "室温22℃、露点14℃。表から部屋の湿度を小数第1位まで求めると？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-005-c1",
+          "text": "37.6％"
+        },
+        {
+          "id": "q-entrance-earth-07-005-c2",
+          "text": "62.4％"
+        },
+        {
+          "id": "q-entrance-earth-07-005-c3",
+          "text": "7.3％"
+        },
+        {
+          "id": "q-entrance-earth-07-005-c4",
+          "text": "100.0％"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-005-c2",
+      "explanation": "露点14℃での飽和水蒸気量12.1を、室温22℃での19.4で割り100を掛ける。",
+      "source": {
+        "page": 110,
+        "question": 5
+      },
+      "material": {
+        "type": "table",
+        "title": "飽和水蒸気量",
+        "headers": [
+          "気温（℃）",
+          "飽和水蒸気量（g/m³）"
+        ],
+        "rows": [
+          [
+            10,
+            9.4
+          ],
+          [
+            12,
+            10.7
+          ],
+          [
+            14,
+            12.1
+          ],
+          [
+            16,
+            13.6
+          ],
+          [
+            18,
+            15.4
+          ],
+          [
+            20,
+            17.3
+          ],
+          [
+            22,
+            19.4
+          ],
+          [
+            24,
+            21.8
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 6,
+      "text": "ぬるま湯と線香の煙を入れたフラスコから空気を急に引き出すと、内部は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-006-c1",
+          "text": "赤く発光する"
+        },
+        {
+          "id": "q-entrance-earth-07-006-c2",
+          "text": "必ず透明なままである"
+        },
+        {
+          "id": "q-entrance-earth-07-006-c3",
+          "text": "白くくもる"
+        },
+        {
+          "id": "q-entrance-earth-07-006-c4",
+          "text": "すべての水が凍る"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-006-c3",
+      "explanation": "空気が膨張して温度が下がり、水蒸気が水滴になるため白くくもる。",
+      "source": {
+        "page": 111,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 7,
+      "text": "空気のかたまりが上昇して雲ができる過程として正しいものは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-007-c1",
+          "text": "圧縮→温度上昇→水滴が水蒸気になる"
+        },
+        {
+          "id": "q-entrance-earth-07-007-c2",
+          "text": "膨張→温度上昇→水滴が水蒸気になる"
+        },
+        {
+          "id": "q-entrance-earth-07-007-c3",
+          "text": "圧縮→温度低下→酸素が水滴になる"
+        },
+        {
+          "id": "q-entrance-earth-07-007-c4",
+          "text": "膨張→温度低下→水蒸気が水滴や氷になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-007-c4",
+      "explanation": "上空ほど気圧が低く、上昇した空気は膨張して冷え、凝結が起こる。",
+      "source": {
+        "page": 111,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 8,
+      "text": "寒冷前線で上昇した空気は冷えて、何に達すると雲ができやすくなる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-008-c1",
+          "text": "露点"
+        },
+        {
+          "id": "q-entrance-earth-07-008-c2",
+          "text": "沸点"
+        },
+        {
+          "id": "q-entrance-earth-07-008-c3",
+          "text": "融点"
+        },
+        {
+          "id": "q-entrance-earth-07-008-c4",
+          "text": "絶対零度"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-008-c1",
+      "explanation": "空気が露点まで冷えると水蒸気が凝結し、雲の粒ができる。",
+      "source": {
+        "page": 111,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-07-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-07",
+      "order": 9,
+      "text": "温暖前線では、暖気が何の上をゆるやかに上昇する？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-07-009-c1",
+          "text": "暖気だけ"
+        },
+        {
+          "id": "q-entrance-earth-07-009-c2",
+          "text": "寒気"
+        },
+        {
+          "id": "q-entrance-earth-07-009-c3",
+          "text": "マグマ"
+        },
+        {
+          "id": "q-entrance-earth-07-009-c4",
+          "text": "真空"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-07-009-c2",
+      "explanation": "暖気が寒気の上へゆるやかにはい上がり、広い範囲に雲ができる。",
+      "source": {
+        "page": 111,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 1,
+      "text": "圧力の単位Paの読み方は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-001-c1",
+          "text": "ヘクトパスカル"
+        },
+        {
+          "id": "q-entrance-earth-08-001-c2",
+          "text": "ニュートン"
+        },
+        {
+          "id": "q-entrance-earth-08-001-c3",
+          "text": "パスカル"
+        },
+        {
+          "id": "q-entrance-earth-08-001-c4",
+          "text": "ジュール"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-001-c3",
+      "explanation": "Paはパスカル。hPaはヘクトパスカルである。",
+      "source": {
+        "page": 112,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 2,
+      "text": "片足で立つとき、両足で立つ場合と比べて床に加える力は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-002-c1",
+          "text": "2倍になる"
+        },
+        {
+          "id": "q-entrance-earth-08-002-c2",
+          "text": "半分になる"
+        },
+        {
+          "id": "q-entrance-earth-08-002-c3",
+          "text": "ゼロになる"
+        },
+        {
+          "id": "q-entrance-earth-08-002-c4",
+          "text": "変わらない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-002-c4",
+      "explanation": "同じ人の重さは変わらないため、床を押す力の合計も変わらない。",
+      "source": {
+        "page": 112,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 3,
+      "text": "片足で立つとき、両足で立つ場合と比べて床に加える圧力は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-003-c1",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-earth-08-003-c2",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-earth-08-003-c3",
+          "text": "変わらない"
+        },
+        {
+          "id": "q-entrance-earth-08-003-c4",
+          "text": "ゼロになる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-003-c1",
+      "explanation": "同じ力でも接する面積が小さくなると、圧力は大きくなる。",
+      "source": {
+        "page": 112,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 4,
+      "text": "質量2.4 kgの物体が床を押す力は？100 gの物体の重力を1 Nとする。",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-004-c1",
+          "text": "2.4 N"
+        },
+        {
+          "id": "q-entrance-earth-08-004-c2",
+          "text": "24 N"
+        },
+        {
+          "id": "q-entrance-earth-08-004-c3",
+          "text": "240 N"
+        },
+        {
+          "id": "q-entrance-earth-08-004-c4",
+          "text": "0.24 N"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-004-c2",
+      "explanation": "2.4 kg＝2400 gなので、2400÷100＝24 Nとなる。",
+      "source": {
+        "page": 112,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 5,
+      "text": "図の物体の質量は2.4 kg。A面を下に置いたときの圧力は？100 gの重力を1 Nとする。",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-005-c1",
+          "text": "120 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-005-c2",
+          "text": "2000 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-005-c3",
+          "text": "1200 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-005-c4",
+          "text": "4000 Pa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-005-c3",
+      "explanation": "A面は20×10＝200 cm²＝0.02 m²。24÷0.02＝1200 Pa。",
+      "source": {
+        "page": 112,
+        "question": 5
+      },
+      "material": {
+        "type": "image",
+        "title": "直方体の寸法と面",
+        "image": "science-block",
+        "alt": "直方体の寸法は縦6 cm、横10 cm、奥行20 cm。Aは20×10 cm、Bは6×10 cm、Cは6×20 cmの面。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 6,
+      "text": "図の物体が床に最も大きな圧力を加えるのは、どの面を下にしたとき？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-006-c1",
+          "text": "A面"
+        },
+        {
+          "id": "q-entrance-earth-08-006-c2",
+          "text": "C面"
+        },
+        {
+          "id": "q-entrance-earth-08-006-c3",
+          "text": "どの面でも同じ"
+        },
+        {
+          "id": "q-entrance-earth-08-006-c4",
+          "text": "B面"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-006-c4",
+      "explanation": "B面は6×10＝60 cm²で最小の面積なので、圧力が最大になる。",
+      "source": {
+        "page": 112,
+        "question": 6
+      },
+      "material": {
+        "type": "image",
+        "title": "直方体の寸法と面",
+        "image": "science-block",
+        "alt": "直方体の寸法は縦6 cm、横10 cm、奥行20 cm。Aは20×10 cm、Bは6×10 cm、Cは6×20 cmの面。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 7,
+      "text": "質量20 kg、接触面積0.002 m²の物体が机に加える圧力は？100 gの重力を1 Nとする。",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-007-c1",
+          "text": "100000 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-007-c2",
+          "text": "10000 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-007-c3",
+          "text": "1000 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-007-c4",
+          "text": "100 Pa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-007-c1",
+      "explanation": "押す力は200 N。200÷0.002＝100000 Paとなる。",
+      "source": {
+        "page": 113,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 8,
+      "text": "一辺5.0 cmの立方体が床に加える圧力は800 Pa。質量は？100 gの重力を1 Nとする。",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-008-c1",
+          "text": "20 g"
+        },
+        {
+          "id": "q-entrance-earth-08-008-c2",
+          "text": "200 g"
+        },
+        {
+          "id": "q-entrance-earth-08-008-c3",
+          "text": "800 g"
+        },
+        {
+          "id": "q-entrance-earth-08-008-c4",
+          "text": "2000 g"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-008-c2",
+      "explanation": "底面積0.0025 m²、力800×0.0025＝2 N。質量は200 g。",
+      "source": {
+        "page": 113,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 9,
+      "text": "空気にはたらく重力によって生じる圧力は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-009-c1",
+          "text": "浮力"
+        },
+        {
+          "id": "q-entrance-earth-08-009-c2",
+          "text": "摩擦力"
+        },
+        {
+          "id": "q-entrance-earth-08-009-c3",
+          "text": "大気圧"
+        },
+        {
+          "id": "q-entrance-earth-08-009-c4",
+          "text": "磁力"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-009-c3",
+      "explanation": "空気にも重さがあり、その重力によって大気圧が生じる。",
+      "source": {
+        "page": 113,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 10,
+      "text": "hPaの読み方は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-010-c1",
+          "text": "パスカル"
+        },
+        {
+          "id": "q-entrance-earth-08-010-c2",
+          "text": "ニュートン"
+        },
+        {
+          "id": "q-entrance-earth-08-010-c3",
+          "text": "アンペア"
+        },
+        {
+          "id": "q-entrance-earth-08-010-c4",
+          "text": "ヘクトパスカル"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-010-c4",
+      "explanation": "hは100倍を示す接頭語ヘクトで、hPaはヘクトパスカル。",
+      "source": {
+        "page": 113,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 11,
+      "text": "1気圧は約何hPa？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-011-c1",
+          "text": "1013 hPa"
+        },
+        {
+          "id": "q-entrance-earth-08-011-c2",
+          "text": "100 hPa"
+        },
+        {
+          "id": "q-entrance-earth-08-011-c3",
+          "text": "10130 hPa"
+        },
+        {
+          "id": "q-entrance-earth-08-011-c4",
+          "text": "10.13 hPa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-011-c1",
+      "explanation": "標準的な1気圧は約1013 hPaである。",
+      "source": {
+        "page": 113,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 12,
+      "text": "1 hPaは何Pa？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-012-c1",
+          "text": "10 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-012-c2",
+          "text": "100 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-012-c3",
+          "text": "1000 Pa"
+        },
+        {
+          "id": "q-entrance-earth-08-012-c4",
+          "text": "0.01 Pa"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-012-c2",
+      "explanation": "ヘクトは100倍なので、1 hPa＝100 Pa。",
+      "source": {
+        "page": 113,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-013",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 13,
+      "text": "大気圧が物体の表面にはたらく向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-013-c1",
+          "text": "上から下だけ"
+        },
+        {
+          "id": "q-entrance-earth-08-013-c2",
+          "text": "水平方向だけ"
+        },
+        {
+          "id": "q-entrance-earth-08-013-c3",
+          "text": "あらゆる方向から、表面に垂直"
+        },
+        {
+          "id": "q-entrance-earth-08-013-c4",
+          "text": "表面に平行"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-013-c3",
+      "explanation": "大気圧はすべての方向から、物体の表面に垂直にはたらく。",
+      "source": {
+        "page": 113,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-earth-08-014",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-08",
+      "order": 14,
+      "text": "標高が高くなると、気圧はどうなる傾向がある？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-08-014-c1",
+          "text": "高くなる"
+        },
+        {
+          "id": "q-entrance-earth-08-014-c2",
+          "text": "必ず同じ"
+        },
+        {
+          "id": "q-entrance-earth-08-014-c3",
+          "text": "必ずゼロ"
+        },
+        {
+          "id": "q-entrance-earth-08-014-c4",
+          "text": "低くなる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-08-014-c4",
+      "explanation": "高い場所ほど上にある空気の量が少なくなるため、気圧が低くなる。",
+      "source": {
+        "page": 113,
+        "question": 14
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 1,
+      "text": "風は気圧の高い場所と低い場所のどちらからどちらへ吹く？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-001-c1",
+          "text": "高い場所から低い場所へ"
+        },
+        {
+          "id": "q-entrance-earth-09-001-c2",
+          "text": "低い場所から高い場所へ"
+        },
+        {
+          "id": "q-entrance-earth-09-001-c3",
+          "text": "高い場所から同じ高さの場所へだけ"
+        },
+        {
+          "id": "q-entrance-earth-09-001-c4",
+          "text": "気圧と関係なく必ず北から南へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-001-c1",
+      "explanation": "気圧差により空気は高圧側から低圧側へ動く。",
+      "source": {
+        "page": 114,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 2,
+      "text": "等圧線の間隔が狭いほど、風は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-002-c1",
+          "text": "弱い"
+        },
+        {
+          "id": "q-entrance-earth-09-002-c2",
+          "text": "強い"
+        },
+        {
+          "id": "q-entrance-earth-09-002-c3",
+          "text": "必ず無風"
+        },
+        {
+          "id": "q-entrance-earth-09-002-c4",
+          "text": "必ず南風"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-002-c2",
+      "explanation": "狭い距離での気圧差が大きいため、風が強くなりやすい。",
+      "source": {
+        "page": 114,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 3,
+      "text": "日本付近の高気圧で、地表付近の風の流れは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-003-c1",
+          "text": "反時計回りに吹き出す"
+        },
+        {
+          "id": "q-entrance-earth-09-003-c2",
+          "text": "時計回りに吹き込む"
+        },
+        {
+          "id": "q-entrance-earth-09-003-c3",
+          "text": "時計回りに吹き出す"
+        },
+        {
+          "id": "q-entrance-earth-09-003-c4",
+          "text": "反時計回りに吹き込む"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-003-c3",
+      "explanation": "北半球の高気圧では、地表付近で時計回りに風が吹き出す。",
+      "source": {
+        "page": 114,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 4,
+      "text": "高気圧の中心付近の気流と雲のできやすさは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-004-c1",
+          "text": "上昇気流で、雲ができやすい"
+        },
+        {
+          "id": "q-entrance-earth-09-004-c2",
+          "text": "下降気流で、雲ができやすい"
+        },
+        {
+          "id": "q-entrance-earth-09-004-c3",
+          "text": "上昇気流で、雲ができにくい"
+        },
+        {
+          "id": "q-entrance-earth-09-004-c4",
+          "text": "下降気流で、雲ができにくい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-004-c4",
+      "explanation": "下降する空気は圧縮されて温度が上がり、雲ができにくくなる。",
+      "source": {
+        "page": 114,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 5,
+      "text": "日本付近の低気圧で、地表付近の風の流れは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-005-c1",
+          "text": "反時計回りに吹き込む"
+        },
+        {
+          "id": "q-entrance-earth-09-005-c2",
+          "text": "時計回りに吹き込む"
+        },
+        {
+          "id": "q-entrance-earth-09-005-c3",
+          "text": "反時計回りに吹き出す"
+        },
+        {
+          "id": "q-entrance-earth-09-005-c4",
+          "text": "時計回りに吹き出す"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-005-c1",
+      "explanation": "北半球の低気圧では、地表付近で反時計回りに風が吹き込む。",
+      "source": {
+        "page": 114,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 6,
+      "text": "低気圧の中心付近で雲ができやすい理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-006-c1",
+          "text": "下降した空気が圧縮されて暖まるから"
+        },
+        {
+          "id": "q-entrance-earth-09-006-c2",
+          "text": "上昇した空気が膨張して冷え、露点に達するから"
+        },
+        {
+          "id": "q-entrance-earth-09-006-c3",
+          "text": "酸素が凝結するから"
+        },
+        {
+          "id": "q-entrance-earth-09-006-c4",
+          "text": "空気が燃えるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-006-c2",
+      "explanation": "上昇気流による膨張・冷却で水蒸気が凝結する。",
+      "source": {
+        "page": 115,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 7,
+      "text": "中緯度で発生し、前線を伴う低気圧は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-007-c1",
+          "text": "熱帯低気圧"
+        },
+        {
+          "id": "q-entrance-earth-09-007-c2",
+          "text": "高気圧"
+        },
+        {
+          "id": "q-entrance-earth-09-007-c3",
+          "text": "温帯低気圧"
+        },
+        {
+          "id": "q-entrance-earth-09-007-c4",
+          "text": "シベリア気団"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-007-c3",
+      "explanation": "温帯低気圧は異なる性質の空気の境界にでき、前線を伴う。",
+      "source": {
+        "page": 115,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 8,
+      "text": "日本付近の温帯低気圧に付く前線の配置は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-008-c1",
+          "text": "西側に温暖前線、東側に寒冷前線"
+        },
+        {
+          "id": "q-entrance-earth-09-008-c2",
+          "text": "両側とも寒冷前線"
+        },
+        {
+          "id": "q-entrance-earth-09-008-c3",
+          "text": "前線は付かない"
+        },
+        {
+          "id": "q-entrance-earth-09-008-c4",
+          "text": "西側に寒冷前線、東側に温暖前線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-008-c4",
+      "explanation": "日本付近では、低気圧から西側に寒冷前線、東側に温暖前線が伸びる形が基本。",
+      "source": {
+        "page": 115,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 9,
+      "text": "水は岩石と比べて、暖まりやすさと冷えやすさがどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-009-c1",
+          "text": "暖まりにくく、冷えにくい"
+        },
+        {
+          "id": "q-entrance-earth-09-009-c2",
+          "text": "暖まりやすく、冷えやすい"
+        },
+        {
+          "id": "q-entrance-earth-09-009-c3",
+          "text": "暖まりやすく、冷えにくい"
+        },
+        {
+          "id": "q-entrance-earth-09-009-c4",
+          "text": "暖まりにくく、冷えやすい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-009-c1",
+      "explanation": "水は温度を変えるのに多くの熱を要し、陸より温度変化が小さい。",
+      "source": {
+        "page": 115,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 10,
+      "text": "晴れた昼に海風が吹く理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-010-c1",
+          "text": "海が暖まり、海上の気圧が陸上より低くなるから"
+        },
+        {
+          "id": "q-entrance-earth-09-010-c2",
+          "text": "陸が暖まり、陸上の気圧が海上より低くなるから"
+        },
+        {
+          "id": "q-entrance-earth-09-010-c3",
+          "text": "陸上の気圧が高くなるから"
+        },
+        {
+          "id": "q-entrance-earth-09-010-c4",
+          "text": "海風は陸から海へ吹くから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-010-c2",
+      "explanation": "昼は陸が早く暖まり、海から陸へ空気が流れる。",
+      "source": {
+        "page": 115,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-09-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-09",
+      "order": 11,
+      "text": "晴れた夜に吹く陸風の向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-09-011-c1",
+          "text": "海から陸へ"
+        },
+        {
+          "id": "q-entrance-earth-09-011-c2",
+          "text": "北から南へだけ"
+        },
+        {
+          "id": "q-entrance-earth-09-011-c3",
+          "text": "陸から海へ"
+        },
+        {
+          "id": "q-entrance-earth-09-011-c4",
+          "text": "必ず東から西へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-09-011-c3",
+      "explanation": "夜は陸が早く冷え、陸上が相対的に高圧になって陸から海へ吹く。",
+      "source": {
+        "page": 115,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 1,
+      "text": "図のAに対応する前線の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-001-c1",
+          "text": "温暖前線"
+        },
+        {
+          "id": "q-entrance-earth-10-001-c2",
+          "text": "停滞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-001-c3",
+          "text": "閉塞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-001-c4",
+          "text": "寒冷前線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-001-c4",
+      "explanation": "寒気が暖気の下に入り込み、暖気を急に押し上げて進むのが寒冷前線。",
+      "source": {
+        "page": 116,
+        "question": 1
+      },
+      "material": {
+        "type": "image",
+        "title": "二つの前線の断面（模式図）",
+        "image": "science-fronts",
+        "alt": "Aは寒気が右へ進み暖気の下に入り、暖気を急に押し上げる。Bは暖気が右へ進み寒気の上にゆるやかにはい上がる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 2,
+      "text": "図のBに対応する前線の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-002-c1",
+          "text": "温暖前線"
+        },
+        {
+          "id": "q-entrance-earth-10-002-c2",
+          "text": "寒冷前線"
+        },
+        {
+          "id": "q-entrance-earth-10-002-c3",
+          "text": "停滞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-002-c4",
+          "text": "閉塞前線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-002-c1",
+      "explanation": "暖気が寒気の上へゆるやかにはい上がるのが温暖前線。",
+      "source": {
+        "page": 116,
+        "question": 2
+      },
+      "material": {
+        "type": "image",
+        "title": "二つの前線の断面（模式図）",
+        "image": "science-fronts",
+        "alt": "Aは寒気が右へ進み暖気の下に入り、暖気を急に押し上げる。Bは暖気が右へ進み寒気の上にゆるやかにはい上がる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 3,
+      "text": "寒冷前線付近の寒気と暖気の動きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-003-c1",
+          "text": "暖気が寒気の下に入り込む"
+        },
+        {
+          "id": "q-entrance-earth-10-003-c2",
+          "text": "寒気が暖気の下に入り込み、暖気を押し上げる"
+        },
+        {
+          "id": "q-entrance-earth-10-003-c3",
+          "text": "寒気が上空から降るだけ"
+        },
+        {
+          "id": "q-entrance-earth-10-003-c4",
+          "text": "両方の空気が動かない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-003-c2",
+      "explanation": "冷たく密度の大きい寒気が下に入り込み、暖気を急に上昇させる。",
+      "source": {
+        "page": 116,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 4,
+      "text": "寒冷前線が通過した直後、気温は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-004-c1",
+          "text": "上がる"
+        },
+        {
+          "id": "q-entrance-earth-10-004-c2",
+          "text": "必ず一定"
+        },
+        {
+          "id": "q-entrance-earth-10-004-c3",
+          "text": "下がる"
+        },
+        {
+          "id": "q-entrance-earth-10-004-c4",
+          "text": "必ず0℃になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-004-c3",
+      "explanation": "前線通過後は寒気に覆われるため、気温が下がる。",
+      "source": {
+        "page": 116,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 5,
+      "text": "寒冷前線が通過するときの雨の特徴は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-005-c1",
+          "text": "長時間に弱い雨"
+        },
+        {
+          "id": "q-entrance-earth-10-005-c2",
+          "text": "必ず雨は降らない"
+        },
+        {
+          "id": "q-entrance-earth-10-005-c3",
+          "text": "必ず雪だけが降る"
+        },
+        {
+          "id": "q-entrance-earth-10-005-c4",
+          "text": "短時間に強い雨"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-005-c4",
+      "explanation": "暖気が急に上昇し、発達した雲から短時間に強い雨が降りやすい。",
+      "source": {
+        "page": 116,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 6,
+      "text": "寒冷前線付近で発達する雲は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-006-c1",
+          "text": "積乱雲"
+        },
+        {
+          "id": "q-entrance-earth-10-006-c2",
+          "text": "乱層雲"
+        },
+        {
+          "id": "q-entrance-earth-10-006-c3",
+          "text": "巻雲"
+        },
+        {
+          "id": "q-entrance-earth-10-006-c4",
+          "text": "巻層雲"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-006-c1",
+      "explanation": "急な上昇気流により、上下に発達した積乱雲ができやすい。",
+      "source": {
+        "page": 116,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 7,
+      "text": "寒冷前線が通過した後、日本付近では風向はどう変わりやすい？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-007-c1",
+          "text": "南寄りになる"
+        },
+        {
+          "id": "q-entrance-earth-10-007-c2",
+          "text": "北寄りになる"
+        },
+        {
+          "id": "q-entrance-earth-10-007-c3",
+          "text": "必ず無風になる"
+        },
+        {
+          "id": "q-entrance-earth-10-007-c4",
+          "text": "必ず同じまま"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-007-c2",
+      "explanation": "寒気が流れ込み、北寄りの風に変わることが多い。",
+      "source": {
+        "page": 117,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 8,
+      "text": "温暖前線付近の暖気の動きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-008-c1",
+          "text": "寒気の下へ入り込む"
+        },
+        {
+          "id": "q-entrance-earth-10-008-c2",
+          "text": "地表へ急に落下する"
+        },
+        {
+          "id": "q-entrance-earth-10-008-c3",
+          "text": "寒気の上へゆるやかにはい上がる"
+        },
+        {
+          "id": "q-entrance-earth-10-008-c4",
+          "text": "寒気を下から急に押す"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-008-c3",
+      "explanation": "図Bでは暖気が傾きのゆるい前線面を上昇している。",
+      "source": {
+        "page": 117,
+        "question": 8
+      },
+      "material": {
+        "type": "image",
+        "title": "二つの前線の断面（模式図）",
+        "image": "science-fronts",
+        "alt": "Aは寒気が右へ進み暖気の下に入り、暖気を急に押し上げる。Bは暖気が右へ進み寒気の上にゆるやかにはい上がる。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 9,
+      "text": "温暖前線が通過するときの雨の特徴は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-009-c1",
+          "text": "短時間に強い雨だけ"
+        },
+        {
+          "id": "q-entrance-earth-10-009-c2",
+          "text": "必ず降らない"
+        },
+        {
+          "id": "q-entrance-earth-10-009-c3",
+          "text": "必ず雷雨だけ"
+        },
+        {
+          "id": "q-entrance-earth-10-009-c4",
+          "text": "長時間に弱い雨"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-009-c4",
+      "explanation": "広い範囲に層状の雲ができ、弱い雨が長く続くことが多い。",
+      "source": {
+        "page": 117,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 10,
+      "text": "温暖前線付近で雨を降らせる代表的な雲は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-010-c1",
+          "text": "乱層雲"
+        },
+        {
+          "id": "q-entrance-earth-10-010-c2",
+          "text": "積乱雲"
+        },
+        {
+          "id": "q-entrance-earth-10-010-c3",
+          "text": "積雲"
+        },
+        {
+          "id": "q-entrance-earth-10-010-c4",
+          "text": "巻雲"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-010-c1",
+      "explanation": "層状に広がる乱層雲から、比較的弱い雨が長く降る。",
+      "source": {
+        "page": 117,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 11,
+      "text": "梅雨前線のように長時間ほぼ同じ位置にある前線は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-011-c1",
+          "text": "寒冷前線"
+        },
+        {
+          "id": "q-entrance-earth-10-011-c2",
+          "text": "停滞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-011-c3",
+          "text": "温暖前線"
+        },
+        {
+          "id": "q-entrance-earth-10-011-c4",
+          "text": "閉塞前線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-011-c2",
+      "explanation": "暖気と寒気の勢力がほぼ等しいと、前線が停滞しやすい。",
+      "source": {
+        "page": 117,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-10-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-10",
+      "order": 12,
+      "text": "寒冷前線が温暖前線に追い付いてできる前線は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-10-012-c1",
+          "text": "停滞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-012-c2",
+          "text": "温暖前線"
+        },
+        {
+          "id": "q-entrance-earth-10-012-c3",
+          "text": "閉塞前線"
+        },
+        {
+          "id": "q-entrance-earth-10-012-c4",
+          "text": "寒冷前線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-10-012-c3",
+      "explanation": "寒冷前線の方が進む速さが速く、追い付くと閉塞前線になる。",
+      "source": {
+        "page": 117,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 1,
+      "text": "冬の日本付近で見られる、西に高気圧、東に低気圧の配置は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-001-c1",
+          "text": "東高西低"
+        },
+        {
+          "id": "q-entrance-earth-11-001-c2",
+          "text": "南高北低"
+        },
+        {
+          "id": "q-entrance-earth-11-001-c3",
+          "text": "北高南低"
+        },
+        {
+          "id": "q-entrance-earth-11-001-c4",
+          "text": "西高東低"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-001-c4",
+      "explanation": "大陸側に高気圧、東の海上に低気圧がある冬型の気圧配置。",
+      "source": {
+        "page": 118,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 2,
+      "text": "冬に影響する気団と、その性質の組合せは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-002-c1",
+          "text": "シベリア気団・冷たく乾燥"
+        },
+        {
+          "id": "q-entrance-earth-11-002-c2",
+          "text": "小笠原気団・暖かく湿潤"
+        },
+        {
+          "id": "q-entrance-earth-11-002-c3",
+          "text": "オホーツク海気団・暖かく乾燥"
+        },
+        {
+          "id": "q-entrance-earth-11-002-c4",
+          "text": "シベリア気団・暖かく湿潤"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-002-c1",
+      "explanation": "シベリア気団は大陸上に発達する冷たく乾いた気団。",
+      "source": {
+        "page": 118,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 3,
+      "text": "冬型の気圧配置で、日本列島へ吹く季節風の向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-003-c1",
+          "text": "南東"
+        },
+        {
+          "id": "q-entrance-earth-11-003-c2",
+          "text": "北西"
+        },
+        {
+          "id": "q-entrance-earth-11-003-c3",
+          "text": "南西"
+        },
+        {
+          "id": "q-entrance-earth-11-003-c4",
+          "text": "北東"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-003-c2",
+      "explanation": "大陸側の高気圧から海上の低気圧へ、北西の季節風が吹く。",
+      "source": {
+        "page": 118,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 4,
+      "text": "冬の日本海側に雪や雨が多い理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-004-c1",
+          "text": "大陸からの風が初めから大量の水蒸気を含むから"
+        },
+        {
+          "id": "q-entrance-earth-11-004-c2",
+          "text": "海水がそのまま山を登るから"
+        },
+        {
+          "id": "q-entrance-earth-11-004-c3",
+          "text": "季節風が日本海で水蒸気を含み、山で上昇して雲をつくるから"
+        },
+        {
+          "id": "q-entrance-earth-11-004-c4",
+          "text": "太平洋からだけ水蒸気が来るから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-004-c3",
+      "explanation": "乾いた季節風が日本海で水蒸気を取り込み、山地で上昇して冷える。",
+      "source": {
+        "page": 118,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 5,
+      "text": "南に高気圧、北に低気圧がある配置がよく見られる季節は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-005-c1",
+          "text": "冬"
+        },
+        {
+          "id": "q-entrance-earth-11-005-c2",
+          "text": "梅雨だけ"
+        },
+        {
+          "id": "q-entrance-earth-11-005-c3",
+          "text": "秋だけ"
+        },
+        {
+          "id": "q-entrance-earth-11-005-c4",
+          "text": "夏"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-005-c4",
+      "explanation": "太平洋高気圧が張り出す夏には南高北低の配置がよく見られる。",
+      "source": {
+        "page": 118,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 6,
+      "text": "夏の日本に影響する気団と、その性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-006-c1",
+          "text": "小笠原気団・暖かく湿っている"
+        },
+        {
+          "id": "q-entrance-earth-11-006-c2",
+          "text": "シベリア気団・冷たく乾いている"
+        },
+        {
+          "id": "q-entrance-earth-11-006-c3",
+          "text": "オホーツク海気団・冷たく乾いている"
+        },
+        {
+          "id": "q-entrance-earth-11-006-c4",
+          "text": "小笠原気団・冷たく乾いている"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-006-c1",
+      "explanation": "小笠原気団は暖かい海上で発達する暖かく湿った気団。",
+      "source": {
+        "page": 119,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 7,
+      "text": "夏の日本に吹く季節風の代表的な向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-007-c1",
+          "text": "北西"
+        },
+        {
+          "id": "q-entrance-earth-11-007-c2",
+          "text": "南東"
+        },
+        {
+          "id": "q-entrance-earth-11-007-c3",
+          "text": "北東"
+        },
+        {
+          "id": "q-entrance-earth-11-007-c4",
+          "text": "南西だけ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-007-c2",
+      "explanation": "暖かい太平洋から湿った南東の季節風が吹き込みやすい。",
+      "source": {
+        "page": 119,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 8,
+      "text": "初夏に停滞前線が日本列島付近にとどまり、長雨になる時期は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-008-c1",
+          "text": "冬至"
+        },
+        {
+          "id": "q-entrance-earth-11-008-c2",
+          "text": "秋分"
+        },
+        {
+          "id": "q-entrance-earth-11-008-c3",
+          "text": "梅雨"
+        },
+        {
+          "id": "q-entrance-earth-11-008-c4",
+          "text": "台風の目"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-008-c3",
+      "explanation": "初夏の停滞前線を梅雨前線と呼び、この時期を梅雨という。",
+      "source": {
+        "page": 119,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 9,
+      "text": "梅雨のころ、日本付近でぶつかり合う代表的な2つの気団は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-009-c1",
+          "text": "シベリア気団と赤道気団"
+        },
+        {
+          "id": "q-entrance-earth-11-009-c2",
+          "text": "小笠原気団と小笠原気団"
+        },
+        {
+          "id": "q-entrance-earth-11-009-c3",
+          "text": "シベリア気団とシベリア気団"
+        },
+        {
+          "id": "q-entrance-earth-11-009-c4",
+          "text": "オホーツク海気団と小笠原気団"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-009-c4",
+      "explanation": "冷たく湿ったオホーツク海気団と、暖かく湿った小笠原気団がぶつかる。",
+      "source": {
+        "page": 119,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 10,
+      "text": "オホーツク海気団の性質は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-010-c1",
+          "text": "冷たく湿っている"
+        },
+        {
+          "id": "q-entrance-earth-11-010-c2",
+          "text": "暖かく乾いている"
+        },
+        {
+          "id": "q-entrance-earth-11-010-c3",
+          "text": "冷たく乾いている"
+        },
+        {
+          "id": "q-entrance-earth-11-010-c4",
+          "text": "暖かく湿っている"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-010-c1",
+      "explanation": "高緯度の海上で発達するため、冷たく湿った気団。",
+      "source": {
+        "page": 119,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 11,
+      "text": "春や秋の高気圧・低気圧を西から東へ移動させる上空の風は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-011-c1",
+          "text": "季節風"
+        },
+        {
+          "id": "q-entrance-earth-11-011-c2",
+          "text": "偏西風"
+        },
+        {
+          "id": "q-entrance-earth-11-011-c3",
+          "text": "海風"
+        },
+        {
+          "id": "q-entrance-earth-11-011-c4",
+          "text": "陸風"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-011-c2",
+      "explanation": "中緯度の上空の偏西風に乗って、天気を変える高低気圧が移動する。",
+      "source": {
+        "page": 119,
+        "question": 11
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 12,
+      "text": "北西太平洋や南シナ海にあり、中心付近の最大風速（10分間平均）が毎秒17.2 m以上の熱帯低気圧の名称は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-012-c1",
+          "text": "温帯低気圧"
+        },
+        {
+          "id": "q-entrance-earth-11-012-c2",
+          "text": "停滞前線"
+        },
+        {
+          "id": "q-entrance-earth-11-012-c3",
+          "text": "台風"
+        },
+        {
+          "id": "q-entrance-earth-11-012-c4",
+          "text": "高気圧"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-012-c3",
+      "explanation": "台風は北西太平洋や南シナ海にある熱帯低気圧のうち、最大風速が約17 m/s以上のもの。この教材では17.2 m/s以上と表している。",
+      "source": {
+        "page": 119,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-11-013",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-11",
+      "order": 13,
+      "text": "台風の進路に影響する、夏に張り出す高気圧は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-11-013-c1",
+          "text": "シベリア高気圧"
+        },
+        {
+          "id": "q-entrance-earth-11-013-c2",
+          "text": "移動性高気圧だけ"
+        },
+        {
+          "id": "q-entrance-earth-11-013-c3",
+          "text": "低気圧"
+        },
+        {
+          "id": "q-entrance-earth-11-013-c4",
+          "text": "太平洋高気圧"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-11-013-c4",
+      "explanation": "台風の進路は太平洋高気圧の張り出しや上空の風の影響を受ける。",
+      "source": {
+        "page": 119,
+        "question": 13
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 1,
+      "text": "太陽が真南に来たときの、地平線からの角度は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-001-c1",
+          "text": "南中高度"
+        },
+        {
+          "id": "q-entrance-earth-12-001-c2",
+          "text": "緯度"
+        },
+        {
+          "id": "q-entrance-earth-12-001-c3",
+          "text": "経度"
+        },
+        {
+          "id": "q-entrance-earth-12-001-c4",
+          "text": "地軸の傾き"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-001-c1",
+      "explanation": "南中高度は、太陽が南中したときの地平線からの高度角。",
+      "source": {
+        "page": 120,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 2,
+      "text": "北半球の中緯度で、図の夏至の日の太陽の通り道は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-002-c1",
+          "text": "B"
+        },
+        {
+          "id": "q-entrance-earth-12-002-c2",
+          "text": "A"
+        },
+        {
+          "id": "q-entrance-earth-12-002-c3",
+          "text": "C"
+        },
+        {
+          "id": "q-entrance-earth-12-002-c4",
+          "text": "どれも同じ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-002-c2",
+      "explanation": "夏至は南中高度が最も高く、昼も長い。図の最も高い経路が対応する。",
+      "source": {
+        "page": 120,
+        "question": 2
+      },
+      "material": {
+        "type": "image",
+        "title": "南の空に見える太陽の経路（模式図）",
+        "image": "science-sun-path",
+        "alt": "東から南を通り西へ進む経路。Aは最も高い弧、Bは中間、Cは最も低い弧。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 3,
+      "text": "太陽が東から西へ1日で動くように見える運動は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-003-c1",
+          "text": "年周運動"
+        },
+        {
+          "id": "q-entrance-earth-12-003-c2",
+          "text": "公転"
+        },
+        {
+          "id": "q-entrance-earth-12-003-c3",
+          "text": "日周運動"
+        },
+        {
+          "id": "q-entrance-earth-12-003-c4",
+          "text": "月の満ち欠け"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-003-c3",
+      "explanation": "地球の自転により、天体が1日で動くように見えることを日周運動という。",
+      "source": {
+        "page": 120,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 4,
+      "text": "天体の日周運動が生じる原因は、地球の何？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-004-c1",
+          "text": "公転"
+        },
+        {
+          "id": "q-entrance-earth-12-004-c2",
+          "text": "膨張"
+        },
+        {
+          "id": "q-entrance-earth-12-004-c3",
+          "text": "収縮"
+        },
+        {
+          "id": "q-entrance-earth-12-004-c4",
+          "text": "自転"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-004-c4",
+      "explanation": "地球が西から東へ自転するため、天体は東から西へ動くように見える。",
+      "source": {
+        "page": 120,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 5,
+      "text": "透明半球の太陽の記録で、1時間分の長さが4 cm。9時の印から日の出位置まで16 cmだった。日の出は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-005-c1",
+          "text": "5時"
+        },
+        {
+          "id": "q-entrance-earth-12-005-c2",
+          "text": "6時"
+        },
+        {
+          "id": "q-entrance-earth-12-005-c3",
+          "text": "7時"
+        },
+        {
+          "id": "q-entrance-earth-12-005-c4",
+          "text": "13時"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-005-c1",
+      "explanation": "16÷4＝4時間。9時より4時間前の5時が日の出。",
+      "source": {
+        "page": 120,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 6,
+      "text": "透明半球に太陽の位置を記録するとき、ペン先の影を円のどこに合わせる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-006-c1",
+          "text": "北の端"
+        },
+        {
+          "id": "q-entrance-earth-12-006-c2",
+          "text": "中心"
+        },
+        {
+          "id": "q-entrance-earth-12-006-c3",
+          "text": "南の端"
+        },
+        {
+          "id": "q-entrance-earth-12-006-c4",
+          "text": "円周のどこでもよい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-006-c2",
+      "explanation": "ペン先の影を円の中心に合わせると、中心から見た太陽の方向が記録できる。",
+      "source": {
+        "page": 121,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 7,
+      "text": "日の出から日の入りまでに地球が225°自転した。昼の長さは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-007-c1",
+          "text": "12時間"
+        },
+        {
+          "id": "q-entrance-earth-12-007-c2",
+          "text": "18時間"
+        },
+        {
+          "id": "q-entrance-earth-12-007-c3",
+          "text": "15時間"
+        },
+        {
+          "id": "q-entrance-earth-12-007-c4",
+          "text": "9時間"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-007-c3",
+      "explanation": "地球は1時間に15°自転する。225÷15＝15時間。",
+      "source": {
+        "page": 121,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 8,
+      "text": "真南に見えたオリオン座は、その後どちらへ動く？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-008-c1",
+          "text": "東へ"
+        },
+        {
+          "id": "q-entrance-earth-12-008-c2",
+          "text": "北へだけ"
+        },
+        {
+          "id": "q-entrance-earth-12-008-c3",
+          "text": "同じ位置にとどまる"
+        },
+        {
+          "id": "q-entrance-earth-12-008-c4",
+          "text": "西へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-008-c4",
+      "explanation": "星も日周運動によって東から西へ動いて見える。",
+      "source": {
+        "page": 121,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 9,
+      "text": "真南に見えた星座は、2時間後におよそどこに見える？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-009-c1",
+          "text": "真南から西へ30°"
+        },
+        {
+          "id": "q-entrance-earth-12-009-c2",
+          "text": "真南から東へ30°"
+        },
+        {
+          "id": "q-entrance-earth-12-009-c3",
+          "text": "真南から西へ15°"
+        },
+        {
+          "id": "q-entrance-earth-12-009-c4",
+          "text": "真南から東へ15°"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-009-c1",
+      "explanation": "星は1時間に約15°動くので、2時間で西へ約30°。",
+      "source": {
+        "page": 121,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-12-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-12",
+      "order": 10,
+      "text": "北の空の星の日周運動の中心・角速度・回転方向は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-12-010-c1",
+          "text": "北極星付近・毎時約1°・時計回り"
+        },
+        {
+          "id": "q-entrance-earth-12-010-c2",
+          "text": "北極星付近・毎時約15°・反時計回り"
+        },
+        {
+          "id": "q-entrance-earth-12-010-c3",
+          "text": "太陽付近・毎時約15°・反時計回り"
+        },
+        {
+          "id": "q-entrance-earth-12-010-c4",
+          "text": "月付近・毎時約1°・時計回り"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-12-010-c2",
+      "explanation": "北の空を正面に見ると、星は北極星付近を中心に反時計回りに動く。",
+      "source": {
+        "page": 121,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 1,
+      "text": "北極側から見た地球の自転と公転の向きは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-001-c1",
+          "text": "どちらも時計回り"
+        },
+        {
+          "id": "q-entrance-earth-13-001-c2",
+          "text": "自転は時計回り、公転は反時計回り"
+        },
+        {
+          "id": "q-entrance-earth-13-001-c3",
+          "text": "どちらも反時計回り"
+        },
+        {
+          "id": "q-entrance-earth-13-001-c4",
+          "text": "自転は反時計回り、公転は時計回り"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-001-c3",
+      "explanation": "北極側から見ると、自転も公転も反時計回りである。",
+      "source": {
+        "page": 122,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 2,
+      "text": "同じ時刻に見た星座の位置は、1日に約何度、どちらへずれる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-002-c1",
+          "text": "約15°、東から西へ"
+        },
+        {
+          "id": "q-entrance-earth-13-002-c2",
+          "text": "約1°、西から東へ"
+        },
+        {
+          "id": "q-entrance-earth-13-002-c3",
+          "text": "約30°、西から東へ"
+        },
+        {
+          "id": "q-entrance-earth-13-002-c4",
+          "text": "約1°、東から西へ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-002-c4",
+      "explanation": "公転により、同じ時刻の星の位置は1日に約1°西へずれる。",
+      "source": {
+        "page": 122,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 3,
+      "text": "季節で同じ時刻・同じ方角に見える星座が変わる原因は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-003-c1",
+          "text": "地球の公転"
+        },
+        {
+          "id": "q-entrance-earth-13-003-c2",
+          "text": "地球の自転だけ"
+        },
+        {
+          "id": "q-entrance-earth-13-003-c3",
+          "text": "月の自転"
+        },
+        {
+          "id": "q-entrance-earth-13-003-c4",
+          "text": "太陽の自転"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-003-c1",
+      "explanation": "公転で地球の夜側が向く宇宙の方向が変わるため、季節の星座が変わる。",
+      "source": {
+        "page": 122,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 4,
+      "text": "太陽が星座の間を1年かけて動くように見える通り道は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-004-c1",
+          "text": "赤道"
+        },
+        {
+          "id": "q-entrance-earth-13-004-c2",
+          "text": "黄道"
+        },
+        {
+          "id": "q-entrance-earth-13-004-c3",
+          "text": "日付変更線"
+        },
+        {
+          "id": "q-entrance-earth-13-004-c4",
+          "text": "緯線"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-004-c2",
+      "explanation": "太陽の年周運動による見かけの通り道を黄道という。",
+      "source": {
+        "page": 122,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 5,
+      "text": "明け方にオリオン座が南中するには、太陽とオリオン座の方向がどうなっている？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-005-c1",
+          "text": "オリオン座が太陽と同じ方向にある"
+        },
+        {
+          "id": "q-entrance-earth-13-005-c2",
+          "text": "オリオン座が太陽の真反対にある"
+        },
+        {
+          "id": "q-entrance-earth-13-005-c3",
+          "text": "オリオン座が太陽の方向より西へ約90°の方向にある"
+        },
+        {
+          "id": "q-entrance-earth-13-005-c4",
+          "text": "オリオン座が太陽の方向より東へ約90°の方向にある"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-005-c3",
+      "explanation": "明け方は太陽が東、南中する星座は南にあるので、太陽から西へ約90°の方向になる。",
+      "source": {
+        "page": 122,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 6,
+      "text": "北緯x°の地点の夏至の南中高度は？北半球の中緯度として答える。",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-006-c1",
+          "text": "90°−x°"
+        },
+        {
+          "id": "q-entrance-earth-13-006-c2",
+          "text": "66.6°−x°"
+        },
+        {
+          "id": "q-entrance-earth-13-006-c3",
+          "text": "90°＋x°"
+        },
+        {
+          "id": "q-entrance-earth-13-006-c4",
+          "text": "113.4°−x°"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-006-c4",
+      "explanation": "夏至は90°−緯度＋23.4°なので、113.4°−x°。",
+      "source": {
+        "page": 123,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 7,
+      "text": "季節によって昼の長さや南中高度が変わる理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-007-c1",
+          "text": "地軸を傾けたまま公転するから"
+        },
+        {
+          "id": "q-entrance-earth-13-007-c2",
+          "text": "地軸が公転面に垂直だから"
+        },
+        {
+          "id": "q-entrance-earth-13-007-c3",
+          "text": "地球の自転が止まるから"
+        },
+        {
+          "id": "q-entrance-earth-13-007-c4",
+          "text": "地球の半径が大きく変わるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-007-c1",
+      "explanation": "地軸は公転面への垂線から約23.4°傾いており、その向きをほぼ保って公転する。",
+      "source": {
+        "page": 123,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 8,
+      "text": "地軸の傾きが0°なら、同じ地点の太陽の南中高度は1年でどうなる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-008-c1",
+          "text": "夏だけ高くなる"
+        },
+        {
+          "id": "q-entrance-earth-13-008-c2",
+          "text": "変化しない"
+        },
+        {
+          "id": "q-entrance-earth-13-008-c3",
+          "text": "冬だけ高くなる"
+        },
+        {
+          "id": "q-entrance-earth-13-008-c4",
+          "text": "毎日15°変わる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-008-c2",
+      "explanation": "地軸の傾きがなければ、太陽の赤緯の季節変化がなくなる。",
+      "source": {
+        "page": 123,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 9,
+      "text": "北半球の中緯度で、太陽の南中高度が最も高い日は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-009-c1",
+          "text": "冬至"
+        },
+        {
+          "id": "q-entrance-earth-13-009-c2",
+          "text": "春分"
+        },
+        {
+          "id": "q-entrance-earth-13-009-c3",
+          "text": "夏至"
+        },
+        {
+          "id": "q-entrance-earth-13-009-c4",
+          "text": "秋分"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-009-c3",
+      "explanation": "夏至が最も高く、冬至が最も低い。春分と秋分は同じ高さ。",
+      "source": {
+        "page": 123,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-13-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-13",
+      "order": 10,
+      "text": "図の北半球の9月ごろの地球の位置は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-13-010-c1",
+          "text": "A"
+        },
+        {
+          "id": "q-entrance-earth-13-010-c2",
+          "text": "B"
+        },
+        {
+          "id": "q-entrance-earth-13-010-c3",
+          "text": "C"
+        },
+        {
+          "id": "q-entrance-earth-13-010-c4",
+          "text": "D"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-13-010-c4",
+      "explanation": "Aが夏、Cが冬。公転の向きに沿って夏の次のDが秋である。",
+      "source": {
+        "page": 123,
+        "question": 10
+      },
+      "material": {
+        "type": "image",
+        "title": "太陽と地球（北半球、模式図）",
+        "image": "science-seasons",
+        "alt": "地軸の傾く向きは一定。太陽の左側のAは北極側が太陽に傾く位置、右側Cは遠ざかる位置。公転はA→D→C→B→A。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 1,
+      "text": "太陽のように、自ら光を出す天体は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-001-c1",
+          "text": "恒星"
+        },
+        {
+          "id": "q-entrance-earth-14-001-c2",
+          "text": "惑星"
+        },
+        {
+          "id": "q-entrance-earth-14-001-c3",
+          "text": "衛星"
+        },
+        {
+          "id": "q-entrance-earth-14-001-c4",
+          "text": "小惑星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-001-c1",
+      "explanation": "自ら光を放つ天体を恒星といい、太陽も恒星である。",
+      "source": {
+        "page": 124,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 2,
+      "text": "天体望遠鏡で太陽を直接のぞいてはいけない理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-002-c1",
+          "text": "月の光が見えなくなるから"
+        },
+        {
+          "id": "q-entrance-earth-14-002-c2",
+          "text": "強い太陽光で目を痛めるから"
+        },
+        {
+          "id": "q-entrance-earth-14-002-c3",
+          "text": "空気の圧力が下がるから"
+        },
+        {
+          "id": "q-entrance-earth-14-002-c4",
+          "text": "地球の自転が止まるから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-002-c2",
+      "explanation": "望遠鏡は光を集めるため、太陽を直接見ると目に重大な傷害を与える危険がある。",
+      "source": {
+        "page": 124,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 3,
+      "text": "太陽の黒点が周囲より黒く見える理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-003-c1",
+          "text": "周囲より温度が高いから"
+        },
+        {
+          "id": "q-entrance-earth-14-003-c2",
+          "text": "穴が空いているから"
+        },
+        {
+          "id": "q-entrance-earth-14-003-c3",
+          "text": "周囲より温度が低いから"
+        },
+        {
+          "id": "q-entrance-earth-14-003-c4",
+          "text": "月の影だから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-003-c3",
+      "explanation": "黒点も光っているが、周囲より温度が低く暗く見える。",
+      "source": {
+        "page": 124,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 4,
+      "text": "日食のとき、太陽・月・地球はどの順に並ぶ？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-004-c1",
+          "text": "太陽→地球→月"
+        },
+        {
+          "id": "q-entrance-earth-14-004-c2",
+          "text": "月→太陽→地球"
+        },
+        {
+          "id": "q-entrance-earth-14-004-c3",
+          "text": "地球→太陽→月"
+        },
+        {
+          "id": "q-entrance-earth-14-004-c4",
+          "text": "太陽→月→地球"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-004-c4",
+      "explanation": "月が太陽と地球の間に入り、太陽の光を遮ると日食が起こる。",
+      "source": {
+        "page": 124,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 5,
+      "text": "月食が始まる直前の月の形は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-005-c1",
+          "text": "満月"
+        },
+        {
+          "id": "q-entrance-earth-14-005-c2",
+          "text": "新月"
+        },
+        {
+          "id": "q-entrance-earth-14-005-c3",
+          "text": "三日月"
+        },
+        {
+          "id": "q-entrance-earth-14-005-c4",
+          "text": "上弦の月"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-005-c1",
+      "explanation": "月食は太陽・地球・月が並ぶ満月のころに起こる。",
+      "source": {
+        "page": 124,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 6,
+      "text": "月のように惑星の周りを公転する天体は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-006-c1",
+          "text": "恒星"
+        },
+        {
+          "id": "q-entrance-earth-14-006-c2",
+          "text": "衛星"
+        },
+        {
+          "id": "q-entrance-earth-14-006-c3",
+          "text": "銀河"
+        },
+        {
+          "id": "q-entrance-earth-14-006-c4",
+          "text": "星雲"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-006-c2",
+      "explanation": "惑星の周りを回る天体を衛星という。",
+      "source": {
+        "page": 125,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 7,
+      "text": "月が欠けて見えるのは、月のどの部分の一部が見えるから？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-007-c1",
+          "text": "自ら発光している部分"
+        },
+        {
+          "id": "q-entrance-earth-14-007-c2",
+          "text": "地球の影に入った部分だけ"
+        },
+        {
+          "id": "q-entrance-earth-14-007-c3",
+          "text": "太陽光を反射している部分"
+        },
+        {
+          "id": "q-entrance-earth-14-007-c4",
+          "text": "光をすべて吸収する部分"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-007-c3",
+      "explanation": "通常の満ち欠けは、太陽に照らされた半球の見える割合が変わる現象。",
+      "source": {
+        "page": 125,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 8,
+      "text": "上弦の月は、午後6時ごろどの方角に見える？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-008-c1",
+          "text": "北"
+        },
+        {
+          "id": "q-entrance-earth-14-008-c2",
+          "text": "東"
+        },
+        {
+          "id": "q-entrance-earth-14-008-c3",
+          "text": "西"
+        },
+        {
+          "id": "q-entrance-earth-14-008-c4",
+          "text": "南"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-008-c4",
+      "explanation": "上弦の月は正午ごろ東から昇り、夕方に南中し、真夜中ごろ沈む。",
+      "source": {
+        "page": 125,
+        "question": 8
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 9,
+      "text": "上弦の月の、およその出・南中・入りの時刻は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-009-c1",
+          "text": "正午・午後6時・午前0時"
+        },
+        {
+          "id": "q-entrance-earth-14-009-c2",
+          "text": "午前6時・正午・午後6時"
+        },
+        {
+          "id": "q-entrance-earth-14-009-c3",
+          "text": "午後6時・午前0時・午前6時"
+        },
+        {
+          "id": "q-entrance-earth-14-009-c4",
+          "text": "午前0時・午前6時・正午"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-009-c1",
+      "explanation": "上弦の月は太陽より約90°東にあり、太陽より約6時間遅れて動いて見える。",
+      "source": {
+        "page": 125,
+        "question": 9
+      }
+    },
+    {
+      "id": "q-entrance-earth-14-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-14",
+      "order": 10,
+      "text": "三日月が見えた7日後、月の形はどう変わる？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-14-010-c1",
+          "text": "さらに細い三日月になる"
+        },
+        {
+          "id": "q-entrance-earth-14-010-c2",
+          "text": "半月よりふくらんだ月になる"
+        },
+        {
+          "id": "q-entrance-earth-14-010-c3",
+          "text": "必ず新月になる"
+        },
+        {
+          "id": "q-entrance-earth-14-010-c4",
+          "text": "必ず満月になる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-14-010-c2",
+      "explanation": "月の満ち欠けの周期は約29.5日。三日月から7日後は上弦を過ぎ、満月に向かう。",
+      "source": {
+        "page": 125,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 1,
+      "text": "太陽を中心とする天体の集まりは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-001-c1",
+          "text": "銀河系"
+        },
+        {
+          "id": "q-entrance-earth-15-001-c2",
+          "text": "星雲"
+        },
+        {
+          "id": "q-entrance-earth-15-001-c3",
+          "text": "太陽系"
+        },
+        {
+          "id": "q-entrance-earth-15-001-c4",
+          "text": "星団"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-001-c3",
+      "explanation": "太陽と、その周りを回る惑星・衛星・小惑星などをまとめて太陽系という。",
+      "source": {
+        "page": 126,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 2,
+      "text": "恒星の周りを回り、ある程度の質量と大きさをもつ天体は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-002-c1",
+          "text": "恒星"
+        },
+        {
+          "id": "q-entrance-earth-15-002-c2",
+          "text": "星雲"
+        },
+        {
+          "id": "q-entrance-earth-15-002-c3",
+          "text": "銀河"
+        },
+        {
+          "id": "q-entrance-earth-15-002-c4",
+          "text": "惑星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-002-c4",
+      "explanation": "この教材では恒星の周りを回る天体として惑星を扱う。",
+      "source": {
+        "page": 126,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 3,
+      "text": "太陽系の惑星は何個？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-003-c1",
+          "text": "8個"
+        },
+        {
+          "id": "q-entrance-earth-15-003-c2",
+          "text": "7個"
+        },
+        {
+          "id": "q-entrance-earth-15-003-c3",
+          "text": "9個"
+        },
+        {
+          "id": "q-entrance-earth-15-003-c4",
+          "text": "10個"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-003-c1",
+      "explanation": "水星・金星・地球・火星・木星・土星・天王星・海王星の8個。",
+      "source": {
+        "page": 126,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 4,
+      "text": "地球以外の地球型惑星は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-004-c1",
+          "text": "木星・土星・天王星"
+        },
+        {
+          "id": "q-entrance-earth-15-004-c2",
+          "text": "水星・金星・火星"
+        },
+        {
+          "id": "q-entrance-earth-15-004-c3",
+          "text": "金星・木星・海王星"
+        },
+        {
+          "id": "q-entrance-earth-15-004-c4",
+          "text": "火星・土星・海王星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-004-c2",
+      "explanation": "内側の水星、金星、地球、火星が岩石を主体とする地球型惑星。",
+      "source": {
+        "page": 126,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 5,
+      "text": "木星型惑星は地球型惑星と比べて、半径・質量・密度がどうか？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-005-c1",
+          "text": "半径と質量は小さく、密度は大きい"
+        },
+        {
+          "id": "q-entrance-earth-15-005-c2",
+          "text": "すべて大きい"
+        },
+        {
+          "id": "q-entrance-earth-15-005-c3",
+          "text": "半径と質量は大きく、密度は小さい"
+        },
+        {
+          "id": "q-entrance-earth-15-005-c4",
+          "text": "すべて小さい"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-005-c3",
+      "explanation": "外側の大型の惑星は、地球型惑星より平均密度が小さい。",
+      "source": {
+        "page": 126,
+        "question": 5
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-006",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 6,
+      "text": "主に火星と木星の軌道の間に多くある小天体は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-006-c1",
+          "text": "恒星"
+        },
+        {
+          "id": "q-entrance-earth-15-006-c2",
+          "text": "星雲"
+        },
+        {
+          "id": "q-entrance-earth-15-006-c3",
+          "text": "銀河"
+        },
+        {
+          "id": "q-entrance-earth-15-006-c4",
+          "text": "小惑星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-006-c4",
+      "explanation": "火星と木星の間には小惑星帯がある。",
+      "source": {
+        "page": 126,
+        "question": 6
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-007",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 7,
+      "text": "太陽系で、公転軌道が最も外側の惑星は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-007-c1",
+          "text": "海王星"
+        },
+        {
+          "id": "q-entrance-earth-15-007-c2",
+          "text": "天王星"
+        },
+        {
+          "id": "q-entrance-earth-15-007-c3",
+          "text": "土星"
+        },
+        {
+          "id": "q-entrance-earth-15-007-c4",
+          "text": "木星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-007-c1",
+      "explanation": "8惑星のうち最も外側を公転するのが海王星。",
+      "source": {
+        "page": 127,
+        "question": 7
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-008",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 8,
+      "text": "図の金星Aは、いつ、どの方角に見える？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-008-c1",
+          "text": "明け方、東"
+        },
+        {
+          "id": "q-entrance-earth-15-008-c2",
+          "text": "夕方、西"
+        },
+        {
+          "id": "q-entrance-earth-15-008-c3",
+          "text": "真夜中、南"
+        },
+        {
+          "id": "q-entrance-earth-15-008-c4",
+          "text": "正午、北"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-008-c2",
+      "explanation": "Aの金星は太陽の東側に見えるため、太陽が沈む夕方に西の空で見える。",
+      "source": {
+        "page": 127,
+        "question": 8
+      },
+      "material": {
+        "type": "image",
+        "title": "地球・金星・太陽（模式図）",
+        "image": "science-venus",
+        "alt": "太陽は中央、地球は外側の軌道の下。金星Aは内側軌道の左下、Bは下、Cは右下。公転の向きはAからBへ。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-009",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 9,
+      "text": "図の金星Aから、金星が公転の向きに進み地球に近づくと、見かけの大きさは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-009-c1",
+          "text": "小さくなる"
+        },
+        {
+          "id": "q-entrance-earth-15-009-c2",
+          "text": "必ず同じ"
+        },
+        {
+          "id": "q-entrance-earth-15-009-c3",
+          "text": "大きくなる"
+        },
+        {
+          "id": "q-entrance-earth-15-009-c4",
+          "text": "ゼロになる"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-009-c3",
+      "explanation": "同じ天体は地球からの距離が小さくなるほど、見かけの大きさが大きくなる。",
+      "source": {
+        "page": 127,
+        "question": 9
+      },
+      "material": {
+        "type": "image",
+        "title": "地球・金星・太陽（模式図）",
+        "image": "science-venus",
+        "alt": "太陽は中央、地球は外側の軌道の下。金星Aは内側軌道の左下、Bは下、Cは右下。公転の向きはAからBへ。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-010",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 10,
+      "text": "金星を真夜中に見られない主な理由は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-010-c1",
+          "text": "金星が夜だけ消えるから"
+        },
+        {
+          "id": "q-entrance-earth-15-010-c2",
+          "text": "金星が自ら光らない天体だからだけ"
+        },
+        {
+          "id": "q-entrance-earth-15-010-c3",
+          "text": "金星が地球より外側を公転するから"
+        },
+        {
+          "id": "q-entrance-earth-15-010-c4",
+          "text": "地球より内側を公転し、太陽から大きく離れて見えないから"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-010-c4",
+      "explanation": "内惑星は見かけ上太陽に近い位置にあるので、真夜中の空には見えない。",
+      "source": {
+        "page": 127,
+        "question": 10
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-011",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 11,
+      "text": "図で金星が右側の明るい半月状に見える位置は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-011-c1",
+          "text": "A"
+        },
+        {
+          "id": "q-entrance-earth-15-011-c2",
+          "text": "B"
+        },
+        {
+          "id": "q-entrance-earth-15-011-c3",
+          "text": "C"
+        },
+        {
+          "id": "q-entrance-earth-15-011-c4",
+          "text": "どの位置でも同じ"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-011-c1",
+      "explanation": "Aでは地球から見て、太陽に照らされた側が右側に見える。",
+      "source": {
+        "page": 127,
+        "question": 11
+      },
+      "material": {
+        "type": "image",
+        "title": "地球・金星・太陽（模式図）",
+        "image": "science-venus",
+        "alt": "太陽は中央、地球は外側の軌道の下。金星Aは内側軌道の左下、Bは下、Cは右下。公転の向きはAからBへ。"
+      }
+    },
+    {
+      "id": "q-entrance-earth-15-012",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-15",
+      "order": 12,
+      "text": "金星が三日月状に見えるときは、丸く見えるときと比べて見かけの大きさは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-15-012-c1",
+          "text": "小さい"
+        },
+        {
+          "id": "q-entrance-earth-15-012-c2",
+          "text": "大きい"
+        },
+        {
+          "id": "q-entrance-earth-15-012-c3",
+          "text": "必ず同じ"
+        },
+        {
+          "id": "q-entrance-earth-15-012-c4",
+          "text": "必ず見えない"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-15-012-c2",
+      "explanation": "細い形に見えるときは地球に近い側にあり、見かけの大きさが大きい。",
+      "source": {
+        "page": 127,
+        "question": 12
+      }
+    },
+    {
+      "id": "q-entrance-earth-16-001",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-16",
+      "order": 1,
+      "text": "銀河系内の、多数の恒星が集まった集団は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-16-001-c1",
+          "text": "星雲"
+        },
+        {
+          "id": "q-entrance-earth-16-001-c2",
+          "text": "惑星"
+        },
+        {
+          "id": "q-entrance-earth-16-001-c3",
+          "text": "星団"
+        },
+        {
+          "id": "q-entrance-earth-16-001-c4",
+          "text": "衛星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-16-001-c3",
+      "explanation": "恒星がまとまって集まった集団を星団という。",
+      "source": {
+        "page": 128,
+        "question": 1
+      }
+    },
+    {
+      "id": "q-entrance-earth-16-002",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-16",
+      "order": 2,
+      "text": "宇宙でガスやちりが集まっているところは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-16-002-c1",
+          "text": "星団"
+        },
+        {
+          "id": "q-entrance-earth-16-002-c2",
+          "text": "惑星"
+        },
+        {
+          "id": "q-entrance-earth-16-002-c3",
+          "text": "衛星"
+        },
+        {
+          "id": "q-entrance-earth-16-002-c4",
+          "text": "星雲"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-16-002-c4",
+      "explanation": "星雲はガスやちりの集まりである。",
+      "source": {
+        "page": 128,
+        "question": 2
+      }
+    },
+    {
+      "id": "q-entrance-earth-16-003",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-16",
+      "order": 3,
+      "text": "恒星・星団・星雲などからなる、巨大な天体の集団は？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-16-003-c1",
+          "text": "銀河"
+        },
+        {
+          "id": "q-entrance-earth-16-003-c2",
+          "text": "太陽系"
+        },
+        {
+          "id": "q-entrance-earth-16-003-c3",
+          "text": "衛星"
+        },
+        {
+          "id": "q-entrance-earth-16-003-c4",
+          "text": "小惑星"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-16-003-c1",
+      "explanation": "銀河は多数の恒星や星間物質などを含む巨大な集団。",
+      "source": {
+        "page": 128,
+        "question": 3
+      }
+    },
+    {
+      "id": "q-entrance-earth-16-004",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-16",
+      "order": 4,
+      "text": "この教材では、銀河系に含まれる恒星数をおよそいくつとしている？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-16-004-c1",
+          "text": "2000個"
+        },
+        {
+          "id": "q-entrance-earth-16-004-c2",
+          "text": "2000億個"
+        },
+        {
+          "id": "q-entrance-earth-16-004-c3",
+          "text": "200万個"
+        },
+        {
+          "id": "q-entrance-earth-16-004-c4",
+          "text": "20億個"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-16-004-c2",
+      "explanation": "教材ではおよそ2000億個とする。恒星数は観測と推定に基づく概数である。",
+      "source": {
+        "page": 128,
+        "question": 4
+      }
+    },
+    {
+      "id": "q-entrance-earth-16-005",
+      "chapterId": "chapter-entrance-science-earth",
+      "unitId": "unit-entrance-earth-16",
+      "order": 5,
+      "text": "1光年のおよその長さは？",
+      "choices": [
+        {
+          "id": "q-entrance-earth-16-005-c1",
+          "text": "9億5000万 km"
+        },
+        {
+          "id": "q-entrance-earth-16-005-c2",
+          "text": "9500 km"
+        },
+        {
+          "id": "q-entrance-earth-16-005-c3",
+          "text": "9兆5000億 km"
+        },
+        {
+          "id": "q-entrance-earth-16-005-c4",
+          "text": "9万5000 km"
+        }
+      ],
+      "correctChoiceId": "q-entrance-earth-16-005-c3",
+      "explanation": "光年は時間ではなく距離の単位で、光が1年間に進む距離を表す。",
+      "source": {
+        "page": 128,
+        "question": 5
+      }
+    }
+  ]
+}
